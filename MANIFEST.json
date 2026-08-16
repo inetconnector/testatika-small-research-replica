@@ -886,13 +886,13 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
-      "size": 23537799,
-      "sha256": "899ef46567d9ec84c49f0c76b0880fd6ac54af78918ca27fcc6cbefbb53248cd"
+      "size": 23554349,
+      "sha256": "ce3753f6f4e4942512a6de45bcabb39f54a1fcec4f24d28bd0c57af006e2c837"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
       "size": 110,
-      "sha256": "a7b9a23926f16e9629e77c2f2b99feb4d891e3596d4d2ef11b43eabcad77ddd0"
+      "sha256": "7717125b53115a6bf2b520f813a080de541a74b39d02913b361fd7af54e8d859"
     },
     {
       "path": "requirements-cad.txt",
