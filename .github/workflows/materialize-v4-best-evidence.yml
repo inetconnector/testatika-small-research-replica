@@ -9,6 +9,7 @@ on:
       - 'cad/generate_v4_best_evidence_m2.py'
       - 'scripts/build_v4_package.py'
       - 'scripts/check_v4_assets.py'
+      - 'scripts/normalize_v4_step.py'
       - 'scripts/apply_v4_state.py'
       - 'scripts/rebuild_research_assets.py'
       - 'docs/REPLICATION_STATUS.md'
@@ -57,6 +58,9 @@ jobs:
 
       - name: Generate V4 STEP/STL assemblies
         run: python cad/generate_v4_best_evidence_m2.py
+
+      - name: Normalize volatile STEP metadata
+        run: python scripts/normalize_v4_step.py
 
       - name: Verify V4 materialized geometry and metadata
         run: python scripts/check_v4_assets.py
