@@ -1,6 +1,35 @@
 # Changelog
 
-## Unreleased — archive + primary scans + full video audit
+## Unreleased — V4 best-evidence build + archive/primary-source expansion
+
+### Added — V4 best-evidence M2 physical-build family
+
+- `cad/generate_v4_best_evidence_m2.py`: self-contained current-build generator integrating the strongest direct M2 electrical constraints with the best photo/video external geometry.
+- complete nominal `Testatika_M2_V4_BEST_EVIDENCE.step/.stl` assembly generation.
+- complete `Testatika_M2_V4_R4_RESEARCH.step/.stl` routing-control assembly generation.
+- 20/24/25 floating-sector R0 rotors, with 24 sectors nominal.
+- explicit 24-sector floating R4 research rotor; R4 remains a routing hypothesis rather than claimed M2 original.
+- V4 two-terminal pot lid implementing the directly observed two-wire external condenser interface.
+- V4 hub-arc, layered outer-panel and lower central cage geometry integrated into the complete assembly.
+- V4 Crystal Blackbox carrier: two nominal visible positions plus isolated research positions without asserting a historical four-terminal M2 circuit.
+- geometry-matched horseshoe magnet/dummy controls.
+- `docs/research/v4-best-evidence-m2.md` canonical current build definition.
+- `docs/research/v4-bom.md`, `v4-assembly.md`, `v4-electrical-boundary.md`, `v4-printing.md`.
+- `docs/research/v4-configurations.yaml`: machine-readable baseline and one-variable-at-a-time configuration registry.
+- `scripts/check_v4_assets.py`: materialized geometry/metadata verifier including 200-mm rotor tolerance and two-terminal pot-lid checks.
+- `scripts/build_v4_package.py`: deterministic V4 research/build ZIP + SHA-256.
+- `.github/workflows/materialize-v4-best-evidence.yml`: CI generation, verification, packaging, manifest refresh and binary materialization.
+- `scripts/rebuild_research_assets.py` now rebuilds V4 as part of the source-reproducible CAD set.
+
+### V4 source-control decisions
+
+- direct Marinov `connected to nothing` outranks the late secondary 1-kΩ neighbour-ring claim: **floating individual sectors are the V4 M2 baseline**.
+- direct two-wire condenser observation becomes the historical-facing pot interface.
+- R0 is chosen only as the least-speculative nominal physical route; exact historical through-disc routing remains unknown.
+- no built-in conventional motor, Tesla/HF pot stage, M6a three-grid/magnet/bifilar cylinder or radioactive-material path is introduced into M2 V4.
+- Hub arcs/panel layering/central cage are promoted as geometry candidates from moving-image evidence, while their hidden electrical roles remain unresolved.
+- Crystal remains a reversible Blackbox; no diode/crystal surrogate is labelled original.
+- V2/V3 and earlier documentation remain preserved as historical/research states rather than being deleted.
 
 ### Added — historical archive / Kelly expansion
 

@@ -1,5 +1,7 @@
 # Stückliste — nominale V2-Forschungsreplik
 
+> **Historische V2-Stückliste.** Für einen neuen best-evidence M2-Nachbau gilt jetzt [`v4-bom.md`](v4-bom.md). Diese V2-Liste bleibt erhalten, um ältere Release-/Versuchsstände reproduzierbar zu halten.
+
 ## Druckteile
 | Datei | Menge |
 |---|---:|
@@ -43,3 +45,12 @@
 - endgültige Originalverdrahtung
 - genaue Pot-Kapazität
 - exakte historische Elektrodenzahl/Polung der kleinen Maschine
+
+## V4-Quellenkorrekturen
+
+Für aktuelle Neubauten insbesondere beachten:
+
+- Rotordrähte einzeln floating, keine Nachbar-Ringverbindung als Baseline;
+- zwei externe Anschlüsse je Seiten-Pot;
+- kein eingebauter konventioneller Motor als historische M2-Baseline;
+- Hub-Bögen, mehrlagige Außenpanels und perforierter unterer Zentral-Käfig aus der vollständigen Videoauswertung berücksichtigen.

@@ -1,0 +1,4 @@
+V4 materialization trigger
+purpose: isolated deterministic rebuild verification
+generation: 3
+final_source: reproducibility-doc-in-package

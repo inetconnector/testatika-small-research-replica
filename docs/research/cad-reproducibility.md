@@ -47,24 +47,61 @@ Generates three additive geometry refinements from the fully audited historical 
 - `lower_central_cage_video_refined`;
 - `outer_panel_layered_video_refined`.
 
-These are **source-reproducible research geometries**, but not historically measured original parts. Their current dimensions are photo/video-fit working values. Electrical connections/materials remain deliberately unspecified.
+These are **source-reproducible research geometries**, but not historically measured original parts. Their dimensions are photo/video-fit working values. Electrical connections/materials remain deliberately unspecified.
 
-The generator was locally smoke-tested with CadQuery and successfully exported both STEP and STL for all three parts before being committed.
+### `cad/generate_v4_best_evidence_m2.py`
 
-## Generated-but-not-yet-committed binary refinement outputs
+V4 is the first self-contained generator intended to be a **current build starting point** rather than only an evidence fragment.
 
-The video-refinement source owns the paths under:
+It generates:
+
+- 20/24/25-sector floating R0 rotors;
+- a 24-sector floating R4 research rotor;
+- hub disk and video-refined hub arcs;
+- M2 pot shell/grid/dielectric-jig/spiral-mandrel/**two-terminal lid**;
+- video-refined layered outer panel;
+- video-refined lower central cage;
+- top Crystal Blackbox carrier;
+- real-magnet envelope and matched dummy;
+- guard post;
+- complete nominal `Testatika_M2_V4_BEST_EVIDENCE.step/.stl`;
+- complete `Testatika_M2_V4_R4_RESEARCH.step/.stl`;
+- `MODEL_INFO_V4.json`.
+
+The generator was locally executed with CadQuery 2.8.0 before commit. All declared individual parts plus both complete STEP/STL assemblies exported successfully.
+
+V4 output path:
+
+`hardware/experimental/v4-best-evidence-m2/`
+
+The V4 materialization workflow regenerates these binaries in CI and packages them with the canonical V4 documentation.
+
+## Generated binary policy
+
+### V3 video refinements
+
+Source owns:
 
 - `hardware/experimental/v3-video-refinements/stl/`
 - `hardware/experimental/v3-video-refinements/step/`
 
-The source generator is canonical. If those generated binaries are absent from a checkout, run:
+If absent, run `python scripts/rebuild_research_assets.py`.
 
-```bash
-python scripts/rebuild_research_assets.py
-```
+### V4
 
-Absence of generated refinement binaries is **not** evidence loss as long as the generator, source locators and parameter values remain versioned.
+Source owns:
+
+- `hardware/experimental/v4-best-evidence-m2/stl/`
+- `hardware/experimental/v4-best-evidence-m2/step/`
+- `hardware/experimental/v4-best-evidence-m2/complete-model/`
+- `hardware/experimental/v4-best-evidence-m2/metadata/`.
+
+CI materializes these outputs and the deterministic package:
+
+- `release/experimental/testatika-m2-v4-best-evidence-build-package.zip`
+- `release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256`.
+
+A generated binary is convenience/reproducibility material. The versioned generator and evidence documentation remain the semantic source of truth.
 
 ## Preserved binary assets not yet covered by the V2 core generator
 
@@ -92,13 +129,14 @@ These files remain valid **preserved research assets**. Their presence must not 
 
 ## Completion target
 
-The CAD source layer is complete when:
+For the **current V4 build family**, the source layer is complete when:
 
-1. every baseline STEP/STL pair has a named generator function or a documented external source procedure;
-2. the complete V2/V3 assemblies are generated from those same source parts;
-3. video-derived refinements that become part of the assembled V3 are integrated into the complete-model generator with explicit evidence status;
-4. regenerated dimensions are checked against `docs/research/stl_dimensions.json` and model metadata;
-5. generation does not erase experimental or superseded variants;
-6. binary diffs are reviewed before replacing an established release asset.
+1. every V4 file listed in `v4-best-evidence-m2.md` regenerates from one generator;
+2. complete nominal and R4 assemblies regenerate in STEP and STL;
+3. metadata names all historically unresolved electrical fields;
+4. the deterministic V4 ZIP and SHA-256 are reproducible from one checkout;
+5. repository validation and manifest checks pass after materialization.
 
-Until then, the repository prioritizes preservation over destructive binary replacement.
+For the older V2 preserved library, source-level coverage remains incomplete by design and must not be overstated.
+
+Across all families, generation must never erase experimental or superseded evidence/variants.

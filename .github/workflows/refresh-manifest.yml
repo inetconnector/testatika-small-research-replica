@@ -8,6 +8,7 @@ on:
     paths-ignore:
       - 'MANIFEST.json'
       - 'MANIFEST_SHA256.txt'
+      - '.github/V4_MATERIALIZE_TRIGGER'
   workflow_dispatch:
 
 permissions:

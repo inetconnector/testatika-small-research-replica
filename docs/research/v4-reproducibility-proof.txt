@@ -1,0 +1,16 @@
+Final V4 byte-stability proof
+
+Generation-2 package SHA-256:
+bf3b171d9afe01978a85ec4b75b695211e88248bbf864e102e591859c7e35d27
+
+Generation-3 package SHA-256:
+bf3b171d9afe01978a85ec4b75b695211e88248bbf864e102e591859c7e35d27
+
+Generation-3 materializer commit:
+a32f1ad0e66e3caf4c8d739e2d2bfe4a47709ce0
+
+Changed files in that materializer commit:
+- MANIFEST.json
+- MANIFEST_SHA256.txt
+
+No STEP, STL, ZIP, metadata, STATE.md or addon.md changed during the generation-3 rebuild. The manifest change only records the generation-2 -> generation-3 trigger-content hash change.

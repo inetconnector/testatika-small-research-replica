@@ -1,0 +1,148 @@
+schema_version: 1
+machine: M2
+family: V4-best-evidence
+rule: "Change one experimental variable at a time from M2-V4-B0 unless a protocol explicitly defines a factorial experiment."
+
+configurations:
+  - id: M2-V4-B0
+    role: canonical_null_baseline
+    historical_claim: false
+    rotor:
+      count: 24
+      material: Cu
+      diameter_mm: 200
+      electrical_topology: individually_floating
+      route: R0
+    pots:
+      count: 2
+      external_terminals_each: 2
+      grid_spiral_link: open
+    hub_arcs: floating
+    crystal: open
+    magnets: real_present
+    shield: absent
+    lab_drive: disconnected
+    load: disconnected
+    notes: "Best-evidence mechanical/electrical null state. It intentionally contains no guessed hidden circuit."
+
+  - id: M2-V4-R4
+    role: routing_test
+    based_on: M2-V4-B0
+    change_only:
+      rotor.route: R4
+    historical_claim: false
+    notes: "Three-side-change research routing; sectors remain individually floating."
+
+  - id: M2-V4-MAG0
+    role: magnet_control
+    based_on: M2-V4-B0
+    change_only:
+      magnets: nonmagnetic_dimension_matched_dummy
+    historical_claim: false
+
+  - id: M2-V4-ARC0
+    role: hub_arc_absence_control
+    based_on: M2-V4-B0
+    change_only:
+      hub_arcs: absent
+    historical_claim: false
+
+  - id: M2-V4-ARCDUMMY
+    role: hub_arc_material_control
+    based_on: M2-V4-B0
+    change_only:
+      hub_arcs: nonconductive_dimension_matched_dummy
+    historical_claim: false
+
+  - id: M2-V4-XDIODE
+    role: crystal_gate_test
+    based_on: M2-V4-B0
+    change_only:
+      crystal: passive_diode
+    historical_claim: false
+
+  - id: M2-V4-XR
+    role: crystal_resistor_test
+    based_on: M2-V4-B0
+    change_only:
+      crystal: documented_high_value_resistor
+    historical_claim: false
+
+  - id: M2-V4-POTR
+    role: pot_relaxation_test
+    based_on: M2-V4-B0
+    change_only:
+      pots.grid_spiral_link: documented_high_value_resistor
+    historical_claim: false
+
+  - id: M2-V4-POTDIODE
+    role: pot_rectification_test
+    based_on: M2-V4-B0
+    change_only:
+      pots.grid_spiral_link: passive_diode
+    historical_claim: false
+
+  - id: M2-V4-MESH
+    role: active_electrode_reference
+    based_on: M2-V4-B0
+    change_only:
+      electrode_insert: documented_metal_mesh
+    historical_claim: false
+
+  - id: M2-V4-FOIL
+    role: grid_vs_foil_control
+    based_on: M2-V4-MESH
+    change_only:
+      electrode_insert: geometry_matched_solid_foil
+    historical_claim: false
+
+  - id: M2-V4-PMMA-COND
+    role: dielectric_conditioning_test
+    based_on: M2-V4-B0
+    change_only:
+      dielectric_state: documented_electrostatic_preconditioning
+    historical_claim: false
+    required_metadata:
+      - conditioning_voltage
+      - conditioning_current
+      - conditioning_time
+      - supplied_energy
+      - delay_before_test
+      - RH
+      - temperature
+      - pre_surface_potential_map
+      - post_surface_potential_map
+
+  - id: M2-V4-E1-1K
+    role: secondary_conflict_control
+    based_on: M2-V4-B0
+    change_only:
+      rotor.electrical_topology: neighbour_resistor_ring_1k
+    historical_claim: false
+    evidence_warning: "Late secondary Frolov-line claim; conflicts with stronger direct Marinov small-machine statement. Never label as authentic M2 baseline."
+
+required_dataset_fields:
+  - configuration_id
+  - repository_commit
+  - date_time
+  - operator
+  - rotor_count
+  - rotor_route
+  - rotor_material
+  - rotor_sector_isolation_check
+  - pot_left_capacitance
+  - pot_right_capacitance
+  - crystal_insert
+  - magnet_state
+  - hub_arc_state
+  - shield_state
+  - lab_drive_state
+  - rpm
+  - torque_or_drive_power
+  - RH
+  - temperature
+  - bias_energy
+  - initial_stored_energy
+  - load
+  - output_energy
+  - final_stored_energy
