@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 181,
+  "file_count": 182,
   "files": [
     {
       "path": ".gitattributes",
@@ -238,6 +238,11 @@
       "path": "docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt",
       "size": 2211,
       "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+    },
+    {
+      "path": "docs/repository-history/workflows/materialize-netjournal-proposal.pre-hardening.yml.txt",
+      "size": 3912,
+      "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
     },
     {
       "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
