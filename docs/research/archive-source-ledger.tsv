@@ -1,14 +1,15 @@
 source_id	archive_path	sha256	type	evidence_class	machine_scope	use
-ARC001	HTML_UND_BILDER/report99.htm	17830349b29051b8aac393e0ef19dae885c0a8d28fa55b7454fae282d4bf5d22	HTML witness report	P1/H1	M0,M4,M6,MX	Holzherr 1999 observations and Hartmann transmission/questions
+ARC001	HTML_UND_BILDER/report99.htm	17830349b29051b8aac393e0ef19dae885c0a8d28fa55b7454fae282d4bf5d22	HTML witness report	P1/H1	M0,M4,M6b,MX	Holzherr 1999 observations and Hartmann transmission/questions
 ARC002	HTML_UND_BILDER/index.html	7a65a79254ba37fc166eaa35762e7898279cb4352e40f9947677d9d3365e6163	HTML reconstruction dossier	S2/I1	MX	Potter hypothesis catalogue and conventional comparison leads
 ARC003	HTML_UND_BILDER/principles.htm	a3108d01e87d175bd51c42e03c8a61494665407ef078b766c735274f1bef7cfc	HTML reconstruction note	S2/I1	M0,MX	Principle/variable-capacitance interpretation lead
 ARC004	HTML_UND_BILDER/rectifier.htm	3bffee7bf28197700999b2bf4fb83d45c2f48646f70a3fe1aa49f3d91eae0d37	HTML reconstruction note	S2/I1	MX	Rectification/phase-conditioning hypothesis only
 ARC005	swiss Testakica free energy device.mht	a0b7c031f825aaddbee8943856f1dcf80a1026e8c0c8853e760c77345f36fbc4	MHT mirror	S2/H2	MX	Secondary historical lead; trace upstream before promotion
 ARC006	Testatika - Replication Claim of the Swiss ML.doc	72d3ca4720de5ac604c3e535aa814c19b4584b87318eaa1270e3f9ad457410b3	DOC replication claim	S2/I1	MX	Material/pre-conditioning/plasma hypotheses only; authorship unresolved
 ARC007	Bernhard_Gross_electret_research[2].doc	4f202c239feeeeec968ea03138c4314e2bcb60e6ed85d03896644f3891955dd2	DOC electret research	S2/R1	comparison	Electret/dielectric comparison lead, not Testatika provenance
-ARC008	testabig.jpg	pending	image	P1/visual candidate	M2/M3 pending assignment	High-resolution photogrammetry candidate; exact provenance must be locked before promotion
-ARC009	hauser/*.jpg	pending	image set	P1/H1 visual candidate	multiple	Historical visual source family; per-image machine mapping required
-ARC010	video/meth1.asf..meth5.asf	pending	legacy video	A1/P1 candidate	multiple	Frame extraction/transcript source line; preserve file-level hashes before analysis
-ARC011	video/testa01.ram; video/testa02.ram	pending	legacy media	A1/P1 candidate	multiple	Historical media line corresponding to known Testatika archive references
+ARC008	testabig.jpg	1151cbcff9e1621c38340cab2c19c2ea60bbf646474358d0731cc292100eb1e7	image	P1/O1 visual candidate	M2/M3 candidate	1884x1601 V3 photogrammetry source; component-level visible match to meth4.asf; exact machine-name chain still documented conservatively
+ARC009	hauser/*.jpg	see hauser-source-ledger.tsv	image scan set	P1/H1/I1 mixed	M2/M3,M4a,M6a,comparison	Per-scan hashes, dates and roles resolved in hauser-source-ledger.tsv; includes direct Marinov correspondence and Hauser visit reports/drawings
+ARC010	video/meth1.asf..meth5.asf	see video-source-ledger.tsv	legacy video set	A1/O1 visual mixed	M2/M3,M6,comparison	All five files fully decoded; per-file hashes/frames/metadata/machine scope in video-source-ledger.tsv
+ARC011	video/testa01.ram; video/testa02.ram	see video-source-ledger.tsv	legacy RealMedia	A1/O1 media	M7,MX,multiple	2001 Dienst/Cathomen Methernitha-lab visit metadata resolved; full streams decoded with RV30 caveat; multi-machine footage
+ARC012	video/testatikadeutsch.wmv	19df1f29ffce63646ada6c2256b65bcd216e45d47fbe6ddeab4459b90e68575b	legacy video/audio variant	A1/O1 visual duplicate	M6	visual sequence matches meth2.asf; retain as separate archive object but do not count as independent geometry evidence
 WEB001	Patrick J. Kelly, A Practical Guide to 'Free-Energy' Devices, v31.8 (2017)	web-source	book/compendium	S2/I1	comparison	Source-discovery and hypothesis catalogue only; Kelly says most devices were not personally built/tested
 WEB002	Vladimir Utkin material included/linked through Kelly updates around 2012	web-source	secondary technical essay	S2/I1	comparison	Feedback/resonance experiment lead only; no Testatika-primary status
