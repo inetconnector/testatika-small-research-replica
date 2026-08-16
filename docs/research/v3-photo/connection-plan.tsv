@@ -1,0 +1,20 @@
+link_id	from	to	link_type	confidence	status	notes
+L01	left slanted pickup bar	rotor sectors	capacitive / field coupling	medium-high	provisional	non-rubbing active coupling candidate
+L02	right slanted pickup bar	rotor sectors	capacitive / field coupling	medium-high	provisional	non-rubbing active coupling candidate
+L03	left upper spring tower	left slanted pickup bar	direct or adjustable electrical support	medium	provisional	spring may carry electrode or provide compliance
+L04	right upper spring tower	right slanted pickup bar	direct or adjustable electrical support	medium	provisional	spring may carry electrode or provide compliance
+L05	left outer collector panel	left slanted pickup bar	same node family or coupled node	medium	provisional	outer panel may enlarge collection field
+L06	right outer collector panel	right slanted pickup bar	same node family or coupled node	medium	provisional	outer panel may enlarge collection field
+L07	left outer collector panel	left pot capacitor	reservoir coupling	medium	provisional	likely one storage family
+L08	right outer collector panel	right pot capacitor	reservoir coupling	medium	provisional	likely one storage family
+L09	left pot outer cylinder	left pot inner spiral	capacitor dielectric separation	high	observed/derived	Marinov-consistent capacitor geometry
+L10	right pot outer cylinder	right pot inner spiral	capacitor dielectric separation	high	observed/derived	Marinov-consistent capacitor geometry
+L11	top crystal module	left stationary family	unknown asymmetric coupling	low-medium	provisional	could be leakage, threshold, or rectification
+L12	top crystal module	right stationary family	unknown asymmetric coupling	low-medium	provisional	could be leakage, threshold, or rectification
+L13	lower front collector panel	rotor sectors	capacitive / collection coupling	medium-low	provisional	front-center panel likely active
+L14	lower front collector panel	left lower spring path	possible adjustable link	low-medium	provisional	visible geometry suggests relation
+L15	lower front collector panel	right lower spring path	possible adjustable link	low-medium	provisional	visible geometry suggests relation
+L16	left lower spring path	left stationary family	possible bleed / balancing path	low	provisional	uncertain
+L17	right lower spring path	right stationary family	possible bleed / balancing path	low	provisional	uncertain
+L18	horseshoe magnets	upper assemblies	mechanical / auxiliary / unresolved	low	unknown	presence clear, function unclear
+L19	rotor through-disc wire route	all stationary families	core hidden determinant	high for importance / low for detail	unknown	Marinov says this is crucial

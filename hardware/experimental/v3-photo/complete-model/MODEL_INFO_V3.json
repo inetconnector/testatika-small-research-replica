@@ -1,0 +1,14 @@
+{
+  "name": "Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP",
+  "status": "experimental",
+  "basis": [
+    "high-resolution frontal photo",
+    "Stefan Marinov Part V",
+    "existing V2 photogrammetry"
+  ],
+  "notes": [
+    "external arrangement emphasized",
+    "internal circuit remains provisional",
+    "black-grid material unresolved"
+  ]
+}

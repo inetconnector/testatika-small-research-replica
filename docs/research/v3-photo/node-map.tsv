@@ -1,0 +1,18 @@
+part_id	photo_label	visible_part	working_node_family	role	confidence	comment
+A	A	top crystal module	N-L / N-R bridge	asymmetry / balancing / threshold	low-medium	Baumann called it "crystal"; exact function unknown
+B	B	right outer collector panel	N-R	collector / field shaper	medium	black inset likely active area
+C	C	left outer collector panel	N-L	collector / field shaper	medium	black inset likely active area
+D	D	left upper spring tower	N-L	adjustable electrode support	medium	spring may be mechanical + electrical
+E	E	right upper spring tower	N-R	adjustable electrode support	medium	spring may be mechanical + electrical
+F	F	right slanted pickup bar	N-R	non-rubbing coupling electrode	medium-high	near active rotor region
+G	G	left slanted pickup bar	N-L	non-rubbing coupling electrode	medium-high	near active rotor region
+H	H	rotor / hub	moving sectors	moving electrostatic transport	high	Marinov emphasizes through-disc route importance
+I	I	left clover plate	unknown / N-L adjunct	possible field shaper	low	role unresolved
+J	J	right clover plate	unknown / N-R adjunct	possible field shaper	low	role unresolved
+K	K	left pot capacitor	N-L reservoir	charge storage / smoothing	medium-high	outer cylinder + dielectric + inner spiral
+L	L	right pot capacitor	N-R reservoir	charge storage / smoothing	medium-high	outer cylinder + dielectric + inner spiral
+M	M	lower front collector panel	N-C	balancing / output-associated	medium-low	likely more than decorative
+N	N	left lower spring path	N-C or N-L adjunct	adjustable link / bleed / tension	low-medium	function unresolved
+O	O	right lower spring path	N-C or N-R adjunct	adjustable link / bleed / tension	low-medium	function unresolved
+P	-	left horseshoe magnet	auxiliary	unresolved	medium for presence	visible on first small machine
+Q	-	right horseshoe magnet	auxiliary	unresolved	medium for presence	visible on first small machine
