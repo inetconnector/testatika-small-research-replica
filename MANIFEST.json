@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 176,
+  "file_count": 177,
   "files": [
     {
       "path": ".gitattributes",
@@ -343,6 +343,11 @@
       "path": "docs/research/r4-grid-vs-foil.md",
       "size": 4183,
       "sha256": "deaedb6e84e44cbb37b7cb5d172096df70ab52d9fa03a6e49fe1db15a965e7e8"
+    },
+    {
+      "path": "docs/research/replica-configuration-matrix.md",
+      "size": 5733,
+      "sha256": "7eba01bd9e152c436314a66a74177920c6c7b5caefec80b064c4f4e6719f65c0"
     },
     {
       "path": "docs/research/rotor-wire-routing.md",
