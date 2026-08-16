@@ -8,6 +8,7 @@ import struct
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "hardware" / "experimental" / "v4-best-evidence-m2"
+FIXED_STEP_TIMESTAMP = "2000-01-01T00:00:00"
 
 PARTS = [
     "rotor_20wire_floating_R0_v4",
@@ -41,6 +42,12 @@ def require_file(path: Path, min_size=100):
         raise SystemExit(f"unexpectedly small V4 asset: {path.relative_to(ROOT)}")
 
 
+def verify_step_header(path: Path):
+    text = path.read_text(encoding="utf-8")
+    if FIXED_STEP_TIMESTAMP not in text[:1000]:
+        raise SystemExit(f"volatile/un-normalized STEP header: {path.relative_to(ROOT)}")
+
+
 def binary_stl_bbox(path: Path):
     data = path.read_bytes()
     if len(data) < 84:
@@ -53,7 +60,6 @@ def binary_stl_bbox(path: Path):
     maxs = [float("-inf")] * 3
     offset = 84
     for _ in range(count):
-        # normal at +0; vertices begin at +12
         for vertex in range(3):
             x, y, z = struct.unpack_from("<fff", data, offset + 12 + vertex * 12)
             for i, value in enumerate((x, y, z)):
@@ -66,11 +72,15 @@ def binary_stl_bbox(path: Path):
 def main():
     for part in PARTS:
         require_file(BASE / "stl" / f"{part}.stl")
-        require_file(BASE / "step" / f"{part}.step")
+        step = BASE / "step" / f"{part}.step"
+        require_file(step)
+        verify_step_header(step)
 
     for name in COMPLETE:
         require_file(BASE / "complete-model" / f"{name}.stl", 1000)
-        require_file(BASE / "complete-model" / f"{name}.step", 1000)
+        step = BASE / "complete-model" / f"{name}.step"
+        require_file(step, 1000)
+        verify_step_header(step)
 
     meta_path = BASE / "metadata" / "MODEL_INFO_V4.json"
     require_file(meta_path)
@@ -93,6 +103,7 @@ def main():
         raise SystemExit(f"pot lid OD out of tolerance: {lid_dims}")
 
     print("V4 materialized asset verification passed.")
+    print("Deterministic STEP timestamp:", FIXED_STEP_TIMESTAMP)
     print("Rotor bbox:", rotor_dims)
     print("Pot lid bbox:", lid_dims)
 
