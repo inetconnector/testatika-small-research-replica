@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 194,
+  "file_count": 195,
   "files": [
     {
       "path": ".gitattributes",
@@ -173,6 +173,11 @@
       "path": "cad/generate_v3_photo_interp.py",
       "size": 8878,
       "sha256": "be1e965bbdedabe2b27c6d0f742ccb26396607d323b35dad2ee9e272dce44eb3"
+    },
+    {
+      "path": "cad/generate_v3_video_refinements.py",
+      "size": 3947,
+      "sha256": "8f8e52688fd74890fef8b70794ca5f8d36edef73944999ad8f78f0ad253b8a96"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
