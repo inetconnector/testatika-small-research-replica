@@ -1904,3 +1904,33 @@ Jeder neue Eintrag benötigt:
 - Konsequenz für CAD/Experiment/Wissensstand.
 
 **Kein Detail stillschweigend von einer Testatika-Variante auf eine andere übertragen.**
+
+---
+
+# POST-AUDIT HARDENING NOTE — 2026-08-16
+
+Dieser Block ist **additiv** und hat Vorrang vor veralteten Repository-Metadaten im Kopf dieser Datei.
+
+1. Die kanonische Datei heißt weiterhin `addon.md`. Zusätzlich existiert nun `ADDON.md` als case-sicherer Kompatibilitäts-Einstieg, damit ältere Session-Anweisungen auf Linux/macOS nicht ins Leere laufen.
+2. Der im historischen Header genannte Audit-Tree `aa20ef...` ist ein damaliger Audit-Anker, **nicht der aktuelle Repository-Head**. Aktuelle Sessions müssen den tatsächlichen `main`-Commit aus Git bestimmen und dürfen keinen fest verdrahteten alten SHA als Gegenwartsstand behandeln.
+3. Vor `STATE.md` sollte eine neue Session jetzt `docs/REPLICATION_STATUS.md`, `docs/research/machines.yaml` und `docs/research/provenance-schema.yaml` berücksichtigen.
+4. `testatika.zip` ist ein externer/nicht öffentlich redistribuierter Forschungskorpus und **nicht Bestandteil des öffentlichen Git-Repositories**. Siehe `docs/research/external-corpus.md`.
+5. Die historische Sicherungsreferenz `state_pre_corpus_rebuild.md` war beim Audit nicht als Datei im öffentlichen Tree vorhanden; kein Ersatzinhalt darf erfunden werden.
+6. V3 ist in `main` integriert. Der frühere Branch `research/small-machine-v3-pixel-analysis` ist nur noch Provenienz, keine Voraussetzung für Zugriff auf V3-Dateien.
+7. `V3_COMPLETE` ist ein Convenience-Dateiname; die V3-Modellmetadaten bleiben `experimental` / photo interpretation.
+8. Der 1:1-Zielbegriff ist evidenzgebunden: unbekannte Originaldetails bleiben UNKNOWN und werden durch reversible Varianten abgedeckt, bis Primärevidenz sie schließt.
+
+## Aktualisierte Startreihenfolge
+
+1. `AGENTS.md`
+2. `README.md`
+3. `docs/REPLICATION_STATUS.md`
+4. `addon.md`
+5. `STATE.md`
+6. `docs/sources.md`
+7. `docs/research/source-basis.md`
+8. `docs/research/evidence_matrix.tsv`
+9. `docs/research/machines.yaml`
+10. `docs/research/provenance-schema.yaml`
+11. `docs/research/experiment-plan.md`
+12. relevante Subsystem-Dokumente
