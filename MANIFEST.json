@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 179,
+  "file_count": 180,
   "files": [
     {
       "path": ".gitattributes",
@@ -233,6 +233,11 @@
       "path": "docs/repository-hardening-plan-2026-08-16.md",
       "size": 4631,
       "sha256": "328a99be98ac4848c4956577cfae8972e635adecd4dc6eb8745a2713f5fb492e"
+    },
+    {
+      "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
+      "size": 3013,
+      "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
     },
     {
       "path": "docs/research/assembly.md",
