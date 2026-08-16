@@ -1,0 +1,41 @@
+name: Preservation guard
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject accidental deletion of preservation-critical paths
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          deleted="$(git diff --name-only --diff-filter=D "origin/${{ github.base_ref }}...HEAD" || true)"
+          if [ -z "$deleted" ]; then
+            echo "No deleted files."
+            exit 0
+          fi
+
+          echo "Deleted files detected:"
+          printf '%s\n' "$deleted"
+
+          protected='^(STATE\.md|addon\.md|PRESERVATION\.md|docs/research/|cad/|hardware/stl/|hardware/step/)'
+          bad="$(printf '%s\n' "$deleted" | grep -E "$protected" || true)"
+          if [ -n "$bad" ]; then
+            echo ""
+            echo "ERROR: preservation-critical files were deleted:"
+            printf '%s\n' "$bad"
+            echo ""
+            echo "Preserve the old material in an archive/deprecated path and document the replacement instead of deleting it."
+            exit 1
+          fi
+
+          echo "No preservation-critical deletion detected."
