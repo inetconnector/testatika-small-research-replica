@@ -14,6 +14,7 @@ SHA_PATH = OUT_DIR / "testatika-m2-v4-best-evidence-build-package.zip.sha256"
 INCLUDE_FILES = [
     "cad/generate_v4_best_evidence_m2.py",
     "scripts/check_v4_assets.py",
+    "scripts/normalize_v4_step.py",
     "docs/REPLICATION_STATUS.md",
     "docs/research/v4-build-summary.md",
     "docs/research/v4-best-evidence-m2.md",
