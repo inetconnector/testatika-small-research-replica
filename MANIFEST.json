@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 191,
+  "file_count": 192,
   "files": [
     {
       "path": ".gitattributes",
@@ -458,6 +458,11 @@
       "path": "docs/research/video-frame-audit-2026-08-16.md",
       "size": 14083,
       "sha256": "db6102df7bd9e6463e3e998633b30217c94a2a9b182a3695f70502e5546f1ae5"
+    },
+    {
+      "path": "docs/research/video-source-ledger.tsv",
+      "size": 2790,
+      "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
     },
     {
       "path": "docs/scientific-status.md",
