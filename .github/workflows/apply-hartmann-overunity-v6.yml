@@ -24,6 +24,14 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+
       - name: Apply additive V6 research update
         run: python scripts/apply_hartmann_overunity_v6.py
 
@@ -37,6 +45,9 @@ jobs:
             echo "$deleted"
             exit 1
           fi
+
+      - name: Validate final repository state
+        run: python scripts/validate_assets.py
 
       - name: Commit additive document extensions
         shell: bash
