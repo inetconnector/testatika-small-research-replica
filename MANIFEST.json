@@ -36,8 +36,8 @@
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
-      "size": 5537,
-      "sha256": "fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e"
+      "size": 2429,
+      "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
     },
     {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
