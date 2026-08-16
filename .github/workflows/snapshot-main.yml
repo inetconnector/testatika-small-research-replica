@@ -1,0 +1,30 @@
+name: Snapshot main
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create immutable-style snapshot tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          stamp="$(date -u +'%Y%m%d-%H%M%S')"
+          short="${GITHUB_SHA:0:8}"
+          tag="snapshot-main-${stamp}-${short}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$tag" "$GITHUB_SHA" -m "Automatic main snapshot at $GITHUB_SHA"
+          git push origin "$tag"
+          echo "Created $tag"
