@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: research-writers-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -23,6 +27,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Synchronize to latest branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "${GITHUB_REF_NAME}"
+          git checkout "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
       - name: Regenerate manifest and SHA-256 ledger
         run: python scripts/generate_manifest.py
       - name: Verify generated manifest
@@ -38,6 +49,5 @@ jobs:
             echo 'Manifest already current.'
           else
             git commit -m 'chore: refresh repository manifest [skip ci]'
-            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
