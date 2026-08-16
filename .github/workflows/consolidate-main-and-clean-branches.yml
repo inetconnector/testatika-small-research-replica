@@ -1,0 +1,143 @@
+name: Consolidate main and clean old branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/consolidate-main-and-clean-branches.yml'
+      - 'docs/repository-consolidation-2026-08-16.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out consolidated main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch all remote branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*' --prune
+
+      - name: Materialize canonical V3 complete-model aliases
+        shell: bash
+        run: |
+          set -euo pipefail
+          src='hardware/experimental/v3-photo/complete-model'
+          dst='hardware/complete-model'
+          test -s "$src/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.step"
+          test -s "$src/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.stl"
+          test -s "$src/MODEL_INFO_V3.json"
+          mkdir -p "$dst"
+          cp -f "$src/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.step" \
+                "$dst/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step"
+          cp -f "$src/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.stl" \
+                "$dst/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl"
+          cp -f "$src/MODEL_INFO_V3.json" "$dst/MODEL_INFO_V3.json"
+
+      - name: Validate repository before cleanup
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/validate_assets.py
+          test -s hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step
+          test -s hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl
+          test -s hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step
+          test -s hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl
+
+      - name: Commit canonical V3 aliases to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step \
+            hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl \
+            hardware/complete-model/MODEL_INFO_V3.json
+          if git diff --cached --quiet; then
+            echo 'Canonical V3 aliases already present.'
+          else
+            git commit -m 'cad: add canonical V3 complete-model aliases [skip ci]'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+      - name: Refresh final main and all old branch refs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*' --prune
+
+      - name: Verify no branch-only file would be lost
+        shell: bash
+        run: |
+          set -euo pipefail
+          branches=(
+            'archive/main-2026-08-16-r4-merge'
+            'docs/net-journal-proposal'
+            'publication/net-journal-proposal'
+            'research/baumann-language-decoding'
+            'research/small-machine-v3-pixel-analysis'
+            'ops/main-consolidation-cleanup'
+          )
+          failures=0
+          for b in "${branches[@]}"; do
+            if ! git show-ref --verify --quiet "refs/remotes/origin/$b"; then
+              echo "Already absent: $b"
+              continue
+            fi
+            echo "Checking preservation for $b ..."
+            missing="$(git diff --name-status "origin/$b"..origin/main | awk '$1=="D" {print $2}')"
+            if [ -n "$missing" ]; then
+              echo "ERROR: files from $b are absent from main:"
+              echo "$missing"
+              failures=1
+            else
+              echo "OK: no file from $b is absent from main."
+            fi
+          done
+          if [ "$failures" -ne 0 ]; then
+            echo 'Preservation check failed. No branches will be deleted.'
+            exit 1
+          fi
+
+      - name: Delete obsolete remote branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          branches=(
+            'archive/main-2026-08-16-r4-merge'
+            'docs/net-journal-proposal'
+            'publication/net-journal-proposal'
+            'research/baumann-language-decoding'
+            'research/small-machine-v3-pixel-analysis'
+            'ops/main-consolidation-cleanup'
+          )
+          for b in "${branches[@]}"; do
+            if git ls-remote --exit-code --heads origin "$b" >/dev/null 2>&1; then
+              echo "Deleting obsolete branch: $b"
+              git push origin --delete "$b"
+            else
+              echo "Already absent: $b"
+            fi
+          done
+
+      - name: Final branch check
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'Remaining remote branches:'
+          git ls-remote --heads origin
