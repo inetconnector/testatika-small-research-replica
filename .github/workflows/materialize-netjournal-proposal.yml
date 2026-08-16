@@ -1,0 +1,102 @@
+name: Materialize NET-Journal proposal
+
+on:
+  push:
+    branches:
+      - docs/net-journal-proposal
+    paths:
+      - 'docs/publications/net-journal/ARTICLE.md'
+      - 'docs/publications/net-journal/README.md'
+      - 'scripts/build_netjournal_assets.py'
+      - '.github/workflows/materialize-netjournal-proposal.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-publication-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          python -m pip install --upgrade pip
+          python -m pip install python-docx pillow
+
+      - name: Download supplied historical Testatika image from documented public mirror
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT='docs/publications/net-journal/Testatika_historisches_Foto.jpg'
+          curl -fL --retry 3 --retry-delay 2 \
+            'https://rimstar.org/sdenergy/testa/misc/testabig.jpg' \
+            -o "$OUT" \
+          || curl -fL --retry 3 --retry-delay 2 \
+            'http://www.rimstar.org/sdenergy/testa/misc/testabig.jpg' \
+            -o "$OUT"
+          test -s "$OUT"
+          file "$OUT"
+
+      - name: Build repository-authored illustration and reference styles
+        run: python scripts/build_netjournal_assets.py --prepare
+
+      - name: Build DOCX contribution proposal
+        shell: bash
+        run: |
+          set -euo pipefail
+          PUB='docs/publications/net-journal'
+          pandoc "$PUB/ARTICLE.md" \
+            --from=gfm \
+            --resource-path="$PUB" \
+            --reference-doc="$PUB/netjournal-reference.docx" \
+            --metadata title='Testatika neu gelesen' \
+            --output="$PUB/Testatika_Beitragsvorschlag_NET-Journal_2026.docx"
+          python scripts/build_netjournal_assets.py \
+            --finalize "$PUB/Testatika_Beitragsvorschlag_NET-Journal_2026.docx"
+          rm -f "$PUB/netjournal-reference.docx"
+
+      - name: Verify generated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          PUB='docs/publications/net-journal'
+          test -s "$PUB/Testatika_Beitragsvorschlag_NET-Journal_2026.docx"
+          test -s "$PUB/Testatika_historisches_Foto.jpg"
+          test -s "$PUB/charge_state_model.png"
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          from docx import Document
+          pub=Path('docs/publications/net-journal')
+          img=Image.open(pub/'Testatika_historisches_Foto.jpg')
+          print('historical image:', img.size, img.format)
+          doc=Document(pub/'Testatika_Beitragsvorschlag_NET-Journal_2026.docx')
+          text='\n'.join(p.text for p in doc.paragraphs)
+          assert 'Beitragsvorschlag für das NET-Journal' in text
+          assert 'kein veröffentlichter Artikel' in text or 'kein bereits veröffentlichter NET-Journal-Artikel' in text
+          print('docx paragraphs:', len(doc.paragraphs))
+          PY
+
+      - name: Commit generated binary assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx \
+            docs/publications/net-journal/Testatika_historisches_Foto.jpg \
+            docs/publications/net-journal/charge_state_model.png
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+          else
+            git commit -m 'docs: add generated NET-Journal proposal assets [skip ci]'
+            git push origin HEAD:docs/net-journal-proposal
+          fi
