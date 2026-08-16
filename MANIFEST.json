@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 254,
+  "file_count": 255,
   "files": [
     {
       "path": ".gitattributes",
@@ -518,6 +518,11 @@
       "path": "docs/research/v4-experiment-sequence.md",
       "size": 5901,
       "sha256": "db1d3e84bb237e6cf5c9d43ac04d3887a2dafef96ccac2bf105981128bc1d775"
+    },
+    {
+      "path": "docs/research/v4-final-state.md",
+      "size": 609,
+      "sha256": "e38601e5f5e603697003c24d35a5893ba298df84468ed5d88d2a4a7301c2a45b"
     },
     {
       "path": "docs/research/v4-printing.md",
