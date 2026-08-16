@@ -1,8 +1,9 @@
-Merkmal	Quelle	Aussage	Evidenz	V2-Umsetzung
+Merkmal	Quelle	Aussage	Evidenz	V2/V3-Umsetzung
 Einzelrotor	Marinov direkt/zeitnah	~200 mm	hoch	V2: Ø200 mm
 Radiale Sektoren	Marinov	Cu-Draht ~1 mm	hoch	V2: echte Drähte, nicht gedruckte Metallstreifen
 Sektorzahl	Marinov	20–30; später 20–25	mittel-hoch	V2: 20/24/25 Rotorvarianten
 Drahtführung durch Scheibe	Marinov-Korrespondenz	sehr wichtig, genaue Form unbekannt	hoch für Relevanz / niedrig für Geometrie	V2: R0–R3 Testvarianten
+Dreifacher Seitenwechsel	Holzherr 1999	sector wires bei mehreren Maschinen eingewebt und dreimal Seitenwechsel	mittel-hoch für diese beobachteten Maschinen / unklar für M2	V3 optional: R4 3-cross Rotor 20/24/25
 Bürstenkontakt	Marinov + Hauser	kein Schleifkontakt	sehr hoch	V2: berührungslos
 Hufeisenmagnete erste Maschine	Marinov	sichtbar/rechts Fig.13/14	hoch	V2: 2 Magnet-Halter
 Hufeisenmagnete zweite Maschine	Marinov	nicht sichtbar	hoch	nicht als universal behandelt
@@ -11,6 +12,7 @@ Crystal	Baumann→Marinov	vorhanden, Funktion unklar	mittel	V2: austauschbares M
 Tesla/HF	Marinov	explizit verneint	mittel-hoch als Marinov-Interpretation	V2: nicht enthalten
 Elektrodenfunktion	Marinov	collecting/driving unklar	mittel	V2: separat konfigurierbar
 Elektrodenwinkel	Marinovs Vergleichsmotor	winkel-/höhenverstellbar	hoch für Vergleichsmotor	V2: verstellbar
+Gitter statt Vollfolie	Principle-Experiment-Bericht / Baumann zugeschrieben	perforiertes/Gitter-Metall funktioniere, Vollfolie nicht	mittel als historischer Claim / nicht kontrolliert	V3 optional: geometriegleicher A/B-Träger
 Metallplatte hinten	Marinov direkter Test	Rotation/Torque verschwand	hoch als Beobachtung	V2: separater Shield-Jig
 Selbstrotation	Marinov direkter Test	nach Anschub berichtet	Beobachtung hoch, Ursache offen	Forschungsziel, nicht garantiert
 100-W-Claim	Marinov Handschätzung	keine saubere Messung	niedrig	nicht als Designziel
