@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 186,
+  "file_count": 187,
   "files": [
     {
       "path": ".gitattributes",
@@ -258,6 +258,11 @@
       "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
       "size": 3013,
       "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+    },
+    {
+      "path": "docs/research/archive-audit-2026-08-16.md",
+      "size": 8240,
+      "sha256": "a4ac975f44f1a861ce83403cd185315571b4a9c459e60ce29090f42771ecedf7"
     },
     {
       "path": "docs/research/assembly.md",
