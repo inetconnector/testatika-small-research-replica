@@ -1,4 +1,4 @@
-# Testatika Small Research Replica
+# Testatika Research Replica — Small M2 + Large M6
 
 [![Validate repository](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml/badge.svg)](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml)
 ![Status](https://img.shields.io/badge/status-research%20replica-orange)
@@ -33,7 +33,7 @@ The canonical completeness ledger is [`docs/REPLICATION_STATUS.md`](docs/REPLICA
 
 A "complete research replica" therefore means: all source-supported geometry and materials are represented, every unresolved alternative is made reversible/testable where practical, and the experiment package can distinguish competing hypotheses. It does **not** mean that unknown original wiring, crystal material or pot topology is guessed and relabelled as historical fact.
 
-## Current build target: V4 best-evidence M2
+## Small M2 build target: V4 best-evidence M2
 
 For a **new physical build**, use V4 rather than treating the older V2/V3 models as the final assembly.
 
