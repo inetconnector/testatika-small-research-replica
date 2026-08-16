@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 199,
+  "file_count": 200,
   "files": [
     {
       "path": ".gitattributes",
@@ -473,6 +473,11 @@
       "path": "docs/research/v3-photo/pixel-analysis.md",
       "size": 16500,
       "sha256": "4f87aeb187432f05bcf6d4dfed23f21d64729dee7ad7e063cc2659ae6fd75a7d"
+    },
+    {
+      "path": "docs/research/v4-assembly.md",
+      "size": 5149,
+      "sha256": "9c6e6c777f0be6c88fb505fae294075f2f359a945302886aca3540b70df215cb"
     },
     {
       "path": "docs/research/v4-best-evidence-m2.md",

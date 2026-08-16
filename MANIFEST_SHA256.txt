@@ -92,6 +92,7 @@ fc0dab469de584d4664b941b5a3e1ea182f7e933239b1f3c90f64ed2ad817cf5  docs/research/
 a872180e664365f5a7ad6d354e9093739b2914a6fd47a6b3192c2d991ee0ccc6  docs/research/v3-photo/functional-model.md
 b52c87be5399c8f9d637621d424698af59bc193ebc5a171ef379fa5466a9e5ad  docs/research/v3-photo/node-map.tsv
 4f87aeb187432f05bcf6d4dfed23f21d64729dee7ad7e063cc2659ae6fd75a7d  docs/research/v3-photo/pixel-analysis.md
+9c6e6c777f0be6c88fb505fae294075f2f359a945302886aca3540b70df215cb  docs/research/v4-assembly.md
 4ca4539b2e386c2215133994caeff0a1473bba721d9ed7338de837a860eb13d2  docs/research/v4-best-evidence-m2.md
 440a49a730fc257ac621b22e884e1a0fcf4d9953015b39bf4af54e71df041dbb  docs/research/v4-bom.md
 db6102df7bd9e6463e3e998633b30217c94a2a9b182a3695f70502e5546f1ae5  docs/research/video-frame-audit-2026-08-16.md
