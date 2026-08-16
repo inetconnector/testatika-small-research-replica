@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 183,
+  "file_count": 184,
   "files": [
     {
       "path": ".gitattributes",
@@ -233,6 +233,11 @@
       "path": "docs/repository-hardening-plan-2026-08-16.md",
       "size": 4631,
       "sha256": "328a99be98ac4848c4956577cfae8972e635adecd4dc6eb8745a2713f5fb492e"
+    },
+    {
+      "path": "docs/repository-history/README.md",
+      "size": 1008,
+      "sha256": "e9dbb06ed8d29d0e79cb273c5494aef28f82ed54ab467caf031d04f0c18d441d"
     },
     {
       "path": "docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt",
