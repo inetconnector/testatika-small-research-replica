@@ -45,6 +45,7 @@ dbe13504abed6609f38ca6f1abedbf69c3505bb9938fa8f9b35fd21f937b2f33  docs/publicati
 7ede02d4caba4d01a03e30f61a07c6a7d673ba856f452ca64faa42af3f89405f  docs/repository-consolidation-2026-08-16.md
 328a99be98ac4848c4956577cfae8972e635adecd4dc6eb8745a2713f5fb492e  docs/repository-hardening-plan-2026-08-16.md
 452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15  docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt
+fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e  docs/repository-history/workflows/consolidate-main-and-clean-branches.pre-hardening.yml.txt
 bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b  docs/repository-history/workflows/materialize-netjournal-proposal.pre-hardening.yml.txt
 27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf  docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt
 fcdbc8a6dab85dbeca4a5f9c5ea96e40135e2dbe7bb5116bf53c18ff258b615a  docs/research/assembly.md
