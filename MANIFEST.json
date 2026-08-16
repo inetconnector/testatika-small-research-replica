@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 201,
+  "file_count": 202,
   "files": [
     {
       "path": ".gitattributes",
@@ -493,6 +493,11 @@
       "path": "docs/research/v4-electrical-boundary.md",
       "size": 3825,
       "sha256": "efd4813653597a4178c067c8522790737b472bc5693f3778221704b6b002c247"
+    },
+    {
+      "path": "docs/research/v4-printing.md",
+      "size": 3780,
+      "sha256": "1895b6952ebc4798be6ea25550dd5e3cee495176c3abb71db18fc1d6e83d6f4d"
     },
     {
       "path": "docs/research/video-frame-audit-2026-08-16.md",
