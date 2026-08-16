@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
-      "size": 1313,
-      "sha256": "c6971c38a7d00036d5f5abcf852cf4066643c548373963ea79f91ea0a5c564c9"
+      "size": 1355,
+      "sha256": "ceeb08780d10868d44c26f0744b7630e7800ced0caa356e74915e994c3af1f4f"
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
