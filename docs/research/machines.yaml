@@ -1,0 +1,40 @@
+schema_version: 1
+project: testatika-small-research-replica
+rule: "Do not transfer properties between machine IDs without an explicit source link."
+machines:
+  - id: M0
+    name: Principle Experiment / swinging arm
+    status: historical_source_model
+    notes: "Plexiglas arm, perforated/grid electrodes, capacitor pair; used as a mechanism clue, not as proof of net power."
+  - id: M0b
+    name: Linden Experiment
+    status: hearsay_model
+    notes: "Second-hand memory; horseshoe magnet/capacitor demonstration. Never baseline M2 geometry."
+  - id: M1
+    name: early Ruck-Zuck / panning-arm family
+    status: fragmentary
+    notes: "Insufficient evidence; do not merge silently with M0."
+  - id: M2
+    name: Marinov first small machine
+    status: primary_replication_target
+    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository."
+  - id: M3
+    name: Marinov second small machine
+    status: historical_variant
+    notes: "Do not automatically inherit M2 horseshoe magnets or other M2-specific details."
+  - id: M4
+    name: circa 12 cm small model in 1999 report
+    status: historical_variant
+    notes: "Short voltage/lamp demonstration; distinct from M2 unless provenance proves identity."
+  - id: M5
+    name: Weber/Schneider machine 1984
+    status: historical_large_variant
+    notes: "Large assembly; operator/output claims must not be transferred to M2."
+  - id: M6
+    name: 50 cm / later large two-disc family
+    status: historical_large_variant
+    notes: "Holzherr/Methernitha/Cathomen material often refers here; model-specific rpm, capacitors and control elements."
+  - id: MX
+    name: unspecified Testatika / Thesta-Distatica variant
+    status: unresolved
+    notes: "Use only when source cannot be assigned more precisely."
