@@ -8,7 +8,7 @@ Deshalb enthält V2 drei Rotorvarianten:
 - `rotor_24wire`: nominale Foto-/Text-Arbeitsvariante.
 - `rotor_25wire`: obere Grenze der späteren Marinov-Angabe.
 
-Jede Position besitzt zwei Durchführungsbohrungen (innen/außen) und eine flache Radialnut.
+Jede V2-Position besitzt innere/äußere Durchführungsbohrungen für alternative Routen.
 
 ## Testbare Führungsvarianten
 
@@ -26,6 +26,34 @@ Gerade radiale Leiter wechseln von Segment zu Segment Vorder-/Rückseite.
 
 ### R3 — winkelversetzte Durchleitung
 Innenloch Segment i → Außenloch Segment i+1 auf der Gegenseite.
-**Status:** nur experimentelle Hypothese; kann eine elektrische/geometrische Phasenverschiebung erzeugen.
+**Status:** experimentelle Hypothese; kann eine elektrische/geometrische Phasenverschiebung erzeugen.
 
-Keine der Varianten R1–R3 darf ohne weitere Quelle als Original bezeichnet werden.
+### R4 — three-side-change weave
+Hans Holzherr berichtet für mehrere Testatika-Maschinen, darunter ein größeres Modell im Bau, dass `sector wires` in die Scheibe eingewebt seien und **dreimal die Scheibenseite wechseln**.
+
+Dies ist besonders relevant, weil Marinov unabhängig davon die genaue Führung der Drähte **durch die Scheibe** als wichtig bezeichnet.
+
+Die optionale V3-Forschungsgeometrie setzt deshalb pro Sektor fünf Bohrungsradien:
+
+- 27 mm: Innenanker
+- 40 mm: Seitenwechsel 1
+- 60 mm: Seitenwechsel 2
+- 80 mm: Seitenwechsel 3
+- 94 mm: Außenanker
+
+Nominale Testführung:
+
+`Vorderseite 27→40 | Rückseite 40→60 | Vorderseite 60→80 | Rückseite 80→94`
+
+Dateien:
+- `rotor_20wire_R4_3cross`
+- `rotor_24wire_R4_3cross`
+- `rotor_25wire_R4_3cross`
+
+**Evidenzstatus:** stark testwürdig, aber **nicht als gesicherte M2-Originalgeometrie** behandeln. Holzherrs Aussage bezieht sich auf mehrere Maschinen; eine direkte Identität mit Marinovs kleiner Maschine ist nicht bewiesen.
+
+Siehe auch `docs/research/r4-grid-vs-foil.md`.
+
+## Methodische Regel
+
+Keine der Varianten R1–R4 darf ohne zusätzliche Primärevidenz als „die Originalführung“ bezeichnet werden. Varianten sind möglichst bei identischer Scheibe, identischem Drahtmaterial, Elektrodenabstand und Umgebungsbedingungen gegeneinander zu messen.
