@@ -15,6 +15,7 @@ COMMANDS = [
     [sys.executable, "cad/generate_v2.py"],
     [sys.executable, "cad/generate_v3_experiments.py"],
     [sys.executable, "cad/generate_v3_photo_interp.py"],
+    [sys.executable, "cad/generate_v3_video_refinements.py"],
 ]
 
 for command in COMMANDS:

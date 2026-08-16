@@ -1,6 +1,8 @@
-# Experimentplan V3 — Charge-State / Baumann-Language Tests
+# Experimentplan V3 — Charge-State / Primärquellen-Tests
 
 Der Plan prüft die in [`baumann-language-decoding.md`](baumann-language-decoding.md) übersetzten Funktionshypothesen. Er beginnt mit energiearmen Teiltests; ein behaupteter Selbstlauf ist **nicht** Voraussetzung.
+
+Die neue Primärscanlage hat zwei Experimente hochpriorisiert: **floating Rotordrähte** als Kleinmaschinen-Baseline und eine **historisch zweipolige Pot-Schnittstelle**.
 
 ## Stufe 0 — Mechanik
 
@@ -8,8 +10,9 @@ Der Plan prüft die in [`baumann-language-decoding.md`](baumann-language-decodin
 - Lagerreibung und Scheibenschlag.
 - 20/24/25-Sektorrotoren vergleichen.
 - Rotorträgheit bestimmen.
+- Labormotor/Kupplung: Reibung mit Drive OFF bestimmen; vollständige mechanische Abkopplung für Selbstrotationsversuche dokumentieren.
 
-## Stufe 1 — C(θ) und Rotor-Routing
+## Stufe 1 — C(θ), Rotor-Routing und elektrische Sektortopologie
 
 - Kapazität zwischen einzelnen Elektroden und Rotor als Funktion des Winkels.
 - R0/R1/R2/R3/R4-Drahtführung vergleichen.
@@ -18,6 +21,55 @@ Der Plan prüft die in [`baumann-language-decoding.md`](baumann-language-decodin
 - Shield floating / geerdet / R-gekoppelt / C-gekoppelt vergleichen.
 
 Ziel: `Taster` als kapazitiven/Influenz-Pickup und den Metallplatten-Stoppversuch quantitativ prüfen.
+
+### Stufe 1a — E0 floating sectors gegen E1 Sekundär-Ring
+
+Direkter Marinov-Scan `SMwebL1.jpg`: die Drähte auf der beschriebenen Kleinmaschinen-Scheibe seien **`connected to nothing`**.
+
+Daher ist:
+
+- **E0 = bevorzugte historische Kleinmaschinen-Baseline:** jedes Segment elektrisch floating;
+- **E1 = Sekundär-Kontrolle:** Nachbarsegmente über 1 kΩ verbunden, ausschließlich um die späte Frolov-Zuschreibung zu falsifizieren/vergleichen.
+
+E0/E1 müssen geometrisch identisch sein. Nur die elektrische Verbindung darf variieren.
+
+Vor jedem Lauf:
+
+- Isolation aller E0-Sektoren gegeneinander und gegen Welle/Hub dokumentieren;
+- Widerstandsring E1 vollständig durchmessen;
+- DC-Widerstand jedes Sektors erfassen.
+
+Synchron messen:
+
+- Sektorpotentiale, soweit berührungslos möglich;
+- `C(theta)`;
+- Pickup-Strom;
+- Surface Potential;
+- Torque;
+- rpm;
+- Ladungsrelaxation nach Stop.
+
+Ein E1-Effekt wäre **kein Beweis**, dass E1 historisch original war; die Quellenlage bliebe separat zu bewerten.
+
+### Stufe 1b — Hub-Arcs
+
+`meth4.asf` stärkt die Interpretation zweier kupferfarbener räumlicher Bogenstücke am Hub.
+
+Vergleich:
+
+- Bögen leitend + floating;
+- leitend + separat instrumentiert;
+- dimensionierter nichtleitender Dummy;
+- Bögen entfernt.
+
+Messen:
+
+- C zu Welle/Rotordrähten/Statoren;
+- lokale Potentiale;
+- Torque/RPM;
+- Pickup-Strom.
+
+Keine historische Verbindung zu einem anderen Knoten voraussetzen.
 
 ## Stufe 2 — Gitter vs. Vollfolie
 
@@ -41,6 +93,20 @@ Messen:
 - Surface Potential;
 - Drehmoment;
 - Ladung pro Zyklus.
+
+### Stufe 2b — Layered outer panel
+
+`meth4` zeigt den Kleinmaschinen-Außenpanel als sichtbare Mehrlagenstruktur.
+
+Geometrie konstant halten und einzeln variieren:
+
+- grober Lochträger;
+- dunkles feines Inset-Gitter;
+- längliches rötliches Leiter-/Rahmenelement;
+- isolierende Rücklage;
+- elektrische Verbindung des Edge-Elements offen/floating/definiert.
+
+Ziel: sichtbare Schichtung von spekulativer Materialfunktion trennen.
 
 ## Stufe 3 — Feuchte / PMMA
 
@@ -89,7 +155,7 @@ Ziel: feststellen, ob ein langlebiger Dielektrikum-Ladungszustand die beobachtba
 
 ### Drehzahl-Sweep nach erweitertem Quellenstand
 
-Historische Berichte sind nicht einheitlich: Cathomen nennt modellbezogen ungefähr 60 rpm, während Holzherr 1999 bei der 50-cm-Demo ungefähr **15 rpm** beobachtete. Deshalb keine einzelne Soll-Drehzahl voraussetzen.
+Historische Berichte sind nicht einheitlich: Hauser/Cathomen nennen modellbezogen ungefähr 60 rpm, während Holzherr 1999 bei einer 50-cm-Demo ungefähr **15 rpm** beobachtete. Deshalb keine einzelne Soll-Drehzahl voraussetzen.
 
 Empfohlene Sweep-Punkte für Vergleichstests, soweit mechanisch sicher:
 
@@ -106,25 +172,53 @@ Bei jedem Punkt synchron erfassen:
 
 Ziel: RC-/Relaxations-/Phasenfenster gegen Drehzahl auflösen.
 
-## Stufe 5 — Pots
+## Stufe 5 — M2-Pots
 
-- Kapazität und Verlustfaktor jedes Pots messen;
-- Außen-Gitter / Innen-Spirale getrennt dokumentieren;
-- Impedanz über Frequenz bei kleinen Testsignalen;
+Primärquellenmodus pro Pot: **zwei externe Leitungen**.
+
+Bauteilbasis:
+
+- äußeres zylindrisches Gitter;
+- Kunststoff-/PMMA-Isolation;
+- zentrale Kupferspirale.
+
+Pflichtmessungen:
+
+- Kapazität und Verlustfaktor;
+- externe Zweipol-Impedanz;
 - Leakage und dielektrische Relaxation;
+- intern, nur über versteckte Labortaps: Gitter/Spirale einzeln charakterisieren;
 - keine Tesla-Funktion voraussetzen.
 
-### Großmaschinen-Kontrolle — 20-Lagen-Gitterkondensator
+### Zweipolige Topologie-Matrix
 
-Holzherr überliefert für die große Maschine Baumanns Aussage, die großen Kondensatoren enthielten **20 Lagen perforiertes Blech**. Dies darf nicht auf M2 übertragen werden, ist aber als getrennte M6-Kontrollstruktur interessant.
+Die historische Außenansicht bleibt zweipolig, während intern reversible Varianten geprüft werden:
 
-Nur als eigenes Modell untersuchen:
+- Gitter an Lead A / Spirale an Lead B;
+- vertauschte Polarität/Zuordnung;
+- eine Elektrode intern floating mit kapazitiver Kopplung;
+- high-value leakage path;
+- diode-gated internal path;
+- disconnected control.
 
-- 2 / 5 / 10 / 20 gleichartige perforierte Elektrodenlagen;
-- identischer Dielektrikumtyp und definierte Abstände;
-- C, ESR/Verlustfaktor, Leakage, Relaxation und Impulsantwort.
+Zusätzliche Messterminals müssen während des historischen Zweipol-Laufs vollständig isoliert/entfernt sein.
 
-Ziel: prüfen, ob die große Struktur als gewöhnliches multilayer capacitance / field-shaping network erklärbar ist.
+### Großmaschinen-Kontrolle — 20-Lagen / Hauser-Zylinder
+
+Getrennt als M6-Versuch, niemals M2-Pot nennen:
+
+- 2 / 5 / 10 / 20 perforierte Elektrodenlagen;
+- Hauser-Variante: 3 konzentrische Metallgitter + Acryl + optional Magnettube + bifilare Wicklung;
+- identische Vergleichsmaße und vollständige Eingangs-/Speicherenergiebilanz.
+
+Messen:
+
+- C;
+- ESR/Verlustfaktor;
+- Leakage;
+- Relaxation;
+- Impulsantwort;
+- Magnet/Wicklung A/B.
 
 ## Stufe 6 — Crystal-/Diode-Gate
 
@@ -136,6 +230,7 @@ Nur bei niedriger Testenergie:
 - Dioden mit unterschiedlichen Schwell-/Sperreigenschaften;
 - antiparallele Diode;
 - Widerstand;
+- Kondensator;
 - geeigneter Kristalldetektor.
 
 Zeitgleich messen:
@@ -147,19 +242,26 @@ Zeitgleich messen:
 - Speicherladung;
 - rpm.
 
-Ziel: die Methernitha-Aussage `rectifying diode keeps the cycles steady` als **phasenselektive Kommutation** prüfen.
+Ziel: prüfen, ob eine nichtlineare Schwelle phasenselektive Kommutation erzeugt.
+
+### Quellen-Trennung
+
+Nicht still gleichsetzen:
+
+- Marinov/`crystal`;
+- Methernitha/`rectifying diode keeps cycles steady`;
+- Hauser/M6a top crystals + rectifier interpretation;
+- Holzherr/four-lead early top module.
 
 ### Vier-Terminal-Topmodul
 
-Holzherr erinnerte beim frühen/originalen Modell eine grobe Spule um einen geraden Zentralleiter mit insgesamt **vier Leitungen**. Dies ist modellbezogen und keine gesicherte M2-Topologie.
-
-Der experimentelle Topmodul-Träger soll deshalb vier isolierte Terminals anbieten. Bei niedriger Energie systematisch testen:
+Experimenteller Träger:
 
 - alle Terminals offen;
 - Zentralleiter separat / Wicklung separat;
 - Wicklungsenden vertauscht;
-- Zentralleiter floating / geerdet / kapazitiv gekoppelt;
-- passive R/C/Diode-Kopplung zwischen den beiden Zweipolen.
+- Zentralleiter floating / referenziert / kapazitiv gekoppelt;
+- passive R/C/Diode-Kopplung zwischen beiden Zweipolen.
 
 Jede Topologie erhält eine eindeutige Config-ID. Keine davon wird als `original crystal` bezeichnet.
 
@@ -169,9 +271,11 @@ Alle zugänglichen Knoten gegen Rotorwinkel erfassen:
 
 - mögliche Driving-Elektroden;
 - Collecting-Elektroden;
-- Pot außen/innen;
+- beide sichtbaren Pot-Leads;
+- versteckte Labortaps nur in expliziten Characterization-Runs;
 - Crystal-Gate;
-- Speicher-/Ausgangsknoten.
+- Speicher-/Ausgangsknoten;
+- Hub-Arcs, falls instrumentiert.
 
 Ergebnisformat: 0–360° `charge-state map`.
 
@@ -223,6 +327,7 @@ Pflichtmessungen:
 - Torque oder Antriebsleistung synchron;
 - Load-V/I synchron;
 - initiale/finale Speicherenergie;
+- Labormotor-Eingang falls gekoppelt;
 - mindestens ein identischer Dummy-Lauf.
 
 ## Stufe 10 — Luftionen-Hypothese
@@ -286,4 +391,4 @@ Holzherr weist darauf hin, dass eine sehr dünne Schicht zwischen Plexiglasplatt
 
 Verdeckte Leiter-/Zwischenschicht-Hypothesen dürfen nur als reversible Varianten getestet werden und brauchen für eine historische Hochstufung zusätzliche Primärevidenz.
 
-**Kein Selbstlauf-/Overunity-Schluss aus Nachlauf, Feldspeicherung, hoher Leerlaufspannung oder kurzen Lastimpulsen.**
+**Kein Selbstlauf-/Overunity-Schluss aus Nachlauf, Feldspeicherung, hoher Leerlaufspannung, Video-Metadaten oder kurzen Lastimpulsen.**

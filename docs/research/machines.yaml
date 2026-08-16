@@ -17,23 +17,39 @@ machines:
   - id: M2
     name: Marinov first small machine
     status: primary_replication_target
-    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository. Do not import Holzherr 12-cm geometry or large-machine capacitor/control details without a source bridge."
+    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository. Preferred electrical baseline now uses individually floating rotor wires from direct small-machine correspondence, a two-lead external condenser interface, no rubbing brushes and no conventional built-in drive motor. Do not import Holzherr 12-cm geometry or Hauser large-machine cylinder/control details without a source bridge."
   - id: M3
     name: Marinov second small machine
     status: historical_variant
-    notes: "Do not automatically inherit M2 horseshoe magnets or other M2-specific details."
+    notes: "Direct Marinov scans distinguish small-machine variants, including magnet/no-magnet differences. Several correspondence statements remain M2/M3-family until the referenced image is locked to one object; do not automatically inherit M2 horseshoe magnets or other M2-specific details."
   - id: M4
-    name: circa 12 cm small-model family in 1999 report
+    name: circa 12 cm small-model family in Holzherr 1999 report
     status: historical_variant
     notes: "Holzherr reports several ~12-cm-disc models that could be lifted/examined. One early/original-model account includes ~130 V under a small lamp/resistor load and a remembered four-lead upper coil/central-conductor assembly. Keep distinct from ~200-mm M2 unless provenance proves identity."
+  - id: M4a
+    name: Hauser 1986 circa-12-cm prototype / small demonstrator
+    status: historical_variant
+    notes: "Hauser's 1986 packet describes a roughly 12-cm, ~1-kg small machine/prototype with reduced external component count and a tiny altered DC-motor/self-running arrangement. It may overlap the broader M4 lineage but identity is not proven; keep separate until photo/report continuity is established."
   - id: M5
     name: Weber/Schneider machine 1984
     status: historical_large_variant
     notes: "Large assembly; operator/output claims must not be transferred to M2."
   - id: M6
-    name: 50 cm / later large two-disc family
+    name: large / roughly 50 cm two-disc umbrella family
     status: historical_large_variant
-    notes: "Holzherr/Methernitha/Cathomen material often refers here. Holzherr 1999 reports ~15 rpm during one 50-cm demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. These are model/demo-specific."
+    notes: "Umbrella for large-machine material. Use M6a/M6b when the source is specific. Large-family details must not be copied into M2 by name similarity alone."
+  - id: M6a
+    name: Hauser drawing 3279 / 1986-1988 roughly 500 mm medium-large machine
+    status: historical_large_variant
+    notes: "Hauser direct-visit/reconstruction line: ~500x5-mm Plexiglas disc, ~50 chrome-steel sheet lamellae, non-contact perforated stators, magnet-wheel/speed hardware, complex cylinders with three concentric metal grids + acrylic + central magnet tube + bifilar winding, and top crystal/possible-rectifier assembly. Several functions/connections remain Hauser interpretation."
+  - id: M6b
+    name: Holzherr 1999 roughly 50 cm demonstration machine
+    status: historical_large_variant
+    notes: "Holzherr reports ~15 rpm during this demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. Treat all of these as model/demo-specific; do not assume identity with every Hauser/Cathomen ~50-cm configuration."
+  - id: M7
+    name: 2001 Dienst/Cathomen workshop black-red-disc prototype family
+    status: workshop_variant
+    notes: "testa01.ram/testa02.ram show several machines during one 2001 Methernitha-lab visit. A prominent black/red-disc workshop assembly has side/rear views unavailable in official stills. Keep it as its own visual family unless a timestamped component-level match proves identity with another machine."
   - id: MX
     name: unspecified Testatika / Thesta-Distatica variant
     status: unresolved
