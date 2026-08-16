@@ -26,8 +26,8 @@
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
-      "size": 94,
-      "sha256": "9e6e4baea0b165837d522eadf544e6f58c6e7f175db3345394714fb5502f7508"
+      "size": 139,
+      "sha256": "0c001b72a1c56d33306897ca8687e3461c0c4cddade6b33ace0ead58592e6ba8"
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
@@ -1166,13 +1166,13 @@
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip",
-      "size": 14520244,
-      "sha256": "bb0a43e8619344a93132b8cb5a59bdd1b27d6227d80298c785449414b4e5119a"
+      "size": 14521422,
+      "sha256": "bf3b171d9afe01978a85ec4b75b695211e88248bbf864e102e591859c7e35d27"
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
       "size": 114,
-      "sha256": "c09bfda4b40f22e4aa880fa4b4f10d79d3eff76f51b1557972a05ce407b37653"
+      "sha256": "97b88d2c76f49e48f60e3f1da1a426fe17a7d218424defae38ebff97c1d82410"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
