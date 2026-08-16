@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 206,
+  "file_count": 208,
   "files": [
     {
       "path": ".gitattributes",
@@ -505,6 +505,11 @@
       "sha256": "efd4813653597a4178c067c8522790737b472bc5693f3778221704b6b002c247"
     },
     {
+      "path": "docs/research/v4-experiment-sequence.md",
+      "size": 5901,
+      "sha256": "db1d3e84bb237e6cf5c9d43ac04d3887a2dafef96ccac2bf105981128bc1d775"
+    },
+    {
       "path": "docs/research/v4-printing.md",
       "size": 3780,
       "sha256": "1895b6952ebc4798be6ea25550dd5e3cee495176c3abb71db18fc1d6e83d6f4d"
@@ -628,6 +633,11 @@
       "path": "hardware/experimental/v3-photo/stl/top_module_v3_photo.stl",
       "size": 65084,
       "sha256": "07fd4c2c1fc1ee49bb48e05c180c5baebb2d12f98dfa954a0f1990dc6b8a40ce"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/README.md",
+      "size": 1049,
+      "sha256": "5dc604f70054f4be7e029c04887351e701d97eba971968640416b8d11e8758f9"
     },
     {
       "path": "hardware/step/ASSEMBLY_REFERENCE.step",
