@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 250,
+  "file_count": 251,
   "files": [
     {
       "path": ".gitattributes",
@@ -56,8 +56,8 @@
     },
     {
       "path": ".github/workflows/materialize-v4-best-evidence.yml",
-      "size": 3042,
-      "sha256": "59061be2da4aade28cbcfe1f0d5f699a41567f298e00f382c33ba14b5d8ce584"
+      "size": 3178,
+      "sha256": "a7f589b028c131f8d6c4f4e4c896df0799f7ce23a4db573315245d05008d06cd"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
@@ -1243,6 +1243,11 @@
       "path": "scripts/generate_manifest.py",
       "size": 1644,
       "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
+    },
+    {
+      "path": "scripts/normalize_v4_step.py",
+      "size": 1429,
+      "sha256": "c7fdeafa77426effee5f64f2e41fa71e7fc330eef21bea4212f9f716f2f04c72"
     },
     {
       "path": "scripts/rebuild_research_assets.py",
