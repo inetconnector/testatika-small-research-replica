@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 202,
+  "file_count": 203,
   "files": [
     {
       "path": ".gitattributes",
@@ -53,6 +53,11 @@
       "path": ".github/workflows/materialize-v3-photo.yml",
       "size": 2175,
       "sha256": "4cde306b57d1e3b64e0cf1967693477a10426515107dd1452440f65f7f10c6de"
+    },
+    {
+      "path": ".github/workflows/materialize-v4-best-evidence.yml",
+      "size": 3613,
+      "sha256": "2749489781c18dbe2f9a3a189e743d46f1582ce642b26d8f32e83300eb17a500"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
