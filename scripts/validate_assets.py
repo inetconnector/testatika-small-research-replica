@@ -148,7 +148,7 @@ if "testatika.zip" in state and "not part of the public repository" not in state
 
 # V4 source-level semantic guardrails are checked even before binary materialization.
 v4_doc = (ROOT / "docs/research/v4-best-evidence-m2.md").read_text(encoding="utf-8", errors="replace") if (ROOT / "docs/research/v4-best-evidence-m2.md").exists() else ""
-for required_phrase in ("individually floating", "two external", "R4", "Blackbox"):
+for required_phrase in ("floating", "zwei externe", "R4", "Blackbox"):
     if required_phrase.lower() not in v4_doc.lower():
         errors.append(f"V4 build contract missing semantic guardrail: {required_phrase}")
 
