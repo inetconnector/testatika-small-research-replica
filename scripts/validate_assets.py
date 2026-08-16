@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Repository-wide structural validator.
 
-This intentionally validates research integrity and asset structure without trying to
-prove historical claims. It catches stale paths, malformed ledgers, missing core assets
-and broken local Markdown links in addition to basic mesh validity.
+Validates research integrity and asset structure without trying to prove historical
+claims. It catches stale paths, malformed ledgers, missing core assets, broken local
+Markdown links, mesh errors and baseline dimensional drift.
 """
 from __future__ import annotations
 
@@ -27,12 +27,15 @@ REQUIRED = [
     "docs/REPLICATION_STATUS.md",
     "docs/research/machines.yaml",
     "docs/research/provenance-schema.yaml",
+    "docs/research/replica-configuration-matrix.md",
+    "docs/research/external-corpus.md",
     "docs/research/evidence_matrix.tsv",
     "docs/research/baumann-statements.tsv",
     "docs/research/hartmann-overunity-sources.tsv",
     "docs/research/assembly.md",
     "docs/research/safety.md",
     "docs/research/experiment-plan.md",
+    "docs/research/stl_dimensions.json",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb",
@@ -135,15 +138,40 @@ if "testatika.zip" in state and "not part of the public repository" not in state
 try:
     import trimesh
 
-    stls = sorted(set((ROOT / "hardware/stl").glob("*.stl")) | set((ROOT / "hardware/experimental").rglob("*.stl")))
+    baseline_dir = ROOT / "hardware/stl"
+    experimental_dir = ROOT / "hardware/experimental"
+    stls = sorted(set(baseline_dir.glob("*.stl")) | set(experimental_dir.rglob("*.stl")))
+    loaded = {}
     for p in stls:
         mesh = trimesh.load_mesh(p, force="mesh")
+        loaded[p.resolve()] = mesh
         if len(mesh.vertices) < 3 or len(mesh.faces) < 1:
             errors.append(f"invalid mesh: {rel(p)}")
         if any(float(x) <= 0 for x in mesh.extents):
             errors.append(f"zero extent: {rel(p)}")
+
+    # Protect the published baseline geometry against accidental silent drift.
+    dim_ledger = json.loads((ROOT / "docs/research/stl_dimensions.json").read_text(encoding="utf-8"))
+    tolerance_mm = 0.30
+    for filename, expected in dim_ledger.items():
+        p = (baseline_dir / filename).resolve()
+        if not p.exists():
+            errors.append(f"dimension-ledger STL missing: hardware/stl/{filename}")
+            continue
+        mesh = loaded.get(p)
+        if mesh is None:
+            mesh = trimesh.load_mesh(p, force="mesh")
+        actual = [float(x) for x in mesh.extents]
+        if len(expected) != 3:
+            errors.append(f"invalid dimension ledger entry for {filename}: {expected}")
+            continue
+        for axis, (a, e) in enumerate(zip(actual, expected)):
+            if abs(a - float(e)) > tolerance_mm:
+                errors.append(
+                    f"dimension drift {filename} axis {axis}: actual {a:.3f} mm, ledger {float(e):.3f} mm"
+                )
 except Exception as exc:
-    errors.append(f"trimesh validation failed: {exc}")
+    errors.append(f"trimesh/dimension validation failed: {exc}")
 
 for p in list((ROOT / "hardware/step").glob("*.step")) + list((ROOT / "hardware/experimental").rglob("*.step")) + list((ROOT / "hardware/complete-model").glob("*.step")):
     if p.stat().st_size < 128:
