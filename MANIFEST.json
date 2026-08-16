@@ -27,7 +27,7 @@
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
       "size": 139,
-      "sha256": "0c001b72a1c56d33306897ca8687e3461c0c4cddade6b33ace0ead58592e6ba8"
+      "sha256": "8bad9be8d5f083aa3d9ce65c0f21e0e41e74b65f505a98a7c1057da9d413a931"
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
