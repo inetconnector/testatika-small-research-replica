@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 195,
+  "file_count": 196,
   "files": [
     {
       "path": ".gitattributes",
@@ -178,6 +178,11 @@
       "path": "cad/generate_v3_video_refinements.py",
       "size": 3947,
       "sha256": "8f8e52688fd74890fef8b70794ca5f8d36edef73944999ad8f78f0ad253b8a96"
+    },
+    {
+      "path": "cad/generate_v4_best_evidence_m2.py",
+      "size": 14750,
+      "sha256": "a9bad9410b0b293f3bced88fc2f413f37b4fe6d3cad5ed2c29ce372a387c7d4c"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
@@ -916,13 +921,13 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
-      "size": 23554349,
-      "sha256": "ce3753f6f4e4942512a6de45bcabb39f54a1fcec4f24d28bd0c57af006e2c837"
+      "size": 23600050,
+      "sha256": "3726db4165921cf7fb036fbf5e4d82ff801928b215adbd31f7a10624f7ea9ebe"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
       "size": 110,
-      "sha256": "7717125b53115a6bf2b520f813a080de541a74b39d02913b361fd7af54e8d859"
+      "sha256": "e0f80c0e5f6d80c26504145bebae476f1ce10eb9096e8cb6acf415cdda3ea2ec"
     },
     {
       "path": "requirements-cad.txt",
