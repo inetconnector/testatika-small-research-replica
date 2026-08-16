@@ -1,5 +1,24 @@
 # Changelog
 
+## Unreleased — Baumann / Methernitha language reconstruction
+
+### Added
+- `docs/research/baumann-language-decoding.md`: source-by-source reconstruction of what Paul Baumann/Methernitha actually said and a conservative engineering translation of their non-standard vocabulary
+- `docs/research/baumann-statements.tsv`: machine-readable provenance ledger separating Baumann, institutional Methernitha, Luzi Cathomen, Marinov and later secondary attributions
+- explicit correction that the phrase "like an unknown language" is **not currently verified as a direct Marinov quotation**
+- mathematical charge-state / variable-capacitance model for `Taster`, charge sorting, crystal/diode commutation and drive/load buses
+- prioritized phase-resolved falsification experiments
+
+### Updated
+- source hierarchy and provenance documentation
+- scientific-status model
+- V3 experiment plan
+- README quick access and current operating-model hypothesis
+- AGENTS rules preventing speaker/source conflation
+
+### Current working interpretation
+The strongest source-compatible model is phasengesteuertes elektrostatisches charge-state management: influence/variable capacitance → non-contact pickup → polarity-selective routing → nonlinear crystal/diode commutation → drive/storage buses → cyclic bias regeneration. This is a testable engineering model, **not** evidence for net energy creation.
+
 ## Unreleased — R4 / grid-vs-foil research add-on
 
 ### Added
