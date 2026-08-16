@@ -27,14 +27,14 @@ jobs:
           echo "Deleted files detected:"
           printf '%s\n' "$deleted"
 
-          protected='^(STATE\.md|addon\.md|PRESERVATION\.md|docs/research/|cad/|hardware/stl/|hardware/step/)'
+          protected='^(STATE\.md|addon\.md|ADDON\.md|PRESERVATION\.md|MANIFEST\.json|MANIFEST_SHA256\.txt|docs/|cad/|hardware/|release/)'
           bad="$(printf '%s\n' "$deleted" | grep -E "$protected" || true)"
           if [ -n "$bad" ]; then
             echo ""
             echo "ERROR: preservation-critical files were deleted:"
             printf '%s\n' "$bad"
             echo ""
-            echo "Preserve the old material in an archive/deprecated path and document the replacement instead of deleting it."
+            echo "Preserve the old material in Git/history or an archive/deprecated path and document the replacement instead of deleting it."
             exit 1
           fi
 
