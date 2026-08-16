@@ -401,8 +401,8 @@
     },
     {
       "path": "docs/research/replica-configuration-matrix.md",
-      "size": 9001,
-      "sha256": "97930a9853c1b51f7db60491c86a336e485685ca6c58b32c3bd4fcf15178ae6c"
+      "size": 14768,
+      "sha256": "c82f9301010d125a8a3f91eb651cde8b6edf5807d66122a85e45c12e0f75ef77"
     },
     {
       "path": "docs/research/rotor-wire-routing.md",
