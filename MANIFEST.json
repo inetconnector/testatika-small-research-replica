@@ -21,8 +21,8 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
-      "size": 745,
-      "sha256": "ddb0605e25c93f2c9e3210643328cf2f5efd4361af11d832c5ea234342f883d7"
+      "size": 2348,
+      "sha256": "16f401f487fa620d2a3ad3e09d35098c8a6bd738efe2da277e9223ab89e06912"
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
