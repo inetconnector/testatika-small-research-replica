@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 184,
+  "file_count": 186,
   "files": [
     {
       "path": ".gitattributes",
@@ -231,8 +231,8 @@
     },
     {
       "path": "docs/repository-hardening-plan-2026-08-16.md",
-      "size": 4631,
-      "sha256": "328a99be98ac4848c4956577cfae8972e635adecd4dc6eb8745a2713f5fb492e"
+      "size": 5125,
+      "sha256": "f82a26c42d48cfe6059a1cedeb0569ce9377ac99198048aa37864902427fdfca"
     },
     {
       "path": "docs/repository-history/README.md",
@@ -868,6 +868,16 @@
       "path": "release/testatika-small-research-replica-v0.2.0.zip.sha256",
       "size": 110,
       "sha256": "666ad67ff094cb29423498999ade0aa60d823f0d98f97f538aa6badd95642184"
+    },
+    {
+      "path": "release/testatika-small-research-replica-v0.3.0.zip",
+      "size": 23537799,
+      "sha256": "899ef46567d9ec84c49f0c76b0880fd6ac54af78918ca27fcc6cbefbb53248cd"
+    },
+    {
+      "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
+      "size": 110,
+      "sha256": "a7b9a23926f16e9629e77c2f2b99feb4d891e3596d4d2ef11b43eabcad77ddd0"
     },
     {
       "path": "requirements-cad.txt",
