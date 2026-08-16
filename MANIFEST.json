@@ -1,557 +1,858 @@
-[
-  {
-    "path": ".gitattributes",
-    "bytes": 207,
-    "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
-  },
-  {
-    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
-    "bytes": 640,
-    "sha256": "298457577f6a956aec1c49554a0734dbe136affe2a292c8dfc8e6aa0ae046444"
-  },
-  {
-    "path": ".github/ISSUE_TEMPLATE/config.yml",
-    "bytes": 27,
-    "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
-  },
-  {
-    "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
-    "bytes": 745,
-    "sha256": "ddb0605e25c93f2c9e3210643328cf2f5efd4361af11d832c5ea234342f883d7"
-  },
-  {
-    "path": ".github/workflows/validate.yml",
-    "bytes": 438,
-    "sha256": "e9bcba7b8eaf9bc84f3cb964fa2cebf6c1783ab82b86d5405b9ee7c3a1645bfe"
-  },
-  {
-    "path": ".gitignore",
-    "bytes": 375,
-    "sha256": "96414f56bf031d13c8633891c1eacac0f055df3958ffe90e9a2ec8ed8cbd518c"
-  },
-  {
-    "path": "AGENTS.md",
-    "bytes": 840,
-    "sha256": "de7beb288ab8256feccecaf3b69de316674f956564f9c1996fd4b6bde5c7c417"
-  },
-  {
-    "path": "CHANGELOG.md",
-    "bytes": 615,
-    "sha256": "38eb3553e66631f2754d04ffdb0cecb3d5bb585ea1c9e6b8e7aea75f5c210d75"
-  },
-  {
-    "path": "CITATION.cff",
-    "bytes": 469,
-    "sha256": "02815930e1e0db9ad4320326f43889e4479820a7fe5f65623f7f3853f70ad086"
-  },
-  {
-    "path": "CONTRIBUTING.md",
-    "bytes": 1171,
-    "sha256": "97523c0d58ed6571f14710d8108710c066d409d9e3e2b72606fc5b003abf3d01"
-  },
-  {
-    "path": "LICENSE",
-    "bytes": 1309,
-    "sha256": "8a7f6475c37748cac602f3891015f1ac5baaa2a5386bf24168b4e2ba8b7af770"
-  },
-  {
-    "path": "NOTICE.md",
-    "bytes": 452,
-    "sha256": "debf67be7b57466a5d869c567734f8f27d6602c435d67fb8d2b4f4f9caffcab6"
-  },
-  {
-    "path": "PUBLISH_TO_GITHUB.ps1",
-    "bytes": 1014,
-    "sha256": "7970441ab70066860c0adcea5f4374e55a2a6ddd98a57db9d79761dfc8c378ce"
-  },
-  {
-    "path": "README.md",
-    "bytes": 7293,
-    "sha256": "f82d52f61a19485673bbd484a31ccbb5b8857b5f737b4ac7866ac70989507a99"
-  },
-  {
-    "path": "ROADMAP.md",
-    "bytes": 799,
-    "sha256": "b348327e769e882f435aa85a7f3f469b1a49f8d2e1ed14c2a73de715fb5fda6b"
-  },
-  {
-    "path": "SECURITY.md",
-    "bytes": 505,
-    "sha256": "972dfd17478d3a99857062dfcd2068ff0ecb81af9d36a1338cb03f12f7a46efd"
-  },
-  {
-    "path": "STATE.md",
-    "bytes": 220860,
-    "sha256": "9d4bf8d13346ab5bbfe7e5247664c4c66246f1104803c5125b9d4620e9a4a4df"
-  },
-  {
-    "path": "cad/README.md",
-    "bytes": 346,
-    "sha256": "55699d05d5c927ac481d2eea96e0ed09685a154cc8f63c2f200383bdec5d00d8"
-  },
-  {
-    "path": "cad/generate_v2.py",
-    "bytes": 4081,
-    "sha256": "78c4cdcc2119d82b6ede247ad0fb9880ee35630eb9b228d5ece841b294bda4e4"
-  },
-  {
-    "path": "docs/images/photogrammetric_front_view.png",
-    "bytes": 20448,
-    "sha256": "9ead4dc2e0be7c87bd3f6d5382ded982d5c89a5cef634df40f4b68fb584743d9"
-  },
-  {
-    "path": "docs/research/assembly.md",
-    "bytes": 1346,
-    "sha256": "fcdbc8a6dab85dbeca4a5f9c5ea96e40135e2dbe7bb5116bf53c18ff258b615a"
-  },
-  {
-    "path": "docs/research/bom.md",
-    "bytes": 1379,
-    "sha256": "1a7a2f9e861d3299aaed6e703c65b872e1c3d39070b824115e05cdb4dcc28d44"
-  },
-  {
-    "path": "docs/research/electrodes.md",
-    "bytes": 1083,
-    "sha256": "beb5de39b7778f7bfc5c58363817f4499a19a460433eba7b5718d178a9e7a8d4"
-  },
-  {
-    "path": "docs/research/evidence_matrix.tsv",
-    "bytes": 1511,
-    "sha256": "18055983246b31aac40bcd0cf2895b8577107fc80eab8bc1e174948c6bc0b528"
-  },
-  {
-    "path": "docs/research/experiment-plan.md",
-    "bytes": 1252,
-    "sha256": "fa8c085e2a4160e229a18797168eda89431947bead8edf00f494dc3efbcd1138"
-  },
-  {
-    "path": "docs/research/limitations.md",
-    "bytes": 895,
-    "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
-  },
-  {
-    "path": "docs/research/magnets.md",
-    "bytes": 742,
-    "sha256": "296c5298425bab3fdc063959dd8b1829cd68d0779ab79b72c188c028df45ad0b"
-  },
-  {
-    "path": "docs/research/photogrammetry.md",
-    "bytes": 1607,
-    "sha256": "5adefe352b28d968c1b5b8eb9ee4724ca46836947c8c91e073f7abf72a8c8343"
-  },
-  {
-    "path": "docs/research/pots.md",
-    "bytes": 643,
-    "sha256": "7d5aa751dbfa4e452045ba67fccef3c7c2b526a38aa090c23f3de1b8810f46fd"
-  },
-  {
-    "path": "docs/research/print-settings.md",
-    "bytes": 794,
-    "sha256": "cb12cbf44a7bd6fc6e1a8c73f1672ce1d7fba1298115bea51c44042fc1148a9d"
-  },
-  {
-    "path": "docs/research/printer_fit.json",
-    "bytes": 4345,
-    "sha256": "ee8bb5e6e790773f20bdc393781d135d566c6508e45f32d4465618acf7bb1131"
-  },
-  {
-    "path": "docs/research/rotor-wire-routing.md",
-    "bytes": 1430,
-    "sha256": "b3e77aa413c4970ac421aa3b16ef6b9864d6d3595334b3c1dc0a0b42f688b415"
-  },
-  {
-    "path": "docs/research/safety.md",
-    "bytes": 628,
-    "sha256": "0ea2d5bf8daf34100399147b8fc4b4d18d106865260aca1c1a4767f42915d78d"
-  },
-  {
-    "path": "docs/research/source-basis.md",
-    "bytes": 1176,
-    "sha256": "44c726111cc37ea85b881b9ef15d91ee4856e97a62f213a328d6ca93ec336dca"
-  },
-  {
-    "path": "docs/research/stl_dimensions.json",
-    "bytes": 1915,
-    "sha256": "d89a818375fcb4c8ecf6fc058870b843e120d45a606eee58ace451a5738907c9"
-  },
-  {
-    "path": "docs/research/v1-to-v2.md",
-    "bytes": 917,
-    "sha256": "65f0c7f25e3b3165938b6d5e94a5aa8a9394b972337bb6593dc0783165cddbb1"
-  },
-  {
-    "path": "docs/scientific-status.md",
-    "bytes": 1127,
-    "sha256": "9c047a6269cf22db3e1875041fd2285f7596b8934dde3b419dea75ff2e4bf9df"
-  },
-  {
-    "path": "docs/sources.md",
-    "bytes": 1350,
-    "sha256": "a304f9ea0985e98a80305780291a155d415420665562c5e8464e6975933b437b"
-  },
-  {
-    "path": "hardware/complete-model/MODEL_INFO.json",
-    "bytes": 463,
-    "sha256": "10d94590258d9f8485798f9d483b9955477ecd72cffb2d7a1261cc9d5ac46ca9"
-  },
-  {
-    "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb",
-    "bytes": 564572,
-    "sha256": "550c1792603240511669ce2d6eceddfc4c9c682c241446fee4c9aabae71557b9"
-  },
-  {
-    "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.obj",
-    "bytes": 1170381,
-    "sha256": "477f0327a0f24b83c4af96fe1c9576b785c9ed7872eeaeffb2e45858b1c343f3"
-  },
-  {
-    "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
-    "bytes": 4854750,
-    "sha256": "423cbb17cc08bc3940137802ae6f8529e56465e14935e3173a29d6901c597e24"
-  },
-  {
-    "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl",
-    "bytes": 1587284,
-    "sha256": "605ba7886cc1226fb6a2fd1e0d43668db382cf7b1f82e49274895c1510e6047a"
-  },
-  {
-    "path": "hardware/step/ASSEMBLY_REFERENCE.step",
-    "bytes": 3445123,
-    "sha256": "beff965edb11710c37114dfaf8ba3f7a1a7f6b1f52f364a443f6029e8fc61490"
-  },
-  {
-    "path": "hardware/step/base_left.step",
-    "bytes": 104631,
-    "sha256": "acb4ccd3616ee7887d03683cdb2654b18858630dba128c4106ea09e70a475a42"
-  },
-  {
-    "path": "hardware/step/base_right.step",
-    "bytes": 104670,
-    "sha256": "7551e76e8e490303ae7465c18f99cd3a268e2fd5d7491b6eccc1f75fe57964e8"
-  },
-  {
-    "path": "hardware/step/bearing_tower.step",
-    "bytes": 247100,
-    "sha256": "4d659ed700c10fb3e136b485da8f80c886f0a915815a01b1e35962326586d8ce"
-  },
-  {
-    "path": "hardware/step/center_crossbar.step",
-    "bytes": 55232,
-    "sha256": "cc5a8a6c8d6aea1fe3976cbe31244a95e0392dec9155e50fb2d96c9e2b71610b"
-  },
-  {
-    "path": "hardware/step/crystal_bridge.step",
-    "bytes": 59602,
-    "sha256": "fa0cfd538fe821d2fc418b52fe7192825911ccf50800732e7a3858679d1220dc"
-  },
-  {
-    "path": "hardware/step/crystal_insert_carrier.step",
-    "bytes": 14567,
-    "sha256": "5bb6d4c633945859347f6059683fcf8fac68a2917d16a30d62d6584082e9cc93"
-  },
-  {
-    "path": "hardware/step/electrode_angle_jig.step",
-    "bytes": 19518,
-    "sha256": "a09db77e6d6d71ff55a2401e96c67e272718c82d60f0baa039fefc2062b2682e"
-  },
-  {
-    "path": "hardware/step/electrode_swivel.step",
-    "bytes": 45235,
-    "sha256": "15d91986f1e34b29217eadedf1e66c4216b9dccd10c2eeb63cb212d3a3c1f988"
-  },
-  {
-    "path": "hardware/step/electrode_tilt_head.step",
-    "bytes": 96810,
-    "sha256": "51e7fc6675e5838fa10edcdee2876f49f958d94ba881dcca33dd3ff2934c3786"
-  },
-  {
-    "path": "hardware/step/electrode_wedge_frame.step",
-    "bytes": 36067,
-    "sha256": "94c81b0e23857ae7f10fe977165f8f9f33f4f2b3fbb25a2534b915f8e6029e0e"
-  },
-  {
-    "path": "hardware/step/guard_post.step",
-    "bytes": 14097,
-    "sha256": "2f7df1a3bf3fd3b18ccec4bc2d80517b3affa7a7e1761076eb04dd236d465619"
-  },
-  {
-    "path": "hardware/step/horseshoe_magnet_dummy.step",
-    "bytes": 15472,
-    "sha256": "7126d32a6bb385b0ed97ead7174423fda1836af588c871a71774aba88328cfe1"
-  },
-  {
-    "path": "hardware/step/horseshoe_magnet_mount.step",
-    "bytes": 108614,
-    "sha256": "720ff1da7abbef29b9f18da918d0d6811aaa1033c9fdbc481859543c8c97b101"
-  },
-  {
-    "path": "hardware/step/hub_front.step",
-    "bytes": 24850,
-    "sha256": "cfce43bc8fe8100517c8a8612d164bed90cafaf4ec130482f980d98d51cbe58a"
-  },
-  {
-    "path": "hardware/step/hub_rear.step",
-    "bytes": 20349,
-    "sha256": "f7229ffa741815ba22e2682d5241458279a688dd14a88303c06edc4b09d652ca"
-  },
-  {
-    "path": "hardware/step/optional_magnet_leg_bobbin.step",
-    "bytes": 18562,
-    "sha256": "77b6e1f17a83fca8dd58f73b26e4e580480e7eac47ab5a4eca130129f36d32bf"
-  },
-  {
-    "path": "hardware/step/pot_acrylic_sleeve_jig.step",
-    "bytes": 9566,
-    "sha256": "020d6646c3b9fc0ca1650a4ad02a20078813952685aeedd0e21fb0770aad1dff"
-  },
-  {
-    "path": "hardware/step/pot_grid_former.step",
-    "bytes": 246521,
-    "sha256": "86985af5ee62287388e4e9fd8f5871731ceb93c340c39abcd555635e7bfeb027"
-  },
-  {
-    "path": "hardware/step/pot_outer_shell.step",
-    "bytes": 27930,
-    "sha256": "8d1f3d0296059da7030433e09c6ce0314e1c6a3ec81ba5e9b4fdc6f320beb140"
-  },
-  {
-    "path": "hardware/step/pot_spiral_mandrel.step",
-    "bytes": 498243,
-    "sha256": "5c18cdd8f7fa1d14670a817c5efc5bde3d83099b5fc389acc38bdae3784bb0ce"
-  },
-  {
-    "path": "hardware/step/pot_terminal_lid.step",
-    "bytes": 20156,
-    "sha256": "0e690780fa25f046bbf7205a372a169af661a73003e5c6bc9e9c6a78ec025b53"
-  },
-  {
-    "path": "hardware/step/rear_shield_carriage_EXPERIMENT.step",
-    "bytes": 77134,
-    "sha256": "48053b515746cbd18dbeb91891ad7356730461593f84cee3248403622f2b328a"
-  },
-  {
-    "path": "hardware/step/rear_shield_rail_EXPERIMENT.step",
-    "bytes": 72321,
-    "sha256": "52debdbb570635fb081ce6fbd9414632bad64c950001b98668c3cf63d85b44ce"
-  },
-  {
-    "path": "hardware/step/rotor_20wire.step",
-    "bytes": 360710,
-    "sha256": "673f28d36f49c6d26f32d9329efb23b7d6c36b31ee7aa6f38454dccb9f849d08"
-  },
-  {
-    "path": "hardware/step/rotor_24wire.step",
-    "bytes": 440358,
-    "sha256": "5497d40d33a804b597245b9d4c131640b478bb4b2d692e72c297884b6b641baf"
-  },
-  {
-    "path": "hardware/step/rotor_25wire.step",
-    "bytes": 453066,
-    "sha256": "a6005ef5942a7b95c723e7cefe4a117251ecc560c9e9bcddbcfa83875d0997b8"
-  },
-  {
-    "path": "hardware/step/side_frame_column.step",
-    "bytes": 96809,
-    "sha256": "72dfe1226e30dff5977c85d31b49d2a670d954aca681d51a16a0d4123af3bbb0"
-  },
-  {
-    "path": "hardware/step/terminal_block.step",
-    "bytes": 46114,
-    "sha256": "7448d291bc8de540c90211a8aba040b94a221638f4a4fa06dae1b246549a9fae"
-  },
-  {
-    "path": "hardware/step/top_bridge.step",
-    "bytes": 46195,
-    "sha256": "cb0c6aaefdc3c178fdfae65cb4527ed2762f2807c5724147c18ce333971dca4f"
-  },
-  {
-    "path": "hardware/step/wire_bending_jig.step",
-    "bytes": 63786,
-    "sha256": "8ae9084ce3a254b462fea3c7f68637118a2c6cc02d1247e1214a3cb0bb94e73e"
-  },
-  {
-    "path": "hardware/stl/base_left.stl",
-    "bytes": 39484,
-    "sha256": "5d9a0d4d3697d855d7fd9988105219359dc9923fca4bd1523605aac5eaaebb76"
-  },
-  {
-    "path": "hardware/stl/base_right.stl",
-    "bytes": 39484,
-    "sha256": "11c42c9e0765440f19993478ca50e58edc86f221678edab26c375e8e7d4befb1"
-  },
-  {
-    "path": "hardware/stl/bearing_tower.stl",
-    "bytes": 95884,
-    "sha256": "4a2b6aee71b833b7136c705107de4090237f20cbaa8ac82f41d6771f1b7a0158"
-  },
-  {
-    "path": "hardware/stl/center_crossbar.stl",
-    "bytes": 22084,
-    "sha256": "29f0db301d30e753291fb09da6d313aa17fb135fbfa9b052f372782a918ff4ee"
-  },
-  {
-    "path": "hardware/stl/crystal_bridge.stl",
-    "bytes": 52484,
-    "sha256": "4ae51c0b83dd9f8528dbb82f37e5d1b3dfde8aa789299fc75205fc4507cb4dfd"
-  },
-  {
-    "path": "hardware/stl/crystal_insert_carrier.stl",
-    "bytes": 30684,
-    "sha256": "e8e8324e08e0eda429b1c3df553472ffe5e3a66324da27b8a32cb2749950ee30"
-  },
-  {
-    "path": "hardware/stl/electrode_angle_jig.stl",
-    "bytes": 41284,
-    "sha256": "a872437224c57e93d822673d3fd25a41febae0a2f0220bb07fe6c939e4348b96"
-  },
-  {
-    "path": "hardware/stl/electrode_swivel.stl",
-    "bytes": 42084,
-    "sha256": "8025e8c59ceb60508db68b9081b6ca34a98495a4e01959c5fe13bfc185f75552"
-  },
-  {
-    "path": "hardware/stl/electrode_tilt_head.stl",
-    "bytes": 46684,
-    "sha256": "b88160bbf2fb89b88ca136824daacd59b07d869c03dc18df224ee1f9a10a9e70"
-  },
-  {
-    "path": "hardware/stl/electrode_wedge_frame.stl",
-    "bytes": 12084,
-    "sha256": "678d0a5b4f3f64e3f249286a4840c985b4d5869f3322d0dc8305c80ad22f0239"
-  },
-  {
-    "path": "hardware/stl/guard_post.stl",
-    "bytes": 30684,
-    "sha256": "89cd2d4396d58d9b1067fbf59f5a7d7e9bba112990c992482ba72f83e4768ec8"
-  },
-  {
-    "path": "hardware/stl/horseshoe_magnet_dummy.stl",
-    "bytes": 684,
-    "sha256": "c5b4d162efbe370ca20e1385889f3b2989cb08af6dce3384a0a9e1188ae4f2d8"
-  },
-  {
-    "path": "hardware/stl/horseshoe_magnet_mount.stl",
-    "bytes": 54584,
-    "sha256": "decdfc289a54ac1014248b75fb78a0ce0f4b03ccc841a59591b6cb96bf77a3b2"
-  },
-  {
-    "path": "hardware/stl/hub_front.stl",
-    "bytes": 51484,
-    "sha256": "7b540f69c2cbaca0d0f845353a864ec3be2621b7f6970dcaee1e0168278a1e18"
-  },
-  {
-    "path": "hardware/stl/hub_rear.stl",
-    "bytes": 41284,
-    "sha256": "ee8c61c663c4b5526b2dc440c8840c04a96db2c63219f7a73a09bcbc7a2f6ed6"
-  },
-  {
-    "path": "hardware/stl/optional_magnet_leg_bobbin.stl",
-    "bytes": 40884,
-    "sha256": "3b75691f2d408ea81cffa1aa51fc6784b9393bd3765bb2c822412de9e1d94f1f"
-  },
-  {
-    "path": "hardware/stl/pot_acrylic_sleeve_jig.stl",
-    "bytes": 20484,
-    "sha256": "c6674e2ed321996fa57e9f321b5c320398c51d87c901a81ec7ad8bc1ad0426c5"
-  },
-  {
-    "path": "hardware/stl/pot_grid_former.stl",
-    "bytes": 44884,
-    "sha256": "45f9666768ad19b8d01195d21277a56fa997518dd54a570c870c0afffa7abe3a"
-  },
-  {
-    "path": "hardware/stl/pot_outer_shell.stl",
-    "bytes": 61284,
-    "sha256": "ac840443e676ed33ce6423af8ba195e2afac697f0ea3323ab4358995f7ca4a5f"
-  },
-  {
-    "path": "hardware/stl/pot_spiral_mandrel.stl",
-    "bytes": 196484,
-    "sha256": "731d8ac3029d837c073f2807427b2772b7321d4afb51f06ddb47d6fbcfe8007f"
-  },
-  {
-    "path": "hardware/stl/pot_terminal_lid.stl",
-    "bytes": 41284,
-    "sha256": "610316aecc29b0d4ea528b6d5abda6c0dfc2face6a78bbb225a8c74d293a27b0"
-  },
-  {
-    "path": "hardware/stl/rear_shield_carriage_EXPERIMENT.stl",
-    "bytes": 22884,
-    "sha256": "884e7fcd170cf7e2e00382631765de9c9e92ba01d23a344b54b644f7baee4e1a"
-  },
-  {
-    "path": "hardware/stl/rear_shield_rail_EXPERIMENT.stl",
-    "bytes": 43084,
-    "sha256": "0618ebbf31216b28d5c96f2c152d6160a5278843e9caaea31d29110628f757eb"
-  },
-  {
-    "path": "hardware/stl/rotor_20wire.stl",
-    "bytes": 119284,
-    "sha256": "34c121116f5db586f6076d8997c0ab14f3805f30a7404311e28e39e498e5cfce"
-  },
-  {
-    "path": "hardware/stl/rotor_24wire.stl",
-    "bytes": 122984,
-    "sha256": "00f48388fc64520d223272919b9f72ff3a699fbbc168f96f8893e7468e76f50d"
-  },
-  {
-    "path": "hardware/stl/rotor_25wire.stl",
-    "bytes": 123684,
-    "sha256": "f90e62cc04d5acda261d62d94e922958a49dd826f23d0833c9bc4b6491091b26"
-  },
-  {
-    "path": "hardware/stl/side_frame_column.stl",
-    "bytes": 99784,
-    "sha256": "e61c8fe45459e55fa329254bed3baec6e02d979dd9539d2b9da3f0aeeb47589c"
-  },
-  {
-    "path": "hardware/stl/terminal_block.stl",
-    "bytes": 42284,
-    "sha256": "ba2457b14faf5f5f11700a322969dfe2a3a34d4caf6a3b40729bf3e6917c9be8"
-  },
-  {
-    "path": "hardware/stl/top_bridge.stl",
-    "bytes": 42284,
-    "sha256": "f41dc8d3ac2a302e1f9aa0654cdfc98e331101fd8ac6a81058727c828ccf1bd2"
-  },
-  {
-    "path": "hardware/stl/wire_bending_jig.stl",
-    "bytes": 32984,
-    "sha256": "aaa981744aa38802f274de36370869814b2bcfddceb282a9342f398d3696bf7f"
-  },
-  {
-    "path": "publish-to-github.sh",
-    "bytes": 575,
-    "sha256": "9b6ae0ac418ffc70f5daeaa19e0035075558b7adb7036155b0634043633a83ed"
-  },
-  {
-    "path": "release/testatika-small-research-replica-v0.2.0.zip",
-    "bytes": 3648108,
-    "sha256": "1559186e0c8d9c4d9e31b7d88207b37049991b377af8cac8dd73cbcd616d2f54"
-  },
-  {
-    "path": "release/testatika-small-research-replica-v0.2.0.zip.sha256",
-    "bytes": 110,
-    "sha256": "666ad67ff094cb29423498999ade0aa60d823f0d98f97f538aa6badd95642184"
-  },
-  {
-    "path": "requirements-cad.txt",
-    "bytes": 43,
-    "sha256": "f229ec9defd7fccd01bd18e26d61b14a7658dc27626e83114d3902eed870719f"
-  },
-  {
-    "path": "requirements-dev.txt",
-    "bytes": 27,
-    "sha256": "4c599e4595626c3df91092fdaf06db7c575392bf351a2fc5339d8c8118fdc75b"
-  },
-  {
-    "path": "scripts/build_release.py",
-    "bytes": 843,
-    "sha256": "b642c7940add1ed9a0ea502b657c553a5760e3e0f63b2f07cc2a599c5aca33cc"
-  },
-  {
-    "path": "scripts/validate_assets.py",
-    "bytes": 1601,
-    "sha256": "3b5d890b288211eeeb164883619496d9b84f04bdb38c79ead53e8005480c06be"
-  }
-]
+{
+  "schema_version": 2,
+  "algorithm": "sha256",
+  "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
+  "file_count": 170,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 207,
+      "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "size": 640,
+      "sha256": "298457577f6a956aec1c49554a0734dbe136affe2a292c8dfc8e6aa0ae046444"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "size": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
+      "size": 745,
+      "sha256": "ddb0605e25c93f2c9e3210643328cf2f5efd4361af11d832c5ea234342f883d7"
+    },
+    {
+      "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
+      "size": 2211,
+      "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+    },
+    {
+      "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
+      "size": 5537,
+      "sha256": "fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e"
+    },
+    {
+      "path": ".github/workflows/materialize-netjournal-proposal.yml",
+      "size": 3912,
+      "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
+    },
+    {
+      "path": ".github/workflows/materialize-v3-photo.yml",
+      "size": 3013,
+      "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+    },
+    {
+      "path": ".github/workflows/preservation-guard.yml",
+      "size": 1313,
+      "sha256": "c6971c38a7d00036d5f5abcf852cf4066643c548373963ea79f91ea0a5c564c9"
+    },
+    {
+      "path": ".github/workflows/refresh-manifest.yml",
+      "size": 1229,
+      "sha256": "26eea09aa6a2619187de2fd316dc5795f15331b0c41333f9bb04456b487d92b0"
+    },
+    {
+      "path": ".github/workflows/snapshot-main.yml",
+      "size": 771,
+      "sha256": "5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 438,
+      "sha256": "e9bcba7b8eaf9bc84f3cb964fa2cebf6c1783ab82b86d5405b9ee7c3a1645bfe"
+    },
+    {
+      "path": ".gitignore",
+      "size": 390,
+      "sha256": "9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781"
+    },
+    {
+      "path": "ADDON.md",
+      "size": 855,
+      "sha256": "1b636ba20a0cf59429375bc691f86047fe8f48ed8554fd9e8c218d5ca9048579"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 2334,
+      "sha256": "0f2609ad1ea2dbe0d7eec352c1fa4c2bd6e0f5c4790364591309f4099b274181"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 4043,
+      "sha256": "76ad7f84f1559db59b97fa9c1d2d6eda7aa3aac027f328e84f9ec8a4cbbc9017"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 522,
+      "sha256": "676b088b9a5fdd9b771b387b13c7187962a09ec1329488a1f1d3797e4f7b090c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1171,
+      "sha256": "97523c0d58ed6571f14710d8108710c066d409d9e3e2b72606fc5b003abf3d01"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1309,
+      "sha256": "8a7f6475c37748cac602f3891015f1ac5baaa2a5386bf24168b4e2ba8b7af770"
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 452,
+      "sha256": "debf67be7b57466a5d869c567734f8f27d6602c435d67fb8d2b4f4f9caffcab6"
+    },
+    {
+      "path": "PRESERVATION.md",
+      "size": 3359,
+      "sha256": "76ee062430f01de9eb2c17ff50012c448a17f76823c2cc53314674aa14ffcb75"
+    },
+    {
+      "path": "PUBLISH_TO_GITHUB.ps1",
+      "size": 1014,
+      "sha256": "7970441ab70066860c0adcea5f4374e55a2a6ddd98a57db9d79761dfc8c378ce"
+    },
+    {
+      "path": "README.md",
+      "size": 10801,
+      "sha256": "f10048f5fe516e532c11cb3cec9836cb6506d05d737224c5f3cc9baaebc61baa"
+    },
+    {
+      "path": "ROADMAP.md",
+      "size": 3487,
+      "sha256": "00481418e8372786104569e22ec0ea44606f742030184a3ca87e14ff36fe8960"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 505,
+      "sha256": "972dfd17478d3a99857062dfcd2068ff0ecb81af9d36a1338cb03f12f7a46efd"
+    },
+    {
+      "path": "STATE.md",
+      "size": 232611,
+      "sha256": "cef524378e5e1d2260d0f5bcaed13de4f96e8121d149cbaac8f9e77c8a2be0c3"
+    },
+    {
+      "path": "V3_PHOTO_BRANCH.md",
+      "size": 1458,
+      "sha256": "1f8496fa2613b76b23d6f6492e917a7858aafa8c9a99a991355a06f0e623e53c"
+    },
+    {
+      "path": "addon.md",
+      "size": 51069,
+      "sha256": "67237638246b79acc45f785e31092d239d8933da9f5d962cce83b75645812873"
+    },
+    {
+      "path": "cad/README.md",
+      "size": 346,
+      "sha256": "55699d05d5c927ac481d2eea96e0ed09685a154cc8f63c2f200383bdec5d00d8"
+    },
+    {
+      "path": "cad/generate_v2.py",
+      "size": 4081,
+      "sha256": "78c4cdcc2119d82b6ede247ad0fb9880ee35630eb9b228d5ece841b294bda4e4"
+    },
+    {
+      "path": "cad/generate_v3_experiments.py",
+      "size": 4473,
+      "sha256": "b0801e97f7aaf348285754e7c29e286c67808db76f569bb988df72c90581230d"
+    },
+    {
+      "path": "cad/generate_v3_photo_interp.py",
+      "size": 8878,
+      "sha256": "be1e965bbdedabe2b27c6d0f742ccb26396607d323b35dad2ee9e272dce44eb3"
+    },
+    {
+      "path": "docs/REPLICATION_STATUS.md",
+      "size": 7344,
+      "sha256": "bd31b666f5a80917e44be25be0ba9ca6bb648819c15b672bf8f16c569e50c0e0"
+    },
+    {
+      "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
+      "size": 170287,
+      "sha256": "3a0e25c0a57b7dc7060177865ca2a979ec3100589a37a4f635412278a470bd29"
+    },
+    {
+      "path": "docs/images/photogrammetric_front_view.png",
+      "size": 20448,
+      "sha256": "9ead4dc2e0be7c87bd3f6d5382ded982d5c89a5cef634df40f4b68fb584743d9"
+    },
+    {
+      "path": "docs/images/small_machine_v3_annotation.png",
+      "size": 5410063,
+      "sha256": "fc06800ba714c969cacd91f172e8903113bb37a58badb6071c4012bd4d2b208a"
+    },
+    {
+      "path": "docs/images/small_machine_v3_functional_schematic.svg",
+      "size": 5047,
+      "sha256": "101346a3a7deee21f6e58d24c23a829081c49346c6d1c83e62491aaff0ab3a82"
+    },
+    {
+      "path": "docs/publications/net-journal/ARTICLE.md",
+      "size": 22536,
+      "sha256": "d90f46da8a1dc031792b5bc4bdc2d39955352d8f3e973b9570345f9ad3efd210"
+    },
+    {
+      "path": "docs/publications/net-journal/README.md",
+      "size": 2065,
+      "sha256": "e57584b2782911697c698c532aac6c710eafb82056944dab0237fbedd3b81439"
+    },
+    {
+      "path": "docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx",
+      "size": 1470724,
+      "sha256": "dbe13504abed6609f38ca6f1abedbf69c3505bb9938fa8f9b35fd21f937b2f33"
+    },
+    {
+      "path": "docs/publications/net-journal/Testatika_historisches_Foto.jpg",
+      "size": 1430418,
+      "sha256": "1151cbcff9e1621c38340cab2c19c2ea60bbf646474358d0731cc292100eb1e7"
+    },
+    {
+      "path": "docs/publications/net-journal/charge_state_model.png",
+      "size": 51744,
+      "sha256": "2e5f9c55793eb6e8bf755ee8f97dde15bdd38733ab72fbcc27ed71f6b618468e"
+    },
+    {
+      "path": "docs/repository-consolidation-2026-08-16.md",
+      "size": 2878,
+      "sha256": "7ede02d4caba4d01a03e30f61a07c6a7d673ba856f452ca64faa42af3f89405f"
+    },
+    {
+      "path": "docs/repository-hardening-plan-2026-08-16.md",
+      "size": 4631,
+      "sha256": "328a99be98ac4848c4956577cfae8972e635adecd4dc6eb8745a2713f5fb492e"
+    },
+    {
+      "path": "docs/research/assembly.md",
+      "size": 1346,
+      "sha256": "fcdbc8a6dab85dbeca4a5f9c5ea96e40135e2dbe7bb5116bf53c18ff258b615a"
+    },
+    {
+      "path": "docs/research/baumann-language-decoding.md",
+      "size": 44537,
+      "sha256": "26c44b331d3fdc1747d5c5450b8ad7b1979cf87d990a3e59a7bdff1d05e12747"
+    },
+    {
+      "path": "docs/research/baumann-statements.tsv",
+      "size": 9265,
+      "sha256": "e51b64cc247382e3a049444d83a466fce141c2fdfd06f16b84be37b215bb0c24"
+    },
+    {
+      "path": "docs/research/bom.md",
+      "size": 1379,
+      "sha256": "1a7a2f9e861d3299aaed6e703c65b872e1c3d39070b824115e05cdb4dcc28d44"
+    },
+    {
+      "path": "docs/research/electrodes.md",
+      "size": 2393,
+      "sha256": "91177c258a8e2a3983fa034477003122fcc127239a36606239ad2f4498429080"
+    },
+    {
+      "path": "docs/research/evidence_matrix.tsv",
+      "size": 8059,
+      "sha256": "4e77b5ffdf8b29d801eefd34fce8392c75d8982f9a8e45efc735ce59ed6cfa7f"
+    },
+    {
+      "path": "docs/research/experiment-plan.md",
+      "size": 5232,
+      "sha256": "6cd0a31e0bc0b75312967de46ff4a0fc5d18c47de07d9a1bc3cdd5df10352ab5"
+    },
+    {
+      "path": "docs/research/hartmann-overunity-cathomen-audit.md",
+      "size": 17055,
+      "sha256": "f89ac406cb82049f7c0ea5b43120a4b03504189b6417912c36c4b28775ad36a1"
+    },
+    {
+      "path": "docs/research/hartmann-overunity-provenance.md",
+      "size": 8524,
+      "sha256": "9ea029c5f4925b03333d52191b686fa9dfa482bafef2b0232cac8f76eeef2abd"
+    },
+    {
+      "path": "docs/research/hartmann-overunity-sources.tsv",
+      "size": 6616,
+      "sha256": "e30f90225dd4d953802221a40260255b8762ba5d6ea6b9776da4c68531cb870b"
+    },
+    {
+      "path": "docs/research/hartmann-overunity-testatika.md",
+      "size": 23914,
+      "sha256": "e62a3618cb1a990c8b60f94920ff36e8bd489365ceb89cdbe37f0425d66b961b"
+    },
+    {
+      "path": "docs/research/limitations.md",
+      "size": 895,
+      "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
+    },
+    {
+      "path": "docs/research/machines.yaml",
+      "size": 1812,
+      "sha256": "73880934de87d68fd223d06f70d3b82fab956fedf8c0d8f5abc51b8b82384c3b"
+    },
+    {
+      "path": "docs/research/magnets.md",
+      "size": 742,
+      "sha256": "296c5298425bab3fdc063959dd8b1829cd68d0779ab79b72c188c028df45ad0b"
+    },
+    {
+      "path": "docs/research/photogrammetry.md",
+      "size": 1607,
+      "sha256": "5adefe352b28d968c1b5b8eb9ee4724ca46836947c8c91e073f7abf72a8c8343"
+    },
+    {
+      "path": "docs/research/pots.md",
+      "size": 643,
+      "sha256": "7d5aa751dbfa4e452045ba67fccef3c7c2b526a38aa090c23f3de1b8810f46fd"
+    },
+    {
+      "path": "docs/research/print-settings.md",
+      "size": 794,
+      "sha256": "cb12cbf44a7bd6fc6e1a8c73f1672ce1d7fba1298115bea51c44042fc1148a9d"
+    },
+    {
+      "path": "docs/research/printer_fit.json",
+      "size": 4345,
+      "sha256": "ee8bb5e6e790773f20bdc393781d135d566c6508e45f32d4465618acf7bb1131"
+    },
+    {
+      "path": "docs/research/provenance-schema.yaml",
+      "size": 1707,
+      "sha256": "6d38bd6dda2ff603aacddeaaea6c15d925cd7e2c4227683c9164b13e8c85c982"
+    },
+    {
+      "path": "docs/research/r4-grid-vs-foil.md",
+      "size": 4183,
+      "sha256": "deaedb6e84e44cbb37b7cb5d172096df70ab52d9fa03a6e49fe1db15a965e7e8"
+    },
+    {
+      "path": "docs/research/rotor-wire-routing.md",
+      "size": 2670,
+      "sha256": "0027f2ecd4d97da176084c6edb6bb9e7bd983fddc9068b587a9a9d03fdd719d1"
+    },
+    {
+      "path": "docs/research/safety.md",
+      "size": 1074,
+      "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
+    },
+    {
+      "path": "docs/research/source-basis.md",
+      "size": 6999,
+      "sha256": "c8cdb0074a7d3f216fa94abdbf8fbd913c84e840ece79098ae4e58b363291b28"
+    },
+    {
+      "path": "docs/research/stl_dimensions.json",
+      "size": 1915,
+      "sha256": "d89a818375fcb4c8ecf6fc058870b843e120d45a606eee58ace451a5738907c9"
+    },
+    {
+      "path": "docs/research/v1-to-v2.md",
+      "size": 917,
+      "sha256": "65f0c7f25e3b3165938b6d5e94a5aa8a9394b972337bb6593dc0783165cddbb1"
+    },
+    {
+      "path": "docs/research/v3-photo/README.md",
+      "size": 1933,
+      "sha256": "db6a4985eadb453ae4487a8c45c825cefe96b16e1c0dd2bdb62befeca4cdcdab"
+    },
+    {
+      "path": "docs/research/v3-photo/connection-plan.tsv",
+      "size": 2644,
+      "sha256": "2e22225f2e9bcbfb6b2c012e1db9200c8806245fe7b59779958d15a8196e7706"
+    },
+    {
+      "path": "docs/research/v3-photo/functional-model.md",
+      "size": 7490,
+      "sha256": "a872180e664365f5a7ad6d354e9093739b2914a6fd47a6b3192c2d991ee0ccc6"
+    },
+    {
+      "path": "docs/research/v3-photo/node-map.tsv",
+      "size": 1878,
+      "sha256": "b52c87be5399c8f9d637621d424698af59bc193ebc5a171ef379fa5466a9e5ad"
+    },
+    {
+      "path": "docs/research/v3-photo/pixel-analysis.md",
+      "size": 14105,
+      "sha256": "1e920c4c55d73052b8a5a62669907438a107dbbb2bd8fc64ee0b09ee20678064"
+    },
+    {
+      "path": "docs/scientific-status.md",
+      "size": 6832,
+      "sha256": "88ec5ad54314cccf15741b11850516831a9dfb7b047da04c2661d036a68ca601"
+    },
+    {
+      "path": "docs/sources.md",
+      "size": 8672,
+      "sha256": "24c0a69a017cdbb6f44ab3879623ec61dc7d1698f5fba0631f47eda09a1365c5"
+    },
+    {
+      "path": "hardware/complete-model/MODEL_INFO.json",
+      "size": 463,
+      "sha256": "10d94590258d9f8485798f9d483b9955477ecd72cffb2d7a1261cc9d5ac46ca9"
+    },
+    {
+      "path": "hardware/complete-model/MODEL_INFO_V3.json",
+      "size": 351,
+      "sha256": "0612cdae0acdfecb6def75c19ff317620d7c9c778f6da075c44a3ee91cedfb66"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb",
+      "size": 564572,
+      "sha256": "550c1792603240511669ce2d6eceddfc4c9c682c241446fee4c9aabae71557b9"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.obj",
+      "size": 1170381,
+      "sha256": "477f0327a0f24b83c4af96fe1c9576b785c9ed7872eeaeffb2e45858b1c343f3"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
+      "size": 4854750,
+      "sha256": "423cbb17cc08bc3940137802ae6f8529e56465e14935e3173a29d6901c597e24"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl",
+      "size": 1587284,
+      "sha256": "605ba7886cc1226fb6a2fd1e0d43668db382cf7b1f82e49274895c1510e6047a"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step",
+      "size": 7300792,
+      "sha256": "ba5d8be14a452b7b452de0aeee23770a180f5e736b17d3a8c26fcf5c13b92c5a"
+    },
+    {
+      "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl",
+      "size": 9020484,
+      "sha256": "57198e5b639e907796709c36c2f6a4002156e58329ee842a244883b22463aa99"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/README.md",
+      "size": 985,
+      "sha256": "b0e7eb4c1bc265740d08294fabd4e193ce717c0607b45e6de3c755c3bee3f32c"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/complete-model/MODEL_INFO_V3.json",
+      "size": 351,
+      "sha256": "0612cdae0acdfecb6def75c19ff317620d7c9c778f6da075c44a3ee91cedfb66"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/complete-model/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.step",
+      "size": 7300792,
+      "sha256": "ba5d8be14a452b7b452de0aeee23770a180f5e736b17d3a8c26fcf5c13b92c5a"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/complete-model/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.stl",
+      "size": 9020484,
+      "sha256": "57198e5b639e907796709c36c2f6a4002156e58329ee842a244883b22463aa99"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/step/outer_panel_v3_photo.step",
+      "size": 909983,
+      "sha256": "4b972dabdc387a67b51eb4bbd68de911bf62c85ed3209b0a4a767f8762d087e2"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/step/rotor_24wire_v3_photo.step",
+      "size": 45027,
+      "sha256": "e928995f3d6a5861af63fb40884486d83735a313306af2e475babaf693a5f797"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/step/side_pot_v3_photo.step",
+      "size": 27906,
+      "sha256": "4479f75c9b66ac5df43a7ff0e6b33636b59d543d56f888001c55e5e3f7a5fbe5"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/step/top_module_v3_photo.step",
+      "size": 1058043,
+      "sha256": "582999bfe8652bea5f65a07ff5a0d10baf518ee5b93ff33c41443de2ce518924"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/stl/outer_panel_v3_photo.stl",
+      "size": 61484,
+      "sha256": "d22962fe51b6be3918d4c03816a3be9403f530d2c85013bed2a2a2bb5ac49df5"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/stl/rotor_24wire_v3_photo.stl",
+      "size": 93284,
+      "sha256": "986b0cae0be7e26a90a1e95353f8ded7029406f53bf1ad71c8e1a751e896ae4e"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/stl/side_pot_v3_photo.stl",
+      "size": 61284,
+      "sha256": "cfe74c5a5073fc9456dc3dc67cde5bc013ac825c9bf8243ab1f75ad40357275e"
+    },
+    {
+      "path": "hardware/experimental/v3-photo/stl/top_module_v3_photo.stl",
+      "size": 65084,
+      "sha256": "07fd4c2c1fc1ee49bb48e05c180c5baebb2d12f98dfa954a0f1990dc6b8a40ce"
+    },
+    {
+      "path": "hardware/step/ASSEMBLY_REFERENCE.step",
+      "size": 3445123,
+      "sha256": "beff965edb11710c37114dfaf8ba3f7a1a7f6b1f52f364a443f6029e8fc61490"
+    },
+    {
+      "path": "hardware/step/base_left.step",
+      "size": 104631,
+      "sha256": "acb4ccd3616ee7887d03683cdb2654b18858630dba128c4106ea09e70a475a42"
+    },
+    {
+      "path": "hardware/step/base_right.step",
+      "size": 104670,
+      "sha256": "7551e76e8e490303ae7465c18f99cd3a268e2fd5d7491b6eccc1f75fe57964e8"
+    },
+    {
+      "path": "hardware/step/bearing_tower.step",
+      "size": 247100,
+      "sha256": "4d659ed700c10fb3e136b485da8f80c886f0a915815a01b1e35962326586d8ce"
+    },
+    {
+      "path": "hardware/step/center_crossbar.step",
+      "size": 55232,
+      "sha256": "cc5a8a6c8d6aea1fe3976cbe31244a95e0392dec9155e50fb2d96c9e2b71610b"
+    },
+    {
+      "path": "hardware/step/crystal_bridge.step",
+      "size": 59602,
+      "sha256": "fa0cfd538fe821d2fc418b52fe7192825911ccf50800732e7a3858679d1220dc"
+    },
+    {
+      "path": "hardware/step/crystal_insert_carrier.step",
+      "size": 14567,
+      "sha256": "5bb6d4c633945859347f6059683fcf8fac68a2917d16a30d62d6584082e9cc93"
+    },
+    {
+      "path": "hardware/step/electrode_angle_jig.step",
+      "size": 19518,
+      "sha256": "a09db77e6d6d71ff55a2401e96c67e272718c82d60f0baa039fefc2062b2682e"
+    },
+    {
+      "path": "hardware/step/electrode_swivel.step",
+      "size": 45235,
+      "sha256": "15d91986f1e34b29217eadedf1e66c4216b9dccd10c2eeb63cb212d3a3c1f988"
+    },
+    {
+      "path": "hardware/step/electrode_tilt_head.step",
+      "size": 96810,
+      "sha256": "51e7fc6675e5838fa10edcdee2876f49f958d94ba881dcca33dd3ff2934c3786"
+    },
+    {
+      "path": "hardware/step/electrode_wedge_frame.step",
+      "size": 36067,
+      "sha256": "94c81b0e23857ae7f10fe977165f8f9f33f4f2b3fbb25a2534b915f8e6029e0e"
+    },
+    {
+      "path": "hardware/step/guard_post.step",
+      "size": 14097,
+      "sha256": "2f7df1a3bf3fd3b18ccec4bc2d80517b3affa7a7e1761076eb04dd236d465619"
+    },
+    {
+      "path": "hardware/step/horseshoe_magnet_dummy.step",
+      "size": 15472,
+      "sha256": "7126d32a6bb385b0ed97ead7174423fda1836af588c871a71774aba88328cfe1"
+    },
+    {
+      "path": "hardware/step/horseshoe_magnet_mount.step",
+      "size": 108614,
+      "sha256": "720ff1da7abbef29b9f18da918d0d6811aaa1033c9fdbc481859543c8c97b101"
+    },
+    {
+      "path": "hardware/step/hub_front.step",
+      "size": 24850,
+      "sha256": "cfce43bc8fe8100517c8a8612d164bed90cafaf4ec130482f980d98d51cbe58a"
+    },
+    {
+      "path": "hardware/step/hub_rear.step",
+      "size": 20349,
+      "sha256": "f7229ffa741815ba22e2682d5241458279a688dd14a88303c06edc4b09d652ca"
+    },
+    {
+      "path": "hardware/step/optional_magnet_leg_bobbin.step",
+      "size": 18562,
+      "sha256": "77b6e1f17a83fca8dd58f73b26e4e580480e7eac47ab5a4eca130129f36d32bf"
+    },
+    {
+      "path": "hardware/step/pot_acrylic_sleeve_jig.step",
+      "size": 9566,
+      "sha256": "020d6646c3b9fc0ca1650a4ad02a20078813952685aeedd0e21fb0770aad1dff"
+    },
+    {
+      "path": "hardware/step/pot_grid_former.step",
+      "size": 246521,
+      "sha256": "86985af5ee62287388e4e9fd8f5871731ceb93c340c39abcd555635e7bfeb027"
+    },
+    {
+      "path": "hardware/step/pot_outer_shell.step",
+      "size": 27930,
+      "sha256": "8d1f3d0296059da7030433e09c6ce0314e1c6a3ec81ba5e9b4fdc6f320beb140"
+    },
+    {
+      "path": "hardware/step/pot_spiral_mandrel.step",
+      "size": 498243,
+      "sha256": "5c18cdd8f7fa1d14670a817c5efc5bde3d83099b5fc389acc38bdae3784bb0ce"
+    },
+    {
+      "path": "hardware/step/pot_terminal_lid.step",
+      "size": 20156,
+      "sha256": "0e690780fa25f046bbf7205a372a169af661a73003e5c6bc9e9c6a78ec025b53"
+    },
+    {
+      "path": "hardware/step/rear_shield_carriage_EXPERIMENT.step",
+      "size": 77134,
+      "sha256": "48053b515746cbd18dbeb91891ad7356730461593f84cee3248403622f2b328a"
+    },
+    {
+      "path": "hardware/step/rear_shield_rail_EXPERIMENT.step",
+      "size": 72321,
+      "sha256": "52debdbb570635fb081ce6fbd9414632bad64c950001b98668c3cf63d85b44ce"
+    },
+    {
+      "path": "hardware/step/rotor_20wire.step",
+      "size": 360710,
+      "sha256": "673f28d36f49c6d26f32d9329efb23b7d6c36b31ee7aa6f38454dccb9f849d08"
+    },
+    {
+      "path": "hardware/step/rotor_24wire.step",
+      "size": 440358,
+      "sha256": "5497d40d33a804b597245b9d4c131640b478bb4b2d692e72c297884b6b641baf"
+    },
+    {
+      "path": "hardware/step/rotor_25wire.step",
+      "size": 453066,
+      "sha256": "a6005ef5942a7b95c723e7cefe4a117251ecc560c9e9bcddbcfa83875d0997b8"
+    },
+    {
+      "path": "hardware/step/side_frame_column.step",
+      "size": 96809,
+      "sha256": "72dfe1226e30dff5977c85d31b49d2a670d954aca681d51a16a0d4123af3bbb0"
+    },
+    {
+      "path": "hardware/step/terminal_block.step",
+      "size": 46114,
+      "sha256": "7448d291bc8de540c90211a8aba040b94a221638f4a4fa06dae1b246549a9fae"
+    },
+    {
+      "path": "hardware/step/top_bridge.step",
+      "size": 46195,
+      "sha256": "cb0c6aaefdc3c178fdfae65cb4527ed2762f2807c5724147c18ce333971dca4f"
+    },
+    {
+      "path": "hardware/step/wire_bending_jig.step",
+      "size": 63786,
+      "sha256": "8ae9084ce3a254b462fea3c7f68637118a2c6cc02d1247e1214a3cb0bb94e73e"
+    },
+    {
+      "path": "hardware/stl/base_left.stl",
+      "size": 39484,
+      "sha256": "5d9a0d4d3697d855d7fd9988105219359dc9923fca4bd1523605aac5eaaebb76"
+    },
+    {
+      "path": "hardware/stl/base_right.stl",
+      "size": 39484,
+      "sha256": "11c42c9e0765440f19993478ca50e58edc86f221678edab26c375e8e7d4befb1"
+    },
+    {
+      "path": "hardware/stl/bearing_tower.stl",
+      "size": 95884,
+      "sha256": "4a2b6aee71b833b7136c705107de4090237f20cbaa8ac82f41d6771f1b7a0158"
+    },
+    {
+      "path": "hardware/stl/center_crossbar.stl",
+      "size": 22084,
+      "sha256": "29f0db301d30e753291fb09da6d313aa17fb135fbfa9b052f372782a918ff4ee"
+    },
+    {
+      "path": "hardware/stl/crystal_bridge.stl",
+      "size": 52484,
+      "sha256": "4ae51c0b83dd9f8528dbb82f37e5d1b3dfde8aa789299fc75205fc4507cb4dfd"
+    },
+    {
+      "path": "hardware/stl/crystal_insert_carrier.stl",
+      "size": 30684,
+      "sha256": "e8e8324e08e0eda429b1c3df553472ffe5e3a66324da27b8a32cb2749950ee30"
+    },
+    {
+      "path": "hardware/stl/electrode_angle_jig.stl",
+      "size": 41284,
+      "sha256": "a872437224c57e93d822673d3fd25a41febae0a2f0220bb07fe6c939e4348b96"
+    },
+    {
+      "path": "hardware/stl/electrode_swivel.stl",
+      "size": 42084,
+      "sha256": "8025e8c59ceb60508db68b9081b6ca34a98495a4e01959c5fe13bfc185f75552"
+    },
+    {
+      "path": "hardware/stl/electrode_tilt_head.stl",
+      "size": 46684,
+      "sha256": "b88160bbf2fb89b88ca136824daacd59b07d869c03dc18df224ee1f9a10a9e70"
+    },
+    {
+      "path": "hardware/stl/electrode_wedge_frame.stl",
+      "size": 12084,
+      "sha256": "678d0a5b4f3f64e3f249286a4840c985b4d5869f3322d0dc8305c80ad22f0239"
+    },
+    {
+      "path": "hardware/stl/guard_post.stl",
+      "size": 30684,
+      "sha256": "89cd2d4396d58d9b1067fbf59f5a7d7e9bba112990c992482ba72f83e4768ec8"
+    },
+    {
+      "path": "hardware/stl/horseshoe_magnet_dummy.stl",
+      "size": 684,
+      "sha256": "c5b4d162efbe370ca20e1385889f3b2989cb08af6dce3384a0a9e1188ae4f2d8"
+    },
+    {
+      "path": "hardware/stl/horseshoe_magnet_mount.stl",
+      "size": 54584,
+      "sha256": "decdfc289a54ac1014248b75fb78a0ce0f4b03ccc841a59591b6cb96bf77a3b2"
+    },
+    {
+      "path": "hardware/stl/hub_front.stl",
+      "size": 51484,
+      "sha256": "7b540f69c2cbaca0d0f845353a864ec3be2621b7f6970dcaee1e0168278a1e18"
+    },
+    {
+      "path": "hardware/stl/hub_rear.stl",
+      "size": 41284,
+      "sha256": "ee8c61c663c4b5526b2dc440c8840c04a96db2c63219f7a73a09bcbc7a2f6ed6"
+    },
+    {
+      "path": "hardware/stl/optional_magnet_leg_bobbin.stl",
+      "size": 40884,
+      "sha256": "3b75691f2d408ea81cffa1aa51fc6784b9393bd3765bb2c822412de9e1d94f1f"
+    },
+    {
+      "path": "hardware/stl/pot_acrylic_sleeve_jig.stl",
+      "size": 20484,
+      "sha256": "c6674e2ed321996fa57e9f321b5c320398c51d87c901a81ec7ad8bc1ad0426c5"
+    },
+    {
+      "path": "hardware/stl/pot_grid_former.stl",
+      "size": 44884,
+      "sha256": "45f9666768ad19b8d01195d21277a56fa997518dd54a570c870c0afffa7abe3a"
+    },
+    {
+      "path": "hardware/stl/pot_outer_shell.stl",
+      "size": 61284,
+      "sha256": "ac840443e676ed33ce6423af8ba195e2afac697f0ea3323ab4358995f7ca4a5f"
+    },
+    {
+      "path": "hardware/stl/pot_spiral_mandrel.stl",
+      "size": 196484,
+      "sha256": "731d8ac3029d837c073f2807427b2772b7321d4afb51f06ddb47d6fbcfe8007f"
+    },
+    {
+      "path": "hardware/stl/pot_terminal_lid.stl",
+      "size": 41284,
+      "sha256": "610316aecc29b0d4ea528b6d5abda6c0dfc2face6a78bbb225a8c74d293a27b0"
+    },
+    {
+      "path": "hardware/stl/rear_shield_carriage_EXPERIMENT.stl",
+      "size": 22884,
+      "sha256": "884e7fcd170cf7e2e00382631765de9c9e92ba01d23a344b54b644f7baee4e1a"
+    },
+    {
+      "path": "hardware/stl/rear_shield_rail_EXPERIMENT.stl",
+      "size": 43084,
+      "sha256": "0618ebbf31216b28d5c96f2c152d6160a5278843e9caaea31d29110628f757eb"
+    },
+    {
+      "path": "hardware/stl/rotor_20wire.stl",
+      "size": 119284,
+      "sha256": "34c121116f5db586f6076d8997c0ab14f3805f30a7404311e28e39e498e5cfce"
+    },
+    {
+      "path": "hardware/stl/rotor_24wire.stl",
+      "size": 122984,
+      "sha256": "00f48388fc64520d223272919b9f72ff3a699fbbc168f96f8893e7468e76f50d"
+    },
+    {
+      "path": "hardware/stl/rotor_25wire.stl",
+      "size": 123684,
+      "sha256": "f90e62cc04d5acda261d62d94e922958a49dd826f23d0833c9bc4b6491091b26"
+    },
+    {
+      "path": "hardware/stl/side_frame_column.stl",
+      "size": 99784,
+      "sha256": "e61c8fe45459e55fa329254bed3baec6e02d979dd9539d2b9da3f0aeeb47589c"
+    },
+    {
+      "path": "hardware/stl/terminal_block.stl",
+      "size": 42284,
+      "sha256": "ba2457b14faf5f5f11700a322969dfe2a3a34d4caf6a3b40729bf3e6917c9be8"
+    },
+    {
+      "path": "hardware/stl/top_bridge.stl",
+      "size": 42284,
+      "sha256": "f41dc8d3ac2a302e1f9aa0654cdfc98e331101fd8ac6a81058727c828ccf1bd2"
+    },
+    {
+      "path": "hardware/stl/wire_bending_jig.stl",
+      "size": 32984,
+      "sha256": "aaa981744aa38802f274de36370869814b2bcfddceb282a9342f398d3696bf7f"
+    },
+    {
+      "path": "publish-to-github.sh",
+      "size": 575,
+      "sha256": "9b6ae0ac418ffc70f5daeaa19e0035075558b7adb7036155b0634043633a83ed"
+    },
+    {
+      "path": "release/experimental/Testatika_Small_V3_Photo_Artifacts.zip",
+      "size": 11354272,
+      "sha256": "06263fea94ab50f687d1028c1dc04512283008352c4a2d8e68c64c77f1bccdac"
+    },
+    {
+      "path": "release/testatika-small-research-replica-v0.2.0.zip",
+      "size": 3648108,
+      "sha256": "1559186e0c8d9c4d9e31b7d88207b37049991b377af8cac8dd73cbcd616d2f54"
+    },
+    {
+      "path": "release/testatika-small-research-replica-v0.2.0.zip.sha256",
+      "size": 110,
+      "sha256": "666ad67ff094cb29423498999ade0aa60d823f0d98f97f538aa6badd95642184"
+    },
+    {
+      "path": "requirements-cad.txt",
+      "size": 43,
+      "sha256": "f229ec9defd7fccd01bd18e26d61b14a7658dc27626e83114d3902eed870719f"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size": 27,
+      "sha256": "4c599e4595626c3df91092fdaf06db7c575392bf351a2fc5339d8c8118fdc75b"
+    },
+    {
+      "path": "scripts/apply_hartmann_overunity_v6.py",
+      "size": 26596,
+      "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
+    },
+    {
+      "path": "scripts/build_netjournal_assets.py",
+      "size": 7516,
+      "sha256": "0cdd35ba4547a95f39654ef138d206b830c002b5cfd0965093d559d2ba1ace10"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "size": 1719,
+      "sha256": "5158a295c4b7d745af170d6cc8c739de169cf71d5f49020fae1254576d7e1736"
+    },
+    {
+      "path": "scripts/build_v3_photo_annotation.py",
+      "size": 2730,
+      "sha256": "0a2784fffb30ba7d2e7877c5c50401455a39909138576777f8b074c784583a51"
+    },
+    {
+      "path": "scripts/check_manifest.py",
+      "size": 1722,
+      "sha256": "b30dd6ede8a1124b303c7ffd229fbbb50eda227d944510dd8cbf33626123603d"
+    },
+    {
+      "path": "scripts/generate_manifest.py",
+      "size": 1644,
+      "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
+    },
+    {
+      "path": "scripts/validate_assets.py",
+      "size": 6308,
+      "sha256": "2c7a5d778ea4ae4de5dee04d1a28a9f074a0e1d7dc4fbed19c74fc873f150410"
+    }
+  ]
+}
