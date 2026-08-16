@@ -39,6 +39,33 @@ Generates:
 
 Generates the V3 photo-interpretation part subset and the experimental V3 assembled STEP/STL model.
 
+### `cad/generate_v3_video_refinements.py`
+
+Generates three additive geometry refinements from the fully audited historical moving-image source, especially `meth4.asf` matched to `testabig.jpg`:
+
+- `hub_arc_pair_video_refined`;
+- `lower_central_cage_video_refined`;
+- `outer_panel_layered_video_refined`.
+
+These are **source-reproducible research geometries**, but not historically measured original parts. Their current dimensions are photo/video-fit working values. Electrical connections/materials remain deliberately unspecified.
+
+The generator was locally smoke-tested with CadQuery and successfully exported both STEP and STL for all three parts before being committed.
+
+## Generated-but-not-yet-committed binary refinement outputs
+
+The video-refinement source owns the paths under:
+
+- `hardware/experimental/v3-video-refinements/stl/`
+- `hardware/experimental/v3-video-refinements/step/`
+
+The source generator is canonical. If those generated binaries are absent from a checkout, run:
+
+```bash
+python scripts/rebuild_research_assets.py
+```
+
+Absence of generated refinement binaries is **not** evidence loss as long as the generator, source locators and parameter values remain versioned.
+
 ## Preserved binary assets not yet covered by the V2 core generator
 
 At minimum the baseline library contains additional historically useful/release assets such as:
@@ -68,9 +95,10 @@ These files remain valid **preserved research assets**. Their presence must not 
 The CAD source layer is complete when:
 
 1. every baseline STEP/STL pair has a named generator function or a documented external source procedure;
-2. the complete V2 assembly is generated from those same source parts;
-3. regenerated dimensions are checked against `docs/research/stl_dimensions.json` and model metadata;
-4. generation does not erase experimental or superseded variants;
-5. binary diffs are reviewed before replacing an established release asset.
+2. the complete V2/V3 assemblies are generated from those same source parts;
+3. video-derived refinements that become part of the assembled V3 are integrated into the complete-model generator with explicit evidence status;
+4. regenerated dimensions are checked against `docs/research/stl_dimensions.json` and model metadata;
+5. generation does not erase experimental or superseded variants;
+6. binary diffs are reviewed before replacing an established release asset.
 
 Until then, the repository prioritizes preservation over destructive binary replacement.
