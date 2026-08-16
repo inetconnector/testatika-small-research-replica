@@ -15,6 +15,7 @@ INCLUDE_FILES = [
     "cad/generate_v4_best_evidence_m2.py",
     "scripts/check_v4_assets.py",
     "docs/REPLICATION_STATUS.md",
+    "docs/research/v4-build-summary.md",
     "docs/research/v4-best-evidence-m2.md",
     "docs/research/v4-bom.md",
     "docs/research/v4-assembly.md",
