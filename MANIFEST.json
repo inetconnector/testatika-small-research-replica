@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 249,
+  "file_count": 250,
   "files": [
     {
       "path": ".gitattributes",
@@ -495,6 +495,11 @@
       "sha256": "440a49a730fc257ac621b22e884e1a0fcf4d9953015b39bf4af54e71df041dbb"
     },
     {
+      "path": "docs/research/v4-build-summary.md",
+      "size": 1220,
+      "sha256": "365385727c3a359eec6dd8c515f8a85ce5b69a4b61ca425df76bc7b9f8b48c0c"
+    },
+    {
       "path": "docs/research/v4-configurations.yaml",
       "size": 3730,
       "sha256": "608eee056a54dc36974a3790015e8b9a9dbe3aaeac5f91ba4eb48c99d28a063a"
@@ -642,7 +647,7 @@
     {
       "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step",
       "size": 7155777,
-      "sha256": "aa75e5b4fce5127c152c40d57a069e16f24453e48e03f5a18631c1c3eb0e206e"
+      "sha256": "ccb1561137e0994980f3a125c08cc06eb4e849a2584c47faf51cb0407af6c575"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl",
@@ -652,7 +657,7 @@
     {
       "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_R4_RESEARCH.step",
       "size": 7161253,
-      "sha256": "21723afa60e2f72b6ffa8cfdffbd1d9d30510c0c078fd88964e31ac56ac14f0f"
+      "sha256": "cba572c1092e9a467fb2a256732b7399af9f7026f45b9840e942a25c9a6da35c"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_R4_RESEARCH.stl",
@@ -667,87 +672,87 @@
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/guard_post_v4.step",
       "size": 31782,
-      "sha256": "50b7cce0802eae0317609d07ac1d3fd7b94314d41e9e38675bb14c392ed4b20f"
+      "sha256": "eb37b49db7574a492a9eebc7ef48238f48105bf27af416b841cbfa35779e212f"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/horseshoe_dummy_v4.step",
       "size": 62088,
-      "sha256": "5d6d8c1f9cb03be5ecfc2fc20c630c4e0741480c14ebbb34d78900fb80c57cba"
+      "sha256": "45ab89fad82f2dac250a1697c1c124a56f8bf5d0cb519947c35ba6008036577c"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/horseshoe_magnet_shape_v4.step",
       "size": 62088,
-      "sha256": "1a9d2570d3ae0e632699be494bad053f7f4f9d3eaa48cd691e5bbb0bcc765d54"
+      "sha256": "ff97a3edcde01127b8d7dbfd5dda31cf5205001507d9d0c730306631a9dc3412"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/hub_arc_pair_v4_video_refined.step",
       "size": 38575,
-      "sha256": "dc79a92c88b83383e7f10633816c261a593471921c57c4da5bc675bd6fb8a527"
+      "sha256": "0f5b1adbce8c44edc7606e53f999681c1bd80de5dcf5b1a3469da2281cddaec2"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/hub_disk_v4.step",
       "size": 29070,
-      "sha256": "677404018db9e14f0a2f7224e8f07b90b43cb8cdfb327ca5e9175513f3af9302"
+      "sha256": "25bacca136055581b2df4887f5954d4fe6e37d342ab57a5b0a05ed7753a77547"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/lower_central_cage_v4.step",
       "size": 335226,
-      "sha256": "1edf5f6954ce65f6b5bd845262977fa80aad8eee63e21b64126aeb50211ce7a5"
+      "sha256": "e755148a980b7a5dd6abe8d81281572ecc83a4878ea9d66ab33a99fad4129740"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/outer_panel_layered_v4.step",
       "size": 899224,
-      "sha256": "a052049570ecdffd1a737f826aa4b820e28d64bb6c42e87298f529864927b9da"
+      "sha256": "627b3ca402954937de57e48b33e386cca179c5394fffa3be3d8a43ca021be943"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/pot_acrylic_sleeve_jig_v4.step",
       "size": 9564,
-      "sha256": "dcc9c761dfa43137a7546fbbdde4932df2f2dd880c0ebd67c2b02df357b9df12"
+      "sha256": "57ab53c6a9b3d8f9ad11dbc33b70c3a7b9dfea79bedcd3478b6bd81737bc2aa7"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/pot_grid_former_v4.step",
       "size": 9561,
-      "sha256": "8c9ed67a3e5ac81aa7a27f58db9c07cef9a9308abcccbb32e8271bf4c5a060e4"
+      "sha256": "ddc6c443fede3e6606a2e1bab4596af4a1b3e7b41f3e8f7872dbaa186b6afebf"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/pot_outer_shell_v4.step",
       "size": 27928,
-      "sha256": "cdf90f1b1840dcfac58680b4160ddf88da763e71e0f8b5c0696c133c29b012b3"
+      "sha256": "95860ed825f1c0c8a2feb92266e2dbbbeb98dfef5daf6a8968a745a85cc23b1d"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/pot_spiral_mandrel_v4.step",
       "size": 18588,
-      "sha256": "4c30f61d2d65e8c6cbc908dd2b25df47d24ddf5567b759602ab8be003e97e3be"
+      "sha256": "f7312dacae21d4e7cfe2d262c62b67c75ecbbacc443373509c158956da4bc066"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/pot_terminal_lid_2wire_v4.step",
       "size": 15459,
-      "sha256": "192a7ec288eb421dde82986550c5633b9eaabf8d6232bd197e567eab6b488685"
+      "sha256": "367c6e607a4e9fc0837f9d80358ab74d9a1e7a3f6b1a5a40ba7c2c543419828c"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_20wire_floating_R0_v4.step",
       "size": 45047,
-      "sha256": "073b0afd75481346e5d4e9d7c3122aeeea23ae4ca00daf64ee2033094622c3e6"
+      "sha256": "432165f664ebbbeec28bb3d89bfa59b06a21059de906c24ead3e12b33decafc1"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_24wire_floating_R0_v4.step",
       "size": 45045,
-      "sha256": "d1a2fed5f66ed0abf4541e565acac453689ad7e1c68a01533793c3bd5b3943a1"
+      "sha256": "c409dcb8281136eedce6d49b752cf573776683aad15f9c4d36a6dcc621bdb3fb"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_24wire_floating_R4_v4_research.step",
       "size": 49989,
-      "sha256": "3d51e05168135bc706393c8a242e63798e6230b3e723d3ec83fa901fe9263872"
+      "sha256": "7b4e582bb43147b03c210e3a090f536925b3072f2c2f2a9c15635a02ae6a78d2"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_25wire_floating_R0_v4.step",
       "size": 45047,
-      "sha256": "7226724cd74433f9793723481cb9654f67581ce92a654f38877b74e11493091a"
+      "sha256": "6f5a75f69a6e39ac455ab53df9f55d24b60db3a0e3e7d5daec25d34feb5a5e48"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/top_crystal_carrier_4pos_v4.step",
       "size": 1083006,
-      "sha256": "1a2e0ae254d59ad4473fc4c524854f2d47b7640ec60bf46004fbae22211443fd"
+      "sha256": "52a21de52265f2daf36824701dd4bce07e6f54c4928ccd2815fb20055a887c3a"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/stl/guard_post_v4.stl",
@@ -1151,13 +1156,13 @@
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip",
-      "size": 14518450,
-      "sha256": "68d5bb93877f819c769c0abe269eb093f57d5dcc0cad01f868844f055008e51d"
+      "size": 14519305,
+      "sha256": "4ab5b47137f93573c463c006c231a3a4fc1464de1fcd6d61bb7a8128c33f7f27"
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
       "size": 114,
-      "sha256": "478b6591b39715e122d399893d322c7d2cb4c01bf2806b696eaa5b56a54f1656"
+      "sha256": "c32db97d62c6b8604118609c2c9472087e6702feac5effa7043540714ecf2cfd"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
@@ -1221,8 +1226,8 @@
     },
     {
       "path": "scripts/build_v4_package.py",
-      "size": 2472,
-      "sha256": "058b1549084e30f22e809a1e78024049ee9a6f5f05eb27ff312ddf284c4029ac"
+      "size": 2513,
+      "sha256": "87903bb32a32e480c320e9753384f61c4a94c9a05028e05d6e1d79bec43ed46b"
     },
     {
       "path": "scripts/check_manifest.py",
