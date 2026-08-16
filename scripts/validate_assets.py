@@ -19,6 +19,7 @@ REQUIRED = [
     "README.md",
     "STATE.md",
     "addon.md",
+    "ADDON.md",
     "PRESERVATION.md",
     "ROADMAP.md",
     "CITATION.cff",
@@ -43,7 +44,6 @@ REQUIRED = [
     "hardware/step/ASSEMBLY_REFERENCE.step",
 ]
 
-TEXT_SUFFIXES = {".md", ".txt", ".tsv", ".csv", ".json", ".yaml", ".yml", ".cff", ".py", ".ps1", ".sh"}
 LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 errors: list[str] = []
 warnings: list[str] = []
@@ -60,7 +60,6 @@ for item in REQUIRED:
     elif p.is_file() and p.stat().st_size == 0:
         errors.append(f"empty: {item}")
 
-# Parse all repository JSON documents.
 for p in ROOT.rglob("*.json"):
     if ".git" in p.parts:
         continue
@@ -69,8 +68,6 @@ for p in ROOT.rglob("*.json"):
     except Exception as exc:
         errors.append(f"invalid JSON {rel(p)}: {exc}")
 
-# Ensure important TSV ledgers are rectangular and IDs are unique when an id-like
-# first column is present.
 for item in [
     "docs/research/evidence_matrix.tsv",
     "docs/research/baumann-statements.tsv",
@@ -94,13 +91,17 @@ for item in [
         first_header = rows[0][0].strip().lower() if rows[0] else ""
         if first_header in {"id", "source_id", "node", "from"}:
             ids = [r[0].strip() for r in rows[1:] if r and r[0].strip()]
-            duplicates = sorted({x for x in ids if ids.count(x) > 1})
+            seen: set[str] = set()
+            duplicates: set[str] = set()
+            for value in ids:
+                if value in seen:
+                    duplicates.add(value)
+                seen.add(value)
             if duplicates:
-                errors.append(f"duplicate IDs in {item}: {', '.join(duplicates)}")
+                errors.append(f"duplicate IDs in {item}: {', '.join(sorted(duplicates))}")
     except Exception as exc:
         errors.append(f"TSV validation failed {item}: {exc}")
 
-# Validate relative Markdown links. Ignore anchors, mailto, URLs and templated badges.
 for p in ROOT.rglob("*.md"):
     if ".git" in p.parts:
         continue
@@ -123,21 +124,14 @@ for p in ROOT.rglob("*.md"):
         if not candidate.exists():
             errors.append(f"broken local link in {rel(p)}: {target}")
 
-# Known stale-document regressions that should never return.
-for item, forbidden in [
-    ("docs/research/v3-photo/pixel-analysis.md", 'Baumann\'s explanation felt like an unknown language'),
-    ("addon.md", "`ADDON.md`"),
-]:
-    p = ROOT / item
-    if p.exists() and forbidden in p.read_text(encoding="utf-8"):
-        errors.append(f"stale wording in {item}: {forbidden}")
+pixel = ROOT / "docs/research/v3-photo/pixel-analysis.md"
+if pixel.exists() and "Baumann's explanation felt like an unknown language" in pixel.read_text(encoding="utf-8"):
+    errors.append("stale unverified Marinov/unknown-language attribution returned in V3 pixel analysis")
 
-# Non-redistributed corpus markers must be explicit if mentioned.
 state = (ROOT / "STATE.md").read_text(encoding="utf-8", errors="replace") if (ROOT / "STATE.md").exists() else ""
 if "testatika.zip" in state and "not part of the public repository" not in state.lower() and "nicht bestandteil" not in state.lower():
     warnings.append("STATE.md mentions testatika.zip without an obvious public-repository exclusion marker")
 
-# Basic binary asset coverage.
 try:
     import trimesh
 
@@ -151,7 +145,6 @@ try:
 except Exception as exc:
     errors.append(f"trimesh validation failed: {exc}")
 
-# STEP assets are opaque here but must be non-empty.
 for p in list((ROOT / "hardware/step").glob("*.step")) + list((ROOT / "hardware/experimental").rglob("*.step")) + list((ROOT / "hardware/complete-model").glob("*.step")):
     if p.stat().st_size < 128:
         errors.append(f"suspiciously small STEP: {rel(p)}")
