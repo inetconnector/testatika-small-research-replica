@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 172,
+  "file_count": 173,
   "files": [
     {
       "path": ".gitattributes",
@@ -263,6 +263,11 @@
       "path": "docs/research/experiment-plan.md",
       "size": 5232,
       "sha256": "6cd0a31e0bc0b75312967de46ff4a0fc5d18c47de07d9a1bc3cdd5df10352ab5"
+    },
+    {
+      "path": "docs/research/external-corpus.md",
+      "size": 2506,
+      "sha256": "694ff8eed3d17920a68cfda69cbec4a9b0ff9f1640cff330d7317087516fea94"
     },
     {
       "path": "docs/research/hartmann-overunity-cathomen-audit.md",
