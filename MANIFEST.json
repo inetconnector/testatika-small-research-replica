@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 177,
+  "file_count": 178,
   "files": [
     {
       "path": ".gitattributes",
@@ -323,6 +323,11 @@
       "path": "docs/research/pots.md",
       "size": 643,
       "sha256": "7d5aa751dbfa4e452045ba67fccef3c7c2b526a38aa090c23f3de1b8810f46fd"
+    },
+    {
+      "path": "docs/research/primary-gap-search-2026-08-16.md",
+      "size": 3977,
+      "sha256": "6a9f822bcb2fe563985a8d2dced14517efaa460143d5a2faae4d205196ef6ccc"
     },
     {
       "path": "docs/research/print-settings.md",
