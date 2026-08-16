@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 256,
+  "file_count": 276,
   "files": [
     {
       "path": ".gitattributes",
@@ -43,6 +43,11 @@
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
       "size": 2429,
       "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+    },
+    {
+      "path": ".github/workflows/materialize-m6-large-v1.yml",
+      "size": 3269,
+      "sha256": "87491fae855f55ed5f33e40aa4dad37d1f299876f397984d727cff4388a2d80f"
     },
     {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
@@ -96,8 +101,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 5764,
-      "sha256": "dd52c816a920eac1e8a7155c45e41124a84ee13de4f75985f9ea50b1cd4c010c"
+      "size": 6836,
+      "sha256": "3b3d0b1c5f93ed775c93c67b04a1bea3848a34d4486290e5359323865224a6d4"
     },
     {
       "path": "CHANGELOG.md",
@@ -166,8 +171,13 @@
     },
     {
       "path": "cad/README.md",
-      "size": 3488,
-      "sha256": "4ea72cbdb63c917cc864a6e38db4457d4d8244d06fff56874e1f8da8c294f31b"
+      "size": 3247,
+      "sha256": "bdf6e0be3280c8ad8bc10fdcf47baa95bb8d30993e49bf841d91ea58077dd5dc"
+    },
+    {
+      "path": "cad/generate_m6_large_v1.py",
+      "size": 21363,
+      "sha256": "fd4e2c7033f05cbb5ebcd56eba6f17b7ceef396b907d8760c64dcbe87bb26e7f"
     },
     {
       "path": "cad/generate_v2.py",
@@ -193,6 +203,11 @@
       "path": "cad/generate_v4_best_evidence_m2.py",
       "size": 14750,
       "sha256": "a9bad9410b0b293f3bced88fc2f413f37b4fe6d3cad5ed2c29ce372a387c7d4c"
+    },
+    {
+      "path": "docs/M6_REPLICATION_STATUS.md",
+      "size": 3107,
+      "sha256": "ccfaa015ef2e222dd3afd0ec5b7b18cd70717350be0192f5e07d17ac8f78e7ff"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
@@ -316,8 +331,8 @@
     },
     {
       "path": "docs/research/cad-reproducibility.md",
-      "size": 4870,
-      "sha256": "6a64bad0cd0ca17e5bdb331d2fd95ae9e2f4fab5a88c6279e612e203394e11ef"
+      "size": 5955,
+      "sha256": "c6537ac30da7b8606c3ee5cb0a7fc03ef284e9fb630b8937754f80c39b58a7a9"
     },
     {
       "path": "docs/research/electrodes.md",
@@ -378,6 +393,61 @@
       "path": "docs/research/limitations.md",
       "size": 895,
       "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
+    },
+    {
+      "path": "docs/research/m6-large-v1-assembly.md",
+      "size": 5039,
+      "sha256": "f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f"
+    },
+    {
+      "path": "docs/research/m6-large-v1-best-evidence.md",
+      "size": 5839,
+      "sha256": "a6960edf49b91dc1a3dc598dc908eed0d31d1ebc7e5a9b0081fe5c62729d719e"
+    },
+    {
+      "path": "docs/research/m6-large-v1-bom.md",
+      "size": 5032,
+      "sha256": "78e193c48e9c17b69b279b3f0fbb245b376f214dc5c83209a43e2eaa4b7b9ead"
+    },
+    {
+      "path": "docs/research/m6-large-v1-build-summary.md",
+      "size": 959,
+      "sha256": "70547ac90ec73ed98b7c2c4bae9ff074f82df7f81e369dbe2c16817e30ca65d5"
+    },
+    {
+      "path": "docs/research/m6-large-v1-configurations.yaml",
+      "size": 2912,
+      "sha256": "868463870c08b632b8ffee0b58f1363840b27255aae050c50ee40082e1719a80"
+    },
+    {
+      "path": "docs/research/m6-large-v1-electrical-boundary.md",
+      "size": 3969,
+      "sha256": "4d5c2ad8fc029534c935dd4716b69a944f87f21377ef1129eebc877704bc8570"
+    },
+    {
+      "path": "docs/research/m6-large-v1-experiment-sequence.md",
+      "size": 4163,
+      "sha256": "54a3cec3f760f9058587555a3423ae8ee01456801b2e35c6712a1acf91b63a7b"
+    },
+    {
+      "path": "docs/research/m6-large-v1-printing.md",
+      "size": 2638,
+      "sha256": "9cdb73dc52b033de1f15aaa3ae4b46fe51dc66fed0c1634d1f1783ded0b8e9f8"
+    },
+    {
+      "path": "docs/research/m6-large-v1-reproducibility.md",
+      "size": 1420,
+      "sha256": "6222876fa861e1d9e1d6a4c179dade3a20ee363ea34152559153146e6e330898"
+    },
+    {
+      "path": "docs/research/m6-large-v1-source-map.tsv",
+      "size": 3665,
+      "sha256": "6cac81264ec7da372693477e7f8043b3d8747eaa1e043a75fdf33dadb276b6bb"
+    },
+    {
+      "path": "docs/research/m6-large-v1-terminal-map.tsv",
+      "size": 3185,
+      "sha256": "15f203622daac24d125ecbc55d18661fe23d47ee6199a0d5d100f33bcdb46a3f"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -603,6 +673,11 @@
       "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl",
       "size": 9020484,
       "sha256": "57198e5b639e907796709c36c2f6a4002156e58329ee842a244883b22463aa99"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/README.md",
+      "size": 644,
+      "sha256": "194a70287d47cf9ccf0e664c5ce11cb340a52ab50b76eca0230b9edf81217952"
     },
     {
       "path": "hardware/experimental/v3-photo/README.md",
@@ -1201,13 +1276,13 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
-      "size": 23600050,
-      "sha256": "3726db4165921cf7fb036fbf5e4d82ff801928b215adbd31f7a10624f7ea9ebe"
+      "size": 38107937,
+      "sha256": "2b793f0019fa69b529686298b613ce3b121b9ef20028047efd83a7f32bb632a5"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
       "size": 110,
-      "sha256": "e0f80c0e5f6d80c26504145bebae476f1ce10eb9096e8cb6acf415cdda3ea2ec"
+      "sha256": "84a0cb1ff30566fc6eb19116c890e944fd7555d62b8318cade22d1ff7b9c7c9c"
     },
     {
       "path": "requirements-cad.txt",
@@ -1225,6 +1300,16 @@
       "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
     },
     {
+      "path": "scripts/apply_m6_readme_links.py",
+      "size": 2417,
+      "sha256": "e528cdf63ea5ee4acbb7c44a08fe61d0f8246ae7da7998289004154b482fc7fe"
+    },
+    {
+      "path": "scripts/apply_m6_state.py",
+      "size": 1837,
+      "sha256": "fe8749164c563a1ce100949ca965faa71a2b8d22a47f894314cdafdced16e728"
+    },
+    {
       "path": "scripts/apply_repository_hardening.py",
       "size": 5819,
       "sha256": "73b1a2b2aae82d2cb3d5aa166e235d02a257a569ce65be2d27aa23db3d4e4722"
@@ -1233,6 +1318,11 @@
       "path": "scripts/apply_v4_state.py",
       "size": 3833,
       "sha256": "779cbcc0a147a903f994ec217574bd0fda2e3397eda07145c57d1d77b0c467af"
+    },
+    {
+      "path": "scripts/build_m6_package.py",
+      "size": 2416,
+      "sha256": "3bb2ea06da252a5319eeb817c246e89d3c573eb3fc3991e5949a2e164fd659f8"
     },
     {
       "path": "scripts/build_netjournal_assets.py",
@@ -1255,6 +1345,11 @@
       "sha256": "e53ac521bb93d2ca5aa1bda8e916b3820458a3207e747299ff37fcc661e93fe4"
     },
     {
+      "path": "scripts/check_m6_assets.py",
+      "size": 3929,
+      "sha256": "f1613443f6cd91f7878100176ca2e737ff34a1eb160f9b7efb48f4daf748a893"
+    },
+    {
       "path": "scripts/check_manifest.py",
       "size": 1722,
       "sha256": "b30dd6ede8a1124b303c7ffd229fbbb50eda227d944510dd8cbf33626123603d"
@@ -1270,14 +1365,19 @@
       "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
     },
     {
+      "path": "scripts/normalize_m6_step.py",
+      "size": 1074,
+      "sha256": "87295cbb20763e2dcdb6a43fcf7705886df71e4f6c09615ad10748721b31e313"
+    },
+    {
       "path": "scripts/normalize_v4_step.py",
       "size": 1429,
       "sha256": "c7fdeafa77426effee5f64f2e41fa71e7fc330eef21bea4212f9f716f2f04c72"
     },
     {
       "path": "scripts/rebuild_research_assets.py",
-      "size": 1016,
-      "sha256": "13f9f8eddf93bed60cbffb2c54ed00d9ccf9d96eab137f1f20d08c418be22604"
+      "size": 1130,
+      "sha256": "a5693837809993784f46e35b9e1206c84fa82e70aaf740396a623dba021da00d"
     },
     {
       "path": "scripts/validate_assets.py",
