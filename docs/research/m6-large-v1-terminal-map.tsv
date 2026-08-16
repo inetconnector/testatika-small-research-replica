@@ -1,0 +1,46 @@
+node_group	node_id	default_state	physical_target	evidence_note
+A	A1	OPEN	front stator 1	individual breakout; grouping unknown
+A	A2	OPEN	front stator 2	individual breakout; grouping unknown
+A	A3	OPEN	front stator 3	individual breakout; grouping unknown
+A	A4	OPEN	front stator 4	individual breakout; grouping unknown
+A	A5	OPEN	front stator 5	individual breakout; grouping unknown
+A	A6	OPEN	front stator 6	individual breakout; grouping unknown
+A	A7	OPEN	front stator 7	individual breakout; grouping unknown
+A	A8	OPEN	front stator 8	individual breakout; grouping unknown
+A	A9	OPEN	rear stator 1	individual breakout; grouping unknown
+A	A10	OPEN	rear stator 2	individual breakout; grouping unknown
+A	A11	OPEN	rear stator 3	individual breakout; grouping unknown
+A	A12	OPEN	rear stator 4	individual breakout; grouping unknown
+A	A13	OPEN	rear stator 5	individual breakout; grouping unknown
+A	A14	OPEN	rear stator 6	individual breakout; grouping unknown
+B	L-OG	OPEN	left cylinder outer grid	three-grid direct-source architecture
+B	L-MG	OPEN	left cylinder middle grid	three-grid direct-source architecture
+B	L-IG	OPEN	left cylinder inner grid	three-grid direct-source architecture
+B	L-W1	OPEN	left bifilar conductor 1	exact topology unknown
+B	L-W2	OPEN	left bifilar conductor 2	exact topology unknown
+B	L-MT	OPEN	left magnet tube/reference	conductive/reference role unknown
+B	L-OUT	OPEN	left top copper ring	reported output location, not closed-energy proof
+B	R-OG	OPEN	right cylinder outer grid	three-grid direct-source architecture
+B	R-MG	OPEN	right cylinder middle grid	three-grid direct-source architecture
+B	R-IG	OPEN	right cylinder inner grid	three-grid direct-source architecture
+B	R-W1	OPEN	right bifilar conductor 1	exact topology unknown
+B	R-W2	OPEN	right bifilar conductor 2	exact topology unknown
+B	R-MT	OPEN	right magnet tube/reference	conductive/reference role unknown
+B	R-OUT	OPEN	right top copper ring	reported output location, not closed-energy proof
+C	HM-L1A	OPEN	left horseshoe leg 1 winding A	individually terminated control
+C	HM-L1B	OPEN	left horseshoe leg 1 winding B	individually terminated control
+C	HM-L2A	OPEN	left horseshoe leg 2 winding A	individually terminated control
+C	HM-L2B	OPEN	left horseshoe leg 2 winding B	individually terminated control
+C	HM-R1A	OPEN	right horseshoe leg 1 winding A	individually terminated control
+C	HM-R1B	OPEN	right horseshoe leg 1 winding B	individually terminated control
+C	HM-R2A	OPEN	right horseshoe leg 2 winding A	individually terminated control
+C	HM-R2B	OPEN	right horseshoe leg 2 winding B	individually terminated control
+C	CAP7-A	OPEN	large capacitor terminal A	exact C/topology unknown
+C	CAP7-B	OPEN	large capacitor terminal B	exact C/topology unknown
+C	CAP8-A	OPEN	smaller capacitor terminal A	exact C/topology unknown
+C	CAP8-B	OPEN	smaller capacitor terminal B	exact C/topology unknown
+C	TOP-C1	OPEN	top coil/core terminal 1	top function interpreted as possible rectifier
+C	TOP-C2	OPEN	top coil/core terminal 2	top function interpreted as possible rectifier
+C	TOP-X1	EMPTY	crystal seat 1	material/polarity unknown
+C	TOP-X2	EMPTY	crystal seat 2	material/polarity unknown
+C	TOP-X3	EMPTY	crystal seat 3	material/polarity unknown

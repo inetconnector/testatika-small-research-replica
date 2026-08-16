@@ -1,0 +1,97 @@
+schema_version: 1
+machine_family: M6a/M6-large
+rule: "Change one experimental variable at a time unless a declared factorial test says otherwise."
+configurations:
+  - id: M6-V1-B0
+    name: best-evidence open baseline
+    historical_facing: true
+    geometry:
+      discs: "2 x ~500 mm, front and rear"
+      lamellae: "50 source-count positions; rear represented on both faces"
+      stators: "8 front + 6 rear, non-contact"
+      cylinders: "2; each 3 concentric grids + acrylic separators + magnet tube + bifilar winding"
+      top_module: "crystal/possible-rectifier blackbox"
+      drive: "Hauser motor/magnet-wheel positions represented"
+    electrical:
+      all_unknown_nodes: open
+      load: disconnected
+      crystal_seats: empty
+      capacitors: discharged_open
+      motor: disconnected
+
+  - id: M6-V1-LAB-MECH
+    inherits: M6-V1-B0
+    name: guarded mechanical counterrotation qualification
+    change_only:
+      - removable_lab_counterrotation_drive
+      - guard
+      - low_voltage_motor_power
+    target_rpm_sequence: [5, 10, 15, 30, 45, 60]
+    electrical_bias: none
+    load: none
+
+  - id: M6-V1-LAB-STATOR-MAP
+    inherits: M6-V1-LAB-MECH
+    name: stator influence map
+    change_only:
+      - one_selected_stator_or_declared_pair
+    cylinder_networks: open
+    top_module: open
+    load: none
+
+  - id: M6-V1-LAB-CYL-GRID
+    inherits: M6-V1-LAB-MECH
+    name: large-cylinder grid coupling map
+    change_only:
+      - selected_grid_connection
+    grid_options:
+      - all_open
+      - one_grid_referenced
+      - outer_to_meter_only
+      - middle_to_meter_only
+      - inner_to_meter_only
+    note: "No grid topology is labelled original."
+
+  - id: M6-V1-LAB-BIFILAR
+    inherits: M6-V1-LAB-MECH
+    name: bifilar winding response
+    change_only:
+      - winding_connection
+    options:
+      - both_open
+      - conductor_1_only
+      - conductor_2_only
+      - series_aiding
+      - series_opposing
+    note: "Connection is experimental; source supports two-layer bifilar function, not exact node map."
+
+  - id: M6-V1-LAB-MAGNET-DUMMY
+    inherits: M6-V1-LAB-MECH
+    name: magnetic-function control
+    change_only:
+      - magnetic_core_state
+    options: [historical_magnetic_candidate, matched_nonmagnetic_dummy]
+
+  - id: M6-V1-LAB-TOP-BLACKBOX
+    inherits: M6-V1-LAB-MECH
+    name: top-module blackbox characterization
+    change_only:
+      - top_module_insert
+    options: [empty, passive_capacitive_dummy, known_diode_control, instrumented_unknown_sample]
+    note: "No insert is called the original crystal without provenance."
+
+  - id: M6-V1-M6B-15RPM-CONTROL
+    inherits: M6-V1-LAB-MECH
+    name: Holzherr-1999 speed control point
+    change_only:
+      - rpm
+    rpm: 15
+    provenance: M6b
+
+  - id: M6-V1-M6A-60RPM-CONTROL
+    inherits: M6-V1-LAB-MECH
+    name: Hauser large-machine speed control point
+    change_only:
+      - rpm
+    rpm: 60
+    provenance: M6a

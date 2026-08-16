@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "machine_family": "M6a best-evidence large / ~500 mm two-disc research reconstruction",
+  "primary_anchor": "Albert Hauser direct-visit report and drawing 3279, 1986/1988",
+  "cross_checks": [
+    "meth2.asf",
+    "meth3.asf",
+    "meth5.asf",
+    "3kwfront.jpg",
+    "3kwrear.jpg"
+  ],
+  "historical_separation": "M6b/Holzherr-1999 observations are not silently merged when conflicting",
+  "direct_anchor_mm": {
+    "disc_diameter": 500.0,
+    "disc_thickness": 5.0,
+    "lamella_width": 20.0,
+    "lamella_length": 160.0,
+    "lamella_count": 50
+  },
+  "working_fit_mm": {
+    "base": [
+      760.0,
+      340.0,
+      28.0
+    ],
+    "disc_center_z": 315.0,
+    "cylinder_od": 146.0,
+    "cylinder_height": 235.0
+  },
+  "observed_or_source_supported_features": [
+    "two large counter-rotating discs",
+    "~50 sheet lamellae",
+    "non-contact perforated stator electrodes",
+    "8 front / 6 rear electrode working count",
+    "two large cylinder modules",
+    "three concentric metal grids per large cylinder",
+    "acrylic separators",
+    "central magnet tube",
+    "two-layer bifilar winding",
+    "wound horseshoe-magnet modules",
+    "top crystal/possible-rectifier geometry",
+    "magnet-wheel/speed-control family",
+    "small DC drive motor in Hauser configuration"
+  ],
+  "open_unknowns": [
+    "complete node-to-node wiring",
+    "exact stator grouping/polarity",
+    "exact cylinder grid/coil connections",
+    "crystal material and I-V",
+    "magnet function",
+    "exact motor/regulator train geometry",
+    "startup/priming procedure",
+    "source of claimed net output"
+  ],
+  "electrical_default": "M6-V1-B0: all unknown electrical networks open at test terminals; only low-voltage lab motor may be powered",
+  "scientific_boundary": "No over-unity claim; closed energy balance required for any anomaly claim."
+}

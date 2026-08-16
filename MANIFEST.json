@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 256,
+  "file_count": 341,
   "files": [
     {
       "path": ".gitattributes",
@@ -43,6 +43,11 @@
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
       "size": 2429,
       "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+    },
+    {
+      "path": ".github/workflows/materialize-m6-large-v1.yml",
+      "size": 3269,
+      "sha256": "87491fae855f55ed5f33e40aa4dad37d1f299876f397984d727cff4388a2d80f"
     },
     {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
@@ -96,8 +101,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 5764,
-      "sha256": "dd52c816a920eac1e8a7155c45e41124a84ee13de4f75985f9ea50b1cd4c010c"
+      "size": 6836,
+      "sha256": "3b3d0b1c5f93ed775c93c67b04a1bea3848a34d4486290e5359323865224a6d4"
     },
     {
       "path": "CHANGELOG.md",
@@ -136,8 +141,8 @@
     },
     {
       "path": "README.md",
-      "size": 17002,
-      "sha256": "695c56383f291f0067ebc0859ff8451b96650d0a77739b39bca1fa05d35975e7"
+      "size": 18444,
+      "sha256": "b439f0d35852c54bd93fb375d2925ff48887e8bfc4fe6fef2e432754607906b6"
     },
     {
       "path": "ROADMAP.md",
@@ -151,8 +156,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 238367,
-      "sha256": "8f271d7737e02abb1b90aac1305f1b1c4ca6cd428205ac69d0d98791ac715ee0"
+      "size": 239710,
+      "sha256": "1f64fdbcdddc190e5790cae88f7c2569ba9499f47c069b4d58fee4cc1d1b6f49"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -161,13 +166,18 @@
     },
     {
       "path": "addon.md",
-      "size": 56152,
-      "sha256": "f35855cda80cf7be03ada2d67a5507bd5dd9ce73a7ca66caa072eab7e4dab202"
+      "size": 57495,
+      "sha256": "d6a846166935c5d751b92b87a8b3b8d2ec70f41fbd3705af78947608d4513548"
     },
     {
       "path": "cad/README.md",
-      "size": 3488,
-      "sha256": "4ea72cbdb63c917cc864a6e38db4457d4d8244d06fff56874e1f8da8c294f31b"
+      "size": 3247,
+      "sha256": "bdf6e0be3280c8ad8bc10fdcf47baa95bb8d30993e49bf841d91ea58077dd5dc"
+    },
+    {
+      "path": "cad/generate_m6_large_v1.py",
+      "size": 21363,
+      "sha256": "fd4e2c7033f05cbb5ebcd56eba6f17b7ceef396b907d8760c64dcbe87bb26e7f"
     },
     {
       "path": "cad/generate_v2.py",
@@ -193,6 +203,11 @@
       "path": "cad/generate_v4_best_evidence_m2.py",
       "size": 14750,
       "sha256": "a9bad9410b0b293f3bced88fc2f413f37b4fe6d3cad5ed2c29ce372a387c7d4c"
+    },
+    {
+      "path": "docs/M6_REPLICATION_STATUS.md",
+      "size": 3107,
+      "sha256": "ccfaa015ef2e222dd3afd0ec5b7b18cd70717350be0192f5e07d17ac8f78e7ff"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
@@ -316,8 +331,8 @@
     },
     {
       "path": "docs/research/cad-reproducibility.md",
-      "size": 4870,
-      "sha256": "6a64bad0cd0ca17e5bdb331d2fd95ae9e2f4fab5a88c6279e612e203394e11ef"
+      "size": 5955,
+      "sha256": "c6537ac30da7b8606c3ee5cb0a7fc03ef284e9fb630b8937754f80c39b58a7a9"
     },
     {
       "path": "docs/research/electrodes.md",
@@ -378,6 +393,61 @@
       "path": "docs/research/limitations.md",
       "size": 895,
       "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
+    },
+    {
+      "path": "docs/research/m6-large-v1-assembly.md",
+      "size": 5039,
+      "sha256": "f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f"
+    },
+    {
+      "path": "docs/research/m6-large-v1-best-evidence.md",
+      "size": 5839,
+      "sha256": "a6960edf49b91dc1a3dc598dc908eed0d31d1ebc7e5a9b0081fe5c62729d719e"
+    },
+    {
+      "path": "docs/research/m6-large-v1-bom.md",
+      "size": 5032,
+      "sha256": "78e193c48e9c17b69b279b3f0fbb245b376f214dc5c83209a43e2eaa4b7b9ead"
+    },
+    {
+      "path": "docs/research/m6-large-v1-build-summary.md",
+      "size": 959,
+      "sha256": "70547ac90ec73ed98b7c2c4bae9ff074f82df7f81e369dbe2c16817e30ca65d5"
+    },
+    {
+      "path": "docs/research/m6-large-v1-configurations.yaml",
+      "size": 2912,
+      "sha256": "868463870c08b632b8ffee0b58f1363840b27255aae050c50ee40082e1719a80"
+    },
+    {
+      "path": "docs/research/m6-large-v1-electrical-boundary.md",
+      "size": 3969,
+      "sha256": "4d5c2ad8fc029534c935dd4716b69a944f87f21377ef1129eebc877704bc8570"
+    },
+    {
+      "path": "docs/research/m6-large-v1-experiment-sequence.md",
+      "size": 4163,
+      "sha256": "54a3cec3f760f9058587555a3423ae8ee01456801b2e35c6712a1acf91b63a7b"
+    },
+    {
+      "path": "docs/research/m6-large-v1-printing.md",
+      "size": 2638,
+      "sha256": "9cdb73dc52b033de1f15aaa3ae4b46fe51dc66fed0c1634d1f1783ded0b8e9f8"
+    },
+    {
+      "path": "docs/research/m6-large-v1-reproducibility.md",
+      "size": 1420,
+      "sha256": "6222876fa861e1d9e1d6a4c179dade3a20ee363ea34152559153146e6e330898"
+    },
+    {
+      "path": "docs/research/m6-large-v1-source-map.tsv",
+      "size": 3665,
+      "sha256": "6cac81264ec7da372693477e7f8043b3d8747eaa1e043a75fdf33dadb276b6bb"
+    },
+    {
+      "path": "docs/research/m6-large-v1-terminal-map.tsv",
+      "size": 3185,
+      "sha256": "15f203622daac24d125ecbc55d18661fe23d47ee6199a0d5d100f33bcdb46a3f"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -603,6 +673,326 @@
       "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl",
       "size": 9020484,
       "sha256": "57198e5b639e907796709c36c2f6a4002156e58329ee842a244883b22463aa99"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/README.md",
+      "size": 644,
+      "sha256": "194a70287d47cf9ccf0e664c5ce11cb340a52ab50b76eca0230b9edf81217952"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step",
+      "size": 27771780,
+      "sha256": "13da324626857b80dc7d6f370590785a4f486edc015b82828e4c74197ce6da6e"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl",
+      "size": 17532984,
+      "sha256": "9606bb70e35fd84cfb6508e194dfc02b3a815c0227a016379bbaf6e7d75815ed"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step",
+      "size": 28329449,
+      "sha256": "850099666f5b4c03fd99c31d0a59c6fa309336aa313a51b6a58413ba15e36bcf"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl",
+      "size": 17720784,
+      "sha256": "9769ee682df7551e3070ca31e34b9e8519e2b2a6dd8b4d587ab935b5f02f8f5a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SERVICE_EXPLODED.step",
+      "size": 17778308,
+      "sha256": "0d145a2b000f0e3fe283abf5bc0b9b857503948e4b71e3ce96bdf5dd0a8de8d5"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SERVICE_EXPLODED.stl",
+      "size": 13340484,
+      "sha256": "3973f606dfac39147b305e4ba887837294805916e4d3ceb902f4ac4c1c8b51d9"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/metadata/MODEL_INFO_M6_V1.json",
+      "size": 1862,
+      "sha256": "41292b9b7bb23d05b11149d27acadc801156af2a9da3bbea74acccb39e008ccd"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/adjustable_lab_motor_mount_m6_v1.step",
+      "size": 123099,
+      "sha256": "4541a5bfd80272b972deaeb38cdbfc45c395a201f0228917c93373e90a2f8728"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/base_platform_m6_v1.step",
+      "size": 149483,
+      "sha256": "0edb542ea4e4de387984383c4c9e4702b55bf6d79bd119e4579f335ca55cb23e"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/bearing_pedestal_m6_v1.step",
+      "size": 144141,
+      "sha256": "da2014f31853b81c198fb3116408086fdf3285ec92fda2d99f3167dcc8efdaad"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/capacitor_big_m6_v1.step",
+      "size": 28740,
+      "sha256": "fa94a4c5bf098343648c2f1f49d188cb5351f9e940673a5044c550aa2362289d"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/capacitor_small_m6_v1.step",
+      "size": 28709,
+      "sha256": "68bb1607d9358d4846ee3cb0dcb67491c761b9d7b148d2fdd766e46628feac70"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/drive_regulator_module_m6_v1.step",
+      "size": 583794,
+      "sha256": "cb5a3fe6939ff22b4727310da20f9af585d82119682c65bbd63c22edd5a37fe7"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/front_disc_500mm_50lamella_m6_v1.step",
+      "size": 932250,
+      "sha256": "e1bdbd175ac4a30c082519fd51808f3707cabfad4542375d81165776f40e5398"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/horseshoe_wound_module_m6_v1.step",
+      "size": 1618786,
+      "sha256": "b6d2b189955b47f79d142d560e47d13b30ce31a1018879f7f7bf52c368130150"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/lab_counterrotation_drive_m6_v1.step",
+      "size": 307381,
+      "sha256": "3796df9771feb8923ddd4d57fc41292d817dee7f308a0c3eed2b0696fc044f6c"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/lab_drive_pulley_m6_v1.step",
+      "size": 9572,
+      "sha256": "68e249d8ece4b31b675b0730d98a05b410086461a986a2f98bd4fd532ca7d27e"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/lab_guard_frame_m6_v1.step",
+      "size": 200327,
+      "sha256": "deebc11e597b3499f178dcd580c7a97c148945b2550ea99f97a0e4d5ff4a7f06"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_acrylic_inner_m6_v1.step",
+      "size": 9591,
+      "sha256": "a31842ab10c85880c16a80b3b41962a68feb6cdffb94034dc00eb34390902b15"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_acrylic_outer_m6_v1.step",
+      "size": 9591,
+      "sha256": "a42abee1a6b954320e45f023c05314820adc3c39fd335198f95fd64a2d25b0ca"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_bifilar_winding_m6_v1.step",
+      "size": 1100544,
+      "sha256": "fbfa0ffa90305caa7e687bca60038e3397cebaedc31e7a46cf1e07fa450f241a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_complete_3grid_bifilar_m6_v1.step",
+      "size": 4878400,
+      "sha256": "f1b91f98ee2fe5daf808e56c4b7d6c7b15d5736181b8c8127e700258767c83ef"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_cutaway_3grid_bifilar_m6_v1.step",
+      "size": 4815563,
+      "sha256": "f0775a5eca68be9bed0fc9e7e7ae08e5e64ae78af1fc6a37bcbb96979e1feee5"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_grid_inner_m6_v1.step",
+      "size": 1071402,
+      "sha256": "8f130716bd699d1b538a75bbff595e8e6a56930d836c61bf637000f75540aa6c"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_grid_middle_m6_v1.step",
+      "size": 1170096,
+      "sha256": "9aa98be270e3dfd395e822ab6c9d5f56d59c036741f1e31a95e151b5c94efce5"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_grid_outer_m6_v1.step",
+      "size": 1340292,
+      "sha256": "5a652e8709873fb1617aa585b87ca7d223ad012ff8455bae09e8b22f9a8f9a59"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/large_cylinder_magnet_tube_m6_v1.step",
+      "size": 22941,
+      "sha256": "760850be95aac3281fdf44853b8982cf714d2a39497bc4a2a491db62c33878c6"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/magnet_timing_wheel_m6_v1.step",
+      "size": 458442,
+      "sha256": "d03be3fd77439f083130d521a1a237b31dd09d200a8a2c14d9464c06865f2468"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/rear_disc_500mm_50lamella_both_sides_m6_v1.step",
+      "size": 1839645,
+      "sha256": "4ca28d130213d2268ae9e8fa7819673eb7da6c457a7c004cfa86cdf2f8ef685d"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/shaft_nested_counterrotation_m6_v1.step",
+      "size": 56269,
+      "sha256": "122f56596c07b73b8aeb72909684743fd62c7111b0af23662ea4a96f39dc8c86"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/spiral_pipe_m6_v1.step",
+      "size": 156774,
+      "sha256": "c094f980900b969ed6ae4f00cf9cf58c207d461ef405bc9caa2f8e490b4fbd7c"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/stationary_electrode_perforated_m6_v1.step",
+      "size": 534158,
+      "sha256": "801de6190b7469b756699ab9e7e29a7a26dfbb9c11473d3195b786ab5ea6e899"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/stationary_electrode_sets_8front_6rear_m6_v1.step",
+      "size": 8175888,
+      "sha256": "04a1ce4d5bcf02e2225dbfdb0ae9729d13c63ac54843b4b35f017ac43855b757"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/terminal_board_3isolated_open_m6_v1.step",
+      "size": 109436,
+      "sha256": "5807d05a364783e614e2ef48e895fe94c934837da4d02a45c5ad4674deb3a2fb"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/step/top_crystal_rectifier_blackbox_m6_v1.step",
+      "size": 1233063,
+      "sha256": "9bb7b57ad1b21ffdec09f73a3917586f55a0a4595c7f1a3494c123664d3fab12"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/adjustable_lab_motor_mount_m6_v1.stl",
+      "size": 61884,
+      "sha256": "30c11e263979b7d6cc6498002b839ffa6ce5a673582c928359f492cd7cbcf734"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/base_platform_m6_v1.stl",
+      "size": 104084,
+      "sha256": "6a8a61dbd792373f6890e4c42b09192f7601144ac888b9c5f56ea8e2444f2b4a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/bearing_pedestal_m6_v1.stl",
+      "size": 50484,
+      "sha256": "b2fab4eb0e24b7148e033c6eb92d46dba8c5f3eac8687affabc87c3217da579c"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/capacitor_big_m6_v1.stl",
+      "size": 41484,
+      "sha256": "e343cbb9ad90401a0de246b97b439ef0bc5ebc0528f942f5cb8759a1748a5a0c"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/capacitor_small_m6_v1.stl",
+      "size": 41484,
+      "sha256": "c5ead0de370b32b31b79fe225cd1eef52aeb5c01c1ea40598d77fc14a19649da"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/drive_regulator_module_m6_v1.stl",
+      "size": 207884,
+      "sha256": "9f7b14baa5ceea87b375801e4444311b413824056575ec642c96bc68a08f8764"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/front_disc_500mm_50lamella_m6_v1.stl",
+      "size": 106684,
+      "sha256": "a505195b0260dc6804e1c9542e443d8940be66a80ee75f8c0170f9832c8453c3"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/horseshoe_wound_module_m6_v1.stl",
+      "size": 609084,
+      "sha256": "46cba77b8cca614d04a54aa5ed041ebb8e62be1933052a1dec6f7fc3f1e8d6e6"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/lab_counterrotation_drive_m6_v1.stl",
+      "size": 166684,
+      "sha256": "2da33cce89f81223323b96986d0ef51ff8a280600255675aa33f2677cd7973b8"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/lab_drive_pulley_m6_v1.stl",
+      "size": 16884,
+      "sha256": "6e7e00b43347bf79edc2ab781b14db25e1c0c9ce2348822e517a8f0a0704a053"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/lab_guard_frame_m6_v1.stl",
+      "size": 56484,
+      "sha256": "e2c94c61d61c128ff44939b3a507a45014eaf8dc52164374718f8cb677b03fe9"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_acrylic_inner_m6_v1.stl",
+      "size": 16884,
+      "sha256": "530efd97e795f50493990999f9f9f97876b86f05378a0872462092c80dcde28e"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_acrylic_outer_m6_v1.stl",
+      "size": 16884,
+      "sha256": "d439b147ccf4c3478f75ac45b050599deb5906745f3211be6f3660542006e5e8"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_bifilar_winding_m6_v1.stl",
+      "size": 9943684,
+      "sha256": "a24bca0887118edef0fbbb440ce123ed25890b5a8303f9650ed56702f6fa1724"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_complete_3grid_bifilar_m6_v1.stl",
+      "size": 11789884,
+      "sha256": "f8ba82cc4797335785e56512281ed8d613ba82b9b99c66d5ce774c732979cb83"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_cutaway_3grid_bifilar_m6_v1.stl",
+      "size": 11757884,
+      "sha256": "0ad07d218016c334929be95b2029e53efc6d7b78f04d7cb3aed69ce531ccd0db"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_grid_inner_m6_v1.stl",
+      "size": 561684,
+      "sha256": "e3997c18c45a901de4364ae30279baa750e5e75c2a0c35f704bf12b5a478135b"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_grid_middle_m6_v1.stl",
+      "size": 614084,
+      "sha256": "e1752e6230ee78ccd552d568a7b2b9c4021c4857005e85da5fa2c3f02f7a6eae"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_grid_outer_m6_v1.stl",
+      "size": 685284,
+      "sha256": "63865539bdde2e6d451e2ad7bc59b2da1af99a889b80abab8347a63c69f75a8d"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/large_cylinder_magnet_tube_m6_v1.stl",
+      "size": 33284,
+      "sha256": "eb235d0da252096b5f9ab008c81364c5c29730217d8cd964e74314e6d480351a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/magnet_timing_wheel_m6_v1.stl",
+      "size": 146484,
+      "sha256": "0e01c25768950a64cf42462b55d129b37bc8e82fe688cc1d09d64f304c3cbda5"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/rear_disc_500mm_50lamella_both_sides_m6_v1.stl",
+      "size": 136684,
+      "sha256": "4422301a4fcaba67febc7fa6bb4c6fa906587a1814591d546eedfedc863ef5ae"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/shaft_nested_counterrotation_m6_v1.stl",
+      "size": 92284,
+      "sha256": "8321106824ae712dda1b1fffbc0ae101e64203d5c893d345458601a1824e8fe1"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/spiral_pipe_m6_v1.stl",
+      "size": 4268084,
+      "sha256": "0d3458ae52d36b8e9468ac00bd269d35e127339b75e2741e7751cdc8b7552639"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/stationary_electrode_perforated_m6_v1.stl",
+      "size": 55884,
+      "sha256": "be94a885243cb70cc5b48c353cac7ab2c6f0b69bf9d264a3d6cf07e7b648890a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/stationary_electrode_sets_8front_6rear_m6_v1.stl",
+      "size": 781284,
+      "sha256": "6ad6fa5c75800db10e8a1fb003acec2ede62cea5be9a25ad34813addb968f7ec"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/terminal_board_3isolated_open_m6_v1.stl",
+      "size": 45484,
+      "sha256": "760cad053f7f1b49bbced822c1309390925b29c0e3a093490ea188efcdb8fb9d"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/stl/top_crystal_rectifier_blackbox_m6_v1.stl",
+      "size": 754284,
+      "sha256": "a2eb493fe59c3fa6e6e99f4b6128c72a237e762b3acd41b9809ce2ff2845ee0b"
     },
     {
       "path": "hardware/experimental/v3-photo/README.md",
@@ -1190,6 +1580,16 @@
       "sha256": "97b88d2c76f49e48f60e3f1da1a426fe17a7d218424defae38ebff97c1d82410"
     },
     {
+      "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip",
+      "size": 54120088,
+      "sha256": "40b26db6870b202c3e2dcf03702fcc2b4643b4ee37377e503a8f413564249231"
+    },
+    {
+      "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip.sha256",
+      "size": 120,
+      "sha256": "7516ce3b9fdb1a0fdb5e3dc0a209907bcc5508abe08cfda2eb900d98bb042722"
+    },
+    {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
       "size": 3648108,
       "sha256": "1559186e0c8d9c4d9e31b7d88207b37049991b377af8cac8dd73cbcd616d2f54"
@@ -1201,13 +1601,13 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
-      "size": 23600050,
-      "sha256": "3726db4165921cf7fb036fbf5e4d82ff801928b215adbd31f7a10624f7ea9ebe"
+      "size": 38107937,
+      "sha256": "2b793f0019fa69b529686298b613ce3b121b9ef20028047efd83a7f32bb632a5"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
       "size": 110,
-      "sha256": "e0f80c0e5f6d80c26504145bebae476f1ce10eb9096e8cb6acf415cdda3ea2ec"
+      "sha256": "84a0cb1ff30566fc6eb19116c890e944fd7555d62b8318cade22d1ff7b9c7c9c"
     },
     {
       "path": "requirements-cad.txt",
@@ -1225,6 +1625,16 @@
       "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
     },
     {
+      "path": "scripts/apply_m6_readme_links.py",
+      "size": 2656,
+      "sha256": "5669950f0f35992356380926dee6396917ca3a2dee014e10f8f52bf4a544e067"
+    },
+    {
+      "path": "scripts/apply_m6_state.py",
+      "size": 1837,
+      "sha256": "fe8749164c563a1ce100949ca965faa71a2b8d22a47f894314cdafdced16e728"
+    },
+    {
       "path": "scripts/apply_repository_hardening.py",
       "size": 5819,
       "sha256": "73b1a2b2aae82d2cb3d5aa166e235d02a257a569ce65be2d27aa23db3d4e4722"
@@ -1233,6 +1643,11 @@
       "path": "scripts/apply_v4_state.py",
       "size": 3833,
       "sha256": "779cbcc0a147a903f994ec217574bd0fda2e3397eda07145c57d1d77b0c467af"
+    },
+    {
+      "path": "scripts/build_m6_package.py",
+      "size": 2416,
+      "sha256": "3bb2ea06da252a5319eeb817c246e89d3c573eb3fc3991e5949a2e164fd659f8"
     },
     {
       "path": "scripts/build_netjournal_assets.py",
@@ -1255,6 +1670,11 @@
       "sha256": "e53ac521bb93d2ca5aa1bda8e916b3820458a3207e747299ff37fcc661e93fe4"
     },
     {
+      "path": "scripts/check_m6_assets.py",
+      "size": 4151,
+      "sha256": "808c956a27394ea37f9e15841f08dc52e6c44114bb19276ea174fb6e4d2390e5"
+    },
+    {
       "path": "scripts/check_manifest.py",
       "size": 1722,
       "sha256": "b30dd6ede8a1124b303c7ffd229fbbb50eda227d944510dd8cbf33626123603d"
@@ -1270,14 +1690,19 @@
       "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
     },
     {
+      "path": "scripts/normalize_m6_step.py",
+      "size": 1074,
+      "sha256": "87295cbb20763e2dcdb6a43fcf7705886df71e4f6c09615ad10748721b31e313"
+    },
+    {
       "path": "scripts/normalize_v4_step.py",
       "size": 1429,
       "sha256": "c7fdeafa77426effee5f64f2e41fa71e7fc330eef21bea4212f9f716f2f04c72"
     },
     {
       "path": "scripts/rebuild_research_assets.py",
-      "size": 1016,
-      "sha256": "13f9f8eddf93bed60cbffb2c54ed00d9ccf9d96eab137f1f20d08c418be22604"
+      "size": 1130,
+      "sha256": "a5693837809993784f46e35b9e1206c84fa82e70aaf740396a623dba021da00d"
     },
     {
       "path": "scripts/validate_assets.py",

@@ -1995,3 +1995,18 @@ Still historically unresolved — do not invent:
 
 Scientific boundary remains unchanged: no over-unity/free-energy claim is established. Energy conservation is the null hypothesis; any anomaly requires closed, uncertainty-aware energy accounting and independent replication.
 
+<!-- M6-LARGE-V1-STATE -->
+## M6 Large V1 best-evidence build
+
+The repository now has a second canonical physical-build line for the large ~500-mm two-disc family. `M6-V1-B0` is anchored primarily to Albert Hauser's 1986/1988 M6a material and cross-checked against `meth2/meth3/meth5`. It is separate from M2 V4.
+
+Canonical generator: `cad/generate_m6_large_v1.py`.
+Materialized CAD: `hardware/experimental/m6-large-v1-best-evidence/`.
+Primary STL: `complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl`.
+Guarded lab STL: `complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl`.
+Build docs: `docs/research/m6-large-v1-*`.
+
+Direct anchors include ~500 x 5 mm disc geometry, ~50 sheet lamellae (~0.2 x 20 x 160 mm source dimensions), ~8 front + ~6 rear non-contact perforated stators, three concentric grid tubes per large cylinder, acrylic separators, central magnet tube, two-layer bifilar ~18-gauge winding, wound horseshoe modules, top crystal/possible-rectifier geometry, and Hauser's motor/magnet-wheel large-machine configuration.
+
+Historical hidden node wiring, exact crystal material/function, exact magnetic function, exact cylinder interconnections, exact startup state and any net-energy source remain unresolved. The V1 electrical default leaves unknown networks open at explicit test terminals. No over-unity claim is made.
+
