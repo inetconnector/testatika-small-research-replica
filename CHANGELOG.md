@@ -1,8 +1,8 @@
 # Changelog
 
-## Unreleased — archive + Kelly source expansion
+## Unreleased — archive + primary scans + full video audit
 
-### Added
+### Added — historical archive / Kelly expansion
 
 - `docs/research/archive-audit-2026-08-16.md`: provenance-first audit of the user-supplied historical Testatika archive without redistributing third-party source files.
 - `docs/research/archive-source-ledger.tsv`: hash/source/evidence ledger for the highest-value archive items.
@@ -12,13 +12,40 @@
 - PMMA pre-conditioning/electret-control experiments, surface-potential mapping and charge-decay measurement.
 - expanded slow-rpm sweep and four-terminal top-module experiment matrix.
 
+### Added — direct Hauser / Marinov primary-scan audit
+
+- `docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`.
+- `docs/research/hauser-source-ledger.tsv` with per-scan SHA-256, source role, date text, machine scope and evidence class.
+- direct Marinov scan evidence that Baumann had **`ANOTHER language`** when trying to explain the principle. The popular phrase `like an unknown language` remains an unverified exact paraphrase, but the underlying language-mismatch statement is now primary-source supported.
+- direct Marinov small-machine statement that rotor wires are **`connected to nothing`**; preferred M2 electrical baseline is now individually floating sectors.
+- direct statement that two wires are visible going to each side condenser; historical research pots now require a two-terminal external mode.
+- direct Marinov rejection of Tesla-coil/AC interpretation of the small machine and identification of the side spirals as condenser electrodes.
+- direct small-machine no-conventional-drive-motor statement; laboratory rpm drives must be removable/decouplable instrumentation.
+- direct source separation between Marinov's `crystal`, Methernitha's institutional `rectifying diode`, Hauser's large-machine top-crystal/rectifier interpretation and Holzherr's four-lead early top-module memory.
+- Hauser 1986/1988 large-machine details including ~500-mm/50-lamella rotor geometry, non-contact stators, three concentric grid cylinders, acrylic separators, central magnet tube and bifilar winding; all kept outside the M2 pot baseline.
+
+### Added — complete historical video pass
+
+- `docs/research/video-frame-audit-2026-08-16.md`.
+- `docs/research/video-source-ledger.tsv` with hashes, embedded metadata, durations, decoded frame counts and machine scopes.
+- all eight archive video streams traversed: **35,445 decoded video frames** total.
+- `meth4.asf` linked visually to `testabig.jpg`; moving close-ups strengthen V3 geometry for the small assembly.
+- two symmetric copper-coloured hub arcs upgraded from flat `markings` to likely raised physical-component candidates; electrical role remains unknown.
+- outer small-machine panels confirmed visually as layered structures rather than one flat perforated plate.
+- lower central V3 module refined conceptually toward a perforated cage/prismatic geometry.
+- `testa01.ram` / `testa02.ram` embedded 2001 metadata anchors Dieter Dienst / Luzi Cathomen Methernitha-lab provenance and multi-machine workshop context.
+- `testatikadeutsch.wmv` identified as a visual duplicate/re-encode/language variant of `meth2.asf`; preserved but not double-counted as independent geometry evidence.
+- machine taxonomy expanded with `M4a`, `M6a`, `M6b` and `M7` to prevent cross-machine component leakage.
+
 ### Source-control decisions
 
 - Kelly/Potter/Utkin material remains S2/I1 hypothesis/source-discovery material, not Testatika primary evidence.
-- 12-cm Holzherr machines are kept distinct from Marinov's ~200-mm M2.
-- the 20-layer perforated capacitor statement is assigned to the large-machine family and is not imported into M2 pots.
-- the four-lead top-module description is retained as a small-family topology lead, not a solved M2 crystal circuit.
-- electret/dielectric conditioning is promoted only to a controlled experiment, not to an asserted historical mechanism or energy source.
+- 12-cm Holzherr/Hauser small machines are kept distinct from Marinov's ~200-mm M2 until identity is proven.
+- the 20-layer perforated capacitor statement and Hauser's three-grid/magnet/bifilar cylinders are assigned to large-machine families and are not imported into M2 pots.
+- the four-lead top-module description remains a small-family topology lead, not a solved M2 crystal circuit.
+- electret/dielectric conditioning is only a controlled experiment, not an asserted historical mechanism or energy source.
+- late `1 kΩ between lamellae` material is explicitly weaker than the direct small-machine `connected to nothing` statement and cannot be M2 baseline.
+- archived power labels, lamp demonstrations and meter deflections remain demonstration/source claims, not closed energy measurements.
 
 ## v0.3.0 — 2026-08-16
 
@@ -66,8 +93,8 @@ The V3 model remains **experimental/photo-interpreted** even where a convenience
 
 ### Corrected
 
-- the phrase "like an unknown language" is **not verified as a direct Marinov quotation**.
-- the V3 pixel-analysis document no longer derives claims from that unverified attribution.
+- the phrase `like an unknown language` was not verified as a direct Marinov quotation at v0.3.0 time; subsequent Unreleased primary-scan audit now finds the related direct wording `ANOTHER language` while preserving the exact-quote distinction.
+- the V3 pixel-analysis document no longer derives claims from an invented quotation.
 - black visible parts are not automatically interpreted as carbon, oxide, nanocoating or conductive blackening; Cathomen's black-Plexiglas statement is retained as a model-specific counter-hypothesis.
 - stale branch-based preservation wording is replaced by snapshot-tag/Git-history recovery rules.
 
