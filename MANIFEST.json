@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 204,
+  "file_count": 205,
   "files": [
     {
       "path": ".gitattributes",
@@ -1008,6 +1008,11 @@
       "path": "scripts/check_manifest.py",
       "size": 1722,
       "sha256": "b30dd6ede8a1124b303c7ffd229fbbb50eda227d944510dd8cbf33626123603d"
+    },
+    {
+      "path": "scripts/check_v4_assets.py",
+      "size": 3487,
+      "sha256": "7acb2b63a428a57cacc32997f08f3306c2a290d8b21d041eba75d06fae0b24bd"
     },
     {
       "path": "scripts/generate_manifest.py",
