@@ -51,8 +51,8 @@
     },
     {
       "path": ".github/workflows/materialize-v3-photo.yml",
-      "size": 3013,
-      "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+      "size": 2175,
+      "sha256": "4cde306b57d1e3b64e0cf1967693477a10426515107dd1452440f65f7f10c6de"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
