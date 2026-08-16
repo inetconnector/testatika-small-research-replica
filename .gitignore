@@ -35,3 +35,4 @@ desktop.ini
 # Do not commit third-party source scans/books by default
 third_party_scans/
 source_scans/
+/.vs
