@@ -17,11 +17,12 @@ COMMANDS = [
     [sys.executable, "cad/generate_v3_photo_interp.py"],
     [sys.executable, "cad/generate_v3_video_refinements.py"],
     [sys.executable, "cad/generate_v4_best_evidence_m2.py"],
+    [sys.executable, "scripts/normalize_v4_step.py"],
 ]
 
 for command in COMMANDS:
     print("+", " ".join(command))
     subprocess.run(command, cwd=ROOT, check=True)
 
-print("Source-reproducible CAD families rebuilt, including V4 best-evidence M2.")
+print("Source-reproducible CAD families rebuilt, including deterministic V4 STEP metadata.")
 print("Preserved binary-only/legacy assets were not deleted.")
