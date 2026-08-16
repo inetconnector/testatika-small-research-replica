@@ -31,8 +31,8 @@
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
-      "size": 1485,
-      "sha256": "90880422e5c91077931af01988c4cb49be69808c12be5bcd4ece155b575420f9"
+      "size": 1771,
+      "sha256": "a36ad6642684168cef7e06bf2fc06857699428f40189c4b604a7debbea7918ef"
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/materialize-release-v0.3.yml",
-      "size": 1502,
-      "sha256": "a1d366047d7de5a9aa1f73760239613165dc3552e3c2541df3b48bc85202eb13"
+      "size": 1739,
+      "sha256": "f36d9ad460ebdbbe1e7d3bcc211780793567860a6a5711f5fa2f8f63dc53bc98"
     },
     {
       "path": ".github/workflows/materialize-v3-photo.yml",
@@ -61,8 +61,8 @@
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
-      "size": 1229,
-      "sha256": "26eea09aa6a2619187de2fd316dc5795f15331b0c41333f9bb04456b487d92b0"
+      "size": 1515,
+      "sha256": "4aa1ed9b9069ce1d4d1922aea1863c0255f7d83f1c6934356065ab6b8dfc8c0e"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
@@ -101,8 +101,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "size": 1171,
-      "sha256": "97523c0d58ed6571f14710d8108710c066d409d9e3e2b72606fc5b003abf3d01"
+      "size": 3455,
+      "sha256": "02731a9cc74937bd622096f18afb9d0c86d899ffd1174915bb9af7e940af3948"
     },
     {
       "path": "LICENSE",
