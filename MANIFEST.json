@@ -1226,8 +1226,8 @@
     },
     {
       "path": "scripts/build_v4_package.py",
-      "size": 2513,
-      "sha256": "87903bb32a32e480c320e9753384f61c4a94c9a05028e05d6e1d79bec43ed46b"
+      "size": 2549,
+      "sha256": "9fd200cf654f4eca20707860e01b2ffe534024a7e762de65646a56bb852e50a6"
     },
     {
       "path": "scripts/check_manifest.py",
