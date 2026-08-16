@@ -1,5 +1,7 @@
 # Montage — Marinov First Machine V2
 
+> **Historischer V2-Montagepfad.** Für einen neuen Nachbau ist jetzt der quellenkritisch engere V4-Pfad maßgeblich: [`v4-assembly.md`](v4-assembly.md). V2 bleibt vollständig erhalten, damit frühere Geometrie-/Versuchsstände reproduzierbar bleiben.
+
 ## A. Basis
 1. `base_left` und `base_right` verbinden.
 2. Gesamtarbeitsmaß: etwa 370 × 180 mm.
@@ -12,6 +14,8 @@
 3. `hub_front` + gewählten Rotor + `hub_rear`.
 4. Nominal: `rotor_24wire`.
 5. Kupferdraht nach einer dokumentierten R0–R3-Variante montieren.
+
+**Quellenkorrektur seit V4:** Direkte Marinov-Korrespondenz stützt elektrisch voneinander getrennte/floating Sektordrähte. Für einen aktuellen M2-Bau keine Nachbar-Ringverbindung verwenden.
 
 ## C. Elektroden
 1. Metallgaze in `electrode_wedge_frame`.
@@ -27,6 +31,8 @@ Je Seite:
 - echtes Acrylrohr/Dielektrikum;
 - innere Kupferspirale;
 - Deckel/Messanschluss.
+
+**Quellenkorrektur seit V4:** Zwei sichtbare Leitungen pro Kondensator sind direkt belegt; siehe `v4-bom.md` und `v4-electrical-boundary.md`.
 
 ## E. Magnete
 Zwei `horseshoe_magnet_mount` unterhalb/seitlich des Rotorzentrums montieren.
