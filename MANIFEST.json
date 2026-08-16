@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 253,
+  "file_count": 254,
   "files": [
     {
       "path": ".gitattributes",
@@ -523,6 +523,11 @@
       "path": "docs/research/v4-printing.md",
       "size": 3780,
       "sha256": "1895b6952ebc4798be6ea25550dd5e3cee495176c3abb71db18fc1d6e83d6f4d"
+    },
+    {
+      "path": "docs/research/v4-reproducibility-proof.txt",
+      "size": 567,
+      "sha256": "53e21d74911a0f367927220e0763c36375def8a664833ee4c63300d45334c04a"
     },
     {
       "path": "docs/research/v4-reproducibility.md",
