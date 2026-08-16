@@ -48,6 +48,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Manifest already current.'
           else
-            git commit -m 'chore: refresh repository manifest [skip ci]'
+            git commit -m 'chore: refresh repository manifest'
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
