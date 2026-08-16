@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 175,
+  "file_count": 176,
   "files": [
     {
       "path": ".gitattributes",
@@ -28,6 +28,11 @@
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
       "size": 2211,
       "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+    },
+    {
+      "path": ".github/workflows/apply-repository-hardening.yml",
+      "size": 1485,
+      "sha256": "90880422e5c91077931af01988c4cb49be69808c12be5bcd4ece155b575420f9"
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
@@ -136,8 +141,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 232611,
-      "sha256": "cef524378e5e1d2260d0f5bcaed13de4f96e8121d149cbaac8f9e77c8a2be0c3"
+      "size": 235296,
+      "sha256": "d65a758eb2662b0a76189380502d410125382cafb84c5c5f49d5489e58af234a"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -146,8 +151,8 @@
     },
     {
       "path": "addon.md",
-      "size": 51069,
-      "sha256": "67237638246b79acc45f785e31092d239d8933da9f5d962cce83b75645812873"
+      "size": 53081,
+      "sha256": "d7767dfef7741e45b7bbb6e16dc6d48b8fb96a22dc862afa4ce66e45b4c48837"
     },
     {
       "path": "cad/README.md",
@@ -242,7 +247,7 @@
     {
       "path": "docs/research/baumann-statements.tsv",
       "size": 9265,
-      "sha256": "e51b64cc247382e3a049444d83a466fce141c2fdfd06f16b84be37b215bb0c24"
+      "sha256": "6506e0e35cb6d3b2c2aefeb5171891252c21e74dc9012a9e1e26945b4b351dc4"
     },
     {
       "path": "docs/research/bom.md",
