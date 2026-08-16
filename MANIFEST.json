@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 178,
+  "file_count": 179,
   "files": [
     {
       "path": ".gitattributes",
@@ -383,6 +383,11 @@
       "path": "docs/research/v3-photo/README.md",
       "size": 1933,
       "sha256": "db6a4985eadb453ae4487a8c45c825cefe96b16e1c0dd2bdb62befeca4cdcdab"
+    },
+    {
+      "path": "docs/research/v3-photo/archive/pixel-analysis-pre-hardening-2026-08-16.md",
+      "size": 15823,
+      "sha256": "fc0dab469de584d4664b941b5a3e1ea182f7e933239b1f3c90f64ed2ad817cf5"
     },
     {
       "path": "docs/research/v3-photo/connection-plan.tsv",

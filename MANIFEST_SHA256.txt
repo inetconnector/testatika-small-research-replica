@@ -74,6 +74,7 @@ c8cdb0074a7d3f216fa94abdbf8fbd913c84e840ece79098ae4e58b363291b28  docs/research/
 d89a818375fcb4c8ecf6fc058870b843e120d45a606eee58ace451a5738907c9  docs/research/stl_dimensions.json
 65f0c7f25e3b3165938b6d5e94a5aa8a9394b972337bb6593dc0783165cddbb1  docs/research/v1-to-v2.md
 db6a4985eadb453ae4487a8c45c825cefe96b16e1c0dd2bdb62befeca4cdcdab  docs/research/v3-photo/README.md
+fc0dab469de584d4664b941b5a3e1ea182f7e933239b1f3c90f64ed2ad817cf5  docs/research/v3-photo/archive/pixel-analysis-pre-hardening-2026-08-16.md
 2e22225f2e9bcbfb6b2c012e1db9200c8806245fe7b59779958d15a8196e7706  docs/research/v3-photo/connection-plan.tsv
 a872180e664365f5a7ad6d354e9093739b2914a6fd47a6b3192c2d991ee0ccc6  docs/research/v3-photo/functional-model.md
 b52c87be5399c8f9d637621d424698af59bc193ebc5a171ef379fa5466a9e5ad  docs/research/v3-photo/node-map.tsv
