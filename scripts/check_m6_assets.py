@@ -81,10 +81,12 @@ def main():
         if phrase not in features:
             raise SystemExit(f"M6 metadata missing source constraint: {phrase}")
 
+    # The STEP circle is exactly 500 mm. STL chord tessellation can undershoot the
+    # axis-aligned mesh extent slightly depending on angular phase/tolerance.
     front=mesh_extents(BASE/"stl"/"front_disc_500mm_50lamella_m6_v1.stl")
     largest=sorted(front)[-2:]
-    if not all(499.0 <= x <= 501.5 for x in largest):
-        raise SystemExit(f"front disc diameter out of tolerance: {front}")
+    if not all(498.0 <= x <= 501.5 for x in largest):
+        raise SystemExit(f"front disc tessellated diameter out of tolerance: {front}")
 
     complete=mesh_extents(BASE/"complete-model"/"Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl")
     guarded=mesh_extents(BASE/"complete-model"/"Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl")
@@ -94,6 +96,7 @@ def main():
         raise SystemExit(f"guarded model should not be smaller: complete={complete}, guarded={guarded}")
 
     print("M6 Large V1 asset verification passed.")
+    print("Front disc tessellated bbox:", front)
     print("Complete bbox:", complete)
     print("Guarded bbox:", guarded)
 
