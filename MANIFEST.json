@@ -1626,8 +1626,8 @@
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
-      "size": 2417,
-      "sha256": "e528cdf63ea5ee4acbb7c44a08fe61d0f8246ae7da7998289004154b482fc7fe"
+      "size": 2656,
+      "sha256": "5669950f0f35992356380926dee6396917ca3a2dee014e10f8f52bf4a544e067"
     },
     {
       "path": "scripts/apply_m6_state.py",
