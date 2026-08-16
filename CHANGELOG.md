@@ -1,72 +1,100 @@
 # Changelog
 
-## Unreleased — Baumann / Methernitha language reconstruction
+## v0.3.0 — 2026-08-16
 
-### Added
-- `docs/research/baumann-language-decoding.md`: source-by-source reconstruction of what Paul Baumann/Methernitha actually said and a conservative engineering translation of their non-standard vocabulary
-- `docs/research/baumann-statements.tsv`: machine-readable provenance ledger separating Baumann, institutional Methernitha, Luzi Cathomen, Marinov and later secondary attributions
-- explicit correction that the phrase "like an unknown language" is **not currently verified as a direct Marinov quotation**
-- mathematical charge-state / variable-capacitance model for `Taster`, charge sorting, crystal/diode commutation and drive/load buses
-- prioritized phase-resolved falsification experiments
+Integrated research-hardening release covering R4, V3 photo interpretation, Baumann/Methernitha language reconstruction, Hartmann/Overunity provenance, replication-completeness tracking and repository integrity automation.
 
-### Updated
-- source hierarchy and provenance documentation
-- scientific-status model
-- V3 experiment plan
-- README quick access and current operating-model hypothesis
-- AGENTS rules preventing speaker/source conflation
+### Added — replication and provenance
 
-### Current working interpretation
-The strongest source-compatible model is phasengesteuertes elektrostatisches charge-state management: influence/variable capacitance → non-contact pickup → polarity-selective routing → nonlinear crystal/diode commutation → drive/storage buses → cyclic bias regeneration. This is a testable engineering model, **not** evidence for net energy creation.
+- `docs/REPLICATION_STATUS.md`: canonical M2 completeness ledger distinguishing observed, source-stated, photo-derived, derived, hypothesized, conflicting and unknown details.
+- `docs/research/machines.yaml`: canonical machine taxonomy preventing silent property transfer between variants.
+- `docs/research/provenance-schema.yaml`: canonical source/provenance fields and evidence-distance vocabulary.
+- `docs/repository-hardening-plan-2026-08-16.md`: preservation-first execution and acceptance plan.
+- `ADDON.md`: case-safe compatibility entry point; `addon.md` remains the canonical large handoff.
+- `docs/research/cad-reproducibility.md`: explicit source-to-binary CAD reproducibility boundary.
+- `scripts/rebuild_research_assets.py`: one entry point for all currently source-reproducible CAD families.
+- deterministic manifest generation/checking through `scripts/generate_manifest.py` and `scripts/check_manifest.py`.
+- automatic manifest refresh workflow.
 
-## Unreleased — R4 / grid-vs-foil research add-on
+### Added — R4 / grid-vs-foil research
 
-### Added
-- optional `cad/generate_v3_experiments.py`
-- R4 research geometry for 20/24/25-sector rotors
-- explicit three-side-change routing hypothesis from the Holzherr report
-- geometry-controlled mesh-vs-solid-foil A/B electrode fixture
-- 1/2/3 mm gap-gauge generation
-- dedicated `docs/research/r4-grid-vs-foil.md` protocol
+- `cad/generate_v3_experiments.py`.
+- R4 research geometry for 20/24/25-sector rotors.
+- explicit three-side-change routing hypothesis from the Holzherr report.
+- geometry-controlled mesh-vs-solid-foil A/B electrode fixture.
+- 1/2/3-mm gap-gauge generation.
+- `docs/research/r4-grid-vs-foil.md` protocol.
 
-### Documentation
-- R4 added to rotor-routing taxonomy
-- evidence matrix distinguishes the Holzherr observation from verified M2 geometry
-- electrode documentation now includes blinded mesh-vs-foil testing
+R4 remains a high-priority cross-source hypothesis, **not** a claimed known Marinov M2 original.
 
-### Scientific position
-R4 is a high-priority cross-source hypothesis, **not** asserted as the known Marinov M2 original. A mesh/foil difference would establish a geometry-dependent electrostatic/corona effect, not an energy anomaly.
+### Added — V3 photo interpretation
+
+- higher-resolution external geometry reconstruction.
+- V3 STEP/STL complete photo-interpretation model.
+- annotated photo and functional schematic.
+- node-map and provisional connection-plan research ledgers.
+- explicit black-material uncertainty and reversible test strategy.
+
+The V3 model remains **experimental/photo-interpreted** even where a convenience alias uses `V3_COMPLETE` in the filename.
+
+### Added — Baumann / Methernitha language reconstruction
+
+- `docs/research/baumann-language-decoding.md`.
+- `docs/research/baumann-statements.tsv`.
+- source-by-source engineering translation of `Taster`, charge sorting, diode/crystal commutation, grid capacitors and drive/storage concepts.
+- prioritized phase-resolved falsification experiments.
+
+### Corrected
+
+- the phrase "like an unknown language" is **not verified as a direct Marinov quotation**.
+- the V3 pixel-analysis document no longer derives claims from that unverified attribution.
+- black visible parts are not automatically interpreted as carbon, oxide, nanocoating or conductive blackening; Cathomen's black-Plexiglas statement is retained as a model-specific counter-hypothesis.
+- stale branch-based preservation wording is replaced by snapshot-tag/Git-history recovery rules.
+
+### Added — Hartmann / Overunity.com V6 source audit
+
+- `docs/research/hartmann-overunity-testatika.md`.
+- `docs/research/hartmann-overunity-sources.tsv`.
+- `docs/research/hartmann-overunity-cathomen-audit.md`.
+- `docs/research/hartmann-overunity-provenance.md`.
+- historical Overunity Testatika thread/media provenance (`topic 75`, `testa01.rm`, `testa02.rm`, `meth5.asf`).
+- quantitative audit of Hartmann's capacitor-sharing example and air-density statement.
+- H36–H42 hypothesis set.
+
+Hartmann's June-2000 electret/influence interpretation is retained as a useful secondary convergence. Atmospheric-ion energy-source, weak-radioactive-mineral and negative-resistance explanations remain unverified hypotheses. No radioactive-material experiments are part of the project.
+
+### Repository engineering
+
+- repository validation expanded beyond simple file existence/STL checks to JSON, TSV, local Markdown references, core V2/V3 assets and known stale-attribution regressions.
+- release builder advanced to `v0.3.0` and expanded to include source, documentation, CAD, scripts, manifests and preserved binary research assets.
+- `CITATION.cff` advanced to 0.3.0.
+- old v0.2.0 release artifacts remain preserved and are not overwritten.
+
+### Current scientific position
+
+The strongest source-compatible working model is electrostatic charge-state management:
+
+> influence / variable capacitance → non-contact pickup → polarity-selective routing → nonlinear crystal/diode commutation → drive/storage buses → cyclic bias regeneration → model-dependent impedance conditioning.
+
+This is a falsifiable engineering model, **not** evidence for net energy creation. A historical 1:1 detail is never declared resolved merely because a plausible reconstruction exists.
 
 ## v0.2.0 — 2026-08-16
 
 First publication-ready repository release.
 
 ### Added
-- first-small-machine photogrammetric V2 reconstruction
-- 20/24/25-wire rotor variants
-- STL and STEP part libraries
-- complete assembled STEP/STL/OBJ/GLB model
-- evidence matrix and source hierarchy
-- rotor wire-routing hypotheses R0–R3
-- first-machine horseshoe-magnet correction
-- experimental shield-plate jig
-- scientific-status and safety documentation
-- repository validation workflow
+
+- first-small-machine photogrammetric V2 reconstruction.
+- 20/24/25-wire rotor variants.
+- STL and STEP part libraries.
+- complete assembled STEP/STL/OBJ/GLB model.
+- evidence matrix and source hierarchy.
+- rotor wire-routing hypotheses R0–R3.
+- first-machine horseshoe-magnet correction.
+- experimental shield-plate jig.
+- scientific-status and safety documentation.
+- initial repository validation workflow.
 
 ### Scientific position
+
 No over-unity or free-energy claim is asserted. Unknown historical wiring remains explicitly unknown.
-
-## Unreleased — Hartmann / Overunity.com V6 source audit
-
-### Added
-- `docs/research/hartmann-overunity-testatika.md`: dated source-role audit from Hartmann's 1992 electrostatic frame through the 1999 Holzherr distribution chain, June-2000 electret model and later radioactive/negative-resistance hypotheses
-- `docs/research/hartmann-overunity-sources.tsv`: machine-readable provenance ledger
-- historical Overunity Testatika thread/media provenance (`topic 75`, `testa01.rm`, `testa02.rm`, `meth5.asf`)
-- quantitative audit of Hartmann's capacitor-sharing example and air-density statement
-- H36–H42 hypothesis set
-
-### Updated additively
-- `STATE.md`, `docs/sources.md`, `docs/research/source-basis.md`, `docs/research/evidence_matrix.tsv`, `docs/scientific-status.md`, `docs/research/baumann-language-decoding.md`, `docs/research/safety.md`, and `README.md`
-
-### Scientific position
-Hartmann's June-2000 electret/influence interpretation is retained as a useful secondary convergence with the charge-state model. His atmospheric-ion energy-source, weak-radioactive-mineral and negative-resistance explanations remain unverified hypotheses. No radioactive-material experiments are part of this repository.

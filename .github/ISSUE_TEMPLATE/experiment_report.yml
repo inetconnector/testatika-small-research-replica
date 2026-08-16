@@ -4,27 +4,65 @@ title: "[EXPERIMENT] "
 labels: ["experiment"]
 body:
   - type: input
+    id: commit
+    attributes:
+      label: Repository commit
+      description: Exact commit SHA used for CAD/docs/configuration.
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Machine ID
+      description: Use the canonical ID from docs/research/machines.yaml (usually M2 for the primary small-machine target).
+    validations:
+      required: true
+  - type: input
     id: configuration
     attributes:
-      label: Configuration
-      description: Rotor variant, wire routing, electrode geometry, pot configuration.
+      label: Configuration ID
+      description: Record topology, rotor route/material, electrode insert, crystal surrogate, magnet and shield state; see docs/research/replica-configuration-matrix.md.
+    validations:
+      required: true
+  - type: textarea
+    id: geometry
+    attributes:
+      label: Geometry and materials
+      description: Rotor, conductor, electrode gap/angle, pot build, crystal surrogate, magnets and shield configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Temperature, relative humidity, pressure and relevant magnetic/electric-field context.
     validations:
       required: true
   - type: textarea
     id: instruments
     attributes:
       label: Instruments and calibration
+      description: Model, range, calibration/check method, probe/loading details and uncertainty where known.
     validations:
       required: true
   - type: textarea
     id: inputs
     attributes:
       label: All energy inputs / initial stored energy
+      description: Mechanical, bias, auxiliary and initially stored electrical/mechanical energy.
     validations:
       required: true
   - type: textarea
     id: results
     attributes:
       label: Results and raw data
+      description: Link/attach raw data, analysis script, timings and final stored-energy state. Separate observations from interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: falsification
+    attributes:
+      label: Controls / falsification result
+      description: Dummy/blind/control condition, negative result, load reaction and what the experiment rules out or fails to rule out.
     validations:
       required: true

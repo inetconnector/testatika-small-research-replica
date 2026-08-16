@@ -22,8 +22,10 @@ What Marinov contributes that matters for interpretation:
 - there are **no rubbing collector brushes**;
 - the side cylindrical units behave most plausibly like **capacitor modules**;
 - Baumann referred to an upper component as a **"crystal"**;
-- Marinov explicitly says he **did not understand the full circuit** and found Baumann's explanation difficult to decode;
+- Marinov explicitly says he **did not understand the full circuit**;
 - he rejected later overconfident descriptions involving straightforward Tesla-coil / AC explanations for the small machine.
+
+Important source correction: a literal Marinov statement that Baumann's explanation sounded like an **"unknown language" has not been verified**. Hans Holzherr, independently, reported that Baumann was difficult to understand because he spoke softly/quickly and used non-scientific terms; Methernitha's own archived technical description also used non-standard vocabulary. Those are separate provenance lines and must not be collapsed into a Marinov quotation.
 
 ### 2.3 What is deliberately not inferred from the photo alone
 
@@ -32,7 +34,7 @@ The photo cannot, by itself, prove:
 - exact polarities;
 - exact current direction;
 - hidden internal connections inside the top module;
-- whether black surfaces are paint, oxide, shadow, carbonized coating, dark plastic, or a true conductive blackening;
+- whether black surfaces are paint, oxide, shadow, dark plastic, backing, or a conductive blackening;
 - whether the lower springs are only mechanical tensioners, only electrical links, or both.
 
 ---
@@ -78,7 +80,7 @@ The machine can be decomposed into the following visible external groups.
 **Interpretation:**
 - this is the most plausible location for Baumann's "crystal" element or crystal-containing package;
 - the symmetrical end sections suggest the module is not a single-output terminal block but part of a balancing / coupling structure;
-- because Baumann told Marinov only that it related to a "crystal", not a plainly named resistor/capacitor/coil, the safest interpretation is:
+- because the historical function is unresolved, the safest test categories are:
   - **charge conditioning**,
   - **one-way or threshold-like behaviour**,
   - **balancing or bleed control**, or
@@ -119,13 +121,9 @@ Marinov's comparison with electrostatic motor ideas makes this interpretation mo
 - on top of each dark inset appears a reddish horizontal multi-wire/coil-like strip.
 
 **Interpretation:**
-- these are almost certainly **electrically relevant panel electrodes**, not mere decoration;
+- these are probably electrically relevant panel structures rather than pure decoration;
 - the combination of an outer light carrier plus inner dark fine grid suggests at least **two structural/material layers**;
-- the reddish strip may be:
-  - a connecting bus,
-  - a wound conductor,
-  - a folded copper strip,
-  - or a charge-collection equalizer.
+- the reddish strip may be a connecting bus, wound conductor, folded copper strip, or charge-collection equalizer.
 
 ### 3.7 Middle horizontal / side cross-panels near rotor axis
 
@@ -135,7 +133,7 @@ Marinov's comparison with electrostatic motor ideas makes this interpretation mo
 - additional short perforated plates stand close to the rotor on both sides.
 
 **Interpretation:**
-- these probably define **intermediate electrode families**, not a single monolithic plate;
+- these probably define intermediate electrode families rather than one monolithic plate;
 - the layout suggests separated potential regions around the rotor.
 
 ### 3.8 Lower decorative/functional "clover" plates
@@ -144,7 +142,7 @@ Marinov's comparison with electrostatic motor ideas makes this interpretation mo
 - below mid-height and inward from the outer pots are two plate-like ornaments with multiple repeated clover/quatrefoil cut-outs.
 
 **Interpretation:**
-- they may be decorative, but because of their symmetry and proximity to other nodes they could also be field-shaping plates or lightweight electrode forms;
+- they may be decorative, but their symmetry and placement leave open a field-shaping/electrode role;
 - their exact electrical participation is unknown.
 
 ### 3.9 Lower front collector panel
@@ -154,23 +152,19 @@ Marinov's comparison with electrostatic motor ideas makes this interpretation mo
 - behind it is a central cylindrical structure rising from below the rotor.
 
 **Interpretation:**
-- this is likely an important **front node or output-associated panel**;
-- because it sits in front of the machine's centerline and near visible terminal hardware, it may serve as:
-  - output/balancing node,
-  - collector family C,
-  - or a stabilizing electrode between left and right subsystems.
+- this is a candidate front node or output-associated panel;
+- it may serve as output/balancing node, collector family C, or a stabilizing electrode between left and right subsystems.
 
 ### 3.10 Lower springs
 
 **Observed:**
-- two long vertical springs descend from above toward lower ring-like anchors near the base, one on each side of the center.
+- two long vertical springs descend toward lower ring-like anchors near the base, one on each side of the center.
 
 **Interpretation:**
-- these springs are too deliberate and symmetric to ignore;
-- possible roles, ranked:
+- possible roles, ranked only as research hypotheses:
   1. adjustable compliant electrical links to lower electrode assemblies;
   2. mechanical tension members with electrical side effect;
-  3. visible high-resistance / long-path leakage elements.
+  3. visible long-path leakage elements.
 
 ### 3.11 Side pots
 
@@ -180,175 +174,142 @@ Marinov's comparison with electrostatic motor ideas makes this interpretation mo
 - they visually match Marinov's description of outer cylindrical grid plus inner copper spiral / dielectric arrangement.
 
 **Interpretation:**
-- these are the most defensible **capacitor / reservoir modules** in the small machine;
+- these are the most defensible capacitor / reservoir modules in the small machine;
 - the photo supports Marinov more than later coil-heavy reconstructions.
 
 ### 3.12 Lower central horseshoe magnets
 
-**Observed:**
-- two U-shaped pieces beneath the rotor area, visually consistent with horseshoe magnets, left marked by geometry, right symmetrically mirrored.
+**Observed/source-supported:**
+- two U-shaped pieces beneath the rotor area are visually consistent with the horseshoe magnets Marinov says were visible on the first small machine.
 
 **Interpretation:**
-- the V3 model keeps them because Marinov says the first small machine visibly had them;
-- their function remains unresolved:
-  - mechanical bias element,
-  - electrostatic field influence via mounted conductors,
-  - or part of a secondary effect.
+- V3 keeps them;
+- their function remains unresolved and must be A/B-tested rather than inferred.
 
 ---
 
 ## 4. Why different grids are used
 
-The photo strongly suggests **not all grids are equivalent**. Three visibly distinct families appear.
+The photo suggests not all grids are visually equivalent. Three apparent families are useful as working categories:
 
 ### 4.1 Coarse light perforated plates
+Possible roles include structural carriers, support panels, guards, or large-area field shapers.
 
-Likely roles:
-- structural carriers;
-- insulating or semi-insulating support panels;
-- guard plates;
-- large-area field shapers with reduced mass.
-
-### 4.2 Fine dark grids
-
-Likely roles:
-- active collection surfaces;
-- denser field-interaction electrodes;
-- screened active areas embedded inside larger support frames.
+### 4.2 Fine dark inset regions
+Possible roles include active collection surfaces, deeper electrode cavities, darker material, backing, finish, or shadow. **The photo alone does not establish conductivity or material.**
 
 ### 4.3 Cylindrical metallic mesh on the side pots
+This is consistent with an outer electrode of a storage/capacitive module.
 
-Likely roles:
-- outer electrode of the storage capacitor module;
-- Faraday-like enclosure with controlled coupling to an inner spiral electrode.
+### 4.4 Experimental consequence
 
-### 4.4 Most plausible reason for multiple grid types
-
-The best working explanation is **electrical role differentiation by geometry**:
-- coarse/support grids establish large field regions and spacing;
-- fine dark grids act as more active pickup/collector surfaces;
-- cylindrical grids realize reservoir/storage capacitance.
-
-This is more plausible than a purely aesthetic explanation because the pattern is **deliberately symmetric and role-specific**.
+Treat geometry and material as separate variables. The CAD may identify visually distinct regions, but electrical tests must use controlled interchangeable inserts.
 
 ---
 
 ## 5. Why are some grids black?
 
-This question is important, but the photo does not allow certainty.
+This question is important, but the image cannot settle it.
 
-### 5.1 What can be said with confidence
+### 5.1 Defensible observations
 
-- the dark grids are visually distinct from the light perforated frames;
-- the black/dark elements tend to occupy **inset active regions**, not just random places;
-- therefore the colour difference probably corresponds either to **different material**, **different finish**, **different backing**, or **different exposure/shadow**.
+- dark regions are visually distinct from surrounding light perforated structures;
+- some darkness occupies repeated inset areas;
+- colour difference may correspond to material, finish, backing, cavity or exposure.
 
-### 5.2 Plausible explanations, ranked
+### 5.2 Counter-evidence against overinterpretation
 
-#### A. Different material or coating on the active grid (most plausible)
-The dark grids may be metal mesh or perforated sheet that is simply darkened, oxidized, painted, or made of darker material than the white frames.
+The Cathomen workshop transcript contains a direct identification of at least one black visible machine material as **black Plexiglas**. This does not prove the M2 dark inset regions are Plexiglas, but it is a strong warning against inferring carbon, graphite, nanocoating or blackened copper from colour alone.
 
-#### B. Dark conductive backing behind a lighter frame (also plausible)
-Because the image is frontal and contrasty, part of the darkness may come from a dark substrate or cavity behind a lighter support frame.
+### 5.3 Test matrix
 
-#### C. Intentional blackening/oxidation of a conductive electrode (plausible but unproven)
-Possible processes include chemical blackening, oxidation, carbon deposition, or lacquer. This could alter corona onset, leakage, or surface behaviour.
+If an inset is to be treated as an electrode candidate, compare at least:
 
-#### D. Nanostructured or nano-coated surface (currently unsupported)
-There is **no evidence** in the historical sources for a nanocoating. The photo alone does not justify such a claim.
+1. bare metal mesh;
+2. same mesh with electrically insulating dark coating/backing;
+3. chemically blackened conductive metal where safely available;
+4. dark PMMA/backing control where geometrically plausible.
 
-#### E. Copper heated to form black oxide (possible in principle, but unsupported)
-Heated copper can darken. However, the photo gives no reliable evidence that the black grids are specifically black copper oxide surfaces.
-
-### 5.3 Best current judgment
-
-The safest and strongest present interpretation is:
-
-> the black grids are **electrically active inset grid surfaces** whose dark appearance most likely comes from material/finish/backing differences, **not** from any proven nanotechnology.
-
-For experimental reconstruction, the rational approach is to test at least three variants:
-
-1. bare brass/copper/steel fine mesh;
-2. black-painted but otherwise similar mesh (control);
-3. chemically blackened metal mesh.
+Nanostructured coatings are unsupported by the historical evidence and are not a baseline assumption.
 
 ---
 
-## 6. Marinov's special hints applied to the photo
+## 6. Marinov constraints applied to the photo
 
-### 6.1 "No rubbing brushes"
-This pushes the interpretation toward **gap-coupled electrodes**. The slanted inner bars, outer panels and lower front panel therefore become more important than classical Wimshurst-like brush assumptions.
+### 6.1 No rubbing brushes
+This strongly favours gap-coupled stationary structures for the small machine.
 
-### 6.2 "The way the wires go through the disc is very important"
-This prevents overconfidence in any purely front-surface drawing. The visible outer geometry alone cannot determine the hidden routing. V3 therefore keeps the rotor model mechanically ready for alternative through-disc wiring families.
+### 6.2 Through-disc wire routing matters
+The visible front geometry cannot determine the hidden route. The repository therefore retains R0–R4 reversible routing families; none is labelled the historical M2 original without additional evidence.
 
-### 6.3 Baumann's explanation felt like an unknown language
-This is a major caution signal. It suggests that the key mechanism was not something Marinov could translate into a standard textbook label on the spot. That supports the following methodological stance:
+### 6.3 Source-language caution
+The correct caution signal is not an unverified Marinov "unknown language" quotation. It is the combination of:
 
-- visible geometry should be documented meticulously;
-- the **functional model must remain layered** (observed / derived / hypothesized);
-- one should not rush to label the top module as a normal diode, the pots as normal Leyden jars, or the magnets as ordinary motor magnets without further tests.
+- Marinov's explicit lack of a complete operating principle/schematic;
+- Holzherr's separate report that Baumann was difficult to understand and used non-scientific terms;
+- Methernitha's own non-standard technical vocabulary.
 
-### 6.4 Marinov's own uncertainty about the "crystal"
-That uncertainty means the top module is best handled as a **boundary condition**, not a solved object. V3 therefore treats it as a named but unresolved subsystem.
+Therefore functional interpretation must remain layered: **observed / source-stated / photo-derived / derived / hypothesized / unknown**.
+
+### 6.4 Marinov's uncertainty about the "crystal"
+The top module is treated as an unresolved black-box subsystem, not a solved diode/rectifier/transformer.
 
 ---
 
 ## 7. Working subsystem interpretation
 
-### 7.1 Most conservative integrated picture
+A conservative experimental picture is:
 
-A disciplined working model consistent with the photo and Marinov is:
+1. the rotating sector disc changes electrostatic coupling around the machine;
+2. stationary left/right structures couple without rubbing;
+3. outer and mid-level panels may shape or collect fields/charge;
+4. side pots may store or buffer charge states;
+5. the top "crystal" subsystem may provide a nonlinear/asymmetric path;
+6. lower structures may form an additional balancing/output/return family.
 
-1. a rotating sector disc creates and transports charge asymmetries;
-2. left/right stationary electrode assemblies couple to the disc without rubbing;
-3. outer collector panels and mid-level panels shape, split, or collect charge families;
-4. side pots store, buffer, or smooth these charge families;
-5. the top module introduces a further asymmetric, threshold, or balancing coupling Baumann referred to as "crystal";
-6. the lower front panel and lower springs participate in a third balancing/output node or return path.
-
-### 7.2 What this does **not** prove
-
-This does **not** prove:
-- over-unity operation;
-- a complete closed circuit diagram;
-- a unique historic wiring;
-- a hidden semiconductor miracle.
+This model does **not** prove over-unity operation, a unique historical wiring, or a specific hidden semiconductor/material.
 
 ---
 
 ## 8. V3 modelling consequences
 
-The V3 branch therefore implements:
+The integrated V3 photo interpretation represents:
 
-- an external geometry closer to the high-resolution photo;
-- explicit top-module, outer-panel, lower-panel, spring-tower and pot-capacitor subsystems;
-- retention of multiple rotor sector-count options (20 / 24 / 25);
-- documentation that the black grid material and exact wiring remain open variables.
+- external geometry closer to the high-resolution frontal image;
+- explicit top-module, outer-panel, lower-panel, spring-tower and pot subsystems;
+- a 24-sector photo working rotor plus separate 20/24/25 and R0–R4 research families elsewhere in the repository;
+- unresolved black-region material and unresolved hidden wiring.
+
+V3 originated on the historical `research/small-machine-v3-pixel-analysis` branch but is now integrated into `main`; the branch name is provenance, not an active working requirement.
 
 ---
 
 ## 9. Bottom-line assessment
 
-### 9.1 Strong findings
+### Strong findings
 
-- the machine is more **layered and node-differentiated** than a naive single-disc toy electrostatic motor;
-- the side pots are very likely deliberate electrostatic reservoir components;
-- the black inset grids deserve experimental priority as probable active electrode regions;
-- the top module is central and unresolved rather than decorative.
+- the visible machine is more layered than a minimal single-disc demonstrator;
+- side pots are deliberate and source-consistent electrostatic modules;
+- visually distinct inset regions deserve controlled material/geometry tests;
+- the upper module is prominent but functionally unresolved.
 
-### 9.2 Most important unresolved questions
+### Most important unresolved questions
 
 1. exact through-disc routing;
-2. function of the top "crystal" module;
-3. exact electrical role of black inset grids;
-4. whether lower springs are live conductors, biasing elements, or mainly mechanical;
-5. what the magnets actually do in the first small machine.
+2. function/material of the top "crystal" subsystem;
+3. exact electrical role/material of dark inset regions;
+4. whether lower springs are electrical, mechanical, or both;
+5. magnet function;
+6. exact node grouping and hidden wiring.
 
-### 9.3 Recommended next research move
+### Recommended next move
 
-Use the V3 branch to run **modular A/B/C experiments** rather than one monolithic build:
-- grid finish variants (bright / blackened / insulated-backed);
+Use modular A/B/C experiments rather than one monolithic guessed circuit:
+
+- R0–R4 rotor routes;
+- bright/dark/insulated-backed grid controls;
 - pot wiring variants;
-- top-module bypass / asymmetrical leakage / rectifier-like surrogate variants;
-- rotor through-disc route families R0–R3.
+- crystal surrogate open/short/R/diode/crystal variants;
+- magnet present/absent and shield/environment controls.
+
+See `docs/REPLICATION_STATUS.md` for the canonical completeness boundary.

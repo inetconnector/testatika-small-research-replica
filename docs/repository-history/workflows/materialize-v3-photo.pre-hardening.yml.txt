@@ -1,18 +1,25 @@
-name: Materialize V3 photo-analysis assets (historical/manual)
+name: Materialize V3 photo-analysis assets
 
-# Historical workflow retained for reproducibility. V3 is integrated into main and the
-# original research branch may no longer exist, so automatic branch pushes are disabled.
 on:
+  push:
+    branches:
+      - research/small-machine-v3-pixel-analysis
+    paths:
+      - 'cad/generate_v3_photo_interp.py'
+      - 'scripts/build_v3_photo_annotation.py'
+      - 'docs/research/v3-photo/**'
+      - 'docs/images/small_machine_v3_functional_schematic.svg'
+      - '.github/workflows/materialize-v3-photo.yml'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-v3-assets:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out selected ref
+      - name: Check out branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -42,9 +49,9 @@ jobs:
           test -s hardware/experimental/v3-photo/complete-model/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.stl
           test -s hardware/experimental/v3-photo/complete-model/Testatika_Small_Marinov_FirstMachine_V3_PHOTO_INTERP.step
           test -s hardware/experimental/v3-photo/complete-model/MODEL_INFO_V3.json
-          find hardware/experimental/v3-photo -maxdepth 4 -type f -print
+          find hardware/experimental/v3-photo -type f -maxdepth 4 -print
 
-      - name: Package V3 research artifacts locally in the workflow workspace
+      - name: Package V3 research artifacts
         shell: bash
         run: |
           set -euo pipefail
@@ -55,4 +62,22 @@ jobs:
             docs/images/small_machine_v3_functional_schematic.svg \
             cad/generate_v3_photo_interp.py \
             hardware/experimental/v3-photo
-          echo 'Historical workflow is manual/read-only; it no longer pushes to a deleted research branch.'
+
+      - name: Commit generated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            docs/images/small_machine_v3_annotation.png \
+            hardware/experimental/v3-photo \
+            release/experimental/Testatika_Small_V3_Photo_Artifacts.zip
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+          else
+            git commit -m 'cad: materialize V3 photo-analysis assets [skip ci]'
+            git fetch origin research/small-machine-v3-pixel-analysis
+            git rebase origin/research/small-machine-v3-pixel-analysis
+            git push origin HEAD:research/small-machine-v3-pixel-analysis
+          fi

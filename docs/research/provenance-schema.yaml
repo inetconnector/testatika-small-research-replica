@@ -1,0 +1,81 @@
+schema_version: 1
+required_fields:
+  - source_id
+  - title
+  - author_or_speaker
+  - source_type
+  - source_distance
+  - machine_id
+  - date_or_period
+  - locator
+  - url_or_archive_id
+  - confidence
+  - rights_status
+  - statement_summary
+recommended_fields:
+  - original_language
+  - exact_quote_short
+  - archive_snapshot
+  - local_filename
+  - sha256
+  - accessed_utc
+  - claim_type
+  - replication_effect
+  - conflicts_with
+  - notes
+enums:
+  source_type:
+    - original_object
+    - original_photo
+    - direct_publication
+    - direct_correspondence
+    - direct_interview
+    - eyewitness_report
+    - institutional_operator_text
+    - archive_mirror
+    - secondary_compilation
+    - hypothesis
+    - scientific_control
+  source_distance:
+    - P0
+    - P1
+    - P2
+    - H1
+    - H2
+    - O1
+    - R1
+    - S1
+    - S2
+    - I1
+    - A1
+  confidence:
+    - very_high
+    - high
+    - medium_high
+    - medium
+    - medium_low
+    - low
+    - unknown
+  claim_type:
+    - geometry
+    - material
+    - wiring
+    - operation
+    - measurement
+    - output_claim
+    - interpretation
+    - provenance
+    - rights
+  rights_status:
+    - repository_authored
+    - public_domain
+    - third_party_link_only
+    - third_party_excerpt_only
+    - third_party_permission_required
+    - unknown
+rules:
+  - "Every technical statement promoted into baseline CAD must identify machine_id and locator."
+  - "A mirror does not upgrade the source distance of the underlying statement."
+  - "A hosted statement remains attributed to its original speaker."
+  - "Unknown locator or machine identity must remain explicit; do not infer silently."
+  - "Third-party scans are not redistributed unless rights permit it."

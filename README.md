@@ -11,6 +11,22 @@
 
 ![Photogrammetric front view](docs/images/photogrammetric_front_view.png)
 
+## Replication completeness — read this first
+
+The repository is designed to become as close to a **1:1 research replica** of Marinov's first small machine (M2) as surviving evidence permits. It does **not** convert missing historical information into invented certainty.
+
+The canonical completeness ledger is [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md). For every major subsystem it records whether a detail is:
+
+- observed;
+- source-stated;
+- photo-derived;
+- derived;
+- hypothesized;
+- conflicting;
+- or still unknown.
+
+A "complete research replica" therefore means: all source-supported geometry and materials are represented, every unresolved alternative is made reversible/testable where practical, and the experiment package can distinguish competing hypotheses. It does **not** mean that unknown original wiring, crystal material or pot topology is guessed and relabelled as historical fact.
+
 ## Included
 
 This release targets the **small, single-disc machine shown on the right in Marinov's figures 13/14**. It keeps source-supported geometry, photo-derived dimensions, test hypotheses and unknown wiring explicitly separated.
@@ -25,30 +41,42 @@ This release targets the **small, single-disc machine shown on the right in Mari
 - exchangeable "crystal" carrier
 - rear shield-plate experiment jig
 - complete STL and STEP part libraries
-- complete assembled STEP / STL / OBJ / GLB model
+- complete assembled V2 STEP / STL / OBJ / GLB model
+- experimental V3 photo-interpretation STEP/STL model
 - evidence matrix, photogrammetry, BOM, assembly and experiment documentation
 - consolidated research knowledge base in [`STATE.md`](STATE.md)
-- external/session handoff in [`addon.md`](addon.md)
+- external/session handoff in [`addon.md`](addon.md) with case-safe [`ADDON.md`](ADDON.md) compatibility entry point
 - detailed **Baumann / Methernitha language decoder** mapping historical terminology to testable engineering hypotheses
+- canonical machine taxonomy and provenance schema
+- deterministic manifest/hash generation and repository validation
 
 ## Quick access
 
 | Asset | Path |
 |---|---|
-| Complete STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step` |
-| Complete STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl` |
-| Complete GLB | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb` |
+| Replication completeness | [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md) |
+| Complete V2 STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step` |
+| Complete V2 STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl` |
+| Complete V2 GLB | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb` |
+| Experimental V3 STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step` |
+| Experimental V3 STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl` |
 | Printable parts | [`hardware/stl/`](hardware/stl/) |
 | Editable parts | [`hardware/step/`](hardware/step/) |
+| CAD reproducibility | [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md) |
 | BOM | [`docs/research/bom.md`](docs/research/bom.md) |
 | Assembly | [`docs/research/assembly.md`](docs/research/assembly.md) |
 | Safety | [`docs/research/safety.md`](docs/research/safety.md) |
 | Evidence matrix | [`docs/research/evidence_matrix.tsv`](docs/research/evidence_matrix.tsv) |
+| Machine taxonomy | [`docs/research/machines.yaml`](docs/research/machines.yaml) |
+| Provenance schema | [`docs/research/provenance-schema.yaml`](docs/research/provenance-schema.yaml) |
+| External corpus boundary | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
 | Full research state | [`STATE.md`](STATE.md) |
 | External handoff | [`addon.md`](addon.md) |
 | Baumann language decoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
 | Baumann statement ledger | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
+| Hartmann/Overunity audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |
 | Current experiment plan | [`docs/research/experiment-plan.md`](docs/research/experiment-plan.md) |
+| Repository hardening plan | [`docs/repository-hardening-plan-2026-08-16.md`](docs/repository-hardening-plan-2026-08-16.md) |
 
 ## Important source correction: Baumann's "unknown language"
 
@@ -64,7 +92,7 @@ The repository therefore does not preserve the later paraphrase as a direct Mari
 
 ## Current operating-model hypothesis
 
-After separating Baumann, Methernitha, Marinov, Holzherr and Luzi Cathomen statements by provenance, the strongest **testable** model is:
+After separating Baumann, Methernitha, Marinov, Holzherr, Luzi Cathomen and Stefan Hartmann statements by provenance, the strongest **testable** model is:
 
 > **electrostatic influence / variable capacitance → non-contact pickup → polarity-selective charge routing → crystal/diode phase commutation → drive/storage buses → cyclic bias regeneration → model-dependent downstream impedance conditioning.**
 
@@ -86,6 +114,12 @@ The strongest scale anchor is Marinov's statement that the small-machine disc wa
 
 Photo-derived dimensions should be treated as roughly **±10–15%** unless a better primary source becomes available.
 
+## V3 photo interpretation
+
+The V3 assembled files improve visible external geometry and subsystem placement using the higher-resolution frontal image. Their filename contains `V3_COMPLETE` only as a discoverability/convenience alias: the model metadata remains **experimental**, and hidden circuit, dark material identity and crystal internals remain unresolved.
+
+The canonical interpretation is in [`docs/research/v3-photo/`](docs/research/v3-photo/).
+
 ## Evidence-led choices
 
 ### Strongly supported
@@ -105,6 +139,8 @@ Photo-derived dimensions should be treated as roughly **±10–15%** unless a be
 - permanent magnets as a net energy source
 - verified 100 W / 1 kW / multi-kW over-unity output
 - a fully known original schematic
+- black appearance as proof of carbon/graphite/nanocoating/black copper oxide
+- R4 as definitively the original M2 wire route
 
 ## Rotor routing research
 
@@ -130,7 +166,7 @@ See [`docs/scientific-status.md`](docs/scientific-status.md).
 
 High-voltage electrostatic systems can be dangerous, especially with capacitors. This project does **not** include an open mains-powered high-voltage supply design.
 
-Use enclosed, current-limited educational/laboratory electrostatic equipment, keep stored energy low, discharge capacitors before handling, and use a rotor guard.
+Use enclosed, current-limited educational/laboratory electrostatic equipment, keep stored energy low, discharge capacitors before handling, and use a rotor guard. No radioactive-material replication path is part of this project.
 
 Read [`docs/research/safety.md`](docs/research/safety.md).
 
@@ -139,13 +175,15 @@ Read [`docs/research/safety.md`](docs/research/safety.md).
 ```text
 .
 ├── STATE.md
-├── addon.md
+├── addon.md / ADDON.md
 ├── cad/
 ├── hardware/
 │   ├── stl/
 │   ├── step/
+│   ├── experimental/
 │   └── complete-model/
 ├── docs/
+│   ├── REPLICATION_STATUS.md
 │   ├── research/
 │   └── images/
 ├── scripts/
@@ -158,30 +196,53 @@ Read [`docs/research/safety.md`](docs/research/safety.md).
 ```bash
 python -m pip install -r requirements-dev.txt
 python scripts/validate_assets.py
+python scripts/check_manifest.py
+```
+
+After intentional content changes regenerate integrity metadata:
+
+```bash
+python scripts/generate_manifest.py
+python scripts/check_manifest.py
 ```
 
 ## CAD regeneration
 
-Baseline V2:
+Install the CAD environment:
 
 ```bash
 python -m pip install -r requirements-cad.txt
-python cad/generate_v2.py
 ```
 
-Experimental R4/grid-vs-foil assets:
+Rebuild all **currently source-reproducible** CAD families:
 
 ```bash
-python cad/generate_v3_experiments.py
+python scripts/rebuild_research_assets.py
 ```
 
-Committed STL/STEP files are release artifacts so users can print or inspect the model without installing CadQuery.
+Or run individual generators:
 
-## Sources
+```bash
+python cad/generate_v2.py
+python cad/generate_v3_experiments.py
+python cad/generate_v3_photo_interp.py
+```
+
+Important: `generate_v2.py` regenerates the V2 **core geometry**, not yet every preserved V2 release asset. See [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md). Committed binary STEP/STL files are intentionally preserved until their replacement/source path is verified.
+
+## Release package
+
+The current research package version is **v0.3.0**. The release builder includes documentation, CAD sources, scripts, manifests and preserved binary research assets while retaining old release ZIPs as historical artifacts rather than overwriting them.
+
+```bash
+python scripts/build_release.py
+```
+
+## Sources and external corpus
 
 The most important published source for this small machine is Stefan Marinov, *The Thorny Way of Truth, Part V* (1989), including his Methernitha/Testatika observations and figures 13/14. A scan is available through the Internet Archive under identifier `thornywayoftruthpart5maririch`.
 
-Full third-party scans are intentionally not redistributed. See [`docs/sources.md`](docs/sources.md) and [`docs/research/source-basis.md`](docs/research/source-basis.md).
+Full third-party scans are intentionally not redistributed. Project history also refers to an externally held corpus named `testatika.zip`; it is **not part of the public repository** and must not be silently reconstructed from unrelated files. See [`docs/research/external-corpus.md`](docs/research/external-corpus.md), [`docs/sources.md`](docs/sources.md) and [`docs/research/source-basis.md`](docs/research/source-basis.md).
 
 ## Contributing
 
@@ -197,13 +258,4 @@ Repository-authored code, CAD source, documentation and derived models are relea
 
 ### Deutsch
 
-Dies ist eine **quellenkritische Forschungsreplik**, keine Behauptung, dass eine Freie-Energie-Funktion bewiesen sei. Schwerpunkt sind eine möglichst originalnahe Geometrie der kleinen Marinov-Maschine, die saubere Übersetzung historischer Erklärbegriffe in messbare Größen und experimentell überprüfbare Varianten für die nicht überlieferte Verdrahtung.
-
-## Hartmann / Overunity.com source audit
-
-The historical Internet layer is now separated from the direct Marinov/Hauser/Holzherr evidence. See:
-
-- [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) — dated Hartmann timeline, Overunity archive trail, electret/air-ion/radioactivity/negative-resistance hypothesis audit and quantitative corrections;
-- [`docs/research/hartmann-overunity-sources.tsv`](docs/research/hartmann-overunity-sources.tsv) — machine-readable provenance ledger.
-
-The strongest useful convergence is Hartmann's **June-2000 electret/influence model**. His later radioactive-mineral and negative-resistance explanations are preserved as later hypotheses, not as verified Baumann/Methernitha statements or proof of net energy gain.
+Dies ist eine **quellenkritische Forschungsreplik**, keine Behauptung, dass eine Freie-Energie-Funktion bewiesen sei. Schwerpunkt sind eine möglichst originalnahe Geometrie der kleinen Marinov-Maschine, die saubere Übersetzung historischer Erklärbegriffe in messbare Größen und experimentell überprüfbare Varianten für die nicht überlieferten Details. Der aktuelle Vollständigkeitsstand steht verbindlich in [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md).
