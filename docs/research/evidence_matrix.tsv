@@ -8,7 +8,7 @@ Bürstenkontakt	Marinov + Hauser	kein Schleifkontakt	sehr hoch	V2: berührungslo
 Hufeisenmagnete erste Maschine	Marinov	sichtbar/rechts Fig.13/14	hoch	V2: 2 Magnet-Halter
 Hufeisenmagnete zweite Maschine	Marinov	nicht sichtbar	hoch	nicht als universal behandelt
 Seiten-Pots	Marinov/Korrespondenz	außen Zylinder/Gitter, innen Cu-Spirale	mittel-hoch	V2: dreiteiliger Pot
-Crystal	Baumann→Marinov	vorhanden, Funktion unklar	mittel	V2: austauschbares Modul
+Crystal	Baumann→Marinov	vorhanden, Funktion unklar	mittel	V2: austauschbares Modul; Gate-Hypothese separat
 Tesla/HF	Marinov	explizit verneint	mittel-hoch als Marinov-Interpretation	V2: nicht enthalten
 Elektrodenfunktion	Marinov	collecting/driving unklar	mittel	V2: separat konfigurierbar
 Elektrodenwinkel	Marinovs Vergleichsmotor	winkel-/höhenverstellbar	hoch für Vergleichsmotor	V2: verstellbar
@@ -16,3 +16,21 @@ Gitter statt Vollfolie	Principle-Experiment-Bericht / Baumann zugeschrieben	perf
 Metallplatte hinten	Marinov direkter Test	Rotation/Torque verschwand	hoch als Beobachtung	V2: separater Shield-Jig
 Selbstrotation	Marinov direkter Test	nach Anschub berichtet	Beobachtung hoch, Ursache offen	Forschungsziel, nicht garantiert
 100-W-Claim	Marinov Handschätzung	keine saubere Messung	niedrig	nicht als Designziel
+Marinov versteht Prinzip nicht	Marinov eigener Korpus	kein vollständiges Wirkprinzip / kein reproduzierbarer exakter Schaltplan	hoch	keine hypothetische Verdrahtung als Original ausgeben
+"unbekannte Sprache" Marinov	kein Primärbeleg gefunden	spätere Paraphrase nicht als direktes Marinov-Zitat verifiziert	niedrig / derzeit nicht belegt	explizite Quellenkorrektur in README/decoder
+Baumann nicht-wissenschaftliche Sprache	Holzherr 1999 direkter Bericht	Baumann schwer verständlich; leise/schnell; nicht-wissenschaftliche Begriffe	hoch als Holzherr-Beobachtung	Begriffe operational in Messgrößen übersetzen
+Eigene Terminologie	Methernitha archivierte Technikbeschreibung	konventionelle physikalische Begriffe reichten ihrer Ansicht nach nur teilweise; eigene Begriffe wie Taster	hoch für institutionelle Sprache / nicht für Physikbehauptung	Taster = zunächst non-contact capacitive/influence pickup
+Wolke/Erde	Methernitha + Baumann-Berichte	zwei Scheiben als Wolke und Erde beschrieben	hoch für Analogie	als zwei Potential-/Feldreservoirs modellieren; keine Umweltenergie voraussetzen
+Ladung mit Gitter festhalten	Methernitha Technikbeschreibung	Gitterelektroden binden Ladung	hoch für Betreiberclaim	floating/field-forming grid + corona/space-charge tests
+Taster sammelt berührungslos	Methernitha Technikbeschreibung	Taster nimmt Ladung ohne Kontakt ab	hoch	kapazitiver/Influenz-Pickup; kein RF-Antennenbeweis
+Ladung ordnen	Methernitha Technikbeschreibung	abgenommene Ladung wird geordnet	hoch für Wortlaut / Funktion mittel	polarity-selective routing messen
+Diode hält Zyklus im Takt	Methernitha Technikbeschreibung	Gleichrichterdiode stabilisiert Anziehungs-/Abstoßungszyklen	hoch für Betreiberclaim	phasenselektives Charge-Gate/Clamp testen
+Langsam und gleichmäßig	Methernitha Technikbeschreibung	Drehzahl für optimale Funktion langsam/konstant	hoch für Betreiberclaim	rpm sweep vs RC/Phase/Leakage
+Gitterkondensatoren	Methernitha Technikbeschreibung	Speicherung und gleichmäßige Abgabe	hoch für Betreiberclaim	Buffer-/Reservoirfunktion messen
+Trockene Luft	Methernitha Technikbeschreibung	trockener besser; hohe Feuchte hemmt Potentialaufbau	hoch als Betreiberclaim	RH-Kontrolle; PMMA-/Corona-Fachliteratur
+Random particles / flux rectification	Linden Experiment second hand	sehr feine zufällig bewegte Teilchen; Fluss müsse gerichtet/gleichgerichtet werden	H2	nur als Hypothese für asymmetrischen Carrier-Transport; Energiequelle separat bilanzieren
+Spannung aufrechterhalten	Luzi Cathomen Amateurvideo	Schulmodell liefert nur einmaligen Spannungsimpuls; eigentliches Problem ist Spannung aufrechtzuerhalten	mittel-hoch für Cathomen-Werkstattaussage	Bias-Regeneration / selbstangeregte Ladungsschleife priorisieren
+Fühler/Synchronsteuerung	Luzi Cathomen Amateurvideo	Fühler für Impulse und konstante Frequenz/Drehzahl	mittel-hoch	Rotorwinkel/Impulsphase synchron messen
+Kapazität erhöhen / oben verstärken	Luzi Cathomen Amateurvideo	obere Stufe erhöhe Kapazität bzw. "verstärke"; Details verweigert	mittel/unklare Sprache	als impedance/charge-conditioning untersuchen, nicht als Energieverstärkung behaupten
+Elektronen nicht von Scheiben abziehen	späte Frolov-Kompilation	Baumann zugeschrieben; Primärquelle nicht identifiziert	H2/I1	nicht Baseline; Load-Reaction/Bias-Erhalt experimentell prüfen
+1-kOhm Lamellenring	späte Frolov-Kompilation	Nachbarlamellen angeblich über 1 kOhm verbunden	H2/I1	nicht in Original-CAD übernehmen bis Primärquelle gefunden
