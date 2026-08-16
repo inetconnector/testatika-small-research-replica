@@ -41,8 +41,8 @@
     },
     {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
-      "size": 3912,
-      "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
+      "size": 3255,
+      "sha256": "ae35535ef47f27a98dac0ea9c2c7db2f8127485aca0d32e0bdf3144917a74681"
     },
     {
       "path": ".github/workflows/materialize-release-v0.3.yml",
