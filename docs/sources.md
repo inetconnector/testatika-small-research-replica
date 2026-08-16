@@ -159,3 +159,19 @@ See:
 ## Third-party rights
 
 This repository does not claim copyright over Marinov's book, historical photographs, Methernitha publications or other third-party scans. Full third-party scans are intentionally **not redistributed** here.
+
+## Stefan Hartmann / Overunity.com archival trail — V6
+
+A dedicated source audit is maintained in [`research/hartmann-overunity-testatika.md`](research/hartmann-overunity-testatika.md) with a machine-readable ledger in [`research/hartmann-overunity-sources.tsv`](research/hartmann-overunity-sources.tsv).
+
+Key provenance findings:
+
+- **1992:** Stefan Hartmann directly compared the Testatika with William Hyde's electrostatic rotor/stator patent and referenced an earlier Testatika animation: `https://groups.google.com/g/sci.energy/c/pVGecAtRSXc`.
+- **1999:** Hans Holzherr's eyewitness email is distinct from Hartmann's role as questioner/translator/distributor. The correspondence explicitly records Hartmann asking permission to put Holzherr's picture on the `overunity.com` server: `https://www.novakcorp.com/energy/experiments/tesnews.htm`.
+- **June 2000:** a historical mirror preserves a Hartmann email proposing an electret/influence interpretation with non-contact `Taster` pickups and capacitive voltage transformation: `https://www.robkalmeijer.nl/techniek/experiments/testakica/index.html`.
+- **Later:** the same mirror preserves a materially different Hartmann hypothesis involving weak radioactive minerals and beta electrons. This is a later Hartmann hypothesis, not a Baumann statement.
+- **2008:** an interview records Hartmann associating Testatika with `negative resistance` and excited radioactive decay: `https://dandelionsalad.wordpress.com/2008/06/27/free-energy-and-the-open-source-energy-movement-part-one/`.
+- Historical external links preserve an Overunity Testatika `topic 75` and media paths `testa01.rm`, `testa02.rm`, `meth5.asf`.
+- The current `overunityarchives.com` search page indicates full archive access is restricted to paid subscribers; therefore V6 does not claim exhaustive post-by-post coverage of the old forum.
+
+**Source rule:** Hartmann is treated as an important archivist/distributor and evolving hypothesis author, not as a stable primary witness to the internal Testatika circuit. A Hartmann-hosted Holzherr statement remains a Holzherr statement.

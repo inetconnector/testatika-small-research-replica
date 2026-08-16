@@ -55,3 +55,18 @@ First publication-ready repository release.
 
 ### Scientific position
 No over-unity or free-energy claim is asserted. Unknown historical wiring remains explicitly unknown.
+
+## Unreleased — Hartmann / Overunity.com V6 source audit
+
+### Added
+- `docs/research/hartmann-overunity-testatika.md`: dated source-role audit from Hartmann's 1992 electrostatic frame through the 1999 Holzherr distribution chain, June-2000 electret model and later radioactive/negative-resistance hypotheses
+- `docs/research/hartmann-overunity-sources.tsv`: machine-readable provenance ledger
+- historical Overunity Testatika thread/media provenance (`topic 75`, `testa01.rm`, `testa02.rm`, `meth5.asf`)
+- quantitative audit of Hartmann's capacitor-sharing example and air-density statement
+- H36–H42 hypothesis set
+
+### Updated additively
+- `STATE.md`, `docs/sources.md`, `docs/research/source-basis.md`, `docs/research/evidence_matrix.tsv`, `docs/scientific-status.md`, `docs/research/baumann-language-decoding.md`, `docs/research/safety.md`, and `README.md`
+
+### Scientific position
+Hartmann's June-2000 electret/influence interpretation is retained as a useful secondary convergence with the charge-state model. His atmospheric-ion energy-source, weak-radioactive-mineral and negative-resistance explanations remain unverified hypotheses. No radioactive-material experiments are part of this repository.

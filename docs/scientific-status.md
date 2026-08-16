@@ -107,3 +107,30 @@ The most important load test is whether extracting real output power produces:
 - or a measurable external/environmental input.
 
 This repository therefore uses **energy conservation as the null hypothesis**.
+
+## V6: Stefan Hartmann / Overunity source audit
+
+The Hartmann audit does **not** add evidence for a closed net-energy surplus. It does add a useful historical convergence on an electrostatic charge-state topology.
+
+### Strongest useful Hartmann contribution
+
+Hartmann's June-2000 electret/influence interpretation is compatible with established mechanisms already in the repository:
+
+- persistent dielectric polarization / surface charge;
+- angle-dependent capacitance;
+- non-contact capacitive/influence pickup;
+- mesh-dependent field, corona and leakage behavior;
+- nonlinear diode/crystal charge routing;
+- voltage/current impedance conversion through capacitor networks.
+
+### Quantitative corrections
+
+Hartmann's `1 µF at 1000 V -> 100 µF` example does give about 9.90 V after direct charge sharing, but the initial 0.5 J becomes only about 0.00495 J stored in the two capacitors in the idealized final state; direct charge sharing therefore does not demonstrate energy amplification.
+
+His quoted air density of about `10^23 molecules/cm3` is also incorrect by roughly four orders of magnitude; an ideal-gas estimate near room conditions and one atmosphere is about `2.5e19 molecules/cm3`. More importantly, neutral molecular density is not free-charge density.
+
+### Later radioactive / negative-resistance hypothesis
+
+Hartmann later proposed weakly radioactive minerals and, by 2008, `negative resistance` plus excited radioactive decay. No Testatika-specific isotope, activity, dose-rate, material assay or nuclear energy balance has been found in the audited corpus. Betavoltaic conversion is real physics, but its source is radioactive decay and therefore would require explicit isotope/activity accounting; it is not over-unity.
+
+The repository therefore keeps **energy conservation as the null hypothesis** and does not use radioactive materials in replication work.

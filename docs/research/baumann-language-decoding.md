@@ -1347,3 +1347,15 @@ experiment_implication: ...
 > **Wie sind Rotorwinkel, Gitter/Taster, Crystal-/Diodenleitphase, Drive-Bus, Load-Bus und Ladungsrückführung exakt miteinander verschaltet und zeitlich phasenbezogen?**
 
 Das ist die Frage, die eine Replikation jetzt experimentell beantworten muss.
+
+# V6-Ergänzung: Hartmann ist nicht Baumann
+
+Der Hartmann-/Overunity-Audit liefert eine wichtige zusätzliche Sprechertrennung:
+
+- Hartmanns **Juni-2000-Electret-/Influenzmodell** ist eine technische Interpretation Hartmanns;
+- Hartmanns spätere **Radioaktivitäts-/Beta-Elektronen-Hypothese** ist ebenfalls Hartmanns eigene spätere Theorie;
+- Hartmanns 2008er `negative resistance`-Aussage darf nicht rückwirkend als Baumanns Erklärung gelesen werden;
+- der von Holzherr berichtete Satz, Baumann habe **Radiumchlorid** als Energiequelle verneint, bleibt als zeitnaher Augenzeugenbericht erhalten;
+- eine sekundäre Rimstar-Zuschreibung, Hartmann sei gesagt worden `the secret is in the crystals`, bleibt offen, solange kein originales Hartmann-Besuchsprotokoll gefunden ist.
+
+Für die Entschlüsselung von Baumanns Begriffen darf daher nur dort Hartmann herangezogen werden, wo er eine **engineering translation** anbietet, nicht als Ersatz für Baumann-Wortlaut. Besonders nützlich ist 2000 die Deutung `Taster -> non-contact influence pickup` und `grid/electret -> charge-state/field-forming structure`; die behauptete Energiequelle bleibt separat offen.

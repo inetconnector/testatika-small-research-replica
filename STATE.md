@@ -3,6 +3,7 @@
 
 **Version:** 5.0 — Marinov Part V Primäranalyse / historische Influenzmaschinen / quellenkritische Neugewichtung  
 **Stand:** 2026-08-16  
+**Aktuelle Ergänzung:** 6.0 — Hartmann / Overunity.com Quellen- und Hypothesenaudit; Version-5-Inhalt bleibt vollständig erhalten.  
 **Arbeitsstatus:** Archiv vollständig inventarisiert; Textdokumente extrahiert, technische Bildquellen und Video-Stichproben visuell geprüft; Widersprüche und Replikationsergebnisse integriert. Version 5.0 ergänzt eine systematische Primäranalyse von Stefan Marinovs vollständigem Band *The Thorny Way of Truth, Part V* (1989), einschließlich der technischen Testatika-Seiten, der von Marinov nachgedruckten historischen Influenzmaschinenliteratur, der Testatika-Korrespondenz und späterer Korrekturbriefe. Frühere V4-Hypothesen bleiben dokumentiert, werden aber dort ausdrücklich herabgestuft, wo Marinovs direkte Beobachtungen oder die historische Messtechnik dagegen sprechen.  
 **Hauptarchiv:** `testatika.zip`  
 **SHA-256 des Hauptarchivs:** `9a78f965651232b986ba38fdc671c5831205641763861b566e457ec423a3c14c`  
@@ -4578,3 +4579,187 @@ Die photo-abgeleiteten Maße haben typischerweise ±10–15 % Unsicherheit.
 - STEP + STL.
 
 **Status:** bestmögliche fotogrammetrische Forschungsreplik. Eine historisch gesicherte vollständige Verdrahtung ist weiterhin nicht verfügbar.
+
+# 93. V6 – Stefan Hartmann / Overunity.com: Quellenrolle und Archivgrenzen
+
+Die V6-Erweiterung untersucht Stefan Hartmann und `overunity.com` separat vom Marinov-/Hauser-/Holzherr-Primärkorpus. Das ist notwendig, weil Hartmann zugleich **Archivar/Verteiler**, **Fragensteller/Übersetzer** und später **eigener Hypothesenautor** war.
+
+Quellenklassen:
+
+- **H1:** direkt von Hartmann verfasster, datierter Text/Interview;
+- **H1-M:** als Hartmann-Mail gekennzeichneter historischer Mirror;
+- **W1:** zeitnaher Augenzeugenbericht, den Hartmann nur erfragte/übersetzte;
+- **A1:** Archiv-/Hostingbeleg für Thread oder Medium;
+- **S2:** spätere Sekundärzuschreibung ohne gefundenes Originalprotokoll.
+
+Wichtig: Das heutige `overunityarchives.com` ist nur eingeschränkt durchsuchbar und weist auf kostenpflichtigen Vollzugang hin. Deshalb ist dieser Audit **kein Anspruch auf vollständige Auswertung jedes historischen Overunity-Posts**. Belegt sind aber der historische Testatika-Threadpfad `topic 75`, mehrere auf Overunity gehostete Testatika-Filmdateien und die direkte Hartmann-Holzherr-Übertragungskette.
+
+Vollständiges Dossier: `docs/research/hartmann-overunity-testatika.md`  
+Quellenledger: `docs/research/hartmann-overunity-sources.tsv`
+
+# 94. V6 – Hartmann-Zeitachse 1992 → 1999 → 2000 → später → 2008
+
+## 1992
+Hartmann vergleicht William Hydes US-Patent 4,897,592 (`Electrostatic Energy Field Power Generating System`) mit der Testatika und verweist auf eine von ihm zuvor erstellte Testatika-SVGA-Animation. Sein früher Deutungsrahmen ist damit klar **elektrostatisch / Rotor-Stator / variable Kapazität**. Er äußert gleichzeitig Skepsis gegenüber einer 900-%-Hyde-Behauptung.
+
+## 1999
+Hartmann befragt Hans Holzherr nach dessen Methernitha-Besuch, übersetzt/verteilt die Antworten und fragt um Erlaubnis, ein Bild auf `overunity.com` zu hosten. Die technischen Beobachtungen sind Holzherrs, nicht Hartmanns.
+
+## Juni 2000
+Hartmann formuliert ein **Electret-/Influenz-Modell**: Plexiglas/Gitter als polarisierte dielektrische Struktur, `Taster` als nichtkontaktierende Influenz-Pickups, elektrostatische Ausrichtung/Restmoment, phasenabhängige Umpolung/Impulse und kapazitive Spannungsumformung.
+
+## später, im gefundenen Mirror undatiert
+Hartmann wechselt zu einer **schwach-radioaktive-Mineralien-/Beta-Elektronen-Hypothese**.
+
+## 2008
+Hartmann bezeichnet in einem Interview `negative resistance` und angeregten radioaktiven Zerfall/Beta-Elektronen als Haupteffekt bei Moray und Methernitha/Testatika.
+
+**Quellenkritische Konsequenz:** Es existiert nicht eine unveränderte „Hartmann-Geheimtheorie“. Seine Erklärung änderte sich materiell.
+
+# 95. V6 – 1999 Holzherr über Hartmann: was neu für die Provenienz ist
+
+Die 1999er Korrespondenz belegt explizit:
+
+- Hartmann fragt Holzherr, ob er dessen Bild auf den `overunity.com`-Server stellen dürfe;
+- Hartmann kündigt an, Holzherrs E-Mails ins Englische zu übersetzen und in Free-Energy-Listen zu posten;
+- Holzherr stimmt zu;
+- Holzherr bezeichnet sich selbst als Zeugen, der die Funktion nicht absolut beweisen könne;
+- Holzherr kann eine versteckte Batterie nicht messtechnisch ausschließen;
+- Baumann verneint laut Holzherr ausdrücklich **Radiumchlorid** als Energiequelle;
+- Hartmann fügt damals hinzu, dass er Nelson Camus' Radiumchlorid-Geschichte stark bezweifle.
+
+Damit ist `overunity.com` historisch als **Distributionsknoten** belegt, nicht als unabhängige Messinstanz.
+
+Weitere Holzherr-Punkte bleiben hochrelevant: ca. 15 rpm bei diesem Besuch, Principle Experiment mit perforiertem Gitter, ungefähr 60 V nach mehreren Schwenks, Aussage `Vollfolie funktioniert nicht`, kleine Ein-Scheiben-Varianten, eingewebte Drahtsektoren und die schwierige nicht-wissenschaftliche Erklärsprache Baumanns.
+
+# 96. V6 – Hartmanns Juni-2000-Electret-Modell: technisch wertvollster Teil
+
+Hartmanns 2000er Hypothese konvergiert überraschend gut mit dem heutigen V5-Arbeitsmodell, obwohl sie **keine Primärbeschreibung des Originalgeheimnisses** ist:
+
+1. Plexiglas/Dielektrikum trägt einen persistenten oder langsam relaxierenden Ladungs-/Polarisationszustand;
+2. Rotor und feste Elektroden bilden eine winkelabhängige Kapazitätsmatrix `C_ij(theta)`;
+3. `Taster` koppeln berührungslos über Influenz/Displacement Current;
+4. Gitter/Lochbleche formen Feld, Oberflächenladung, Corona und Raumladung anders als Vollfolie;
+5. ein nichtlineares Element (`crystal`/Diode) kann Ladung nur in ausgewählten Phasen weiterleiten;
+6. getrennte Hochspannungs-Bias- und niedrigere Speicher-/Lastzustände sind möglich;
+7. Kondensatorstufen können Spannung/Strom/Impedanz umformen, ohne Energie zu erzeugen.
+
+Das stärkt **H11/H27/H28/H30/H32** aus V5 und führt zu H36–H38 unten.
+
+# 97. V6 – Quantitativer Audit des `capacitive transformer`-Beispiels
+
+Hartmann nennt: `1 µF @ 1000 V` wird auf `100 µF` entladen → ungefähr `10 V` und höhere Stromfähigkeit.
+
+Für direkte Ladungsteilung gilt:
+
+`V_f = C1*V1/(C1+C2) = 9.90099 V`.
+
+Die Spannungsaussage stimmt größenordnungsmäßig. Die Energie jedoch:
+
+- `E_i = 0.5 J`
+- `E_f = 0.0049505 J`
+- Differenz `≈ 0.49505 J = 99.01 %` der Anfangsenergie.
+
+Bei einfacher dissipativer Ladungsteilung wird diese Differenz in realen Schalt-/Leitungs-/Strahlungsmechanismen verloren. Ein guter Wandler kann Hochspannung gegen höheren Strom bei niedrigerer Spannung tauschen, aber die Energie nicht vervielfachen.
+
+**V6-Bewertung:** Die Form spezieller Testatika-Kondensatoren bleibt als Impedanz-/Feldgeometrie relevant. `Großer C bei kleinerem V` ist **kein Energiegewinnmechanismus**.
+
+# 98. V6 – Gitter/Luftionen: wertvolle Geometriehypothese, schwache Energiequellenhypothese
+
+Hartmann vermutet 2000, Gitter ließen ionisierte/polarisierte Luft besser an die Electret-Oberfläche koppeln und nennt ungefähr `10^23 Moleküle/cm³`.
+
+Korrektur über ideales Gas bei ungefähr Raumtemperatur und 1 atm:
+
+`n ≈ 2.5 × 10^19 Moleküle/cm³`.
+
+Hartmanns Zahl ist damit ungefähr vier Größenordnungen zu hoch. Zudem ist normale Luft überwiegend neutral; aus der Moleküldichte folgt keine entsprechende frei verfügbare Ladungsdichte.
+
+Trotzdem ist die Gitterspur experimentell stark, weil Mesh/Lochblech gegenüber Vollfolie ändern kann:
+
+- lokale Feldspitzen;
+- effektive Kapazität;
+- Corona-/Ionisationsschwelle;
+- Luft-/Ionentransport;
+- Oberflächenladung;
+- Leck- und Relaxationspfade.
+
+**Priorität:** geometriekontrollierter Mesh-vs-Lochblech-vs-Folie-A/B-Test bleibt hoch. Ein Unterschied beweist zunächst nur einen Feld-/Transporteffekt.
+
+# 99. V6 – Spätere Radioaktivitäts-/Betavoltaik-Hypothese Hartmanns
+
+Ein späterer undatierter Hartmann-Kommentar im gleichen historischen Mirror behauptet/hypothetisiert, gepulste Hochspannung könne schwach radioaktive Mineralien/Gesteine in Testatika-Baugruppen stimulieren, sodass Beta-Elektronen von Drähten/Gittern gesammelt würden.
+
+V6-Quellenbewertung:
+
+- mehrfach spekulative Formulierungen (`probably`, `must be`);
+- keine gefundene Testatika-Materialanalyse;
+- keine Isotopenidentifikation;
+- keine Dosis-/Aktivitätsmessung;
+- keine geschlossene nukleare Energiebilanz;
+- spezifische Radiumchlorid-Geschichte war 1999 laut Holzherr von Baumann verneint worden und wurde damals auch von Hartmann bezweifelt.
+
+Betavoltaik selbst ist reale Physik: Betaenergie eines **konkreten Radioisotops** wird in elektrische Energie umgewandelt. Publizierte Modelle rechnen Isotop, Aktivität, Spektrum, Geometrie und Selbstabsorption explizit. Eine Hochleistungsarbeit nennt für 0.1-W- bis Watt-Niveaus Radioisotopenbeladungen >`10^13 Bq`.
+
+**Konsequenz:** Selbst bei Nachweis radioaktiver Komponenten wäre die Energiequelle Kernzerfall, nicht Overunity. Für dieses Replikationsprojekt werden **keine radioaktiven Stoffe beschafft oder eingesetzt**.
+
+# 100. V6 – `negative resistance` bei Hartmann 2008
+
+Hartmann verbindet 2008 Testatika/Moray mit `negative resistance` und angeregtem radioaktivem Zerfall/Beta-Elektronen.
+
+Negative differentielle Widerstandskennlinien sind real, aber keine selbständige Energiequelle. Reale NDR-Bauelemente oder aktive negative Impedanzen benötigen Bias/Pumpenergie oder setzen gespeicherte Energie um. Eine radioaktive NDR-/Verstärkerhypothese müsste wiederum die Kernzerfallsenergie bilanzieren.
+
+**Status:** historisch wichtig für Hartmanns spätere Position; niedrig als Beweis für die Testatika.
+
+# 101. V6 – Kristallspur: neue, aber sekundäre Hartmann-Zuschreibung
+
+Rimstar führt eine Aussage, Hartmann habe Methernitha besucht und dort erfahren, das Geheimnis liege in den Kristallen. Im aktuellen Audit wurde **kein originales Hartmann-Besuchsprotokoll** gefunden, das diese konkrete Aussage verifiziert.
+
+Daher:
+
+- nicht als Baumann-Fakt behandeln;
+- nicht als Hartmann-Primärbeobachtung behandeln;
+- als **S2-Suchspur** erhalten;
+- mit der bereits starken unabhängigen Tatsache trennen, dass Marinov/Baumann tatsächlich ein unbekanntes `crystal` erwähnen.
+
+# 102. V6 – Neue Hypothesen H36–H42
+
+**H36 — electretartige Rotorpolarisation / persistente Dielektrikum-Ladungszustände**  
+Status: **mittel bis mittel-stark** als testbare Sekundärhypothese. Keine Evidenz, dass das Original zwingend thermisch hergestellte Electrets verwendete.
+
+**H37 — Gittergeometrie koppelt/ordnet relevante Oberflächen-/Raumladung besser als Vollfolie**  
+Status: **mittel-stark als Geometrie-/Transporthypothese**, niedrig als externe Energiequelle.
+
+**H38 — `capacitive transformer` als Spannungs-/Impedanzkonditionierung**  
+Status: **mittel**. Keine Energievervielfachung; vollständige Ladungs-/Energiebilanz erforderlich.
+
+**H39 — schwach radioaktive Mineralien als Testatika-Kern**  
+Status: **niedrig**. Hartmann-Späthypothese ohne Testatika-spezifische Material-/Strahlungsbefunde.
+
+**H40 — negative resistance / stimulierter Zerfall als Kernmechanismus**  
+Status: **niedrig**. Keine Testatika-Kennlinie oder Isotopen-/Leistungsbilanz.
+
+**H41 — `Kristalle sind das Geheimnis`, Hartmann-Besuch**  
+Status: **mittel-niedrig als Suchspur**, nicht verifiziert als Primärquelle.
+
+**H42 — overunity.com als historischer Testatika-Medien-/Diskussionsknoten**  
+Status: **stark**. Thread- und Dateipfade sowie Hartmann-Holzherr-Korrespondenz mehrfach erhalten.
+
+# 103. V6 – Arbeitskonsens nach Hartmann-/Overunity-Audit
+
+Die neue Recherche verändert den V5-Kern **nicht** in Richtung Tesla/HF oder Radioaktivität. Sie stärkt vielmehr eine konventionell testbare elektrostatische Rekonstruktion:
+
+> **persistenter Dielektrikum-/Oberflächen-Ladungszustand → winkelabhängige Kapazitätsmatrix → berührungslose Taster/Influenz → Gitter-Feldformung → phasenselektives Crystal/Diode-Charge-Gating → getrennte Bias-/Speicherzustände → kapazitive/induktive Impedanzkonditionierung.**
+
+Hartmanns Juni-2000-Electret-Modell ist hierfür eine wertvolle **sekundäre** Konvergenzquelle. Seine Luftionen-kW-Erklärung, spätere Radioaktivitätstheorie und Negative-Resistance-Deutung liefern dagegen derzeit **keinen geschlossenen Energiequellennachweis**.
+
+Neue Forschungspriorität:
+
+1. dielektrische Ladungs-/Polarisationsrelaxation messen;
+2. Mesh/Lochblech/Folie kontrolliert vergleichen;
+3. Metallplatten-Grenzbedingung wiederholen;
+4. getrennte Drive-/Pickup-Elektroden testen;
+5. Crystal/Diode als phasenselektives Charge-Gate testen;
+6. Kondensatorstufen mit vollständiger Energie-/Ladungsbilanz prüfen;
+7. erst danach Magnet-/Spulen-Zusatzstufen untersuchen.
+
+**Keine radioaktiven Materialien im Replikationspfad.**

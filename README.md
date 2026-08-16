@@ -198,3 +198,12 @@ Repository-authored code, CAD source, documentation and derived models are relea
 ### Deutsch
 
 Dies ist eine **quellenkritische Forschungsreplik**, keine Behauptung, dass eine Freie-Energie-Funktion bewiesen sei. Schwerpunkt sind eine möglichst originalnahe Geometrie der kleinen Marinov-Maschine, die saubere Übersetzung historischer Erklärbegriffe in messbare Größen und experimentell überprüfbare Varianten für die nicht überlieferte Verdrahtung.
+
+## Hartmann / Overunity.com source audit
+
+The historical Internet layer is now separated from the direct Marinov/Hauser/Holzherr evidence. See:
+
+- [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) — dated Hartmann timeline, Overunity archive trail, electret/air-ion/radioactivity/negative-resistance hypothesis audit and quantitative corrections;
+- [`docs/research/hartmann-overunity-sources.tsv`](docs/research/hartmann-overunity-sources.tsv) — machine-readable provenance ledger.
+
+The strongest useful convergence is Hartmann's **June-2000 electret/influence model**. His later radioactive-mineral and negative-resistance explanations are preserved as later hypotheses, not as verified Baumann/Methernitha statements or proof of net energy gain.

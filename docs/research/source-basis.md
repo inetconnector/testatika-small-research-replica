@@ -121,3 +121,15 @@ Der derzeit beste quellenübergreifende Funktionsbegriff ist:
 > **phasengesteuertes elektrostatisches Charge-State-Management: Influence/variable C → nichtkontaktierende Pickups → polarity routing → Crystal-/Diodenkommutation → getrennte Drive-/Storage-Knoten → zyklische Regeneration.**
 
 Dies ist ein falsifizierbares Arbeitsmodell und **kein** Nachweis eines Energieüberschusses.
+
+## V6-Ergänzung: Stefan Hartmann / Overunity.com
+
+Stefan Hartmann erhält eine eigene Provenienzklasse, weil seine Rolle über die Zeit wechselte:
+
+1. **Hartmann direkt (H1):** eigene datierte Beiträge/Interviews — verlässlich für die Frage, *was Hartmann zu diesem Zeitpunkt dachte*, nicht automatisch für das Originalprinzip.
+2. **Hartmann-Mirror (H1-M):** als Hartmann-Mail gekennzeichnete historische Kopie — technisch verwertbar mit Mirror-Vorbehalt.
+3. **Hartmann als Übermittler von Augenzeugen (W1 via Hartmann):** z. B. Holzherr 1999 — die Beobachtung bleibt Holzherr zugeordnet.
+4. **Overunity-Archivspur (A1):** belegt Thread-/Medienexistenz und Überlieferung, nicht physikalische Richtigkeit.
+5. **Sekundäre Hartmann-Zuschreibung (S2):** z. B. Rimstar `secret is in crystals` — Suchspur bis Primärbeleg gefunden ist.
+
+Hartmanns Hypothesen dürfen nicht zeitlich zusammengeschoben werden: 1992 elektrostatischer Hyde-Vergleich; 2000 Electret/Influenz/Luftionen; später radioaktive Mineralien; 2008 `negative resistance`/angeregter Zerfall. Die **2000er Electret-/Influenzkomponente** ist die stärkste technische Konvergenz mit dem aktuellen Charge-State-Modell; die späteren Energiequellenbehauptungen bleiben niedrig gewichtet.
