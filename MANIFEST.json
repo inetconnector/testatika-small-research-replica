@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 251,
+  "file_count": 252,
   "files": [
     {
       "path": ".gitattributes",
@@ -23,6 +23,11 @@
       "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
       "size": 2348,
       "sha256": "16f401f487fa620d2a3ad3e09d35098c8a6bd738efe2da277e9223ab89e06912"
+    },
+    {
+      "path": ".github/V4_MATERIALIZE_TRIGGER",
+      "size": 94,
+      "sha256": "9e6e4baea0b165837d522eadf544e6f58c6e7f175db3345394714fb5502f7508"
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
