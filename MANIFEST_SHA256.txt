@@ -45,6 +45,7 @@ dbe13504abed6609f38ca6f1abedbf69c3505bb9938fa8f9b35fd21f937b2f33  docs/publicati
 7ede02d4caba4d01a03e30f61a07c6a7d673ba856f452ca64faa42af3f89405f  docs/repository-consolidation-2026-08-16.md
 f82a26c42d48cfe6059a1cedeb0569ce9377ac99198048aa37864902427fdfca  docs/repository-hardening-plan-2026-08-16.md
 e9dbb06ed8d29d0e79cb273c5494aef28f82ed54ab467caf031d04f0c18d441d  docs/repository-history/README.md
+26c44b331d3fdc1747d5c5450b8ad7b1979cf87d990a3e59a7bdff1d05e12747  docs/repository-history/baumann-language-decoding-pre-primary-scan-2026-08-16.md
 452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15  docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt
 fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e  docs/repository-history/workflows/consolidate-main-and-clean-branches.pre-hardening.yml.txt
 bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b  docs/repository-history/workflows/materialize-netjournal-proposal.pre-hardening.yml.txt
