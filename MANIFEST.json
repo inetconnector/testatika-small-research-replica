@@ -61,8 +61,8 @@
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
-      "size": 1515,
-      "sha256": "4aa1ed9b9069ce1d4d1922aea1863c0255f7d83f1c6934356065ab6b8dfc8c0e"
+      "size": 1505,
+      "sha256": "53c2072a59eb1223bd22791ccfc5c9f04fb455558590911929c3857b24845c75"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
