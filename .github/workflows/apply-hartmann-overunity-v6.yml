@@ -1,0 +1,58 @@
+name: Apply Hartmann Overunity V6 research update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/apply-hartmann-overunity-v6.yml'
+      - 'scripts/apply_hartmann_overunity_v6.py'
+      - 'docs/research/hartmann-overunity-testatika.md'
+      - 'docs/research/hartmann-overunity-sources.tsv'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-additive-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Apply additive V6 research update
+        run: python scripts/apply_hartmann_overunity_v6.py
+
+      - name: Verify no tracked file was deleted
+        shell: bash
+        run: |
+          set -euo pipefail
+          deleted="$(git diff --name-status | awk '$1=="D" {print $2}')"
+          if [ -n "$deleted" ]; then
+            echo "ERROR: additive update attempted to delete tracked files:"
+            echo "$deleted"
+            exit 1
+          fi
+
+      - name: Commit additive document extensions
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add STATE.md README.md CHANGELOG.md docs/sources.md \
+            docs/scientific-status.md docs/research/source-basis.md \
+            docs/research/evidence_matrix.tsv docs/research/baumann-language-decoding.md \
+            docs/research/safety.md
+          if git diff --cached --quiet; then
+            echo 'V6 Hartmann/Overunity extensions already present.'
+          else
+            git commit -m 'docs: extend master research with Hartmann Overunity V6 [skip ci]'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
