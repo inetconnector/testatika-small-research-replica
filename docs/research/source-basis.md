@@ -25,7 +25,18 @@
    - wichtige Aussage: Baumann war schwer verständlich, weil er leise/schnell sprach und **nicht-wissenschaftliche Begriffe** verwendete;
    - perforiertes Gitter statt Vollfolie laut Baumann funktionell relevant;
    - Radiumchlorid laut Baumann ausdrücklich nicht die Energiequelle;
-   - Drahtsektoren bei mehreren Maschinen als durch die Scheibe „eingewebt“, teils mit drei Seitenwechseln beschrieben.
+   - Drahtsektoren bei mehreren Maschinen als durch die Scheibe „eingewebt“, teils mit drei Seitenwechseln beschrieben;
+   - 50-cm-Demo mit ungefähr **15 rpm** beschrieben; ältere ~50/60-rpm-Angaben sind damit klar modell-/demonstrationsspezifisch;
+   - Principle Experiment genauer: quadratisch gelochtes Aluminium am bewegten Arm, Messinggitter zwischen gestapelten Platten, zwei parallel geschaltete Kondensatoren;
+   - mehrere kleine Modelle mit ungefähr **12-cm-Scheiben** beschrieben — nicht mit Marinovs ~20-cm-M2 gleichsetzen;
+   - große Kondensatoren laut Baumann mit **20 Lagen perforiertem Blech** — große Maschine, nicht M2-Pots;
+   - frühes/originales kleines Topmodul aus Erinnerung mit grober Wicklung um Zentralleiter und insgesamt vier Leitungen;
+   - optischer Hinweis: sehr dünne Schichten zwischen Plexiglas können durch interne Reflexion schwer sichtbar sein.
+
+Die ausführliche Archivauswertung und Dateihashes stehen in:
+
+- [`archive-audit-2026-08-16.md`](archive-audit-2026-08-16.md)
+- [`archive-source-ledger.tsv`](archive-source-ledger.tsv)
 
 4. Archivierte Methernitha-Technikbeschreibung / Methernitha-Film:
    - institutionelles Selbstverständnis, keine unabhängige Messquelle;
@@ -99,7 +110,21 @@ Bis die jeweils ältere Originalquelle gefunden ist: H2/I1.
 
 ## Sekundär
 
-Potter/Kelly werden nur als Hypothesenkatalog verwendet. Ihre Tesla-/HF-Deutungen werden **nicht** in die Baseline übernommen.
+Potter/Kelly werden nur als Hypothesenkatalog und Quellenfinder verwendet. Ihre Tesla-/HF-, Plasma-, Electron-Cascade- oder Umweltenergie-Deutungen werden **nicht** in die historische Baseline übernommen.
+
+Das große Kelly-Kompendium wird separat eingeordnet in:
+
+- [`kelly-free-energy-guide-audit-2026-08-16.md`](kelly-free-energy-guide-audit-2026-08-16.md)
+
+Sein technischer Nutzen liegt für dieses Projekt vor allem in **kontrollierbaren Vergleichshypothesen**:
+
+- variable Kapazität / elektrostatische Parametrik;
+- Electret-/Dielektrikum-Vorkonditionierung als A/B-Variable;
+- Mesh/Lochblech/Folie als Feld-/Corona-/Ladungstransport-Vergleich;
+- phasenselektive Rectification/Feedback als Messproblem;
+- konventionelle elektrostatische Motoren und Impedanzwandler als Kontrollsysteme.
+
+Kelly/Utkin/Potter sind keine Belege dafür, dass Testatika Tesla-Resonanz, Äther-/Nullpunktenergie oder eine Electron-Cascade als Energiequelle verwendet.
 
 ## Wissenschaftliche Kontrollquellen
 

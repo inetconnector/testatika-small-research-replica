@@ -56,6 +56,29 @@ Messen:
 
 Ziel: Methernithas `dry air works better` gegen etablierte PMMA-/Coronaeffekte abgleichen.
 
+### Stufe 3b — PMMA-Vorkonditionierung / Electret-Kontrolle
+
+Archiv-/Kelly/Potter-Material enthält Electret- bzw. vorbeladene-Dielektrikum-Deutungen. Dies ist **kein historisch bestätigtes M2-Geheimnis**, aber eine sauber testbare Variable.
+
+Vergleich bei identischer Geometrie:
+
+- unbehandeltes PMMA;
+- kontrolliert elektrostatisch vorkonditioniertes PMMA mit dokumentierter, energiearmer Laborprozedur;
+- neutralisiertes/entladenes Kontrollstück;
+- gleicher PMMA-Typ in unterschiedlichen Schnitt-/Herstellungsorientierungen, sofern aus dem Halbzeug nachvollziehbar.
+
+Vor und nach jedem Lauf erfassen:
+
+- räumliche Surface-Potential-Map;
+- Abklingkurve des Oberflächenpotentials;
+- Temperatur und RH;
+- Leckstrom;
+- C(θ);
+- Corona-Onset;
+- Startmoment und stationäres Torque.
+
+Ziel: feststellen, ob ein langlebiger Dielektrikum-Ladungszustand die beobachtbaren Teilphänomene erklärt oder beeinflusst, **ohne** ihn als Energiequelle anzunehmen.
+
 ## Stufe 4 — externer Elektrostatik-Motortest
 
 - nur mit kommerzieller/gekapselter, strombegrenzter Lehr-/Labor-Elektrostatikquelle;
@@ -64,7 +87,24 @@ Ziel: Methernithas `dry air works better` gegen etablierte PMMA-/Coronaeffekte a
 - Drehmoment mit Kraft-/Drehmomentsensor bestimmen;
 - Rotorwinkel synchron erfassen.
 
-Ziel: `tau(theta)` und die Phasenlage des elektrostatischen Motorzyklus bestimmen.
+### Drehzahl-Sweep nach erweitertem Quellenstand
+
+Historische Berichte sind nicht einheitlich: Cathomen nennt modellbezogen ungefähr 60 rpm, während Holzherr 1999 bei der 50-cm-Demo ungefähr **15 rpm** beobachtete. Deshalb keine einzelne Soll-Drehzahl voraussetzen.
+
+Empfohlene Sweep-Punkte für Vergleichstests, soweit mechanisch sicher:
+
+`5 / 10 / 15 / 20 / 30 / 45 / 60 rpm`
+
+Bei jedem Punkt synchron erfassen:
+
+- rpm und Rotorwinkel;
+- Torque;
+- Knotenpotentiale;
+- Gate-/Pickup-Strom;
+- Leck-/Corona-Strom;
+- Ladung pro Zyklus.
+
+Ziel: RC-/Relaxations-/Phasenfenster gegen Drehzahl auflösen.
 
 ## Stufe 5 — Pots
 
@@ -73,6 +113,18 @@ Ziel: `tau(theta)` und die Phasenlage des elektrostatischen Motorzyklus bestimme
 - Impedanz über Frequenz bei kleinen Testsignalen;
 - Leakage und dielektrische Relaxation;
 - keine Tesla-Funktion voraussetzen.
+
+### Großmaschinen-Kontrolle — 20-Lagen-Gitterkondensator
+
+Holzherr überliefert für die große Maschine Baumanns Aussage, die großen Kondensatoren enthielten **20 Lagen perforiertes Blech**. Dies darf nicht auf M2 übertragen werden, ist aber als getrennte M6-Kontrollstruktur interessant.
+
+Nur als eigenes Modell untersuchen:
+
+- 2 / 5 / 10 / 20 gleichartige perforierte Elektrodenlagen;
+- identischer Dielektrikumtyp und definierte Abstände;
+- C, ESR/Verlustfaktor, Leakage, Relaxation und Impulsantwort.
+
+Ziel: prüfen, ob die große Struktur als gewöhnliches multilayer capacitance / field-shaping network erklärbar ist.
 
 ## Stufe 6 — Crystal-/Diode-Gate
 
@@ -96,6 +148,20 @@ Zeitgleich messen:
 - rpm.
 
 Ziel: die Methernitha-Aussage `rectifying diode keeps the cycles steady` als **phasenselektive Kommutation** prüfen.
+
+### Vier-Terminal-Topmodul
+
+Holzherr erinnerte beim frühen/originalen Modell eine grobe Spule um einen geraden Zentralleiter mit insgesamt **vier Leitungen**. Dies ist modellbezogen und keine gesicherte M2-Topologie.
+
+Der experimentelle Topmodul-Träger soll deshalb vier isolierte Terminals anbieten. Bei niedriger Energie systematisch testen:
+
+- alle Terminals offen;
+- Zentralleiter separat / Wicklung separat;
+- Wicklungsenden vertauscht;
+- Zentralleiter floating / geerdet / kapazitiv gekoppelt;
+- passive R/C/Diode-Kopplung zwischen den beiden Zweipolen.
+
+Jede Topologie erhält eine eindeutige Config-ID. Keine davon wird als `original crystal` bezeichnet.
 
 ## Stufe 7 — Phasenaufgelöste Node Map
 
@@ -146,6 +212,18 @@ Simultan messen:
 - Speicherenergie vorher/nachher.
 
 Das ist der wichtigste Test der Hypothese, man könne Ladung am Sekundärknoten abnehmen, ohne den Rotor-Bias direkt zu entladen.
+
+### Quellenmotivierter Instrumentierungsstandard
+
+Holzherr berichtete bei der 50-cm-Demo keinen sichtbaren Drehzahlabfall unter Last, weist aber selbst darauf hin, dass die Aufmerksamkeit auf der Lampe/Last lag. Deshalb ist `kein sichtbarer rpm drop` **kein** ausreichender Befund.
+
+Pflichtmessungen:
+
+- optischer/encoderbasierter rpm-Verlauf mit ausreichend hoher Zeitauflösung;
+- Torque oder Antriebsleistung synchron;
+- Load-V/I synchron;
+- initiale/finale Speicherenergie;
+- mindestens ein identischer Dummy-Lauf.
 
 ## Stufe 10 — Luftionen-Hypothese
 
@@ -199,5 +277,13 @@ Keine Aussage zu Energieüberschuss ohne Unsicherheitsrechnung und langen Lastla
 - andere Messgerätefamilie;
 - Kalibrierung;
 - Dummy-/Blindvarianten.
+
+## Optische Quellenregel
+
+Holzherr weist darauf hin, dass eine sehr dünne Schicht zwischen Plexiglasplatten durch Totalreflexion optisch kaum sichtbar sein kann. Daher gilt für Fotoanalyse:
+
+> `not visible` ist bei transparenten Mehrschichtbauteilen **nicht** gleich `not present`.
+
+Verdeckte Leiter-/Zwischenschicht-Hypothesen dürfen nur als reversible Varianten getestet werden und brauchen für eine historische Hochstufung zusätzliche Primärevidenz.
 
 **Kein Selbstlauf-/Overunity-Schluss aus Nachlauf, Feldspeicherung, hoher Leerlaufspannung oder kurzen Lastimpulsen.**

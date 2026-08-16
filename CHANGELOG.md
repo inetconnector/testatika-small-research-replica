@@ -1,5 +1,25 @@
 # Changelog
 
+## Unreleased — archive + Kelly source expansion
+
+### Added
+
+- `docs/research/archive-audit-2026-08-16.md`: provenance-first audit of the user-supplied historical Testatika archive without redistributing third-party source files.
+- `docs/research/archive-source-ledger.tsv`: hash/source/evidence ledger for the highest-value archive items.
+- `docs/research/kelly-free-energy-guide-audit-2026-08-16.md`: Testatika-focused audit of Patrick J. Kelly's large *A Practical Guide to 'Free-Energy' Devices* and linked Utkin material.
+- Holzherr 1999 source details including the ~15-rpm 50-cm demonstration, 1.5-hour observation window, short load observations, Principle Experiment stack geometry, 12-cm small-machine family, 20-layer large capacitors and four-lead early top-module precedent.
+- explicit optical warning that thin layers between transparent Plexiglas plates may be difficult to see and that photographic non-visibility is not proof of absence.
+- PMMA pre-conditioning/electret-control experiments, surface-potential mapping and charge-decay measurement.
+- expanded slow-rpm sweep and four-terminal top-module experiment matrix.
+
+### Source-control decisions
+
+- Kelly/Potter/Utkin material remains S2/I1 hypothesis/source-discovery material, not Testatika primary evidence.
+- 12-cm Holzherr machines are kept distinct from Marinov's ~200-mm M2.
+- the 20-layer perforated capacitor statement is assigned to the large-machine family and is not imported into M2 pots.
+- the four-lead top-module description is retained as a small-family topology lead, not a solved M2 crystal circuit.
+- electret/dielectric conditioning is promoted only to a controlled experiment, not to an asserted historical mechanism or energy source.
+
 ## v0.3.0 — 2026-08-16
 
 Integrated research-hardening release covering R4, V3 photo interpretation, Baumann/Methernitha language reconstruction, Hartmann/Overunity provenance, replication-completeness tracking and repository integrity automation.

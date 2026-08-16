@@ -13,11 +13,12 @@ This file turns every important unresolved M2 construction detail into a **contr
 | rotor conductor | ~1 mm Cu wire | Fe / stainless / Fe-Ni research coupons/rotors | Marinov baseline + later conflict/material hypotheses |
 | rotor route | R0 as simplest setup reference | R1 / R2 / R3 / R4 | exact original route unknown |
 | rotor substrate | 3–4 mm PMMA recommended | printable template for drilling/routing | planarity + historical material class |
+| rotor dielectric state | untreated/neutral reference | documented pre-conditioned / neutralized / orientation controls | secondary electret lead; not historical baseline |
 | rubbing collection | none | none in M2 baseline | strongly source-supported |
 | electrode carriers | adjustable | geometry/material inserts interchangeable | positions and grouping unresolved |
 | side pots | two | internal connection variants | externally source-supported, internal topology unknown |
 | horseshoe magnets | installed for first-machine visual baseline | remove/bypass for A/B | presence strong, function unknown |
-| crystal module | electrically isolated exchangeable carrier | open / short / R / diode / antiparallel / crystal detector surrogate | function unknown |
+| crystal module | electrically isolated four-terminal-or-less exchangeable carrier | open / short / R / C / diode / antiparallel / crystal detector / coupled two-port surrogate | function unknown; four-lead precedent exists on another early small model |
 | rear shield | absent baseline | floating / grounded / R-ground / C-ground | later shield claim test |
 
 ## Rotor routing set
@@ -42,6 +43,29 @@ The research package should permit geometrically identical conductor comparisons
 4. Fe-Ni candidate where safely/legally obtainable and composition documented.
 
 For each material record DC resistance, diameter, surface finish and magnetic response/remanence. Material must not be changed simultaneously with route geometry during comparison.
+
+## PMMA / dielectric-state set
+
+Secondary Potter/Kelly/Hartmann-like interpretations suggest an electret-like or pre-conditioned dielectric state. This is **not** accepted as an original M2 fact, but it is sufficiently falsifiable to deserve a controlled variant family.
+
+Keep geometry and electrode arrangement identical while comparing:
+
+1. untreated PMMA reference;
+2. documented low-energy electrostatic pre-conditioning;
+3. neutralized/discharged control after the same handling history;
+4. matched samples cut in different sheet/manufacturing directions if provenance permits;
+5. optional different transparent dielectric only as a separate material experiment.
+
+For every dielectric-state variant record:
+
+- pre-run surface-potential map;
+- conditioning voltage/current/time and total supplied energy;
+- delay between conditioning and test;
+- RH and temperature;
+- post-run surface-potential map;
+- charge-decay curve.
+
+No apparent persistence may be called an energy source without complete accounting of conditioning and stored electrostatic energy.
 
 ## Electrode insert set
 
@@ -75,18 +99,31 @@ Minimum reversible topology matrix:
 
 Before coupled-machine tests measure actual capacitance, leakage, dielectric loss and relaxation for each physical pot.
 
+### Large-machine 20-layer capacitor control
+
+Holzherr 1999 transmits Baumann's statement that the **large-machine** capacitors contained 20 layers of perforated sheet. This belongs to M6/large-family research and is explicitly **not** the M2 side-pot baseline.
+
+A separate comparison fixture may test 2/5/10/20 perforated layers at controlled dielectric thickness and area. Its purpose is to characterize ordinary multilayer capacitance, field shaping, leakage, relaxation and pulse response.
+
 ## Crystal black-box set
 
-The historical material/function is unknown. The module should therefore be a removable four-terminal-or-less carrier capable of safely accepting low-energy surrogates:
+The historical M2 material/function is unknown. The module should therefore be a removable **four-terminal-or-less** carrier capable of safely accepting low-energy surrogates.
 
-- open circuit;
+Why four terminals are retained: Holzherr remembered an early/original small-model top component as a rough winding around a straight central conductor with a total of four leads. That is useful topology evidence for the broader small-machine family but does not establish M2 identity.
+
+Candidate configurations:
+
+- all terminals open;
 - short/bus;
 - high-value resistor;
+- capacitor;
 - silicon diode;
 - suitable HV diode at controlled low stored energy;
 - antiparallel diode pair;
 - historical-style crystal detector where safe;
-- purely capacitive coupling control.
+- winding as one isolated two-terminal port + central conductor as second isolated two-terminal port;
+- capacitive/R/diode coupling between the two ports;
+- central conductor floating / referenced / guarded.
 
 Each surrogate must be labelled **experimental**, never “original crystal”.
 
@@ -114,6 +151,16 @@ Record or control:
 - rear-plate distance and electrical state;
 - whole-machine orientation for the low-confidence east-west hypothesis.
 
+## Speed matrix
+
+Do not hard-code a universal Testatika rpm. Source reports are machine-specific: a large/workshop machine is associated with ~60 rpm in Cathomen material, while Holzherr reports approximately **15 rpm** during the 1999 50-cm demonstration.
+
+Recommended controlled sweep where mechanically safe:
+
+`5 / 10 / 15 / 20 / 30 / 45 / 60 rpm`
+
+Measure all electrical and torque quantities against rotor phase at every speed.
+
 ## Node/topology matrix
 
 The V3 node families N-L, N-R and N-C are **working labels**, not historical labels. Wiring trials must be represented by named configuration IDs, for example:
@@ -121,12 +168,19 @@ The V3 node families N-L, N-R and N-C are **working labels**, not historical lab
 - `M2-T1-R4-CU-MESH-XOPEN-MAG`
 - `M2-T1-R4-CU-FOIL-XDIODE-MAG`
 - `M2-T2-R1-FE-MESH-XR-MAG0`
+- `M2-T3-R4-CU-MESH-X4PORT-PMMA-COND15`
 
 Recommended ID fields:
 
-`machine-topology-route-material-electrode-crystal-magnet-shield`
+`machine-topology-route-material-electrode-crystal-dielectricstate-magnet-shield-speed`
 
 Every dataset must record the exact configuration ID and repository commit.
+
+## Optical hidden-layer rule
+
+Holzherr noted that a thin layer between Plexiglas plates can be difficult to see because of total internal reflection. Therefore a photo showing apparently clear Plexiglas does not prove that no thin conductor/coating/interface exists.
+
+Any hidden-layer candidate remains a reversible **hypothesis** until confirmed by multi-angle imagery, construction records or examination of an original object.
 
 ## Completion criterion
 
