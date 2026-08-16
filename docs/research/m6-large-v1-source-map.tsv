@@ -1,0 +1,28 @@
+id	subsystem	machine_scope	source_basis	evidence_status	v1_implementation	unresolved
+M6V1-S01	front disc	M6a	Hauser 1986 direct-visit report	P1 source-stated	500 mm x 5 mm PMMA disc	exact PMMA grade / hub detail
+M6V1-S02	front lamellae	M6a	Hauser 1986	P1 source-stated	50 positions; 20 x 160 mm; CAD visual thickness 0.4 mm	exact alloy/coating/magnetization
+M6V1-S03	rear disc	M6a	Hauser 1986	P1 source-stated	darker second disc; counterrotation position	exact tint/material treatment
+M6V1-S04	rear lamellae	M6a	Hauser 1986	P1 source-stated	lamellae represented on both faces	exact face count/offset details
+M6V1-S05	front stators	M6a	Hauser 1986 + ABweb9	P1 observation	8 perforated non-contact carriers	exact angles/gaps/grouping
+M6V1-S06	rear stators	M6a	Hauser 1986 + ABweb9	P1 observation	6 perforated non-contact carriers; alternate last-pair orientation	exact angles/gaps/grouping
+M6V1-S07	large cylinder outer grid	M6a	AHwebL7 1988	P1 source-stated	outer metal grid tube	exact mesh pitch/material/connection
+M6V1-S08	large cylinder middle grid	M6a	AHwebL7 1988	P1 source-stated	middle metal grid tube	exact mesh pitch/material/connection
+M6V1-S09	large cylinder inner grid	M6a	AHwebL7 1988	P1 source-stated	inner metal grid tube	exact mesh pitch/material/connection
+M6V1-S10	acrylic separators	M6a	AHwebL7 1988	P1 source-stated	two nested acrylic sleeves	exact wall/gaps
+M6V1-S11	magnet tube	M6a	AHwebL7 1988	P1/I1	central removable tube/magnetic candidate	exact magnet stack/polarity/function
+M6V1-S12	bifilar winding	M6a	AHwebL7 1988	P1 source-stated	two interleaved ~18-gauge winding layers	exact turns/pitch/node topology
+M6V1-S13	top copper ring	M6a	ABweb9	P1 reported output location	removable top ring + isolated breakout	exact connection/output interpretation
+M6V1-S14	horseshoe modules	M6a	Hauser 1986/1988	P1/I1	wound horseshoe cores + layered pole pieces	exact turns/material/function
+M6V1-S15	large capacitor	M6a	Hauser drawing 3279	P1 visual reconstruction	removable can position	exact C/dielectric/topology
+M6V1-S16	smaller capacitor	M6a	Hauser drawing 3279	P1 visual reconstruction	removable can position	exact C/dielectric/topology
+M6V1-S17	pipe with spiral	M6a	Hauser drawing 3279	P1 visual reconstruction	horizontal tube + spiral geometry	exact electrical role
+M6V1-S18	top crystal assembly	M6a	Hauser 1986	P1 geometry + I1 function	perforated cage, coil/core, window, removable crystal seats	crystal material/count/polarity/rectifier function
+M6V1-S19	magnet/timing wheel	M6a	Hauser 1986/1988	P1/I1	12-position working-fit wheel	original magnet count/spacing/coupling
+M6V1-S20	DC motor	M6a	Hauser 1988	P1 source-stated presence	motor envelope/mount	exact motor type/voltage/transmission
+M6V1-S21	large-machine speed	M6a	Hauser 1986	P1 report	60 rpm test point	configuration-specific accuracy
+M6V1-S22	large-machine speed	M6b	Holzherr 1999	P1 report	15 rpm separate control	identity/configuration relation to M6a
+M6V1-S23	large capacitor layers	M6b	Holzherr 1999	H/P1 report	NOT injected into M6a baseline; experiment lead	exact layer dimensions/connections
+M6V1-S24	large official visual family	M6	meth2/meth3/meth5	video-derived	cross-checks tall cylinders, wound lower coils, two-disc/stator separation	video does not expose hidden wiring
+M6V1-S25	counterrotation lab drive	LAB	engineering fixture	DERIVED	open/crossed dual round-belt fixture	not historical geometry
+M6V1-S26	guard	LAB	safety fixture	DERIVED	guard frame/standoff model	continuous real guard material depends on build
+M6V1-S27	terminal board	LAB	Hauser three-isolated-circuit report + experiment need	DERIVED	3 groups / 18 open test nodes	exact historical buses unknown
