@@ -1,0 +1,22 @@
+name: CAD / documentation problem
+description: Report a reproducible problem in an asset or document.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Include slicer/CAD version and file path where relevant.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source/evidence impact
+      description: Does this affect a historical/source claim, derived geometry, or only CAD implementation?

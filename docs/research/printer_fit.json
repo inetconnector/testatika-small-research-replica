@@ -1,0 +1,242 @@
+{
+  "terminal_block.stl": {
+    "dimensions_mm": [
+      70.0,
+      34.0,
+      16.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "rotor_20wire.stl": {
+    "dimensions_mm": [
+      199.81,
+      199.91,
+      8.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "crystal_insert_carrier.stl": {
+    "dimensions_mm": [
+      23.98,
+      23.99,
+      48.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "center_crossbar.stl": {
+    "dimensions_mm": [
+      220.0,
+      18.0,
+      10.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "top_bridge.stl": {
+    "dimensions_mm": [
+      210.0,
+      24.0,
+      14.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "optional_magnet_leg_bobbin.stl": {
+    "dimensions_mm": [
+      27.97,
+      27.99,
+      26.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "hub_rear.stl": {
+    "dimensions_mm": [
+      39.96,
+      39.98,
+      10.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "electrode_angle_jig.stl": {
+    "dimensions_mm": [
+      99.91,
+      99.95,
+      2.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "horseshoe_magnet_dummy.stl": {
+    "dimensions_mm": [
+      50.0,
+      58.0,
+      12.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "pot_outer_shell.stl": {
+    "dimensions_mm": [
+      91.91,
+      91.96,
+      110.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "base_right.stl": {
+    "dimensions_mm": [
+      191.0,
+      180.0,
+      12.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "pot_spiral_mandrel.stl": {
+    "dimensions_mm": [
+      49.95,
+      49.98,
+      88.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "guard_post.stl": {
+    "dimensions_mm": [
+      29.97,
+      29.99,
+      285.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "electrode_swivel.stl": {
+    "dimensions_mm": [
+      38.0,
+      28.0,
+      66.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "base_left.stl": {
+    "dimensions_mm": [
+      191.0,
+      180.0,
+      12.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "side_frame_column.stl": {
+    "dimensions_mm": [
+      52.0,
+      44.0,
+      238.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "rear_shield_rail_EXPERIMENT.stl": {
+    "dimensions_mm": [
+      180.0,
+      24.0,
+      15.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "crystal_bridge.stl": {
+    "dimensions_mm": [
+      118.0,
+      29.99,
+      34.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "rotor_25wire.stl": {
+    "dimensions_mm": [
+      199.81,
+      199.91,
+      8.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "wire_bending_jig.stl": {
+    "dimensions_mm": [
+      115.0,
+      24.0,
+      8.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "hub_front.stl": {
+    "dimensions_mm": [
+      39.96,
+      39.98,
+      18.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "electrode_tilt_head.stl": {
+    "dimensions_mm": [
+      28.0,
+      16.0,
+      14.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "bearing_tower.stl": {
+    "dimensions_mm": [
+      50.0,
+      36.0,
+      180.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "pot_grid_former.stl": {
+    "dimensions_mm": [
+      73.99,
+      74.0,
+      96.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "electrode_wedge_frame.stl": {
+    "dimensions_mm": [
+      36.0,
+      62.0,
+      3.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "pot_terminal_lid.stl": {
+    "dimensions_mm": [
+      91.91,
+      91.96,
+      5.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "rotor_24wire.stl": {
+    "dimensions_mm": [
+      199.81,
+      199.91,
+      8.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "horseshoe_magnet_mount.stl": {
+    "dimensions_mm": [
+      66.0,
+      34.0,
+      63.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "rear_shield_carriage_EXPERIMENT.stl": {
+    "dimensions_mm": [
+      70.0,
+      22.0,
+      115.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  },
+  "pot_acrylic_sleeve_jig.stl": {
+    "dimensions_mm": [
+      65.94,
+      65.97,
+      92.0
+    ],
+    "fits_220x220_in_some_orientation": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "Testatika Small Marinov First Machine V2 Complete",
+  "reference": "first small machine, right side of Marinov figs. 13/14",
+  "nominal_rotor_diameter_mm": 200,
+  "assembly_extent_mm": [
+    370.0,
+    182.0,
+    324.0
+  ],
+  "mesh_vertices": 15210,
+  "mesh_faces": 31744,
+  "formats": [
+    "STEP",
+    "STL",
+    "OBJ",
+    "GLB"
+  ],
+  "note": "Mechanical/photogrammetric research reconstruction; original electrical wiring is not fully known."
+}

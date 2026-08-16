@@ -1,0 +1,30 @@
+name: Experimental result
+description: Submit a controlled replication or measurement.
+title: "[EXPERIMENT] "
+labels: ["experiment"]
+body:
+  - type: input
+    id: configuration
+    attributes:
+      label: Configuration
+      description: Rotor variant, wire routing, electrode geometry, pot configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: instruments
+    attributes:
+      label: Instruments and calibration
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: All energy inputs / initial stored energy
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results and raw data
+    validations:
+      required: true

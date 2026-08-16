@@ -1,0 +1,152 @@
+{
+  "terminal_block.stl": [
+    70.0,
+    34.0,
+    16.0
+  ],
+  "rotor_20wire.stl": [
+    199.81,
+    199.91,
+    8.0
+  ],
+  "crystal_insert_carrier.stl": [
+    23.98,
+    23.99,
+    48.0
+  ],
+  "center_crossbar.stl": [
+    220.0,
+    18.0,
+    10.0
+  ],
+  "top_bridge.stl": [
+    210.0,
+    24.0,
+    14.0
+  ],
+  "optional_magnet_leg_bobbin.stl": [
+    27.97,
+    27.99,
+    26.0
+  ],
+  "hub_rear.stl": [
+    39.96,
+    39.98,
+    10.0
+  ],
+  "electrode_angle_jig.stl": [
+    99.91,
+    99.95,
+    2.0
+  ],
+  "horseshoe_magnet_dummy.stl": [
+    50.0,
+    58.0,
+    12.0
+  ],
+  "pot_outer_shell.stl": [
+    91.91,
+    91.96,
+    110.0
+  ],
+  "base_right.stl": [
+    191.0,
+    180.0,
+    12.0
+  ],
+  "pot_spiral_mandrel.stl": [
+    49.95,
+    49.98,
+    88.0
+  ],
+  "guard_post.stl": [
+    29.97,
+    29.99,
+    285.0
+  ],
+  "electrode_swivel.stl": [
+    38.0,
+    28.0,
+    66.0
+  ],
+  "base_left.stl": [
+    191.0,
+    180.0,
+    12.0
+  ],
+  "side_frame_column.stl": [
+    52.0,
+    44.0,
+    238.0
+  ],
+  "rear_shield_rail_EXPERIMENT.stl": [
+    180.0,
+    24.0,
+    15.0
+  ],
+  "crystal_bridge.stl": [
+    118.0,
+    29.99,
+    34.0
+  ],
+  "rotor_25wire.stl": [
+    199.81,
+    199.91,
+    8.0
+  ],
+  "wire_bending_jig.stl": [
+    115.0,
+    24.0,
+    8.0
+  ],
+  "hub_front.stl": [
+    39.96,
+    39.98,
+    18.0
+  ],
+  "electrode_tilt_head.stl": [
+    28.0,
+    16.0,
+    14.0
+  ],
+  "bearing_tower.stl": [
+    50.0,
+    36.0,
+    180.0
+  ],
+  "pot_grid_former.stl": [
+    73.99,
+    74.0,
+    96.0
+  ],
+  "electrode_wedge_frame.stl": [
+    36.0,
+    62.0,
+    3.0
+  ],
+  "pot_terminal_lid.stl": [
+    91.91,
+    91.96,
+    5.0
+  ],
+  "rotor_24wire.stl": [
+    199.81,
+    199.91,
+    8.0
+  ],
+  "horseshoe_magnet_mount.stl": [
+    66.0,
+    34.0,
+    63.0
+  ],
+  "rear_shield_carriage_EXPERIMENT.stl": [
+    70.0,
+    22.0,
+    115.0
+  ],
+  "pot_acrylic_sleeve_jig.stl": [
+    65.94,
+    65.97,
+    92.0
+  ]
+}

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CAD/build scratch
+build/
+dist/
+tmp/
+*.bak
+*.tmp
+*.FCStd1
+*.autosave
+
+# IDE/editor
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Do not commit third-party source scans/books by default
+third_party_scans/
+source_scans/

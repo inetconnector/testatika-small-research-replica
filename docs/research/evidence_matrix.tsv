@@ -1,0 +1,16 @@
+Merkmal	Quelle	Aussage	Evidenz	V2-Umsetzung
+Einzelrotor	Marinov direkt/zeitnah	~200 mm	hoch	V2: Ø200 mm
+Radiale Sektoren	Marinov	Cu-Draht ~1 mm	hoch	V2: echte Drähte, nicht gedruckte Metallstreifen
+Sektorzahl	Marinov	20–30; später 20–25	mittel-hoch	V2: 20/24/25 Rotorvarianten
+Drahtführung durch Scheibe	Marinov-Korrespondenz	sehr wichtig, genaue Form unbekannt	hoch für Relevanz / niedrig für Geometrie	V2: R0–R3 Testvarianten
+Bürstenkontakt	Marinov + Hauser	kein Schleifkontakt	sehr hoch	V2: berührungslos
+Hufeisenmagnete erste Maschine	Marinov	sichtbar/rechts Fig.13/14	hoch	V2: 2 Magnet-Halter
+Hufeisenmagnete zweite Maschine	Marinov	nicht sichtbar	hoch	nicht als universal behandelt
+Seiten-Pots	Marinov/Korrespondenz	außen Zylinder/Gitter, innen Cu-Spirale	mittel-hoch	V2: dreiteiliger Pot
+Crystal	Baumann→Marinov	vorhanden, Funktion unklar	mittel	V2: austauschbares Modul
+Tesla/HF	Marinov	explizit verneint	mittel-hoch als Marinov-Interpretation	V2: nicht enthalten
+Elektrodenfunktion	Marinov	collecting/driving unklar	mittel	V2: separat konfigurierbar
+Elektrodenwinkel	Marinovs Vergleichsmotor	winkel-/höhenverstellbar	hoch für Vergleichsmotor	V2: verstellbar
+Metallplatte hinten	Marinov direkter Test	Rotation/Torque verschwand	hoch als Beobachtung	V2: separater Shield-Jig
+Selbstrotation	Marinov direkter Test	nach Anschub berichtet	Beobachtung hoch, Ursache offen	Forschungsziel, nicht garantiert
+100-W-Claim	Marinov Handschätzung	keine saubere Messung	niedrig	nicht als Designziel

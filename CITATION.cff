@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this reconstruction in research, please cite the repository and the primary historical sources."
+title: "Testatika Small Research Replica"
+type: software
+version: 0.2.0
+date-released: 2026-08-16
+authors:
+  - name: "inetconnector"
+repository-code: "https://github.com/inetconnector/testatika-small-research-replica"
+license: MIT
+keywords:
+  - electrostatics
+  - influence-machine
+  - testatika
+  - marinov
+  - cad
+  - replication
