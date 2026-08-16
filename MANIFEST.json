@@ -301,8 +301,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 11824,
-      "sha256": "37d4268a9a54ad05e75909c9ffcd99f8f799a2ec6489e3918e8fdc93ee79abd7"
+      "size": 16706,
+      "sha256": "b33acbee0b4ab3af39ae9f51818b8b094816346bda9e47dd0432f2e594aaf8c9"
     },
     {
       "path": "docs/research/experiment-plan.md",
