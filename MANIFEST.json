@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 173,
+  "file_count": 174,
   "files": [
     {
       "path": ".gitattributes",
@@ -38,6 +38,11 @@
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
       "size": 3912,
       "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
+    },
+    {
+      "path": ".github/workflows/materialize-release-v0.3.yml",
+      "size": 1502,
+      "sha256": "a1d366047d7de5a9aa1f73760239613165dc3552e3c2541df3b48bc85202eb13"
     },
     {
       "path": ".github/workflows/materialize-v3-photo.yml",
