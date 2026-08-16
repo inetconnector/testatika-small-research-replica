@@ -136,8 +136,8 @@
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
-      "size": 1458,
-      "sha256": "1f8496fa2613b76b23d6f6492e917a7858aafa8c9a99a991355a06f0e623e53c"
+      "size": 2020,
+      "sha256": "01fc201b68bcb478dedb301eac29296fee540141ab5b31c99c1717f87afd26fd"
     },
     {
       "path": "addon.md",
@@ -146,8 +146,8 @@
     },
     {
       "path": "cad/README.md",
-      "size": 346,
-      "sha256": "55699d05d5c927ac481d2eea96e0ed09685a154cc8f63c2f200383bdec5d00d8"
+      "size": 1250,
+      "sha256": "ef39756c71671eb2e8c9fd5028aa9924507db2f2364158054704c368354df5db"
     },
     {
       "path": "cad/generate_v2.py",
