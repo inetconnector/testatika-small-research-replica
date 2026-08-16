@@ -24,6 +24,7 @@ INCLUDE_FILES = [
     "docs/research/v4-printing.md",
     "docs/research/v4-configurations.yaml",
     "docs/research/v4-experiment-sequence.md",
+    "docs/research/v4-reproducibility.md",
     "docs/research/replica-configuration-matrix.md",
     "docs/research/experiment-plan.md",
     "docs/research/safety.md",
