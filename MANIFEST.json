@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 197,
+  "file_count": 198,
   "files": [
     {
       "path": ".gitattributes",
@@ -473,6 +473,11 @@
       "path": "docs/research/v3-photo/pixel-analysis.md",
       "size": 16500,
       "sha256": "4f87aeb187432f05bcf6d4dfed23f21d64729dee7ad7e063cc2659ae6fd75a7d"
+    },
+    {
+      "path": "docs/research/v4-best-evidence-m2.md",
+      "size": 6589,
+      "sha256": "4ca4539b2e386c2215133994caeff0a1473bba721d9ed7338de837a860eb13d2"
     },
     {
       "path": "docs/research/video-frame-audit-2026-08-16.md",
