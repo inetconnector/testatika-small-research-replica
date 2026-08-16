@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 189,
+  "file_count": 190,
   "files": [
     {
       "path": ".gitattributes",
@@ -333,6 +333,11 @@
       "path": "docs/research/hartmann-overunity-testatika.md",
       "size": 23914,
       "sha256": "e62a3618cb1a990c8b60f94920ff36e8bd489365ceb89cdbe37f0425d66b961b"
+    },
+    {
+      "path": "docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md",
+      "size": 15148,
+      "sha256": "f94491576eda4b3512b66d21ea136b48713b0c59c57d7bc4307f924a5b8bff7f"
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
