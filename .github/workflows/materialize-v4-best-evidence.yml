@@ -8,9 +8,11 @@ on:
     paths:
       - 'cad/generate_v4_best_evidence_m2.py'
       - 'scripts/build_v4_package.py'
+      - 'scripts/check_v4_assets.py'
       - 'scripts/rebuild_research_assets.py'
       - 'docs/REPLICATION_STATUS.md'
       - 'docs/research/v4-*.md'
+      - 'docs/research/v4-configurations.yaml'
       - 'docs/research/replica-configuration-matrix.md'
       - 'docs/research/experiment-plan.md'
       - 'docs/research/safety.md'
@@ -52,23 +54,8 @@ jobs:
       - name: Generate V4 STEP/STL assemblies
         run: python cad/generate_v4_best_evidence_m2.py
 
-      - name: Verify required V4 outputs
-        shell: bash
-        run: |
-          set -euo pipefail
-          root='hardware/experimental/v4-best-evidence-m2'
-          test -s "$root/stl/rotor_24wire_floating_R0_v4.stl"
-          test -s "$root/step/rotor_24wire_floating_R0_v4.step"
-          test -s "$root/stl/pot_terminal_lid_2wire_v4.stl"
-          test -s "$root/step/pot_terminal_lid_2wire_v4.step"
-          test -s "$root/stl/hub_arc_pair_v4_video_refined.stl"
-          test -s "$root/stl/outer_panel_layered_v4.stl"
-          test -s "$root/stl/lower_central_cage_v4.stl"
-          test -s "$root/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl"
-          test -s "$root/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step"
-          test -s "$root/complete-model/Testatika_M2_V4_R4_RESEARCH.stl"
-          test -s "$root/complete-model/Testatika_M2_V4_R4_RESEARCH.step"
-          test -s "$root/metadata/MODEL_INFO_V4.json"
+      - name: Verify V4 materialized geometry and metadata
+        run: python scripts/check_v4_assets.py
 
       - name: Build deterministic V4 package
         run: python scripts/build_v4_package.py
