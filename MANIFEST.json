@@ -156,8 +156,8 @@
     },
     {
       "path": "cad/README.md",
-      "size": 2184,
-      "sha256": "5b9fb6201fecdb933c59422651673f653f45742e9af4e0901639ffd977c3722f"
+      "size": 3488,
+      "sha256": "4ea72cbdb63c917cc864a6e38db4457d4d8244d06fff56874e1f8da8c294f31b"
     },
     {
       "path": "cad/generate_v2.py",
