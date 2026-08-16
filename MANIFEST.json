@@ -156,8 +156,8 @@
     },
     {
       "path": "cad/README.md",
-      "size": 1250,
-      "sha256": "ef39756c71671eb2e8c9fd5028aa9924507db2f2364158054704c368354df5db"
+      "size": 2184,
+      "sha256": "5b9fb6201fecdb933c59422651673f653f45742e9af4e0901639ffd977c3722f"
     },
     {
       "path": "cad/generate_v2.py",
@@ -971,8 +971,8 @@
     },
     {
       "path": "scripts/rebuild_research_assets.py",
-      "size": 797,
-      "sha256": "f5f27dbd0e829e71fdd87301655530f37052ff948ef221726f439ad5dc7e6e61"
+      "size": 859,
+      "sha256": "15d54db6d76c349b9257cda7c6889f76f933bb0b57a116ef3b8c3a4618377bb0"
     },
     {
       "path": "scripts/validate_assets.py",
