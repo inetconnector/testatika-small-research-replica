@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 205,
+  "file_count": 206,
   "files": [
     {
       "path": ".gitattributes",
@@ -56,8 +56,8 @@
     },
     {
       "path": ".github/workflows/materialize-v4-best-evidence.yml",
-      "size": 3613,
-      "sha256": "2749489781c18dbe2f9a3a189e743d46f1582ce642b26d8f32e83300eb17a500"
+      "size": 2863,
+      "sha256": "be4fbbc7b762db10a3d8d88767a30b9ccd0041e5c5ebfa28e7216950fece8b83"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
@@ -91,13 +91,13 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 4763,
-      "sha256": "7e196f099375f7c9b7a2c685e8d66053dd94d6b35ce868874826ad66ca75bdeb"
+      "size": 5764,
+      "sha256": "dd52c816a920eac1e8a7155c45e41124a84ee13de4f75985f9ea50b1cd4c010c"
     },
     {
       "path": "CHANGELOG.md",
-      "size": 10447,
-      "sha256": "55c6eabbcc062976bd22fc61ed8d4866607ebfe786d5300890cbd62fc95829e8"
+      "size": 13106,
+      "sha256": "d30bb705d33a1994a84a9b4fc85625947f7c4b23fdce3d1934f3ea83364fc51f"
     },
     {
       "path": "CITATION.cff",
@@ -985,6 +985,11 @@
       "sha256": "73b1a2b2aae82d2cb3d5aa166e235d02a257a569ce65be2d27aa23db3d4e4722"
     },
     {
+      "path": "scripts/apply_v4_state.py",
+      "size": 3833,
+      "sha256": "779cbcc0a147a903f994ec217574bd0fda2e3397eda07145c57d1d77b0c467af"
+    },
+    {
       "path": "scripts/build_netjournal_assets.py",
       "size": 7516,
       "sha256": "0cdd35ba4547a95f39654ef138d206b830c002b5cfd0965093d559d2ba1ace10"
@@ -1001,8 +1006,8 @@
     },
     {
       "path": "scripts/build_v4_package.py",
-      "size": 2347,
-      "sha256": "4d40126215aaa003a32df3046d2c69d1aa2281a29e00e761c88acb7d2e2d4d76"
+      "size": 2425,
+      "sha256": "27171c841338f5751a7a5840d38b6d0c9999c8fdcd4540aa02659ed7b438838b"
     },
     {
       "path": "scripts/check_manifest.py",
