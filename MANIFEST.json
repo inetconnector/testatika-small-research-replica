@@ -1006,8 +1006,8 @@
     },
     {
       "path": "scripts/rebuild_research_assets.py",
-      "size": 859,
-      "sha256": "15d54db6d76c349b9257cda7c6889f76f933bb0b57a116ef3b8c3a4618377bb0"
+      "size": 951,
+      "sha256": "528cae9b9a751c5e18c3d8b01cadc537e03c64bb983ea952d8e29cdac94ba4ff"
     },
     {
       "path": "scripts/validate_assets.py",
