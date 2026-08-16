@@ -1346,8 +1346,8 @@
     },
     {
       "path": "scripts/check_m6_assets.py",
-      "size": 3929,
-      "sha256": "f1613443f6cd91f7878100176ca2e737ff34a1eb160f9b7efb48f4daf748a893"
+      "size": 4151,
+      "sha256": "808c956a27394ea37f9e15841f08dc52e6c44114bb19276ea174fb6e4d2390e5"
     },
     {
       "path": "scripts/check_manifest.py",
