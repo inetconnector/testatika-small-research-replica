@@ -26,8 +26,8 @@
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
-      "size": 2211,
-      "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+      "size": 1284,
+      "sha256": "fe06f2052566eb0d400f876d8b87bb46c43cf0b5583884639aa7d45cfb56aea1"
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
