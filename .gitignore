@@ -36,3 +36,4 @@ desktop.ini
 third_party_scans/
 source_scans/
 /.vs
+/docs/.vs
