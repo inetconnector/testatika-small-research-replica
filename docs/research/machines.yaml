@@ -5,7 +5,7 @@ machines:
   - id: M0
     name: Principle Experiment / swinging arm
     status: historical_source_model
-    notes: "Plexiglas arm, perforated/grid electrodes, capacitor pair; used as a mechanism clue, not as proof of net power."
+    notes: "Plexiglas arm; square-hole perforated aluminium on moving underside; five additional plates per side with brass mesh between layers; lowest mesh reportedly connected to two parallel capacitors. Mechanism clue, not proof of net power."
   - id: M0b
     name: Linden Experiment
     status: hearsay_model
@@ -17,15 +17,15 @@ machines:
   - id: M2
     name: Marinov first small machine
     status: primary_replication_target
-    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository."
+    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository. Do not import Holzherr 12-cm geometry or large-machine capacitor/control details without a source bridge."
   - id: M3
     name: Marinov second small machine
     status: historical_variant
     notes: "Do not automatically inherit M2 horseshoe magnets or other M2-specific details."
   - id: M4
-    name: circa 12 cm small model in 1999 report
+    name: circa 12 cm small-model family in 1999 report
     status: historical_variant
-    notes: "Short voltage/lamp demonstration; distinct from M2 unless provenance proves identity."
+    notes: "Holzherr reports several ~12-cm-disc models that could be lifted/examined. One early/original-model account includes ~130 V under a small lamp/resistor load and a remembered four-lead upper coil/central-conductor assembly. Keep distinct from ~200-mm M2 unless provenance proves identity."
   - id: M5
     name: Weber/Schneider machine 1984
     status: historical_large_variant
@@ -33,7 +33,7 @@ machines:
   - id: M6
     name: 50 cm / later large two-disc family
     status: historical_large_variant
-    notes: "Holzherr/Methernitha/Cathomen material often refers here; model-specific rpm, capacitors and control elements."
+    notes: "Holzherr/Methernitha/Cathomen material often refers here. Holzherr 1999 reports ~15 rpm during one 50-cm demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. These are model/demo-specific."
   - id: MX
     name: unspecified Testatika / Thesta-Distatica variant
     status: unresolved
