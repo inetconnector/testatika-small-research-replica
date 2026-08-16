@@ -1031,8 +1031,8 @@
     },
     {
       "path": "scripts/validate_assets.py",
-      "size": 8486,
-      "sha256": "022cfd113428fe28f4d1996e6f9c03f89c12e1606ae8b4429331e46b17aca83e"
+      "size": 8473,
+      "sha256": "241a82b0edb0d7ad81f4f09cdfbb55354251901419fd4486602e3071689752f3"
     }
   ]
 }
