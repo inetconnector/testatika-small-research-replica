@@ -42,8 +42,11 @@ The project never fills an evidentiary gap by invention. A historically unknown 
 | magnet function | unknown | UNKNOWN | — | isolated A/B tests | original explanation/field measurement |
 | upper “crystal” component | term reported; function unresolved | SOURCE-STATED | medium-high term / low function | exchangeable black-box carrier | original part / schematic / material analysis |
 | crystal electrical behavior | unknown | UNKNOWN | — | diode/resistor/open/short/crystal surrogate matrix | original I-V/component analysis |
+| four-terminal top-module precedent | Holzherr remembered an early/original-model rough coil around one central wire with four leads | SOURCE-STATED, different/uncertain small-model assignment | medium | four-terminal experimental carrier | source tying exact topology to M2 or original part |
 | black inset grids / dark parts | visible on photo; material unresolved | OBSERVED + UNKNOWN | medium | V3 visual interpretation | calibrated color/material close-up |
 | black Plexiglas precedent | Cathomen identifies at least one black part as black Plexiglas on a workshop machine | SOURCE-STATED, model-specific | medium-high | retained as counter-hypothesis | proof for M2 part identity |
+| hidden thin layers in transparent stacks | Holzherr observed that thin layers between Plexiglas can be visually hard to detect because of internal reflection | SOURCE-STATED optical caution | medium-high | photo-analysis caveat; reversible hidden-layer tests only | multi-angle close-up / original section |
+| PMMA pre-conditioning/electret state | not historically established for M2; secondary Potter/Kelly/Hartmann-like hypothesis | HYPOTHESIS | low for history / high testability | conditioned-vs-neutral PMMA experiment | primary source or material measurement on original |
 | rear plate / shield influence | metal-plate stop effect only through later transmission | HYPOTHESIS/H2 | low-medium | shield jig | primary source or controlled replication |
 | east-west orientation | later recollection | HYPOTHESIS/H2 | low | turntable experiment only | primary source + blinded replication |
 | exact internal circuit | not known | UNKNOWN | — | node families + reversible topologies only | authentic schematic or original continuity mapping |
@@ -51,6 +54,16 @@ The project never fills an evidentiary gap by invention. A historically unknown 
 | claimed self-rotation | historically reported | SOURCE-STATED claim | observation confidence varies | research target, not release promise | controlled independent replication |
 | claimed electrical output | historical estimates/demos only | SOURCE-STATED claim | low for net-energy conclusion | not a design guarantee | closed long-duration energy balance |
 | net energy anomaly | not demonstrated | UNKNOWN / null hypothesis = conservation | high methodological confidence | complete metrology plan | independent closed energy balance |
+
+## Cross-machine constraints newly reinforced by the archive
+
+These facts are valuable but **must not be transferred into M2 without a source bridge**:
+
+- Holzherr 1999 reports a 50-cm machine running at approximately **15 rpm** during that demonstration.
+- He reports multiple approximately **12-cm-disc** small models; these belong to M4/other small variants, not automatically M2.
+- Baumann reportedly said large-machine capacitors contained **20 perforated-sheet layers**; this is M6-family evidence, not M2-pot evidence.
+- A 12-cm early/original model top subsystem was remembered as a rough coil around a straight central conductor with **four leads**; useful as an experimental top-module topology lead only.
+- Several machines reportedly used woven sector wires with three side changes; this strengthens R4 as a research family but does not solve M2 routing.
 
 ## What “complete 1:1 research replica” means here
 
@@ -77,6 +90,9 @@ The repository should make the following reproducible from one checkout:
 - grid-vs-foil fixture;
 - shield/environment fixture;
 - material-variant plan;
+- four-terminal-or-less top-module research carrier;
+- conditioned-vs-neutral PMMA control protocol;
+- slow-rpm sweep including the 15-rpm historical large-machine anchor;
 - BOM and assembly sequence;
 - source/evidence ledger;
 - experiment schema and raw-data convention;
