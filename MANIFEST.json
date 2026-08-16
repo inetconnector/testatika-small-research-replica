@@ -286,8 +286,8 @@
     },
     {
       "path": "docs/research/assembly.md",
-      "size": 1346,
-      "sha256": "fcdbc8a6dab85dbeca4a5f9c5ea96e40135e2dbe7bb5116bf53c18ff258b615a"
+      "size": 1937,
+      "sha256": "94a150c7bb2456dee7b942c5c01e3d6ebc25a0bfe3b259cccd2e8e37ff024b63"
     },
     {
       "path": "docs/research/baumann-language-decoding.md",
@@ -301,8 +301,8 @@
     },
     {
       "path": "docs/research/bom.md",
-      "size": 1379,
-      "sha256": "1a7a2f9e861d3299aaed6e703c65b872e1c3d39070b824115e05cdb4dcc28d44"
+      "size": 1986,
+      "sha256": "6e34579e387a1ab91d02f4849aabbf6244d377cd223328de17e7588d40874176"
     },
     {
       "path": "docs/research/cad-reproducibility.md",
