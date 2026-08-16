@@ -24,8 +24,6 @@ ROTOR_D = 200.0
 ROTOR_T = 4.0
 M3 = 3.4
 M4 = 4.5
-WIRE_GROOVE_W = 1.4
-WIRE_GROOVE_D = 0.65
 R4_RADII = (27.0, 40.0, 60.0, 80.0, 94.0)
 
 
@@ -39,62 +37,51 @@ def rr(w, d, h, r=2.5):
 
 
 def export(name, obj):
-    cq.exporters.export(obj, str(STL / f"{name}.stl"), tolerance=0.12, angularTolerance=0.25)
+    cq.exporters.export(obj, str(STL / f"{name}.stl"), tolerance=0.18, angularTolerance=0.4)
     cq.exporters.export(obj, str(STEP / f"{name}.step"))
 
 
-def radial_groove(r0, r1, angle_deg, z0, depth):
-    length = r1 - r0
-    center_r = (r0 + r1) / 2
-    part = cq.Workplane("XY").box(length, WIRE_GROOVE_W, depth, centered=(True, True, False))
-    part = part.translate((center_r, 0, z0))
-    return part.rotate((0, 0, 0), (0, 0, 1), angle_deg)
-
-
 def rotor_r4(count):
-    """R4 research rotor with exactly three through-disc side changes per sector.
+    """R4 research rotor with three intended through-disc side changes.
 
-    Intended wire path:
+    Intended wire path for each radial sector:
       front 27->40 mm,
       rear  40->60 mm,
       front 60->80 mm,
       rear  80->94 mm.
 
-    Crossovers occur at 40, 60 and 80 mm. Holes at 27 and 94 mm are endpoint
-    anchors. This geometry is a testable interpretation of Holzherr's report and
-    is not asserted to be the verified Marinov M2 original.
+    The CAD therefore provides five through-holes per sector. 40, 60 and 80 mm
+    are crossover holes; 27 and 94 mm are endpoint anchors. The grooves are not
+    hard-coded because the conductor is intended to be real wire and the route
+    must remain reversible for A/B experiments.
+
+    This is a Holzherr-derived research hypothesis. The report concerned several
+    machines (including a ~1 m machine under construction), so R4 must not be
+    labelled as a verified Marinov M2 original.
     """
     p = cq.Workplane("XY").circle(ROTOR_D / 2).extrude(ROTOR_T)
     p = p.union(cq.Workplane("XY").circle(21).extrude(8))
     p = p.faces(">Z").workplane().hole(20.4)
 
-    for a in range(0, 360, 60):
-        x = 15 * math.cos(math.radians(a))
-        y = 15 * math.sin(math.radians(a))
-        p = p.faces(">Z").workplane().center(x, y).hole(M3)
+    hub_points = [
+        (15 * math.cos(math.radians(a)), 15 * math.sin(math.radians(a)))
+        for a in range(0, 360, 60)
+    ]
+    p = p.faces(">Z").workplane().pushPoints(hub_points).hole(M3)
 
+    routing_points = []
     for i in range(count):
-        angle = i * 360.0 / count
-        ar = math.radians(angle)
-        for rad in R4_RADII:
-            x = rad * math.cos(ar)
-            y = rad * math.sin(ar)
-            p = p.faces(">Z").workplane().center(x, y).hole(1.75)
-
-        p = p.cut(radial_groove(27, 40, angle, ROTOR_T - WIRE_GROOVE_D, WIRE_GROOVE_D + 0.05))
-        p = p.cut(radial_groove(40, 60, angle, -0.05, WIRE_GROOVE_D + 0.05))
-        p = p.cut(radial_groove(60, 80, angle, ROTOR_T - WIRE_GROOVE_D, WIRE_GROOVE_D + 0.05))
-        p = p.cut(radial_groove(80, 94, angle, -0.05, WIRE_GROOVE_D + 0.05))
-    return p
+        a = math.radians(i * 360.0 / count)
+        routing_points.extend((r * math.cos(a), r * math.sin(a)) for r in R4_RADII)
+    return p.faces(">Z").workplane().pushPoints(routing_points).hole(1.75)
 
 
 def electrode_ab_carrier():
-    """Common carrier; same geometry is used for both conductive materials."""
+    """Common carrier; exactly the same geometry is used for foil and mesh."""
     p = rr(58, 88, 4, 3)
     p = p.faces(">Z").workplane().rect(44, 72).cutThruAll()
-    for x in (-25, 25):
-        for y in (-39, 39):
-            p = p.faces(">Z").workplane().center(x, y).hole(M3)
+    points = [(x, y) for x in (-25, 25) for y in (-39, 39)]
+    p = p.faces(">Z").workplane().pushPoints(points).hole(M3)
     p = p.union(rr(18, 18, 4, 2).translate((0, -53, 0)))
     return p.faces(">Z").workplane().center(0, -53).hole(M4)
 
@@ -102,29 +89,22 @@ def electrode_ab_carrier():
 def electrode_ab_clamp():
     p = rr(58, 88, 2.2, 2.5)
     p = p.faces(">Z").workplane().rect(44, 72).cutThruAll()
-    for x in (-25, 25):
-        for y in (-39, 39):
-            p = p.faces(">Z").workplane().center(x, y).hole(M3)
-    return p
+    points = [(x, y) for x in (-25, 25) for y in (-39, 39)]
+    return p.faces(">Z").workplane().pushPoints(points).hole(M3)
 
 
 def electrode_material_template():
     """Tracing/drilling template for equally sized metal foil or mesh inserts."""
     p = rr(54, 84, 1.2, 2)
-    for x in (-25, 25):
-        for y in (-39, 39):
-            p = p.faces(">Z").workplane().center(x, y).hole(2.0)
-    for x in (-22, 22):
-        for y in (-36, 36):
-            p = p.faces(">Z").workplane().center(x, y).hole(1.0)
-    return p
+    points = [(x, y) for x in (-25, 25) for y in (-39, 39)]
+    p = p.faces(">Z").workplane().pushPoints(points).hole(2.0)
+    witness = [(x, y) for x in (-22, 22) for y in (-36, 36)]
+    return p.faces(">Z").workplane().pushPoints(witness).hole(1.0)
 
 
 def gap_gauge(gap_mm):
-    """U-shaped non-conductive gauge for repeatable electrode/rotor gaps."""
+    """Non-conductive gauge for repeatable electrode/rotor gaps."""
     p = rr(28, 3, 36, 1.5)
-    for i in range(int(round(gap_mm))):
-        p = p.faces(">Z").workplane().center(-8 + i * 5, 0).hole(1.5)
     tongue = cq.Workplane("XY").box(gap_mm, 18, 15, centered=(True, True, False)).translate((0, 0, 36))
     return p.union(tongue)
 
