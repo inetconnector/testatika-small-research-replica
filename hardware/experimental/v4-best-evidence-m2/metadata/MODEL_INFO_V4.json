@@ -1,0 +1,34 @@
+{
+  "name": "Testatika_M2_V4_BEST_EVIDENCE",
+  "machine_id": "M2",
+  "status": "best-evidence research reconstruction; historical wiring incomplete",
+  "baseline": {
+    "rotor_diameter_mm": 200,
+    "nominal_sector_count": 24,
+    "alternate_sector_counts": [
+      20,
+      25
+    ],
+    "sector_electrical_state": "individually floating; no neighbour ring",
+    "nominal_route": "R0 conservative straight radial working baseline; exact historical route unknown",
+    "collector_contact": "none; non-contact architecture",
+    "pot_external_terminals_each": 2,
+    "pot_internal_class": "outer grid + dielectric + inner copper spiral",
+    "conventional_drive_motor": "absent from historical baseline",
+    "horseshoe_magnets": "present in first-small-machine visual baseline; function unknown",
+    "crystal": "black-box; material/function/topology unknown"
+  },
+  "video_derived_refinements": [
+    "two C-shaped hub-arc component candidates",
+    "layered outer panels",
+    "perforated lower central cage/prism"
+  ],
+  "not_claimed": [
+    "exact through-disc wire route",
+    "complete node wiring",
+    "pot polarity/capacitance",
+    "crystal material or I-V",
+    "magnet function",
+    "over-unity/free-energy performance"
+  ]
+}

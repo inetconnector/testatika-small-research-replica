@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 208,
+  "file_count": 249,
   "files": [
     {
       "path": ".gitattributes",
@@ -146,8 +146,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 235296,
-      "sha256": "d65a758eb2662b0a76189380502d410125382cafb84c5c5f49d5489e58af234a"
+      "size": 238367,
+      "sha256": "8f271d7737e02abb1b90aac1305f1b1c4ca6cd428205ac69d0d98791ac715ee0"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -156,8 +156,8 @@
     },
     {
       "path": "addon.md",
-      "size": 53081,
-      "sha256": "d7767dfef7741e45b7bbb6e16dc6d48b8fb96a22dc862afa4ce66e45b4c48837"
+      "size": 56152,
+      "sha256": "f35855cda80cf7be03ada2d67a5507bd5dd9ce73a7ca66caa072eab7e4dab202"
     },
     {
       "path": "cad/README.md",
@@ -640,6 +640,201 @@
       "sha256": "5dc604f70054f4be7e029c04887351e701d97eba971968640416b8d11e8758f9"
     },
     {
+      "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step",
+      "size": 7155777,
+      "sha256": "aa75e5b4fce5127c152c40d57a069e16f24453e48e03f5a18631c1c3eb0e206e"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl",
+      "size": 12182684,
+      "sha256": "887ba03d051fffd1352b1f26cae2ac703f7a47be84eba4a08f3a3f7c0d6edf01"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_R4_RESEARCH.step",
+      "size": 7161253,
+      "sha256": "21723afa60e2f72b6ffa8cfdffbd1d9d30510c0c078fd88964e31ac56ac14f0f"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_R4_RESEARCH.stl",
+      "size": 12193084,
+      "sha256": "89de19dfbaca7ac891a85a924837ed324c9d2e343ff75dd6c4e8a1c140dbbc7c"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/metadata/MODEL_INFO_V4.json",
+      "size": 1241,
+      "sha256": "94af2593bdd0e98a57cf519a1dc7e3336dcea0655e9321b9919599e504e78acf"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/guard_post_v4.step",
+      "size": 31782,
+      "sha256": "50b7cce0802eae0317609d07ac1d3fd7b94314d41e9e38675bb14c392ed4b20f"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/horseshoe_dummy_v4.step",
+      "size": 62088,
+      "sha256": "5d6d8c1f9cb03be5ecfc2fc20c630c4e0741480c14ebbb34d78900fb80c57cba"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/horseshoe_magnet_shape_v4.step",
+      "size": 62088,
+      "sha256": "1a9d2570d3ae0e632699be494bad053f7f4f9d3eaa48cd691e5bbb0bcc765d54"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/hub_arc_pair_v4_video_refined.step",
+      "size": 38575,
+      "sha256": "dc79a92c88b83383e7f10633816c261a593471921c57c4da5bc675bd6fb8a527"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/hub_disk_v4.step",
+      "size": 29070,
+      "sha256": "677404018db9e14f0a2f7224e8f07b90b43cb8cdfb327ca5e9175513f3af9302"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/lower_central_cage_v4.step",
+      "size": 335226,
+      "sha256": "1edf5f6954ce65f6b5bd845262977fa80aad8eee63e21b64126aeb50211ce7a5"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/outer_panel_layered_v4.step",
+      "size": 899224,
+      "sha256": "a052049570ecdffd1a737f826aa4b820e28d64bb6c42e87298f529864927b9da"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/pot_acrylic_sleeve_jig_v4.step",
+      "size": 9564,
+      "sha256": "dcc9c761dfa43137a7546fbbdde4932df2f2dd880c0ebd67c2b02df357b9df12"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/pot_grid_former_v4.step",
+      "size": 9561,
+      "sha256": "8c9ed67a3e5ac81aa7a27f58db9c07cef9a9308abcccbb32e8271bf4c5a060e4"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/pot_outer_shell_v4.step",
+      "size": 27928,
+      "sha256": "cdf90f1b1840dcfac58680b4160ddf88da763e71e0f8b5c0696c133c29b012b3"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/pot_spiral_mandrel_v4.step",
+      "size": 18588,
+      "sha256": "4c30f61d2d65e8c6cbc908dd2b25df47d24ddf5567b759602ab8be003e97e3be"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/pot_terminal_lid_2wire_v4.step",
+      "size": 15459,
+      "sha256": "192a7ec288eb421dde82986550c5633b9eaabf8d6232bd197e567eab6b488685"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_20wire_floating_R0_v4.step",
+      "size": 45047,
+      "sha256": "073b0afd75481346e5d4e9d7c3122aeeea23ae4ca00daf64ee2033094622c3e6"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_24wire_floating_R0_v4.step",
+      "size": 45045,
+      "sha256": "d1a2fed5f66ed0abf4541e565acac453689ad7e1c68a01533793c3bd5b3943a1"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_24wire_floating_R4_v4_research.step",
+      "size": 49989,
+      "sha256": "3d51e05168135bc706393c8a242e63798e6230b3e723d3ec83fa901fe9263872"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/rotor_25wire_floating_R0_v4.step",
+      "size": 45047,
+      "sha256": "7226724cd74433f9793723481cb9654f67581ce92a654f38877b74e11493091a"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/step/top_crystal_carrier_4pos_v4.step",
+      "size": 1083006,
+      "sha256": "1a2e0ae254d59ad4473fc4c524854f2d47b7640ec60bf46004fbae22211443fd"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/guard_post_v4.stl",
+      "size": 13484,
+      "sha256": "06af46c784a6e49cad4904aeb198b475fec6e2d2a4acbc421570a95e58f0bc55"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/horseshoe_dummy_v4.stl",
+      "size": 27084,
+      "sha256": "4d820311c5020833a433e6518ebf1087500d8694a4ee615f29a2e97d468a2eb9"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/horseshoe_magnet_shape_v4.stl",
+      "size": 27084,
+      "sha256": "4d820311c5020833a433e6518ebf1087500d8694a4ee615f29a2e97d468a2eb9"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/hub_arc_pair_v4_video_refined.stl",
+      "size": 23284,
+      "sha256": "8711e89da23555be0bda3f628248e63f39df0fe3766374802bd81a8de6b0d950"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/hub_disk_v4.stl",
+      "size": 76484,
+      "sha256": "6dfa164b2d5ca6397216d359c03f173481042201d9ee75c1634b81b96622aa4c"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/lower_central_cage_v4.stl",
+      "size": 21284,
+      "sha256": "eea2924f312c3ce0614acc46e9b440c20bcac4edea6e46ed8628c714a8a4fe36"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/outer_panel_layered_v4.stl",
+      "size": 92484,
+      "sha256": "f95965673b7547ecd82c6d6a7391d3c45b893323d0ba86a8e2a9a0fee9561135"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/pot_acrylic_sleeve_jig_v4.stl",
+      "size": 25284,
+      "sha256": "8a4a3221b5ea5ff52aa290b14df1a9d05e747cb795c14153046e9be5dc38437f"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/pot_grid_former_v4.stl",
+      "size": 25284,
+      "sha256": "7ecc0f5b3ede39c4646e5728908a86d3c6b8b381e3ad64df19fe68e340fc4436"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/pot_outer_shell_v4.stl",
+      "size": 75684,
+      "sha256": "31ad51b6ee90604a7e1a854a303856bf62ade0568eeba913e83bd1b2b44941cd"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/pot_spiral_mandrel_v4.stl",
+      "size": 50484,
+      "sha256": "fd2992ab21c1a20ae4d16a6e7c22b948372ad23c3e3adef5269aaa68e750fdbe"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/pot_terminal_lid_2wire_v4.stl",
+      "size": 38084,
+      "sha256": "f7323dab2aa57de3a84914819eabe94a0b252fc395ecdd8dca3caa8244eb0c98"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/rotor_20wire_floating_R0_v4.stl",
+      "size": 114884,
+      "sha256": "62d993d34d8e475c6dcbc7b9867922064bb48718163f41de3ad28d981b5c46c1"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/rotor_24wire_floating_R0_v4.stl",
+      "size": 114884,
+      "sha256": "333da486216ad1d0147d0293375d0933b1dd831b4412b899f334426955041575"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/rotor_24wire_floating_R4_v4_research.stl",
+      "size": 127684,
+      "sha256": "12ed520e76b229c1ec79b3a8379cc8ca14cab737810ed90d6641720ccc6218ef"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/rotor_25wire_floating_R0_v4.stl",
+      "size": 114884,
+      "sha256": "b356ba5674719fcf85f56fddbcefe4046411c524823a712e367a2ebf9b82e6d9"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/stl/top_crystal_carrier_4pos_v4.stl",
+      "size": 93584,
+      "sha256": "547e42a296c8a038cad61f0055104682ac61eaaaa06ad55734772ccae4ffd396"
+    },
+    {
       "path": "hardware/step/ASSEMBLY_REFERENCE.step",
       "size": 3445123,
       "sha256": "beff965edb11710c37114dfaf8ba3f7a1a7f6b1f52f364a443f6029e8fc61490"
@@ -953,6 +1148,16 @@
       "path": "release/experimental/Testatika_Small_V3_Photo_Artifacts.zip",
       "size": 11354272,
       "sha256": "06263fea94ab50f687d1028c1dc04512283008352c4a2d8e68c64c77f1bccdac"
+    },
+    {
+      "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip",
+      "size": 14518450,
+      "sha256": "68d5bb93877f819c769c0abe269eb093f57d5dcc0cad01f868844f055008e51d"
+    },
+    {
+      "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
+      "size": 114,
+      "sha256": "478b6591b39715e122d399893d322c7d2cb4c01bf2806b696eaa5b56a54f1656"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
