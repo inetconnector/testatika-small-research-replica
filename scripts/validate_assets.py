@@ -36,6 +36,17 @@ REQUIRED = [
     "docs/research/safety.md",
     "docs/research/experiment-plan.md",
     "docs/research/stl_dimensions.json",
+    "docs/research/v4-best-evidence-m2.md",
+    "docs/research/v4-bom.md",
+    "docs/research/v4-assembly.md",
+    "docs/research/v4-electrical-boundary.md",
+    "docs/research/v4-printing.md",
+    "docs/research/v4-configurations.yaml",
+    "cad/generate_v4_best_evidence_m2.py",
+    "scripts/build_v4_package.py",
+    "scripts/check_v4_assets.py",
+    "scripts/apply_v4_state.py",
+    ".github/workflows/materialize-v4-best-evidence.yml",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb",
@@ -134,6 +145,12 @@ if pixel.exists() and "Baumann's explanation felt like an unknown language" in p
 state = (ROOT / "STATE.md").read_text(encoding="utf-8", errors="replace") if (ROOT / "STATE.md").exists() else ""
 if "testatika.zip" in state and "not part of the public repository" not in state.lower() and "nicht bestandteil" not in state.lower():
     warnings.append("STATE.md mentions testatika.zip without an obvious public-repository exclusion marker")
+
+# V4 source-level semantic guardrails are checked even before binary materialization.
+v4_doc = (ROOT / "docs/research/v4-best-evidence-m2.md").read_text(encoding="utf-8", errors="replace") if (ROOT / "docs/research/v4-best-evidence-m2.md").exists() else ""
+for required_phrase in ("individually floating", "two external", "R4", "Blackbox"):
+    if required_phrase.lower() not in v4_doc.lower():
+        errors.append(f"V4 build contract missing semantic guardrail: {required_phrase}")
 
 try:
     import trimesh
