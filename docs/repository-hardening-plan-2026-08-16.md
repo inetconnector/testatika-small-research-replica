@@ -105,3 +105,7 @@ The hardening work is ready to merge when:
 - replication unknowns are explicit;
 - machine/source provenance is structurally documented;
 - a PR diff shows additive/hardening changes rather than destructive cleanup.
+
+## Execution result
+
+The hardening branch was reviewed through PR #7 and merged into `main` after both the expanded repository validator/manifest check and the preservation guard succeeded. The v0.3.0 research package was then materialized into `release/` with its own SHA-256 file. This final note intentionally triggers the post-release integrity cycle so the newly materialized package itself is incorporated into the repository manifest and covered by the final validation/snapshot state.
