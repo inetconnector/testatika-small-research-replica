@@ -14,3 +14,6 @@
 12. Before substantial destructive cleanup or history-changing work, create a recovery branch from the current `main` commit.
 13. Treat `STATE.md`, `addon.md`, `docs/research/`, `cad/`, `hardware/stl/`, and `hardware/step/` as preservation-critical. A newer variant supplements the historical record; it does not automatically replace or erase it.
 14. When two sources conflict, retain both source claims and their provenance/evidence rankings even if one is currently preferred.
+15. Before changing the operating theory, electrical topology, `crystal` interpretation, pickup/drive classification or energy-source hypothesis, read `docs/research/baumann-language-decoding.md` and `docs/research/baumann-statements.tsv`.
+16. Do not quote the phrase that Baumann's explanation was "like an unknown language" as a direct Marinov statement unless a primary Marinov source is found. Current evidence separates Marinov's admitted non-understanding from Holzherr's report of Baumann's non-scientific terminology.
+17. Keep speaker identity explicit: Paul Baumann, institutional Methernitha narration, Stefan Marinov, Hans Holzherr and Luzi Cathomen are separate sources and must not be merged into a synthetic quotation.
