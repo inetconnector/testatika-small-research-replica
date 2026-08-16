@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 203,
+  "file_count": 204,
   "files": [
     {
       "path": ".gitattributes",
@@ -493,6 +493,11 @@
       "path": "docs/research/v4-bom.md",
       "size": 4080,
       "sha256": "440a49a730fc257ac621b22e884e1a0fcf4d9953015b39bf4af54e71df041dbb"
+    },
+    {
+      "path": "docs/research/v4-configurations.yaml",
+      "size": 3730,
+      "sha256": "608eee056a54dc36974a3790015e8b9a9dbe3aaeac5f91ba4eb48c99d28a063a"
     },
     {
       "path": "docs/research/v4-electrical-boundary.md",
