@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 516,
+  "file_count": 517,
   "files": [
     {
       "path": ".gitattributes",
@@ -268,6 +268,11 @@
       "path": "docs/build-kits.md",
       "size": 4100,
       "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
+    },
+    {
+      "path": "docs/electrical/LAMELLA_TEST_MATRIX.tsv",
+      "size": 2988,
+      "sha256": "349b872d0e7b5550e7f76375cd06fc59a7cbc79c2801244a9e8f24cb4260e228"
     },
     {
       "path": "docs/electrical/M2_V5_EVIDENCE_WIRING.md",
