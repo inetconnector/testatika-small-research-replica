@@ -10,14 +10,17 @@ on:
       - 'scripts/apply_internet_source_audit_final.py'
       - 'scripts/apply_internet_source_audit_round2.py'
       - 'scripts/apply_internet_source_audit_round3.py'
+      - 'scripts/apply_internet_source_audit_round4.py'
       - 'scripts/normalize_round2_backlog_priorities.py'
       - 'docs/research/internet-source-audit-2026-08-17.md'
       - 'docs/research/internet-source-audit-addendum-2026-08-17.md'
       - 'docs/research/internet-source-audit-round2-2026-08-17.md'
       - 'docs/research/internet-source-audit-round3-2026-08-17.md'
+      - 'docs/research/internet-source-audit-round4-2026-08-17.md'
       - 'docs/research/internet-source-ledger.tsv'
       - 'docs/research/internet-source-ledger-round2.tsv'
       - 'docs/research/internet-source-ledger-round3.tsv'
+      - 'docs/research/internet-source-ledger-round4.tsv'
       - 'docs/research/kelly-source-revision-chain-2026-08-17.md'
       - 'docs/research/control-replication-audit-2026-08-17.md'
       - 'docs/research/source-acquisition-backlog.tsv'
@@ -57,6 +60,7 @@ jobs:
           python scripts/apply_internet_source_audit_round2.py
           python scripts/normalize_round2_backlog_priorities.py
           python scripts/apply_internet_source_audit_round3.py
+          python scripts/apply_internet_source_audit_round4.py
       - name: Install validation dependencies
         run: python -m pip install -r requirements-dev.txt
       - name: Validate source-owned repository structure
