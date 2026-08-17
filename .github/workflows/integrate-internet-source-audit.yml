@@ -39,8 +39,10 @@ jobs:
           python-version: '3.12'
       - name: Apply idempotent source-audit corrections
         run: python scripts/apply_internet_source_audit.py
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
       - name: Validate source-owned repository structure
-        run: python scripts/validate_repo.py
+        run: python scripts/validate_assets.py
       - name: Refresh and verify integrity manifest
         run: |
           python scripts/generate_manifest.py
