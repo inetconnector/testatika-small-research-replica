@@ -11,8 +11,8 @@
     },
     {
       "path": ".github/BUILDKIT_MATERIALIZE_TRIGGER",
-      "size": 115,
-      "sha256": "bb693d4b070229494145bb2988c4ce32298295b88fc4f6e193e55e3ca6a64b36"
+      "size": 122,
+      "sha256": "245c16b413361e2c63c71af9ffa44fdc191989059fc53ef14a8a049549df8f5d"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -1916,8 +1916,8 @@
     },
     {
       "path": "scripts/check_build_kits.py",
-      "size": 3901,
-      "sha256": "fab03b7f546e9ab9eb4346022fb0f918bd611dfc2c5c942c3f659b40f5410edf"
+      "size": 4151,
+      "sha256": "2070b7f7832124ad497438c19ad8579836f937116784a15b6f2b9820a58d9fd0"
     },
     {
       "path": "scripts/check_m6_assets.py",
