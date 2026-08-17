@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="white"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+    .title{font-size:30px;font-weight:700}.h{font-size:20px;font-weight:700}.t{font-size:16px}.s{font-size:13px}
+    .box{fill:#fafafa;stroke:#222;stroke-width:2}.evidence{fill:#eef7ee;stroke:#315b31;stroke-width:2}.lab{fill:#eef3fb;stroke:#31527a;stroke-width:2}.unknown{fill:#fff4df;stroke:#8b5e14;stroke-width:2}
+    .wire{fill:none;stroke:#222;stroke-width:3}.patch{fill:none;stroke:#31527a;stroke-width:3;stroke-dasharray:10 7}.open{stroke:#8b5e14;stroke-width:3;stroke-dasharray:5 7}
+  </style>
+  <text x="40" y="48" class="title">M2 V5 — evidenzbasierte Verdrahtung / Patch-Schema</text>
+  <text x="40" y="78" class="t">Fest = quellenstarke physische Anschlussklasse · gestrichelt = Labor-Patch · orange = historisch unbekannt</text>
+
+  <rect x="500" y="125" width="400" height="390" rx="18" class="evidence"/>
+  <text x="620" y="158" class="h">M2 Rotor / Feldzone</text>
+  <circle cx="700" cy="310" r="125" fill="none" stroke="#222" stroke-width="4"/>
+  <circle cx="700" cy="310" r="20" fill="#ddd" stroke="#222" stroke-width="2"/>
+  <g stroke="#555" stroke-width="3">
+    <line x1="700" y1="185" x2="700" y2="225"/><line x1="732" y1="189" x2="722" y2="228"/><line x1="762" y1="202" x2="742" y2="237"/>
+    <line x1="788" y1="222" x2="760" y2="250"/><line x1="808" y1="248" x2="773" y2="268"/><line x1="821" y1="278" x2="782" y2="288"/>
+    <line x1="825" y1="310" x2="785" y2="310"/><line x1="821" y1="342" x2="782" y2="332"/><line x1="808" y1="372" x2="773" y2="352"/>
+    <line x1="788" y1="398" x2="760" y2="370"/><line x1="762" y1="418" x2="742" y2="383"/><line x1="732" y1="431" x2="722" y2="392"/>
+    <line x1="700" y1="435" x2="700" y2="395"/><line x1="668" y1="431" x2="678" y2="392"/><line x1="638" y1="418" x2="658" y2="383"/>
+    <line x1="612" y1="398" x2="640" y2="370"/><line x1="592" y1="372" x2="627" y2="352"/><line x1="579" y1="342" x2="618" y2="332"/>
+    <line x1="575" y1="310" x2="615" y2="310"/><line x1="579" y1="278" x2="618" y2="288"/><line x1="592" y1="248" x2="627" y2="268"/>
+    <line x1="612" y1="222" x2="640" y2="250"/><line x1="638" y1="202" x2="658" y2="237"/><line x1="668" y1="189" x2="678" y2="228"/>
+  </g>
+  <text x="628" y="470" class="t">R01…R24: floating Cu sectors</text>
+  <rect x="515" y="255" width="48" height="110" class="evidence"/><text x="510" y="385" class="s">DRIVE/PANEL-L</text>
+  <rect x="837" y="255" width="48" height="110" class="evidence"/><text x="827" y="385" class="s">DRIVE/PANEL-R</text>
+  <rect x="585" y="245" width="28" height="130" class="evidence"/><text x="560" y="405" class="s">PICKUP-L</text>
+  <rect x="787" y="245" width="28" height="130" class="evidence"/><text x="770" y="405" class="s">PICKUP-R</text>
+
+  <rect x="70" y="180" width="300" height="250" rx="15" class="evidence"/>
+  <text x="150" y="212" class="h">Linker Pot</text>
+  <ellipse cx="220" cy="295" rx="90" ry="70" fill="none" stroke="#222" stroke-width="3"/>
+  <ellipse cx="220" cy="295" rx="60" ry="45" fill="none" stroke="#777" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M205 330 q30 -70 30 0 q-30 -70 -30 0" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="105" y="390" class="t">GRID-L · SPIRAL-L</text>
+  <line x1="145" y1="350" x2="145" y2="455" class="wire"/><line x1="295" y1="350" x2="295" y2="455" class="wire"/>
+  <text x="110" y="478" class="s">separate terminals</text>
+
+  <rect x="1030" y="180" width="300" height="250" rx="15" class="evidence"/>
+  <text x="1100" y="212" class="h">Rechter Pot</text>
+  <ellipse cx="1180" cy="295" rx="90" ry="70" fill="none" stroke="#222" stroke-width="3"/>
+  <ellipse cx="1180" cy="295" rx="60" ry="45" fill="none" stroke="#777" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M1165 330 q30 -70 30 0 q-30 -70 -30 0" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="1060" y="390" class="t">GRID-R · SPIRAL-R</text>
+  <line x1="1105" y1="350" x2="1105" y2="455" class="wire"/><line x1="1255" y1="350" x2="1255" y2="455" class="wire"/>
+  <text x="1070" y="478" class="s">separate terminals</text>
+
+  <rect x="70" y="555" width="365" height="245" rx="15" class="lab"/>
+  <text x="115" y="588" class="h">M2-W1: sichere Labor-Funktion</text>
+  <text x="100" y="625" class="t">isolated current-limited electrostatic bias</text>
+  <text x="105" y="660" class="t">+BIAS → Rlim → DRIVE-L</text>
+  <text x="105" y="690" class="t">−BIAS → Rlim → DRIVE-R</text>
+  <text x="105" y="730" class="t">PICKUP-L/R → HV rectifier → Cstore/load</text>
+  <text x="105" y="770" class="s">Motor/Bias input separately measured; low stored energy.</text>
+
+  <rect x="520" y="590" width="360" height="180" rx="15" class="lab"/>
+  <text x="600" y="623" class="h">Differential rectifier</text>
+  <path d="M585 675 L640 645 L695 675 L640 705 Z" fill="none" stroke="#222" stroke-width="3"/>
+  <path d="M705 675 L760 645 L815 675 L760 705 Z" fill="none" stroke="#222" stroke-width="3"/>
+  <line x1="640" y1="705" x2="640" y2="738" class="wire"/><line x1="760" y1="705" x2="760" y2="738" class="wire"/>
+  <line x1="640" y1="738" x2="760" y2="738" class="wire"/>
+  <text x="610" y="758" class="s">Cstore + bleed + measured load</text>
+  <path d="M613 590 L600 430" class="patch"/><path d="M787 590 L800 430" class="patch"/>
+
+  <rect x="980" y="555" width="350" height="245" rx="15" class="unknown"/>
+  <text x="1055" y="588" class="h">X1…X4 / Top-Modul</text>
+  <text x="1020" y="625" class="t">Baseline: OPEN</text>
+  <text x="1020" y="660" class="t">Patch only: diode / R / C / RC / dummy</text>
+  <text x="1020" y="695" class="t">No material is called “original crystal”.</text>
+  <text x="1020" y="735" class="t">Kelly/Potter HF circuits:</text>
+  <text x="1020" y="765" class="t">external comparison board only.</text>
+
+  <path d="M435 675 C500 675 500 675 520 675" class="patch"/>
+  <path d="M880 675 C930 675 930 675 980 675" class="open"/>
+  <text x="470" y="840" class="s">W0 = alles offen/vermessen · W1 = konventioneller Charge-Transfer-Test · W2 = patchbare Drive/Collection-Hypothese</text>
+</svg>
