@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 365,
+  "file_count": 366,
   "files": [
     {
       "path": ".gitattributes",
@@ -583,6 +583,11 @@
       "path": "docs/research/safety.md",
       "size": 1074,
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
+    },
+    {
+      "path": "docs/research/source-acquisition-backlog-round6.tsv",
+      "size": 2894,
+      "sha256": "1318e77394996937391dedbc324371edb612a1df80c20f0e544e23de72a64007"
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
