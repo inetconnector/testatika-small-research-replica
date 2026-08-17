@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 512,
+  "file_count": 514,
   "files": [
     {
       "path": ".gitattributes",
@@ -156,13 +156,13 @@
     },
     {
       "path": "README.en.md",
-      "size": 19266,
-      "sha256": "25e4881c71a1fc24d5b66812298059e4cc3b8e26767a74886abc5db7c16ebdb2"
+      "size": 20150,
+      "sha256": "0766e626fbd5e89248014089cc410fe6f7d380118b6ac17db0e627eca83d4a5d"
     },
     {
       "path": "README.md",
-      "size": 20544,
-      "sha256": "60825c8870e8d1e562d47a91134d9378b951bfa859abd9f947521cb0249d5ea8"
+      "size": 21451,
+      "sha256": "5b9a7542033e7fb7430b8d42a72bd99941c96f6fd525f50ad3c232671d6bf04c"
     },
     {
       "path": "ROADMAP.md",
@@ -348,6 +348,16 @@
       "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
       "size": 3013,
       "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+    },
+    {
+      "path": "docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx",
+      "size": 9540,
+      "sha256": "ee4b6df4f7e145eeb6a471b73819f3031ba29e0fad7177be0b87db477dacf1a2"
+    },
+    {
+      "path": "docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx",
+      "size": 10504,
+      "sha256": "d369032a5791174733a74eb149ccabb733d2b93f61de332b2a6c3a8331dbb014"
     },
     {
       "path": "docs/research/archive-audit-2026-08-16.md",
