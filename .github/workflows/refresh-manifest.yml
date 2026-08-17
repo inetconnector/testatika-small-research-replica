@@ -10,7 +10,6 @@ on:
       - 'MANIFEST_SHA256.txt'
       - '.github/V4_MATERIALIZE_TRIGGER'
       - '.github/BUILDKIT_MATERIALIZE_TRIGGER'
-      - '.github/SELF_EXCITATION_UPDATE_TRIGGER'
   workflow_dispatch:
 
 permissions:
