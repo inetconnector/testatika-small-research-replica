@@ -153,3 +153,25 @@ The crawl has materially improved **provenance, machine taxonomy, geometry const
 - a closed historical net-energy measurement.
 
 Those remain explicit unknowns. The richer Internet record increases the number of documented claims and variants; it does not justify turning any one speculative theory into the original mechanism.
+
+## J. Don Kelly replication-history lead — prototype construction reported in 1998
+
+The Institute for New Energy / *New Energy News*, Vol. 6 No. 6 (Nov. 1998), reports that Don Kelly's Space Energy Association was **building a prototype Swiss M-L converter**. This is useful replication-history evidence because Kelly/Bailey's 1991 IECEC paper had stated that all duplication attempts then known to them were unsuccessful.
+
+No indexed source found in this crawl establishes the later outcome of the reported 1998 build. Therefore the correct statement is only: **prototype construction was reported**. Do not infer success or failure without a later project report.
+
+Source: `https://www.padrak.com/ine/`
+
+## K. Jan Pajak material explicitly self-downgrades as non-witness reconstruction
+
+Jan Pajak's own monograph says he never personally saw the Thesta-Distatica and that the detailed machine he documents is a **telekinetic influenzmaschine of his own invention**, designed to correspond to information he had gathered. He also says the available details came from mixed sources, sometimes gossip, and could not all be scientifically verified.
+
+Accordingly, Pajak drawings, dimensions, circuit details and telekinetic/UFO mechanism claims are **S2/I1 reconstruction material**, not historical Testatika geometry or wiring. They are not imported into CAD.
+
+## L. Einsiedeln congress — live-machine versus film-only conflict
+
+A contemporary external information sheet dated May 1990 reports that Methernitha representative Bosshard presented the Testatika to about 500 congress attendees in Einsiedeln **only by film, not in natura**. By contrast, later Testatika literature (including Kelly/Bailey's transmission of earlier claims) describes a live demonstration at a Zurich/Einsiedeln congress to a larger audience.
+
+This is a genuine provenance conflict. It may reflect different events, later conflation, or inaccurate transmission. Until a contemporaneous congress programme, photographs or multiple date-locked reports resolve it, the repository must not state that the 1989 Einsiedeln congress definitely contained a live machine demonstration.
+
+Contemporary source: `https://www.relinfo.ch/methernitha/testatika.html`

@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 2816,
-      "sha256": "781f8d16505e4781ec8ee290461a0c2f01b27ad7087e322d3139f77de989811d"
+      "size": 3120,
+      "sha256": "e8012228eb4ddf9f9eb7458cca644696a974bec273ba395e8591e11a7a6198ad"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
@@ -351,8 +351,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 22785,
-      "sha256": "872a0342d0c71e4f7c6464d959cfcedea117d37d753dfc33820860604753dfcf"
+      "size": 23559,
+      "sha256": "59f78434ed620b9145aec5612366e9d744e7423ed06bdde3f95d6e04351f726a"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -401,13 +401,13 @@
     },
     {
       "path": "docs/research/internet-source-audit-addendum-2026-08-17.md",
-      "size": 9851,
-      "sha256": "ab9a149b9862181bb21dfda328802de3588fee2ab2850de88775ec6d8ac41e12"
+      "size": 12083,
+      "sha256": "e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1"
     },
     {
       "path": "docs/research/internet-source-ledger.tsv",
-      "size": 10187,
-      "sha256": "3372f0670c14a2c39eba0689703415d1b27ca49b8e676416a8dc09bf1c636d88"
+      "size": 10865,
+      "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
@@ -536,13 +536,13 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 7199,
-      "sha256": "04257abebc110c6756c839b2cbd1145471094a8558a5bf671e1877e484684fe0"
+      "size": 7799,
+      "sha256": "0ab6724f6ac19877693eca900b6d66b2785853d3bad1c449d684327102f60c4f"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 16885,
-      "sha256": "35011ad9c1afb766a9b6500f04005f96e720f8b917eda223f490ad0f70a2d9f2"
+      "size": 17460,
+      "sha256": "010b233b849e8d9cccc310ed63ebfa62ed79a326c8946b9bb2a265d16c3f58de"
     },
     {
       "path": "docs/research/stl_dimensions.json",

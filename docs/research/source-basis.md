@@ -235,3 +235,9 @@ The L. L. report is assigned `M5a`; its air-molecule/neutron/tachyon/gravity exp
 ### 1999 demonstration date conflict
 
 Retrospective public sources disagree between 5-Jun-1999 and 4-Aug-1999 for an engineer-group demonstration, while early-Aug Holzherr/Hartmann pages also carry email/translation dates. The calendar date remains **CONFLICT** pending contemporaneous invitation/attendee/photo/video evidence.
+
+### Final web-audit downgrades and unresolved event conflict
+
+- NEN Nov-1998 reports that Don Kelly's group was building an M-L prototype; no indexed outcome was found, so only construction is recorded.
+- Jan Pajak explicitly says he never personally saw Thesta-Distatica and that his detailed device is his own reconstruction/invention; his geometry/circuit/theory remains S2/I1.
+- A May-1990 contemporary external source says the Einsiedeln congress presentation was film-only, conflicting with later live-demonstration accounts. The event mode/audience remains CONFLICT.
