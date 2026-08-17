@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 374,
+  "file_count": 376,
   "files": [
     {
       "path": ".gitattributes",
@@ -91,8 +91,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 599,
-      "sha256": "0db0daf303af45a86815d0fbc765fa7be2370a01ab76485fc47ba8fc0acf3960"
+      "size": 1342,
+      "sha256": "6897f70e4362be2565b4ff1d2700fe88b45a75c134e414513ca3aceea448132a"
     },
     {
       "path": ".gitignore",
@@ -101,8 +101,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 6836,
-      "sha256": "3b3d0b1c5f93ed775c93c67b04a1bea3848a34d4486290e5359323865224a6d4"
+      "size": 7340,
+      "sha256": "e3b30bea48c0f0a25298c2070a6beb5c8756b9111905ee5743cb4b0a57958c78"
     },
     {
       "path": "CHANGELOG.md",
@@ -116,8 +116,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "size": 3455,
-      "sha256": "02731a9cc74937bd622096f18afb9d0c86d899ffd1174915bb9af7e940af3948"
+      "size": 4178,
+      "sha256": "659f3fd07c4153c4fc1f967738cc83d99e83faa566859bda68fa7e605ef49f66"
     },
     {
       "path": "LICENSE",
@@ -140,9 +140,14 @@
       "sha256": "7970441ab70066860c0adcea5f4374e55a2a6ddd98a57db9d79761dfc8c378ce"
     },
     {
+      "path": "README.en.md",
+      "size": 19132,
+      "sha256": "d626e0d6559469f25d19a76b47fffb608be2629baa7e808cf749e6399b66b78b"
+    },
+    {
       "path": "README.md",
-      "size": 18444,
-      "sha256": "b439f0d35852c54bd93fb375d2925ff48887e8bfc4fe6fef2e432754607906b6"
+      "size": 20457,
+      "sha256": "e10aaac3bdd7456eecfb17d184fd4f2b6eaffde8c2e9ecdb271a63fd2d852b62"
     },
     {
       "path": "ROADMAP.md",
@@ -1838,6 +1843,11 @@
       "path": "scripts/check_manifest.py",
       "size": 1722,
       "sha256": "b30dd6ede8a1124b303c7ffd229fbbb50eda227d944510dd8cbf33626123603d"
+    },
+    {
+      "path": "scripts/check_readme_sync.py",
+      "size": 6309,
+      "sha256": "2e0fdae853b8c075ee0641354290d59298a4fdf7d5d47d1706e196238f885230"
     },
     {
       "path": "scripts/check_v4_assets.py",
