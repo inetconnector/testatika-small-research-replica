@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 376,
+  "file_count": 377,
   "files": [
     {
       "path": ".gitattributes",
@@ -98,6 +98,11 @@
       "path": ".gitignore",
       "size": 390,
       "sha256": "9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781"
+    },
+    {
+      "path": "ADDON.md",
+      "size": 855,
+      "sha256": "1b636ba20a0cf59429375bc691f86047fe8f48ed8554fd9e8c218d5ca9048579"
     },
     {
       "path": "AGENTS.md",
