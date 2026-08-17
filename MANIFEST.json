@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 346,
+  "file_count": 347,
   "files": [
     {
       "path": ".gitattributes",
@@ -43,6 +43,11 @@
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
       "size": 2429,
       "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+    },
+    {
+      "path": ".github/workflows/integrate-internet-source-audit.yml",
+      "size": 2373,
+      "sha256": "adcaff328f9284a3b6063fd9b641925b7534de9ae27332601c490e5e9e76d744"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
