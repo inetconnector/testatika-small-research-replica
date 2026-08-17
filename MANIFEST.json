@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 553,
+  "file_count": 561,
   "files": [
     {
       "path": ".gitattributes",
@@ -553,6 +553,16 @@
       "path": "docs/research/limitations.md",
       "size": 895,
       "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
+    },
+    {
+      "path": "docs/research/m2-regenerative-grid-model.md",
+      "size": 6953,
+      "sha256": "3cf75fda9aca06865cd2b80e79de99f6eb3fcc2c280e3689260cfe75aa97bb7c"
+    },
+    {
+      "path": "docs/research/m2-v2-goldie-control-and-gap.md",
+      "size": 8152,
+      "sha256": "957a00797316317d5c9868f8ad98b051a33a901004329155dca24112fca1621b"
     },
     {
       "path": "docs/research/m2-v5-fabrication-kit.md",
@@ -2575,6 +2585,21 @@
       "sha256": "241a82b0edb0d7ad81f4f09cdfbb55354251901419fd4486602e3071689752f3"
     },
     {
+      "path": "sim/goldie_self_excited_control.py",
+      "size": 12230,
+      "sha256": "67baa8c4cf44d6dde8d50e5a496744545baea3bcf0dcd76890e93bbaf6218788"
+    },
+    {
+      "path": "sim/m2_goldie_bridge.py",
+      "size": 5508,
+      "sha256": "2c59c500e22b910b49e8a7d384fb46405f9a0cec5062b8055397536ba73e6dda"
+    },
+    {
+      "path": "sim/m2_regenerative_grid_model.py",
+      "size": 18922,
+      "sha256": "f803876a741bff2217fc6937c3eb697d8ac7200d3e6c31a1eead0dc0c69fd0ca"
+    },
+    {
       "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_Frigidaire_1989_Seitenansicht.jpg",
       "size": 341282,
       "sha256": "3db3d7940bd02b80a8c3b1f49aa0492d7967984a9c980bdb91b0b2f01178c7de"
@@ -2768,6 +2793,21 @@
       "path": "testatika_collection/SHA256SUMS.txt",
       "size": 4414,
       "sha256": "eb5df5c6ec895cc4bf40cb8c6892a26956e36772ce0eab39d6e7fdd3329e9dfe"
+    },
+    {
+      "path": "tests/test_goldie_self_excited_control.py",
+      "size": 2828,
+      "sha256": "613c47b9ba2d9bc917fb282b3cc3a8b339a6063f5395dbb57c7595e757153542"
+    },
+    {
+      "path": "tests/test_m2_goldie_bridge.py",
+      "size": 1585,
+      "sha256": "b632c2856942e45ed2bb55882d4579248da682616033aff2a3e6c7ae5d2d197f"
+    },
+    {
+      "path": "tests/test_m2_regenerative_grid_model.py",
+      "size": 2803,
+      "sha256": "6cfd9e60e3f5cc5aacdcb1a251e9891eef582cfe2163d817078e13f8bd946ba0"
     }
   ]
 }
