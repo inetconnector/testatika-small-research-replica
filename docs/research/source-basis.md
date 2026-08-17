@@ -241,3 +241,63 @@ Retrospective public sources disagree between 5-Jun-1999 and 4-Aug-1999 for an e
 - NEN Nov-1998 reports that Don Kelly's group was building an M-L prototype; no indexed outcome was found, so only construction is recorded.
 - Jan Pajak explicitly says he never personally saw Thesta-Distatica and that his detailed device is his own reconstruction/invention; his geometry/circuit/theory remains S2/I1.
 - A May-1990 contemporary external source says the Einsiedeln congress presentation was film-only, conflicting with later live-demonstration accounts. The event mode/audience remains CONFLICT.
+
+## Internet source audit round 2 — 2026-08-17
+
+Round 2 is documented in:
+
+- [`internet-source-audit-round2-2026-08-17.md`](internet-source-audit-round2-2026-08-17.md)
+- [`internet-source-ledger-round2.tsv`](internet-source-ledger-round2.tsv)
+- [`kelly-source-revision-chain-2026-08-17.md`](kelly-source-revision-chain-2026-08-17.md)
+
+High-value consequences:
+
+1. **Kelly self-correction:** in an Aug. 1998 NEN letter Don Kelly explicitly says an early `Magnets` depiction with twin horseshoe magnets/windings close to the twin electrostatic discs was later shown incorrect. This is an author-level correction of Kelly-derived geometry, not a statement that no named Testatika variant ever contained horseshoe magnets.
+2. **`Magnets` chronology remains unresolved:** the official `raum&zeit` archive says its reproduced Kelly electro-schematic came from a Kelly `Magnets` article in Aug. 1987, while Kelly's 1998 retrospective dates the erroneous early study to roughly 1984. Until the original issues are acquired, these are not silently treated as the same article.
+3. **M5a publication text:** the L. L./Rorschach 17-Mar-1984 witness report in Nieper's book supports the existing ~110 × 45 × 60 cm, ~20 kg, twin ~45-cm-disc, 50-position, ~60-rpm geometry line. Its neutron/tachyon/resonance explanations remain witness interpretation. Its strong similarity to Schneider/Weber M5 means source independence is still unresolved.
+4. **Kelly 1998 prototype:** NEN reports that Kelly's Space Energy Association was building a prototype. No validated success result was found. `building` must never be rewritten as `replicated successfully`.
+5. **Sarah Tripp documentary:** authoritative film catalogues identify a 20-min `Testatika` documentary and an archival route through the National Library of Scotland. Catalogues disagree between 2001 and 2002, so the date remains a catalogue conflict until the archive object is inspected.
+6. **Digital-forensics leads:** the historic `colossus2` Testatika directory and `phoenix.oulu.fi/pub/free_energy` FTP tree are now explicit acquisition targets; surviving forum copies prove URL history, not technical truth.
+7. **Patent-search boundary:** a targeted public patent search did not identify a provenance-secure Testatika/Methernitha patent. Unrelated inventors named Paul Baumann are an identity-confound. This is a bounded negative search result, not proof that no patent or filing can exist.
+
+Round 2 does not recover the hidden circuit, crystal material, M2 through-disc route or M6a node map. Those remain UNKNOWN.
+
+## Internet source audit round 3 — 2026-08-17
+
+Canonical Round-3 records:
+
+- [`internet-source-audit-round3-2026-08-17.md`](internet-source-audit-round3-2026-08-17.md)
+- [`internet-source-ledger-round3.tsv`](internet-source-ledger-round3.tsv)
+
+Key corrections/refinements:
+
+1. A complete 29-page public German translation mirror of Marinov's 1989 `Die Maschine TESTATIKA und ihr physikalischer Hintergrund` gives a page-locatable author-text source for the M2 startup/shield observations and for several medium/large-machine constraints. It remains a later translation, so exact wording still requires a source-language scan.
+2. Marinov says the medium-machine image shows **9 countable stationary electrodes and surely at least 10**. Exact total and identity with Hauser M6a remain unresolved.
+3. Marinov distinguishes perforated sector hole scale: smaller holes on the medium machine, larger holes on the large machine. Baumann-attributed Fe-Ni composition/slight magnetization remains source-stated rather than measured.
+4. Marinov says the large-machine counterrotation cord/string he saw was quite loose. This is a mechanical lead, not a solved drive system.
+5. Marinov's proposed high-voltage drive-capacitor versus lower-voltage collecting-capacitor architecture is explicitly inferential in the same text and remains **HYPOTHESIS**, not recovered wiring.
+6. Independent Marinov and contemporary Relinfo accounts converge that the **27–29 Oct 1989 Einsiedeln SAFE Testatika presentation was film-only**. Attendance remains approximate/conflicting (~700 vs ~500).
+7. Hauser's later author retrospective preserves Baumann-attributed atmospheric-ion/window/storm claims, but the same web transcription contains obvious numeric corruption versus the direct scans. These statements are retained only as `LATE-RETROSPECTIVE / BAUMANN→HAUSER`, not as established energy-source physics.
+8. Kelly's 1992 SAE paper 929472 is explicitly a Kelly-derived quad-disc design, not a recovered Testatika circuit.
+
+No Round-3 item closes the hidden historical circuit or changes the M2/M6 CAD baseline automatically.
+
+## Internet source audit round 4 — 2026-08-17
+
+Canonical Round-4 records:
+
+- [`internet-source-audit-round4-2026-08-17.md`](internet-source-audit-round4-2026-08-17.md)
+- [`internet-source-ledger-round4.tsv`](internet-source-ledger-round4.tsv)
+
+High-value provenance corrections:
+
+1. The late claim that Marinov **received a 100-W Testatika generator in 1997** appears in Frolov 2021 but is not supported by a contemporaneous transfer source found in the crawl. Watson 2001 only relays that Baumann gave Marinov a small machine `to play with`, then explicitly says the observations were made at Linden without quantitative test gear. The ~100-W number is a resistor-heating estimate, not a recovered device rating. Treat the 1997 permanent-gift story as **unsupported late secondary / likely conflation**.
+2. The 1999 engineer demonstration has an unresolved source conflict: the preserved 2004 seminar programme says **5-Jun-1999 / 34 engineers**, while the 2011 Schneider retrospective says **4-Aug-1999 / 30 Swiss engineers**. Do not normalize these.
+3. The 13-Mar-2004 Zurich seminar is a strong provenance node for later theories: Hans Weber explicitly presented a `polymer-chain charge exchange during air ionization` model and the programme says his 1984 presentation used video. These are dated later interpretations, not Methernitha primary engineering.
+4. The 2011 NET-Journal article reproduces a 2010 Methernitha reply as recipient-published institutional correspondence. It is stronger than a forum mirror but still not the original message/header.
+5. Nuetec's parenthetical `WR: im November 1980` attached to a Marinov/Nieper statement is an editor/translator annotation. The crawl has not verified 1980 as the date Nieper had seen/tested Testatika.
+6. Marinov sources give **1977 and 1978** in different retrospective/construction contexts. Preserve this as a milestone/prototype chronology issue instead of forcing one universal first-build date.
+7. Hauser's publication chain is now concrete: 14-Feb-1986 visit → `DIFOT-News` no.5 May-1986 → `UFO-Contact` no.6 1986 → English version Feb-1987 → later expanded Hauser material.
+8. Nuetec publicly links a 30-minute Methernitha film labelled **1280×720**, but the file has not yet been frame-audited and could be an upscale. It is an acquisition target, not new geometry evidence.
+
+Round 4 does not justify an automatic historical CAD change.

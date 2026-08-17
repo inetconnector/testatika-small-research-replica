@@ -199,3 +199,38 @@ First publication-ready repository release.
 ### Scientific position
 
 No over-unity or free-energy claim is asserted. Unknown historical wiring remains explicitly unknown.
+
+### Internet source audit round 2 — 2026-08-17
+
+- added second verified Internet-source audit and ledger;
+- documented Don Kelly's 1998 self-correction of an early horseshoe-near-disc Testatika depiction;
+- preserved the unresolved `Magnets` circa-1984 vs Aug-1987 publication chronology instead of conflating sources;
+- strengthened M5a 17-Mar-1984 publication provenance while retaining M5/M5a source-dependency warning;
+- recorded Kelly/SEA 1998 prototype construction as an attempt with unknown outcome;
+- added Sarah Tripp/National Library of Scotland archival acquisition route;
+- added colossus2/Oulu FTP digital-forensics leads and bounded negative patent-search result;
+- no historical CAD baseline changed in this audit round.
+
+### Internet source audit round 3 — 2026-08-17
+
+- added a complete page-locatable Marinov 1989 Testatika translation-mirror audit;
+- added medium-machine >=10-electrode lower bound and medium/large perforation-scale distinction;
+- added loose large-machine counterrotation-cord observation;
+- explicitly classified Marinov's proposed two-bus wiring as hypothesis;
+- corrected the 27–29 Oct 1989 Einsiedeln Testatika presentation to strong FILM-ONLY convergence, retaining attendee-count conflict;
+- added late Hauser atmosphere/window/storm claims with numeric-corruption and retrospective-source guards;
+- classified Kelly SAE 929472 as a derivative design, not historical Testatika wiring;
+- added controlled environment-variable experiment requirements;
+- no historical CAD baseline changed.
+
+### Internet source audit round 4 — 2026-08-17
+
+- classified the Frolov/Sapogin `1997 100-W Testatika gift` story as unsupported late secondary/likely conflation against Watson/Marinov source details;
+- preserved the 1999 engineer-demo `5-Jun/34` versus `4-Aug/30` date/count conflict;
+- added the 13-Mar-2004 seminar as a provenance node and Weber polymer-chain/air-ionization as a dated later hypothesis;
+- upgraded the 2010 Methernitha response to recipient-published correspondence while keeping original message acquisition open;
+- prevented Nuetec's editor-added `Nov 1980` from becoming a false Nieper/Testatika timeline fact;
+- preserved 1977/1978 construction dates as prototype/milestone conflict;
+- documented Hauser's DIFOT/UFO-Contact/English publication chain;
+- added Nuetec HD-labelled video and companion-document corpus as acquisition targets without claiming uninspected content;
+- no historical CAD baseline changed.

@@ -2023,3 +2023,31 @@ Important corrections: M2 East-West startup is Baumann→Marinov source-stated (
 New stronger sources: Kelly/Bailey 1991 original IECEC PDF; Nieper 1985 book mirror including the L. L. Rorschach 17-Mar-1984 witness report; Schneider/Weber 13-Mar-1984 account republished by NET-Journal; recipient-side publication of a 2010 Methernitha reply. See `docs/research/internet-source-audit-addendum-2026-08-17.md` and `witness-source-independence-1984.md`.
 
 Do not double-count M5 and M5a as independent until source dependence is resolved. Kelly/Bailey explicitly were not direct machine witnesses and their geometry is secondary/photo-derived. The 1999 engineer-demo date is CONFLICT (5 Jun vs 4 Aug / early-Aug publication chain). No hidden original circuit or closed historical net-energy proof was found.
+
+## Internet audit round 2 handoff — 2026-08-17
+
+For future sessions, read these after the first Internet audit:
+
+- `docs/research/internet-source-audit-round2-2026-08-17.md`
+- `docs/research/internet-source-ledger-round2.tsv`
+- `docs/research/kelly-source-revision-chain-2026-08-17.md`
+
+Do not re-promote early Kelly schematic magnet placement: Kelly himself later called the early close-to-disc horseshoe-magnet depiction incorrect. Preserve the unresolved 1984-vs-1987 `Magnets` chronology. Treat M5/M5a as possible same-machine/source-dependent witness lines. Continue acquisition of original `Magnets`, DIFØT, Einsiedeln proceedings, Sarah Tripp/NLS film and Yahoo archive before claiming further historical closure.
+
+## Internet audit round 3 handoff — 2026-08-17
+
+Read `docs/research/internet-source-audit-round3-2026-08-17.md` and `internet-source-ledger-round3.tsv` before making further historical claims.
+
+Important guards:
+
+- Marinov medium-machine `>=10 electrodes` is not automatically Hauser M6a.
+- Marinov's high-V/low-V bus concept is his hypothesis, not recovered wiring.
+- Einsiedeln 27–29 Oct 1989 is now strongly film-only for Testatika; attendance remains ~500/~700 conflict.
+- Hauser atmosphere/window/storm claims are late retrospective/operator statements and must be experimentally decomposed, not promoted to an energy-source fact.
+- No CAD changes from Round 3 without an explicit source-to-machine bridge.
+
+## Internet audit round 4 handoff — 2026-08-17
+
+Before continuing, read `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
+
+Do not repeat as fact that Marinov received a `100-W Testatika` in 1997. The located chain does not support a permanent gift or rated output. Preserve the 1999 5-Jun/34 vs 4-Aug/30 conflict. Treat Weber's polymer-chain/air-ionization as a 2004 theory. Treat Nuetec's Nov-1980 Nieper date as editor annotation until original TWT-V/Nieper evidence is obtained. The Nuetec HD-labelled film has not yet been frame-audited.

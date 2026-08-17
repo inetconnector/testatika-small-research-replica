@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 351,
+  "file_count": 375,
   "files": [
     {
       "path": ".gitattributes",
@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 3120,
-      "sha256": "e8012228eb4ddf9f9eb7458cca644696a974bec273ba395e8591e11a7a6198ad"
+      "size": 4039,
+      "sha256": "3e163f6b3b87574b9284c7ed664fd0f466fddde0345f2c02cd71997e5dfc08c5"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
@@ -111,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 15382,
-      "sha256": "14273e915259d1112003ee1a44cfc4b4cabf3ad002bfc9459513784f9cbe53b8"
+      "size": 17862,
+      "sha256": "dbf913634e4e7603f96c1f270000fee2af657d90acec725843b511256eaf04bb"
     },
     {
       "path": "CITATION.cff",
@@ -161,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 241453,
-      "sha256": "fa747ceed7b69a2deb6a3d483229d1b89ecd78dcbae0c471b0fbc17cd48398f0"
+      "size": 243750,
+      "sha256": "c04bad79b30078c9f9aaa3716669a5306a2c37587c6522d2888a9fd425e806ba"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 59238,
-      "sha256": "61ba4aadda4e23c8929be694ae8b9354be2a9592c1fa2c3a0167d157da229687"
+      "size": 61275,
+      "sha256": "d79778eaf98f657445500bea3867c2de19e05e66187801c60a4b47795838b680"
     },
     {
       "path": "cad/README.md",
@@ -211,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 4884,
-      "sha256": "ddf4c9f2f99ba255e0abde9910edf22466c1ae09cbd88bd9efc6f0faebc3399e"
+      "size": 7726,
+      "sha256": "da5c585ab3a8390c6ab58b020f8219bbc598f781a8d946063a81a939172384ac"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 19038,
-      "sha256": "e46203474926247f8f463f600eb66e094ee9d04eaeebb49622db8fd95da75a2f"
+      "size": 21708,
+      "sha256": "dc53bc91be7ad10c3ff8d71b9b16d8b257660cc10317cbb8bd6b72164a07896b"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -345,19 +345,24 @@
       "sha256": "785566877d5a1b879048a9921a5ddb138a88de0a7b4f423160a38d1328f48de8"
     },
     {
+      "path": "docs/research/don-kelly-source-correction-2026-08-17.md",
+      "size": 7393,
+      "sha256": "54a0b9452835f7c824a07e709a29bb67af288a9b045dc9075295a20cdd74a299"
+    },
+    {
       "path": "docs/research/electrodes.md",
       "size": 2393,
       "sha256": "91177c258a8e2a3983fa034477003122fcc127239a36606239ad2f4498429080"
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 23559,
-      "sha256": "59f78434ed620b9145aec5612366e9d744e7423ed06bdde3f95d6e04351f726a"
+      "size": 30740,
+      "sha256": "441718c5a00bc2d49b73b5deabecabf78662b8bbed56216153a29bf892a035e1"
     },
     {
       "path": "docs/research/experiment-plan.md",
-      "size": 13220,
-      "sha256": "3a17d95af6f431113f67611b0182012baa1f0e44db29ae8d0386dda251e71abf"
+      "size": 14890,
+      "sha256": "a62248ed5eb8e5833cc1cd3f2f609b64306a19f01065f9cf86477e49beabbc60"
     },
     {
       "path": "docs/research/external-corpus.md",
@@ -405,6 +410,76 @@
       "sha256": "e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1"
     },
     {
+      "path": "docs/research/internet-source-audit-round2-2026-08-17.md",
+      "size": 11777,
+      "sha256": "848ac1fc1165fc05ea8533377bdae12904beee589c904e37d75b3bc88b6001c1"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round3-2026-08-17.md",
+      "size": 11346,
+      "sha256": "5847e52db7ac1e08ea272c5c331391bc41876f8de02e032678203b47b4393312"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round4-2026-08-17.md",
+      "size": 15008,
+      "sha256": "2a69b509db0c0895d9cc3daa21aaa9b942581aa61ca50f608a9a33f181e00452"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round5-2026-08-17.md",
+      "size": 9375,
+      "sha256": "8966561b1292c76bdcffe303984e4702599e82c6f2b688721e39076373b7f17a"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round6-2026-08-17.md",
+      "size": 12100,
+      "sha256": "bf1181c4bdd4d1c1348be8e9d0b687be68cca0a8351d870d553382ae48d040da"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round7-2026-08-17.md",
+      "size": 10670,
+      "sha256": "afec75a50156d6b3ba7d05a7a8bc69315df3b2fc9f350ba3fe4ee2be2beb7273"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round8-2026-08-17.md",
+      "size": 9285,
+      "sha256": "c0c1070663ff935dfc1f07d24c68bf1b4c13df0623b46d1fd9052cec1160cded"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round9-2026-08-17.md",
+      "size": 11309,
+      "sha256": "0157d1fd66e82c746f7b6f9ba60143b5cec4be6443068e8e08670e0214dc17c4"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round2.tsv",
+      "size": 5172,
+      "sha256": "5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round3.tsv",
+      "size": 4376,
+      "sha256": "e987f57b3011662d8812a8c3b7d16e1d1efa892e21ded33670c7154d0dc8ad51"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round4.tsv",
+      "size": 4562,
+      "sha256": "de8c3eef1c37319ab816576781f12ba8454eef85f13f31b9142da48eae40dd9a"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round6.tsv",
+      "size": 2891,
+      "sha256": "c40d3ff354516c9cad3a002b1b26b66839be3b1710f55863d4b2a7d658cc1bd0"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round7.tsv",
+      "size": 3899,
+      "sha256": "514c091a2fd2afb74a07cc915912ab8ad9cdd26992c414bf142a6677f1634c58"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round9.tsv",
+      "size": 3079,
+      "sha256": "8362b81854acfaacd73b1990a6cf316870e77774dcc2b174c4e79dc0840d21f2"
+    },
+    {
       "path": "docs/research/internet-source-ledger.tsv",
       "size": 10865,
       "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
@@ -413,6 +488,11 @@
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
       "size": 8230,
       "sha256": "c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c"
+    },
+    {
+      "path": "docs/research/kelly-source-revision-chain-2026-08-17.md",
+      "size": 3824,
+      "sha256": "16cf676a5eb5e799428f2fd6f54a8d627088cdc8614c03bbd93c6b7c2857bf79"
     },
     {
       "path": "docs/research/limitations.md",
@@ -535,14 +615,34 @@
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
     },
     {
+      "path": "docs/research/source-acquisition-backlog-round6.tsv",
+      "size": 2894,
+      "sha256": "1318e77394996937391dedbc324371edb612a1df80c20f0e544e23de72a64007"
+    },
+    {
+      "path": "docs/research/source-acquisition-backlog-round7.tsv",
+      "size": 2655,
+      "sha256": "e437ed17dd185d7d02fd9951e3c1e54cfd7d9395476ba84928624ffab9fbdc41"
+    },
+    {
+      "path": "docs/research/source-acquisition-backlog-round9.tsv",
+      "size": 2351,
+      "sha256": "9c83fee2c4d552b28332c70a648c93472c34c35ff756537363ee5c489e7efab0"
+    },
+    {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 7799,
-      "sha256": "0ab6724f6ac19877693eca900b6d66b2785853d3bad1c449d684327102f60c4f"
+      "size": 15301,
+      "sha256": "03370e2eebac8eadcc3474a99bf072f5820a1b627fef61840abf16e649339ad4"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 17460,
-      "sha256": "010b233b849e8d9cccc310ed63ebfa62ed79a326c8946b9bb2a265d16c3f58de"
+      "size": 24557,
+      "sha256": "c3111a494da5a4f83b846d47c7e37eec036b04d8b9d68fb88f62c5ac0d7fff9d"
+    },
+    {
+      "path": "docs/research/source-independence-round8.tsv",
+      "size": 2038,
+      "sha256": "3438ce08c40a8d89b622211223c9d04eed1ca2f8214c9635932d6173b9771e2f"
     },
     {
       "path": "docs/research/stl_dimensions.json",
@@ -1675,6 +1775,21 @@
       "sha256": "376d43214dc7c8f5f056d6cf47d702e6925d1eb7701586378196e155307f79d4"
     },
     {
+      "path": "scripts/apply_internet_source_audit_round2.py",
+      "size": 12285,
+      "sha256": "0853c88ed3ba0beb36d5c32a2abde3d7a17aef1cf867b7ff02ef68e9056bd9e1"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_round3.py",
+      "size": 14591,
+      "sha256": "a3ccb7abdae5d746d714ad7c6fe5d7d3d7ef686270bb1f9bc9df4164bbcfbac7"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_round4.py",
+      "size": 13896,
+      "sha256": "95549abef0adf8d7740b06a0ff8a52edb1158b1e849d2eb9b1668eb9fe9aa64a"
+    },
+    {
       "path": "scripts/apply_m6_readme_links.py",
       "size": 2656,
       "sha256": "5669950f0f35992356380926dee6396917ca3a2dee014e10f8f52bf4a544e067"
@@ -1743,6 +1858,11 @@
       "path": "scripts/normalize_m6_step.py",
       "size": 1074,
       "sha256": "87295cbb20763e2dcdb6a43fcf7705886df71e4f6c09615ad10748721b31e313"
+    },
+    {
+      "path": "scripts/normalize_round2_backlog_priorities.py",
+      "size": 492,
+      "sha256": "c92f8898730845fc63a99a3eaad2a351e869a4f203cb69036a94ecbcf143ef79"
     },
     {
       "path": "scripts/normalize_v4_step.py",

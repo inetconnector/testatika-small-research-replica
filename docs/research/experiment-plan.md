@@ -417,3 +417,33 @@ Holzherr weist darauf hin, dass eine sehr dünne Schicht zwischen Plexiglasplatt
 Verdeckte Leiter-/Zwischenschicht-Hypothesen dürfen nur als reversible Varianten getestet werden und brauchen für eine historische Hochstufung zusätzliche Primärevidenz.
 
 **Kein Selbstlauf-/Overunity-Schluss aus Nachlauf, Feldspeicherung, hoher Leerlaufspannung, Video-Metadaten oder kurzen Lastimpulsen.**
+
+## Round-3 environment-source discrimination
+
+Later Albert Hauser recollection attributes to Baumann a claim that atmospheric charged ions/fresh-air access mattered, including a closed-window stop/open-window restart and storm-related shutdown. This is **not established mechanism evidence**. If tested, the experiment must separate correlated environmental variables.
+
+Minimum randomized matrix:
+
+- enclosure air exchange: controlled low / medium / high;
+- RH and temperature independently controlled/logged;
+- positive/negative ion concentration measured where instrumentation permits;
+- ambient electrostatic field logged;
+- three-axis magnetic field logged;
+- mains electric field / RF spectrum logged or bounded;
+- machine and dielectric charge-history standardized before each run;
+- identical dummy-airflow runs where ion/RH conditions are held as constant as practicable.
+
+Outcomes to record:
+
+- startup pushes / startup probability;
+- surface-potential map;
+- leakage/relaxation time;
+- torque and rpm;
+- pickup current/charge per cycle;
+- any load-node energy, with full auxiliary input accounting.
+
+A simple `window open works` observation is not interpretable because ventilation simultaneously changes humidity, ions, temperature, electric-field boundaries and external EM coupling.
+
+### Medium/large mechanical cross-check
+
+Marinov's author text says the large-machine contra-rotation cord/string he saw was quite loose. For any M6/M6c comparison fixture, log belt/cord tension and bearing/drive parasitic torque before attributing rotation changes to electrostatics. Do not force the current M6a lab drive to mimic an unresolved historical transmission.

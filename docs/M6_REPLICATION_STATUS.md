@@ -69,3 +69,38 @@ Newly separated evidence:
 - `M5` (Schneider/Weber, 13-Mar-1984) and `M5a` (L. L. Rorschach report dated 17-Mar-1984) are separate documentary IDs because source independence and exact object identity are unresolved. Both describe ~1.1-m-wide apparatuses and therefore are not silently folded into Hauser's later ~500-mm-disc M6a reconstruction.
 - Kelly/Bailey 1991 is not a direct-observer source. Their disc-size/pickup/component descriptions are explicitly based on available reports/photos/video and contain conjecture. They cannot override Hauser direct-visit scans.
 - The M6a V1 CAD remains unchanged by this addendum.
+
+## Internet crawl round 2 — M6 provenance guard
+
+Round 2 strengthens source separation rather than changing the M6a CAD baseline:
+
+- Kelly's 1998 self-correction explicitly downgrades an early Kelly-derived horseshoe-magnet-near-disc depiction. It must not be used as an M6a geometry authority.
+- Hauser's direct 1986/1988 source line remains the construction anchor for M6a.
+- The L. L./Nieper 17-Mar-1984 machine is retained as M5a because it may be the same object/source family as Schneider/Weber M5 and is not proven to be Hauser M6a.
+- Kelly/SEA prototype construction reported in 1998 is replication-history evidence only; a successful result has not been recovered.
+- No new source closes the three-grid-cylinder node map, top-crystal electrical function, original speed-control transmission or hidden historical buses.
+
+No M6 V1 STEP/STL geometry is silently altered by these provenance findings.
+
+## Internet crawl round 3 — medium/large constraints
+
+Round 3 adds cross-machine constraints without silently rewriting M6a:
+
+- Marinov's medium-machine image count: 9 stationary electrodes visible, with his statement that there were surely at least 10. Exact total and identity with Hauser M6a's 8-front + 6-rear line remain unresolved.
+- Marinov distinguishes perforated-sector hole scale between medium (smaller holes) and large (larger holes).
+- Marinov reports a quite loose counterrotation cord/string on the large-machine hardware he saw.
+- His open-large-cylinder observation (outer cylinder + inner thick-Cu-wire coil) continues to support separate M6c conflict handling and does not erase Hauser M6a's three-grid/acrylic/magnet-tube/bifilar source line.
+- Hauser's later atmosphere/window/storm statements are retrospective/operator explanations only; direct Hauser scans remain the numeric source of record.
+
+Accordingly the current M6a V1 STEP/STL remains unchanged pending an explicit object/source bridge.
+
+## Internet crawl round 4 — chronology and publication guards
+
+Round 4 adds provenance constraints without modifying M6a CAD:
+
+- 1999 engineer-demonstration chronology remains CONFLICT: `5-Jun-1999 / 34 engineers` in the 2004 seminar programme versus `4-Aug-1999 / 30 engineers` in a 2011 Schneider retrospective.
+- Weber's 2004 `polymer-chain charge exchange during air ionization` is a later explanatory model, not recovered M6 circuitry.
+- Hauser's source-publication chain is more precise (`DIFOT-News` 5/May-1986 → `UFO-Contact` 6/1986 → English Feb-1987), but original issues remain acquisition targets; direct project Hauser scans stay the numeric source of record.
+- A Nuetec 1280×720-labelled Methernitha film is publicly linked but has not been source-resolution/frame compared; no M6 geometry is upgraded from it yet.
+
+M6a V1 remains source-anchored to the direct Hauser 1986/1988 material.

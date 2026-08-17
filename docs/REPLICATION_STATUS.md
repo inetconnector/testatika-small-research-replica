@@ -169,3 +169,37 @@ Every future claim that a gap is “solved” must update this file with the sou
 - Kelly/Bailey 1991 explicitly disclose that they relied on other researchers' documents and a videotape; Kelly geometry remains photo-derived/secondary and does not close M2 dimensions or wiring.
 - Two March-1984 large-machine witness texts (`M5`, `M5a`) are strikingly similar and are not counted as independent confirmations until their source relationship is resolved.
 - Neither witness lamp/heater demonstrations nor the Kelly/Bailey retelling provide a closed energy balance.
+
+## Internet crawl round 2 provenance guard
+
+The 2026-08-17 Round-2 crawl adds a specific warning for M2 historical reconstruction:
+
+- Don Kelly later self-corrected an early Kelly-derived Testatika depiction that put twin horseshoe magnets/windings close to the twin discs. Therefore a Kelly schematic cannot override direct M2 Marinov/photo/video evidence.
+- This does **not** remove the source-supported M2 magnet positions already present in V4; it only prevents an obsolete Kelly placement from being imported as corroboration.
+- `Magnets` items from circa 1984?, Aug. 1987 and Dec. 1988 remain separate source objects until original pages prove their relationship.
+- No Round-2 source closes the M2 node-to-node circuit, exact through-disc route, pot electrical internals or crystal identity.
+
+Accordingly the V4 physical baseline remains unchanged by Round 2.
+
+## Internet crawl round 3 — M2 source lock
+
+Round 3 provides a stable public page-locatable Marinov author-text mirror for several M2 observations already present in the ledger: dry-air 3–4-push startup, humidity dependence, Baumann→Marinov East–West startup instruction, post-start orientation independence, ~1 rev/s running observation, direct rear-metal-plate stop and easier later restart.
+
+The source is a later German translation of a text marked first-published 1989, so exact translation wording must not outrank an original-language scan if one is acquired later.
+
+Importantly, Marinov also makes clear in the same article that he did not understand/reconstruct the operating principle. His proposed high-V driving bus / lower-V collecting bus remains a **testable interpretation**, not original wiring.
+
+No V4 CAD geometry changes are justified by Round 3.
+
+## Internet crawl round 4 — claim-conflation guard
+
+The crawl explicitly rejects a common secondary-history shortcut: **`Marinov was given a 100-W Testatika in 1997` is not established by the located evidence.** Frolov 2021 makes the strong claim, but the earlier Watson transmission only says Baumann gave Marinov a small machine `to play with` and states that the observations/tests described were made at Linden without quantitative test equipment. The ~100-W figure comes from a rough resistor-heating estimate, not a nameplate/calibrated rating.
+
+Therefore:
+
+- no ownership/permanent-transfer state is inferred for M2 from Watson;
+- no `100 W rated M2` field is added;
+- the Frolov/Sapogin story remains preserved as a late secondary contradiction lead;
+- V4 geometry/electrical baseline remains unchanged.
+
+The Nuetec 1280×720-labelled film is not yet frame-audited and therefore supplies **no new M2 geometry yet**.

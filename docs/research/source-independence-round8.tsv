@@ -1,0 +1,11 @@
+claim_or_cluster	earliest_current_anchor	later_repetition	independence_status	repository_rule
+DVS/GAGFE five inspection occasions	Nieper expanded book: DVS members five occasions; Matthey 20-Oct-1984; Nieper 28-Oct-1984	Kelly Manual repeats GAGFE five occasions	DEPENDENT / no extra witness count	Count as one source bundle until all visit records are independently identified
+3-4 kW at ~230 V DC	Nieper source-stated operational claim	Kelly Manual repeats nearly same specification	DEPENDENT	Do not increase confidence from Kelly repetition; still no closed energy balance
+operation since 1982	Nieper source-stated	Kelly Manual repeats running since 1982	DEPENDENT	One historical claim chain unless separate operator logs found
+only central ball-bearing wear	Nieper large-machine description	Kelly Manual repeats ball-bearing wear detail	DEPENDENT	No independent corroboration from repetition
+acrylic/light-metal lattice/insulated Cu/crystal-diode/gold contacts	L.L./Nieper witness-publication block	Kelly Manual repeats component list	LIKELY DOWNSTREAM	Prefer L.L./Nieper source locator; Kelly is downstream compilation
+50 fan-like sectors + ~60 rpm + magnetic sync + rainbow center	L.L. 17-Mar-1984 report in Nieper	Kelly Manual repeats same cluster	LIKELY DOWNSTREAM	Do not count Kelly as second observer
+lamp/heater 380-V-class demonstrations	L.L./Nieper witness report	Kelly and later compilations repeat	DEPENDENT unless separately sourced	Treat as demo claim, not metrology
+three-circuit Searl/Ecklin/Poggendorff/crystal model	Kelly Manual analysis	later Kelly/Potter/free-energy compilations	KELLY HYPOTHESIS LINE	Never promote to original circuit without independent direct source
+early horseshoe magnets close to twin discs	Kelly early Magnets reconstruction	Kelly 1998 says later shown incorrect	AUTHOR-CORRECTED	Mark retracted/corrected; no baseline CAD use
+M2 horseshoe magnets	Marinov direct small-machine line	unrelated Kelly corrections	INDEPENDENT DIFFERENT MACHINE	Kelly twin-disc correction does not remove M2 magnets
