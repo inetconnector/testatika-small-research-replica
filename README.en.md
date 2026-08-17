@@ -9,6 +9,16 @@
 ![CAD](https://img.shields.io/badge/CAD-STEP%20%7C%20STL%20%7C%20GLB-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+<!-- README-SYNC:principle-report -->
+## “Earth – Cloud – Thunderstorm” operating-principle report
+
+The detailed source-guided technical summary of the current working hypothesis — including variable capacitance, influence, grids/pickups, crystal/diode phase commutation, electrostatic torque, speed stabilization, dry-air/humidity dependence, and the open energy-balance question — is available as a Word document in both languages:
+
+- **Deutsch:** [`Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx`](docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx)
+- **English:** [`Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx`](docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx)
+
+> The documents describe a testable electrostatic working hypothesis; they are not evidence for over-unity or an unidentified net-energy source.
+
 <!-- README-SYNC:build-lines -->
 <!-- BUILD-LINES-START -->
 

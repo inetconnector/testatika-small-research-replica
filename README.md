@@ -9,6 +9,16 @@
 ![CAD](https://img.shields.io/badge/CAD-STEP%20%7C%20STL%20%7C%20GLB-blue)
 ![Lizenz](https://img.shields.io/badge/license-MIT-green)
 
+<!-- README-SYNC:principle-report -->
+## Funktionsprinzip „Erde – Wolke – Gewitter“
+
+Die ausführliche quellengeleitete technische Zusammenfassung der aktuellen Arbeitshypothese — einschließlich variabler Kapazität, Influenz, Gitter/Taster, Crystal-/Dioden-Phasenkommutation, elektrostatischem Drehmoment, Drehzahlstabilisierung, Trockenluft-/Feuchteabhängigkeit und der offenen Energiebilanz — liegt als Word-Dokument in beiden Sprachen vor:
+
+- **Deutsch:** [`Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx`](docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx)
+- **English:** [`Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx`](docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx)
+
+> Die Dokumente beschreiben eine testbare elektrostatische Arbeitshypothese und sind kein Nachweis für Overunity oder eine ungeklärte Nettoenergiequelle.
+
 <!-- README-SYNC:build-lines -->
 <!-- BUILD-LINES-START -->
 
