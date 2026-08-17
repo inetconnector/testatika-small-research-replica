@@ -1,4 +1,8 @@
-# Testatika electrical build documentation
+# Testatika — electrical build documentation
+
+<p align="center">
+  <a href="README.de.md">Deutsch</a> · <strong>English</strong>
+</p>
 
 ## Canonical plans
 
@@ -12,12 +16,15 @@
 - [`M6_V2_EVIDENCE_WIRING.md`](M6_V2_EVIDENCE_WIRING.md)
 - [`diagrams/M6_V2_EVIDENCE_WIRING.svg`](diagrams/M6_V2_EVIDENCE_WIRING.svg)
 
-## Machine-readable experiment registries
+## Machine-readable registries
 
-- [`WIRING_VARIANTS.tsv`](WIRING_VARIANTS.tsv)
-- [`LAMELLA_TEST_MATRIX.tsv`](LAMELLA_TEST_MATRIX.tsv)
+- [`WIRING_VARIANTS.tsv`](WIRING_VARIANTS.tsv) — all wiring variants with evidence class and claim boundary
+- [`LAMELLA_TEST_MATRIX.tsv`](LAMELLA_TEST_MATRIX.tsv) — material/magnetization/geometry A/B matrix
+- [`SOURCE_IMAGE_FAMILIES.tsv`](SOURCE_IMAGE_FAMILIES.tsv) — deduplicated schematic/image families
+- [`SOURCE_IMAGE_FAMILIES.md`](SOURCE_IMAGE_FAMILIES.md) — interpretation key
+- [`BUILD_ORDER.md`](BUILD_ORDER.md) — electrical commissioning sequence
 
-## Source audit
+## Source audits
 
 - [`../research/wiring-and-lamella-audit-2026-08-17.md`](../research/wiring-and-lamella-audit-2026-08-17.md)
 - [`../research/wiring-image-audit-addendum-2026-08-17.md`](../research/wiring-image-audit-addendum-2026-08-17.md)
@@ -27,15 +34,15 @@
 
 ## Electrical contract
 
-1. **No hidden guessed wiring.** Every uncertain historical connection is patched externally and receives a Config-ID.
+1. **No hidden guessed wiring.** Every historically uncertain connection is patched externally and receives a Config-ID.
 2. **Direct sources outrank reverse engineering.** Marinov/Hauser/Cathomen/Holzherr constraints outrank Kelly/Potter/Rimstar reconstructions where they conflict.
-3. **A working laboratory circuit is not automatically the historical circuit.** `LAB-CONVENTIONAL` means electrically coherent and experimentally useful, not historically authenticated.
-4. **High-voltage work starts with low stored energy.** Use enclosed commercial current-limited laboratory electrostatic equipment; no open mains-derived HV construction is part of this repository.
+3. **An electrically working laboratory circuit is not automatically the historical original circuit.**
+4. **High-voltage tests start with low stored energy and commercial current-limited laboratory equipment.**
 5. **Floating systems require floating/differential instrumentation.** Never assume oscilloscope ground is electrically harmless.
-6. **Energy claims require a closed balance.** Motor, bias source, initial capacitor energy, mechanical energy, output load and uncertainty are all included.
+6. **Energy claims require a closed balance** including motor, bias source, initial/final stored energy, mechanics, load and measurement uncertainty.
 
-## What the current plans deliberately do not claim
+## What remains unknown
 
-The available public material still does not disclose a reproducible authentic node-for-node Methernitha circuit, the exact Crystal material/function, the exact M2 pot polarity, the exact M6 grid interconnections, the exact top-module internals or a closed independent net-energy balance.
+The publicly available material still does **not disclose a reproducible authentic node-for-node Methernitha circuit**. The crystal material/function, exact M2 pot polarity, exact M6 grid interconnections and Cathomen's unexplained upper conditioning/capacitance stage also remain unresolved.
 
-Those gaps are represented as **open interfaces**, not silently invented parts.
+Those gaps are represented as open interfaces rather than hidden behind invented components.
