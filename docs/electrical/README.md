@@ -20,6 +20,7 @@
 ## Source audit
 
 - [`../research/wiring-and-lamella-audit-2026-08-17.md`](../research/wiring-and-lamella-audit-2026-08-17.md)
+- [`../research/wiring-image-audit-addendum-2026-08-17.md`](../research/wiring-image-audit-addendum-2026-08-17.md)
 - [`../research/hauser-marinov-primary-scan-audit-2026-08-16.md`](../research/hauser-marinov-primary-scan-audit-2026-08-16.md)
 - [`../research/hartmann-overunity-cathomen-audit.md`](../research/hartmann-overunity-cathomen-audit.md)
 - [`../research/r4-grid-vs-foil.md`](../research/r4-grid-vs-foil.md)
