@@ -5,7 +5,7 @@ machines:
   - id: M0
     name: Principle Experiment / swinging arm
     status: historical_source_model
-    notes: "Plexiglas arm; square-hole perforated aluminium on moving underside; five additional plates per side with brass mesh between layers; lowest mesh reportedly connected to two parallel capacitors. Mechanism clue, not proof of net power."
+    notes: "Plexiglas arm; square-hole perforated aluminium on moving underside; five additional plates per side with brass mesh between layers; lowest mesh reportedly connected to two parallel capacitors. Mechanism clue, not proof of net power. Later correspondence preservation adds a flattened-hemisphere base and ~8-cm x 3-4-cm capacitor geometry lead, but original correspondence is not yet acquired."
   - id: M0b
     name: Linden Experiment
     status: hearsay_model
@@ -31,9 +31,13 @@ machines:
     status: historical_variant
     notes: "Hauser's 1986 packet describes a roughly 12-cm, ~1-kg small machine/prototype with reduced external component count and a tiny altered DC-motor/self-running arrangement. It may overlap the broader M4 lineage but identity is not proven; keep separate until photo/report continuity is established."
   - id: M5
-    name: Weber/Schneider machine 1984
+    name: Weber/Schneider machine 13 March 1984
     status: historical_large_variant
-    notes: "Large assembly; operator/output claims must not be transferred to M2. Internet audit identifies the 13 March 1984 visit/test line as a priority acquisition target; retrospective reports are not closed energy measurements."
+    notes: "Retrospectively republished direct-witness line: >1 m wide x ~45 cm deep x ~60 cm high, ~20 kg without acrylic cover, twin contra-rotating discs, non-contact pickup, central ~10-cm rainbow-coloured disc, acrylic/light-metal-grid/Cu-conductor construction and hand startup. Hans Weber reportedly lifted the machine and looked underneath. Operator voltage/current and lamp/heater claims are not a closed energy balance. The very similar M5a report four days later may be source-dependent or the same object; do not double-count independence."
+  - id: M5a
+    name: L. L. Rorschach witness machine 17 March 1984
+    status: historical_large_variant_identity_unresolved
+    notes: "Direct-witness report reproduced in Nieper's 1985 book, signed only 'L. L., Rorschach, Switzerland': ~110 x 45 x 60 cm, ~20 kg without clear acrylic cover, twin ~45-cm acrylic discs, fan-like 50 grid/segment positions, ~60 rpm, magnetic synchronization, adjustable lattice pickups and central ~10-cm rainbow-like disc. Reported neutron/tachyon/gravity mechanism is witness interpretation, not established function. Strong wording/geometry similarity to M5 means identity and source independence remain unresolved."
   - id: M6
     name: large / roughly 50 cm two-disc umbrella family
     status: historical_large_variant
@@ -41,11 +45,11 @@ machines:
   - id: M6a
     name: Hauser drawing 3279 / 1986-1988 roughly 500 mm medium-large machine
     status: historical_large_variant
-    notes: "Hauser direct-visit/reconstruction line: ~500x5-mm Plexiglas disc, ~50 chrome-steel sheet lamellae, non-contact perforated stators, magnet-wheel/speed hardware, complex cylinders with three concentric metal grids + acrylic + central magnet tube + bifilar winding, and top crystal/possible-rectifier assembly. Several functions/connections remain Hauser interpretation."
+    notes: "Hauser direct-visit/reconstruction line: ~500x5-mm Plexiglas disc, ~50 chrome-steel sheet lamellae, non-contact perforated stators, magnet-wheel/speed hardware, complex cylinders with three concentric metal grids + acrylic + central magnet tube + bifilar winding, and top crystal/possible-rectifier assembly. Several functions/connections remain Hauser interpretation. Kelly/Bailey 1991 is explicitly not first-hand and must not override this direct Hauser line."
   - id: M6b
     name: Holzherr 1999 roughly 50 cm demonstration machine
     status: historical_large_variant
-    notes: "Holzherr reports ~15 rpm during this demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. Treat all of these as model/demo-specific; do not assume identity with every Hauser/Cathomen ~50-cm configuration."
+    notes: "Holzherr reports ~15 rpm during this demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. Treat all of these as model/demo-specific; do not assume identity with every Hauser/Cathomen ~50-cm configuration. The exact calendar date of the related 1999 engineer demonstration is currently CONFLICT across retrospective sources."
   - id: M6c
     name: Marinov 1989 large-under-construction / 2-to-1 medium-copy family
     status: historical_large_variant_conflict
