@@ -1,3 +1,3 @@
 Materialize the self-excitation / phase-commutation documentation update.
-Retry: rebuild damaged research DOCX deterministically.
-Triggered: 2026-08-17T21:22Z
+Final retry after manifest-race isolation.
+Triggered: 2026-08-17T21:24Z
