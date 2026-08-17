@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 514,
+  "file_count": 553,
   "files": [
     {
       "path": ".gitattributes",
@@ -111,8 +111,8 @@
     },
     {
       "path": "ADDON.md",
-      "size": 855,
-      "sha256": "1b636ba20a0cf59429375bc691f86047fe8f48ed8554fd9e8c218d5ca9048579"
+      "size": 61275,
+      "sha256": "d0e28616fcb24c47dceb1f9a3491a2937cc242c7e3b9cbf1503f2a31ebf9105b"
     },
     {
       "path": "AGENTS.md",
@@ -2573,6 +2573,201 @@
       "path": "scripts/validate_assets.py",
       "size": 8473,
       "sha256": "241a82b0edb0d7ad81f4f09cdfbb55354251901419fd4486602e3071689752f3"
+    },
+    {
+      "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_Frigidaire_1989_Seitenansicht.jpg",
+      "size": 341282,
+      "sha256": "3db3d7940bd02b80a8c3b1f49aa0492d7967984a9c980bdb91b0b2f01178c7de"
+    },
+    {
+      "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_RaumZeit_1989_frontal.jpg",
+      "size": 727439,
+      "sha256": "dda1baae45c9d0aeb876eadb87493c6efccb8e17d1685c4fb96d05b57d7088c9"
+    },
+    {
+      "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_rexresearch.jpg",
+      "size": 123293,
+      "sha256": "609193e160c094e9e0619e245e0e8d240a209324f904611bdad57cb06c505051"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/10kW_Luzi_Cathomen_rexresearch.jpg",
+      "size": 100911,
+      "sha256": "9be95dd77e42e74f877b417e38d5b593a1c65001cdaf1d621c6a5f56aec09be6"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/1999_8mm_1000W_Lampentest_Cabinet.jpg",
+      "size": 459622,
+      "sha256": "4927b84bac24525522c9325eeabd5e0b8eed5eace49e9f5eafc4aca7458831b6"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/300W_single_disk_rexresearch.jpg",
+      "size": 23411,
+      "sha256": "5b29b1d7a2caad625b53179a7b796ee5e3950f91493bdb36ee24dde8946aa387"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/30kW_Luzi_Cathomen_rexresearch.jpg",
+      "size": 206701,
+      "sha256": "3568bf541d6fc21015da6c3b403ccb3702e172890a4ebd7d8a6cb9228333de6a"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/3kW_1000W_Lampentest_rexresearch.jpg",
+      "size": 66082,
+      "sha256": "4147531d4387041510fc58e4c4101e7b570fe87364bbc67c08be871ad592d18a"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/3kW_front_rexresearch.jpg",
+      "size": 64096,
+      "sha256": "fff613e8c789d518a97d5faa69a6699b63fa5b5675b77ee85e34cb56a8671dfa"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/3kW_rear_rexresearch.jpg",
+      "size": 93885,
+      "sha256": "e40437390b71ad0ce833e00ef701e2553bd217008d2836fffb472180ab0162f4"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/Big_Testatika2_rimstar.jpg",
+      "size": 649484,
+      "sha256": "34fdec3e85e585948ff993bca8ef13b852775219849c3ab426a03978bb1f248a"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/Frigidaire_1989_Testatika_historisches_Foto.jpg",
+      "size": 1082974,
+      "sha256": "e6fb9512c36134832153f88ec95612803e3f688490a9145c666cc02dfc67cad3"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/TESTA10_RuckZuck_rimstar.JPG",
+      "size": 28441,
+      "sha256": "2d9658f391a80026b87c403670efba623a1e88c3435be559e78fc1957d271c34"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/TESTA11_RuckZuck_rimstar.JPG",
+      "size": 17558,
+      "sha256": "f33ffb945870f6e89fe63d978a6fdd4bf1ce4e07855bbf7e60f71d7c284bb5ec"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/TESTA4_rimstar.JPG",
+      "size": 52727,
+      "sha256": "1a50960efc8056f8164e37d23c4f6888dab040876628fe12bf7a948b22dae757"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/TESTA7_rimstar.JPG",
+      "size": 46479,
+      "sha256": "9fbc483910e85350672bda7bfcd2ce672ed31b3acf79bfca329eab1243b43e9b"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/TESTA8_rimstar.JPG",
+      "size": 46815,
+      "sha256": "8ac222a5e12452b58ea31172f0d229f86ac93c09253937857d21327f2fb855f7"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/Tandem1_rimstar.jpg",
+      "size": 81146,
+      "sha256": "64754bf16af6732423c6406bdc6394141db9e78a1078673004078b16812d6420"
+    },
+    {
+      "path": "testatika_collection/02_Testatika_Originalfotos/Tandem2_rimstar.jpg",
+      "size": 36269,
+      "sha256": "76a2c00743b2c2505527e42b42478b6a3595531f4517307b455db95f36a3ec0d"
+    },
+    {
+      "path": "testatika_collection/03_Historische_Scans/TWT6_Scan_S248_RaumZeit39_AprMai1989.jpg",
+      "size": 1407698,
+      "sha256": "ba625e2eed2efaf0aac321d11c85427ae93d4e605534f9999bf8d08b81b12f56"
+    },
+    {
+      "path": "testatika_collection/03_Historische_Scans/TWT7_Scan_S227_Frigidaire108_Nov1989.jpg",
+      "size": 1040465,
+      "sha256": "910f48e77b7a566b6593adf1a087dc43681033ca5cd4a270bc3b1712eadeb8ae"
+    },
+    {
+      "path": "testatika_collection/03_Historische_Scans/TWT7_Scan_S234_Marinov_mit_Testatika.jpg",
+      "size": 976626,
+      "sha256": "fa1ca0c9ef0d4a184b42a1ef81d289b219c2a84d02b994f15dd0f1e1c2cb8508"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/3kW_sector_center_original_rimstar.jpg",
+      "size": 66807,
+      "sha256": "9b82ac3811785ba27997b1712f2354c1f94b58859de9db90a60104aecc31e7a9"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/3kW_sector_edge_original_rimstar.jpg",
+      "size": 63954,
+      "sha256": "90a48b161842e39d5a3283a81dc4df41237e2aef2c124470f926891834b73c0e"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/Hufeisenmagnet_Detail_rexresearch.jpg",
+      "size": 31775,
+      "sha256": "493e63ae1b4f2d3cbac75870aebe4a297f7e56530e0e1b5e0651b61dd9aa73e2"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/TESTA9_3kW_rear_composite_rimstar.JPG",
+      "size": 75339,
+      "sha256": "3e01b45542c7926f2c0625308010b3b94e228f163be1309321d801f410f0ced4"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_181.jpg",
+      "size": 31577,
+      "sha256": "a6a36d5f8c3690a6df78ac2f5012d59505c1588a228c7ec89c69b9f66e2ae609"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_91.jpg",
+      "size": 27113,
+      "sha256": "2d09550e091ffa8bbbda2031e89de10f823108c518b08bcd064c6efb309a2e76"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_mlad.jpg",
+      "size": 5208,
+      "sha256": "3b35c0a18d7efbe13e8e89418c553a9d30adc0f1e6a87e5b76d25b4ff4b2f100"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_mlas.jpg",
+      "size": 4872,
+      "sha256": "bf7e37add719e289cea1da2dd2a203d6606a16a7445ab991c36ffdf55155453a"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_mld.jpg",
+      "size": 5390,
+      "sha256": "27e518716927015db0518b6eaa79d1c5255cf9d10ec3102c7040c8985a410509"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/novak_mls.jpg",
+      "size": 5266,
+      "sha256": "c7ac972c8b6ba886ecda5352b4d1d4ea1acb303a4f88bf8ceb21284cbb28bb6b"
+    },
+    {
+      "path": "testatika_collection/04_Detailaufnahmen/small_machine_center_annotated_rimstar.jpg",
+      "size": 40083,
+      "sha256": "e145c502858d8e798e9395879b9ebd29e74728ec21c70be183618840c133bee0"
+    },
+    {
+      "path": "testatika_collection/05_Quellvarianten_Dubletten/Hufeisenmagnet_novak_254_exakt_duplikat.jpg",
+      "size": 31775,
+      "sha256": "493e63ae1b4f2d3cbac75870aebe4a297f7e56530e0e1b5e0651b61dd9aa73e2"
+    },
+    {
+      "path": "testatika_collection/05_Quellvarianten_Dubletten/Luzi_Cathomen_10kW_rimstar_exakt_duplikat.jpg",
+      "size": 100911,
+      "sha256": "9be95dd77e42e74f877b417e38d5b593a1c65001cdaf1d621c6a5f56aec09be6"
+    },
+    {
+      "path": "testatika_collection/05_Quellvarianten_Dubletten/Marinov_mit_zwei_Testatika_rimstar_klein.jpg",
+      "size": 10037,
+      "sha256": "fb1de817208e565ba4b4903b0f46096b675d1135c5d9375aec1c49108f419b1e"
+    },
+    {
+      "path": "testatika_collection/QUELLEN.csv",
+      "size": 9349,
+      "sha256": "970097ab000d78dbcdccacb67cd51116477abfaa33253f44da31a6114fd03a01"
+    },
+    {
+      "path": "testatika_collection/README_DE.txt",
+      "size": 2628,
+      "sha256": "42bc9e85b048c8cabe3bd6b4b7f335df662df036dd0b86cec7a55e0616bec9a7"
+    },
+    {
+      "path": "testatika_collection/SHA256SUMS.txt",
+      "size": 4414,
+      "sha256": "eb5df5c6ec895cc4bf40cb8c6892a26956e36772ce0eab39d6e7fdd3329e9dfe"
     }
   ]
 }
