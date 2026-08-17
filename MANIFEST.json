@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 350,
+  "file_count": 351,
   "files": [
     {
       "path": ".gitattributes",
@@ -1668,6 +1668,11 @@
       "path": "scripts/apply_internet_source_audit_addendum.py",
       "size": 11178,
       "sha256": "2517b1840ce518d21e89152e34524aa884d122b7c0ef8777b909b674e6c9946d"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_final.py",
+      "size": 6373,
+      "sha256": "376d43214dc7c8f5f056d6cf47d702e6925d1eb7701586378196e155307f79d4"
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
