@@ -1,0 +1,10 @@
+qty,part,material,process
+1,baseplate 370x180x18,birch/phenolic/nonconductive structural plate,CNC/router/saw + drill
+1,backplate 336x246x8,cast PMMA/nonconductive plate,CNC/laser where material permits + drill
+1,rotor disc Ø200x3.5 R0,cast PMMA,CNC/router + drill; deburr/polish edges
+2,608 bearing tower,6061-T6 aluminium or G10/FR4,CNC/mill; finish bearing bore coaxially
+2,608 bearing retainer,6061-T6 aluminium,CNC/laser + finish
+2,8 mm hub flange,6061-T6 aluminium,CNC/lathe + 6-hole bolt circle; balance as pair
+2,stator perforated insert,conductive metal sheet/mesh,laser/waterjet/shear + deburr
+2,pot dielectric tube,PMMA tube,cut square to length
+2,pot grid sleeve,metal mesh,roll/cut; seam mechanically/electrically documented

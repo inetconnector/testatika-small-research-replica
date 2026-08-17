@@ -1,0 +1,11 @@
+qty,item,spec
+2,6001-2RS bearing,"12x28x8 mm, low-runout"
+2,6805-2RS bearing,"25x37x7 mm, low-runout"
+2,balanced metal disc hub/clamp,"one for 12 mm shaft, one for 25 mm hollow shaft"
+2,round belt,"3-4 mm polyurethane, one open and one crossed path for lab counterrotation"
+1,low-voltage geared motor,external laboratory drive only; input power measured
+2,capacitor module,removable/guarded experimental module; value/topology intentionally not claimed historical
+2,horseshoe magnetic assembly,"document material, geometry and field; keep removable"
+18,isolated terminal/binding post,three groups of six for open-node breakout
+1,rotor guard,polycarbonate preferred; complete enclosure around 500 mm discs
+1,fastener set,M4/M5/M6; nonmagnetic where magnetic confounding matters

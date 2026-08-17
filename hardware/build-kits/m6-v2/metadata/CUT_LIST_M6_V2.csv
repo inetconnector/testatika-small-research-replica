@@ -1,0 +1,12 @@
+qty,part,material,process
+1,baseplate 760x340x18,birch/phenolic/nonconductive structural plate,CNC/router/saw + drill
+1,front rotor disc Ø500x5 / 25.3 mm hub bore,cast PMMA,CNC/router + drill; balance after lamella installation
+1,rear rotor disc Ø500x5 / 12.3 mm hub bore,cast PMMA,CNC/router + drill; balance after lamella installation
+150,lamella 0.2x20x160,chrome-steel/magnetically responsive sheet,laser/waterjet/shear; deburr; 50 front + 100 rear-face total target
+14,stator electrode 104x34,conductive perforated metal,laser/waterjet/shear; 8 front + 6 rear
+6,rolled cylinder grid,metal grid/mesh,cut/roll; three per side cylinder
+4,PMMA cylinder sleeve,cast PMMA/acrylic tube/sheet,cut/roll/machine to fit
+1,inner shaft Ø12x300,precision steel/stainless,cut + deburr
+1,outer shaft tube 25OD/16IDx180,precision steel/stainless tube,cut + face ends
+2,6001 bearing tower,12 mm G10/FR4 or 6061-T6,CNC/mill; finish bore coaxially on assembled datum
+2,6805 bearing tower,12 mm G10/FR4 or 6061-T6,CNC/mill; finish bore coaxially on assembled datum

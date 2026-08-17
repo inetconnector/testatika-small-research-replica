@@ -12,15 +12,14 @@
 <!-- README-SYNC:build-lines -->
 <!-- BUILD-LINES-START -->
 
-## Start here — complete current models
+## Start here — real fabrication kits
 
-| Build line | Complete STL | Complete STEP | Build guide |
+| Build line | Fabrication kit | Assembly/fit reference | Legacy full-model reference |
 |---|---|---|---|
-| **Small M2 — V4 best evidence** | [Download / open STL](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step) | [M2 V4 guide](docs/research/v4-best-evidence-m2.md) |
-| **Large M6 — V1 best evidence (~500 mm twin disc)** | [Download / open STL](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step) | [M6 Large V1 guide](docs/research/m6-large-v1-best-evidence.md) |
-| **Large M6 — guarded lab/mechanical version** | [Guarded STL](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl) | [Guarded STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step) | [Assembly](docs/research/m6-large-v1-assembly.md) |
+| **Small M2 — V5 fabrication kit** | [`testatika-m2-v5-fabrication-kit.zip`](release/fabrication-kits/testatika-m2-v5-fabrication-kit.zip) | [STEP](hardware/build-kits/m2-v5/assembly-reference/Testatika_M2_V5_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.step) | [V4 reference, view only](hardware/experimental/v4-best-evidence-m2/reference-visual-only/complete-model/Testatika_M2_V4_REFERENCE_VISUAL_ONLY.step) |
+| **Large M6 — V2 fabrication kit** | [`testatika-m6-v2-fabrication-kit.zip`](release/fabrication-kits/testatika-m6-v2-fabrication-kit.zip) | [STEP](hardware/build-kits/m6-v2/assembly-reference/Testatika_M6_V2_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.step) | [V1 reference, view only](hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_REFERENCE_VISUAL_ONLY.step) |
 
-**Important:** the CAD can be mechanically complete while historical hidden wiring remains unknown. Unknown nodes are kept reversible/open rather than invented. No free-energy/over-unity function is claimed.
+**Important:** STL files under `hardware/build-kits/*/print/` are only genuine printable supports such as holders, clips, jigs and guards. Conductors, metal grids, lamellae, magnets, shafts, bearings and PMMA rotor discs are real fabricated/purchased parts. Primary bearing towers and rotor hubs are also real metal/G10 fabrication parts. Assembly STLs are fit/view references and explicitly **not print jobs**. Historically unknown internal circuitry remains modular/open instead of being invented.
 
 <!-- BUILD-LINES-END -->
 
