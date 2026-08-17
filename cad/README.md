@@ -1,80 +1,63 @@
 # CAD
 
-The repository contains six source-generating CAD families:
+## Primäre Fertigungsmodelle
 
-- `generate_v2.py` — parametric **core geometry** for the conservative V2 reconstruction;
-- `generate_v3_experiments.py` — R4 rotor and controlled grid-vs-foil experiment assets;
-- `generate_v3_photo_interp.py` — experimental high-resolution photo-interpretation geometry and assembled V3 STEP/STL;
-- `generate_v3_video_refinements.py` — additive video-derived geometry for the hub arc pair, layered outer panel and lower central cage/prism;
-- `generate_v4_best_evidence_m2.py` — **current best-evidence small M2 build family**;
-- `generate_m6_large_v1.py` — **current best-evidence large ~500-mm M6 build family**, anchored to Hauser M6a and cross-checked against the official large-machine video corpus.
+Die primären CAD-Ausgaben sind jetzt **Fertigungs-Bausätze mit Werkstofftrennung**, nicht mehr all-solid/all-plastic Komplett-STLs:
 
-Run all currently source-reproducible families with:
+- `generate_m2_v5_fabrication_kit.py` — kleine M2, reale Material-/Kaufteil-Schnittstellen;
+- `generate_m6_v2_fabrication_kit.py` — große ~500-mm-M6, reale Material-/Kaufteil-Schnittstellen.
+
+Die historischen Einstiegspunkte `generate_v4_best_evidence_m2.py` und `generate_m6_large_v1.py` bleiben aus Kompatibilitätsgründen bestehen, rufen aber jetzt die jeweiligen Fertigungs-Bausätze auf.
+
+## Fertigungsklassen
+
+Jeder Bausatz erzeugt:
+
+- `print/` — ausschließlich Kunststoffteile, die technisch wirklich Kunststoff sein dürfen: Halter, Clips, Jigs, Zentrierringe, Träger und Schutzteile; primär tragende Lagerböcke/Retainer sind echte Fertigungsteile;
+- `fabricate/` — STEP-Geometrien für echte PMMA-, Metall-, Wellen-, Elektroden-, Gitter- und Wickelteile;
+- `assembly-reference/` — vollständige Passungs-/Montageansichten mit `REFERENCE_NOT_FOR_PRINT` im Namen;
+- `metadata/` — maschinenlesbare Fertigungs-, Material-, Kaufteil- und Schnittlisten.
+
+**Verbotene Abkürzung:** Ein Kondensator, Metallgitter, Magnetkern, Kupferwickel, Rotorblech, Welle, Lager oder eine PMMA-Rotorscheibe darf nicht nur deshalb als STL gedruckt werden, weil es geometrisch im Referenzmodell vorkommt.
+
+## Kleine M2 — V5 Fertigungs-Bausatz
+
+Ausgabe: `hardware/build-kits/m2-v5/`
+
+Quellenbasis: M2 V4 best-evidence. Der Bausatz übernimmt insbesondere ca. 200-mm-Rotor, nominell 24 elektrisch getrennte Cu-Sektoren, zwei externe Pot-Anschlüsse und die reversible Crystal-/Magnet-/Stator-Forschungsgrenze.
+
+Leitfaden: [`../docs/research/m2-v5-fabrication-kit.md`](../docs/research/m2-v5-fabrication-kit.md)
+
+## Große M6 — V2 Fertigungs-Bausatz
+
+Ausgabe: `hardware/build-kits/m6-v2/`
+
+Quellenbasis: M6 V1 / M6a-Hauser. Der Bausatz bewahrt die Ø500×5-mm-Scheiben, 50-Lamellen-Anker, 8-vorn/6-hinten-Statoren und die Drei-Gitter-Zylinderarchitektur. Die konkrete Lager-/Wellenlösung ist eine stabile, dokumentierte LAB-BUILD-Mechanik und keine Behauptung über die historische Originalmechanik.
+
+Leitfaden: [`../docs/research/m6-v2-fabrication-kit.md`](../docs/research/m6-v2-fabrication-kit.md)
+
+## Referenz-CAD
+
+Die bisherigen all-solid Modelle und Generatoren werden **nicht gelöscht**. Sie werden als `reference-visual-only`/`LEGACY_REFERENCE_ONLY` erhalten. Sie dienen zum Anschauen, zur Provenienz und zur Geometrievergleichung; sie sind keine Druckanweisung für funktionale Baugruppen.
+
+Die ursprünglichen Generatorquellen liegen zusätzlich unter:
+
+- `cad/reference/generate_m2_v4_visual_reference_legacy.py`
+- `cad/reference/generate_m6_v1_visual_reference_legacy.py`
+
+## Rebuild
 
 ```bash
 python scripts/rebuild_research_assets.py
 ```
 
-## Two current physical build lines
+Für die neuen Bausätze zusätzlich explizit:
 
-### Small M2 — V4
+```bash
+python cad/generate_m2_v5_fabrication_kit.py
+python cad/generate_m6_v2_fabrication_kit.py
+python scripts/normalize_buildkit_step.py
+python scripts/check_build_kits.py
+```
 
-Generated output:
-
-`hardware/experimental/v4-best-evidence-m2/`
-
-Canonical guide:
-
-[`../docs/research/v4-best-evidence-m2.md`](../docs/research/v4-best-evidence-m2.md)
-
-### Large M6 — V1
-
-Generated output:
-
-`hardware/experimental/m6-large-v1-best-evidence/`
-
-Primary complete assembly:
-
-`complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step/.stl`
-
-Guarded mechanical/laboratory assembly:
-
-`complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step/.stl`
-
-Canonical guide:
-
-[`../docs/research/m6-large-v1-best-evidence.md`](../docs/research/m6-large-v1-best-evidence.md)
-
-M6 V1 models:
-
-- two ~500 × 5 mm discs;
-- 50 sheet-lamella positions using the Hauser ~0.2 × 20 × 160 mm source dimensions as the historical target;
-- 8 front + 6 rear non-contact perforated stator positions;
-- two detailed large cylinder assemblies with three concentric grid tubes, acrylic separators, central magnet tube and bifilar winding;
-- wound horseshoe modules;
-- capacitor and spiral-pipe positions;
-- top crystal/possible-rectifier Blackbox;
-- motor/magnet-wheel large-machine configuration;
-- explicit open test-node terminalization;
-- removable guarded counterrotation lab fixture.
-
-The lab drive/guard are engineering fixtures and are never labelled original.
-
-## Evidence status
-
-Visible/source-supported geometry and hidden electrical topology are tracked separately. A visually complete model does not imply that the original node map has been recovered.
-
-Important cross-machine rule:
-
-- M2 small-pot internals must not inherit M6 large-cylinder details without a source bridge;
-- M6a Hauser and M6b Holzherr details remain configuration-specific when they differ.
-
-See:
-
-- [`../docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`](../docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md)
-- [`../docs/research/video-frame-audit-2026-08-16.md`](../docs/research/video-frame-audit-2026-08-16.md)
-- [`../docs/research/machines.yaml`](../docs/research/machines.yaml)
-
-All historical/release STEP/STL assets remain committed so users do not need the CAD toolchain merely to inspect the models.
-
-**Important:** `generate_v2.py` still does not regenerate every preserved V2 release asset. V4 and M6 V1 each have a self-contained generator for their declared source-owned families.
+Die vollständige historische elektrische Schaltung ist weiterhin nicht belegt. Der CAD-Bausatz macht unbekannte Stellen austauschbar/offen, statt eine vermeintliche Funktionsschaltung zu erfinden.

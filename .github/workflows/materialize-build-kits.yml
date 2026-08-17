@@ -1,0 +1,127 @@
+name: Materialize M2/M6 fabrication kits
+
+on:
+  push:
+    branches:
+      - main
+      - agent/build-kits-m2-m6
+    paths:
+      - 'cad/generate_m2_v5_fabrication_kit.py'
+      - 'cad/generate_m6_v2_fabrication_kit.py'
+      - 'cad/generate_v4_best_evidence_m2.py'
+      - 'cad/generate_m6_large_v1.py'
+      - 'scripts/check_build_kits.py'
+      - 'scripts/normalize_buildkit_step.py'
+      - 'scripts/build_m2_v5_package.py'
+      - 'scripts/build_m6_v2_package.py'
+      - 'scripts/apply_buildkit_readme_links.py'
+      - 'docs/build-kits.md'
+      - 'docs/research/m2-v5-fabrication-kit.md'
+      - 'docs/research/m6-v2-fabrication-kit.md'
+      - '.github/BUILDKIT_MATERIALIZE_TRIGGER'
+      - '.github/workflows/materialize-build-kits.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-writers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Synchronize to latest branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "$GITHUB_REF_NAME"
+          git checkout "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+
+      - name: Install CAD dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-cad.txt
+
+      - name: Copy legacy all-solid complete models to clearly named visual-reference aliases
+        shell: bash
+        run: |
+          set -euo pipefail
+          m2=hardware/experimental/v4-best-evidence-m2
+          m6=hardware/experimental/m6-large-v1-best-evidence
+          mkdir -p "$m2/reference-visual-only/complete-model" "$m6/reference-visual-only/complete-model"
+
+          cp "$m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step" "$m2/reference-visual-only/complete-model/Testatika_M2_V4_REFERENCE_VISUAL_ONLY.step"
+          cp "$m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl" "$m2/reference-visual-only/complete-model/Testatika_M2_V4_REFERENCE_VISUAL_ONLY.stl"
+          cp "$m2/complete-model/Testatika_M2_V4_R4_RESEARCH.step" "$m2/reference-visual-only/complete-model/Testatika_M2_V4_R4_REFERENCE_VISUAL_ONLY.step"
+          cp "$m2/complete-model/Testatika_M2_V4_R4_RESEARCH.stl" "$m2/reference-visual-only/complete-model/Testatika_M2_V4_R4_REFERENCE_VISUAL_ONLY.stl"
+
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_REFERENCE_VISUAL_ONLY.step"
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_REFERENCE_VISUAL_ONLY.stl"
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_LEGACY_LAB_REFERENCE_ONLY.step"
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_LEGACY_LAB_REFERENCE_ONLY.stl"
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_SERVICE_EXPLODED.step" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_SERVICE_REFERENCE_ONLY.step"
+          cp "$m6/complete-model/Testatika_M6_LARGE_V1_SERVICE_EXPLODED.stl" "$m6/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_SERVICE_REFERENCE_ONLY.stl"
+
+      - name: Generate real-material M2 and M6 fabrication kits
+        run: |
+          rm -rf hardware/build-kits/m2-v5 hardware/build-kits/m6-v2
+          python cad/generate_m2_v5_fabrication_kit.py
+          python cad/generate_m6_v2_fabrication_kit.py
+          python scripts/normalize_buildkit_step.py
+
+      - name: Update both README languages together
+        run: |
+          python scripts/apply_buildkit_readme_links.py
+          python scripts/check_readme_sync.py
+
+      - name: Validate fabrication classification and geometry
+        run: python scripts/check_build_kits.py
+
+      - name: Build deterministic fabrication packages
+        run: |
+          python scripts/build_m2_v5_package.py
+          python scripts/build_m6_v2_package.py
+          cd release/fabrication-kits
+          sha256sum -c testatika-m2-v5-fabrication-kit.zip.sha256
+          sha256sum -c testatika-m6-v2-fabrication-kit.zip.sha256
+
+      - name: Validate full repository
+        run: python scripts/validate_assets.py
+
+      - name: Refresh repository integrity metadata
+        run: |
+          python scripts/generate_manifest.py
+          python scripts/check_manifest.py
+
+      - name: Commit materialized fabrication kits
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A \
+            README.md README.en.md \
+            hardware/build-kits \
+            hardware/experimental/v4-best-evidence-m2/reference-visual-only \
+            hardware/experimental/m6-large-v1-best-evidence/reference-visual-only \
+            release/fabrication-kits \
+            MANIFEST.json MANIFEST_SHA256.txt
+          if git diff --cached --quiet; then
+            echo 'Fabrication kits already current.'
+          else
+            git commit -m 'build: materialize real-material M2 and M6 fabrication kits'
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
