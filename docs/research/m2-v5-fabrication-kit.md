@@ -77,3 +77,14 @@ Die internen Werte/Materialzustände sind experimentell zu charakterisieren; ein
 - Alle rotierenden Metallflansche, Schrauben und Klemmringe müssen symmetrisch montiert und die Rotorbaugruppe anschließend ausgewuchtet werden.
 - Gedruckte Teile dürfen weder Lagerhauptlast noch Rotor-Drehmoment übertragen.
 - Der Schutz wird aus Polycarbonat/realer Platte gefertigt; gedruckte Ecken sind nur Befestigungselemente.
+
+## Verbindlicher elektrischer Begleitplan
+
+Die mechanische V5-Baugruppe wird **nicht frei nach einem beliebigen Internet-Schaltbild verdrahtet**. Maßgeblich sind:
+
+- [`../electrical/M2_V5_EVIDENCE_WIRING.md`](../electrical/M2_V5_EVIDENCE_WIRING.md)
+- [`../electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg`](../electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg)
+- [`../electrical/WIRING_VARIANTS.tsv`](../electrical/WIRING_VARIANTS.tsv)
+- [`wiring-and-lamella-audit-2026-08-17.md`](wiring-and-lamella-audit-2026-08-17.md)
+
+Der Standardzustand ist `M2-W0` (alle historisch unbekannten Verbindungen offen). `M2-W1` ist die erste konventionell funktionsfähige, strom-/energielimitierte Laborverdrahtung zum Nachweis der realen elektrostatischen Ladungsübertragung. Jede weitere Verbindung erhält eine Config-ID.
