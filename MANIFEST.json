@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 394,
+  "file_count": 512,
   "files": [
     {
       "path": ".gitattributes",
@@ -12,7 +12,7 @@
     {
       "path": ".github/BUILDKIT_MATERIALIZE_TRIGGER",
       "size": 122,
-      "sha256": "245c16b413361e2c63c71af9ffa44fdc191989059fc53ef14a8a049549df8f5d"
+      "sha256": "273e03a0ea58b4c43add9d9ba7d63a2ee8437beff675b0a6fe6fa2015c841d0a"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -156,13 +156,13 @@
     },
     {
       "path": "README.en.md",
-      "size": 19132,
-      "sha256": "d626e0d6559469f25d19a76b47fffb608be2629baa7e808cf749e6399b66b78b"
+      "size": 19266,
+      "sha256": "25e4881c71a1fc24d5b66812298059e4cc3b8e26767a74886abc5db7c16ebdb2"
     },
     {
       "path": "README.md",
-      "size": 20457,
-      "sha256": "e10aaac3bdd7456eecfb17d184fd4f2b6eaffde8c2e9ecdb271a63fd2d852b62"
+      "size": 20544,
+      "sha256": "60825c8870e8d1e562d47a91134d9378b951bfa859abd9f947521cb0249d5ea8"
     },
     {
       "path": "ROADMAP.md",
@@ -825,6 +825,526 @@
       "sha256": "24c0a69a017cdbb6f44ab3879623ec61dc7d1698f5fba0631f47eda09a1365c5"
     },
     {
+      "path": "hardware/build-kits/m2-v5/assembly-reference/Testatika_M2_V5_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.step",
+      "size": 3304496,
+      "sha256": "0b1efc4259155931be36407d356ec4386699ce67f87285821b6901729dff8d88"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/assembly-reference/Testatika_M2_V5_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.stl",
+      "size": 16161084,
+      "sha256": "4b0f678d424a51ef1e1e06cb18c8557d90af50f826e1893f6072227100171ed6"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/assembly-reference/Testatika_M2_V5_MECHANICAL_QUALIFICATION_REFERENCE_NOT_FOR_PRINT.step",
+      "size": 3304565,
+      "sha256": "74040ed415d8ba7a25e33a165c7d2721e2cbfe992bb799db247a8343d29cd3f5"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/assembly-reference/Testatika_M2_V5_MECHANICAL_QUALIFICATION_REFERENCE_NOT_FOR_PRINT.stl",
+      "size": 16161084,
+      "sha256": "4b0f678d424a51ef1e1e06cb18c8557d90af50f826e1893f6072227100171ed6"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/backplate_336x246x8_structural_m2_v5.step",
+      "size": 41462,
+      "sha256": "befef76cfc51cabae3eb3f86e4b829f0262f20b15f362dad4459255be6bd52a0"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/baseplate_370x180x18_structural_m2_v5.step",
+      "size": 41431,
+      "sha256": "df61aa0943c340c8c565509327af80822ad0b28617e18483bc815d1f87a7ce34"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/bearing_block_608_nonmagnetic_m2_v5.step",
+      "size": 338196,
+      "sha256": "8687324968a173ce1b0232c0a6363c1f3cfd5389a60c241fa7b7612bed315020"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/bearing_retainer_608_nonmagnetic_m2_v5.step",
+      "size": 19320,
+      "sha256": "113b336545245f2b3e29d574a2fa29020927a1d4fbffa11eb0299cda1ba003f7"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/crossbar_long_metal_candidate_m2_v5.step",
+      "size": 15471,
+      "sha256": "11e50be2e964706f2a2a6bab2c191aa593fc2f1d342781cc0f9ff14d82962cde"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/crossbar_short_metal_candidate_m2_v5.step",
+      "size": 15501,
+      "sha256": "89dab261e24ed606391b36dd9f61a15dd96794dff8261d9c372704cfb754c2a3"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/guard_panel_transparent_reference_m2_v5.step",
+      "size": 31898,
+      "sha256": "9164b1a98ba579884509e330df9dbd5d41cd7be5542323505e26a517d8f367e4"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/hub_arc_metal_candidate_m2_v5.step",
+      "size": 38675,
+      "sha256": "e7bb9af7faaa366581a15223ebc91abe72aa35a3e124b965e689cfec9c83e7ac"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/hub_clamp_collar_metal_envelope_reference_m2_v5.step",
+      "size": 9578,
+      "sha256": "fb74cc7227a20272460a351e9efa863a43a48f9fb1527fcf65d2f893fd31f008"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/hub_flange_8mm_nonmagnetic_m2_v5.step",
+      "size": 29145,
+      "sha256": "79e22858435e241ba4a6d9c0712d8a280048e0af7cb7b49e316c5f8da000a5dd"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/lower_central_cage_metal_candidate_m2_v5.step",
+      "size": 29402,
+      "sha256": "374eead558f1b122e41078684c3031146dd8603000952d7d26b9871ab0fbcbb4"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/pickup_metal_insert_candidate_m2_v5.step",
+      "size": 120925,
+      "sha256": "42a11168d67aa72fa6af77533eb9f29abc40cae0591a88a0b69fcc912b3e50e2"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/pot_dielectric_pmMA_tube_reference_m2_v5.step",
+      "size": 9566,
+      "sha256": "aeba6c839ab711e8af84ae0e18be767906aa86c4bf855845c380c6cf46f28fac"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/pot_grid_metal_mesh_envelope_reference_m2_v5.step",
+      "size": 9571,
+      "sha256": "22f7af2d2265a60db7d9eec55fb36ca265662059093cc5e06fab58076fe7ffdd"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/pot_spiral_copper_wire_path_reference_m2_v5.step",
+      "size": 144491,
+      "sha256": "b2a11a4422f26449b4656edf9321aea063fba6ad1d8330c5e7f98f7cb5e54194"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/rotor_disc_pmMA_200x3p5_24wire_R0_m2_v5.step",
+      "size": 45047,
+      "sha256": "8438f1da02c48871b31c64dc898ed13268078f4e29b4c4bb2cea3583822b9207"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/rotor_disc_pmMA_200x3p5_24wire_R4_research_m2_v5.step",
+      "size": 49991,
+      "sha256": "ee7b0fa493f884dc1d598c466a956036e98aebb9b00e268b0785f04ef3b11180"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/shaft_8mm_x245_m2_v5.step",
+      "size": 8215,
+      "sha256": "267a3dc3d656b4841b5b4f8c9b024c058f90825f37a5fbe5b81ccdb9dc3fb3f5"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/spring_wire_path_reference_m2_v5.step",
+      "size": 123499,
+      "sha256": "f774e98495c9e48bb376ae39521c3372d3d465e1d52cd1bfaf743a5b86a0d0ea"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/fabricate/stator_perforated_metal_insert_m2_v5.step",
+      "size": 555536,
+      "sha256": "25095c57c61f2e198315a08e6b65e6b9a07bafa4bff35606d3db1426a8390696"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/metadata/CUT_LIST_M2_V5.csv",
+      "size": 749,
+      "sha256": "fabc33f4a84d900ab9ba434eaf3e5162748de211a0a232975d16978c8204eefd"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/metadata/FABRICATION_MANIFEST_M2_V5.json",
+      "size": 6012,
+      "sha256": "572e6e20f8c491d1436f76370fc14824d3709d90c02a2c41a64054dc9f1a5640"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/metadata/PURCHASED_COMPONENTS_M2_V5.csv",
+      "size": 460,
+      "sha256": "2b7e66e03b73e5abf978ed0a898f1f133dd5c5e99054f9993c6c207f77f188fb"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/crystal_module_tray_m2_v5.step",
+      "size": 80473,
+      "sha256": "124551788de21b256d37842cba12365ce33715f3aef889c5f84e2cbc4a90b6ac"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/crystal_module_tray_m2_v5.stl",
+      "size": 52984,
+      "sha256": "45fcca0b3345da323c8094064b34f06222cab995232ae8419cf6bfee8a350e01"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/guard_corner_m2_v5.step",
+      "size": 99445,
+      "sha256": "90dee2bf4f839205056a47fde623d992d4bbf250b2a8ace0c5a12dc317cffb80"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/guard_corner_m2_v5.stl",
+      "size": 40284,
+      "sha256": "6672211866fe22ab67c134163f1d5f2f5787cae0f077e98c5df121d0cb9d1e83"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/magnet_cradle_m2_v5.step",
+      "size": 99403,
+      "sha256": "f64c18ab3ba195c80b1d8f8c733af0a45bc331a999194c9b32d62668f5c74e7b"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/magnet_cradle_m2_v5.stl",
+      "size": 40284,
+      "sha256": "dfebccc0839c211f3f244092847311e10cdda3af183928a7ba169d6d107763e9"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_bottom_carrier_m2_v5.step",
+      "size": 30558,
+      "sha256": "11c3f3e29032c9fc90ed39526d2b890b1c4848947d0b77c8451dcda4cd724cae"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_bottom_carrier_m2_v5.stl",
+      "size": 75684,
+      "sha256": "e6fb39c344fe5b56aa47153157ad6e58f3233bcdeb3a67fb083abe27795af970"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_mesh_clip_m2_v5.step",
+      "size": 45725,
+      "sha256": "a0c4253350e78f0d0e2d6f7ba55dee484d5122c70f735d32ea4ff9bd81d62a0d"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_mesh_clip_m2_v5.stl",
+      "size": 14084,
+      "sha256": "0e48bd1adc1b383a68af4d31cb2bfdb14e4f9161e7e5bf54c670c24f092ec91a"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_spiral_winding_mandrel_m2_v5.step",
+      "size": 30554,
+      "sha256": "7f64f7400b42a11cc7662a3270a9fefb386de6f9fd30523a6df1a8b5f6941df7"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_spiral_winding_mandrel_m2_v5.stl",
+      "size": 75684,
+      "sha256": "62df0fc8bdeff30c72d57b7763e900e8c91994d711878946db5b0a61d8585f4e"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_top_carrier_m2_v5.step",
+      "size": 18058,
+      "sha256": "fd5f59e533453d70e4e0a1264fca1036edef39d48dd15720d520aa0179fc0a26"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/pot_top_carrier_m2_v5.stl",
+      "size": 31684,
+      "sha256": "e740205f5a34d47766895446219cb77fe152892471a20f5fe01d5f7036cca2e3"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/shaft_alignment_jig_m2_v5.step",
+      "size": 38354,
+      "sha256": "773e135f02dd781033078f0abd76ed089c1153569b55978fdd7adc2873465563"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/shaft_alignment_jig_m2_v5.stl",
+      "size": 32584,
+      "sha256": "2565c21dadab02cc492b81db6202974669d954812f4cce582f9811e61309d222"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/stator_insert_clip_m2_v5.step",
+      "size": 199523,
+      "sha256": "9eb2527002d9c43bc82374472db13daeba8957d79e4836d572d370a798509227"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/stator_insert_clip_m2_v5.stl",
+      "size": 66284,
+      "sha256": "17cc4284e8d6a39e9d7585295b0689e145a20243fb10e7c30cb89767238d3f27"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/upper_tower_holder_m2_v5.step",
+      "size": 99602,
+      "sha256": "69148a0a2e4a69f6d8be193580fb51a6279656373cb1aa69d2bb8a32802df06d"
+    },
+    {
+      "path": "hardware/build-kits/m2-v5/print/upper_tower_holder_m2_v5.stl",
+      "size": 40284,
+      "sha256": "8d59b8c2b705999620e33b41dd867719bb1af70877be07fe01f9225162e062a1"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/assembly-reference/Testatika_M6_V2_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.step",
+      "size": 14434031,
+      "sha256": "ffd885b5ea1c644e4c9410e48fa4fc9cf88a20bf62769c5d25981b062b58545a"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/assembly-reference/Testatika_M6_V2_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT.stl",
+      "size": 9950834,
+      "sha256": "e58e211b25b101b643d320b6acfcf37fc0b104276efa940dddcb85745a9a1f90"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/assembly-reference/Testatika_M6_V2_MECHANICAL_QUALIFICATION_GUARDED_REFERENCE_NOT_FOR_PRINT.step",
+      "size": 14434074,
+      "sha256": "174e15b28c0a4969bf946fc0535dd5655f9d9858522c9f1d1e47caea9d643038"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/assembly-reference/Testatika_M6_V2_MECHANICAL_QUALIFICATION_GUARDED_REFERENCE_NOT_FOR_PRINT.stl",
+      "size": 9950834,
+      "sha256": "e58e211b25b101b643d320b6acfcf37fc0b104276efa940dddcb85745a9a1f90"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/baseplate_760x340x18_structural_m6_v2.step",
+      "size": 41495,
+      "sha256": "14ed7a65b6c23ed692f7e08a174913311474abf243d554f5ac3a02ed77cb11eb"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/bearing_retainer_6001_nonmagnetic_m6_v2.step",
+      "size": 19320,
+      "sha256": "3e457788a4b1327fc85bae4b8df17fa5bd6cd7f47608ad52e8cefc706ae8de3f"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/bearing_retainer_6805_nonmagnetic_m6_v2.step",
+      "size": 19308,
+      "sha256": "f4fd54b7702d97bd9bb02d2a4e3e0931ce8edaeab557f35af47a1d4fdd9d43e9"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/bearing_tower_6001_nonmagnetic_m6_v2.step",
+      "size": 355273,
+      "sha256": "214d5dd29eb3df97aa9998e13776b97ad1fb7306dd27deebc87d8878773850f5"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/bearing_tower_6805_nonmagnetic_m6_v2.step",
+      "size": 355272,
+      "sha256": "35e1c7fbd9a42834a437c732b4e433cbafa7ec9f2a22e60b2fc2010f4ea6ec45"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/front_disc_hub_metal_25mm_bore_reference_m6_v2.step",
+      "size": 19335,
+      "sha256": "f207c970b589046ea1537b5c5132ebe893553373a44984b7561886f3a16be258"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/front_rotor_disc_pmMA_500x5_25mm_bore_m6_v2.step",
+      "size": 35018,
+      "sha256": "4baa4624dcea63d214470f9ca4f9a0960042615156b98d81cb48900b56a253a9"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/guard_frame_structural_reference_m6_v2.step",
+      "size": 200607,
+      "sha256": "1039c30f9d544066804ec7ba07d5e03e55278513843dd9df80cdf96725e87460"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/horseshoe_magnetic_core_reference_m6_v2.step",
+      "size": 99476,
+      "sha256": "bc9c6f0448d568a8b4167b6fdc009e7c54e94a2c6004b2461fd031019d8f4173"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/inner_shaft_12mm_x300_m6_v2.step",
+      "size": 8207,
+      "sha256": "947ddb1006d4c8dd7702d3a9ba1d076dd8b576d43e1cb9372ecc25d187f9c3ff"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/lab_drive_pulley_inner_reference_m6_v2.step",
+      "size": 9582,
+      "sha256": "c743c7f2f1a54baf6352fb3ae1c6a78fbd3477d12a795b41743662b8d3f9ea9d"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/lab_drive_pulley_outer_reference_m6_v2.step",
+      "size": 9590,
+      "sha256": "c02cc523da67b473c5173dacbbdc4f4c4566446d1d82a0afcf49de48503f2115"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/lamella_chromesteel_0p2x20x160_m6_v2.step",
+      "size": 15476,
+      "sha256": "a9bddaa909f61cf8018ebb69f6e95b9b4e174c563f13de0e2d5ce6fff6a1c4ce"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_bifilar_copper_winding_path_m6_v2.step",
+      "size": 1100542,
+      "sha256": "a314d5ed8278b5aa6dac85f612eca47ed36fdca360a9278a23e888dac204144b"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_central_tube_reference_m6_v2.step",
+      "size": 9583,
+      "sha256": "a444fc529a35c6142c9ff9d9528ab8b8c509eedad246d201866c86ff07f76a52"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_inner_grid_metal_mesh_envelope_m6_v2.step",
+      "size": 9601,
+      "sha256": "58efc199a97f597a58d22ddcd4ea6a0ef14cd451a087b226f1badc41bc0637cb"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_inner_pmMA_sleeve_m6_v2.step",
+      "size": 9591,
+      "sha256": "de3b93e82917276c19431cd4239de3138497dc2577e763302dc267607f608e49"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_middle_grid_metal_mesh_envelope_m6_v2.step",
+      "size": 9601,
+      "sha256": "d8350b48db308eb948ca40dc47cf97f8b160baa1eed3efa5b928318d3e400e2a"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_outer_grid_metal_mesh_envelope_m6_v2.step",
+      "size": 9606,
+      "sha256": "35c2bc2bb84fad7e5ce4eb90f0069c01ed2c3f811721aff9b6452a5137194dad"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/large_cylinder_outer_pmMA_sleeve_m6_v2.step",
+      "size": 9591,
+      "sha256": "a4eac914418c0091c940e20d761f4b45e6129d59d58c2ed7b8a84923ab9c274f"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/outer_hollow_shaft_25od_16id_x180_m6_v2.step",
+      "size": 9598,
+      "sha256": "afcb976c041dd00c28404a4b30da86aae092ae7b9bbbfac847a7b266c6113dfa"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/rear_disc_hub_metal_12mm_bore_reference_m6_v2.step",
+      "size": 19327,
+      "sha256": "7b8f0158f24b83014e45dc756cc2e318b99f4555f76683cdd44590e04df31980"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/rear_rotor_disc_pmMA_500x5_12mm_bore_m6_v2.step",
+      "size": 35002,
+      "sha256": "6dc21a2e02b8c115b89815555a05a5c27eedca89b51170440025d8d0d2bfa752"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/fabricate/stator_perforated_metal_electrode_m6_v2.step",
+      "size": 429377,
+      "sha256": "59019a8b51baf535f4044055c257640a1414efc786f386e199c2ca2e1fa1d3cb"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/metadata/CUT_LIST_M6_V2.csv",
+      "size": 1064,
+      "sha256": "a7c6f4daa50f22ce59c6f1c112b8a71050fe1088a3a4f428b0519257b0b59c93"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/metadata/FABRICATION_MANIFEST_M6_V2.json",
+      "size": 7947,
+      "sha256": "4ef2a4482c1381b8e6166999b0abb3d7040ed66fe96d2ff4fc618a41db8746b3"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/metadata/PURCHASED_COMPONENTS_M6_V2.csv",
+      "size": 788,
+      "sha256": "d310b7c86d09a568d9eaebedae1cc649bdc4e894f1eeeed67cb7bd46d754d1a8"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/adjustable_lab_motor_mount_m6_v2.step",
+      "size": 109505,
+      "sha256": "7a0235c4b1fed1bab7b9ece6c386d5614dd93e00d5930fc4866186436d63f12b"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/adjustable_lab_motor_mount_m6_v2.stl",
+      "size": 61484,
+      "sha256": "ee37ce3d9327030e0775a5ce10df9a372031f1f800ed47a2531de147aa7a206d"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/capacitor_mount_62mm_m6_v2.step",
+      "size": 109570,
+      "sha256": "2f623ae3985cf977a2f1d186b8b67b0602d4fc38c7b1aea8eb9c53714443c89e"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/capacitor_mount_62mm_m6_v2.stl",
+      "size": 61084,
+      "sha256": "8427d3870557c897fa8659e3cfd2a1568b2e401687878901786ae190a97d6f56"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/capacitor_mount_78mm_m6_v2.step",
+      "size": 109572,
+      "sha256": "40f4ff6bf34c8df7ed78605cd7c4012d48c3b8566b0858717d572a34edd658b1"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/capacitor_mount_78mm_m6_v2.stl",
+      "size": 61084,
+      "sha256": "20de226c4ef217a95b247ce92addf9ff8f35621533933ef60914cdb298c3bb32"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_centering_spider_m6_v2.step",
+      "size": 154346,
+      "sha256": "90322a3ef140e46aea2b5a030f1a3986ee508d5913287587fcd27fa45d4fa4f6"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_centering_spider_m6_v2.stl",
+      "size": 96884,
+      "sha256": "7c2a43096083e796b2d89b5f25d742151b6d605dadb25fdd69b2b18b66e0ba2f"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_inner_m6_v2.step",
+      "size": 9567,
+      "sha256": "b0058bd78fbb2a6b3d9e00eb74025d3b5d56dd2315446db51f86dfa1e0f60079"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_inner_m6_v2.stl",
+      "size": 23284,
+      "sha256": "e212025583756ebe5cf51a8de5df2b21be47ce2062e2788db931f0fca999b9ce"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_middle_m6_v2.step",
+      "size": 9575,
+      "sha256": "7e7af9e3b652ed3698baba7be0cff916025c1497fd73973994a9ad7ae92f2439"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_middle_m6_v2.stl",
+      "size": 23284,
+      "sha256": "2b0f0aefa984b5a57885a95e80bb064370cc4deda2d97c1726a7edcb6a30db63"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_outer_m6_v2.step",
+      "size": 9569,
+      "sha256": "5c0b331c865bea5e1d1dbc8a50eb4510fc237f4d0838f5a8aeca7f886760e54a"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/grid_separator_ring_outer_m6_v2.stl",
+      "size": 23284,
+      "sha256": "8bf7d3b3026bff95a6626cb56c9f3b76ad6f31f3246416aad3136ba77d5c75dc"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/guard_corner_m6_v2.step",
+      "size": 99479,
+      "sha256": "0618e0cf6a11d578ea2685795fe4b1a1c94581c0895efa5c38814a3d2967ac98"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/guard_corner_m6_v2.stl",
+      "size": 37884,
+      "sha256": "c365e34411ed816d4058d549dd595f1d801fd568f484c113a746558c60f41057"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/horseshoe_mount_m6_v2.step",
+      "size": 99421,
+      "sha256": "81a9e0b0b8f7101cdc221e4a154d6bb2ab3cb76eaba53f31aa713ac74288237d"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/horseshoe_mount_m6_v2.stl",
+      "size": 37884,
+      "sha256": "90d210f62cba5c23bfa80d81fb8ec99da006630ac637794a4247370dc2518ffc"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/lamella_pitch_jig_10position_m6_v2.step",
+      "size": 184415,
+      "sha256": "3a184710fdb67372ec8d8fb6ecf4582b6cbc0acd434f5f957243d16edb185a4f"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/lamella_pitch_jig_10position_m6_v2.stl",
+      "size": 22684,
+      "sha256": "af278a4a8885509e60ef90596f8dd37e2b094e859294e981cc038c79a37fe9ce"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/stator_adjustable_bracket_m6_v2.step",
+      "size": 190887,
+      "sha256": "dfa162adfc4fda6b189692c95f6f4503d5310e5f60e1a9238d9fdc891bcd562d"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/stator_adjustable_bracket_m6_v2.stl",
+      "size": 77984,
+      "sha256": "4f52c83b4627675e130ca2bce56e024236f80a9bfda70d56b51fb790df1fbb32"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/terminal_board_18node_m6_v2.step",
+      "size": 41355,
+      "sha256": "b6fe9dc330309c0da7052a3ea31fa2f0a1f0177e801e8af09738418ec7133771"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/terminal_board_18node_m6_v2.stl",
+      "size": 36284,
+      "sha256": "9b6c73e6353fe9f2a8a8bf48546369ece56d1f4933e5be8ebf61d82b7f284c2b"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/top_module_tray_m6_v2.step",
+      "size": 80443,
+      "sha256": "02feb7c87dbb6cf8b4bafef5d64a8b3737aae84c305b0ba1b7c94fd1daf970f9"
+    },
+    {
+      "path": "hardware/build-kits/m6-v2/print/top_module_tray_m6_v2.stl",
+      "size": 49384,
+      "sha256": "ab6c7ac74cb753f0964556c1406cb14f02c59832d7f3f8ebae745b6559547187"
+    },
+    {
       "path": "hardware/complete-model/MODEL_INFO.json",
       "size": 463,
       "sha256": "10d94590258d9f8485798f9d483b9955477ecd72cffb2d7a1261cc9d5ac46ca9"
@@ -908,6 +1428,36 @@
       "path": "hardware/experimental/m6-large-v1-best-evidence/metadata/MODEL_INFO_M6_V1.json",
       "size": 1862,
       "sha256": "41292b9b7bb23d05b11149d27acadc801156af2a9da3bbea74acccb39e008ccd"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_LEGACY_LAB_REFERENCE_ONLY.step",
+      "size": 28329449,
+      "sha256": "850099666f5b4c03fd99c31d0a59c6fa309336aa313a51b6a58413ba15e36bcf"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_LEGACY_LAB_REFERENCE_ONLY.stl",
+      "size": 17720784,
+      "sha256": "9769ee682df7551e3070ca31e34b9e8519e2b2a6dd8b4d587ab935b5f02f8f5a"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_REFERENCE_VISUAL_ONLY.step",
+      "size": 27771780,
+      "sha256": "13da324626857b80dc7d6f370590785a4f486edc015b82828e4c74197ce6da6e"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_REFERENCE_VISUAL_ONLY.stl",
+      "size": 17532984,
+      "sha256": "9606bb70e35fd84cfb6508e194dfc02b3a815c0227a016379bbaf6e7d75815ed"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_SERVICE_REFERENCE_ONLY.step",
+      "size": 17778308,
+      "sha256": "0d145a2b000f0e3fe283abf5bc0b9b857503948e4b71e3ce96bdf5dd0a8de8d5"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/reference-visual-only/complete-model/Testatika_M6_LARGE_V1_SERVICE_REFERENCE_ONLY.stl",
+      "size": 13340484,
+      "sha256": "3973f606dfac39147b305e4ba887837294805916e4d3ceb902f4ac4c1c8b51d9"
     },
     {
       "path": "hardware/experimental/m6-large-v1-best-evidence/step/adjustable_lab_motor_mount_m6_v1.step",
@@ -1283,6 +1833,26 @@
       "path": "hardware/experimental/v4-best-evidence-m2/metadata/MODEL_INFO_V4.json",
       "size": 1241,
       "sha256": "94af2593bdd0e98a57cf519a1dc7e3336dcea0655e9321b9919599e504e78acf"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/reference-visual-only/complete-model/Testatika_M2_V4_R4_REFERENCE_VISUAL_ONLY.step",
+      "size": 7161253,
+      "sha256": "2fbab1024cad0685178ed5217ee1606a72eb50a2e3ab84e6d6cfc6bba4f85b12"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/reference-visual-only/complete-model/Testatika_M2_V4_R4_REFERENCE_VISUAL_ONLY.stl",
+      "size": 12193084,
+      "sha256": "89de19dfbaca7ac891a85a924837ed324c9d2e343ff75dd6c4e8a1c140dbbc7c"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/reference-visual-only/complete-model/Testatika_M2_V4_REFERENCE_VISUAL_ONLY.step",
+      "size": 7155777,
+      "sha256": "b59dc5744dd62c057a72cc21f062b2938e529a74294a0a9709ff849b26ab030f"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/reference-visual-only/complete-model/Testatika_M2_V4_REFERENCE_VISUAL_ONLY.stl",
+      "size": 12182684,
+      "sha256": "887ba03d051fffd1352b1f26cae2ac703f7a47be84eba4a08f3a3f7c0d6edf01"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/step/guard_post_v4.step",
@@ -1788,6 +2358,26 @@
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip.sha256",
       "size": 120,
       "sha256": "7516ce3b9fdb1a0fdb5e3dc0a209907bcc5508abe08cfda2eb900d98bb042722"
+    },
+    {
+      "path": "release/fabrication-kits/testatika-m2-v5-fabrication-kit.zip",
+      "size": 17533995,
+      "sha256": "197274aab6afa98b5f3dac97703b85cf997c3b885a6316864f3987ab789e3aab"
+    },
+    {
+      "path": "release/fabrication-kits/testatika-m2-v5-fabrication-kit.zip.sha256",
+      "size": 102,
+      "sha256": "03c32dc709faa09ee0c26b9ff63a99c963c528a1aeffee5a474da8f6c9fa092a"
+    },
+    {
+      "path": "release/fabrication-kits/testatika-m6-v2-fabrication-kit.zip",
+      "size": 14821879,
+      "sha256": "e5e9be682b710e7ee9b343855df03d0e582b3a619eae2b16e76f34949530f22a"
+    },
+    {
+      "path": "release/fabrication-kits/testatika-m6-v2-fabrication-kit.zip.sha256",
+      "size": 102,
+      "sha256": "68ebde63f8951344f3163460c023d774ae512cfd13685c47b04bef151338f98a"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",

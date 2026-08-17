@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "kit": "M6-V2-FABRICATION",
+  "evidence_parent": "M6 V1 best-evidence / M6a Hauser anchor",
+  "purpose": "stable low-speed fabrication/mechanical qualification kit with real-material interfaces",
+  "guarantee_boundary": "mechanically buildable research replica; original hidden electrical topology, capacitor internals, crystal/rectifier construction and anomalous energy operation are unresolved",
+  "rules": [
+    "STL files under print/ are only non-load-critical jigs, spacers, clips, module carriers and guard fittings.",
+    "No capacitor can, magnetic core, conductive grid, winding, shaft, bearing, lamella or rotor disc is supplied as a plastic functional substitute.",
+    "Assembly STL is a fit/reference visualization and is not a print job.",
+    "The lab drive shows pulleys and interfaces only; rigid fake belt rods are prohibited."
+  ],
+  "direct_anchor_mm": {
+    "disc_diameter": 500.0,
+    "disc_thickness": 5.0,
+    "lamella_count": 50,
+    "lamella_source_thickness": 0.2,
+    "lamella_width": 20.0,
+    "lamella_length": 160.0
+  },
+  "source_supported_architecture": [
+    "8 front / 6 rear stationary electrode positions",
+    "three concentric metal grids per large cylinder",
+    "two-layer bifilar copper winding around central tube",
+    "two large side cylinder positions"
+  ],
+  "printable_parts": [
+    {
+      "name": "lamella_pitch_jig_10position_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "stator_adjustable_bracket_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "grid_separator_ring_outer_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "grid_separator_ring_middle_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "grid_separator_ring_inner_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "grid_centering_spider_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "capacitor_mount_78mm_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "capacitor_mount_62mm_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "horseshoe_mount_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "top_module_tray_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "terminal_board_18node_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "adjustable_lab_motor_mount_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    },
+    {
+      "name": "guard_corner_m6_v2",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PA-CF/PETG/PC selected for environment; never used as bearing tower/electrode/magnet/shaft",
+      "functional_electrode": false
+    }
+  ],
+  "fabricated_parts": [
+    {
+      "name": "baseplate_760x340x18_structural_m6_v2",
+      "class": "CUT_STRUCTURAL",
+      "material": "18 mm birch ply/phenolic/nonconductive structural board"
+    },
+    {
+      "name": "front_rotor_disc_pmMA_500x5_25mm_bore_m6_v2",
+      "class": "CUT_PMMA",
+      "material": "cast PMMA 5 mm; outer-shaft hub bore"
+    },
+    {
+      "name": "rear_rotor_disc_pmMA_500x5_12mm_bore_m6_v2",
+      "class": "CUT_PMMA",
+      "material": "cast PMMA 5 mm; inner-shaft hub bore"
+    },
+    {
+      "name": "lamella_chromesteel_0p2x20x160_m6_v2",
+      "class": "METAL_LAMELLA",
+      "material": "~0.2 mm chrome-steel/magnetically responsive sheet per source family"
+    },
+    {
+      "name": "stator_perforated_metal_electrode_m6_v2",
+      "class": "METAL_ELECTRODE",
+      "material": "conductive perforated sheet; document alloy"
+    },
+    {
+      "name": "inner_shaft_12mm_x300_m6_v2",
+      "class": "METAL_SHAFT",
+      "material": "12 mm precision steel/stainless"
+    },
+    {
+      "name": "outer_hollow_shaft_25od_16id_x180_m6_v2",
+      "class": "METAL_SHAFT",
+      "material": "25 mm OD / 16 mm ID precision tube, lab-derived"
+    },
+    {
+      "name": "bearing_tower_6001_nonmagnetic_m6_v2",
+      "class": "MACHINED_BEARING_SUPPORT",
+      "material": "12 mm G10/FR4 structural laminate or 6061-T6; precision bearing seat"
+    },
+    {
+      "name": "bearing_tower_6805_nonmagnetic_m6_v2",
+      "class": "MACHINED_BEARING_SUPPORT",
+      "material": "12 mm G10/FR4 structural laminate or 6061-T6; precision bearing seat"
+    },
+    {
+      "name": "large_cylinder_*_grid_*",
+      "class": "METAL_MESH",
+      "material": "rolled metal grid/mesh"
+    },
+    {
+      "name": "large_cylinder_*_pmMA_sleeve_*",
+      "class": "PMMA_DIELECTRIC",
+      "material": "real PMMA/acrylic sleeve"
+    },
+    {
+      "name": "large_cylinder_bifilar_copper_winding_path_m6_v2",
+      "class": "WIND_COPPER",
+      "material": "~18 AWG enamelled copper, source family; exact turns remain working-fit"
+    }
+  ],
+  "purchased_components": [
+    {
+      "qty": 2,
+      "item": "6001-2RS bearing",
+      "spec": "12x28x8 mm, low-runout"
+    },
+    {
+      "qty": 2,
+      "item": "6805-2RS bearing",
+      "spec": "25x37x7 mm, low-runout"
+    },
+    {
+      "qty": 2,
+      "item": "balanced metal disc hub/clamp",
+      "spec": "one for 12 mm shaft, one for 25 mm hollow shaft"
+    },
+    {
+      "qty": 2,
+      "item": "round belt",
+      "spec": "3-4 mm polyurethane, one open and one crossed path for lab counterrotation"
+    },
+    {
+      "qty": 1,
+      "item": "low-voltage geared motor",
+      "spec": "external laboratory drive only; input power measured"
+    },
+    {
+      "qty": 2,
+      "item": "capacitor module",
+      "spec": "removable/guarded experimental module; value/topology intentionally not claimed historical"
+    },
+    {
+      "qty": 2,
+      "item": "horseshoe magnetic assembly",
+      "spec": "document material, geometry and field; keep removable"
+    },
+    {
+      "qty": 18,
+      "item": "isolated terminal/binding post",
+      "spec": "three groups of six for open-node breakout"
+    },
+    {
+      "qty": 1,
+      "item": "rotor guard",
+      "spec": "polycarbonate preferred; complete enclosure around 500 mm discs"
+    },
+    {
+      "qty": 1,
+      "item": "fastener set",
+      "spec": "M4/M5/M6; nonmagnetic where magnetic confounding matters"
+    }
+  ]
+}

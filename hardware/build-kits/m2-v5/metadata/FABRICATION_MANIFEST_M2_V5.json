@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "kit": "M2-V5-FABRICATION",
+  "evidence_parent": "M2 V4 best-evidence",
+  "purpose": "stable mechanical/fabrication kit with real-material interfaces",
+  "guarantee_boundary": "mechanically buildable research replica; historical hidden circuit and anomalous energy performance are not recovered/guaranteed",
+  "rules": [
+    "STL files under print/ are only non-load-critical supports, jigs, clips, carriers or guard fittings.",
+    "Conductive, magnetic, shaft, bearing and structural fabrication items are never represented as plastic substitutes.",
+    "Assembly STL files are visual fit references and are explicitly not print jobs.",
+    "Unknown historical electrical functions terminate at reversible interfaces."
+  ],
+  "direct_or_preferred_anchors": {
+    "rotor_diameter_mm": 200.0,
+    "nominal_sector_count": 24,
+    "sector_conductor": "~1 mm copper wire, individually floating",
+    "pot_external_terminals_each": 2
+  },
+  "printable_parts": [
+    {
+      "name": "shaft_alignment_jig_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "pot_bottom_carrier_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "pot_top_carrier_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "pot_mesh_clip_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "pot_spiral_winding_mandrel_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "stator_insert_clip_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "magnet_cradle_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "crystal_module_tray_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "upper_tower_holder_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    },
+    {
+      "name": "guard_corner_m2_v5",
+      "class": "PRINTABLE_SUPPORT",
+      "material": "PETG/PA-CF/PC selected for environment; never substitutes for metal/electrode/magnet",
+      "functional_electrode": false
+    }
+  ],
+  "fabricated_parts": [
+    {
+      "name": "baseplate_370x180x18_structural_m2_v5",
+      "class": "CUT_STRUCTURAL",
+      "material": "18 mm birch ply, phenolic laminate or equivalent rigid nonconductive plate"
+    },
+    {
+      "name": "backplate_336x246x8_structural_m2_v5",
+      "class": "CUT_STRUCTURAL",
+      "material": "8 mm cast PMMA or rigid nonconductive plate"
+    },
+    {
+      "name": "rotor_disc_pmMA_200x3p5_24wire_R0_m2_v5",
+      "class": "CUT_PMMA",
+      "material": "cast PMMA, 3.5 mm working thickness"
+    },
+    {
+      "name": "shaft_8mm_x245_m2_v5",
+      "class": "METAL_SHAFT",
+      "material": "8 mm precision stainless/ground steel"
+    },
+    {
+      "name": "bearing_block_608_nonmagnetic_m2_v5",
+      "class": "MACHINED_BEARING_SUPPORT",
+      "material": "6061-T6 aluminium or G10/FR4 plate; precision bore/ream after machining"
+    },
+    {
+      "name": "bearing_retainer_608_nonmagnetic_m2_v5",
+      "class": "MACHINED_BEARING_RETAINER",
+      "material": "6061-T6 aluminium or equivalent nonmagnetic rigid material"
+    },
+    {
+      "name": "hub_flange_8mm_nonmagnetic_m2_v5",
+      "class": "MACHINED_HUB_FLANGE",
+      "material": "balanced 6061-T6 aluminium; two flanges clamp the PMMA rotor"
+    },
+    {
+      "name": "stator_perforated_metal_insert_m2_v5",
+      "class": "METAL_ELECTRODE",
+      "material": "conductive perforated sheet/mesh; document alloy"
+    },
+    {
+      "name": "pot_dielectric_pmMA_tube_reference_m2_v5",
+      "class": "PMMA_DIELECTRIC",
+      "material": "real PMMA/acrylic tube"
+    },
+    {
+      "name": "pot_grid_metal_mesh_envelope_reference_m2_v5",
+      "class": "METAL_MESH",
+      "material": "metal gauze/mesh"
+    },
+    {
+      "name": "pot_spiral_copper_wire_path_reference_m2_v5",
+      "class": "WIND_COPPER",
+      "material": "copper conductor wound on mandrel"
+    }
+  ],
+  "purchased_components": [
+    {
+      "qty": 2,
+      "item": "608-2RS bearing",
+      "spec": "8x22x7 mm, quality low-runout"
+    },
+    {
+      "qty": 2,
+      "item": "8 mm metal clamp collar",
+      "spec": "balanced low-profile collars; lock hub stack axially without relying on plastic"
+    },
+    {
+      "qty": 2,
+      "item": "horseshoe magnet",
+      "spec": "document geometry and field; use matched nonmagnetic dummies for controls"
+    },
+    {
+      "qty": 4,
+      "item": "isolated terminal/binding post",
+      "spec": "two per side pot"
+    },
+    {
+      "qty": 1,
+      "item": "transparent rotor guard",
+      "spec": "polycarbonate preferred for impact resistance"
+    },
+    {
+      "qty": 1,
+      "item": "fastener set",
+      "spec": "M3/M4 nonmagnetic where magnetic confounding matters"
+    }
+  ]
+}
