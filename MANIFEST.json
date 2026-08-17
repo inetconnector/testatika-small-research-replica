@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 341,
+  "file_count": 342,
   "files": [
     {
       "path": ".gitattributes",
@@ -383,6 +383,11 @@
       "path": "docs/research/hauser-source-ledger.tsv",
       "size": 2992,
       "sha256": "48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669"
+    },
+    {
+      "path": "docs/research/internet-source-audit-2026-08-17.md",
+      "size": 17125,
+      "sha256": "b2439a363967b8b41227a355a4b70ae57017beb7312b073c0cee607a5848b4a9"
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
