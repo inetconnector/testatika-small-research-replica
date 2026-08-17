@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 553,
+  "file_count": 555,
   "files": [
     {
       "path": ".gitattributes",
@@ -28,6 +28,11 @@
       "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
       "size": 2348,
       "sha256": "16f401f487fa620d2a3ad3e09d35098c8a6bd738efe2da277e9223ab89e06912"
+    },
+    {
+      "path": ".github/SELF_EXCITATION_UPDATE_TRIGGER",
+      "size": 96,
+      "sha256": "ccdcd9e0303626447241cf52cd9acc85de2f1d15f1fdd5f8f0524fc959b52c87"
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
@@ -73,6 +78,11 @@
       "path": ".github/workflows/materialize-release-v0.3.yml",
       "size": 1739,
       "sha256": "f36d9ad460ebdbbe1e7d3bcc211780793567860a6a5711f5fa2f8f63dc53bc98"
+    },
+    {
+      "path": ".github/workflows/materialize-self-excitation-update.yml",
+      "size": 19306,
+      "sha256": "c197c79b8f71c4a53171b2466b85691323eb813a7fba91842fab8f44e41793ec"
     },
     {
       "path": ".github/workflows/materialize-v3-photo.yml",
