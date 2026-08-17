@@ -241,3 +241,23 @@ Retrospective public sources disagree between 5-Jun-1999 and 4-Aug-1999 for an e
 - NEN Nov-1998 reports that Don Kelly's group was building an M-L prototype; no indexed outcome was found, so only construction is recorded.
 - Jan Pajak explicitly says he never personally saw Thesta-Distatica and that his detailed device is his own reconstruction/invention; his geometry/circuit/theory remains S2/I1.
 - A May-1990 contemporary external source says the Einsiedeln congress presentation was film-only, conflicting with later live-demonstration accounts. The event mode/audience remains CONFLICT.
+
+## Internet source audit round 2 — 2026-08-17
+
+Round 2 is documented in:
+
+- [`internet-source-audit-round2-2026-08-17.md`](internet-source-audit-round2-2026-08-17.md)
+- [`internet-source-ledger-round2.tsv`](internet-source-ledger-round2.tsv)
+- [`kelly-source-revision-chain-2026-08-17.md`](kelly-source-revision-chain-2026-08-17.md)
+
+High-value consequences:
+
+1. **Kelly self-correction:** in an Aug. 1998 NEN letter Don Kelly explicitly says an early `Magnets` depiction with twin horseshoe magnets/windings close to the twin electrostatic discs was later shown incorrect. This is an author-level correction of Kelly-derived geometry, not a statement that no named Testatika variant ever contained horseshoe magnets.
+2. **`Magnets` chronology remains unresolved:** the official `raum&zeit` archive says its reproduced Kelly electro-schematic came from a Kelly `Magnets` article in Aug. 1987, while Kelly's 1998 retrospective dates the erroneous early study to roughly 1984. Until the original issues are acquired, these are not silently treated as the same article.
+3. **M5a publication text:** the L. L./Rorschach 17-Mar-1984 witness report in Nieper's book supports the existing ~110 × 45 × 60 cm, ~20 kg, twin ~45-cm-disc, 50-position, ~60-rpm geometry line. Its neutron/tachyon/resonance explanations remain witness interpretation. Its strong similarity to Schneider/Weber M5 means source independence is still unresolved.
+4. **Kelly 1998 prototype:** NEN reports that Kelly's Space Energy Association was building a prototype. No validated success result was found. `building` must never be rewritten as `replicated successfully`.
+5. **Sarah Tripp documentary:** authoritative film catalogues identify a 20-min `Testatika` documentary and an archival route through the National Library of Scotland. Catalogues disagree between 2001 and 2002, so the date remains a catalogue conflict until the archive object is inspected.
+6. **Digital-forensics leads:** the historic `colossus2` Testatika directory and `phoenix.oulu.fi/pub/free_energy` FTP tree are now explicit acquisition targets; surviving forum copies prove URL history, not technical truth.
+7. **Patent-search boundary:** a targeted public patent search did not identify a provenance-secure Testatika/Methernitha patent. Unrelated inventors named Paul Baumann are an identity-confound. This is a bounded negative search result, not proof that no patent or filing can exist.
+
+Round 2 does not recover the hidden circuit, crystal material, M2 through-disc route or M6a node map. Those remain UNKNOWN.

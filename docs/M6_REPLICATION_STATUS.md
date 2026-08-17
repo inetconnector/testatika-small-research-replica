@@ -69,3 +69,15 @@ Newly separated evidence:
 - `M5` (Schneider/Weber, 13-Mar-1984) and `M5a` (L. L. Rorschach report dated 17-Mar-1984) are separate documentary IDs because source independence and exact object identity are unresolved. Both describe ~1.1-m-wide apparatuses and therefore are not silently folded into Hauser's later ~500-mm-disc M6a reconstruction.
 - Kelly/Bailey 1991 is not a direct-observer source. Their disc-size/pickup/component descriptions are explicitly based on available reports/photos/video and contain conjecture. They cannot override Hauser direct-visit scans.
 - The M6a V1 CAD remains unchanged by this addendum.
+
+## Internet crawl round 2 — M6 provenance guard
+
+Round 2 strengthens source separation rather than changing the M6a CAD baseline:
+
+- Kelly's 1998 self-correction explicitly downgrades an early Kelly-derived horseshoe-magnet-near-disc depiction. It must not be used as an M6a geometry authority.
+- Hauser's direct 1986/1988 source line remains the construction anchor for M6a.
+- The L. L./Nieper 17-Mar-1984 machine is retained as M5a because it may be the same object/source family as Schneider/Weber M5 and is not proven to be Hauser M6a.
+- Kelly/SEA prototype construction reported in 1998 is replication-history evidence only; a successful result has not been recovered.
+- No new source closes the three-grid-cylinder node map, top-crystal electrical function, original speed-control transmission or hidden historical buses.
+
+No M6 V1 STEP/STL geometry is silently altered by these provenance findings.

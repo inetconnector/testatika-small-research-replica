@@ -199,3 +199,14 @@ First publication-ready repository release.
 ### Scientific position
 
 No over-unity or free-energy claim is asserted. Unknown historical wiring remains explicitly unknown.
+
+### Internet source audit round 2 — 2026-08-17
+
+- added second verified Internet-source audit and ledger;
+- documented Don Kelly's 1998 self-correction of an early horseshoe-near-disc Testatika depiction;
+- preserved the unresolved `Magnets` circa-1984 vs Aug-1987 publication chronology instead of conflating sources;
+- strengthened M5a 17-Mar-1984 publication provenance while retaining M5/M5a source-dependency warning;
+- recorded Kelly/SEA 1998 prototype construction as an attempt with unknown outcome;
+- added Sarah Tripp/National Library of Scotland archival acquisition route;
+- added colossus2/Oulu FTP digital-forensics leads and bounded negative patent-search result;
+- no historical CAD baseline changed in this audit round.

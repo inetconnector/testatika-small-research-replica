@@ -169,3 +169,14 @@ Every future claim that a gap is “solved” must update this file with the sou
 - Kelly/Bailey 1991 explicitly disclose that they relied on other researchers' documents and a videotape; Kelly geometry remains photo-derived/secondary and does not close M2 dimensions or wiring.
 - Two March-1984 large-machine witness texts (`M5`, `M5a`) are strikingly similar and are not counted as independent confirmations until their source relationship is resolved.
 - Neither witness lamp/heater demonstrations nor the Kelly/Bailey retelling provide a closed energy balance.
+
+## Internet crawl round 2 provenance guard
+
+The 2026-08-17 Round-2 crawl adds a specific warning for M2 historical reconstruction:
+
+- Don Kelly later self-corrected an early Kelly-derived Testatika depiction that put twin horseshoe magnets/windings close to the twin discs. Therefore a Kelly schematic cannot override direct M2 Marinov/photo/video evidence.
+- This does **not** remove the source-supported M2 magnet positions already present in V4; it only prevents an obsolete Kelly placement from being imported as corroboration.
+- `Magnets` items from circa 1984?, Aug. 1987 and Dec. 1988 remain separate source objects until original pages prove their relationship.
+- No Round-2 source closes the M2 node-to-node circuit, exact through-disc route, pot electrical internals or crystal identity.
+
+Accordingly the V4 physical baseline remains unchanged by Round 2.

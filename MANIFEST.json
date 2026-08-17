@@ -111,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 15382,
-      "sha256": "14273e915259d1112003ee1a44cfc4b4cabf3ad002bfc9459513784f9cbe53b8"
+      "size": 16122,
+      "sha256": "50660de583bdefd58151b728d935bf118247235cbb29c1db45af244f704dac5b"
     },
     {
       "path": "CITATION.cff",
@@ -161,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 241453,
-      "sha256": "fa747ceed7b69a2deb6a3d483229d1b89ecd78dcbae0c471b0fbc17cd48398f0"
+      "size": 242184,
+      "sha256": "ca3417f29c61261b2cde5ed185ce115dba7cdcf20ec9f9113a77912865b74fad"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 59238,
-      "sha256": "61ba4aadda4e23c8929be694ae8b9354be2a9592c1fa2c3a0167d157da229687"
+      "size": 59963,
+      "sha256": "f6f00eaeb7a5a2c2ce42fe5ec84a23e511e8572c2c2bbe68b233c414fdd59a71"
     },
     {
       "path": "cad/README.md",
@@ -211,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 4884,
-      "sha256": "ddf4c9f2f99ba255e0abde9910edf22466c1ae09cbd88bd9efc6f0faebc3399e"
+      "size": 5793,
+      "sha256": "2a74f11b22eb9bdf20b79219b95c620db299dfeb6e2323a953cf9e6b4cc0c72a"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 19038,
-      "sha256": "e46203474926247f8f463f600eb66e094ee9d04eaeebb49622db8fd95da75a2f"
+      "size": 19905,
+      "sha256": "6aac4a13500d270b2837562bd1750121489d55c221701281b5c9773f27cae314"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -351,8 +351,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 23559,
-      "sha256": "59f78434ed620b9145aec5612366e9d744e7423ed06bdde3f95d6e04351f726a"
+      "size": 26001,
+      "sha256": "9ae5afe92b037e0ea13a3d9e8dc3f1143ea2afa151fce56e4d5e2a5a06393fcd"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -551,13 +551,13 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 7799,
-      "sha256": "0ab6724f6ac19877693eca900b6d66b2785853d3bad1c449d684327102f60c4f"
+      "size": 9086,
+      "sha256": "c3a9f62479ebdf174ce5719482c9e81c0431aff1c437931687e41f014ad88b51"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 17460,
-      "sha256": "010b233b849e8d9cccc310ed63ebfa62ed79a326c8946b9bb2a265d16c3f58de"
+      "size": 20026,
+      "sha256": "fd86bfac2c36f3760d66a8a173f542b1fbe53982f45001d917b7a906bcc67d9d"
     },
     {
       "path": "docs/research/stl_dimensions.json",

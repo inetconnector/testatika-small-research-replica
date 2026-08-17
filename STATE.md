@@ -4880,3 +4880,9 @@ Important corrections: M2 East-West startup is Baumann→Marinov source-stated (
 New stronger sources: Kelly/Bailey 1991 original IECEC PDF; Nieper 1985 book mirror including the L. L. Rorschach 17-Mar-1984 witness report; Schneider/Weber 13-Mar-1984 account republished by NET-Journal; recipient-side publication of a 2010 Methernitha reply. See `docs/research/internet-source-audit-addendum-2026-08-17.md` and `witness-source-independence-1984.md`.
 
 Do not double-count M5 and M5a as independent until source dependence is resolved. Kelly/Bailey explicitly were not direct machine witnesses and their geometry is secondary/photo-derived. The 1999 engineer-demo date is CONFLICT (5 Jun vs 4 Aug / early-Aug publication chain). No hidden original circuit or closed historical net-energy proof was found.
+
+## Internet audit round 2 — 2026-08-17
+
+Continuation of the verified Internet crawl is recorded in `docs/research/internet-source-audit-round2-2026-08-17.md`, `internet-source-ledger-round2.tsv` and `kelly-source-revision-chain-2026-08-17.md`.
+
+Key state changes: Kelly early horseshoe-near-disc geometry is explicitly self-corrected/superseded by Kelly; `Magnets` 1984?/Aug-1987/Dec-1988 objects remain separate pending originals; M5a direct-published geometry is strengthened but M5/M5a independence remains unresolved; Kelly 1998 build is only a build attempt with unknown outcome; Sarah Tripp film has an NLS archive route; old colossus2/Oulu FTP paths are acquisition leads. No M2/M6 CAD baseline is changed by this round.
