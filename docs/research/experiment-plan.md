@@ -19,6 +19,8 @@ Die neue Primärscanlage hat zwei Experimente hochpriorisiert: **floating Rotord
 - Vorder-/Rückseite getrennt messen.
 - rückwärtige Metallplatte mit dem Experiment-Jig annähern.
 - Shield floating / geerdet / R-gekoppelt / C-gekoppelt vergleichen.
+- geometriegleiche nichtleitende Platte als Kontrolle; Abstand und Plattenfläche systematisch variieren.
+- Der Metallplatten-Stopp ist nun als direkte Marinov-Beobachtung eingestuft; seine Ursache bleibt offen.
 
 Ziel: `Taster` als kapazitiven/Influenz-Pickup und den Metallplatten-Stoppversuch quantitativ prüfen.
 
@@ -351,9 +353,11 @@ Messen:
 
 Ziel: prüfen, ob Baumanns second-hand überlieferte `random particles` sinnvoll mit Luftionen identifiziert werden können.
 
-## Stufe 11 — Ost-West-Test
+## Stufe 11 — Ost-West-Startup und Post-Start-Reorientierung
 
-Nur als H2-Prüfung:
+Quellenstatus korrigiert: Die East-West-Anweisung ist **Baumann→Marinov SOURCE-STATED**, nicht bloß H2. Separat berichtet Marinov direkt, dass die laufende Kleinmaschine nach dem Start bewegt, gekippt und umorientiert werden konnte. Eine geomagnetische Ursache ist damit **nicht** belegt.
+
+Startup-Test:
 
 - Maschine auf Drehtisch;
 - randomisierte Winkelstellungen 0–360°;
@@ -361,6 +365,27 @@ Nur als H2-Prüfung:
 - Netz-/Gebäudefelder kontrollieren;
 - gleiche Startenergie;
 - Bediener möglichst blind.
+- Startimpuls mechanisch quantifizieren/standardisieren.
+- RH und Temperatur protokollieren; trockene/feuchte Bedingungen separat randomisieren.
+- Anzahl identischer Startimpulse bis zum stabilen Lauf erfassen.
+
+Post-Start-Test separat:
+
+- erst bei definierter Referenzorientierung starten;
+- nach stabilem Lauf die gesamte Maschine auf randomisierte Azimute/Neigungen bewegen;
+- rpm, Torque, Surface Potential und Feldvektoren kontinuierlich loggen.
+
+### Stufe 11b — Restart-Memory / Zustandsabhängigkeit
+
+Marinov berichtet, dass zweite/dritte Starts nach dem Metallplatten-Stopp leichter waren. Daher vergleichen:
+
+- definierte Ruhezeit ohne Entladung;
+- kontrollierte Neutralisierung/Entladung;
+- identische RH/Temperatur;
+- Surface-Potential-Map vor/nach jedem Lauf;
+- randomisierte Reihenfolge und gleicher mechanischer Startimpuls.
+
+Ziel: persistente Dielektrikum-/Oberflächenladung, Feuchtehistorie und Bedienereffekt von einer echten Orientierungsabhängigkeit trennen.
 
 ## Stufe 12 — gekoppelte Forschungsvariante
 

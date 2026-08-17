@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 341,
+  "file_count": 351,
   "files": [
     {
       "path": ".gitattributes",
@@ -43,6 +43,11 @@
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
       "size": 2429,
       "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+    },
+    {
+      "path": ".github/workflows/integrate-internet-source-audit.yml",
+      "size": 3120,
+      "sha256": "e8012228eb4ddf9f9eb7458cca644696a974bec273ba395e8591e11a7a6198ad"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
@@ -106,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 13106,
-      "sha256": "d30bb705d33a1994a84a9b4fc85625947f7c4b23fdce3d1934f3ea83364fc51f"
+      "size": 15382,
+      "sha256": "14273e915259d1112003ee1a44cfc4b4cabf3ad002bfc9459513784f9cbe53b8"
     },
     {
       "path": "CITATION.cff",
@@ -156,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 239710,
-      "sha256": "1f64fdbcdddc190e5790cae88f7c2569ba9499f47c069b4d58fee4cc1d1b6f49"
+      "size": 241453,
+      "sha256": "fa747ceed7b69a2deb6a3d483229d1b89ecd78dcbae0c471b0fbc17cd48398f0"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -166,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 57495,
-      "sha256": "d6a846166935c5d751b92b87a8b3b8d2ec70f41fbd3705af78947608d4513548"
+      "size": 59238,
+      "sha256": "61ba4aadda4e23c8929be694ae8b9354be2a9592c1fa2c3a0167d157da229687"
     },
     {
       "path": "cad/README.md",
@@ -206,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 3107,
-      "sha256": "ccfaa015ef2e222dd3afd0ec5b7b18cd70717350be0192f5e07d17ac8f78e7ff"
+      "size": 4884,
+      "sha256": "ddf4c9f2f99ba255e0abde9910edf22466c1ae09cbd88bd9efc6f0faebc3399e"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 15891,
-      "sha256": "50e094ed3ead58fed8a6696e02b2ad8ecd59ce96b9560492e5d3b9951f43880e"
+      "size": 19038,
+      "sha256": "e46203474926247f8f463f600eb66e094ee9d04eaeebb49622db8fd95da75a2f"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -335,19 +340,24 @@
       "sha256": "c6537ac30da7b8606c3ee5cb0a7fc03ef284e9fb630b8937754f80c39b58a7a9"
     },
     {
+      "path": "docs/research/control-replication-audit-2026-08-17.md",
+      "size": 5775,
+      "sha256": "785566877d5a1b879048a9921a5ddb138a88de0a7b4f423160a38d1328f48de8"
+    },
+    {
       "path": "docs/research/electrodes.md",
       "size": 2393,
       "sha256": "91177c258a8e2a3983fa034477003122fcc127239a36606239ad2f4498429080"
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 16706,
-      "sha256": "b33acbee0b4ab3af39ae9f51818b8b094816346bda9e47dd0432f2e594aaf8c9"
+      "size": 23559,
+      "sha256": "59f78434ed620b9145aec5612366e9d744e7423ed06bdde3f95d6e04351f726a"
     },
     {
       "path": "docs/research/experiment-plan.md",
-      "size": 11707,
-      "sha256": "c7b8628915ad31362c8c29580038d3eaf59862380c72b548d7e2e965cf9a0ab5"
+      "size": 13220,
+      "sha256": "3a17d95af6f431113f67611b0182012baa1f0e44db29ae8d0386dda251e71abf"
     },
     {
       "path": "docs/research/external-corpus.md",
@@ -385,9 +395,24 @@
       "sha256": "48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669"
     },
     {
+      "path": "docs/research/internet-source-audit-2026-08-17.md",
+      "size": 17125,
+      "sha256": "b2439a363967b8b41227a355a4b70ae57017beb7312b073c0cee607a5848b4a9"
+    },
+    {
+      "path": "docs/research/internet-source-audit-addendum-2026-08-17.md",
+      "size": 12083,
+      "sha256": "e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1"
+    },
+    {
+      "path": "docs/research/internet-source-ledger.tsv",
+      "size": 10865,
+      "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
+    },
+    {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
-      "size": 6860,
-      "sha256": "eb016208b6b39018898454297dd27f055af1bca567990f241778c609bfc2894d"
+      "size": 8230,
+      "sha256": "c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c"
     },
     {
       "path": "docs/research/limitations.md",
@@ -441,8 +466,8 @@
     },
     {
       "path": "docs/research/m6-large-v1-source-map.tsv",
-      "size": 3665,
-      "sha256": "6cac81264ec7da372693477e7f8043b3d8747eaa1e043a75fdf33dadb276b6bb"
+      "size": 5220,
+      "sha256": "3bc33961cebe7640c6bf0c809a096ffd6a9edb56f3ea445541f373ea7e540d43"
     },
     {
       "path": "docs/research/m6-large-v1-terminal-map.tsv",
@@ -451,8 +476,8 @@
     },
     {
       "path": "docs/research/machines.yaml",
-      "size": 4502,
-      "sha256": "3367b3d4a65e81077a8992391cf6e9ccd4fdcc5104176d8758ea2ed0e5d1a2fc"
+      "size": 8455,
+      "sha256": "e5af239f97f8adff1848bd293f3581e98075250a8f06f5f63806eb459b1c0367"
     },
     {
       "path": "docs/research/magnets.md",
@@ -510,9 +535,14 @@
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
     },
     {
+      "path": "docs/research/source-acquisition-backlog.tsv",
+      "size": 7799,
+      "sha256": "0ab6724f6ac19877693eca900b6d66b2785853d3bad1c449d684327102f60c4f"
+    },
+    {
       "path": "docs/research/source-basis.md",
-      "size": 12335,
-      "sha256": "e5006ec7924b5d10a608bb965f5fae636703eadf4e9691b6f129e30ab4483ede"
+      "size": 17460,
+      "sha256": "010b233b849e8d9cccc310ed63ebfa62ed79a326c8946b9bb2a265d16c3f58de"
     },
     {
       "path": "docs/research/stl_dimensions.json",
@@ -623,6 +653,11 @@
       "path": "docs/research/video-source-ledger.tsv",
       "size": 2790,
       "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
+    },
+    {
+      "path": "docs/research/witness-source-independence-1984.md",
+      "size": 3819,
+      "sha256": "a629592d129a9dd1998638721e52fa145ef799fd5e40c2aa88f068878adc5582"
     },
     {
       "path": "docs/scientific-status.md",
@@ -1623,6 +1658,21 @@
       "path": "scripts/apply_hartmann_overunity_v6.py",
       "size": 26596,
       "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit.py",
+      "size": 19781,
+      "sha256": "ff7f87ea01f9bc3f6d0f1275bfb2c266ddcb4f1505a73c94656ce0a39e319bc5"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_addendum.py",
+      "size": 11178,
+      "sha256": "2517b1840ce518d21e89152e34524aa884d122b7c0ef8777b909b674e6c9946d"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_final.py",
+      "size": 6373,
+      "sha256": "376d43214dc7c8f5f056d6cf47d702e6925d1eb7701586378196e155307f79d4"
     },
     {
       "path": "scripts/apply_m6_readme_links.py",

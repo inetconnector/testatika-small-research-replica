@@ -49,3 +49,23 @@ M6 Large V1 is **complete as a documented, manufacturable, reversible research a
 5. direct source for the top crystal material/terminal map;
 6. direct source for the motor/magnet-wheel transmission;
 7. contemporaneous schematic with provenance.
+
+
+## Internet-audit variant boundary — 2026-08-17
+
+The public-source crawl found additional primary-author large-machine evidence, but it does **not** justify silently modifying the existing Hauser-anchored M6a V1 CAD.
+
+Newly separated evidence:
+
+- Marinov TWT-VII: thick electrically connected grid sectors on both faces of one wheel versus thin sectors only on the external face of the other, plus insulating spray on slightly magnetized sectors; exact medium/large object unresolved.
+- `M6c`: Marinov's 1989 large-under-construction / approximately 2:1-medium-copy line, including a simpler open cylindrical outer-electrode + thick-Cu-inner-coil capacitor interpretation and ~30-cm horseshoe-magnet scale. This conflicts with M6a enough to remain a separate family.
+- `M8` / `M9`: approximately 1-m / 2-m large-scale machines under construction/workshop discussion.
+- `M10`: tandem/double-converter workshop family.
+
+**M6a V1 therefore remains frozen as the Hauser-1986/1988 best-evidence build.** A future M6c/M8/M9/M10 CAD package must be source-separated rather than averaged into M6a.
+
+## Additional large-family source separation from March 1984 and Kelly/Bailey 1991
+
+- `M5` (Schneider/Weber, 13-Mar-1984) and `M5a` (L. L. Rorschach report dated 17-Mar-1984) are separate documentary IDs because source independence and exact object identity are unresolved. Both describe ~1.1-m-wide apparatuses and therefore are not silently folded into Hauser's later ~500-mm-disc M6a reconstruction.
+- Kelly/Bailey 1991 is not a direct-observer source. Their disc-size/pickup/component descriptions are explicitly based on available reports/photos/video and contain conjecture. They cannot override Hauser direct-visit scans.
+- The M6a V1 CAD remains unchanged by this addendum.
