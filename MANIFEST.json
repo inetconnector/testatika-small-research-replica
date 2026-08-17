@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 3120,
-      "sha256": "e8012228eb4ddf9f9eb7458cca644696a974bec273ba395e8591e11a7a6198ad"
+      "size": 3551,
+      "sha256": "3787ea493f575bf7cfb8454c8a9b8cadd02f7276cec70ad5c4336662a88d8a9f"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
