@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 344,
+  "file_count": 345,
   "files": [
     {
       "path": ".gitattributes",
@@ -333,6 +333,11 @@
       "path": "docs/research/cad-reproducibility.md",
       "size": 5955,
       "sha256": "c6537ac30da7b8606c3ee5cb0a7fc03ef284e9fb630b8937754f80c39b58a7a9"
+    },
+    {
+      "path": "docs/research/control-replication-audit-2026-08-17.md",
+      "size": 5775,
+      "sha256": "785566877d5a1b879048a9921a5ddb138a88de0a7b4f423160a38d1328f48de8"
     },
     {
       "path": "docs/research/electrodes.md",
