@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 527,
+  "file_count": 535,
   "files": [
     {
       "path": ".gitattributes",
@@ -275,9 +275,29 @@
       "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
     },
     {
+      "path": "docs/electrical/.evidence-wiring-version",
+      "size": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
       "path": "docs/electrical/BUILD_ORDER.md",
       "size": 1446,
       "sha256": "b7c2df45b9e35dad880ca44cf44240f1648e7c8e41aca5e70e669ff6d43f4a23"
+    },
+    {
+      "path": "docs/electrical/CHANGE_POLICY.md",
+      "size": 238,
+      "sha256": "8355243eb6634a7a3be07110e63bcf6ac754fddae51f7290252ebdfe6f32708e"
+    },
+    {
+      "path": "docs/electrical/FINAL_SCOPE.md",
+      "size": 127,
+      "sha256": "5041bd5405bfa81f5d1299cafd8af53a066db4c743b25190722ee4342cff475c"
+    },
+    {
+      "path": "docs/electrical/INDEX.md",
+      "size": 84,
+      "sha256": "4d50cc543e2cdd9fa14c31d16dcd5c8dcd43d5880d73b1f16998bbe3155493fa"
     },
     {
       "path": "docs/electrical/LAMELLA_TEST_MATRIX.tsv",
@@ -295,14 +315,29 @@
       "sha256": "9ce45c364c11be0a61117e3f6d86adf8acbd832a98ea9d41bb3f4196900e3051"
     },
     {
+      "path": "docs/electrical/NOTES.md",
+      "size": 140,
+      "sha256": "be3ce79b6653d94df103ac0d9c793474460b8e96dfaa430e645b69b4f33fe6ee"
+    },
+    {
       "path": "docs/electrical/README.de.md",
-      "size": 2781,
-      "sha256": "3fe009a1ec201ce214ef83de4df93257cd522bfdefc1a0e87db9857b5d8bee2e"
+      "size": 2869,
+      "sha256": "f65e057b3993f8e903a99237329317194c7bd518fb14ad56311cd18b23632ad8"
     },
     {
       "path": "docs/electrical/README.md",
       "size": 2719,
       "sha256": "dd6ecb9ed724903bcaf25605557e1e28ddaabcf6cd2cd5c76f7d36e1d7a8cb49"
+    },
+    {
+      "path": "docs/electrical/README_CHECKLIST.de.md",
+      "size": 572,
+      "sha256": "8d8ba8976af31ccdc3509dfbdc4dfb904762cc77c8b86a617cdecdf388ce50ac"
+    },
+    {
+      "path": "docs/electrical/README_CHECKLIST.md",
+      "size": 468,
+      "sha256": "6db2b97e5c5cfc0f222ab740682b295b43b23f80b547dbb70fd35dcf7114aff0"
     },
     {
       "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.md",
@@ -313,6 +348,11 @@
       "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
       "size": 2449,
       "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+    },
+    {
+      "path": "docs/electrical/VERSION.md",
+      "size": 248,
+      "sha256": "15d39cd70a8cf829501bc319da9cc3076daaa7a5a617e8d47a54b52ab9f16c76"
     },
     {
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
