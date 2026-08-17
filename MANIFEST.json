@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 513,
+  "file_count": 514,
   "files": [
     {
       "path": ".gitattributes",
@@ -268,6 +268,11 @@
       "path": "docs/build-kits.md",
       "size": 4100,
       "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
+    },
+    {
+      "path": "docs/electrical/M2_V5_EVIDENCE_WIRING.md",
+      "size": 7888,
+      "sha256": "8281c9e9aa5d77e113bdd5391b802bf28bde3e57a96e36b1d1645a68d1118b99"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
