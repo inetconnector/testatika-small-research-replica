@@ -1606,13 +1606,13 @@
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip",
-      "size": 14521422,
-      "sha256": "bf3b171d9afe01978a85ec4b75b695211e88248bbf864e102e591859c7e35d27"
+      "size": 14523169,
+      "sha256": "5be01f304eee9e42d595e891b98d9f6fd239bdf07c7beb4dc4bc62c556b332b2"
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
       "size": 114,
-      "sha256": "97b88d2c76f49e48f60e3f1da1a426fe17a7d218424defae38ebff97c1d82410"
+      "sha256": "0821a899a874a934d72c283d81e98a3c31b31dcb88bcaad19c0a26cd8ebabd9e"
     },
     {
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip",
