@@ -1,0 +1,13 @@
+variant	machine	evidence_class	purpose	primary_nodes	success_criterion	must_not_claim
+M2-W0	M2-V5	P1-boundary	open-node characterization	R01..R24; GRID-L/R; SPIRAL-L/R; STAT/PICKUP; X1..X4	complete isolation/capacitance/phase matrix	historical circuit solved
+M2-W1	M2-V5	LAB-CONVENTIONAL	current-limited variable-capacitance charge-transfer test	DRIVE/PANEL-L/R; PICKUP-L/R; external rectifier; Cstore	reproducible rotor-dependent charge on Cstore above leakage	self-running or excess energy
+M2-W2	M2-V5	I1-HYPOTHESIS	Marinov-like separated drive/collection buses	D+/D-; C+/C-; selected stators/pickups	phase-dependent charge/torque reproduced under documented bias	authentic original bus grouping
+M2-W3	M2-V5	HYPOTHESIS	crystal/rectifier module A/B	X1..X4; passive module	measurable repeatable difference versus OPEN/dummy	original crystal identified
+M2-W4	M2-V5	S2-COMPARISON	Kelly/Potter comparison on external board	external comparison nodes only	comparison traces reproduced	M2 baseline or Methernitha original
+M6-W0	M6-V2	P1-boundary	open-node characterization	A1..A14; L/R grids; windings; MT; OUT; HM; CAP; TOP	complete isolation/capacitance/inductance/phase matrix	historical circuit solved
+M6-W1	M6-V2	LAB-CONVENTIONAL	three-grid variable-capacitance/pulsed pickup test	phase-qualified A nodes; L/R OG/MG/IG; external rectifier; Cstore	reproducible angle/rpm-dependent sense signal and stored charge	excess energy
+M6-W2A	M6-V2	P1+I1-HYPOTHESIS	minimal Hauser-compatible connection family	phase-qualified horizontal stators; L/R-OG; L/R-OUT; sense grids	reproducible coupling from stator system to cylinder/output nodes	exact Hauser/Methernitha node map
+M6-W2B	M6-V2	I1-HYPOTHESIS	one-module-at-a-time Hauser extension	CAP7/8; HM; cylinder winding; TOP module	causal signal change reproduced against dummy	secret circuit identified
+M6-W3	M6-V2	S2-REPLICATION	Rimstar three-grid DC-from-pots replication	outer-grid field; asymmetric middle/inner outputs	published-type pulsed differential behavior independently reproduced	historical original or excess energy
+M6-W4	M6-V2	P1-TEST-MATRIX	lamella/material/mesh A/B	rotor lamellae; stator inserts	material/geometry effect survives blinded controls	magic alloy or energy source
+M6-W5	M6-V2	P1-BLACKBOX	Cathomen withheld upper-stage interface	TOP-IN/OUT/AUX	candidate modules tested one at a time with closed energy accounting	Methernitha secret reconstructed
