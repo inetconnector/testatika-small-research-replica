@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 518,
+  "file_count": 527,
   "files": [
     {
       "path": ".gitattributes",
@@ -98,6 +98,11 @@
       "path": ".github/workflows/snapshot-main.yml",
       "size": 771,
       "sha256": "5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067"
+    },
+    {
+      "path": ".github/workflows/validate-evidence-wiring.yml",
+      "size": 1053,
+      "sha256": "1ef9294a76152654619cc3144a4bfc6015f3a1b2b31c573af25eba4979798b8b"
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -270,6 +275,11 @@
       "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
     },
     {
+      "path": "docs/electrical/BUILD_ORDER.md",
+      "size": 1446,
+      "sha256": "b7c2df45b9e35dad880ca44cf44240f1648e7c8e41aca5e70e669ff6d43f4a23"
+    },
+    {
       "path": "docs/electrical/LAMELLA_TEST_MATRIX.tsv",
       "size": 2988,
       "sha256": "349b872d0e7b5550e7f76375cd06fc59a7cbc79c2801244a9e8f24cb4260e228"
@@ -285,6 +295,26 @@
       "sha256": "9ce45c364c11be0a61117e3f6d86adf8acbd832a98ea9d41bb3f4196900e3051"
     },
     {
+      "path": "docs/electrical/README.de.md",
+      "size": 2781,
+      "sha256": "3fe009a1ec201ce214ef83de4df93257cd522bfdefc1a0e87db9857b5d8bee2e"
+    },
+    {
+      "path": "docs/electrical/README.md",
+      "size": 2719,
+      "sha256": "dd6ecb9ed724903bcaf25605557e1e28ddaabcf6cd2cd5c76f7d36e1d7a8cb49"
+    },
+    {
+      "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.md",
+      "size": 1727,
+      "sha256": "fef418a18e3a95babf0ef8839adf74263f38977e681c32dbdccbc5ca692f762f"
+    },
+    {
+      "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
+      "size": 2449,
+      "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+    },
+    {
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
       "size": 2413,
       "sha256": "f021e8d70a614894ffb7c52d9f2c06f401b87f43894c0a158f24dadcf591a8b0"
@@ -293,6 +323,11 @@
       "path": "docs/electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg",
       "size": 6243,
       "sha256": "ebdcfabdb2415d0f70860981267c5d8ea686382e0ff57239e7212424c77b6125"
+    },
+    {
+      "path": "docs/electrical/diagrams/M6_V2_EVIDENCE_WIRING.svg",
+      "size": 5743,
+      "sha256": "5c6e8d878559fcf7aa80253fb14b4b5f742a77950883d55a95cd9f45ca13a383"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
@@ -571,8 +606,8 @@
     },
     {
       "path": "docs/research/m2-v5-fabrication-kit.md",
-      "size": 4744,
-      "sha256": "dcdfe1b933f3b44d8746d6387b714de5614b2505d71b5aa42be2fc7904454827"
+      "size": 5550,
+      "sha256": "a0ab7731dc2923682efd6a8d74bc3f7dcede068e608df060e7fa45940ad069ee"
     },
     {
       "path": "docs/research/m6-large-v1-assembly.md",
@@ -631,8 +666,8 @@
     },
     {
       "path": "docs/research/m6-v2-fabrication-kit.md",
-      "size": 5305,
-      "sha256": "dc51317905cd459883269588e0b3dda645075da227fe1b8fa4c12d91582bec60"
+      "size": 6991,
+      "sha256": "fcdfcf954a6afa46f5d85bd5ecca4b13eaf953795c1e93ecf7daf8865bb87047"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -838,6 +873,11 @@
       "path": "docs/research/wiring-and-lamella-audit-2026-08-17.md",
       "size": 14376,
       "sha256": "5a3d1683d9f5ab079fdfb4c38ec852a2a1a79166da5cdf3a1ce40b6f215e3dbd"
+    },
+    {
+      "path": "docs/research/wiring-image-audit-addendum-2026-08-17.md",
+      "size": 6270,
+      "sha256": "4d272c7b932e78d3c15a1ec20d6ae7831442d115214d38be634b33c81f580c75"
     },
     {
       "path": "docs/research/witness-source-independence-1984.md",
@@ -2538,6 +2578,11 @@
       "path": "scripts/check_build_kits.py",
       "size": 4151,
       "sha256": "2070b7f7832124ad497438c19ad8579836f937116784a15b6f2b9820a58d9fd0"
+    },
+    {
+      "path": "scripts/check_evidence_wiring.py",
+      "size": 6497,
+      "sha256": "20c2064bf4b8db3d69b777d96289c631928206aace9a31d07c868d6bb112c1c3"
     },
     {
       "path": "scripts/check_m6_assets.py",
