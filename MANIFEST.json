@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 3795,
-      "sha256": "54753741034238542794e28a7d2ce0c6fdb7613291256fa61d4cb6fb6f22b439"
+      "size": 4039,
+      "sha256": "3e163f6b3b87574b9284c7ed664fd0f466fddde0345f2c02cd71997e5dfc08c5"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
@@ -111,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 16922,
-      "sha256": "0b035a8e6230c3a542798823df2b1bcf5bc3ff944cf04b5614b193a330fb9245"
+      "size": 17862,
+      "sha256": "dbf913634e4e7603f96c1f270000fee2af657d90acec725843b511256eaf04bb"
     },
     {
       "path": "CITATION.cff",
@@ -161,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 242979,
-      "sha256": "3134fc482053d7137c1c61f0e65c06ea01d34d1bdfda514cdd5dd8cf53235177"
+      "size": 243750,
+      "sha256": "c04bad79b30078c9f9aaa3716669a5306a2c37587c6522d2888a9fd425e806ba"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 60680,
-      "sha256": "55162773d046c838f6f068ebafbc78b68a7a38e0a564f29cd0262f03cda36706"
+      "size": 61275,
+      "sha256": "d79778eaf98f657445500bea3867c2de19e05e66187801c60a4b47795838b680"
     },
     {
       "path": "cad/README.md",
@@ -211,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 6816,
-      "sha256": "cb54920acafaef49cc2e8203b1f1dafc3a1d93aa79562c4bec3323a7fa6df94a"
+      "size": 7726,
+      "sha256": "da5c585ab3a8390c6ab58b020f8219bbc598f781a8d946063a81a939172384ac"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 20781,
-      "sha256": "c8ba4fea03c3b967a9881ffa694b29a923d6968235dc014cec9bc2e4bf053b6f"
+      "size": 21708,
+      "sha256": "dc53bc91be7ad10c3ff8d71b9b16d8b257660cc10317cbb8bd6b72164a07896b"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -351,8 +351,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 28271,
-      "sha256": "e9a0c736aa47edb6414051488c5816a7d491a3f4b18ac10281e54b7a71e9edf9"
+      "size": 30740,
+      "sha256": "441718c5a00bc2d49b73b5deabecabf78662b8bbed56216153a29bf892a035e1"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -571,13 +571,13 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 11982,
-      "sha256": "3c68ea81a91e71ec48a8f7ce4c89c5bfc2992050434560d39ab027b0ff94fd39"
+      "size": 15301,
+      "sha256": "03370e2eebac8eadcc3474a99bf072f5820a1b627fef61840abf16e649339ad4"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 22138,
-      "sha256": "1f20118c1c44556fb0eb00d2ab10290627239285c6820e5cf441e15b8b8c25c3"
+      "size": 24557,
+      "sha256": "c3111a494da5a4f83b846d47c7e37eec036b04d8b9d68fb88f62c5ac0d7fff9d"
     },
     {
       "path": "docs/research/stl_dimensions.json",

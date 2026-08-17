@@ -190,3 +190,16 @@ The source is a later German translation of a text marked first-published 1989, 
 Importantly, Marinov also makes clear in the same article that he did not understand/reconstruct the operating principle. His proposed high-V driving bus / lower-V collecting bus remains a **testable interpretation**, not original wiring.
 
 No V4 CAD geometry changes are justified by Round 3.
+
+## Internet crawl round 4 — claim-conflation guard
+
+The crawl explicitly rejects a common secondary-history shortcut: **`Marinov was given a 100-W Testatika in 1997` is not established by the located evidence.** Frolov 2021 makes the strong claim, but the earlier Watson transmission only says Baumann gave Marinov a small machine `to play with` and states that the observations/tests described were made at Linden without quantitative test equipment. The ~100-W figure comes from a rough resistor-heating estimate, not a nameplate/calibrated rating.
+
+Therefore:
+
+- no ownership/permanent-transfer state is inferred for M2 from Watson;
+- no `100 W rated M2` field is added;
+- the Frolov/Sapogin story remains preserved as a late secondary contradiction lead;
+- V4 geometry/electrical baseline remains unchanged.
+
+The Nuetec 1280×720-labelled film is not yet frame-audited and therefore supplies **no new M2 geometry yet**.

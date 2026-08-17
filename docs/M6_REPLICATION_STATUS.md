@@ -93,3 +93,14 @@ Round 3 adds cross-machine constraints without silently rewriting M6a:
 - Hauser's later atmosphere/window/storm statements are retrospective/operator explanations only; direct Hauser scans remain the numeric source of record.
 
 Accordingly the current M6a V1 STEP/STL remains unchanged pending an explicit object/source bridge.
+
+## Internet crawl round 4 — chronology and publication guards
+
+Round 4 adds provenance constraints without modifying M6a CAD:
+
+- 1999 engineer-demonstration chronology remains CONFLICT: `5-Jun-1999 / 34 engineers` in the 2004 seminar programme versus `4-Aug-1999 / 30 engineers` in a 2011 Schneider retrospective.
+- Weber's 2004 `polymer-chain charge exchange during air ionization` is a later explanatory model, not recovered M6 circuitry.
+- Hauser's source-publication chain is more precise (`DIFOT-News` 5/May-1986 → `UFO-Contact` 6/1986 → English Feb-1987), but original issues remain acquisition targets; direct project Hauser scans stay the numeric source of record.
+- A Nuetec 1280×720-labelled Methernitha film is publicly linked but has not been source-resolution/frame compared; no M6 geometry is upgraded from it yet.
+
+M6a V1 remains source-anchored to the direct Hauser 1986/1988 material.

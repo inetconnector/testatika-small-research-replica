@@ -222,3 +222,15 @@ No over-unity or free-energy claim is asserted. Unknown historical wiring remain
 - classified Kelly SAE 929472 as a derivative design, not historical Testatika wiring;
 - added controlled environment-variable experiment requirements;
 - no historical CAD baseline changed.
+
+### Internet source audit round 4 — 2026-08-17
+
+- classified the Frolov/Sapogin `1997 100-W Testatika gift` story as unsupported late secondary/likely conflation against Watson/Marinov source details;
+- preserved the 1999 engineer-demo `5-Jun/34` versus `4-Aug/30` date/count conflict;
+- added the 13-Mar-2004 seminar as a provenance node and Weber polymer-chain/air-ionization as a dated later hypothesis;
+- upgraded the 2010 Methernitha response to recipient-published correspondence while keeping original message acquisition open;
+- prevented Nuetec's editor-added `Nov 1980` from becoming a false Nieper/Testatika timeline fact;
+- preserved 1977/1978 construction dates as prototype/milestone conflict;
+- documented Hauser's DIFOT/UFO-Contact/English publication chain;
+- added Nuetec HD-labelled video and companion-document corpus as acquisition targets without claiming uninspected content;
+- no historical CAD baseline changed.

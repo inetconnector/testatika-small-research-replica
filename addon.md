@@ -2045,3 +2045,9 @@ Important guards:
 - Einsiedeln 27–29 Oct 1989 is now strongly film-only for Testatika; attendance remains ~500/~700 conflict.
 - Hauser atmosphere/window/storm claims are late retrospective/operator statements and must be experimentally decomposed, not promoted to an energy-source fact.
 - No CAD changes from Round 3 without an explicit source-to-machine bridge.
+
+## Internet audit round 4 handoff — 2026-08-17
+
+Before continuing, read `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
+
+Do not repeat as fact that Marinov received a `100-W Testatika` in 1997. The located chain does not support a permanent gift or rated output. Preserve the 1999 5-Jun/34 vs 4-Aug/30 conflict. Treat Weber's polymer-chain/air-ionization as a 2004 theory. Treat Nuetec's Nov-1980 Nieper date as editor annotation until original TWT-V/Nieper evidence is obtained. The Nuetec HD-labelled film has not yet been frame-audited.

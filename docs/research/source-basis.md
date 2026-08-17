@@ -281,3 +281,23 @@ Key corrections/refinements:
 8. Kelly's 1992 SAE paper 929472 is explicitly a Kelly-derived quad-disc design, not a recovered Testatika circuit.
 
 No Round-3 item closes the hidden historical circuit or changes the M2/M6 CAD baseline automatically.
+
+## Internet source audit round 4 — 2026-08-17
+
+Canonical Round-4 records:
+
+- [`internet-source-audit-round4-2026-08-17.md`](internet-source-audit-round4-2026-08-17.md)
+- [`internet-source-ledger-round4.tsv`](internet-source-ledger-round4.tsv)
+
+High-value provenance corrections:
+
+1. The late claim that Marinov **received a 100-W Testatika generator in 1997** appears in Frolov 2021 but is not supported by a contemporaneous transfer source found in the crawl. Watson 2001 only relays that Baumann gave Marinov a small machine `to play with`, then explicitly says the observations were made at Linden without quantitative test gear. The ~100-W number is a resistor-heating estimate, not a recovered device rating. Treat the 1997 permanent-gift story as **unsupported late secondary / likely conflation**.
+2. The 1999 engineer demonstration has an unresolved source conflict: the preserved 2004 seminar programme says **5-Jun-1999 / 34 engineers**, while the 2011 Schneider retrospective says **4-Aug-1999 / 30 Swiss engineers**. Do not normalize these.
+3. The 13-Mar-2004 Zurich seminar is a strong provenance node for later theories: Hans Weber explicitly presented a `polymer-chain charge exchange during air ionization` model and the programme says his 1984 presentation used video. These are dated later interpretations, not Methernitha primary engineering.
+4. The 2011 NET-Journal article reproduces a 2010 Methernitha reply as recipient-published institutional correspondence. It is stronger than a forum mirror but still not the original message/header.
+5. Nuetec's parenthetical `WR: im November 1980` attached to a Marinov/Nieper statement is an editor/translator annotation. The crawl has not verified 1980 as the date Nieper had seen/tested Testatika.
+6. Marinov sources give **1977 and 1978** in different retrospective/construction contexts. Preserve this as a milestone/prototype chronology issue instead of forcing one universal first-build date.
+7. Hauser's publication chain is now concrete: 14-Feb-1986 visit → `DIFOT-News` no.5 May-1986 → `UFO-Contact` no.6 1986 → English version Feb-1987 → later expanded Hauser material.
+8. Nuetec publicly links a 30-minute Methernitha film labelled **1280×720**, but the file has not yet been frame-audited and could be an upscale. It is an acquisition target, not new geometry evidence.
+
+Round 4 does not justify an automatic historical CAD change.

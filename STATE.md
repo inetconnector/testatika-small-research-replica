@@ -4892,3 +4892,9 @@ Key state changes: Kelly early horseshoe-near-disc geometry is explicitly self-c
 Round 3 is recorded in `docs/research/internet-source-audit-round3-2026-08-17.md` and `internet-source-ledger-round3.tsv`.
 
 Key changes: Marinov's 1989 Testatika article is now available as a complete page-locatable German translation mirror; medium-machine >=10-electrode lower bound, medium/large perforation-scale distinction and loose large counterrotation cord are documented; Marinov's two-bus wiring model is explicitly demoted to hypothesis; independent Marinov + Relinfo evidence strongly classifies Einsiedeln 27–29 Oct 1989 as film-only; late Hauser atmosphere/window/storm claims are preserved as retrospective Baumann-attributed statements only; Kelly SAE 929472 is classified as a derivative design. No historical CAD baseline changed.
+
+## Internet audit round 4 — 2026-08-17
+
+Round 4 is recorded in `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
+
+Key state: Frolov's `1997 100-W gift` story is classified unsupported late secondary/likely conflation; 1999 engineer demo remains 5-Jun/34 vs 4-Aug/30 conflict; 2004 Weber polymer-chain/air-ion theory is dated hypothesis only; 2010 Methernitha reply is recipient-published correspondence; Nuetec `Nov-1980` Nieper date is editor attribution and unverified; 1977/1978 construction chronology remains milestone-specific conflict; Hauser DIFOT/UFO-Contact/English transmission chain is now explicit; Nuetec 1280x720 film is a high-priority uninspected acquisition lead. No historical CAD baseline changed.
