@@ -2033,3 +2033,15 @@ For future sessions, read these after the first Internet audit:
 - `docs/research/kelly-source-revision-chain-2026-08-17.md`
 
 Do not re-promote early Kelly schematic magnet placement: Kelly himself later called the early close-to-disc horseshoe-magnet depiction incorrect. Preserve the unresolved 1984-vs-1987 `Magnets` chronology. Treat M5/M5a as possible same-machine/source-dependent witness lines. Continue acquisition of original `Magnets`, DIFØT, Einsiedeln proceedings, Sarah Tripp/NLS film and Yahoo archive before claiming further historical closure.
+
+## Internet audit round 3 handoff — 2026-08-17
+
+Read `docs/research/internet-source-audit-round3-2026-08-17.md` and `internet-source-ledger-round3.tsv` before making further historical claims.
+
+Important guards:
+
+- Marinov medium-machine `>=10 electrodes` is not automatically Hauser M6a.
+- Marinov's high-V/low-V bus concept is his hypothesis, not recovered wiring.
+- Einsiedeln 27–29 Oct 1989 is now strongly film-only for Testatika; attendance remains ~500/~700 conflict.
+- Hauser atmosphere/window/storm claims are late retrospective/operator statements and must be experimentally decomposed, not promoted to an energy-source fact.
+- No CAD changes from Round 3 without an explicit source-to-machine bridge.

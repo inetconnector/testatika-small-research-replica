@@ -261,3 +261,23 @@ High-value consequences:
 7. **Patent-search boundary:** a targeted public patent search did not identify a provenance-secure Testatika/Methernitha patent. Unrelated inventors named Paul Baumann are an identity-confound. This is a bounded negative search result, not proof that no patent or filing can exist.
 
 Round 2 does not recover the hidden circuit, crystal material, M2 through-disc route or M6a node map. Those remain UNKNOWN.
+
+## Internet source audit round 3 — 2026-08-17
+
+Canonical Round-3 records:
+
+- [`internet-source-audit-round3-2026-08-17.md`](internet-source-audit-round3-2026-08-17.md)
+- [`internet-source-ledger-round3.tsv`](internet-source-ledger-round3.tsv)
+
+Key corrections/refinements:
+
+1. A complete 29-page public German translation mirror of Marinov's 1989 `Die Maschine TESTATIKA und ihr physikalischer Hintergrund` gives a page-locatable author-text source for the M2 startup/shield observations and for several medium/large-machine constraints. It remains a later translation, so exact wording still requires a source-language scan.
+2. Marinov says the medium-machine image shows **9 countable stationary electrodes and surely at least 10**. Exact total and identity with Hauser M6a remain unresolved.
+3. Marinov distinguishes perforated sector hole scale: smaller holes on the medium machine, larger holes on the large machine. Baumann-attributed Fe-Ni composition/slight magnetization remains source-stated rather than measured.
+4. Marinov says the large-machine counterrotation cord/string he saw was quite loose. This is a mechanical lead, not a solved drive system.
+5. Marinov's proposed high-voltage drive-capacitor versus lower-voltage collecting-capacitor architecture is explicitly inferential in the same text and remains **HYPOTHESIS**, not recovered wiring.
+6. Independent Marinov and contemporary Relinfo accounts converge that the **27–29 Oct 1989 Einsiedeln SAFE Testatika presentation was film-only**. Attendance remains approximate/conflicting (~700 vs ~500).
+7. Hauser's later author retrospective preserves Baumann-attributed atmospheric-ion/window/storm claims, but the same web transcription contains obvious numeric corruption versus the direct scans. These statements are retained only as `LATE-RETROSPECTIVE / BAUMANN→HAUSER`, not as established energy-source physics.
+8. Kelly's 1992 SAE paper 929472 is explicitly a Kelly-derived quad-disc design, not a recovered Testatika circuit.
+
+No Round-3 item closes the hidden historical circuit or changes the M2/M6 CAD baseline automatically.

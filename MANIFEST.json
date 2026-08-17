@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 3551,
-      "sha256": "3787ea493f575bf7cfb8454c8a9b8cadd02f7276cec70ad5c4336662a88d8a9f"
+      "size": 3795,
+      "sha256": "54753741034238542794e28a7d2ce0c6fdb7613291256fa61d4cb6fb6f22b439"
     },
     {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
@@ -111,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 16122,
-      "sha256": "50660de583bdefd58151b728d935bf118247235cbb29c1db45af244f704dac5b"
+      "size": 16922,
+      "sha256": "0b035a8e6230c3a542798823df2b1bcf5bc3ff944cf04b5614b193a330fb9245"
     },
     {
       "path": "CITATION.cff",
@@ -161,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 242184,
-      "sha256": "ca3417f29c61261b2cde5ed185ce115dba7cdcf20ec9f9113a77912865b74fad"
+      "size": 242979,
+      "sha256": "3134fc482053d7137c1c61f0e65c06ea01d34d1bdfda514cdd5dd8cf53235177"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 59963,
-      "sha256": "f6f00eaeb7a5a2c2ce42fe5ec84a23e511e8572c2c2bbe68b233c414fdd59a71"
+      "size": 60680,
+      "sha256": "55162773d046c838f6f068ebafbc78b68a7a38e0a564f29cd0262f03cda36706"
     },
     {
       "path": "cad/README.md",
@@ -211,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 5793,
-      "sha256": "2a74f11b22eb9bdf20b79219b95c620db299dfeb6e2323a953cf9e6b4cc0c72a"
+      "size": 6816,
+      "sha256": "cb54920acafaef49cc2e8203b1f1dafc3a1d93aa79562c4bec3323a7fa6df94a"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 19905,
-      "sha256": "6aac4a13500d270b2837562bd1750121489d55c221701281b5c9773f27cae314"
+      "size": 20781,
+      "sha256": "c8ba4fea03c3b967a9881ffa694b29a923d6968235dc014cec9bc2e4bf053b6f"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -351,13 +351,13 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 26001,
-      "sha256": "9ae5afe92b037e0ea13a3d9e8dc3f1143ea2afa151fce56e4d5e2a5a06393fcd"
+      "size": 28271,
+      "sha256": "e9a0c736aa47edb6414051488c5816a7d491a3f4b18ac10281e54b7a71e9edf9"
     },
     {
       "path": "docs/research/experiment-plan.md",
-      "size": 13220,
-      "sha256": "3a17d95af6f431113f67611b0182012baa1f0e44db29ae8d0386dda251e71abf"
+      "size": 14890,
+      "sha256": "a62248ed5eb8e5833cc1cd3f2f609b64306a19f01065f9cf86477e49beabbc60"
     },
     {
       "path": "docs/research/external-corpus.md",
@@ -561,13 +561,13 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 9086,
-      "sha256": "c3a9f62479ebdf174ce5719482c9e81c0431aff1c437931687e41f014ad88b51"
+      "size": 11982,
+      "sha256": "3c68ea81a91e71ec48a8f7ce4c89c5bfc2992050434560d39ab027b0ff94fd39"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 20026,
-      "sha256": "fd86bfac2c36f3760d66a8a173f542b1fbe53982f45001d917b7a906bcc67d9d"
+      "size": 22138,
+      "sha256": "1f20118c1c44556fb0eb00d2ab10290627239285c6820e5cf441e15b8b8c25c3"
     },
     {
       "path": "docs/research/stl_dimensions.json",

@@ -180,3 +180,13 @@ The 2026-08-17 Round-2 crawl adds a specific warning for M2 historical reconstru
 - No Round-2 source closes the M2 node-to-node circuit, exact through-disc route, pot electrical internals or crystal identity.
 
 Accordingly the V4 physical baseline remains unchanged by Round 2.
+
+## Internet crawl round 3 — M2 source lock
+
+Round 3 provides a stable public page-locatable Marinov author-text mirror for several M2 observations already present in the ledger: dry-air 3–4-push startup, humidity dependence, Baumann→Marinov East–West startup instruction, post-start orientation independence, ~1 rev/s running observation, direct rear-metal-plate stop and easier later restart.
+
+The source is a later German translation of a text marked first-published 1989, so exact translation wording must not outrank an original-language scan if one is acquired later.
+
+Importantly, Marinov also makes clear in the same article that he did not understand/reconstruct the operating principle. His proposed high-V driving bus / lower-V collecting bus remains a **testable interpretation**, not original wiring.
+
+No V4 CAD geometry changes are justified by Round 3.

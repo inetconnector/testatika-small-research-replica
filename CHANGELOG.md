@@ -210,3 +210,15 @@ No over-unity or free-energy claim is asserted. Unknown historical wiring remain
 - added Sarah Tripp/National Library of Scotland archival acquisition route;
 - added colossus2/Oulu FTP digital-forensics leads and bounded negative patent-search result;
 - no historical CAD baseline changed in this audit round.
+
+### Internet source audit round 3 — 2026-08-17
+
+- added a complete page-locatable Marinov 1989 Testatika translation-mirror audit;
+- added medium-machine >=10-electrode lower bound and medium/large perforation-scale distinction;
+- added loose large-machine counterrotation-cord observation;
+- explicitly classified Marinov's proposed two-bus wiring as hypothesis;
+- corrected the 27–29 Oct 1989 Einsiedeln Testatika presentation to strong FILM-ONLY convergence, retaining attendee-count conflict;
+- added late Hauser atmosphere/window/storm claims with numeric-corruption and retrospective-source guards;
+- classified Kelly SAE 929472 as a derivative design, not historical Testatika wiring;
+- added controlled environment-variable experiment requirements;
+- no historical CAD baseline changed.

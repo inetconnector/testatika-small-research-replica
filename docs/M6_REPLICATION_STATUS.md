@@ -81,3 +81,15 @@ Round 2 strengthens source separation rather than changing the M6a CAD baseline:
 - No new source closes the three-grid-cylinder node map, top-crystal electrical function, original speed-control transmission or hidden historical buses.
 
 No M6 V1 STEP/STL geometry is silently altered by these provenance findings.
+
+## Internet crawl round 3 — medium/large constraints
+
+Round 3 adds cross-machine constraints without silently rewriting M6a:
+
+- Marinov's medium-machine image count: 9 stationary electrodes visible, with his statement that there were surely at least 10. Exact total and identity with Hauser M6a's 8-front + 6-rear line remain unresolved.
+- Marinov distinguishes perforated-sector hole scale between medium (smaller holes) and large (larger holes).
+- Marinov reports a quite loose counterrotation cord/string on the large-machine hardware he saw.
+- His open-large-cylinder observation (outer cylinder + inner thick-Cu-wire coil) continues to support separate M6c conflict handling and does not erase Hauser M6a's three-grid/acrylic/magnet-tube/bifilar source line.
+- Hauser's later atmosphere/window/storm statements are retrospective/operator explanations only; direct Hauser scans remain the numeric source of record.
+
+Accordingly the current M6a V1 STEP/STL remains unchanged pending an explicit object/source bridge.

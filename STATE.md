@@ -4886,3 +4886,9 @@ Do not double-count M5 and M5a as independent until source dependence is resolve
 Continuation of the verified Internet crawl is recorded in `docs/research/internet-source-audit-round2-2026-08-17.md`, `internet-source-ledger-round2.tsv` and `kelly-source-revision-chain-2026-08-17.md`.
 
 Key state changes: Kelly early horseshoe-near-disc geometry is explicitly self-corrected/superseded by Kelly; `Magnets` 1984?/Aug-1987/Dec-1988 objects remain separate pending originals; M5a direct-published geometry is strengthened but M5/M5a independence remains unresolved; Kelly 1998 build is only a build attempt with unknown outcome; Sarah Tripp film has an NLS archive route; old colossus2/Oulu FTP paths are acquisition leads. No M2/M6 CAD baseline is changed by this round.
+
+## Internet audit round 3 — 2026-08-17
+
+Round 3 is recorded in `docs/research/internet-source-audit-round3-2026-08-17.md` and `internet-source-ledger-round3.tsv`.
+
+Key changes: Marinov's 1989 Testatika article is now available as a complete page-locatable German translation mirror; medium-machine >=10-electrode lower bound, medium/large perforation-scale distinction and loose large counterrotation cord are documented; Marinov's two-bus wiring model is explicitly demoted to hypothesis; independent Marinov + Relinfo evidence strongly classifies Einsiedeln 27–29 Oct 1989 as film-only; late Hauser atmosphere/window/storm claims are preserved as retrospective Baumann-attributed statements only; Kelly SAE 929472 is classified as a derivative design. No historical CAD baseline changed.
