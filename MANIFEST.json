@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 362,
+  "file_count": 363,
   "files": [
     {
       "path": ".gitattributes",
@@ -418,6 +418,11 @@
       "path": "docs/research/internet-source-audit-round4-2026-08-17.md",
       "size": 15008,
       "sha256": "2a69b509db0c0895d9cc3daa21aaa9b942581aa61ca50f608a9a33f181e00452"
+    },
+    {
+      "path": "docs/research/internet-source-audit-round5-2026-08-17.md",
+      "size": 9375,
+      "sha256": "8966561b1292c76bdcffe303984e4702599e82c6f2b688721e39076373b7f17a"
     },
     {
       "path": "docs/research/internet-source-ledger-round2.tsv",

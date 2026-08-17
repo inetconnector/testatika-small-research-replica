@@ -81,6 +81,7 @@ e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1  docs/research/
 848ac1fc1165fc05ea8533377bdae12904beee589c904e37d75b3bc88b6001c1  docs/research/internet-source-audit-round2-2026-08-17.md
 5847e52db7ac1e08ea272c5c331391bc41876f8de02e032678203b47b4393312  docs/research/internet-source-audit-round3-2026-08-17.md
 2a69b509db0c0895d9cc3daa21aaa9b942581aa61ca50f608a9a33f181e00452  docs/research/internet-source-audit-round4-2026-08-17.md
+8966561b1292c76bdcffe303984e4702599e82c6f2b688721e39076373b7f17a  docs/research/internet-source-audit-round5-2026-08-17.md
 5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781  docs/research/internet-source-ledger-round2.tsv
 e987f57b3011662d8812a8c3b7d16e1d1efa892e21ded33670c7154d0dc8ad51  docs/research/internet-source-ledger-round3.tsv
 de8c3eef1c37319ab816576781f12ba8454eef85f13f31b9142da48eae40dd9a  docs/research/internet-source-ledger-round4.tsv
