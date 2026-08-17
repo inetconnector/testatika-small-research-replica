@@ -1,4 +1,4 @@
-# ADDON.md — Testatika / Thesta-Distatica
+# addon.md — Testatika / Thesta-Distatica
 ## Externe Ergänzungen, Quellenregister, Konfliktmatrix und vollständiger Session-Handoff
 
 **Version:** 1.0  
