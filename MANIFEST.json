@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 369,
+  "file_count": 371,
   "files": [
     {
       "path": ".gitattributes",
@@ -435,6 +435,11 @@
       "sha256": "afec75a50156d6b3ba7d05a7a8bc69315df3b2fc9f350ba3fe4ee2be2beb7273"
     },
     {
+      "path": "docs/research/internet-source-audit-round8-2026-08-17.md",
+      "size": 9285,
+      "sha256": "c0c1070663ff935dfc1f07d24c68bf1b4c13df0623b46d1fd9052cec1160cded"
+    },
+    {
       "path": "docs/research/internet-source-ledger-round2.tsv",
       "size": 5172,
       "sha256": "5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781"
@@ -613,6 +618,11 @@
       "path": "docs/research/source-basis.md",
       "size": 24557,
       "sha256": "c3111a494da5a4f83b846d47c7e37eec036b04d8b9d68fb88f62c5ac0d7fff9d"
+    },
+    {
+      "path": "docs/research/source-independence-round8.tsv",
+      "size": 2038,
+      "sha256": "3438ce08c40a8d89b622211223c9d04eed1ca2f8214c9635932d6173b9771e2f"
     },
     {
       "path": "docs/research/stl_dimensions.json",
