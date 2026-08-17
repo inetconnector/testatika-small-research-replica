@@ -71,6 +71,101 @@ Historische Angaben zur Drehzahl schwanken erheblich. Holzherr beobachtete 1999 
 
 Ist der Rotor zu schnell, erreicht ein Knoten seinen vorgesehenen Schwellwert möglicherweise nicht. Ist er zu langsam, kann die Ladung vor dem nächsten Schritt wieder weglecken. Dazu kommen Oberflächenleitung in PMMA, Corona- und Ionentransport. Genau deshalb ist die historische Aussage, die Maschine müsse langsam und sehr gleichmäßig laufen, technisch bemerkenswert. Sie passt zu einem phasenabhängigen Ladungszustandsautomaten wesentlich besser als zu einer simplen 50-Hz-Generatorinterpretation.[3][7]
 
+## 4a. Neue Kernhypothese: positive Rückkopplung und phasenabhängige Kommutation
+
+Die bemerkenswerteste Formulierung der Methernitha-Beschreibung ist nicht nur, dass eine Diode gleichrichtet. Sinngemäß wird ihr zugeschrieben, den Anziehungs-/Abstoßungszyklus in einem stationären Zustand zu halten; ohne diese Wirkung würden sich die Impulse weiter aufsummieren und die Scheiben schneller laufen.[3] Nimmt man diese Aussage technisch ernst, liegt ein **selbsterregtes elektromechanisches System** näher als eine gewöhnliche Ausgangsgleichrichtung.
+
+Das Minimalmodell lautet:
+
+`ω → C(θ) → Q,V → τ_el → ω`
+
+Die Bewegung verändert die Kapazitätsmatrix, dadurch ändern sich Ladung und Spannung, diese erzeugen wiederum elektrostatisches Drehmoment und verändern die Bewegung. Die Grundgleichungen sind:
+
+`Q = C(θ) · V`
+
+`τ_el ≈ 1/2 · V² · dC/dθ`
+
+Entscheidend ist daher nicht nur die Höhe der Spannung, sondern **zu welchem Rotorwinkel** ein Knoten geladen, entladen, weitergeschaltet oder gesperrt ist.
+
+### Warum eine Aufschaukelung möglich ist
+
+Über eine vollständige Umdrehung kann man die dem Rotor zugeführte elektrostatische Arbeit schreiben als:
+
+`ΔE_Rotor = ∮ τ_el(θ) dθ`
+
+Bleibt dieses Integral nach Reibungs-, Luft- und elektrischen Verlusten positiv, erhält der Rotor pro Umdrehung zusätzliche kinetische Energie:
+
+`E_rot,n+1 = E_rot,n + ΔE_el − E_Verlust`
+
+Solange `ΔE_el > E_Verlust` gilt, steigt die Drehzahl. Das ist **positive Rückkopplung / Selbstanregung**. Dafür braucht man zunächst keine klassische LC-Resonanz.
+
+### Die Diode bzw. der „Crystal“ als Kommutator
+
+In diesem Modell bestimmt der nichtlineare Knoten, wann Ladung zwischen Knoten fließen darf. Damit beeinflusst er direkt die Drehmomentkurve `τ(θ)`.
+
+Ohne wirksames Gating könnte ein Zyklus qualitativ so aussehen:
+
+```text
+A: laden → antreiben
+B: Ladung bleibt / nächste Feldlage → erneut antreiben
+C: neue Influenz → weiterer positiver Impuls
+… → positive Impulse können sich aufsummieren
+```
+
+Mit phasenabhängigem Gating:
+
+```text
+A: laden
+B: antreiben
+C: Ladung übertragen
+D: Rückstrom sperren / Zustand zurücksetzen
+A: definierter neuer Zyklus
+```
+
+Wenn der „Crystal“ eine nichtlineare Kennlinie `I = f(V)` besitzt und beispielsweise erst oberhalb eines Schwellwertes `V_th` leitet, kann er gleichzeitig **Polarität, Schwellwert und indirekt Rotorphase** auswählen. Aus einem gewöhnlichen Gleichrichter wird dann funktional ein winkelabhängiger elektrostatischer Schalter.
+
+### Resonanz? Eher Phasensynchronisation
+
+Eine echte LC-Eigenresonanz ist durch die historische Diode-Aussage nicht belegt. Plausibler ist ein phasensynchroner Arbeitspunkt:
+
+`T_Segment ~ τ_RC = R · C`
+
+Hinzu kommen Oberflächenleckage, dielektrische Relaxation, Corona-/Ionentransport und die Schwellkennlinie des Crystal-Knotens. Bei einer optimalen Drehzahl `ω*` stimmen Rotorphase und Ladungsphase so überein, dass positive Drehmomentimpulse maximiert und ungünstige beziehungsweise bremsende Zustände unterdrückt werden. **„Phasensynchrone elektrostatische Selbstanregung“** ist daher die präzisere Arbeitshypothese als „Resonanz“, solange keine echte LC-Resonanz gemessen ist.
+
+### Analogie: Pendel mit Hemmung
+
+Eine hilfreiche mechanische Analogie ist ein Pendel, das bei jedem Durchgang im richtigen Moment einen kleinen Schubs erhält. Solange die zugeführte Energie pro Zyklus größer als die Verluste ist, wächst seine Bewegungsenergie. Eine Hemmung oder ein phasenrichtiges Ventil begrenzt und synchronisiert die Energieübertragung. Übertragen auf die Testatika wäre der Rotor der mechanische Phasengeber, die Influenz erzeugt den elektrischen Zustand, Crystal/Diode wirkt als Hemmung beziehungsweise elektrostatischer Kommutator, Kondensatoren speichern Ladung, Gitter formen das Feld und die Taster nehmen Ladungsänderungen ab.
+
+Diese Analogie erklärt, warum der Satz „ohne Diode wird sie immer schneller“ technisch sinnvoll sein kann, ohne schon eine klassische Resonanz vorauszusetzen: Ein positiver Zyklusimpuls kann sich von Umdrehung zu Umdrehung aufaddieren, bis Verluste oder Kommutation einen stationären Zustand herstellen.
+
+### Moderne elektrostatische Analogien
+
+Die Kombination **variable Kapazität + Dioden + Kondensatoren + phasenabhängige Ladungszustände** ist kein exotisches Konzept. Moderne elektrostatische Energy-Harvesting-Schaltungen verwenden passive Dioden-/Kondensatornetzwerke, um Lade- und Entladezustände mit einer mechanischen Kapazitätsänderung zu synchronisieren. Selbstpriming-Schaltungen für dielektrische Elastomergeneratoren wechseln passiv zwischen Ladungsabgabe und Ladungsaufnahme synchron zur Kapazitätsänderung; MEMS-Generatoren werden mit Dioden-/Kondensator-Spannungsvervielfachern und charge-pump-artigen Q-V-Zyklen analysiert.[11][12]
+
+Diese Arbeiten erklären **keine Testatika-Overunity**. Im Gegenteil: Sie zeigen, dass die vermutete Kommutations- und Rückkopplungsarchitektur vollständig innerhalb etablierter Elektromechanik formulierbar ist. Die mechanische beziehungsweise externe Energiequelle bleibt bei diesen Systemen ausdrücklich Teil der Energiebilanz.
+
+### Zwei energetisch verschiedene Kreise
+
+Diese Interpretation ist auch für die Leistungsfrage wichtig. Wenn reale Lasten im Bereich hunderter Watt oder mehr zugeschaltet werden konnten, ohne dass die Rotoren sichtbar stark abbremsten, wären die Scheiben als direkter mechanischer Leistungsgenerator schwer zu verstehen. Plausibler wäre eine Funktion als **Taktgeber, parametrischer Schalter oder elektrostatischer Kommutator**.
+
+```text
+STEUER-/DRIVE-KREIS
+Rotor → C(θ) → Gitter/Taster → Crystal/Diode
+  ↑                              │
+  └──── elektrostatisches τ ─────┘
+
+LEISTUNGS-/STORAGE-KREIS
+externe Quelle ? → Kondensatoren / Wandler → Last
+                         ↑
+                  vom Rotor getaktet
+```
+
+Eine kleine Steuerleistung kann einen wesentlich größeren Energiefluss schalten, wie ein Transistor eine große Last steuern kann. Der Schalter erzeugt diese Energie jedoch nicht. Bei stationärem Betrieb bleibt zwingend:
+
+`P_Quelle ≥ P_Last + P_Verluste`
+
+Die neue Hypothese kann damit eine **schwache Last-Rotor-Kopplung** erklären, aber nicht die Quelle einer behaupteten Dauerleistung. Eine zusätzliche LC-Resonanz in den Spulen/Kondensatoren der großen Maschine bleibt möglich, ist jedoch bislang nicht ausreichend belegt.[6]
+
 ## 5. Das Principle Experiment: Warum „Gitter statt Folie“ ein Schlüsselhinweis sein könnte
 
 Hans Holzherr beschrieb 1999 einen einfachen Vorversuch Baumanns: Plexiglas, perforierte bzw. gitterförmige Metalllagen, mehrere Platten, zwei Kondensatoren und ein hin- und herbewegter Arm. Nach mehreren Bewegungen zeigte das Messgerät eine Gleichspannung; beim Kurzschluss war ein Knall zu hören. Besonders wichtig ist die Baumann zugeschriebene Aussage, dass eine geschlossene Metallfolie anstelle des Drahtgitters den Effekt nicht in gleicher Weise hervorbringe.[2][4]
@@ -150,7 +245,7 @@ Die neue Funktionshypothese löst dieses Energieproblem nicht – und soll es au
 
 Die neuen Quellen liefern keinen fertigen Originalschaltplan. Sie liefern aber etwas wissenschaftlich fast ebenso Wertvolles: eine deutlich schärfere Fragestellung. Baumanns ungewöhnliche Begriffe lassen sich zu einem konsistenten technischen Bild zusammensetzen, in dem variable Kapazität, berührungslose Influenzabnahme, polaritätsselektive Ladungswege, ein nichtlinearer Crystal-Knoten, Speicher und eine phasenrichtige Rückkopplung zusammenarbeiten.
 
-Damit könnte das eigentliche konstruktive Kunststück der Testatika darin gelegen haben, den elektrostatischen Zustand nicht nur einmal aufzubauen, sondern ihn zyklisch so zu regenerieren, dass Drehmoment und Ladungsentnahme gleichzeitig möglich werden. Genau zu diesem Problem passt Cathomens Werkstattsatz, dass beim einfachen Elektrostatikversuch die Spannung nach dem ersten Impuls wieder weg ist – und dass man lernen musste, sie aufrechtzuerhalten.
+Damit könnte das eigentliche konstruktive Kunststück der Testatika darin gelegen haben, den elektrostatischen Zustand nicht nur einmal aufzubauen, sondern ihn zyklisch so zu regenerieren, dass Drehmoment und Ladungsentnahme gleichzeitig möglich werden. Die neue Rückkopplungsanalyse verschärft diese Hypothese: **Ohne geeignete Phasenkommutation kann sich ein positiver Drehmomentzyklus aufschaukeln; mit Crystal-/Dioden-Gating kann ein definierter, stabiler Ladungs- und Drehmomentzyklus entstehen.** Das ist zunächst ein Regelungs- und Kommutationsproblem, nicht der Nachweis einer besonderen Energiequelle.
 
 Ob diese Regelarchitektur nur eine raffinierte klassische elektrostatische Maschine ergibt oder ob die historischen Geräte darüber hinaus tatsächlich eine ungewöhnliche Nettoenergiequelle nutzten, bleibt offen. Die gute Nachricht ist: Die Frage ist heute weniger mystisch als früher. Sie lässt sich in konkrete Knoten, Phasen, Ladungen, Drehmomente und Energieflüsse zerlegen – und damit experimentell entscheiden.
 
@@ -167,7 +262,9 @@ Ob diese Regelarchitektur nur eine raffinierte klassische elektrostatische Masch
 [7] *Charge storage and transport in PMMA film*, Journal of Electrostatics 44 (1998), DOI 10.1016/S0304-3886(98)00023-0.  
 [8] *Effects of the grid geometry on the performances of a triode-type corona electrode system*, Journal of Electrostatics 101 (2019), DOI 10.1016/j.elstat.2019.103367.  
 [9] Heinrich Wommelsdorf: historische Kondensator-/Influenzmaschinen; Übersicht: https://www.coe.ufrj.br/~acmq/wommelsd.html  
-[10] GitHub-Forschungsrepository: https://github.com/inetconnector/testatika-small-research-replica
+[10] GitHub-Forschungsrepository: https://github.com/inetconnector/testatika-small-research-replica  
+[11] Patrin Illenberger et al.: *More power to the people: getting the most from a dielectric elastomer generator*. arXiv:1603.01637 (2016): https://arxiv.org/abs/1603.01637  
+[12] Binh Duc Truong, Cuong Phu Le, Einar Halvorsen: *Analysis of MEMS electrostatic energy harvesters electrically configured as voltage multipliers*. arXiv:1709.08759 (2017): https://arxiv.org/abs/1709.08759
 
 ---
 
