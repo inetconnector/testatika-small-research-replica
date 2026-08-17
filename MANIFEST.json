@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 555,
+  "file_count": 553,
   "files": [
     {
       "path": ".gitattributes",
@@ -28,11 +28,6 @@
       "path": ".github/ISSUE_TEMPLATE/experiment_report.yml",
       "size": 2348,
       "sha256": "16f401f487fa620d2a3ad3e09d35098c8a6bd738efe2da277e9223ab89e06912"
-    },
-    {
-      "path": ".github/SELF_EXCITATION_UPDATE_TRIGGER",
-      "size": 159,
-      "sha256": "5103f231dc0e5a66ee1a3f6b8a73951585aabe1e8490edc5a80eed6f576c74fb"
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
@@ -80,11 +75,6 @@
       "sha256": "f36d9ad460ebdbbe1e7d3bcc211780793567860a6a5711f5fa2f8f63dc53bc98"
     },
     {
-      "path": ".github/workflows/materialize-self-excitation-update.yml",
-      "size": 24767,
-      "sha256": "a24ed695fef262e68ab030bd9f57145e813a9ac6fb680b439caf4cb04582fa56"
-    },
-    {
       "path": ".github/workflows/materialize-v3-photo.yml",
       "size": 2175,
       "sha256": "4cde306b57d1e3b64e0cf1967693477a10426515107dd1452440f65f7f10c6de"
@@ -101,8 +91,8 @@
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
-      "size": 1642,
-      "sha256": "0280e40a4e6582c5a32be0b47fdf43b85e0ee73399e6639e1f53c0b99971fa3d"
+      "size": 1593,
+      "sha256": "7423c34816d6e5fb94643641fe294418be79cd0e7a0d5ff3c6e1326c258260ca"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
@@ -306,8 +296,8 @@
     },
     {
       "path": "docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx",
-      "size": 1470724,
-      "sha256": "dbe13504abed6609f38ca6f1abedbf69c3505bb9938fa8f9b35fd21f937b2f33"
+      "size": 1474379,
+      "sha256": "a42ae410d0ed409f1c4c64767b1025d6ce4cd525e1498ecd567250f1452286b2"
     },
     {
       "path": "docs/publications/net-journal/Testatika_historisches_Foto.jpg",
@@ -361,13 +351,13 @@
     },
     {
       "path": "docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx",
-      "size": 9540,
-      "sha256": "ee4b6df4f7e145eeb6a471b73819f3031ba29e0fad7177be0b87db477dacf1a2"
+      "size": 40593,
+      "sha256": "960e0d40f97e9ee3f13a66e27b4caa1b7957f618a3d52106009578be0d2ee281"
     },
     {
       "path": "docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx",
-      "size": 10504,
-      "sha256": "d369032a5791174733a74eb149ccabb733d2b93f61de332b2a6c3a8331dbb014"
+      "size": 41607,
+      "sha256": "6acd036e09c677aa8f49c75dbd279097df968ffe39e7a70867f6164b114eb6ed"
     },
     {
       "path": "docs/research/archive-audit-2026-08-16.md",
