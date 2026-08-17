@@ -1,0 +1,214 @@
+name: Materialize self-excitation documentation update
+
+on:
+  push:
+    branches:
+      - agent/self-excitation-phase-commutation
+    paths:
+      - '.github/SELF_EXCITATION_UPDATE_TRIGGER'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: self-excitation-materialize-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          python -m pip install --upgrade pip
+          python -m pip install python-docx pillow
+
+      - name: Extend German and English research DOCX
+        shell: bash
+        run: |
+          python - <<'PY'
+          from docx import Document
+          from docx.shared import Pt
+          from pathlib import Path
+
+          ROOT = Path('.')
+          targets = [
+              (ROOT/'docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx', 'de'),
+              (ROOT/'docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx', 'en'),
+          ]
+
+          def formula(doc, text):
+              p = doc.add_paragraph()
+              p.alignment = 1
+              r = p.add_run(text)
+              r.font.name = 'Cambria Math'
+              r.font.size = Pt(11)
+
+          for path, lang in targets:
+              doc = Document(path)
+              marker = '21. Neue Kernhypothese' if lang == 'de' else '21. New core hypothesis'
+              if any(p.text.startswith(marker) for p in doc.paragraphs):
+                  print(path, 'already contains section 21')
+                  continue
+
+              if lang == 'de':
+                  doc.add_heading('21. Neue Kernhypothese: Selbstanregung statt klassischer Resonanz', level=1)
+                  doc.add_paragraph('Die erhaltene Methernitha-Beschreibung schreibt der Gleichrichterdiode eine ungewöhnliche Regelwirkung zu: Sie halte den Anziehungs-/Abstoßungszyklus in einem stationären Zustand; ohne diese Wirkung sollen sich die Impulse weiter aufsummieren und die Scheiben beschleunigen. Technisch legt das eher ein selbsterregtes elektromechanisches Rückkopplungssystem nahe als einen bloßen Ausgangsgleichrichter. Diese Interpretation ist eine Arbeitshypothese, keine bewiesene Originalschaltung.')
+                  doc.add_heading('21.1 Geschlossene elektromechanische Rückkopplung', level=2)
+                  formula(doc, 'ω → C(θ) → Q,V → τ_el → ω')
+                  formula(doc, 'Q = C(θ) · V')
+                  formula(doc, 'τ_el ≈ 1/2 · V² · dC/dθ')
+                  doc.add_paragraph('Die Rotorbewegung ändert die Kapazitätsmatrix; dadurch ändern sich Ladung und Spannung. Diese Feldzustände erzeugen wiederum ein elektrostatisches Drehmoment und verändern die Rotorbewegung. Entscheidend ist deshalb nicht nur die Höhe von V, sondern zu welchem Rotorwinkel ein Knoten geladen, entladen, weitergeschaltet oder gesperrt ist.')
+
+                  doc.add_heading('21.2 Warum sich der Rotor „aufschaukeln“ kann', level=2)
+                  formula(doc, 'ΔE_Rotor = ∮ τ_el(θ) dθ')
+                  formula(doc, 'E_rot,n+1 = E_rot,n + ΔE_el − E_Verlust')
+                  doc.add_paragraph('Bleibt die über eine Umdrehung zugeführte elektrostatische Arbeit nach Reibungs-, Luft- und elektrischen Verlusten positiv, erhält der Rotor pro Umdrehung zusätzliche kinetische Energie. Solange ΔE_el > E_Verlust gilt, steigt die Drehzahl. Das ist positive Rückkopplung beziehungsweise Selbstanregung und erfordert zunächst keine klassische LC-Resonanz.')
+
+                  doc.add_heading('21.3 Die Diode / der „Crystal“ als elektrostatischer Kommutator', level=2)
+                  doc.add_paragraph('In diesem Modell bestimmt der nichtlineare Knoten, wann Ladung zwischen Knoten fließen darf. Dadurch verändert er unmittelbar die Drehmomentkurve τ(θ). Ohne wirksames Gating kann Ladung über mehrere günstige Feldlagen erhalten bleiben und weitere positive Impulse ermöglichen; mit Gating kann ein definierter Zyklus aus Laden, Antreiben, Ladungsübertragung, Rückstromsperre und Reset entstehen.')
+                  formula(doc, 'I = f(V);  Leitung z. B. erst für V > V_th')
+                  doc.add_paragraph('Ein Crystal mit nichtlinearer Kennlinie kann damit gleichzeitig Polarität, Schwellwert und indirekt Rotorphase auswählen. Funktional wäre er nicht nur Gleichrichter, sondern ein winkelabhängiger elektrostatischer Schalter beziehungsweise Kommutator.')
+
+                  doc.add_heading('21.4 Resonanz? Eher Phasensynchronisation', level=2)
+                  formula(doc, 'T_Segment ~ τ_RC = R · C')
+                  doc.add_paragraph('Eine echte LC-Eigenresonanz ist durch die historische Diode-Aussage nicht belegt. Plausibler ist ein phasensynchroner Arbeitspunkt, bei dem Segmentperiode, RC-Zeit, Oberflächenleckage, dielektrische Relaxation, Corona-/Ionentransport und die Schwellkennlinie des Crystal-Knotens zusammenpassen. „Phasensynchrone elektrostatische Selbstanregung“ ist daher die präzisere Arbeitshypothese, solange keine LC-Resonanz gemessen ist.')
+
+                  doc.add_heading('21.5 Analogie: Pendel mit Hemmung', level=2)
+                  doc.add_paragraph('Eine hilfreiche mechanische Analogie ist ein Pendel, das bei jedem Durchgang im richtigen Moment einen kleinen Schubs erhält. Solange die zugeführte Energie pro Zyklus größer als die Verluste ist, wächst seine Bewegungsenergie. Eine Hemmung oder ein phasenrichtiges Ventil begrenzt und synchronisiert die Energieübertragung. Auf die Testatika übertragen: Rotor = mechanischer Phasengeber; Influenz = Erzeugung des elektrischen Zustands; Crystal/Diode = Hemmung beziehungsweise elektrostatischer Kommutator; Kondensatoren = Ladungsspeicher; Gitter = Feldstruktur; Taster = Ladungsabnehmer.')
+                  formula(doc, '+ΔE, +ΔE, +ΔE, … → Wachstum bis Verluste/Kommutation einen stationären Zustand bilden')
+
+                  doc.add_heading('21.6 Moderne elektrostatische Analogien', level=2)
+                  doc.add_paragraph('Die Kombination variable Kapazität + Dioden + Kondensatoren + phasenabhängige Ladungszustände ist etablierte Elektromechanik. Moderne elektrostatische Energy-Harvesting-Schaltungen synchronisieren Lade-/Entladezustände mit mechanischen Kapazitätsänderungen. Beispiele sind selbstprimende dielektrische Elastomergeneratoren und MEMS-Elektrostatikgeneratoren mit Dioden-/Kondensator-Spannungsvervielfachern beziehungsweise Charge-Pump-Q-V-Zyklen. Diese Systeme erklären keine Testatika-Overunity; ihre mechanische oder externe Energiequelle bleibt ausdrücklich Teil der Energiebilanz.')
+                  doc.add_paragraph('Vergleichsliteratur: Patrin Illenberger et al., “More power to the people: getting the most from a dielectric elastomer generator”, arXiv:1603.01637 (2016); Binh Duc Truong, Cuong Phu Le, Einar Halvorsen, “Analysis of MEMS electrostatic energy harvesters electrically configured as voltage multipliers”, arXiv:1709.08759 (2017).')
+
+                  doc.add_heading('21.7 Konsequenz für die Leistungsfrage: zwei energetisch verschiedene Kreise', level=2)
+                  doc.add_paragraph('Wenn historische Lasten im Bereich hunderter Watt oder mehr tatsächlich zugeschaltet wurden, ohne die Rotoren sichtbar stark abzubremsen, wären die Scheiben als direkter mechanischer Leistungsgenerator schwer zu verstehen. Plausibler wäre eine Funktion als elektrostatischer Taktgeber, parametrischer Schalter oder Kommutator eines getrennten Leistungspfads.')
+                  formula(doc, 'Drive/Steuerkreis: Rotor → C(θ) → Gitter/Taster → Crystal/Diode → τ_el → Rotor')
+                  formula(doc, 'Leistungskreis: externe Quelle ? → Speicher/Wandler → Last  (vom Rotor getaktet)')
+                  formula(doc, 'P_Quelle ≥ P_Last + P_Verluste')
+                  doc.add_paragraph('Eine kleine Steuerleistung kann einen größeren Energiefluss schalten, erzeugt ihn aber nicht. Das Modell kann daher eine schwache Last-Rotor-Kopplung erklären, nicht jedoch die Quelle einer behaupteten Dauerleistung. Eine zusätzliche LC-Resonanz in Spulen/Kondensatoren der großen Maschine bleibt möglich, ist aber derzeit nicht ausreichend belegt.')
+
+                  doc.add_heading('21.8 Konkrete Falsifikationstests', level=2)
+                  tests = [
+                      'Rotorwinkel, Drehmoment und sämtliche Knotenpotentiale/-ströme phasenaufgelöst gleichzeitig messen.',
+                      'Crystal-Pfad mit offen, kurzgeschlossen, R, C sowie verschiedenen Diodenschwellwerten vergleichen.',
+                      'Drehzahlsweep durchführen und nach einem phasenstabilen Optimum suchen, ohne LC-Resonanz vorauszusetzen.',
+                      'Drive-/Bias-Kreis und Load-/Storage-Kreis getrennt belasten und ihre gegenseitige Rückwirkung bestimmen.',
+                      'Unter Last mechanisches Gegendrehmoment und bei M6 jeden Motor-/Hilfsstrom gleichzeitig erfassen.',
+                      'Anfangs- und Endenergie sämtlicher Kondensatoren sowie alle Hilfsenergien in die Energiebilanz aufnehmen.',
+                  ]
+              else:
+                  doc.add_heading('21. New core hypothesis: self-excitation rather than classical resonance', level=1)
+                  doc.add_paragraph('The surviving Methernitha description assigns an unusual control function to the rectifying diode: it is said to keep the attraction/repulsion cycle in a steady state; without that action the impulses would continue to add and the disks would accelerate. Technically, this points more naturally to a self-excited electromechanical feedback system than to a mere output rectifier. This is a working hypothesis, not a proven historical circuit.')
+                  doc.add_heading('21.1 Closed electromechanical feedback loop', level=2)
+                  formula(doc, 'ω → C(θ) → Q,V → τ_el → ω')
+                  formula(doc, 'Q = C(θ) · V')
+                  formula(doc, 'τ_el ≈ 1/2 · V² · dC/dθ')
+                  doc.add_paragraph('Rotor motion changes the capacitance matrix; charge and voltage then change, producing electrostatic torque that feeds back into rotor motion. The important variable is therefore not only voltage magnitude but the rotor angle at which a node is charged, discharged, transferred, or blocked.')
+
+                  doc.add_heading('21.2 Why the rotor can “run away”', level=2)
+                  formula(doc, 'ΔE_Rotor = ∮ τ_el(θ) dθ')
+                  formula(doc, 'E_rot,n+1 = E_rot,n + ΔE_el − E_loss')
+                  doc.add_paragraph('If net electrostatic work over a revolution remains positive after frictional, aerodynamic, and electrical losses, the rotor gains kinetic energy each revolution. As long as ΔE_el > E_loss, speed increases. This is positive feedback/self-excitation and does not require classical LC resonance.')
+
+                  doc.add_heading('21.3 Diode / “crystal” as an electrostatic commutator', level=2)
+                  doc.add_paragraph('In this model the nonlinear node determines when charge may move between nodes and therefore directly reshapes the torque curve τ(θ). Without effective gating, charge may persist through several favorable field configurations and produce additional positive impulses; with gating, a defined cycle of charge, drive, transfer, reverse-current blocking, and reset can result.')
+                  formula(doc, 'I = f(V);  conduction e.g. only for V > V_th')
+                  doc.add_paragraph('A nonlinear crystal can therefore select polarity, threshold, and indirectly rotor phase. Functionally it would be more than a rectifier: it would be an angle-dependent electrostatic switch or commutator.')
+
+                  doc.add_heading('21.4 Resonance? More likely phase synchronization', level=2)
+                  formula(doc, 'T_segment ~ τ_RC = R · C')
+                  doc.add_paragraph('The historical diode statement does not establish an LC eigenresonance. A phase-synchronous operating point is more plausible, involving segment period, RC time, surface leakage, dielectric relaxation, corona/ion transport, and the threshold characteristic of the crystal node. “Phase-synchronous electrostatic self-excitation” is therefore the more precise working term until an LC resonance is actually measured.')
+
+                  doc.add_heading('21.5 Analogy: a pendulum with an escapement', level=2)
+                  doc.add_paragraph('A useful mechanical analogy is a pendulum receiving a small push at the correct phase on every pass. As long as added energy per cycle exceeds losses, its mechanical energy increases. An escapement or phase-correct valve limits and synchronizes the transfer. Applied to the Testatika: rotor = mechanical phase reference; electrostatic influence = creation of the electrical state; crystal/diode = escapement or electrostatic commutator; capacitors = charge stores; grids = field structure; pickups = charge-sensing/collection electrodes.')
+                  formula(doc, '+ΔE, +ΔE, +ΔE, … → growth until losses/commutation establish a steady state')
+
+                  doc.add_heading('21.6 Modern electrostatic analogues', level=2)
+                  doc.add_paragraph('Variable capacitance + diodes + capacitors + phase-dependent charge states are established electromechanics. Modern electrostatic energy-harvesting circuits synchronize charging/discharging with mechanical capacitance change. Examples include self-priming dielectric-elastomer generators and MEMS electrostatic generators configured with diode/capacitor voltage multipliers or charge-pump Q-V cycles. These systems do not explain Testatika over-unity; mechanical or external energy input explicitly remains part of their energy balance.')
+                  doc.add_paragraph('Examples: Patrin Illenberger et al., “More power to the people: getting the most from a dielectric elastomer generator”, arXiv:1603.01637 (2016); Binh Duc Truong, Cuong Phu Le, Einar Halvorsen, “Analysis of MEMS electrostatic energy harvesters electrically configured as voltage multipliers”, arXiv:1709.08759 (2017).')
+
+                  doc.add_heading('21.7 Consequence for the power question: two energetically distinct loops', level=2)
+                  doc.add_paragraph('If historical loads of hundreds of watts or more were genuinely applied without strong visible rotor slowdown, the disks are difficult to interpret as the direct mechanical power source. A more plausible role would be an electrostatic timing element, parametric switch, or commutator controlling a separate power path.')
+                  formula(doc, 'Drive/control loop: rotor → C(θ) → grids/pickups → crystal/diode → τ_el → rotor')
+                  formula(doc, 'Power loop: external source ? → storage/converter → load  (rotor-timed)')
+                  formula(doc, 'P_source ≥ P_load + P_losses')
+                  doc.add_paragraph('A small control action can gate a larger energy flow but cannot create that energy. The model may therefore explain weak load-to-rotor coupling, but it does not identify the source of sustained claimed output. Additional LC resonance in the large-machine coils/capacitors remains possible but is not yet adequately established.')
+
+                  doc.add_heading('21.8 Direct falsification tests', level=2)
+                  tests = [
+                      'Measure rotor angle, torque, and all node potentials/currents phase-resolved at the same time.',
+                      'Compare the crystal path open, shorted, with R/C elements, and with different diode thresholds.',
+                      'Perform a speed sweep and search for a phase-locked optimum without assuming LC resonance.',
+                      'Load drive/bias and load/storage loops independently and measure their cross-coupling.',
+                      'Under load, record mechanical reaction torque and any M6 drive-motor/auxiliary input simultaneously.',
+                      'Include initial/final energy of every capacitor and all auxiliary energy in the balance.',
+                  ]
+
+              for t in tests:
+                  doc.add_paragraph(t, style='List Bullet')
+              doc.save(path)
+              print('updated', path)
+          PY
+
+      - name: Rebuild NET-Journal DOCX from ARTICLE.md
+        shell: bash
+        run: |
+          set -euo pipefail
+          PUB='docs/publications/net-journal'
+          python scripts/build_netjournal_assets.py --prepare
+          pandoc "$PUB/ARTICLE.md" \
+            --from=gfm \
+            --resource-path="$PUB" \
+            --reference-doc="$PUB/netjournal-reference.docx" \
+            --metadata title='Testatika neu gelesen' \
+            --output="$PUB/Testatika_Beitragsvorschlag_NET-Journal_2026.docx"
+          python scripts/build_netjournal_assets.py --finalize "$PUB/Testatika_Beitragsvorschlag_NET-Journal_2026.docx"
+          rm -f "$PUB/netjournal-reference.docx"
+
+      - name: Verify content
+        shell: bash
+        run: |
+          python - <<'PY'
+          from docx import Document
+          checks = {
+              'docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx': '21. Neue Kernhypothese: Selbstanregung statt klassischer Resonanz',
+              'docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx': '21. New core hypothesis: self-excitation rather than classical resonance',
+              'docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx': 'Neue Kernhypothese: positive Rückkopplung und phasenabhängige Kommutation',
+          }
+          for path, marker in checks.items():
+              doc=Document(path)
+              text='\n'.join(p.text for p in doc.paragraphs)
+              assert marker in text, (path, marker)
+              print(path, 'OK', len(doc.paragraphs))
+          PY
+
+      - name: Commit generated documentation and self-remove workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          # --prepare also regenerates the same repository-authored diagram; include it if deterministic output changed.
+          rm -f .github/SELF_EXCITATION_UPDATE_TRIGGER
+          rm -f .github/workflows/materialize-self-excitation-update.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx \
+            docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx \
+            docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx \
+            docs/publications/net-journal/charge_state_model.png \
+            .github/SELF_EXCITATION_UPDATE_TRIGGER \
+            .github/workflows/materialize-self-excitation-update.yml
+          git commit -m 'docs: materialize self-excitation analysis'
+          git push origin HEAD:${GITHUB_REF_NAME}
