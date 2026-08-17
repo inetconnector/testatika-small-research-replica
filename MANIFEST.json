@@ -2,12 +2,17 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 377,
+  "file_count": 394,
   "files": [
     {
       "path": ".gitattributes",
       "size": 207,
       "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
+    },
+    {
+      "path": ".github/BUILDKIT_MATERIALIZE_TRIGGER",
+      "size": 115,
+      "sha256": "bb693d4b070229494145bb2988c4ce32298295b88fc4f6e193e55e3ca6a64b36"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -50,9 +55,14 @@
       "sha256": "3e163f6b3b87574b9284c7ed664fd0f466fddde0345f2c02cd71997e5dfc08c5"
     },
     {
+      "path": ".github/workflows/materialize-build-kits.yml",
+      "size": 5592,
+      "sha256": "82bb0215c61467e013ad5a9e7e2dff7156bcfb31f14aab2fd343d7e9d3517bc2"
+    },
+    {
       "path": ".github/workflows/materialize-m6-large-v1.yml",
-      "size": 3269,
-      "sha256": "87491fae855f55ed5f33e40aa4dad37d1f299876f397984d727cff4388a2d80f"
+      "size": 398,
+      "sha256": "b3d5030a21037b46412e1aae437e23a0d8e12f9e42e16d88873005ddb58ae600"
     },
     {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
@@ -71,8 +81,8 @@
     },
     {
       "path": ".github/workflows/materialize-v4-best-evidence.yml",
-      "size": 3219,
-      "sha256": "674bcf7943921027e689de3148dbc7956d4e9ecad313f806ff7dcf938f63b887"
+      "size": 398,
+      "sha256": "acfe5fa62372ca6c60d5afd892a15ea3922ee3669004a621ef756c8f34676bd8"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
@@ -106,8 +116,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size": 7340,
-      "sha256": "e3b30bea48c0f0a25298c2070a6beb5c8756b9111905ee5743cb4b0a57958c78"
+      "size": 9038,
+      "sha256": "e9f959a706a23bd72aeca71f1e20619d06059e10450d903b2ea07b1553cee13c"
     },
     {
       "path": "CHANGELOG.md",
@@ -181,13 +191,23 @@
     },
     {
       "path": "cad/README.md",
-      "size": 3247,
-      "sha256": "bdf6e0be3280c8ad8bc10fdcf47baa95bb8d30993e49bf841d91ea58077dd5dc"
+      "size": 3257,
+      "sha256": "b4c157f9db9601cf36e70568de854538b27a0f5d3412b9be0708e18258962af2"
+    },
+    {
+      "path": "cad/generate_m2_v5_fabrication_kit.py",
+      "size": 18525,
+      "sha256": "a0b5274223636a86ed726949d236e673431346036b06acd2d5e4f54a9b8b27ef"
     },
     {
       "path": "cad/generate_m6_large_v1.py",
-      "size": 21363,
-      "sha256": "fd4e2c7033f05cbb5ebcd56eba6f17b7ceef396b907d8760c64dcbe87bb26e7f"
+      "size": 472,
+      "sha256": "d4b94a23ad206de840fc65cf2f0ca0409d2c168dab2382dc52ed80e8ac428251"
+    },
+    {
+      "path": "cad/generate_m6_v2_fabrication_kit.py",
+      "size": 22665,
+      "sha256": "9d2d01fafc196015420c3f3f8dee5b44ea3cb25986e7c121c479cb3d912ecfc5"
     },
     {
       "path": "cad/generate_v2.py",
@@ -211,8 +231,23 @@
     },
     {
       "path": "cad/generate_v4_best_evidence_m2.py",
+      "size": 469,
+      "sha256": "1bd5ef5a35ccd1ee273c0579342402da0d5184326d7177784e94f62c55e34a39"
+    },
+    {
+      "path": "cad/reference/README.md",
+      "size": 759,
+      "sha256": "41e9ab1ccdc529d1aed06d72912bd5c033cb41911c3f1e476cdca5009fdc606a"
+    },
+    {
+      "path": "cad/reference/generate_m2_v4_visual_reference_legacy.py",
       "size": 14750,
       "sha256": "a9bad9410b0b293f3bced88fc2f413f37b4fe6d3cad5ed2c29ce372a387c7d4c"
+    },
+    {
+      "path": "cad/reference/generate_m6_v1_visual_reference_legacy.py",
+      "size": 21363,
+      "sha256": "fd4e2c7033f05cbb5ebcd56eba6f17b7ceef396b907d8760c64dcbe87bb26e7f"
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
@@ -228,6 +263,11 @@
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
       "size": 170287,
       "sha256": "3a0e25c0a57b7dc7060177865ca2a979ec3100589a37a4f635412278a470bd29"
+    },
+    {
+      "path": "docs/build-kits.md",
+      "size": 4100,
+      "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
@@ -505,6 +545,11 @@
       "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
     },
     {
+      "path": "docs/research/m2-v5-fabrication-kit.md",
+      "size": 4744,
+      "sha256": "dcdfe1b933f3b44d8746d6387b714de5614b2505d71b5aa42be2fc7904454827"
+    },
+    {
       "path": "docs/research/m6-large-v1-assembly.md",
       "size": 5039,
       "sha256": "f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f"
@@ -558,6 +603,11 @@
       "path": "docs/research/m6-large-v1-terminal-map.tsv",
       "size": 3185,
       "sha256": "15f203622daac24d125ecbc55d18661fe23d47ee6199a0d5d100f33bcdb46a3f"
+    },
+    {
+      "path": "docs/research/m6-v2-fabrication-kit.md",
+      "size": 5305,
+      "sha256": "dc51317905cd459883269588e0b3dda645075da227fe1b8fa4c12d91582bec60"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -818,6 +868,11 @@
       "path": "hardware/experimental/m6-large-v1-best-evidence/README.md",
       "size": 644,
       "sha256": "194a70287d47cf9ccf0e664c5ce11cb340a52ab50b76eca0230b9edf81217952"
+    },
+    {
+      "path": "hardware/experimental/m6-large-v1-best-evidence/REFERENCE_VISUAL_ONLY.md",
+      "size": 784,
+      "sha256": "64e99d8f0262dee05cf032253cc24170f4b4453e70a874cf869099608b8f6e2e"
     },
     {
       "path": "hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step",
@@ -1198,6 +1253,11 @@
       "path": "hardware/experimental/v4-best-evidence-m2/README.md",
       "size": 1049,
       "sha256": "5dc604f70054f4be7e029c04887351e701d97eba971968640416b8d11e8758f9"
+    },
+    {
+      "path": "hardware/experimental/v4-best-evidence-m2/REFERENCE_VISUAL_ONLY.md",
+      "size": 770,
+      "sha256": "c057776613c312f64917ec000b81b0aaa2c5b05b9589d914385c1e74e9900587"
     },
     {
       "path": "hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step",
@@ -1760,6 +1820,11 @@
       "sha256": "4c599e4595626c3df91092fdaf06db7c575392bf351a2fc5339d8c8118fdc75b"
     },
     {
+      "path": "scripts/apply_buildkit_readme_links.py",
+      "size": 3777,
+      "sha256": "bd7724a178f763ae11e34de09c8e1feefa1e7ae5ff1e3e1358cea902cdefc3f2"
+    },
+    {
       "path": "scripts/apply_hartmann_overunity_v6.py",
       "size": 26596,
       "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
@@ -1796,8 +1861,8 @@
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
-      "size": 2656,
-      "sha256": "5669950f0f35992356380926dee6396917ca3a2dee014e10f8f52bf4a544e067"
+      "size": 386,
+      "sha256": "dbe9ea40b515e9ee5e35314ed1e61a98ea933aa13cf18a41ee8a842290f62480"
     },
     {
       "path": "scripts/apply_m6_state.py",
@@ -1815,9 +1880,19 @@
       "sha256": "779cbcc0a147a903f994ec217574bd0fda2e3397eda07145c57d1d77b0c467af"
     },
     {
+      "path": "scripts/build_m2_v5_package.py",
+      "size": 1476,
+      "sha256": "06cbee8b5676b71ade8accd17dafc76c25d011afb64063ed1e75c98aa4397e39"
+    },
+    {
       "path": "scripts/build_m6_package.py",
       "size": 2416,
       "sha256": "3bb2ea06da252a5319eeb817c246e89d3c573eb3fc3991e5949a2e164fd659f8"
+    },
+    {
+      "path": "scripts/build_m6_v2_package.py",
+      "size": 1506,
+      "sha256": "442bf508d262d04c4605ed9a32d1d61362b5641eba4929a5930a10b86a81e211"
     },
     {
       "path": "scripts/build_netjournal_assets.py",
@@ -1838,6 +1913,11 @@
       "path": "scripts/build_v4_package.py",
       "size": 2592,
       "sha256": "e53ac521bb93d2ca5aa1bda8e916b3820458a3207e747299ff37fcc661e93fe4"
+    },
+    {
+      "path": "scripts/check_build_kits.py",
+      "size": 3901,
+      "sha256": "fab03b7f546e9ab9eb4346022fb0f918bd611dfc2c5c942c3f659b40f5410edf"
     },
     {
       "path": "scripts/check_m6_assets.py",
@@ -1865,6 +1945,11 @@
       "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
     },
     {
+      "path": "scripts/normalize_buildkit_step.py",
+      "size": 1105,
+      "sha256": "ed2fc38a6e0c2171954bf90112654d9a2b0944153714f2509d236b607463190f"
+    },
+    {
       "path": "scripts/normalize_m6_step.py",
       "size": 1074,
       "sha256": "87295cbb20763e2dcdb6a43fcf7705886df71e4f6c09615ad10748721b31e313"
@@ -1881,8 +1966,8 @@
     },
     {
       "path": "scripts/rebuild_research_assets.py",
-      "size": 1130,
-      "sha256": "a5693837809993784f46e35b9e1206c84fa82e70aaf740396a623dba021da00d"
+      "size": 945,
+      "sha256": "7a36060f511e610dc854baaea257841b86f31241ce5d7037a385693b12d9b293"
     },
     {
       "path": "scripts/validate_assets.py",
