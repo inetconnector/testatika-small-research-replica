@@ -2,12 +2,17 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 375,
+  "file_count": 377,
   "files": [
     {
       "path": ".gitattributes",
       "size": 207,
       "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
+    },
+    {
+      "path": ".github/BRANCH_CLEANUP_TRIGGER",
+      "size": 57,
+      "sha256": "85ba100c6187eff7bdfe6da6e669480529c4b4da48dc8b18f9d693b50be56215"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -38,6 +43,11 @@
       "path": ".github/workflows/apply-repository-hardening.yml",
       "size": 1771,
       "sha256": "a36ad6642684168cef7e06bf2fc06857699428f40189c4b604a7debbea7918ef"
+    },
+    {
+      "path": ".github/workflows/cleanup-merged-branches-once.yml",
+      "size": 1352,
+      "sha256": "078c2f49974bb7f95c93b615090bcd9362ed0ff4227cb169f667e9ce63f86c0e"
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
@@ -1736,13 +1746,13 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
-      "size": 92281757,
-      "sha256": "316e477d0e826158acfeae0c9c5dce835327fb3b7f7e2a51811bb81937725c26"
+      "size": 92380493,
+      "sha256": "341732fa4633b3e07aa8e67d379c745149c0436e0d36636ff41e4eac72930720"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
       "size": 110,
-      "sha256": "f9034f476a502aa085233fcdc6214c3abb327dbf4eb5e43a7144a3dccecb60b5"
+      "sha256": "cffb2fe8e60cfdaf899791f8e5c5b9a6f3ccb88f0b4543a315d9730799bce4db"
     },
     {
       "path": "requirements-cad.txt",
