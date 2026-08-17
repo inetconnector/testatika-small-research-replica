@@ -9,7 +9,19 @@ KITS = {
     "m2-v5": ("FABRICATION_MANIFEST_M2_V5.json", "Testatika_M2_V5_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT", ["shaft_alignment_jig_m2_v5", "pot_bottom_carrier_m2_v5", "crystal_module_tray_m2_v5"]),
     "m6-v2": ("FABRICATION_MANIFEST_M6_V2.json", "Testatika_M6_V2_FABRICATION_ASSEMBLY_REFERENCE_NOT_FOR_PRINT", ["lamella_pitch_jig_10position_m6_v2", "grid_centering_spider_m6_v2", "capacitor_mount_78mm_m6_v2"]),
 }
-PROHIBITED_PRINT_TOKENS = ("bearing_tower", "bearing_retainer", "capacitor_can", "shaft_", "rotor_disc_", "stator_perforated", "lamella_chrome")
+# Match real functional parts specifically. Do not use broad tokens such as "shaft_":
+# legitimate printable tooling includes names such as shaft_alignment_jig_m2_v5.
+PROHIBITED_PRINT_TOKENS = (
+    "bearing_tower",
+    "bearing_retainer",
+    "capacitor_can",
+    "inner_shaft_",
+    "outer_hollow_shaft_",
+    "shaft_8mm_x",
+    "rotor_disc_",
+    "stator_perforated",
+    "lamella_chrome",
+)
 
 
 def require(path: Path, size=80):
