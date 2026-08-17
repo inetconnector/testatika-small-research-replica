@@ -31,8 +31,8 @@
     },
     {
       "path": ".github/SELF_EXCITATION_UPDATE_TRIGGER",
-      "size": 96,
-      "sha256": "ccdcd9e0303626447241cf52cd9acc85de2f1d15f1fdd5f8f0524fc959b52c87"
+      "size": 159,
+      "sha256": "5103f231dc0e5a66ee1a3f6b8a73951585aabe1e8490edc5a80eed6f576c74fb"
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
@@ -81,8 +81,8 @@
     },
     {
       "path": ".github/workflows/materialize-self-excitation-update.yml",
-      "size": 19306,
-      "sha256": "c197c79b8f71c4a53171b2466b85691323eb813a7fba91842fab8f44e41793ec"
+      "size": 24767,
+      "sha256": "a24ed695fef262e68ab030bd9f57145e813a9ac6fb680b439caf4cb04582fa56"
     },
     {
       "path": ".github/workflows/materialize-v3-photo.yml",
