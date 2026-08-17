@@ -1,57 +1,65 @@
-# Testatika Research Replica — Small M2 + Large M6
+# Testatika-Forschungsreplik — Kleine M2 + Große M6
 
-[![Validate repository](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml/badge.svg)](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml)
+<p align="center">
+  <strong>Deutsch</strong> · <a href="README.en.md">English</a>
+</p>
+
+[![Repository validieren](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml/badge.svg)](https://github.com/inetconnector/testatika-small-research-replica/actions/workflows/validate.yml)
 ![Status](https://img.shields.io/badge/status-research%20replica-orange)
 ![CAD](https://img.shields.io/badge/CAD-STEP%20%7C%20STL%20%7C%20GLB-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Lizenz](https://img.shields.io/badge/license-MIT-green)
 
+<!-- README-SYNC:build-lines -->
 <!-- BUILD-LINES-START -->
 
-## Start here — complete current models
+## Hier beginnen — vollständige aktuelle Modelle
 
-| Build line | Complete STL | Complete STEP | Build guide |
+| Baulinie | Vollständige STL | Vollständige STEP | Bauanleitung |
 |---|---|---|---|
-| **Small M2 — V4 best evidence** | [Download / open STL](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step) | [M2 V4 guide](docs/research/v4-best-evidence-m2.md) |
-| **Large M6 — V1 best evidence (~500 mm twin disc)** | [Download / open STL](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step) | [M6 Large V1 guide](docs/research/m6-large-v1-best-evidence.md) |
-| **Large M6 — guarded lab/mechanical version** | [Guarded STL](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl) | [Guarded STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step) | [Assembly](docs/research/m6-large-v1-assembly.md) |
+| **Kleine M2 — V4, beste Evidenz** | [STL herunterladen / öffnen](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/v4-best-evidence-m2/complete-model/Testatika_M2_V4_BEST_EVIDENCE.step) | [M2-V4-Anleitung](docs/research/v4-best-evidence-m2.md) |
+| **Große M6 — V1, beste Evidenz (~500-mm-Doppelscheibe)** | [STL herunterladen / öffnen](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.stl) | [STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_BEST_EVIDENCE.step) | [M6-Large-V1-Anleitung](docs/research/m6-large-v1-best-evidence.md) |
+| **Große M6 — geschützte Labor-/Mechanikversion** | [Geschützte STL](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.stl) | [Geschützte STEP](hardware/experimental/m6-large-v1-best-evidence/complete-model/Testatika_M6_LARGE_V1_SAFE_LAB_GUARDED.step) | [Montage](docs/research/m6-large-v1-assembly.md) |
 
-**Important:** the CAD can be mechanically complete while historical hidden wiring remains unknown. Unknown nodes are kept reversible/open rather than invented. No free-energy/over-unity function is claimed.
+**Wichtig:** Das CAD kann mechanisch vollständig sein, obwohl die historische verdeckte Verdrahtung unbekannt bleibt. Unbekannte Knoten werden reversibel/offen gehalten statt erfunden. Es wird keine Freie-Energie-/Overunity-Funktion behauptet.
 
 <!-- BUILD-LINES-END -->
 
-**Evidence-led Testatika reconstruction project with two separated build lines: the small Marinov M2 and the large ~500-mm M6 family.**
+<!-- README-SYNC:intro -->
+**Evidenzgeleitetes Testatika-Rekonstruktionsprojekt mit zwei getrennten Baulinien: der kleinen Marinov-M2 und der großen ~500-mm-M6-Familie.**
 
-> This repository is a historical/electrostatic research project. It is **not** presented as a proven free-energy or over-unity device. The original complete electrical circuit is not known, and no net-energy anomaly is claimed here.
+> Dieses Repository ist ein historisches/elektrostatisches Forschungsprojekt. Es wird **nicht** als bewiesene Freie-Energie- oder Overunity-Maschine dargestellt. Die vollständige ursprüngliche elektrische Schaltung ist nicht bekannt; eine Nettoenergie-Anomalie wird hier nicht behauptet.
 
-![Photogrammetric front view](docs/images/photogrammetric_front_view.png)
+![Photogrammetrische Frontansicht](docs/images/photogrammetric_front_view.png)
 
-## Replication completeness — read this first
+<!-- README-SYNC:replication-completeness -->
+## Replikationsvollständigkeit — zuerst lesen
 
-The repository is designed to become as close to a **1:1 research replica** of Marinov's first small machine (M2) as surviving evidence permits. It does **not** convert missing historical information into invented certainty.
+Das Repository soll so nahe wie es die erhaltene Evidenz erlaubt an eine **1:1-Forschungsreplik** von Marinovs erster kleiner Maschine (M2) herankommen. Fehlende historische Informationen werden **nicht** in erfundene Gewissheit umgewandelt.
 
-The canonical completeness ledger is [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md). For every major subsystem it records whether a detail is observed, source-stated, photo/video-derived, derived, hypothesized, conflicting, or still unknown.
+Das verbindliche Vollständigkeitsregister ist [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md). Für jedes wichtige Teilsystem wird dort festgehalten, ob ein Detail beobachtet, quellenbelegt, aus Foto/Video abgeleitet, hergeleitet, hypothetisch, widersprüchlich oder weiterhin unbekannt ist.
 
-A "complete research replica" therefore means: all source-supported geometry and materials are represented, every unresolved alternative is made reversible/testable where practical, and the experiment package can distinguish competing hypotheses. It does **not** mean that unknown original wiring, crystal material or pot topology is guessed and relabelled as historical fact.
+„Vollständige Forschungsreplik“ bedeutet daher: Alle quellenbelegten Geometrien und Materialien sind abgebildet, ungelöste Alternativen werden soweit praktisch reversibel/testbar gemacht und das Experimentpaket kann konkurrierende Hypothesen unterscheiden. Es bedeutet **nicht**, unbekannte Originalverdrahtung, Kristallmaterial oder Topf-Topologie zu erraten und als historische Tatsache auszugeben.
 
-## Small M2 build target: V4 best-evidence M2
+<!-- README-SYNC:m2-target -->
+## Bauziel kleine M2: V4 Best-Evidence M2
 
-For a **new physical build**, use V4 rather than treating the older V2/V3 models as the final assembly.
+Für einen **neuen physischen Nachbau** ist V4 zu verwenden; die älteren V2/V3-Modelle sind nicht als endgültige Baugruppe zu behandeln.
 
-V4 integrates the strongest direct Marinov scan constraints with the complete photo/video audit:
+V4 verbindet die stärksten direkten Marinov-Scanbedingungen mit dem vollständigen Foto-/Video-Audit:
 
-- one ~200-mm rotor;
-- 20/24/25 choices, nominal 24;
-- **individually floating rotor wires** — no galvanic neighbour ring in the M2 baseline;
-- R0 as the least-speculative nominal routing and R4 as a separate research rotor;
-- no rubbing collectors;
-- two side pots with grid + dielectric + inner Cu spiral;
-- **exactly two historical external terminal positions per pot**;
-- no built-in conventional drive motor;
-- two visible horseshoe-magnet positions plus matched nonmagnetic controls;
-- video-refined hub arcs, layered outer panels and lower central cage;
-- unresolved `crystal` retained as a removable Blackbox rather than a guessed original circuit.
+- ein Rotor mit ~200 mm Durchmesser;
+- Varianten mit 20/24/25 Elementen, nominal 24;
+- **einzeln potentialfreie Rotordrähte** — kein galvanischer Nachbarring in der M2-Basislinie;
+- R0 als am wenigsten spekulative nominale Führung und R4 als separater Forschungsrotor;
+- keine schleifenden Kollektoren;
+- zwei seitliche Töpfe mit Gitter + Dielektrikum + innerer Cu-Spirale;
+- **genau zwei historische externe Anschlusspositionen pro Topf**;
+- kein eingebauter konventioneller Antriebsmotor;
+- zwei sichtbare Hufeisenmagnet-Positionen plus passende nichtmagnetische Kontrollen;
+- videobasierte Verfeinerungen von Nabenbögen, geschichteten Außenplatten und unterem Zentralkäfig;
+- ungelöster `crystal` als entnehmbare Blackbox statt als erfundene Originalschaltung.
 
-Start here:
+Einstieg:
 
 - [`docs/research/v4-best-evidence-m2.md`](docs/research/v4-best-evidence-m2.md)
 - [`docs/research/v4-bom.md`](docs/research/v4-bom.md)
@@ -63,182 +71,193 @@ Generator:
 
 `cad/generate_v4_best_evidence_m2.py`
 
-Materialized output:
+Materialisierte Ausgabe:
 
 `hardware/experimental/v4-best-evidence-m2/`
 
-Deterministic build package:
+Deterministisches Baupaket:
 
 `release/experimental/testatika-m2-v4-best-evidence-build-package.zip`
 
-## Included
+<!-- README-SYNC:included -->
+## Enthalten
 
-This repository targets the **small, single-disc machine shown on the right in Marinov's figures 13/14** while preserving older and cross-machine research separately.
+Dieses Repository zielt auf die **kleine Einscheibenmaschine rechts in Marinovs Abbildungen 13/14**, während ältere und maschinenübergreifende Forschung getrennt erhalten bleibt.
 
-- nominal **200 mm rotor**
-- **20 / 24 / 25** radial copper-wire rotor variants
-- direct-source preferred **floating-sector** electrical topology
-- R0–R4 experimental routing families
-- non-contact adjustable sector electrodes
-- two side capacitor/"pot" modules: outer grid + dielectric + inner copper spiral
-- source-supported two-wire pot interface
-- two horseshoe-magnet positions for the first small-machine variant
-- exchangeable "crystal" carrier
-- video-derived hub-arc, layered-panel and central-cage refinements
-- rear shield-plate experiment jig
-- preserved V2 and V3 STEP/STL research models
-- reproducible V4 complete STEP/STL assemblies
-- evidence matrix, photogrammetry, BOM, assembly and experiment documentation
-- consolidated research knowledge base in [`STATE.md`](STATE.md)
-- external/session handoff in [`addon.md`](addon.md) with case-safe [`ADDON.md`](ADDON.md) compatibility entry point
-- detailed Baumann / Methernitha language decoder
-- canonical machine taxonomy and provenance schema
-- deterministic manifest/hash generation and repository validation
+- nominaler **200-mm-Rotor**;
+- **20 / 24 / 25** radiale Kupferdraht-Rotorvarianten;
+- nach Direktquellen bevorzugte elektrische **Floating-Sector**-Topologie;
+- experimentelle Führungsfamilien R0–R4;
+- berührungsfreie, einstellbare Sektorelektroden;
+- zwei seitliche Kondensator-/„Topf“-Module: Außengitter + Dielektrikum + innere Kupferspirale;
+- quellenbelegte Zweidraht-Schnittstelle der Töpfe;
+- zwei Hufeisenmagnet-Positionen für die erste Kleinmaschinenvariante;
+- austauschbarer „Kristall“-Träger;
+- videoabgeleitete Verfeinerungen an Nabenbogen, Schichtplatten und Zentralkäfig;
+- Versuchsvorrichtung für die hintere Abschirmplatte;
+- erhaltene V2- und V3-STEP/STL-Forschungsmodelle;
+- reproduzierbare vollständige V4-STEP/STL-Baugruppen;
+- Evidenzmatrix, Photogrammetrie, BOM, Montage- und Experimentdokumentation;
+- konsolidierte Forschungswissensbasis in [`STATE.md`](STATE.md);
+- externe/Sitzungs-Übergabe in [`addon.md`](addon.md) mit groß-/kleinschreibungssicherem Einstieg [`ADDON.md`](ADDON.md);
+- detaillierter Baumann-/Methernitha-Sprachdecoder;
+- verbindliche Maschinentaxonomie und Provenienzschema;
+- deterministische Manifest-/Hash-Erzeugung und Repository-Validierung.
 
-## Quick access
+<!-- README-SYNC:quick-access -->
+## Schnellzugriff
 
-| Asset | Path |
+| Inhalt | Pfad |
 |---|---|
-| Replication completeness | [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md) |
-| **V4 current build definition** | [`docs/research/v4-best-evidence-m2.md`](docs/research/v4-best-evidence-m2.md) |
-| **V4 BOM** | [`docs/research/v4-bom.md`](docs/research/v4-bom.md) |
-| **V4 assembly** | [`docs/research/v4-assembly.md`](docs/research/v4-assembly.md) |
-| **V4 electrical boundary** | [`docs/research/v4-electrical-boundary.md`](docs/research/v4-electrical-boundary.md) |
-| **V4 printing** | [`docs/research/v4-printing.md`](docs/research/v4-printing.md) |
-| V4 generated CAD | `hardware/experimental/v4-best-evidence-m2/` |
-| V4 build ZIP | `release/experimental/testatika-m2-v4-best-evidence-build-package.zip` |
-| Complete V2 STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step` |
-| Complete V2 STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl` |
-| Complete V2 GLB | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb` |
-| Experimental V3 STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step` |
-| Experimental V3 STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl` |
-| Legacy printable parts | [`hardware/stl/`](hardware/stl/) |
-| Legacy editable parts | [`hardware/step/`](hardware/step/) |
-| CAD reproducibility | [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md) |
-| Legacy V2 BOM | [`docs/research/bom.md`](docs/research/bom.md) |
-| Legacy V2 assembly | [`docs/research/assembly.md`](docs/research/assembly.md) |
-| Safety | [`docs/research/safety.md`](docs/research/safety.md) |
-| Evidence matrix | [`docs/research/evidence_matrix.tsv`](docs/research/evidence_matrix.tsv) |
-| Machine taxonomy | [`docs/research/machines.yaml`](docs/research/machines.yaml) |
-| Provenance schema | [`docs/research/provenance-schema.yaml`](docs/research/provenance-schema.yaml) |
-| Full video audit | [`docs/research/video-frame-audit-2026-08-16.md`](docs/research/video-frame-audit-2026-08-16.md) |
-| Marinov/Hauser scan audit | [`docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`](docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md) |
-| External corpus boundary | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
-| Full research state | [`STATE.md`](STATE.md) |
-| External handoff | [`addon.md`](addon.md) |
-| Baumann language decoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
-| Baumann statement ledger | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
-| Hartmann/Overunity audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |
-| Current experiment plan | [`docs/research/experiment-plan.md`](docs/research/experiment-plan.md) |
+| Replikationsvollständigkeit | [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md) |
+| **Aktuelle V4-Baudefinition** | [`docs/research/v4-best-evidence-m2.md`](docs/research/v4-best-evidence-m2.md) |
+| **V4-BOM** | [`docs/research/v4-bom.md`](docs/research/v4-bom.md) |
+| **V4-Montage** | [`docs/research/v4-assembly.md`](docs/research/v4-assembly.md) |
+| **V4-elektrische Evidenzgrenze** | [`docs/research/v4-electrical-boundary.md`](docs/research/v4-electrical-boundary.md) |
+| **V4-Druckhinweise** | [`docs/research/v4-printing.md`](docs/research/v4-printing.md) |
+| Generiertes V4-CAD | `hardware/experimental/v4-best-evidence-m2/` |
+| V4-Bau-ZIP | `release/experimental/testatika-m2-v4-best-evidence-build-package.zip` |
+| Vollständige V2-STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step` |
+| Vollständige V2-STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl` |
+| Vollständige V2-GLB | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb` |
+| Experimentelle V3-STEP | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.step` |
+| Experimentelle V3-STL | `hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V3_COMPLETE.stl` |
+| Ältere druckbare Teile | [`hardware/stl/`](hardware/stl/) |
+| Ältere editierbare Teile | [`hardware/step/`](hardware/step/) |
+| CAD-Reproduzierbarkeit | [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md) |
+| Ältere V2-BOM | [`docs/research/bom.md`](docs/research/bom.md) |
+| Ältere V2-Montage | [`docs/research/assembly.md`](docs/research/assembly.md) |
+| Sicherheit | [`docs/research/safety.md`](docs/research/safety.md) |
+| Evidenzmatrix | [`docs/research/evidence_matrix.tsv`](docs/research/evidence_matrix.tsv) |
+| Maschinentaxonomie | [`docs/research/machines.yaml`](docs/research/machines.yaml) |
+| Provenienzschema | [`docs/research/provenance-schema.yaml`](docs/research/provenance-schema.yaml) |
+| Vollständiger Video-Audit | [`docs/research/video-frame-audit-2026-08-16.md`](docs/research/video-frame-audit-2026-08-16.md) |
+| Marinov-/Hauser-Scan-Audit | [`docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`](docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md) |
+| Grenze des externen Korpus | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
+| Vollständiger Forschungsstand | [`STATE.md`](STATE.md) |
+| Externe Übergabe | [`addon.md`](addon.md) |
+| Baumann-Sprachdecoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
+| Baumann-Aussagenregister | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
+| Hartmann-/Overunity-Audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |
+| Aktueller Versuchsplan | [`docs/research/experiment-plan.md`](docs/research/experiment-plan.md) |
 
-## Source correction: Baumann's explanation language
+<!-- README-SYNC:source-correction -->
+## Quellenkorrektur: Baumanns Erklärungssprache
 
-The full archive scan audit materially improves the old wording.
+Der vollständige Archivscan-Audit verbessert die frühere Formulierung wesentlich.
 
-A direct Marinov correspondence scan states that Baumann used **`ANOTHER language`** when attempting to explain the principle. Therefore the underlying language-mismatch point is now primary-source supported.
+Ein direkter Marinov-Korrespondenzscan sagt, Baumann habe beim Versuch, das Prinzip zu erklären, **`ANOTHER language`** benutzt. Damit ist der grundsätzliche Punkt einer Sprach-/Begriffsdifferenz primärquellenbelegt.
 
-What is **still not verified** is the popular later wording that Baumann's explanation was literally *"like an unknown language"*. Do not present that later paraphrase as Marinov's exact quotation.
+**Noch nicht verifiziert** ist dagegen die populäre spätere Formulierung, Baumanns Erklärung sei wörtlich *„like an unknown language“* gewesen. Diese spätere Paraphrase darf nicht als exaktes Marinov-Zitat dargestellt werden.
 
-Separately:
+Getrennt davon gilt:
 
-1. Marinov did not understand the complete operating secret or exact schematic.
-2. Hans Holzherr reported that Baumann was difficult to understand because he spoke softly/quickly and used non-scientific terminology.
-3. Methernitha's own technical description used special vocabulary such as `Taster` / `antenna keys`.
+1. Marinov verstand das vollständige Funktionsgeheimnis bzw. den exakten Schaltplan nicht.
+2. Hans Holzherr berichtete, Baumann sei schwer zu verstehen gewesen, weil er leise/schnell sprach und nichtwissenschaftliche Begriffe verwendete.
+3. Methernithas eigene technische Beschreibung verwendete Spezialbegriffe wie `Taster` / `antenna keys`.
 
-See [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) and the primary-scan audit.
+Siehe [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) und den Primärscan-Audit.
 
-## Current operating-model hypothesis
+<!-- README-SYNC:operating-model -->
+## Aktuelle Arbeitshypothese zum Funktionsmodell
 
-After separating Baumann, Methernitha, Marinov, Holzherr, Luzi Cathomen, Albert Hauser and Stefan Hartmann statements by provenance, the strongest **testable** model is:
+Nach getrennter Provenienzanalyse der Aussagen von Baumann, Methernitha, Marinov, Holzherr, Luzi Cathomen, Albert Hauser und Stefan Hartmann ist das derzeit stärkste **testbare** Modell:
 
-> **electrostatic influence / variable capacitance → non-contact pickup → polarity-selective charge routing → crystal/diode phase commutation → drive/storage buses → cyclic bias regeneration → model-dependent downstream impedance conditioning.**
+> **elektrostatische Influenz / variable Kapazität → berührungsfreie Abnahme → polaritätsselektive Ladungsführung → Kristall-/Dioden-Phasenkommutation → Antriebs-/Speicherbusse → zyklische Bias-Regeneration → modellabhängige nachgeschaltete Impedanzanpassung.**
 
-This can explain much of the historical vocabulary without assuming a Tesla/HF core or permanent-magnet energy source. It does **not** by itself explain or validate a net-energy surplus.
+Damit lässt sich ein erheblicher Teil der historischen Begriffswelt erklären, ohne einen Tesla/HF-Kern oder Permanentmagnete als Energiequelle anzunehmen. Ein Nettoenergieüberschuss wird dadurch **nicht** erklärt oder bestätigt.
 
-## Reference geometry
+<!-- README-SYNC:reference-geometry -->
+## Referenzgeometrie
 
-The strongest scale anchor is Marinov's statement that the small-machine disc was approximately **20 cm** in diameter. Other dimensions are photogrammetric/video-fit working estimates.
+Der stärkste Maßstabsanker ist Marinovs Angabe, dass die Scheibe der kleinen Maschine ungefähr **20 cm** Durchmesser hatte. Weitere Maße sind photogrammetrische/videoangepasste Arbeitswerte.
 
-| Feature | Working value |
+| Merkmal | Arbeitswert |
 |---|---:|
-| Rotor diameter | 200 mm |
-| Base width | ~370 mm |
-| Base depth | ~180 mm |
-| Side-pot OD | ~84 mm |
-| Side-pot body height | ~110 mm |
-| Rotor center above base | ~160 mm |
-| Complete assembly envelope | ~370 × 182 × 324 mm |
+| Rotordurchmesser | 200 mm |
+| Basisbreite | ~370 mm |
+| Basistiefe | ~180 mm |
+| Außendurchmesser Seitentopf | ~84 mm |
+| Höhe Seitentopf-Körper | ~110 mm |
+| Rotorzentrum über Basis | ~160 mm |
+| Hüllmaß der Gesamtbaugruppe | ~370 × 182 × 324 mm |
 
-Photo/video-derived dimensions should be treated as approximate unless a calibrated primary view or original-object measurement becomes available.
+Foto-/videoabgeleitete Maße sind als Näherungen zu behandeln, solange keine kalibrierte Primäransicht oder Originalobjektmessung verfügbar ist.
 
-## V2 / V3 / V4 relationship
+<!-- README-SYNC:versions -->
+## Verhältnis V2 / V3 / V4
 
-- **V2:** conservative mechanical baseline and preserved release library.
-- **V3:** photo interpretation plus separate video-derived refinements.
-- **V4:** current best-evidence physical-build family; it integrates the stronger primary-scan electrical constraints with the best current visible geometry.
+- **V2:** konservative mechanische Basislinie und erhaltene Release-Bibliothek.
+- **V3:** Fotointerpretation plus getrennte videoabgeleitete Verfeinerungen.
+- **V4:** aktuelle Best-Evidence-Familie für einen physischen Nachbau; verbindet die stärkeren Primärscan-Elektrobedingungen mit der derzeit besten sichtbaren Geometrie.
 
-Older versions are not deleted; they remain provenance and comparison assets.
+Ältere Versionen werden nicht gelöscht; sie bleiben Provenienz- und Vergleichsstände.
 
-## Evidence-led choices
+<!-- README-SYNC:evidence-choices -->
+## Evidenzgeleitete Entscheidungen
 
-### Strongly supported
+### Stark gestützt
 
-- one rotating disc for the small model;
-- radial conductive sectors made from roughly 1-mm wire;
-- roughly 20–25 sectors as the tighter later range;
-- direct-source statement that the described small-disk wires are **`connected to nothing`**;
-- no rubbing collector brushes;
-- importance of how wires pass through the disc;
-- side pots with grid/dielectric/copper-spiral structure;
-- two visible leads to each condenser;
-- a component Baumann called a **`crystal`**;
-- no Tesla-coil/AC interpretation for the described small machine according to Marinov;
-- horseshoe magnets on the first small-machine line, but not universal to every small variant.
+- eine rotierende Scheibe beim kleinen Modell;
+- radiale leitfähige Sektoren aus ungefähr 1-mm-Draht;
+- etwa 20–25 Sektoren als engerer späterer Bereich;
+- Direktquellenaussage, dass die beschriebenen Drähte der kleinen Scheibe **`connected to nothing`** sind;
+- keine schleifenden Kollektorbürsten;
+- Bedeutung der Drahtführung durch die Scheibe;
+- seitliche Töpfe mit Gitter/Dielektrikum/Kupferspirale;
+- zwei sichtbare Leitungen zu jedem Kondensator;
+- ein von Baumann **`crystal`** genanntes Bauteil;
+- laut Marinov keine Tesla-Spulen-/AC-Interpretation für die beschriebene kleine Maschine;
+- Hufeisenmagnete in der ersten Kleinmaschinenlinie, aber nicht universell für jede kleine Variante.
 
-### Deliberately not assumed
+### Bewusst nicht angenommen
 
-- 1-kΩ neighbour ring as M2 baseline;
-- Tesla coils as the core mechanism;
-- 50/60-Hz mains-frequency design as the fundamental principle;
-- hidden 230-V AC stage;
-- permanent magnets as a net energy source;
-- verified 100-W / 1-kW / multi-kW over-unity output;
-- fully known original schematic;
-- black appearance as proof of carbon/graphite/nanocoating/black copper oxide;
-- R4 as definitively the original M2 wire route;
-- Hauser's large-machine 3-grid/magnet/bifilar cylinders as M2 pots.
+- 1-kΩ-Nachbarring als M2-Basislinie;
+- Tesla-Spulen als Kernmechanismus;
+- 50/60-Hz-Netzfrequenzdesign als Grundprinzip;
+- versteckte 230-V-AC-Stufe;
+- Permanentmagnete als Nettoenergiequelle;
+- verifizierte 100-W-/1-kW-/mehrere-kW-Overunity-Leistung;
+- vollständig bekannter Originalschaltplan;
+- schwarze Optik als Beweis für Kohlenstoff/Graphit/Nanobeschichtung/schwarzes Kupferoxid;
+- R4 als definitiv originale M2-Drahtführung;
+- Hausers große 3-Gitter-/Magnet-/Bifilarzylinder als M2-Töpfe.
 
-## Rotor routing research
+<!-- README-SYNC:rotor-routing -->
+## Forschung zur Rotor-Drahtführung
 
-The precise through-disc wire geometry remains one of the most important unresolved details:
+Die genaue Drahtgeometrie durch die Scheibe bleibt eines der wichtigsten ungelösten Details:
 
-- **R0** — one-sided radial reference and V4 nominal build route;
-- **R1** — front radial path, through outer hole, return on rear;
-- **R2** — alternating front/rear sectors;
-- **R3** — angularly offset through-disc routing;
-- **R4** — three-side-change weave derived from Holzherr's report for multiple machines; not yet verified specifically for Marinov M2.
+- **R0** — einseitige radiale Referenz und nominale V4-Bauführung;
+- **R1** — vorderer radialer Verlauf, durch äußeres Loch, Rückweg hinten;
+- **R2** — alternierende Vorder-/Rückseitensektoren;
+- **R3** — winkelversetzte Durch-Scheiben-Führung;
+- **R4** — Dreifach-Seitenwechsel-Geflecht aus Holzherrs Bericht für mehrere Maschinen; für Marinov M2 noch nicht spezifisch verifiziert.
 
-Electrical topology is a separate variable: V4 keeps individual sectors floating even on the R4 research rotor.
+Die elektrische Topologie ist eine eigene Variable: V4 hält die einzelnen Sektoren auch beim R4-Forschungsrotor potentialfrei.
 
-See [`docs/research/rotor-wire-routing.md`](docs/research/rotor-wire-routing.md).
+Siehe [`docs/research/rotor-wire-routing.md`](docs/research/rotor-wire-routing.md).
 
-## Scientific status
+<!-- README-SYNC:scientific-status -->
+## Wissenschaftlicher Status
 
-Conventional and reproducible effects relevant to this project include electrostatic induction, variable capacitance, non-contact capacitive coupling, electrostatic motor torque, capacitor storage, corona/ion transport and nonlinear charge gating.
+Konventionelle und reproduzierbare Effekte, die für dieses Projekt relevant sind, umfassen elektrostatische Influenz, variable Kapazität, berührungsfreie kapazitive Kopplung, elektrostatisches Motordrehmoment, Kondensatorspeicherung, Corona-/Ionentransport und nichtlineares Ladungs-Gating.
 
-What is **not** established is that the historical Testatika produced more energy than all inputs plus initial stored energy. Energy conservation is the null hypothesis of this repository.
+**Nicht** belegt ist, dass die historische Testatika mehr Energie erzeugte als sämtliche Eingänge plus anfänglich gespeicherte Energie. Energieerhaltung ist die Nullhypothese dieses Repositories.
 
-See [`docs/scientific-status.md`](docs/scientific-status.md).
+Siehe [`docs/scientific-status.md`](docs/scientific-status.md).
 
-## Safety
+<!-- README-SYNC:safety -->
+## Sicherheit
 
-High-voltage electrostatic systems can be dangerous, especially with capacitors. This project does **not** include an open mains-powered high-voltage supply design.
+Elektrostatische Hochspannungssysteme können insbesondere mit Kondensatoren gefährlich sein. Dieses Projekt enthält **keinen** offenen netzbetriebenen Hochspannungsversorgungsentwurf.
 
-Use enclosed, current-limited educational/laboratory electrostatic equipment, keep stored energy low, discharge capacitors before handling, and use a rotor guard. No radioactive-material replication path is part of this project.
+Verwende gekapselte, strombegrenzte Lehr-/Labor-Elektrostatikgeräte, halte gespeicherte Energie klein, entlade Kondensatoren vor Berührung und verwende einen Rotorschutz. Ein Nachbaupfad mit radioaktivem Material ist nicht Bestandteil dieses Projekts.
 
-Read [`docs/research/safety.md`](docs/research/safety.md).
+Lies [`docs/research/safety.md`](docs/research/safety.md).
 
-## Repository layout
+<!-- README-SYNC:layout -->
+## Repository-Struktur
 
 ```text
 .
@@ -261,36 +280,39 @@ Read [`docs/research/safety.md`](docs/research/safety.md).
     └── experimental/
 ```
 
-## Validate locally
+<!-- README-SYNC:validate -->
+## Lokal validieren
 
 ```bash
 python -m pip install -r requirements-dev.txt
 python scripts/validate_assets.py
+python scripts/check_readme_sync.py
 python scripts/check_manifest.py
 ```
 
-After intentional content changes regenerate integrity metadata:
+Nach beabsichtigten Inhaltsänderungen die Integritätsmetadaten neu erzeugen:
 
 ```bash
 python scripts/generate_manifest.py
 python scripts/check_manifest.py
 ```
 
-## CAD regeneration
+<!-- README-SYNC:cad-regeneration -->
+## CAD neu erzeugen
 
-Install the CAD environment:
+CAD-Umgebung installieren:
 
 ```bash
 python -m pip install -r requirements-cad.txt
 ```
 
-Rebuild all currently source-reproducible CAD families:
+Alle derzeit aus Quellen reproduzierbaren CAD-Familien neu bauen:
 
 ```bash
 python scripts/rebuild_research_assets.py
 ```
 
-Or run individual generators:
+Oder einzelne Generatoren ausführen:
 
 ```bash
 python cad/generate_v2.py
@@ -300,44 +322,44 @@ python cad/generate_v3_video_refinements.py
 python cad/generate_v4_best_evidence_m2.py
 ```
 
-Important: `generate_v2.py` regenerates the V2 **core geometry**, not every preserved V2 release asset. V4 has its own declared source-owned part and assembly family. See [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md).
+Wichtig: `generate_v2.py` erzeugt die **Kerngeometrie** von V2 neu, nicht jedes erhaltene V2-Release-Asset. V4 besitzt eine eigene deklarierte, quelleneigene Teile- und Baugruppenfamilie. Siehe [`docs/research/cad-reproducibility.md`](docs/research/cad-reproducibility.md).
 
-## Build packages
+<!-- README-SYNC:build-packages -->
+## Baupakete
 
-The preservation/research release remains **v0.3.0**. In addition, the current physical-build package is generated deterministically with:
+Das Preservation-/Research-Release bleibt **v0.3.0**. Zusätzlich wird das aktuelle physische Baupaket deterministisch erzeugt mit:
 
 ```bash
 python cad/generate_v4_best_evidence_m2.py
 python scripts/build_v4_package.py
 ```
 
-Result:
+Ergebnis:
 
-- `release/experimental/testatika-m2-v4-best-evidence-build-package.zip`
-- matching `.sha256` file.
+- `release/experimental/testatika-m2-v4-best-evidence-build-package.zip`;
+- passende `.sha256`-Datei.
 
-The package contains the V4 generator, STEP/STL assets, complete assemblies, BOM, assembly instructions, printing guidance, electrical evidence boundary, safety and the primary-source/video audit context needed to interpret the model correctly.
+Das Paket enthält den V4-Generator, STEP/STL-Assets, vollständige Baugruppen, BOM, Montageanleitung, Druckhinweise, elektrische Evidenzgrenze, Sicherheit sowie den Primärquellen-/Video-Audit-Kontext, der für die korrekte Interpretation des Modells nötig ist.
 
-## Sources and external corpus
+<!-- README-SYNC:sources -->
+## Quellen und externer Korpus
 
-The most important published source for this small machine is Stefan Marinov, *The Thorny Way of Truth, Part V* (1989), supplemented by the direct Marinov/Hauser correspondence scans and historical media audited in this project.
+Die wichtigste veröffentlichte Quelle für diese kleine Maschine ist Stefan Marinov, *The Thorny Way of Truth, Part V* (1989), ergänzt durch direkte Marinov-/Hauser-Korrespondenzscans und historische Medien, die in diesem Projekt auditiert wurden.
 
-Full third-party scans/videos are intentionally not redistributed. Project history also refers to an externally held corpus named `testatika.zip`; it is **not part of the public repository**. Hashes/locators and derived research findings are documented without silently republishing third-party media.
+Vollständige fremde Scans/Videos werden bewusst nicht weiterverteilt. Die Projektgeschichte verweist außerdem auf einen extern gehaltenen Korpus namens `testatika.zip`; er ist **nicht Teil des öffentlichen Repositories**. Hashes/Locatoren und abgeleitete Forschungsergebnisse werden dokumentiert, ohne fremde Medien stillschweigend neu zu veröffentlichen.
 
-See [`docs/research/external-corpus.md`](docs/research/external-corpus.md), [`docs/sources.md`](docs/sources.md), [`docs/research/source-basis.md`](docs/research/source-basis.md), the primary-scan audit and the video-frame audit.
+Siehe [`docs/research/external-corpus.md`](docs/research/external-corpus.md), [`docs/sources.md`](docs/sources.md), [`docs/research/source-basis.md`](docs/research/source-basis.md), den Primärscan-Audit und den Video-Frame-Audit.
 
-## Contributing
+<!-- README-SYNC:contributing -->
+## Mitwirken
 
-The most valuable contributions are higher-resolution primary photographs, independently sourced dimensions, original correspondence with provenance, controlled electrostatic measurements, and falsification tests for wire-routing/electrode/charge-commutation hypotheses.
+Besonders wertvoll sind höher aufgelöste Primärfotos, unabhängig gewonnene Maße, Originalkorrespondenz mit Provenienz, kontrollierte elektrostatische Messungen und Falsifikationstests für Drahtführungs-/Elektroden-/Ladungskommutationshypothesen.
 
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Bitte [`CONTRIBUTING.md`](CONTRIBUTING.md) lesen.
 
-## License
+**Sprachregel:** `README.md` (Deutsch) und `README.en.md` (Englisch) sind gleichwertige, vollständig synchron zu haltende Fassungen. Inhaltliche README-Änderungen müssen immer in beiden Sprachen erfolgen; `python scripts/check_readme_sync.py` prüft die strukturelle Parität.
 
-Repository-authored code, CAD source, documentation and derived models are released under the [MIT License](LICENSE), unless explicitly stated otherwise. Third-party historical publications, scans and photographs remain subject to their respective rights.
+<!-- README-SYNC:license -->
+## Lizenz
 
----
-
-### Deutsch
-
-Dies ist eine **quellenkritische Forschungsreplik**, keine Behauptung, dass eine Freie-Energie-Funktion bewiesen sei. Für einen neuen physischen Nachbau ist **V4 best-evidence M2** der aktuelle Startpunkt. V2/V3 bleiben als Forschungs- und Provenienzstände erhalten. Der verbindliche historische Vollständigkeitsrahmen steht in [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md).
+Vom Repository selbst erstellter Code, CAD-Quelltext, Dokumentation und abgeleitete Modelle stehen, sofern nicht ausdrücklich anders angegeben, unter der [MIT-Lizenz](LICENSE). Historische Publikationen, Scans und Fotos Dritter unterliegen weiterhin ihren jeweiligen Rechten.

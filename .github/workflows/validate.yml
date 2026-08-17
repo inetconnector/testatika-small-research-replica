@@ -10,11 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install validation dependencies
         run: python -m pip install -r requirements-dev.txt
+      - name: Validate German/English README parity
+        run: python scripts/check_readme_sync.py
+      - name: Require paired README changes in pull requests
+        if: github.event_name == 'pull_request'
+        run: >-
+          python scripts/check_readme_sync.py --require-pair
+          "${{ github.event.pull_request.base.sha }}"
+          "${{ github.event.pull_request.head.sha }}"
+      - name: Require paired README changes on pushes
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: >-
+          python scripts/check_readme_sync.py --require-pair
+          "${{ github.event.before }}"
+          "${{ github.sha }}"
       - name: Validate repository structure and CAD assets
         run: python scripts/validate_assets.py
       - name: Verify committed integrity manifest

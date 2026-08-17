@@ -37,6 +37,20 @@ Do not silently upgrade a hypothesis or photo interpretation to historical fact.
 8. regenerate/check integrity metadata with `python scripts/generate_manifest.py` and `python scripts/check_manifest.py`;
 9. update `CHANGELOG.md` for release-relevant changes.
 
+## README language synchronization
+
+`README.md` is the complete German landing page; `README.en.md` is the complete English equivalent.
+
+Every README content change must update **both files in the same change**. This includes sections, paragraphs, bullet points, tables, links, file paths, build recommendations, warnings, scientific-status wording and project-status changes. Neither language may contain project information that is missing from the other.
+
+Keep the language selector at the top of both files and preserve the same `<!-- README-SYNC:... -->` section IDs in the same order. Run:
+
+```bash
+python scripts/check_readme_sync.py
+```
+
+A change that updates only one README is incomplete and must not be merged.
+
 ## Experimental reports
 
 Please include:
