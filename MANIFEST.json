@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 375,
+  "file_count": 385,
   "files": [
     {
       "path": ".gitattributes",
@@ -26,8 +26,8 @@
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
-      "size": 139,
-      "sha256": "8bad9be8d5f083aa3d9ce65c0f21e0e41e74b65f505a98a7c1057da9d413a931"
+      "size": 143,
+      "sha256": "bdd19e975d3e676a9239723abc143a52387aebc6b9db91151758109be6e3830b"
     },
     {
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
@@ -96,13 +96,63 @@
     },
     {
       "path": ".gitignore",
-      "size": 390,
-      "sha256": "9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781"
+      "size": 392,
+      "sha256": "08a9cefcbc9a547273fc77151ad996ea769a26fd0b88af6ede69f801b6451a82"
     },
     {
-      "path": "ADDON.md",
-      "size": 855,
-      "sha256": "1b636ba20a0cf59429375bc691f86047fe8f48ed8554fd9e8c218d5ca9048579"
+      "path": ".vs/ProjectSettings.json",
+      "size": 37,
+      "sha256": "debe308c356f9f0c649ccd3bd0c9a2e921566eb38aaaad97de07e6a0ce9a1b33"
+    },
+    {
+      "path": ".vs/VSWorkspaceState.json",
+      "size": 78,
+      "sha256": "f8315c8ace58425aeca40c1c17b3be8d50894c55f561cd7e36266da5d5ea3d72"
+    },
+    {
+      "path": ".vs/slnx.sqlite",
+      "size": 151552,
+      "sha256": "771b1e0ade84ed8a20b268fa8a9e332cdc16003748153a23eadbada0e7c6e71d"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/47e041f2-f219-45ed-bf46-bda56ef8cb4b.vsidx",
+      "size": 7061,
+      "sha256": "18b5c6bf2bb897250d68bf92aba3cbd1ed2fe72cbb834f5319792ea904f036b3"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/5f3db5e2-430d-45b5-ba0a-54c5b14281b4.vsidx",
+      "size": 71348,
+      "sha256": "ad04c052dcc445d5cdfdf831ae8cd363731bed6f2d7f49f58ab3fd79fa7dbcc9"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/6a72b5e2-71ba-404d-8d2f-dffab1f19ff9.vsidx",
+      "size": 1035949,
+      "sha256": "e94c91a875117eb96664de800985b99f67fa9a406fcdb5b8fb35974d9b68ac84"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/be4ac62c-3749-424c-aa1c-8ae06c9b6932.vsidx",
+      "size": 564637,
+      "sha256": "33869734779828c564a5fdd4c459aa9a1211f1488de9b9582ab7ed8b2f0b75d7"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/d3b56cb6-f1d1-48e5-80e0-0f0e836f884e.vsidx",
+      "size": 33048,
+      "sha256": "ff293dcd9354ea352a559a4b0338ac0d36e0c818b8afa9ee4c5a106fe06e6142"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/.wsuo",
+      "size": 24064,
+      "sha256": "a368d46041a1edf11a10adfcfa5a8d298f56941bf99307c78138be90d22cfdbf"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/DocumentLayout.backup.json",
+      "size": 544,
+      "sha256": "76ae6eec91455588f9ba0886b641412fde6326aac5ecd8be353cd003add6ec3f"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/DocumentLayout.json",
+      "size": 544,
+      "sha256": "76ae6eec91455588f9ba0886b641412fde6326aac5ecd8be353cd003add6ec3f"
     },
     {
       "path": "AGENTS.md",
@@ -116,8 +166,8 @@
     },
     {
       "path": "CITATION.cff",
-      "size": 522,
-      "sha256": "676b088b9a5fdd9b771b387b13c7187962a09ec1329488a1f1d3797e4f7b090c"
+      "size": 540,
+      "sha256": "69bb6a7d38e44d6c1e4e87c9c3e5fad90c25cc4efdb5789b9cf774e59eb64eea"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -172,7 +222,7 @@
     {
       "path": "addon.md",
       "size": 61275,
-      "sha256": "d79778eaf98f657445500bea3867c2de19e05e66187801c60a4b47795838b680"
+      "sha256": "d0e28616fcb24c47dceb1f9a3491a2937cc242c7e3b9cbf1503f2a31ebf9105b"
     },
     {
       "path": "cad/README.md",
@@ -236,8 +286,8 @@
     },
     {
       "path": "docs/images/small_machine_v3_functional_schematic.svg",
-      "size": 5047,
-      "sha256": "101346a3a7deee21f6e58d24c23a829081c49346c6d1c83e62491aaff0ab3a82"
+      "size": 5130,
+      "sha256": "3016695104385c126bf5d97e12b7e6b8042c4cda6ffc745279a24e3c31413d86"
     },
     {
       "path": "docs/publications/net-journal/ARTICLE.md",
@@ -286,23 +336,23 @@
     },
     {
       "path": "docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt",
-      "size": 2211,
-      "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+      "size": 2280,
+      "sha256": "b58e58754e01b886da8e3fe235bfde38ef06fb8b9d9fd32e26d3d14b38e1a5d0"
     },
     {
       "path": "docs/repository-history/workflows/consolidate-main-and-clean-branches.pre-hardening.yml.txt",
-      "size": 5537,
-      "sha256": "fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e"
+      "size": 5690,
+      "sha256": "ee1a486678cfcd7d60b700ab9abb948657ab22e014564222d365fefa164fcec1"
     },
     {
       "path": "docs/repository-history/workflows/materialize-netjournal-proposal.pre-hardening.yml.txt",
-      "size": 3912,
-      "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
+      "size": 4014,
+      "sha256": "3eaf39ddbb5c89fc64de7955d6679ba96a7d2b99f89c84e76908bb8c3c66b2b9"
     },
     {
       "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
-      "size": 3013,
-      "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+      "size": 3096,
+      "sha256": "2ec2a06d6134dfd9034cd5e1b7249b5d497fbba42e23a772e78046ce1e779cc0"
     },
     {
       "path": "docs/research/archive-audit-2026-08-16.md",
@@ -311,8 +361,8 @@
     },
     {
       "path": "docs/research/archive-source-ledger.tsv",
-      "size": 3154,
-      "sha256": "ddd9aefd8146a17d95a63dda262541e2aab9bac7676e3260137ac8fd7b530566"
+      "size": 3169,
+      "sha256": "033bf9466c1d4e9e671e1d2ee0b7ace036ba22d1c490ebe696e5a14980b150c9"
     },
     {
       "path": "docs/research/assembly.md",
@@ -326,8 +376,8 @@
     },
     {
       "path": "docs/research/baumann-statements.tsv",
-      "size": 12866,
-      "sha256": "1831009df4b6c581b597d49a85c04e67f3487d3db446c1bef96c41758e3cbb51"
+      "size": 12916,
+      "sha256": "a134deee5db1d258df37a19c35058b15191937eb7b86e4c3ac870075c0f4b81f"
     },
     {
       "path": "docs/research/bom.md",
@@ -356,8 +406,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 30740,
-      "sha256": "441718c5a00bc2d49b73b5deabecabf78662b8bbed56216153a29bf892a035e1"
+      "size": 30868,
+      "sha256": "8e7473b714e8b8cc11627e4189cbd3ea4c17db02c46bdb7e973b9581cdd2a598"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -381,8 +431,8 @@
     },
     {
       "path": "docs/research/hartmann-overunity-sources.tsv",
-      "size": 7918,
-      "sha256": "f9d4dfa02518a9b5765bf9c4b51840b376823ec1537433977b5e3b782204ac9c"
+      "size": 7945,
+      "sha256": "64590e0b5b114c2777fe255dd5d0928b8be0eabc16fd703dddf667b8a76068f3"
     },
     {
       "path": "docs/research/hartmann-overunity-testatika.md",
@@ -396,8 +446,8 @@
     },
     {
       "path": "docs/research/hauser-source-ledger.tsv",
-      "size": 2992,
-      "sha256": "48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669"
+      "size": 3004,
+      "sha256": "df99f46e190c36b8c347b2a0ff0d60a2125ce7b179daa14302ca618371c20c13"
     },
     {
       "path": "docs/research/internet-source-audit-2026-08-17.md",
@@ -451,38 +501,38 @@
     },
     {
       "path": "docs/research/internet-source-ledger-round2.tsv",
-      "size": 5172,
-      "sha256": "5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781"
+      "size": 5188,
+      "sha256": "37acfed8d8e95ab72531ba660e56f554ff3aae9d85f0564bba92d80e7649c152"
     },
     {
       "path": "docs/research/internet-source-ledger-round3.tsv",
-      "size": 4376,
-      "sha256": "e987f57b3011662d8812a8c3b7d16e1d1efa892e21ded33670c7154d0dc8ad51"
+      "size": 4388,
+      "sha256": "36b677ee32c28bc2f48884f7f6a245dedab952b2cb093bd81f7ccbafe7c2d9d8"
     },
     {
       "path": "docs/research/internet-source-ledger-round4.tsv",
-      "size": 4562,
-      "sha256": "de8c3eef1c37319ab816576781f12ba8454eef85f13f31b9142da48eae40dd9a"
+      "size": 4575,
+      "sha256": "3c4242ee85776856eb2312e23022a8ec61296b27c1e08841525cedf0de548bce"
     },
     {
       "path": "docs/research/internet-source-ledger-round6.tsv",
-      "size": 2891,
-      "sha256": "c40d3ff354516c9cad3a002b1b26b66839be3b1710f55863d4b2a7d658cc1bd0"
+      "size": 2900,
+      "sha256": "9bda23f04b11f33cae088f7fc8b316460a0345cf8a68634d7eb649f6aa71ff52"
     },
     {
       "path": "docs/research/internet-source-ledger-round7.tsv",
-      "size": 3899,
-      "sha256": "514c091a2fd2afb74a07cc915912ab8ad9cdd26992c414bf142a6677f1634c58"
+      "size": 3910,
+      "sha256": "4acd41ed64fa7d9f850a510763ddccf771e6714acf58e82d71e7c1e6dbc4ebd6"
     },
     {
       "path": "docs/research/internet-source-ledger-round9.tsv",
-      "size": 3079,
-      "sha256": "8362b81854acfaacd73b1990a6cf316870e77774dcc2b174c4e79dc0840d21f2"
+      "size": 3088,
+      "sha256": "90c6dd10dc245a8a7f68b707ce0d4f18ed28020f481a07fff70ca2b8050b3936"
     },
     {
       "path": "docs/research/internet-source-ledger.tsv",
-      "size": 10865,
-      "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
+      "size": 10895,
+      "sha256": "6ff3eb3e11aa038c62faa7dd40276fe8a32e177a84c50bd6ab11948bea850372"
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
@@ -546,13 +596,13 @@
     },
     {
       "path": "docs/research/m6-large-v1-source-map.tsv",
-      "size": 5220,
-      "sha256": "3bc33961cebe7640c6bf0c809a096ffd6a9edb56f3ea445541f373ea7e540d43"
+      "size": 5256,
+      "sha256": "626b2383907c40b1815d177a6d1959af18af400853584097904c9ba01b32ae26"
     },
     {
       "path": "docs/research/m6-large-v1-terminal-map.tsv",
-      "size": 3185,
-      "sha256": "15f203622daac24d125ecbc55d18661fe23d47ee6199a0d5d100f33bcdb46a3f"
+      "size": 3231,
+      "sha256": "4b12bb452d585e4adc625afcfcaca2250b1582aeb5dca8964e2f07ee6bc01b43"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -616,23 +666,23 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog-round6.tsv",
-      "size": 2894,
-      "sha256": "1318e77394996937391dedbc324371edb612a1df80c20f0e544e23de72a64007"
+      "size": 2903,
+      "sha256": "eb3d4cc0deca0280ef453c93ffe2392984aec5c0d9077268830a7f0620975507"
     },
     {
       "path": "docs/research/source-acquisition-backlog-round7.tsv",
-      "size": 2655,
-      "sha256": "e437ed17dd185d7d02fd9951e3c1e54cfd7d9395476ba84928624ffab9fbdc41"
+      "size": 2664,
+      "sha256": "f507bb2cc10f20709b7a78dfa484eff6c233a52346649a47ec927ac320d0f68b"
     },
     {
       "path": "docs/research/source-acquisition-backlog-round9.tsv",
-      "size": 2351,
-      "sha256": "9c83fee2c4d552b28332c70a648c93472c34c35ff756537363ee5c489e7efab0"
+      "size": 2360,
+      "sha256": "c8bc93b3a61ddc693ee04e29fb66e7625a07ad4948af6ef5ba5ff9176f32ee81"
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 15301,
-      "sha256": "03370e2eebac8eadcc3474a99bf072f5820a1b627fef61840abf16e649339ad4"
+      "size": 15351,
+      "sha256": "a6e057befad2623b45ab49845b411a71a42932a4b3d5b273f48921b6777e0726"
     },
     {
       "path": "docs/research/source-basis.md",
@@ -641,8 +691,8 @@
     },
     {
       "path": "docs/research/source-independence-round8.tsv",
-      "size": 2038,
-      "sha256": "3438ce08c40a8d89b622211223c9d04eed1ca2f8214c9635932d6173b9771e2f"
+      "size": 2049,
+      "sha256": "673c397569dfb6c48cc12e29b3291ec36b21a5261ef94ae02f89619659132f6d"
     },
     {
       "path": "docs/research/stl_dimensions.json",
@@ -666,8 +716,8 @@
     },
     {
       "path": "docs/research/v3-photo/connection-plan.tsv",
-      "size": 2644,
-      "sha256": "2e22225f2e9bcbfb6b2c012e1db9200c8806245fe7b59779958d15a8196e7706"
+      "size": 2664,
+      "sha256": "d72c35eceec04b44431fbdeabb9d96d52fe4b1682dcad4519099bda16e01f1f8"
     },
     {
       "path": "docs/research/v3-photo/functional-model.md",
@@ -676,8 +726,8 @@
     },
     {
       "path": "docs/research/v3-photo/node-map.tsv",
-      "size": 1878,
-      "sha256": "b52c87be5399c8f9d637621d424698af59bc193ebc5a171ef379fa5466a9e5ad"
+      "size": 1896,
+      "sha256": "53233393a29dbb4c93dfe9a4248f76b124070fc40900dd52ff1a5da487052b68"
     },
     {
       "path": "docs/research/v3-photo/pixel-analysis.md",
@@ -726,8 +776,8 @@
     },
     {
       "path": "docs/research/v4-pr-ready.txt",
-      "size": 95,
-      "sha256": "74d75b285ecb86e7f1bf658d97fc32a44e9b30acd1e4e1174afcaac51ec2ecd1"
+      "size": 97,
+      "sha256": "e04cf2bdff895667773284bbaf4aa63c3c2debc1bed46ce90cc681a1f7befce9"
     },
     {
       "path": "docs/research/v4-printing.md",
@@ -736,8 +786,8 @@
     },
     {
       "path": "docs/research/v4-reproducibility-proof.txt",
-      "size": 567,
-      "sha256": "53e21d74911a0f367927220e0763c36375def8a664833ee4c63300d45334c04a"
+      "size": 583,
+      "sha256": "cc9eded94e9c08c21443872faaaa54951f3c516ef615e0d15dd81863064f54fc"
     },
     {
       "path": "docs/research/v4-reproducibility.md",
@@ -751,8 +801,8 @@
     },
     {
       "path": "docs/research/video-source-ledger.tsv",
-      "size": 2790,
-      "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
+      "size": 2800,
+      "sha256": "f75ea88551622eeceadad25784ad78097e365cf6f6a89bd23cbb072735a244a9"
     },
     {
       "path": "docs/research/witness-source-independence-1984.md",
@@ -1711,8 +1761,8 @@
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
-      "size": 114,
-      "sha256": "0821a899a874a934d72c283d81e98a3c31b31dcb88bcaad19c0a26cd8ebabd9e"
+      "size": 115,
+      "sha256": "7b0692f49b3b637c2e78e9e8ce0ccbb3f99c7090938e9769cd05c972a8481be2"
     },
     {
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip",
@@ -1721,8 +1771,8 @@
     },
     {
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip.sha256",
-      "size": 120,
-      "sha256": "7516ce3b9fdb1a0fdb5e3dc0a209907bcc5508abe08cfda2eb900d98bb042722"
+      "size": 121,
+      "sha256": "c0c191dd8ea78964c48305e99b3d89004e79e55e330deefbbc45049205d56a73"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
@@ -1741,8 +1791,8 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
-      "size": 110,
-      "sha256": "cffb2fe8e60cfdaf899791f8e5c5b9a6f3ccb88f0b4543a315d9730799bce4db"
+      "size": 111,
+      "sha256": "72fe99717d606beb406849d150a6217137e78d352bfbf605d613dcd88c57ddd3"
     },
     {
       "path": "requirements-cad.txt",
