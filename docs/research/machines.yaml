@@ -17,7 +17,7 @@ machines:
   - id: M2
     name: Marinov first small machine
     status: primary_replication_target
-    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository. Preferred electrical baseline now uses individually floating rotor wires from direct small-machine correspondence, a two-lead external condenser interface, no rubbing brushes and no conventional built-in drive motor. Do not import Holzherr 12-cm geometry or Hauser large-machine cylinder/control details without a source bridge."
+    notes: "Single disc ~200 mm; first small machine on right in Marinov figs. 13/14; baseline of this repository. Preferred electrical baseline now uses individually floating rotor wires from direct small-machine correspondence, a two-lead external condenser interface, no rubbing brushes and no conventional built-in drive motor. Marinov direct-author material additionally strengthens the Baumann->Marinov East-West startup statement, dry-air 3-4-push behavior, ~60-rpm running observation, post-start orientation independence, easier later restarts and direct rear-metal-plate stop observation. Mechanisms remain unknown. Do not import Holzherr 12-cm geometry or Hauser large-machine cylinder/control details without a source bridge."
   - id: M3
     name: Marinov second small machine
     status: historical_variant
@@ -33,11 +33,11 @@ machines:
   - id: M5
     name: Weber/Schneider machine 1984
     status: historical_large_variant
-    notes: "Large assembly; operator/output claims must not be transferred to M2."
+    notes: "Large assembly; operator/output claims must not be transferred to M2. Internet audit identifies the 13 March 1984 visit/test line as a priority acquisition target; retrospective reports are not closed energy measurements."
   - id: M6
     name: large / roughly 50 cm two-disc umbrella family
     status: historical_large_variant
-    notes: "Umbrella for large-machine material. Use M6a/M6b when the source is specific. Large-family details must not be copied into M2 by name similarity alone."
+    notes: "Umbrella for large-machine material. Use M6a/M6b/M6c when the source is specific. Large-family details must not be copied into M2 by name similarity alone. Marinov TWT-VII adds a two-disc sector asymmetry (thick electrically connected grid sectors on both sides of one disc; thin sectors only on the external side of the other; insulating spray on slightly magnetized sectors), but exact variant identity remains unresolved."
   - id: M6a
     name: Hauser drawing 3279 / 1986-1988 roughly 500 mm medium-large machine
     status: historical_large_variant
@@ -46,10 +46,26 @@ machines:
     name: Holzherr 1999 roughly 50 cm demonstration machine
     status: historical_large_variant
     notes: "Holzherr reports ~15 rpm during this demonstration, magnetic speed regulation, short load observations and Baumann's statement that large capacitors used 20 perforated-sheet layers. Treat all of these as model/demo-specific; do not assume identity with every Hauser/Cathomen ~50-cm configuration."
+  - id: M6c
+    name: Marinov 1989 large-under-construction / 2-to-1 medium-copy family
+    status: historical_large_variant_conflict
+    notes: "Marinov direct-author line for a large machine he saw in parts/under construction and described as about a 2:1 copy of the medium machine. He reports perforated large sectors, Baumann-stated special Fe-Ni alloy and slight magnetization, roughly 30-cm horseshoe magnets, and open cylindrical capacitive-transformer parts that Marinov interpreted as an outer cylindrical electrode plus thick copper-wire inner coil. This does not cleanly match Hauser M6a three-grid/magnet-tube/bifilar cylinders. Keep separate until object/stage identity is proven; do not overwrite M6a CAD."
   - id: M7
     name: 2001 Dienst/Cathomen workshop black-red-disc prototype family
     status: workshop_variant
     notes: "testa01.ram/testa02.ram show several machines during one 2001 Methernitha-lab visit. A prominent black/red-disc workshop assembly has side/rear views unavailable in official stills. Keep it as its own visual family unless a timestamped component-level match proves identity with another machine."
+  - id: M8
+    name: circa-1-metre large-scale workshop family
+    status: unfinished_historical_variant
+    notes: "Marinov's 1989 author text says 100-cm disc machines were under construction; the later Cathomen workshop-video transcript independently refers to a one-metre object. Identity/continuity between those observations is not yet proven. Output figures in the workshop transcript are operator claims only."
+  - id: M9
+    name: circa-2-metre large-scale workshop family
+    status: unfinished_historical_variant
+    notes: "Marinov's 1989 author text says 200-cm disc machines were under construction; the later Cathomen workshop-video transcript refers to a two-metre object. Later secondary sources call a 2-m machine 'Elephant', but that nickname is not used as primary geometry evidence."
+  - id: M10
+    name: tandem / double-converter workshop family
+    status: workshop_variant
+    notes: "The preserved Cathomen amateur-video transcript distinguishes a double converter and a tandem arrangement. Exact topology and relationship to M6/M8/M9 are not recovered; no series/parallel electrical connection is assumed from the word tandem alone."
   - id: MX
     name: unspecified Testatika / Thesta-Distatica variant
     status: unresolved
