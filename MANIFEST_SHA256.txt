@@ -82,6 +82,7 @@ e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1  docs/research/
 5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781  docs/research/internet-source-ledger-round2.tsv
 cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac  docs/research/internet-source-ledger.tsv
 c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c  docs/research/kelly-free-energy-guide-audit-2026-08-16.md
+16cf676a5eb5e799428f2fd6f54a8d627088cdc8614c03bbd93c6b7c2857bf79  docs/research/kelly-source-revision-chain-2026-08-17.md
 84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df  docs/research/limitations.md
 f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f  docs/research/m6-large-v1-assembly.md
 a6960edf49b91dc1a3dc598dc908eed0d31d1ebc7e5a9b0081fe5c62729d719e  docs/research/m6-large-v1-best-evidence.md

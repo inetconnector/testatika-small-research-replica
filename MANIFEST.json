@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 353,
+  "file_count": 354,
   "files": [
     {
       "path": ".gitattributes",
@@ -423,6 +423,11 @@
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
       "size": 8230,
       "sha256": "c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c"
+    },
+    {
+      "path": "docs/research/kelly-source-revision-chain-2026-08-17.md",
+      "size": 3824,
+      "sha256": "16cf676a5eb5e799428f2fd6f54a8d627088cdc8614c03bbd93c6b7c2857bf79"
     },
     {
       "path": "docs/research/limitations.md",
