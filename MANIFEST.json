@@ -2,17 +2,12 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 377,
+  "file_count": 375,
   "files": [
     {
       "path": ".gitattributes",
       "size": 207,
       "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
-    },
-    {
-      "path": ".github/BRANCH_CLEANUP_TRIGGER",
-      "size": 57,
-      "sha256": "85ba100c6187eff7bdfe6da6e669480529c4b4da48dc8b18f9d693b50be56215"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -43,11 +38,6 @@
       "path": ".github/workflows/apply-repository-hardening.yml",
       "size": 1771,
       "sha256": "a36ad6642684168cef7e06bf2fc06857699428f40189c4b604a7debbea7918ef"
-    },
-    {
-      "path": ".github/workflows/cleanup-merged-branches-once.yml",
-      "size": 1352,
-      "sha256": "078c2f49974bb7f95c93b615090bcd9362ed0ff4227cb169f667e9ce63f86c0e"
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
