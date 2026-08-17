@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 348,
+  "file_count": 349,
   "files": [
     {
       "path": ".gitattributes",
@@ -653,6 +653,11 @@
       "path": "docs/research/video-source-ledger.tsv",
       "size": 2790,
       "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
+    },
+    {
+      "path": "docs/research/witness-source-independence-1984.md",
+      "size": 3819,
+      "sha256": "a629592d129a9dd1998638721e52fa145ef799fd5e40c2aa88f068878adc5582"
     },
     {
       "path": "docs/scientific-status.md",
