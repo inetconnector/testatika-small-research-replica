@@ -1,5 +1,9 @@
 # Testatika — elektrische Baudokumentation
 
+<p align="center">
+  <strong>Deutsch</strong> · <a href="README.md">English</a>
+</p>
+
 ## Kanonische Pläne
 
 ### Kleine M2 V5
@@ -30,7 +34,7 @@
 
 ## Elektrischer Vertrag
 
-1. **Keine versteckte geratenen Verdrahtungen.** Jede historisch unsichere Verbindung wird extern gepatcht und erhält eine Config-ID.
+1. **Keine versteckten geratenen Verdrahtungen.** Jede historisch unsichere Verbindung wird extern gepatcht und erhält eine Config-ID.
 2. **Direkte Quellen schlagen Reverse Engineering.** Marinov-/Hauser-/Cathomen-/Holzherr-Grenzen stehen über Kelly-/Potter-/Rimstar-Rekonstruktionen, wo sie sich widersprechen.
 3. **Eine elektrisch funktionierende Laborschaltung ist nicht automatisch die historische Originalschaltung.**
 4. **Hochspannungsversuche beginnen mit kleiner gespeicherter Energie und kommerzieller strombegrenzter Laborausrüstung.**
