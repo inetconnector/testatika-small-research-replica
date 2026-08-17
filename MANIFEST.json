@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 561,
+  "file_count": 564,
   "files": [
     {
       "path": ".gitattributes",
@@ -563,6 +563,11 @@
       "path": "docs/research/m2-v2-goldie-control-and-gap.md",
       "size": 8152,
       "sha256": "957a00797316317d5c9868f8ad98b051a33a901004329155dca24112fca1621b"
+    },
+    {
+      "path": "docs/research/m2-v3-distributed-rotor.md",
+      "size": 7192,
+      "sha256": "c9f6e4217a1e01809adeca7528e07b9e038bd9f323baf6c74f8768e9ff05620b"
     },
     {
       "path": "docs/research/m2-v5-fabrication-kit.md",
@@ -2600,6 +2605,11 @@
       "sha256": "f803876a741bff2217fc6937c3eb697d8ac7200d3e6c31a1eead0dc0c69fd0ca"
     },
     {
+      "path": "sim/m2_v3_distributed_rotor.py",
+      "size": 9704,
+      "sha256": "1ca04196c40758135d2e114a87e932a93ea74486fda928ea55fceba39acbd8cb"
+    },
+    {
       "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_Frigidaire_1989_Seitenansicht.jpg",
       "size": 341282,
       "sha256": "3db3d7940bd02b80a8c3b1f49aa0492d7967984a9c980bdb91b0b2f01178c7de"
@@ -2808,6 +2818,11 @@
       "path": "tests/test_m2_regenerative_grid_model.py",
       "size": 2803,
       "sha256": "6cfd9e60e3f5cc5aacdcb1a251e9891eef582cfe2163d817078e13f8bd946ba0"
+    },
+    {
+      "path": "tests/test_m2_v3_distributed_rotor.py",
+      "size": 2708,
+      "sha256": "5ce491801db1f46b572515a1940bb4fca04cf47637246ddd4f728f7e808ec35c"
     }
   ]
 }
