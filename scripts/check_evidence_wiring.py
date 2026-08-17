@@ -3,9 +3,10 @@
 
 This does NOT simulate or validate a historical Testatika energy claim. It verifies that
 our published W0/W1 documentation is internally consistent, machine-readable registries
-parse cleanly, SVG drawings are valid XML, and the passive rectifier/storage block used
-for the laboratory W1 variants is electrically capable of producing DC from a differential
-pulsed/alternating input in an idealized conventional model.
+parse cleanly, SVG drawings are valid XML, source-image families remain deduplicated, and
+the passive rectifier/storage block used for the laboratory W1 variants is electrically
+capable of producing DC from a differential pulsed/alternating input in an idealized
+conventional model.
 """
 
 from __future__ import annotations
@@ -41,6 +42,27 @@ def check_variant_registry() -> None:
     for row in rows:
         require(row["evidence_class"], f"{row['variant']} has no evidence class")
         require(row["must_not_claim"], f"{row['variant']} lacks a claim boundary")
+
+
+def check_source_image_registry() -> None:
+    rows = read_tsv(ELEC / "SOURCE_IMAGE_FAMILIES.tsv")
+    ids = [r["id"] for r in rows]
+    require(len(ids) == len(set(ids)), "duplicate source-image family ID")
+    require(len(rows) >= 13, "source-image census unexpectedly lost a distinct family")
+    required_families = {
+        "Albert Hauser drawing 3279 front/top/side/legend",
+        "Don Kelly Magnets electro-schematic",
+        "Paul E. Potter Full Circuit",
+        "Sven Bönisch ELEKTRIE circuits",
+        "Cathomen amateur workshop video",
+        "Holzherr Principle Experiment drawing/report",
+    }
+    names = {r["family"] for r in rows}
+    require(required_families.issubset(names),
+            f"missing source-image families: {sorted(required_families - names)}")
+    for row in rows:
+        require(row["evidence_class"], f"{row['id']} has no evidence class")
+        require(row["limitation"], f"{row['id']} lacks an evidence limitation")
 
 
 def check_lamella_matrix() -> None:
@@ -118,6 +140,7 @@ def check_conventional_output_paths() -> None:
 
 def main() -> None:
     check_variant_registry()
+    check_source_image_registry()
     check_lamella_matrix()
     check_svg()
     check_docs()
