@@ -286,18 +286,18 @@
     },
     {
       "path": "docs/publications/net-journal/ARTICLE.md",
-      "size": 22536,
-      "sha256": "d90f46da8a1dc031792b5bc4bdc2d39955352d8f3e973b9570345f9ad3efd210"
+      "size": 29593,
+      "sha256": "2897ec277f5057d63dda8915876867db3c2cf10a6ac524d462e82dbe9abb25c7"
     },
     {
       "path": "docs/publications/net-journal/README.md",
-      "size": 2065,
-      "sha256": "e57584b2782911697c698c532aac6c710eafb82056944dab0237fbedd3b81439"
+      "size": 4106,
+      "sha256": "872022a8959ecbd318f245aaae4a7bb1b4ff485fe5475dfbaf5fbac07cb9767d"
     },
     {
       "path": "docs/publications/net-journal/Testatika_Beitragsvorschlag_NET-Journal_2026.docx",
-      "size": 1470724,
-      "sha256": "dbe13504abed6609f38ca6f1abedbf69c3505bb9938fa8f9b35fd21f937b2f33"
+      "size": 1474379,
+      "sha256": "a42ae410d0ed409f1c4c64767b1025d6ce4cd525e1498ecd567250f1452286b2"
     },
     {
       "path": "docs/publications/net-journal/Testatika_historisches_Foto.jpg",
@@ -351,13 +351,13 @@
     },
     {
       "path": "docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx",
-      "size": 9540,
-      "sha256": "ee4b6df4f7e145eeb6a471b73819f3031ba29e0fad7177be0b87db477dacf1a2"
+      "size": 40593,
+      "sha256": "960e0d40f97e9ee3f13a66e27b4caa1b7957f618a3d52106009578be0d2ee281"
     },
     {
       "path": "docs/research/Testatika_Funktionsprinzip_Erde_Wolke_Trockenluft.docx",
-      "size": 10504,
-      "sha256": "d369032a5791174733a74eb149ccabb733d2b93f61de332b2a6c3a8331dbb014"
+      "size": 41607,
+      "sha256": "6acd036e09c677aa8f49c75dbd279097df968ffe39e7a70867f6164b114eb6ed"
     },
     {
       "path": "docs/research/archive-audit-2026-08-16.md",
