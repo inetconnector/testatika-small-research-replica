@@ -83,6 +83,7 @@ e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1  docs/research/
 2a69b509db0c0895d9cc3daa21aaa9b942581aa61ca50f608a9a33f181e00452  docs/research/internet-source-audit-round4-2026-08-17.md
 5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781  docs/research/internet-source-ledger-round2.tsv
 e987f57b3011662d8812a8c3b7d16e1d1efa892e21ded33670c7154d0dc8ad51  docs/research/internet-source-ledger-round3.tsv
+de8c3eef1c37319ab816576781f12ba8454eef85f13f31b9142da48eae40dd9a  docs/research/internet-source-ledger-round4.tsv
 cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac  docs/research/internet-source-ledger.tsv
 c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c  docs/research/kelly-free-energy-guide-audit-2026-08-16.md
 16cf676a5eb5e799428f2fd6f54a8d627088cdc8614c03bbd93c6b7c2857bf79  docs/research/kelly-source-revision-chain-2026-08-17.md
