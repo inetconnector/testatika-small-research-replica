@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 345,
+  "file_count": 346,
   "files": [
     {
       "path": ".gitattributes",
@@ -1643,6 +1643,11 @@
       "path": "scripts/apply_hartmann_overunity_v6.py",
       "size": 26596,
       "sha256": "a31e843bc45103d4eb034413b6471f9ac2a0b70b0cc22c7f8e45915ab0b50413"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit.py",
+      "size": 19781,
+      "sha256": "ff7f87ea01f9bc3f6d0f1275bfb2c266ddcb4f1505a73c94656ce0a39e319bc5"
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
