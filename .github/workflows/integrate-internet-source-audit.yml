@@ -6,10 +6,13 @@ on:
       - agent/internet-source-audit-2026-08-17
     paths:
       - 'scripts/apply_internet_source_audit.py'
+      - 'scripts/apply_internet_source_audit_addendum.py'
       - 'docs/research/internet-source-audit-2026-08-17.md'
+      - 'docs/research/internet-source-audit-addendum-2026-08-17.md'
       - 'docs/research/internet-source-ledger.tsv'
       - 'docs/research/control-replication-audit-2026-08-17.md'
       - 'docs/research/source-acquisition-backlog.tsv'
+      - 'docs/research/witness-source-independence-1984.md'
       - '.github/workflows/integrate-internet-source-audit.yml'
   workflow_dispatch:
 
@@ -38,7 +41,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Apply idempotent source-audit corrections
-        run: python scripts/apply_internet_source_audit.py
+        run: |
+          python scripts/apply_internet_source_audit.py
+          python scripts/apply_internet_source_audit_addendum.py
       - name: Install validation dependencies
         run: python -m pip install -r requirements-dev.txt
       - name: Validate source-owned repository structure
@@ -57,6 +62,7 @@ jobs:
             docs/REPLICATION_STATUS.md \
             docs/M6_REPLICATION_STATUS.md \
             docs/research/source-basis.md \
+            docs/research/kelly-free-energy-guide-audit-2026-08-16.md \
             docs/research/evidence_matrix.tsv \
             docs/research/experiment-plan.md \
             docs/research/m6-large-v1-source-map.tsv \
