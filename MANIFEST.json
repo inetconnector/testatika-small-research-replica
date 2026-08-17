@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 374,
+  "file_count": 375,
   "files": [
     {
       "path": ".gitattributes",
@@ -343,6 +343,11 @@
       "path": "docs/research/control-replication-audit-2026-08-17.md",
       "size": 5775,
       "sha256": "785566877d5a1b879048a9921a5ddb138a88de0a7b4f423160a38d1328f48de8"
+    },
+    {
+      "path": "docs/research/don-kelly-source-correction-2026-08-17.md",
+      "size": 7393,
+      "sha256": "54a0b9452835f7c824a07e709a29bb67af288a9b045dc9075295a20cdd74a299"
     },
     {
       "path": "docs/research/electrodes.md",
