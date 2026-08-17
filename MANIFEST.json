@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 517,
+  "file_count": 518,
   "files": [
     {
       "path": ".gitattributes",
@@ -288,6 +288,11 @@
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
       "size": 2413,
       "sha256": "f021e8d70a614894ffb7c52d9f2c06f401b87f43894c0a158f24dadcf591a8b0"
+    },
+    {
+      "path": "docs/electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg",
+      "size": 6243,
+      "sha256": "ebdcfabdb2415d0f70860981267c5d8ea686382e0ff57239e7212424c77b6125"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
