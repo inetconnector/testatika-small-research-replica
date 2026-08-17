@@ -1,0 +1,68 @@
+name: Integrate verified Internet source audit
+
+on:
+  push:
+    branches:
+      - agent/internet-source-audit-2026-08-17
+    paths:
+      - 'scripts/apply_internet_source_audit.py'
+      - 'docs/research/internet-source-audit-2026-08-17.md'
+      - 'docs/research/internet-source-ledger.tsv'
+      - 'docs/research/control-replication-audit-2026-08-17.md'
+      - 'docs/research/source-acquisition-backlog.tsv'
+      - '.github/workflows/integrate-internet-source-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-writers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Synchronize to latest branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "$GITHUB_REF_NAME"
+          git checkout "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply idempotent source-audit corrections
+        run: python scripts/apply_internet_source_audit.py
+      - name: Validate source-owned repository structure
+        run: python scripts/validate_repo.py
+      - name: Refresh and verify integrity manifest
+        run: |
+          python scripts/generate_manifest.py
+          python scripts/check_manifest.py
+      - name: Commit integrated audit state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            docs/REPLICATION_STATUS.md \
+            docs/M6_REPLICATION_STATUS.md \
+            docs/research/source-basis.md \
+            docs/research/evidence_matrix.tsv \
+            docs/research/experiment-plan.md \
+            docs/research/m6-large-v1-source-map.tsv \
+            CHANGELOG.md STATE.md addon.md \
+            MANIFEST.json MANIFEST_SHA256.txt
+          if git diff --cached --quiet; then
+            echo 'Internet source audit already integrated and current.'
+          else
+            git commit -m 'research: integrate verified internet source findings'
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
