@@ -211,3 +211,27 @@ High-value additions/corrections:
 8. Conventional controls from Marinov himself and Bönisch 2003 do not show a self-closing/over-unity conventional electrostatic loop; Rimstar work adds a documented floating-source oscilloscope-ground failure mode.
 
 The audit changes evidence ranking and experiment design. It does **not** reveal an authentic complete circuit or establish net energy creation.
+
+## Primary-publication addendum: Kelly/Bailey 1991 and March-1984 witness lines
+
+See [`internet-source-audit-addendum-2026-08-17.md`](internet-source-audit-addendum-2026-08-17.md) and [`witness-source-independence-1984.md`](witness-source-independence-1984.md).
+
+### Kelly/Bailey 1991 — evidence limit stated by the authors
+
+The original 26th-IECEC paper is publicly available. Kelly and Bailey explicitly state that their real evidence consisted of **documents from researchers plus a videotape**, and that duplication attempts known to them had been unsuccessful. Their large-disc diameter is estimated from photographs; their later sections openly label multiple component functions as conjectural/thought/surmised. Their own `Solicited Opposing Views` section also warns that lamp/heater incandescence under HV/HF conditions is not a reliable average-power measurement.
+
+Therefore:
+
+- Kelly/Bailey is **P0 as a publication about what Kelly/Bailey claimed**, but remains **S2/photo-derived for original Testatika geometry/function**;
+- Kelly's ~20–24-inch disc estimate and six-pickup interpretation cannot override direct Hauser/Marinov source material;
+- `flux enhancement`, `electron cascading`, Searl/Ecklin and related mechanisms remain interpretation/hypothesis, not historical baseline.
+
+### March 1984 source-independence warning
+
+The Inge Schneider/Hans Weber 13-Mar-1984 account and the L. L. Rorschach 17-Mar-1984 report reproduced by Nieper describe nearly identical dimensions, materials, central rainbow disc, startup and output demonstration. They may describe the same object and/or share a text chain. Until original 1984 records resolve this, matching details are **not counted twice as independent corroboration**.
+
+The L. L. report is assigned `M5a`; its air-molecule/neutron/tachyon/gravity explanations are witness theory, not observed engineering facts.
+
+### 1999 demonstration date conflict
+
+Retrospective public sources disagree between 5-Jun-1999 and 4-Aug-1999 for an engineer-group demonstration, while early-Aug Holzherr/Hartmann pages also carry email/translation dates. The calendar date remains **CONFLICT** pending contemporaneous invitation/attendee/photo/video evidence.

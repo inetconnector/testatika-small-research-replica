@@ -4873,3 +4873,10 @@ Historical hidden node wiring, exact crystal material/function, exact magnetic f
 A broad provenance-first public Internet crawl is integrated. Canonical entry points: `docs/research/internet-source-audit-2026-08-17.md`, `internet-source-ledger.tsv`, `control-replication-audit-2026-08-17.md`, `source-acquisition-backlog.tsv`.
 
 Important corrections: M2 East-West startup is Baumann→Marinov source-stated (post-start orientation independence is separately Marinov-observed); rear metal-plate stop is direct Marinov observation; dry-air ~3–4 pushes, humidity dependence, restart memory and ~60 rpm are retained as model-specific observations. TWT-VII adds unresolved two-disc thick-grid/thin-sector asymmetry. New taxonomy: M6c large-under-construction Marinov conflict family, M8 ~1m, M9 ~2m, M10 tandem/double converter. Do not alter Hauser M6a CAD from these without an explicit object/source bridge. Kelly remains photo-derived/S2. No authentic complete hidden circuit or net-energy proof was found.
+
+
+## Primary-publication web-audit addendum 2026-08-17
+
+New stronger sources: Kelly/Bailey 1991 original IECEC PDF; Nieper 1985 book mirror including the L. L. Rorschach 17-Mar-1984 witness report; Schneider/Weber 13-Mar-1984 account republished by NET-Journal; recipient-side publication of a 2010 Methernitha reply. See `docs/research/internet-source-audit-addendum-2026-08-17.md` and `witness-source-independence-1984.md`.
+
+Do not double-count M5 and M5a as independent until source dependence is resolved. Kelly/Bailey explicitly were not direct machine witnesses and their geometry is secondary/photo-derived. The 1999 engineer-demo date is CONFLICT (5 Jun vs 4 Aug / early-Aug publication chain). No hidden original circuit or closed historical net-energy proof was found.

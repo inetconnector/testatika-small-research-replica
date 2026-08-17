@@ -163,3 +163,9 @@ The repository now provides or preserves the following from one checkout:
 - deterministic V4 build archive tied to repository content.
 
 Every future claim that a gap is “solved” must update this file with the source locator and evidence class.
+
+### Source-independence hardening from the 1991 IECEC / 1984 witness audit
+
+- Kelly/Bailey 1991 explicitly disclose that they relied on other researchers' documents and a videotape; Kelly geometry remains photo-derived/secondary and does not close M2 dimensions or wiring.
+- Two March-1984 large-machine witness texts (`M5`, `M5a`) are strikingly similar and are not counted as independent confirmations until their source relationship is resolved.
+- Neither witness lamp/heater demonstrations nor the Kelly/Bailey retelling provide a closed energy balance.

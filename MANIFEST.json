@@ -111,8 +111,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 14484,
-      "sha256": "ce396fa6db16a75e28afd6f7eb8b1572611f5fc74ed189eceef0ad999b88811f"
+      "size": 15382,
+      "sha256": "14273e915259d1112003ee1a44cfc4b4cabf3ad002bfc9459513784f9cbe53b8"
     },
     {
       "path": "CITATION.cff",
@@ -161,8 +161,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 240674,
-      "sha256": "1318a7fa1d741e1b4221f95e611d6515ec52ae6c10d9591595730f9b64ca5405"
+      "size": 241453,
+      "sha256": "fa747ceed7b69a2deb6a3d483229d1b89ecd78dcbae0c471b0fbc17cd48398f0"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "addon.md",
-      "size": 58459,
-      "sha256": "d4ef6957be904cf4762afa97bc1b047f75000d357140d45722bf69698c2d5d8a"
+      "size": 59238,
+      "sha256": "61ba4aadda4e23c8929be694ae8b9354be2a9592c1fa2c3a0167d157da229687"
     },
     {
       "path": "cad/README.md",
@@ -211,13 +211,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 4201,
-      "sha256": "5d15fecba6f615000e567cb144e0b08eb78824b146ccf0f4fad5ece92bd6f52f"
+      "size": 4884,
+      "sha256": "ddf4c9f2f99ba255e0abde9910edf22466c1ae09cbd88bd9efc6f0faebc3399e"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 18479,
-      "sha256": "6cc33b36113d29b82c7ace601749a0bdee46e85fbfc199d3463e63731ed15f4a"
+      "size": 19038,
+      "sha256": "e46203474926247f8f463f600eb66e094ee9d04eaeebb49622db8fd95da75a2f"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -351,8 +351,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 20324,
-      "sha256": "091a5ad31fafb5e788e163bc22f85caccf0f65a8f8ad97050e0eae7f3b266241"
+      "size": 22785,
+      "sha256": "872a0342d0c71e4f7c6464d959cfcedea117d37d753dfc33820860604753dfcf"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -411,8 +411,8 @@
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
-      "size": 6860,
-      "sha256": "eb016208b6b39018898454297dd27f055af1bca567990f241778c609bfc2894d"
+      "size": 8230,
+      "sha256": "c6fce51b4101a582a6546bd8d66953356e1c0284984cc6cde063281a768ade9c"
     },
     {
       "path": "docs/research/limitations.md",
@@ -541,8 +541,8 @@
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 14671,
-      "sha256": "9145f81c11447d9f91c6ca50225027fad1073befe8b139774bbfb1ca3e2ff395"
+      "size": 16885,
+      "sha256": "35011ad9c1afb766a9b6500f04005f96e720f8b917eda223f490ad0f70a2d9f2"
     },
     {
       "path": "docs/research/stl_dimensions.json",

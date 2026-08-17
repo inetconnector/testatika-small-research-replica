@@ -63,3 +63,9 @@ Newly separated evidence:
 - `M10`: tandem/double-converter workshop family.
 
 **M6a V1 therefore remains frozen as the Hauser-1986/1988 best-evidence build.** A future M6c/M8/M9/M10 CAD package must be source-separated rather than averaged into M6a.
+
+## Additional large-family source separation from March 1984 and Kelly/Bailey 1991
+
+- `M5` (Schneider/Weber, 13-Mar-1984) and `M5a` (L. L. Rorschach report dated 17-Mar-1984) are separate documentary IDs because source independence and exact object identity are unresolved. Both describe ~1.1-m-wide apparatuses and therefore are not silently folded into Hauser's later ~500-mm-disc M6a reconstruction.
+- Kelly/Bailey 1991 is not a direct-observer source. Their disc-size/pickup/component descriptions are explicitly based on available reports/photos/video and contain conjecture. They cannot override Hauser direct-visit scans.
+- The M6a V1 CAD remains unchanged by this addendum.

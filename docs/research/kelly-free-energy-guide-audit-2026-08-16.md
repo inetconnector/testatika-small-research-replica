@@ -115,3 +115,18 @@ The following are not accepted as historical or physical facts merely because th
 ## Bottom line
 
 Kelly improves the repository primarily by broadening the **control experiment and comparison-machine framework**. He does not resolve the historical M2 circuit. The strongest new historical information in this research round comes instead from the archived Holzherr/Hartmann 1999 report; Kelly helps translate those clues into safer and more discriminating experiments.
+
+## 2026-08-17 correction from Kelly/Bailey's own 1991 IECEC paper
+
+The original Kelly/Bailey conference paper has now been located at `https://www.padrak.com/ine/METHERNITHA_IECEC_1991.pdf` (26th IECEC, 1991, Vol. 4, pp. 467–472).
+
+This materially strengthens the reason **not** to use later Kelly material as primary Testatika evidence:
+
+- Kelly/Bailey explicitly state that their only real evidence was documents from researchers who saw/tested machines plus a videotape;
+- they state that duplication attempts known to them had all been unsuccessful;
+- their large-disc diameter is explicitly estimated from photographs;
+- their system description is explicitly formulated from available information and includes conjectured component operation;
+- they state that earlier Searl/Ecklin ideas no longer appeared applicable;
+- the paper's own `Solicited Opposing Views` section challenges the crystal/magnet rectification interpretation, distinguishes Poggendorff self-start from self-running, and warns that incandescent lamps/heating wires under HV/HF conditions are unreliable average-power indicators.
+
+Accordingly, the paper is high-quality provenance for **Kelly/Bailey's 1991 state of belief and uncertainty**, but it does not upgrade Kelly to a direct machine witness. Later Kelly/Potter/Utkin mechanism catalogs remain hypothesis/source-discovery material.
