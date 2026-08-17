@@ -78,7 +78,7 @@ f94491576eda4b3512b66d21ea136b48713b0c59c57d7bc4307f924a5b8bff7f  docs/research/
 48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669  docs/research/hauser-source-ledger.tsv
 b2439a363967b8b41227a355a4b70ae57017beb7312b073c0cee607a5848b4a9  docs/research/internet-source-audit-2026-08-17.md
 ab9a149b9862181bb21dfda328802de3588fee2ab2850de88775ec6d8ac41e12  docs/research/internet-source-audit-addendum-2026-08-17.md
-58c78904a0703e04ddada616df4080d34c35899c60ea88b8f0572c00e9c6e946  docs/research/internet-source-ledger.tsv
+3372f0670c14a2c39eba0689703415d1b27ca49b8e676416a8dc09bf1c636d88  docs/research/internet-source-ledger.tsv
 eb016208b6b39018898454297dd27f055af1bca567990f241778c609bfc2894d  docs/research/kelly-free-energy-guide-audit-2026-08-16.md
 84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df  docs/research/limitations.md
 f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f  docs/research/m6-large-v1-assembly.md
