@@ -4867,3 +4867,9 @@ Direct anchors include ~500 x 5 mm disc geometry, ~50 sheet lamellae (~0.2 x 20 
 
 Historical hidden node wiring, exact crystal material/function, exact magnetic function, exact cylinder interconnections, exact startup state and any net-energy source remain unresolved. The V1 electrical default leaves unknown networks open at explicit test terminals. No over-unity claim is made.
 
+
+## Internet source audit 2026-08-17
+
+A broad provenance-first public Internet crawl is integrated. Canonical entry points: `docs/research/internet-source-audit-2026-08-17.md`, `internet-source-ledger.tsv`, `control-replication-audit-2026-08-17.md`, `source-acquisition-backlog.tsv`.
+
+Important corrections: M2 East-West startup is Baumann→Marinov source-stated (post-start orientation independence is separately Marinov-observed); rear metal-plate stop is direct Marinov observation; dry-air ~3–4 pushes, humidity dependence, restart memory and ~60 rpm are retained as model-specific observations. TWT-VII adds unresolved two-disc thick-grid/thin-sector asymmetry. New taxonomy: M6c large-under-construction Marinov conflict family, M8 ~1m, M9 ~2m, M10 tandem/double converter. Do not alter Hauser M6a CAD from these without an explicit object/source bridge. Kelly remains photo-derived/S2. No authentic complete hidden circuit or net-energy proof was found.

@@ -26,3 +26,11 @@ M6V1-S24	large official visual family	M6	meth2/meth3/meth5	video-derived	cross-c
 M6V1-S25	counterrotation lab drive	LAB	engineering fixture	DERIVED	open/crossed dual round-belt fixture	not historical geometry
 M6V1-S26	guard	LAB	safety fixture	DERIVED	guard frame/standoff model	continuous real guard material depends on build
 M6V1-S27	terminal board	LAB	Hauser three-isolated-circuit report + experiment need	DERIVED	3 groups / 18 open test nodes	exact historical buses unknown
+M6V1-S28	two-disc sector asymmetry	M6/MX	Marinov TWT-VII direct-author additional note	P0 source-stated, exact variant unresolved	NOT injected into M6a V1; configuration constraint only	lock exact machine/object to Hauser/Cathomen family
+M6V1-S29	sector insulating spray	M6/MX	Marinov TWT-VII	P0 source-stated, exact variant unresolved	NOT injected into M6a V1	coating chemistry/thickness/machine identity
+M6V1-S30	large open cylindrical capacitor form	M6c	Marinov 1989 direct-author large-under-construction observation	P0 observation/interpretation	separate M6c conflict family; no M6a overwrite	exact object/stage identity and electrical construction
+M6V1-S31	large Fe-Ni perforated sectors	M6c/M6	Baumann→Marinov direct-author report	P1 source-stated	material hypothesis isolated from M6a chrome-steel wording	alloy analysis / object identity
+M6V1-S32	large horseshoe magnet scale	M6c	Marinov direct-author account	P0 observation account	~30-cm-scale conflict/variant clue only	calibrated image/object
+M6V1-S33	1-m large-scale family	M8	Marinov 1989 + Cathomen workshop transcript	P0/W1 convergence, continuity unresolved	separate taxonomy only	date/object match and geometry
+M6V1-S34	2-m large-scale family	M9	Marinov 1989 + Cathomen workshop transcript	P0/W1 convergence, continuity unresolved	separate taxonomy only	date/object match and geometry
+M6V1-S35	tandem/double-converter family	M10	Cathomen amateur-video transcript mirror	W1/A1 mirror	separate taxonomy only; no inferred bus topology	original German transcript + timestamped object map

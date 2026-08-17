@@ -86,10 +86,13 @@ This closes **implementation** gaps — it does not close the remaining **histor
 | black Plexiglas precedent | Cathomen identifies at least one black part as black Plexiglas on a workshop machine | SOURCE-STATED, model-specific | medium-high | retained as counter-hypothesis | proof for M2 part identity |
 | hidden thin layers in transparent stacks | Holzherr observed that thin layers between Plexiglas can be visually hard to detect because of internal reflection | SOURCE-STATED optical caution | medium-high | photo-analysis caveat; reversible hidden-layer tests only | multi-angle close-up / original section |
 | PMMA pre-conditioning/electret state | not historically established for M2; secondary Potter/Kelly/Hartmann-like hypothesis | HYPOTHESIS | low for history / high testability | conditioned-vs-neutral PMMA experiment | primary source or material measurement on original |
-| rear plate / shield influence | metal-plate stop effect only through later transmission | HYPOTHESIS/H2 | low-medium | shield jig | primary source or controlled replication |
-| east-west orientation | later recollection | HYPOTHESIS/H2 | low | turntable experiment only | primary source + blinded replication |
+| rear plate / shield influence | Marinov directly reports that a large metal plate brought behind the running small machine stopped rotation and removed the rest torque | OBSERVED | high for observation / mechanism unknown | shield jig; floating/grounded/R/C/nonconductive controls | original calibrated repetition or independent controlled replication |
+| east-west startup orientation | Baumann told Marinov the small-machine axis had to point East-West for startup; Marinov reports it was positioned that way to start, while after startup he directly moved/tilted the running machine without stopping | SOURCE-STATED + OBSERVED | medium-high for startup instruction and post-start observation / cause unknown | randomized turntable startup test + separate post-start reorientation test | original-language scan + blinded controlled replication |
 | exact internal circuit | not known | UNKNOWN | — | V4-B0 null topology + named reversible node/topology variants only | authentic schematic or original continuity mapping |
 | startup/priming procedure | hand impulse/start reported; exact electrical priming unresolved | SOURCE-STATED + UNKNOWN | medium | low-energy priming tests | original operating protocol |
+| dry-air startup push count | Marinov reports about 3–4 finger pushes in dry air and more under humid conditions | SOURCE-STATED/OBSERVED account | medium-high | RH-controlled equal-impulse startup protocol | original-language page + controlled replication |
+| restart history / memory | Marinov reports second/third restarts were easier after a metal-plate stop | OBSERVED account | medium | controlled discharge/rest/conditioning matrix with surface-potential logging | independent repetition / original object data |
+| small-machine running speed | roughly one revolution per second (~60 rpm) in Marinov account | OBSERVED account | medium-high / model-specific | include ~60 rpm reference without making it universal | calibrated original footage/tachometer record |
 | claimed self-rotation | historically reported | SOURCE-STATED claim | observation confidence varies | research target, not release promise | controlled independent replication |
 | claimed electrical output | historical estimates/demos and `300 Watts` video metadata only | SOURCE-STATED/metadata claim | low for net-energy conclusion | not a V4 design guarantee | closed long-duration energy balance |
 | net energy anomaly | not demonstrated | UNKNOWN / null hypothesis = conservation | high methodological confidence | complete metrology plan | independent closed energy balance |
@@ -106,6 +109,20 @@ These facts are valuable but **must not be transferred into M2 without a source 
 - A 12-cm early/original model top subsystem was remembered as a rough coil around a straight central conductor with **four leads**; useful as an experimental top-module topology lead only.
 - Several machines reportedly used woven sector wires with three side changes; this strengthens R4 as a research family but does not solve M2 routing.
 - `testa01/testa02` contain several workshop machines in one recording; side/rear geometry must be timestamp/object matched before any transfer.
+
+
+## Internet source audit 2026-08-17
+
+A broad public-web source audit corrected two M2 evidence rankings and expanded the machine taxonomy. See [`research/internet-source-audit-2026-08-17.md`](research/internet-source-audit-2026-08-17.md) and [`research/internet-source-ledger.tsv`](research/internet-source-ledger.tsv).
+
+Key canonical consequences:
+
+- East-West is now split into **Baumann→Marinov startup instruction** and **Marinov-observed post-start orientation independence**; geomagnetic causation remains unknown.
+- The rear-metal-plate stop/rest-torque effect is upgraded to a **direct Marinov observation**.
+- dry-air 3–4-push startup, humidity sensitivity, easier later restarts and ~60-rpm small-machine operation are explicitly retained as model/source-specific observations.
+- Marinov TWT-VII gives a two-disc thick-grid/thin-sector asymmetry and insulating sector spray, but the exact M6 variant is unresolved; it is not silently injected into Hauser M6a CAD.
+- `M6c`, `M8`, `M9` and `M10` are introduced to prevent large-under-construction, 1-m, 2-m and tandem workshop evidence from contaminating M6a/M6b.
+- Marinov's own coupled Wimshurst/electrostatic-motor control failed to close energetically; full torque/input/storage accounting remains mandatory.
 
 ## What “complete 1:1 research replica” means here
 

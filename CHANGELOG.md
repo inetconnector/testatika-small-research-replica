@@ -2,6 +2,20 @@
 
 ## Unreleased — V4 best-evidence build + archive/primary-source expansion
 
+
+### Added — verified Internet source audit (2026-08-17)
+
+- broad multilingual public-web source audit with provenance/evidence ranking rather than claim aggregation;
+- `internet-source-audit-2026-08-17.md`, `internet-source-ledger.tsv`, `control-replication-audit-2026-08-17.md`, `source-acquisition-backlog.tsv`;
+- M2 East-West startup upgraded from H2 to Baumann→Marinov source-stated, with post-start orientation independence separately retained as Marinov observation;
+- M2 rear metal-plate stop/rest-torque loss upgraded to direct Marinov observation;
+- dry-air 3–4-push startup, humidity dependence, easier later restarts and ~60-rpm small-machine observation added;
+- Marinov TWT-VII two-disc thick-grid/thin-sector asymmetry and insulating-spray statement added without forcing identity with M6a;
+- new `M6c`, `M8`, `M9`, `M10` machine IDs prevent large-under-construction, metre-scale and tandem evidence leakage;
+- Kelly geometry explicitly downgraded by Marinov's statement that Kelly had only seen photographs;
+- Marinov failed electrostatic closed-loop control, Bönisch 2003 conservation-law control and Rimstar floating-scope-ground artifact integrated into methodology;
+- acquisition backlog now targets original DIFØT issues, official 1989 transcript ISBN 3-9520025-1-8, Yahoo 11,284-message corpus, Weber/Schneider originals and Matthey/Nieper pages.
+
 ### Added — V4 best-evidence M2 physical-build family
 
 - `cad/generate_v4_best_evidence_m2.py`: self-contained current-build generator integrating the strongest direct M2 electrical constraints with the best photo/video external geometry.

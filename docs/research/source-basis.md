@@ -188,3 +188,26 @@ Stefan Hartmann erhält eine eigene Provenienzklasse, weil seine Rolle über die
 5. **Sekundäre Hartmann-Zuschreibung (S2):** z. B. Rimstar `secret is in crystals` — Suchspur bis Primärbeleg gefunden ist.
 
 Hartmanns Hypothesen dürfen nicht zeitlich zusammengeschoben werden: 1992 elektrostatischer Hyde-Vergleich; 2000 Electret/Influenz/Luftionen; später radioaktive Mineralien; 2008 `negative resistance`/angeregter Zerfall. Die **2000er Electret-/Influenzkomponente** ist die stärkste technische Konvergenz mit dem aktuellen Charge-State-Modell; die späteren Energiequellenbehauptungen bleiben niedrig gewichtet.
+
+
+## Internet source audit 2026-08-17 — verified corrections and acquisition leads
+
+Canonical audit:
+
+- [`internet-source-audit-2026-08-17.md`](internet-source-audit-2026-08-17.md)
+- [`internet-source-ledger.tsv`](internet-source-ledger.tsv)
+- [`control-replication-audit-2026-08-17.md`](control-replication-audit-2026-08-17.md)
+- [`source-acquisition-backlog.tsv`](source-acquisition-backlog.tsv)
+
+High-value additions/corrections:
+
+1. Marinov direct-author material upgrades the M2 rear-metal-plate stop from H2 to direct observation and the East-West startup claim from H2 to Baumann→Marinov source-stated. Post-start orientation independence is a separate Marinov observation; mechanism remains unknown.
+2. Marinov's direct account adds dry-air ~3–4 initial pushes, more pushes with humidity, easier later restarts and roughly one revolution per second for the tested small machine.
+3. Marinov TWT-VII states that a two-disc Testatika had thick electrically connected grid sectors on both sides of one Plexiglas wheel and thin sectors only on the external side of the other, with insulating spray on slightly magnetized sectors. Exact machine identity is unresolved; do not retrofit M6a without a bridge.
+4. Marinov's author text states that Kelly only saw photographs while Hauser examined a machine; Kelly geometry is therefore secondary/photo-derived.
+5. A Marinov large-under-construction description conflicts materially with Hauser M6a cylinder internals. It is isolated as `M6c`, not averaged into one fictional machine.
+6. Marinov and the later Cathomen workshop line independently support 1-m and 2-m large-scale objects; the workshop transcript also distinguishes tandem/double-converter objects (`M8`–`M10`).
+7. Exact acquisition targets now include DIFØT-nyt 5/1986 and 14/1988, the official 1989 film transcript ISBN 3-9520025-1-8, the Yahoo/PG-Offline 11,284-message archive, original Weber/Schneider material and the actual Matthey/Nieper pages.
+8. Conventional controls from Marinov himself and Bönisch 2003 do not show a self-closing/over-unity conventional electrostatic loop; Rimstar work adds a documented floating-source oscilloscope-ground failure mode.
+
+The audit changes evidence ranking and experiment design. It does **not** reveal an authentic complete circuit or establish net energy creation.
