@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 355,
+  "file_count": 356,
   "files": [
     {
       "path": ".gitattributes",
@@ -1763,6 +1763,11 @@
       "path": "scripts/normalize_m6_step.py",
       "size": 1074,
       "sha256": "87295cbb20763e2dcdb6a43fcf7705886df71e4f6c09615ad10748721b31e313"
+    },
+    {
+      "path": "scripts/normalize_round2_backlog_priorities.py",
+      "size": 492,
+      "sha256": "c92f8898730845fc63a99a3eaad2a351e869a4f203cb69036a94ecbcf143ef79"
     },
     {
       "path": "scripts/normalize_v4_step.py",
