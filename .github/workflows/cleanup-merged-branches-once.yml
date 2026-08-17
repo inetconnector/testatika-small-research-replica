@@ -1,0 +1,46 @@
+name: One-time cleanup of merged branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/BRANCH_CLEANUP_TRIGGER'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete only branches fully contained in main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+          branches=(
+            'agent/archive-kelly-source-expansion'
+            'agent/internet-source-audit-2026-08-17'
+            'agent/m6-large-v1-best-evidence'
+            'agent/repository-hardening-1to1-replica'
+            'agent/v4-best-evidence-m2'
+            'agent/video-hauser-frame-audit'
+            'snapshot-internet-audit-20260817-1019-f8ece5ba'
+          )
+          for branch in "${branches[@]}"; do
+            if ! git show-ref --verify --quiet "refs/remotes/origin/$branch"; then
+              echo "Already absent: $branch"
+              continue
+            fi
+            if ! git merge-base --is-ancestor "origin/$branch" HEAD; then
+              echo "::error::Refusing to delete unmerged branch: $branch"
+              exit 1
+            fi
+            git push origin --delete "$branch"
+          done
