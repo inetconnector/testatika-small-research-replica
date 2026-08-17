@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 372,
+  "file_count": 374,
   "files": [
     {
       "path": ".gitattributes",
@@ -470,6 +470,11 @@
       "sha256": "514c091a2fd2afb74a07cc915912ab8ad9cdd26992c414bf142a6677f1634c58"
     },
     {
+      "path": "docs/research/internet-source-ledger-round9.tsv",
+      "size": 3079,
+      "sha256": "8362b81854acfaacd73b1990a6cf316870e77774dcc2b174c4e79dc0840d21f2"
+    },
+    {
       "path": "docs/research/internet-source-ledger.tsv",
       "size": 10865,
       "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
@@ -613,6 +618,11 @@
       "path": "docs/research/source-acquisition-backlog-round7.tsv",
       "size": 2655,
       "sha256": "e437ed17dd185d7d02fd9951e3c1e54cfd7d9395476ba84928624ffab9fbdc41"
+    },
+    {
+      "path": "docs/research/source-acquisition-backlog-round9.tsv",
+      "size": 2351,
+      "sha256": "9c83fee2c4d552b28332c70a648c93472c34c35ff756537363ee5c489e7efab0"
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
