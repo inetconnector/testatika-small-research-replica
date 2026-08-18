@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 607,
+  "file_count": 609,
   "files": [
     {
       "path": ".gitattributes",
@@ -38,6 +38,11 @@
       "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
       "size": 1284,
       "sha256": "fe06f2052566eb0d400f876d8b87bb46c43cf0b5583884639aa7d45cfb56aea1"
+    },
+    {
+      "path": ".github/workflows/apply-internet-source-audit-round11.yml",
+      "size": 2613,
+      "sha256": "7e908e8b6b1eede578340a832357662c8d4719bc145beb961a2625652c43001c"
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
@@ -2553,6 +2558,11 @@
       "path": "scripts/apply_internet_source_audit_round10.py",
       "size": 20365,
       "sha256": "975d3481ffe09c2268a34fe93b86c090c479364110e4c5866191deb54625cbd2"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_round11.py",
+      "size": 13670,
+      "sha256": "f316f8c35dc7a25eb1c221c7c5e5d4b22328b6985938804f88e5c6d62dbfeaf2"
     },
     {
       "path": "scripts/apply_internet_source_audit_round2.py",
