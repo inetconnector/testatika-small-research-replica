@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 588,
+  "file_count": 590,
   "files": [
     {
       "path": ".gitattributes",
@@ -2685,6 +2685,11 @@
       "sha256": "5f8ee6c680f7cfd3afcc79ac36ebe7d3b5df10c08cbfba70e33746d3a3ba9951"
     },
     {
+      "path": "sim/m2_v4_8_workpoint_window.py",
+      "size": 10551,
+      "sha256": "5fd7236ac08bf4bbb9c31902ff585b07323b2dd2dab775e00a99ff6e8b119e14"
+    },
+    {
       "path": "sim/m2_v4_fully_floating.py",
       "size": 10808,
       "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
@@ -2938,6 +2943,11 @@
       "path": "tests/test_m2_v4_7_radioionization_integration.py",
       "size": 3816,
       "sha256": "60ffdfa7408b68a7a55393086f66c9df4927a96e170e2d4c5e3bb98d892e989a"
+    },
+    {
+      "path": "tests/test_m2_v4_8_workpoint_window.py",
+      "size": 3422,
+      "sha256": "d7f9da3f7debea0844e57e476620ef517738c164fdc5c0374e034079a11b5850"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
