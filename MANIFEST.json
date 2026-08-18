@@ -46,8 +46,8 @@
     },
     {
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
-      "size": 2429,
-      "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+      "size": 3057,
+      "sha256": "d407f1fbcdb02431ea7d7fb6ad0c6d8d796ee30c0fd59681ce8663ac930b4cc6"
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
