@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 621,
+  "file_count": 622,
   "files": [
     {
       "path": ".gitattributes",
@@ -53,6 +53,11 @@
       "path": ".github/workflows/refresh-manifest.yml",
       "size": 1669,
       "sha256": "d165e68bf5a59ac37455fbab9dc72c2d3738d9cbf573ab925943179d8eebf1ed"
+    },
+    {
+      "path": ".github/workflows/retire-merged-branches-once.yml",
+      "size": 2577,
+      "sha256": "45d282e233fc1f00603c4c4e78702137df5888940ec4724d6e275904475bac19"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
