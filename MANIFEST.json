@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 564,
+  "file_count": 556,
   "files": [
     {
       "path": ".gitattributes",
@@ -35,54 +35,14 @@
       "sha256": "8bad9be8d5f083aa3d9ce65c0f21e0e41e74b65f505a98a7c1057da9d413a931"
     },
     {
-      "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
-      "size": 1284,
-      "sha256": "fe06f2052566eb0d400f876d8b87bb46c43cf0b5583884639aa7d45cfb56aea1"
-    },
-    {
-      "path": ".github/workflows/apply-repository-hardening.yml",
-      "size": 1771,
-      "sha256": "a36ad6642684168cef7e06bf2fc06857699428f40189c4b604a7debbea7918ef"
-    },
-    {
-      "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
-      "size": 3057,
-      "sha256": "d407f1fbcdb02431ea7d7fb6ad0c6d8d796ee30c0fd59681ce8663ac930b4cc6"
-    },
-    {
-      "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 4039,
-      "sha256": "3e163f6b3b87574b9284c7ed664fd0f466fddde0345f2c02cd71997e5dfc08c5"
-    },
-    {
       "path": ".github/workflows/materialize-build-kits.yml",
       "size": 5592,
       "sha256": "82bb0215c61467e013ad5a9e7e2dff7156bcfb31f14aab2fd343d7e9d3517bc2"
     },
     {
-      "path": ".github/workflows/materialize-m6-large-v1.yml",
-      "size": 398,
-      "sha256": "b3d5030a21037b46412e1aae437e23a0d8e12f9e42e16d88873005ddb58ae600"
-    },
-    {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
       "size": 3255,
       "sha256": "ae35535ef47f27a98dac0ea9c2c7db2f8127485aca0d32e0bdf3144917a74681"
-    },
-    {
-      "path": ".github/workflows/materialize-release-v0.3.yml",
-      "size": 1739,
-      "sha256": "f36d9ad460ebdbbe1e7d3bcc211780793567860a6a5711f5fa2f8f63dc53bc98"
-    },
-    {
-      "path": ".github/workflows/materialize-v3-photo.yml",
-      "size": 2175,
-      "sha256": "4cde306b57d1e3b64e0cf1967693477a10426515107dd1452440f65f7f10c6de"
-    },
-    {
-      "path": ".github/workflows/materialize-v4-best-evidence.yml",
-      "size": 398,
-      "sha256": "acfe5fa62372ca6c60d5afd892a15ea3922ee3669004a621ef756c8f34676bd8"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
