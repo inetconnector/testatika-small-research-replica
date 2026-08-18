@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 604,
+  "file_count": 606,
   "files": [
     {
       "path": ".gitattributes",
@@ -480,6 +480,11 @@
       "sha256": "21440d116b55c889765c98cb695a178f1a325e99323fa4e011a05fdb8376a445"
     },
     {
+      "path": "docs/research/internet-source-audit-round11-2026-08-18.md",
+      "size": 12952,
+      "sha256": "b29e4347904f46317de276b428e9fa38d1341d5dd717eb8f2ccb0f31d617edca"
+    },
+    {
       "path": "docs/research/internet-source-audit-round2-2026-08-17.md",
       "size": 11777,
       "sha256": "848ac1fc1165fc05ea8533377bdae12904beee589c904e37d75b3bc88b6001c1"
@@ -598,6 +603,11 @@
       "path": "docs/research/m2-v4-10-gate-controlled-two-port-power.md",
       "size": 6282,
       "sha256": "996834226b954355655ee41eb56d3c33962f2bae358f5ef02158a1bb63d7ca92"
+    },
+    {
+      "path": "docs/research/m2-v4-11-environmental-port-survey.md",
+      "size": 12965,
+      "sha256": "2568a7ec47e4ebfb56ca494700dc921cb27fc53bd6132587d498080d07ca5d91"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
