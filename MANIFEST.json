@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 590,
+  "file_count": 591,
   "files": [
     {
       "path": ".gitattributes",
@@ -603,6 +603,11 @@
       "path": "docs/research/m2-v4-7-radioionization-integration.md",
       "size": 6817,
       "sha256": "6dc9f856a78851eb77afee683fa20647c6d448cf618f92666edefc103d3160d2"
+    },
+    {
+      "path": "docs/research/m2-v4-8-workpoint-window.md",
+      "size": 6326,
+      "sha256": "59524e059a668cbf0599f1595ab8e7bf7d9e46bf45c47e8b2f2fc4f9791b9ea3"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
