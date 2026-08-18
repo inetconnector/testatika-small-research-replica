@@ -116,7 +116,8 @@ c9f6e4217a1e01809adeca7528e07b9e038bd9f323baf6c74f8768e9ff05620b  docs/research/
 eb2bf9e4331b5d71da5015d547d4d762fc739084d7dc0496da48879eec71cd2a  docs/research/m2-v4-3-external-source-bounds.md
 39ab1e6d6eb7654aea263d71c9d1359c3e5dd25ceac4393c48510ae142aec0dc  docs/research/m2-v4-4-floating-return-path.md
 ecd45bc4510fd2453ef1a7436b797ac9fbb9179f258397ff1d92b6591f1a9d0f  docs/research/m2-v4-5-two-environment-ports.md
-288c15523f73b9eaa02746b7c8893ba9a154fcd29ba8c5ae73c4f5c661e2cbde  docs/research/m2-v4-6-radioionization-gate.md
+e328946090c79c3840881e5c21f80b1eaba14482bb81cbf0e7b3028fdb263ca4  docs/research/m2-v4-6-radioionization-gate.md
+6dc9f856a78851eb77afee683fa20647c6d448cf618f92666edefc103d3160d2  docs/research/m2-v4-7-radioionization-integration.md
 04d7fe90c62e84adb7ffc4a93925c0d08f665796aa28f43a17349c3a55e1ca9e  docs/research/m2-v4-fully-floating.md
 dcdfe1b933f3b44d8746d6387b714de5614b2505d71b5aa42be2fc7904454827  docs/research/m2-v5-fabrication-kit.md
 f1285460529b03201a38fecc8657e4a50963515e7ccc66f64c89133482d4037f  docs/research/m6-large-v1-assembly.md

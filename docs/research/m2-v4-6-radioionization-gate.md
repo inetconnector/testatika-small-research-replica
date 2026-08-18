@@ -42,13 +42,32 @@ P_rad ~= 8.0 nW
 I_sat ~= 0.236 nA.
 ```
 
-Das ist energetisch winzig, aber für einen elektrostatischen Knoten von nur `100 pF` nicht automatisch irrelevant:
+Das ist energetisch winzig, aber für einen elektrostatischen Knoten von nur `100 pF` nicht automatisch irrelevant. Als reine Strom-/Kapazitäts-Skala gilt bei bereits vorhandenem Sammelfeld
 
 ```text
 dV/dt = I/C ~= 2.36 V/s.
 ```
 
-Bei 15 rpm dauert eine Umdrehung 4 s; idealisiert wären damit knapp 9.4 V Ladungsverschiebung pro Umdrehung möglich. Bei stärkerer Aktivität, größerer tatsächlich deponierter Zerfallsenergie oder mehreren Zerfallsprodukten kann der Bias-Effekt entsprechend größer sein, bleibt aber energetisch klein.
+Bei 15 rpm dauert eine Umdrehung 4 s; die zugehörige reine Ladungsstrom-Skala entspräche knapp 9.4 V pro Umdrehung an 100 pF.
+
+### Präzisierung durch V4.7
+
+Diese lineare `I/C`-Skala darf **nicht** als unbegrenztes Hochladen eines isolierten Kondensators aus der Radioquelle verstanden werden. Sobald zusätzliche Feldenergie aufgebaut wird, gilt gleichzeitig
+
+```text
+1/2 * C * V^2 <= P_rad * t.
+```
+
+Für 100 pF und 8.01 nW ergibt das selbst bei 100 % elektrischer Umsetzung:
+
+```text
+Vmax(40 s) ~= 80.05 V
+Zeit bis 100 V >= 62.4 s.
+```
+
+Die vollständige energiebegrenzte Integration in die V4.2-Kapazitätsmatrix steht in
+
+`docs/research/m2-v4-7-radioionization-integration.md`.
 
 ## Warum das zur Testatika passen könnte
 

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 587,
+  "file_count": 588,
   "files": [
     {
       "path": ".gitattributes",
@@ -596,8 +596,13 @@
     },
     {
       "path": "docs/research/m2-v4-6-radioionization-gate.md",
-      "size": 7209,
-      "sha256": "288c15523f73b9eaa02746b7c8893ba9a154fcd29ba8c5ae73c4f5c661e2cbde"
+      "size": 7659,
+      "sha256": "e328946090c79c3840881e5c21f80b1eaba14482bb81cbf0e7b3028fdb263ca4"
+    },
+    {
+      "path": "docs/research/m2-v4-7-radioionization-integration.md",
+      "size": 6817,
+      "sha256": "6dc9f856a78851eb77afee683fa20647c6d448cf618f92666edefc103d3160d2"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
