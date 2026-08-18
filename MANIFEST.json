@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 572,
+  "file_count": 573,
   "files": [
     {
       "path": ".gitattributes",
@@ -573,6 +573,11 @@
       "path": "docs/research/m2-v4-1-pot-crystal.md",
       "size": 7741,
       "sha256": "610635fc43643da4ca3f495b92aa274fba2075b9e8880b4451a9f2c986b06879"
+    },
+    {
+      "path": "docs/research/m2-v4-2-multiphase-corona.md",
+      "size": 7860,
+      "sha256": "0e37a50c2069fc43b8b13e1a3c4b54ca3b99d221af1786da91c7338ba13fd1fa"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
