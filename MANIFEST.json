@@ -35,74 +35,14 @@
       "sha256": "8bad9be8d5f083aa3d9ce65c0f21e0e41e74b65f505a98a7c1057da9d413a931"
     },
     {
-      "path": ".github/workflows/apply-hartmann-overunity-v6.yml",
-      "size": 1284,
-      "sha256": "fe06f2052566eb0d400f876d8b87bb46c43cf0b5583884639aa7d45cfb56aea1"
-    },
-    {
-      "path": ".github/workflows/apply-internet-source-audit-round11.yml",
-      "size": 2694,
-      "sha256": "860bdcf9ddb3d7008486266ed7e0b0f5cd00e072951bac54bd7551a71dd4ccc1"
-    },
-    {
-      "path": ".github/workflows/apply-m2-v4-12-local-structured-coupling.yml",
-      "size": 2466,
-      "sha256": "e6504c3c494ef0f1b26a46635a658b8316c9cfd92c65eb1e95a8c618b4defa8e"
-    },
-    {
-      "path": ".github/workflows/apply-m2-v4-13-load-duration-storage.yml",
-      "size": 2558,
-      "sha256": "fefb998b64d99b121dc3917a0090f2f82bb16b81c2221785a783ebffd4ba5a02"
-    },
-    {
-      "path": ".github/workflows/apply-repository-hardening.yml",
-      "size": 1771,
-      "sha256": "a36ad6642684168cef7e06bf2fc06857699428f40189c4b604a7debbea7918ef"
-    },
-    {
-      "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
-      "size": 2429,
-      "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
-    },
-    {
-      "path": ".github/workflows/integrate-internet-source-audit-round10.yml",
-      "size": 3100,
-      "sha256": "5bb518bd55a01ff8226238e8bac78669c2157e00fbd0294aef0ea64b925a6134"
-    },
-    {
-      "path": ".github/workflows/integrate-internet-source-audit.yml",
-      "size": 4039,
-      "sha256": "3e163f6b3b87574b9284c7ed664fd0f466fddde0345f2c02cd71997e5dfc08c5"
-    },
-    {
       "path": ".github/workflows/materialize-build-kits.yml",
       "size": 5592,
       "sha256": "82bb0215c61467e013ad5a9e7e2dff7156bcfb31f14aab2fd343d7e9d3517bc2"
     },
     {
-      "path": ".github/workflows/materialize-m6-large-v1.yml",
-      "size": 398,
-      "sha256": "b3d5030a21037b46412e1aae437e23a0d8e12f9e42e16d88873005ddb58ae600"
-    },
-    {
       "path": ".github/workflows/materialize-netjournal-proposal.yml",
       "size": 3255,
       "sha256": "ae35535ef47f27a98dac0ea9c2c7db2f8127485aca0d32e0bdf3144917a74681"
-    },
-    {
-      "path": ".github/workflows/materialize-release-v0.3.yml",
-      "size": 1739,
-      "sha256": "f36d9ad460ebdbbe1e7d3bcc211780793567860a6a5711f5fa2f8f63dc53bc98"
-    },
-    {
-      "path": ".github/workflows/materialize-v3-photo.yml",
-      "size": 2175,
-      "sha256": "4cde306b57d1e3b64e0cf1967693477a10426515107dd1452440f65f7f10c6de"
-    },
-    {
-      "path": ".github/workflows/materialize-v4-best-evidence.yml",
-      "size": 398,
-      "sha256": "acfe5fa62372ca6c60d5afd892a15ea3922ee3669004a621ef756c8f34676bd8"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
@@ -111,13 +51,18 @@
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
-      "size": 2957,
-      "sha256": "8e7792781b71d0aa2c2c776e4bfab21c53f83758a7235e6521a54494e10a1ee9"
+      "size": 1669,
+      "sha256": "d165e68bf5a59ac37455fbab9dc72c2d3738d9cbf573ab925943179d8eebf1ed"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
       "size": 771,
       "sha256": "5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067"
+    },
+    {
+      "path": ".github/workflows/validate-evidence-wiring.yml",
+      "size": 1053,
+      "sha256": "1ef9294a76152654619cc3144a4bfc6015f3a1b2b31c573af25eba4979798b8b"
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -288,6 +233,66 @@
       "path": "docs/build-kits.md",
       "size": 4100,
       "sha256": "f8c637d8fdb8d6193aacf6c08d09a5b4aa473388e97e60e13d4b2b7fbafe4e21"
+    },
+    {
+      "path": "docs/electrical/BUILD_ORDER.md",
+      "size": 1446,
+      "sha256": "b7c2df45b9e35dad880ca44cf44240f1648e7c8e41aca5e70e669ff6d43f4a23"
+    },
+    {
+      "path": "docs/electrical/CHANGE_POLICY.md",
+      "size": 238,
+      "sha256": "8355243eb6634a7a3be07110e63bcf6ac754fddae51f7290252ebdfe6f32708e"
+    },
+    {
+      "path": "docs/electrical/LAMELLA_TEST_MATRIX.tsv",
+      "size": 2988,
+      "sha256": "349b872d0e7b5550e7f76375cd06fc59a7cbc79c2801244a9e8f24cb4260e228"
+    },
+    {
+      "path": "docs/electrical/M2_V5_EVIDENCE_WIRING.md",
+      "size": 7888,
+      "sha256": "8281c9e9aa5d77e113bdd5391b802bf28bde3e57a96e36b1d1645a68d1118b99"
+    },
+    {
+      "path": "docs/electrical/M6_V2_EVIDENCE_WIRING.md",
+      "size": 9908,
+      "sha256": "9ce45c364c11be0a61117e3f6d86adf8acbd832a98ea9d41bb3f4196900e3051"
+    },
+    {
+      "path": "docs/electrical/README.de.md",
+      "size": 2869,
+      "sha256": "f65e057b3993f8e903a99237329317194c7bd518fb14ad56311cd18b23632ad8"
+    },
+    {
+      "path": "docs/electrical/README.md",
+      "size": 2719,
+      "sha256": "dd6ecb9ed724903bcaf25605557e1e28ddaabcf6cd2cd5c76f7d36e1d7a8cb49"
+    },
+    {
+      "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.md",
+      "size": 1727,
+      "sha256": "fef418a18e3a95babf0ef8839adf74263f38977e681c32dbdccbc5ca692f762f"
+    },
+    {
+      "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
+      "size": 2449,
+      "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+    },
+    {
+      "path": "docs/electrical/WIRING_VARIANTS.tsv",
+      "size": 2413,
+      "sha256": "f021e8d70a614894ffb7c52d9f2c06f401b87f43894c0a158f24dadcf591a8b0"
+    },
+    {
+      "path": "docs/electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg",
+      "size": 6243,
+      "sha256": "ebdcfabdb2415d0f70860981267c5d8ea686382e0ff57239e7212424c77b6125"
+    },
+    {
+      "path": "docs/electrical/diagrams/M6_V2_EVIDENCE_WIRING.svg",
+      "size": 5743,
+      "sha256": "5c6e8d878559fcf7aa80253fb14b4b5f742a77950883d55a95cd9f45ca13a383"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
@@ -696,8 +701,8 @@
     },
     {
       "path": "docs/research/m2-v5-fabrication-kit.md",
-      "size": 4744,
-      "sha256": "dcdfe1b933f3b44d8746d6387b714de5614b2505d71b5aa42be2fc7904454827"
+      "size": 5550,
+      "sha256": "a0ab7731dc2923682efd6a8d74bc3f7dcede068e608df060e7fa45940ad069ee"
     },
     {
       "path": "docs/research/m6-large-v1-assembly.md",
@@ -756,8 +761,8 @@
     },
     {
       "path": "docs/research/m6-v2-fabrication-kit.md",
-      "size": 5305,
-      "sha256": "dc51317905cd459883269588e0b3dda645075da227fe1b8fa4c12d91582bec60"
+      "size": 6991,
+      "sha256": "fcdfcf954a6afa46f5d85bd5ecca4b13eaf953795c1e93ecf7daf8865bb87047"
     },
     {
       "path": "docs/research/machines.yaml",
@@ -958,6 +963,16 @@
       "path": "docs/research/video-source-ledger.tsv",
       "size": 2790,
       "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
+    },
+    {
+      "path": "docs/research/wiring-and-lamella-audit-2026-08-17.md",
+      "size": 14376,
+      "sha256": "5a3d1683d9f5ab079fdfb4c38ec852a2a1a79166da5cdf3a1ce40b6f215e3dbd"
+    },
+    {
+      "path": "docs/research/wiring-image-audit-addendum-2026-08-17.md",
+      "size": 6270,
+      "sha256": "4d272c7b932e78d3c15a1ec20d6ae7831442d115214d38be634b33c81f580c75"
     },
     {
       "path": "docs/research/witness-source-independence-1984.md",
@@ -2585,16 +2600,6 @@
       "sha256": "376d43214dc7c8f5f056d6cf47d702e6925d1eb7701586378196e155307f79d4"
     },
     {
-      "path": "scripts/apply_internet_source_audit_round10.py",
-      "size": 20365,
-      "sha256": "975d3481ffe09c2268a34fe93b86c090c479364110e4c5866191deb54625cbd2"
-    },
-    {
-      "path": "scripts/apply_internet_source_audit_round11.py",
-      "size": 13670,
-      "sha256": "f316f8c35dc7a25eb1c221c7c5e5d4b22328b6985938804f88e5c6d62dbfeaf2"
-    },
-    {
       "path": "scripts/apply_internet_source_audit_round2.py",
       "size": 12285,
       "sha256": "0853c88ed3ba0beb36d5c32a2abde3d7a17aef1cf867b7ff02ef68e9056bd9e1"
@@ -2608,16 +2613,6 @@
       "path": "scripts/apply_internet_source_audit_round4.py",
       "size": 13896,
       "sha256": "95549abef0adf8d7740b06a0ff8a52edb1158b1e849d2eb9b1668eb9fe9aa64a"
-    },
-    {
-      "path": "scripts/apply_m2_v4_12_local_structured_coupling.py",
-      "size": 9630,
-      "sha256": "cd1d1918739c79e029cf28140b6c098b75488d246b68759110bda09468409f73"
-    },
-    {
-      "path": "scripts/apply_m2_v4_13_load_duration_storage.py",
-      "size": 10844,
-      "sha256": "c6090d5fdddc4efad527089816144114674d216385672d3e1cb3ac154f2b2b1b"
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
@@ -2678,6 +2673,11 @@
       "path": "scripts/check_build_kits.py",
       "size": 4151,
       "sha256": "2070b7f7832124ad497438c19ad8579836f937116784a15b6f2b9820a58d9fd0"
+    },
+    {
+      "path": "scripts/check_evidence_wiring.py",
+      "size": 6497,
+      "sha256": "20c2064bf4b8db3d69b777d96289c631928206aace9a31d07c868d6bb112c1c3"
     },
     {
       "path": "scripts/check_m6_assets.py",
