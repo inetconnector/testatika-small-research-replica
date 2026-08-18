@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 612,
+  "file_count": 613,
   "files": [
     {
       "path": ".gitattributes",
@@ -623,6 +623,11 @@
       "path": "docs/research/m2-v4-11-environmental-port-survey.md",
       "size": 12965,
       "sha256": "2568a7ec47e4ebfb56ca494700dc921cb27fc53bd6132587d498080d07ca5d91"
+    },
+    {
+      "path": "docs/research/m2-v4-12-local-structured-coupling.md",
+      "size": 10654,
+      "sha256": "72526fc21a1f5be68255ae16eb2f519b916f1eee1308a30755185af2fc1c2d32"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
