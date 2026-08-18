@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 601,
+  "file_count": 602,
   "files": [
     {
       "path": ".gitattributes",
@@ -398,6 +398,11 @@
       "path": "docs/research/cad-reproducibility.md",
       "size": 5955,
       "sha256": "c6537ac30da7b8606c3ee5cb0a7fc03ef284e9fb630b8937754f80c39b58a7a9"
+    },
+    {
+      "path": "docs/research/cathomen-environment-direct-2026-08-18.md",
+      "size": 6315,
+      "sha256": "815168fd27609cde17d68405250c7dd5d33ff8cbeef8aaa2926653c3ca3f22c2"
     },
     {
       "path": "docs/research/control-replication-audit-2026-08-17.md",
