@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: research-writers-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
