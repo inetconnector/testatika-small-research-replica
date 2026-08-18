@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 576,
+  "file_count": 578,
   "files": [
     {
       "path": ".gitattributes",
@@ -2645,6 +2645,11 @@
       "sha256": "6174857a34341237cfc505e8e4fa0674d7a462a8e9ebf8054a1f8881e8512686"
     },
     {
+      "path": "sim/m2_v4_4_floating_return_path.py",
+      "size": 4389,
+      "sha256": "7cb58f2fe5610d255ba5e0b8cc95ffc480f5d35b2386cc0c152fe62cb95271a2"
+    },
+    {
       "path": "sim/m2_v4_fully_floating.py",
       "size": 10808,
       "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
@@ -2878,6 +2883,11 @@
       "path": "tests/test_m2_v4_3_external_source_bounds.py",
       "size": 2455,
       "sha256": "1ad435a4bba0f67825fe07d219faa8a61e3e47c1a8d9ba39bad09aa174734938"
+    },
+    {
+      "path": "tests/test_m2_v4_4_floating_return_path.py",
+      "size": 1968,
+      "sha256": "45bb767b9b9892635cf2a9dfffbd3c44b32f82e318053773fe800f78fef80c12"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
