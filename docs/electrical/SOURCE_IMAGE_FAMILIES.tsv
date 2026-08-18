@@ -1,0 +1,14 @@
+id	family	date_or_era	provenance	evidence_class	contains_wiring	use	limitation
+IMG-001	Albert Hauser drawing 3279 front/top/side/legend	1988	direct visitor reconstruction	P1-I1	partial	M6 geometry and connection leads	Hauser explicitly says electrical connections incomplete
+IMG-002	Don Kelly Magnets electro-schematic	1987	author reconstruction published in Magnets	S2-I1	yes	historical reconstruction provenance	later Kelly self-correction; not Methernitha factory drawing
+IMG-003	Rex schemat1/schemat2	later web mirror	Kelly/reconstruction family	S2-I1	yes	hypothesis map	web copies are not independent confirmations
+IMG-004	Paul E. Potter Full Circuit	1990s/2000s	back-engineering interpretation	S2-I1	yes	comparison topology	many explicit assumptions; conflicts with stronger M2 constraints
+IMG-005	Wikimedia Testatika-Line	later redraw	secondary line diagram	S3	yes	visual overview	no new provenance
+IMG-006	Rimstar DC from the Pots	2000s/2010s	replication theory + measurements	S2-REPLICATION	yes	three-grid laboratory comparator	not historical original; no excess-energy demonstration
+IMG-007	Rimstar variable-capacitor charge pump	2000s/2010s	conventional comparator theory	S2-COMPARATOR	yes	charge-pump comparison	not historical original
+IMG-008	Rimstar 276-mm disk/grid tests	2000s/2010s	replication experiment	S2-REPLICATION	yes	instrumentation and waveform comparison	external HV excitation; preliminary
+IMG-009	Sven Bönisch ELEKTRIE circuits	2003	published engineering reconstruction	S2-ENGINEERING-CONTROL	yes	ESD/HV impedance-transformation control	known electrodynamics; no over-unity detected; not original Methernitha circuit
+IMG-010	Jorge Resines attributed clone photos/plan	unknown later clone	uncertain clone attribution	S3-CLONE-PHOTOSET	partial	clone-history comparison	page owner lacks provenance/details; output captions not independent measurement
+IMG-011	Marinov published figures/text	1989	direct observer publication	P1	partial	M2/M6 evidence boundary	Marinov explicitly says full working principle not understood/reconstructable
+IMG-012	Cathomen amateur workshop video	1990s-era preserved transcript/operator dialogue	P1	partial	segments; upper-stage path; withheld details	no complete node-for-node schematic disclosed
+IMG-013	Holzherr Principle Experiment drawing/report	1999	direct visitor report	P1-I1	partial	mesh-vs-foil and dielectric-stack test lead	later replications unsuccessful; no closed energy balance

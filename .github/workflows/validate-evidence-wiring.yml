@@ -1,0 +1,36 @@
+name: Validate evidence wiring
+
+on:
+  push:
+    branches:
+      - main
+      - 'agent/**'
+    paths:
+      - 'docs/electrical/**'
+      - 'docs/research/wiring-and-lamella-audit-2026-08-17.md'
+      - 'docs/research/m2-v5-fabrication-kit.md'
+      - 'docs/research/m6-v2-fabrication-kit.md'
+      - 'scripts/check_evidence_wiring.py'
+      - '.github/workflows/validate-evidence-wiring.yml'
+  pull_request:
+    paths:
+      - 'docs/electrical/**'
+      - 'docs/research/wiring-and-lamella-audit-2026-08-17.md'
+      - 'docs/research/m2-v5-fabrication-kit.md'
+      - 'docs/research/m6-v2-fabrication-kit.md'
+      - 'scripts/check_evidence_wiring.py'
+      - '.github/workflows/validate-evidence-wiring.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate wiring registries, SVGs and conventional passive output paths
+        run: python scripts/check_evidence_wiring.py
