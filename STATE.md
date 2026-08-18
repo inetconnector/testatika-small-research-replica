@@ -4898,3 +4898,39 @@ Key changes: Marinov's 1989 Testatika article is now available as a complete pag
 Round 4 is recorded in `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
 
 Key state: Frolov's `1997 100-W gift` story is classified unsupported late secondary/likely conflation; 1999 engineer demo remains 5-Jun/34 vs 4-Aug/30 conflict; 2004 Weber polymer-chain/air-ion theory is dated hypothesis only; 2010 Methernitha reply is recipient-published correspondence; Nuetec `Nov-1980` Nieper date is editor attribution and unverified; 1977/1978 construction chronology remains milestone-specific conflict; Hauser DIFOT/UFO-Contact/English transmission chain is now explicit; Nuetec 1280x720 film is a high-priority uninspected acquisition lead. No historical CAD baseline changed.
+
+## Internet audit round 10 — 2026-08-18
+
+Round 10 is recorded in `docs/research/internet-source-audit-round10-2026-08-18.md` and `internet-source-ledger-round10.tsv`.
+
+New high-value leads: (1) Sauder/Snicker H2: unresolved-machine top element allegedly a movable-jumper solenoid/variable-inductor-like part, retuned by Baumann after partial disassembly; (2) L. L. 17-Mar-1984 W1/I1: M5a discs synchronized by magnetic impulses and strong horseshoe magnets described as parts of electrical resonance circuits; (3) Hauser H2: large-machine wooden base allegedly contains alternating perforated/insulating layers; (4) Cathomen O1/P1: workshop pickups explicitly described as magnetized; (5) separate Cathomen component: `Vakuum ist es noch nicht` and condenser-associated, supporting only a reduced-pressure/nonlinear-switch candidate; (6) `cold` is not source-verified independently of dry/low-RH operation; (7) Cathomen transcript interviewer identity is now CONFLICT because archive metadata names Dieter Dienst while the public transcript does not name D.
+
+Cross-source consequence: a tunable magnetically biased L/C conditioning/commutation stage is now a higher-priority **large/workshop-family hypothesis**, but no resonance/top-stage hardware is added to the M2 historical baseline and no bulk-energy source is claimed.
+
+## V4.11 / Internet audit round 11 — environmental source discrimination — 2026-08-18
+
+Canonical files: `docs/research/internet-source-audit-round11-2026-08-18.md`, `internet-source-ledger-round11.tsv`, `docs/research/m2-v4-11-environmental-port-survey.md`, `sim/m2_v4_11_environmental_port_survey.py`.
+
+Round 11 makes one major provenance correction and one major physical narrowing. The preserved second-hand Linden relay contains the ~700-V claim but **no 80–140-MHz operating-frequency statement**; that frequency belongs to Potter's later back-engineering. Rimstar's controlled replication series did not reproduce the Linden-scale effect and exposed body/contact bias plus ordinary powered-UHF/HV induction/rectification at tiny power scales.
+
+Quantitatively, ordinary fair-weather atmospheric conduction, ordinary 50-Hz room-field pickup through pF-scale coupling, typical ambient RF, Schumann/ELF background and Earth's static magnetic field are all orders of magnitude too small to explain a sustained ~100-W tabletop load. Resonance, magnetization and nonlinear commutation may still be timing/impedance/field-conditioning mechanisms but are not thereby an energy source.
+
+Remaining conventional bulk-source priorities: overlooked galvanic/base/table/chassis path; strong local near-field coupler/transmitter; mechanical input; finite stored electrostatic/electret/chemical energy; historical output-estimation error. Only a closed simultaneous input/output/storage balance can leave an unexplained residual.
+
+M2 historical baseline is unchanged: no Tesla/HF stage is added.
+
+## V4.12 — local structured coupling bounds — 2026-08-18
+
+V4.12 narrows the remaining conventional energy-source search after V4.11. Ordinary ambient natural sources are too weak, but a deliberately strong **local** capacitive or inductive source can transfer a 100-W scale without a visible galvanic wire.
+
+Representative derived comparison: 30 x 30 cm, 5 mm, `eps_r=3` -> ~478 pF. At 100 kHz, the optimistic 100-VA scale is ~577 V rms / 173 mA rms; a 10-kV/100-kHz source needs only ~1.59 pF. For a 200-mm, 24-turn ideal loop, 100 V rms induction needs ~0.211 mT at 100 kHz. These are transmitter/coupling requirements, not energy creation.
+
+Consequently the strongest remaining conventional candidate becomes local active base/table/chassis/common-mode or near-field coupling. It is now quantitatively falsifiable by simultaneous field, displacement-current, mechanical, storage and load metrology. M2 historical baseline remains unchanged and no HF/Tesla stage is promoted.
+
+## V4.13 — load-duration and finite-storage bound — 2026-08-18
+
+V4.13 directly tightens the unresolved energy-source question. The best recovered Holzherr M6b duration evidence does **not** show a 1000-W load for 1.5 hours: the machine reportedly ran for ~1.5 h, while the 1000-W lamp was connected for ~10 s. Holzherr explicitly says he cannot judge whether hidden flat batteries could account for the operation, and the protected 50-cm machine could not be lifted.
+
+If full lamp rating were actually delivered, 1 kW x 10 s is only 10 kJ = 2.78 Wh. In contrast, 1 kW x 1.5 h would be 1.5 kWh, a factor 540 larger. The historical source does not establish the latter. A 10-kJ electrostatic store would require ideally ~2 uF at 100 kV or ~22.2 uF at 30 kV; exact M6b storage values are unknown.
+
+Finite storage therefore moves upward as an unresolved conventional candidate for short demonstrations. This is not a fraud allegation. The correct discriminator is continuous integrated load energy compared with all incoming electrical/mechanical power and storage-state change. M2 historical baseline remains unchanged.

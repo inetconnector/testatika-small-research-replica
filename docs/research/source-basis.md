@@ -301,3 +301,82 @@ High-value provenance corrections:
 8. Nuetec publicly links a 30-minute Methernitha film labelled **1280×720**, but the file has not yet been frame-audited and could be an upscale. It is an acquisition target, not new geometry evidence.
 
 Round 4 does not justify an automatic historical CAD change.
+
+## Internet source audit round 10 — 2026-08-18
+
+Canonical Round-10 records:
+
+- [`internet-source-audit-round10-2026-08-18.md`](internet-source-audit-round10-2026-08-18.md)
+- [`internet-source-ledger-round10.tsv`](internet-source-ledger-round10.tsv)
+
+High-value consequences:
+
+1. **Sauder/Snicker tuning relay (H2):** an anonymized 1999 correspondence extract says two engineers who measured earlier converters found the top element to be a solenoid-like device with a movable jumper/contact rather than a normal rectifier, and that Baumann had to retune it after they partially dismantled and inspected a machine. The same source warns their observation/memory was imperfect. This is a strong acquisition/tunable-impedance lead, not recovered M2 hardware.
+2. **L. L. 17-Mar-1984 witness wording (W1/I1):** the ~45-cm twin-disc machine is described as synchronized by magnetic impulses, with strong horseshoe magnets said to be parts of electrical resonance circuits involved in charging. This historicizes a magnet/resonance interpretation for M5a; it does not override Marinov's no-Tesla/no-AC small-machine line.
+3. **Layered foundation-plate relay (H2):** Hauser's expanded report says other visitors described the thick wooden base as alternating perforated and insulating layers. Treat the large-machine base as a possible capacitive/field node in experiments, not as established hidden source hardware.
+4. **Cathomen magnetized pickups (O1/P1):** in the workshop transcript Cathomen identifies the structures as `Abnehmer` and answers yes when asked if they are also magnetized. Keep this workshop-specific.
+5. **Cathomen reduced-pressure/condenser component (O1/P1 with interviewer framing):** `Vakuum ist es noch nicht`; the discussed part is tied to a condenser. A reduced-pressure/nonlinear switch is a testable candidate, not a proven thermionic tube or energy source.
+6. **Potter vacuum-valve downgrade:** Potter's detailed thermionic-valve identification remains photo back-engineering. Across variants, closer sources include an open/non-evacuated rectifier interpretation and Cathomen's not-full-vacuum wording; no universal vacuum-tube identity is source-secure.
+7. **Dry ≠ cold:** low humidity is source-supported; `cold` as an independent optimum/requirement is not source-verified in this crawl.
+8. **Cathomen interviewer identity:** public transcript names only M/D/T, while archive metadata says `Dieter Dienst speaking with Luzi Cathomen`. Earlier project-side `D = Stefan Hartmann` is therefore CONFLICT/unresolved; use `D`/`interviewer` until a timestamped identity bridge exists.
+
+Cross-source convergence now justifies a **large/workshop-family** research hypothesis of magnetically biased/timed pickup → tunable L/C impedance/resonance conditioning → nonlinear commutation → Leyden storage. It is not an M2 historical baseline and does not identify the bulk-energy source.
+
+## Internet source audit round 11 — 2026-08-18
+
+Canonical Round-11 records:
+
+- [`internet-source-audit-round11-2026-08-18.md`](internet-source-audit-round11-2026-08-18.md)
+- [`internet-source-ledger-round11.tsv`](internet-source-ledger-round11.tsv)
+- [`m2-v4-11-environmental-port-survey.md`](m2-v4-11-environmental-port-survey.md)
+
+High-value consequences:
+
+1. **Linden 80–140 MHz correction:** the preserved second-hand Linden letter contains the reported ~700-V demonstration but no 80–140-MHz operating frequency. That number enters through Potter's later back-engineering and must not be presented as Baumann/Linden source-stated fact.
+2. **Independent Linden controls:** Rimstar/Dufresne Series 1–3 failed to reproduce the reported 700-V effect. Finger-held plates produced a small body/contact-dependent reading that vanished with a plastic clamp; powered UHF/HV variants produced only ordinary small induced/rectified outputs at microamp scale.
+3. **Atmospheric fair-weather current bound:** even granting the full ~250-kV ionosphere-ground potential at ~2 pA/m² gives only ~0.5 microW/m², requiring ~200 km² ideal capture area for 100 W. Local tabletop fair-weather power density is still much smaller.
+4. **50-Hz capacitive pickup bound:** with the V4.10 working `Ceq=50 pF`, `h=0.20 m`, a 100-V/m room field gives only ~6.3 microW; 100 W would require ~399 kV/m at 50 Hz.
+5. **Ambient RF bound:** at a high measured-average example around 200 microW/m², 100 W would require ~0.5 km² ideal aperture before receiver losses.
+6. **Schumann/ELF bound:** pT/sub-mV-m natural fields are many orders below a tabletop 100-W reservoir; they remain possible timing/noise/reference signals, not bulk power.
+7. **Geomagnetic bound:** a 200-mm one-turn loop at 60 rpm in ~50 microtesla has only ~9.9 microV optimistic peak Faraday EMF; ordinary generation still requires mechanical work.
+
+Round 11 therefore narrows the conventional bulk-source search to overlooked local galvanic/base/table/chassis paths, a strong local near-field transmitter/coupler, mechanical work, finite stored energy, or historical output-estimation error. Resonance/tuning remains a conditioning hypothesis, not an energy source. No M2 historical CAD/electrical baseline changes.
+
+## V4.12 local structured coupling — 2026-08-18
+
+Canonical files:
+
+- [`m2-v4-12-local-structured-coupling.md`](m2-v4-12-local-structured-coupling.md)
+- `sim/m2_v4_12_local_structured_coupling.py`
+- `tests/test_m2_v4_12_local_structured_coupling.py`
+
+V4.12 follows the V4.11 result that ordinary ambient atmosphere/RF/Schumann/geomagnetic reservoirs are far too weak for sustained ~100-W tabletop output. It therefore tests the narrower conventional possibility of a **local structured source** coupled through base/table/chassis capacitance or a driven magnetic near field.
+
+Key derived bounds:
+
+1. A 30 x 30 cm comparison plate with 5 mm dielectric spacing and `eps_r=3` is about `478 pF`.
+2. At `100 kHz`, that capacitance reaches the optimistic `100 VA` scale at about `577 V rms` and `173 mA rms` displacement current; at 50 Hz it needs about `25.8 kV rms`.
+3. A strong source needs surprisingly little parasitic C: `10 kV rms` at `100 kHz` needs only about `1.59 pF` for the optimistic 100-VA bound. This makes "no visible wire" insufficient to exclude a deliberately strong local capacitive transmitter, but such a transmitter must still supply real load power and produce measurable local fields/source currents.
+4. For a 200-mm loop, `100 V rms` induction at `100 kHz` requires about `5.07 mT` for one turn or `0.211 mT` for 24 ideal turns. At `1 MHz`, the 24-turn value falls to about `21.1 microtesla`. The transmitter remains the energy source.
+5. A slow ~50-Hz mechanical gating pattern can in principle control a much faster externally supplied carrier without being the carrier itself. This is a control hypothesis only; Marinov's M2 line still does not justify an HF/Tesla historical baseline.
+
+V4.12 therefore upgrades **local active coupling** from a vague alternative to a quantitatively falsifiable conventional source hypothesis. It does not identify such a source historically and makes no M2 CAD/topology change.
+
+## V4.13 / load-duration versus finite storage — 2026-08-18
+
+Canonical records:
+
+- [`load-duration-storage-audit-2026-08-18.md`](load-duration-storage-audit-2026-08-18.md)
+- [`internet-source-ledger-round13.tsv`](internet-source-ledger-round13.tsv)
+- `sim/m2_v4_13_load_duration_storage_bound.py`
+- `tests/test_m2_v4_13_load_duration_storage_bound.py`
+
+The main evidence correction is an **energy-integral** distinction. Holzherr's 1999 M6b report says the ~50-cm machine remained running during an approximately 1.5-hour visit, but the explicitly identified 1000-W lamp was connected for only about 10 seconds. When asked whether hidden flat batteries could account for the demonstration, Holzherr answered that he could not judge it. The protected 50-cm machine could not be touched/lifted; his liftable-while-running observation applies to separate ~12-cm M4-family models.
+
+Therefore `1.5 h running` must not be converted into `1.5 h x 1 kW output`. If the 1000-W lamp had actually received its full nameplate power for ten seconds, the rating-equivalent load energy would be only `10 kJ = 2.78 Wh`. The report contains no synchronized calibrated V-I trace establishing that exact real power.
+
+A later reproduction of the Schneider/Weber 13-Mar-1984 M5 visit similarly separates an approximately `300 V / 10 A` output statement from Baumann's claim that operation could continue for hours/years. The witnessed lamp/heater effects are short qualitative demonstrations, while the lift/underside inspection constrains obvious external feeds but is not a closed internal/storage/field audit.
+
+Derived electrostatic-storage comparison: 10 kJ requires ideally ~`2 uF at 100 kV` or ~`22.2 uF at 30 kV`. This is a measurement target, not a claim about original capacitor values.
+
+V4.13 consequently keeps **finite internal storage** open as a conventional explanation for short historical load demonstrations. The decisive criterion is integrated load energy versus all measured external/mechanical inputs and initial-to-final storage change. No M2 historical topology change follows.

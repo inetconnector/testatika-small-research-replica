@@ -104,3 +104,29 @@ Round 4 adds provenance constraints without modifying M6a CAD:
 - A Nuetec 1280×720-labelled Methernitha film is publicly linked but has not been source-resolution/frame compared; no M6 geometry is upgraded from it yet.
 
 M6a V1 remains source-anchored to the direct Hauser 1986/1988 material.
+
+## Internet crawl round 10 — tunable conditioning and base-node leads
+
+Round 10 adds three model-relevant but still non-authoritative leads for larger/workshop machines:
+
+- **M5a witness interpretation:** a 17-Mar-1984 report reproduced by Nieper says the ~60-rpm discs are synchronized by magnetic impulses and describes strong horseshoe magnets as parts of electrical resonance circuits involved in charging.
+- **M6/unspecified H2 tuning relay:** Sauder/Snicker are said to have seen a solenoid-like top element with movable tuning contact; Baumann allegedly had to retune it after their partial disassembly. Original engineer records are still missing.
+- **M6a base H2:** Hauser relays reports from other visitors that the thick wooden foundation plate alternated perforated conductive and insulating layers.
+
+These justify reversible `tunable impedance/resonance` and `active-base/dummy-base` experiment variants for large-family mechanism studies. They do not overwrite Hauser's direct M6a geometry, do not establish the exact node map, and do not constitute evidence of anomalous energy.
+
+## Round 11 environmental-power boundary
+
+The large/workshop source lines retain legitimate historical clues involving magnetized pickups, magnetic synchronization, resonance/tuning language and atmosphere/lightning analogies. Round 11 separates those clues from the power-source question.
+
+Quantitative controls show that ordinary fair-weather atmospheric conduction, normal ambient RF, Schumann/ELF background and Earth's static magnetic field are far too small to provide sustained ~100-W tabletop power. A resonant or magnetically biased stage can transform impedance, establish phase and increase circulating reactive energy, but cannot supply missing real power.
+
+For M6/M7-family experiments, the highest-priority conventional alternatives are therefore an electrically active base/table/chassis path, a strong local near-field coupler/transmitter, mechanical drive, or finite stored energy. None is promoted to historical fact without source or measurement evidence.
+
+## V4.13 M6b load-duration evidence boundary
+
+Holzherr's 1999 M6b source must be represented as two separate time statements: the ~50-cm machine reportedly ran throughout an approximately 1.5-hour visit, while the named 1000-W lamp was connected for only about 10 seconds. The report does not establish a 1.5-hour 1-kW load test.
+
+Holzherr also says he could not judge whether hidden flat batteries could account for the operation and that the protected 50-cm machine could not be lifted. His observation that running machines could be lifted applies to separate ~12-cm small models.
+
+For M6 replication/metrology, load tests must therefore use integrated `V(t)*I(t)` energy and a separately bounded initial storage reservoir. Brightness, heater temperature, rotor runtime and nameplate wattage are supporting observations, not substitutes for a closed energy ledger.

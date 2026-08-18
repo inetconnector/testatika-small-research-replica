@@ -2051,3 +2051,27 @@ Important guards:
 Before continuing, read `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
 
 Do not repeat as fact that Marinov received a `100-W Testatika` in 1997. The located chain does not support a permanent gift or rated output. Preserve the 1999 5-Jun/34 vs 4-Aug/30 conflict. Treat Weber's polymer-chain/air-ionization as a 2004 theory. Treat Nuetec's Nov-1980 Nieper date as editor annotation until original TWT-V/Nieper evidence is obtained. The Nuetec HD-labelled film has not yet been frame-audited.
+
+## Internet audit round 10 handoff — 2026-08-18
+
+Read `docs/research/internet-source-audit-round10-2026-08-18.md` and `internet-source-ledger-round10.tsv` before changing the top-stage, magnet or environment model.
+
+Do not promote the Sauder/Snicker tuning story above H2; do not move the 1984 M5a resonance wording into M2; do not call Cathomen's condenser-associated component a proven vacuum tube; do not historicize `cold air` as required. Use `D/interviewer`, not `Hartmann`, for the workshop transcript until the Dieter-Dienst/Hartmann speaker conflict is resolved.
+
+## V4.11 / Round 11 handoff — 2026-08-18
+
+Before continuing the environmental-source search, read `docs/research/m2-v4-11-environmental-port-survey.md` and `docs/research/internet-source-audit-round11-2026-08-18.md`.
+
+Do not quote `80–140 MHz` as a Linden/Baumann source fact: the preserved relay has no such frequency; it is Potter's later reconstruction. Ordinary fair-weather current, normal ambient RF, Schumann background and the static geomagnetic field are quantitatively excluded as direct ~100-W tabletop bulk reservoirs. The next conventional search should instrument base/table/chassis, local near-field, mechanical and stored-energy ports rather than treating resonance amplitude as power input.
+
+## V4.12 handoff — local structured coupling — 2026-08-18
+
+Read `docs/research/m2-v4-12-local-structured-coupling.md` after V4.11. The key result is that ordinary ambient sources fail, while a **local active** high-voltage/high-frequency capacitive or magnetic source could transfer 100 W through surprisingly small parasitic coupling. Example: ~478 pF needs ~577 V rms / 173 mA rms at 100 kHz; 10 kV at 100 kHz needs only ~1.59 pF. The transmitter must still supply real power and should be measurable.
+
+Next work should focus on complete base/table/chassis/common-mode and local near-field metrology rather than adding unverified historical RF hardware.
+
+## V4.13 handoff — load duration versus stored energy — 2026-08-18
+
+Read `docs/research/load-duration-storage-audit-2026-08-18.md` before making stronger energy-source claims. The key correction is that Holzherr's M6b machine reportedly ran for ~1.5 h, but the 1000-W lamp was connected only ~10 s. At full rating that is just 2.78 Wh, and Holzherr explicitly said he could not judge the hidden-battery question. The 50-cm base was not cleared by lifting; liftability applied to separate ~12-cm models.
+
+Next work should prioritize a minimum loaded-energy challenge and full storage inventory, not just instantaneous power or autonomous rotor runtime.

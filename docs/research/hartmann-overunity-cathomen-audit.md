@@ -355,3 +355,14 @@ Der wichtigste technische Gewinn aus dieser Trennung ist überraschend konkret:
 > **Cathomen beschreibt den Bedarf an stabiler, impuls-/frequenzkontrollierter elektrostatischer Funktion; Hartmann erkennt und formuliert daraus das Problem der regenerativen Spannungsaufrechterhaltung.**
 
 Das passt sehr gut zum aktuellen Repository-Arbeitsmodell des phasengesteuerten Charge-State-Managements. Es beweist keinen Energieüberschuss, macht aber die experimentelle Priorität `Bias erhalten + phasenrichtig umladen + Load-Reaction messen` noch stärker.
+
+## Round-10 provenance correction — interviewer identity and exact component lines
+
+The earlier project-side mapping `D = Stefan Hartmann` must no longer be treated as settled. The public transcript itself labels only `M`, `D`, and `T`, whereas repository-archived RealMedia metadata explicitly describes `testa01.ram` as `Dieter Dienst speaking with Luzi Cathomen` and identifies Dieter Dienst as author in the 2001 media line. Until voice/timestamp/credit continuity is established, use **`D` / `interviewer`** for the transcript and classify the person mapping as **CONFLICT / unresolved**.
+
+Round-10 source wording also tightens two technical points:
+
+- Cathomen identifies the non-contact structures as `Abnehmer`; when the interviewer asks `Auch wieder magnetisiert?`, Cathomen answers `Ja.` This is workshop-machine evidence for magnetized pickups, not an M2 fact.
+- For the separate front component, `Funkenstrecke`, `Vakuum` and `luftleer` are prompted by the interviewer. Cathomen's stronger direct wording is `Vakuum ist es noch nicht`, followed by the statement that the part `hängt mit einem Kondenser ... drauf`. Therefore a reduced-pressure/nonlinear-switch hypothesis is permissible, but a sealed thermionic vacuum-tube identification is not established.
+
+These corrections preserve speaker provenance and prevent interviewer terminology from being promoted into operator-authored engineering facts.
