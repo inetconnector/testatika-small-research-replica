@@ -36,25 +36,33 @@ jobs:
           git fetch origin "${GITHUB_REF_NAME}"
           git checkout "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
-      - name: Integrate Round 11 canonical state on the active research branch
+      - name: Integrate additive canonical research state
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" && -f scripts/apply_internet_source_audit_round11.py ]]; then
-            python scripts/apply_internet_source_audit_round11.py
+          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" ]]; then
+            if [[ -f scripts/apply_internet_source_audit_round11.py ]]; then
+              python scripts/apply_internet_source_audit_round11.py
+            fi
+            if [[ -f scripts/apply_m2_v4_12_local_structured_coupling.py ]]; then
+              python scripts/apply_m2_v4_12_local_structured_coupling.py
+            fi
+            if [[ -f scripts/apply_m2_v4_13_load_duration_storage.py ]]; then
+              python scripts/apply_m2_v4_13_load_duration_storage.py
+            fi
           fi
       - name: Regenerate manifest and SHA-256 ledger
         run: python scripts/generate_manifest.py
       - name: Verify generated manifest
         run: python scripts/check_manifest.py
-      - name: Commit refreshed integrity metadata
+      - name: Commit refreshed integrity metadata and canonical state
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add MANIFEST.json MANIFEST_SHA256.txt
-          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" && -f scripts/apply_internet_source_audit_round11.py ]]; then
+          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" ]]; then
             git add \
               docs/research/source-basis.md \
               docs/REPLICATION_STATUS.md \
@@ -64,10 +72,10 @@ jobs:
               STATE.md addon.md CHANGELOG.md
           fi
           if git diff --cached --quiet; then
-            echo 'Manifest and branch integration state already current.'
+            echo 'Manifest and canonical research state already current.'
           else
             if git diff --cached --name-only | grep -qvE '^(MANIFEST.json|MANIFEST_SHA256.txt)$'; then
-              git commit -m 'research: integrate round 11 environmental bounds'
+              git commit -m 'research: integrate environmental and storage bounds'
             else
               git commit -m 'chore: refresh repository manifest'
             fi
