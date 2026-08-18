@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 591,
+  "file_count": 593,
   "files": [
     {
       "path": ".gitattributes",
@@ -2695,6 +2695,11 @@
       "sha256": "5fd7236ac08bf4bbb9c31902ff585b07323b2dd2dab775e00a99ff6e8b119e14"
     },
     {
+      "path": "sim/m2_v4_9_gate_efficiency_sensitivity.py",
+      "size": 6749,
+      "sha256": "b11cb25fa9004fd552532534db57db7401ea50647f2f47ef49ff35f4ce8f7804"
+    },
+    {
       "path": "sim/m2_v4_fully_floating.py",
       "size": 10808,
       "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
@@ -2953,6 +2958,11 @@
       "path": "tests/test_m2_v4_8_workpoint_window.py",
       "size": 3422,
       "sha256": "d7f9da3f7debea0844e57e476620ef517738c164fdc5c0374e034079a11b5850"
+    },
+    {
+      "path": "tests/test_m2_v4_9_gate_efficiency_sensitivity.py",
+      "size": 3471,
+      "sha256": "8dc02ccc8855dc8957c201b5659e7d491ca663120addcd8e484860d9e1a28c07"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
