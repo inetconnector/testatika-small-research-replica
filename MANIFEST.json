@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 584,
+  "file_count": 585,
   "files": [
     {
       "path": ".gitattributes",
@@ -593,6 +593,11 @@
       "path": "docs/research/m2-v4-5-two-environment-ports.md",
       "size": 8200,
       "sha256": "ecd45bc4510fd2453ef1a7436b797ac9fbb9179f258397ff1d92b6591f1a9d0f"
+    },
+    {
+      "path": "docs/research/m2-v4-6-radioionization-gate.md",
+      "size": 7209,
+      "sha256": "288c15523f73b9eaa02746b7c8893ba9a154fcd29ba8c5ae73c4f5c661e2cbde"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
