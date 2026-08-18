@@ -36,6 +36,13 @@ jobs:
           git fetch origin "${GITHUB_REF_NAME}"
           git checkout "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
+      - name: Integrate Round 11 canonical state on the active research branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" && -f scripts/apply_internet_source_audit_round11.py ]]; then
+            python scripts/apply_internet_source_audit_round11.py
+          fi
       - name: Regenerate manifest and SHA-256 ledger
         run: python scripts/generate_manifest.py
       - name: Verify generated manifest
@@ -47,9 +54,22 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add MANIFEST.json MANIFEST_SHA256.txt
+          if [[ "${GITHUB_REF_NAME}" == "agent/m2-v4-fully-floating" && -f scripts/apply_internet_source_audit_round11.py ]]; then
+            git add \
+              docs/research/source-basis.md \
+              docs/REPLICATION_STATUS.md \
+              docs/M6_REPLICATION_STATUS.md \
+              docs/research/experiment-plan.md \
+              docs/research/evidence_matrix.tsv \
+              STATE.md addon.md CHANGELOG.md
+          fi
           if git diff --cached --quiet; then
-            echo 'Manifest already current.'
+            echo 'Manifest and branch integration state already current.'
           else
-            git commit -m 'chore: refresh repository manifest'
+            if git diff --cached --name-only | grep -qvE '^(MANIFEST.json|MANIFEST_SHA256.txt)$'; then
+              git commit -m 'research: integrate round 11 environmental bounds'
+            else
+              git commit -m 'chore: refresh repository manifest'
+            fi
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
