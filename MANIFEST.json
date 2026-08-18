@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 596,
+  "file_count": 597,
   "files": [
     {
       "path": ".gitattributes",
@@ -573,6 +573,11 @@
       "path": "docs/research/m2-v4-1-pot-crystal.md",
       "size": 7741,
       "sha256": "610635fc43643da4ca3f495b92aa274fba2075b9e8880b4451a9f2c986b06879"
+    },
+    {
+      "path": "docs/research/m2-v4-10-gate-controlled-two-port-power.md",
+      "size": 6282,
+      "sha256": "996834226b954355655ee41eb56d3c33962f2bae358f5ef02158a1bb63d7ca92"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
