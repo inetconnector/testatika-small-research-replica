@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 578,
+  "file_count": 579,
   "files": [
     {
       "path": ".gitattributes",
@@ -583,6 +583,11 @@
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
       "size": 7826,
       "sha256": "eb2bf9e4331b5d71da5015d547d4d762fc739084d7dc0496da48879eec71cd2a"
+    },
+    {
+      "path": "docs/research/m2-v4-4-floating-return-path.md",
+      "size": 6239,
+      "sha256": "39ab1e6d6eb7654aea263d71c9d1359c3e5dd25ceac4393c48510ae142aec0dc"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
