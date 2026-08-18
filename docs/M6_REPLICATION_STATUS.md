@@ -114,3 +114,11 @@ Round 10 adds three model-relevant but still non-authoritative leads for larger/
 - **M6a base H2:** Hauser relays reports from other visitors that the thick wooden foundation plate alternated perforated conductive and insulating layers.
 
 These justify reversible `tunable impedance/resonance` and `active-base/dummy-base` experiment variants for large-family mechanism studies. They do not overwrite Hauser's direct M6a geometry, do not establish the exact node map, and do not constitute evidence of anomalous energy.
+
+## Round 11 environmental-power boundary
+
+The large/workshop source lines retain legitimate historical clues involving magnetized pickups, magnetic synchronization, resonance/tuning language and atmosphere/lightning analogies. Round 11 separates those clues from the power-source question.
+
+Quantitative controls show that ordinary fair-weather atmospheric conduction, normal ambient RF, Schumann/ELF background and Earth's static magnetic field are far too small to provide sustained ~100-W tabletop power. A resonant or magnetically biased stage can transform impedance, establish phase and increase circulating reactive energy, but cannot supply missing real power.
+
+For M6/M7-family experiments, the highest-priority conventional alternatives are therefore an electrically active base/table/chassis path, a strong local near-field coupler/transmitter, mechanical drive, or finite stored energy. None is promoted to historical fact without source or measurement evidence.

@@ -245,3 +245,12 @@ No over-unity or free-energy claim is asserted. Unknown historical wiring remain
 - corrected `dry` versus unverified `cold` historical operating claims;
 - downgraded `D = Stefan Hartmann` to unresolved speaker-identity conflict against Dieter Dienst archive metadata;
 - strengthened a reversible large/workshop tunable-conditioning hypothesis without changing the M2 historical baseline.
+
+### V4.11 / Internet source audit round 11 — 2026-08-18
+
+- added a deterministic environmental-port power-bound calculator and regression tests;
+- corrected the widely repeated `Linden 80–140 MHz` claim to Potter-later-secondary rather than source-stated Linden evidence;
+- added Rimstar/Dufresne Linden replication controls showing body/contact bias and small conventional UHF/HV induction/rectification rather than the reported 700-V effect;
+- bounded fair-weather atmospheric conduction, 50-Hz pF pickup, ambient RF, Schumann/ELF and geomagnetic induction against the ~100-W tabletop scale;
+- narrowed the remaining conventional source search to local hidden electrical/near-field/mechanical/storage paths or historical output-estimation error;
+- left the M2 historical CAD/electrical baseline unchanged.

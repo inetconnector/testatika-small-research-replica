@@ -321,3 +321,23 @@ High-value consequences:
 8. **Cathomen interviewer identity:** public transcript names only M/D/T, while archive metadata says `Dieter Dienst speaking with Luzi Cathomen`. Earlier project-side `D = Stefan Hartmann` is therefore CONFLICT/unresolved; use `D`/`interviewer` until a timestamped identity bridge exists.
 
 Cross-source convergence now justifies a **large/workshop-family** research hypothesis of magnetically biased/timed pickup → tunable L/C impedance/resonance conditioning → nonlinear commutation → Leyden storage. It is not an M2 historical baseline and does not identify the bulk-energy source.
+
+## Internet source audit round 11 — 2026-08-18
+
+Canonical Round-11 records:
+
+- [`internet-source-audit-round11-2026-08-18.md`](internet-source-audit-round11-2026-08-18.md)
+- [`internet-source-ledger-round11.tsv`](internet-source-ledger-round11.tsv)
+- [`m2-v4-11-environmental-port-survey.md`](m2-v4-11-environmental-port-survey.md)
+
+High-value consequences:
+
+1. **Linden 80–140 MHz correction:** the preserved second-hand Linden letter contains the reported ~700-V demonstration but no 80–140-MHz operating frequency. That number enters through Potter's later back-engineering and must not be presented as Baumann/Linden source-stated fact.
+2. **Independent Linden controls:** Rimstar/Dufresne Series 1–3 failed to reproduce the reported 700-V effect. Finger-held plates produced a small body/contact-dependent reading that vanished with a plastic clamp; powered UHF/HV variants produced only ordinary small induced/rectified outputs at microamp scale.
+3. **Atmospheric fair-weather current bound:** even granting the full ~250-kV ionosphere-ground potential at ~2 pA/m² gives only ~0.5 microW/m², requiring ~200 km² ideal capture area for 100 W. Local tabletop fair-weather power density is still much smaller.
+4. **50-Hz capacitive pickup bound:** with the V4.10 working `Ceq=50 pF`, `h=0.20 m`, a 100-V/m room field gives only ~6.3 microW; 100 W would require ~399 kV/m at 50 Hz.
+5. **Ambient RF bound:** at a high measured-average example around 200 microW/m², 100 W would require ~0.5 km² ideal aperture before receiver losses.
+6. **Schumann/ELF bound:** pT/sub-mV-m natural fields are many orders below a tabletop 100-W reservoir; they remain possible timing/noise/reference signals, not bulk power.
+7. **Geomagnetic bound:** a 200-mm one-turn loop at 60 rpm in ~50 microtesla has only ~9.9 microV optimistic peak Faraday EMF; ordinary generation still requires mechanical work.
+
+Round 11 therefore narrows the conventional bulk-source search to overlooked local galvanic/base/table/chassis paths, a strong local near-field transmitter/coupler, mechanical work, finite stored energy, or historical output-estimation error. Resonance/tuning remains a conditioning hypothesis, not an energy source. No M2 historical CAD/electrical baseline changes.

@@ -2057,3 +2057,9 @@ Do not repeat as fact that Marinov received a `100-W Testatika` in 1997. The loc
 Read `docs/research/internet-source-audit-round10-2026-08-18.md` and `internet-source-ledger-round10.tsv` before changing the top-stage, magnet or environment model.
 
 Do not promote the Sauder/Snicker tuning story above H2; do not move the 1984 M5a resonance wording into M2; do not call Cathomen's condenser-associated component a proven vacuum tube; do not historicize `cold air` as required. Use `D/interviewer`, not `Hartmann`, for the workshop transcript until the Dieter-Dienst/Hartmann speaker conflict is resolved.
+
+## V4.11 / Round 11 handoff — 2026-08-18
+
+Before continuing the environmental-source search, read `docs/research/m2-v4-11-environmental-port-survey.md` and `docs/research/internet-source-audit-round11-2026-08-18.md`.
+
+Do not quote `80–140 MHz` as a Linden/Baumann source fact: the preserved relay has no such frequency; it is Potter's later reconstruction. Ordinary fair-weather current, normal ambient RF, Schumann background and the static geomagnetic field are quantitatively excluded as direct ~100-W tabletop bulk reservoirs. The next conventional search should instrument base/table/chassis, local near-field, mechanical and stored-energy ports rather than treating resonance amplitude as power input.

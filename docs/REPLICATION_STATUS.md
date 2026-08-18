@@ -216,3 +216,19 @@ Round 10 strengthens several **non-M2** conditioning-stage leads but adds no con
 These are retained as **cross-machine experimental variants only**. Marinov's direct small-machine statement rejecting Tesla coils/AC remains the M2 historical baseline. No M2 top-stage resonance circuit, magnetized pickup, reduced-pressure tube or layered base is promoted to historical fact.
 
 The new material does strengthen one diagnostic priority: treat environment/base/rear coupling and the top-module impedance/phase state as separately measurable ports while maintaining a closed energy ledger.
+
+## V4.11 environmental-port discrimination
+
+V4.11 adds a **measurement/calculation layer only**. It does not alter the current M2 historical topology.
+
+The new survey quantitatively rejects several tempting ordinary environmental reservoirs as ~100-W tabletop bulk sources under deliberately optimistic assumptions:
+
+- fair-weather global-electric-circuit conduction;
+- ordinary 50-Hz room-field pickup through pF-scale coupling;
+- typical ambient broadcast/cellular/Wi-Fi RF;
+- ordinary Schumann/ELF background;
+- Earth's static magnetic field as an independent source.
+
+A key provenance correction also prevents an HF reconstruction error: the preserved Linden-Experiment relay reports the ~700-V claim but **does not state 80–140 MHz**. The 80–140-MHz number belongs to Potter's later reconstruction.
+
+The M2 baseline therefore remains unchanged: floating rotor wires, two-terminal side pots, Crystal black box, no rubbing contacts, no conventional built-in motor and no Tesla/HF historical stage. V4.11 instead strengthens the requirement to instrument base/table/chassis, front/rear field, mechanical and stored-energy ports simultaneously.

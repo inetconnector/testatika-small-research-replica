@@ -447,3 +447,20 @@ A simple `window open works` observation is not interpretable because ventilatio
 ### Medium/large mechanical cross-check
 
 Marinov's author text says the large-machine contra-rotation cord/string he saw was quite loose. For any M6/M6c comparison fixture, log belt/cord tension and bearing/drive parasitic torque before attributing rotation changes to electrostatics. Do not force the current M6a lab drive to mimic an unresolved historical transmission.
+
+## V4.11 — environmental input-port discrimination
+
+Purpose: falsify candidate bulk-input paths **before** optimizing any apparent output.
+
+For a passive or current-limited low-energy fixture, log simultaneously:
+
+- front/rear/base/chassis differential potentials and displacement currents;
+- wideband local E- and B-field spectra;
+- any mechanical shaft torque/power;
+- charge/storage energy before and after each run;
+- load voltage/current using isolated differential instrumentation;
+- conductive versus nonconductive rear/base shield controls, with capacitance changes measured separately.
+
+The energy criterion is source-side, not resonance-amplitude based: a sustained conventional 100-W load requires real incoming power of the same order. A high-Q voltage/current peak without corresponding source real power is not a source mechanism.
+
+Historical-control requirement: do not set an `80–140 MHz Linden` operating point as source-derived. If frequency sweeps are used, declare them laboratory scans and preserve source provenance separately.

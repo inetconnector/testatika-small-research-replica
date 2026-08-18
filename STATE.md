@@ -4906,3 +4906,15 @@ Round 10 is recorded in `docs/research/internet-source-audit-round10-2026-08-18.
 New high-value leads: (1) Sauder/Snicker H2: unresolved-machine top element allegedly a movable-jumper solenoid/variable-inductor-like part, retuned by Baumann after partial disassembly; (2) L. L. 17-Mar-1984 W1/I1: M5a discs synchronized by magnetic impulses and strong horseshoe magnets described as parts of electrical resonance circuits; (3) Hauser H2: large-machine wooden base allegedly contains alternating perforated/insulating layers; (4) Cathomen O1/P1: workshop pickups explicitly described as magnetized; (5) separate Cathomen component: `Vakuum ist es noch nicht` and condenser-associated, supporting only a reduced-pressure/nonlinear-switch candidate; (6) `cold` is not source-verified independently of dry/low-RH operation; (7) Cathomen transcript interviewer identity is now CONFLICT because archive metadata names Dieter Dienst while the public transcript does not name D.
 
 Cross-source consequence: a tunable magnetically biased L/C conditioning/commutation stage is now a higher-priority **large/workshop-family hypothesis**, but no resonance/top-stage hardware is added to the M2 historical baseline and no bulk-energy source is claimed.
+
+## V4.11 / Internet audit round 11 — environmental source discrimination — 2026-08-18
+
+Canonical files: `docs/research/internet-source-audit-round11-2026-08-18.md`, `internet-source-ledger-round11.tsv`, `docs/research/m2-v4-11-environmental-port-survey.md`, `sim/m2_v4_11_environmental_port_survey.py`.
+
+Round 11 makes one major provenance correction and one major physical narrowing. The preserved second-hand Linden relay contains the ~700-V claim but **no 80–140-MHz operating-frequency statement**; that frequency belongs to Potter's later back-engineering. Rimstar's controlled replication series did not reproduce the Linden-scale effect and exposed body/contact bias plus ordinary powered-UHF/HV induction/rectification at tiny power scales.
+
+Quantitatively, ordinary fair-weather atmospheric conduction, ordinary 50-Hz room-field pickup through pF-scale coupling, typical ambient RF, Schumann/ELF background and Earth's static magnetic field are all orders of magnitude too small to explain a sustained ~100-W tabletop load. Resonance, magnetization and nonlinear commutation may still be timing/impedance/field-conditioning mechanisms but are not thereby an energy source.
+
+Remaining conventional bulk-source priorities: overlooked galvanic/base/table/chassis path; strong local near-field coupler/transmitter; mechanical input; finite stored electrostatic/electret/chemical energy; historical output-estimation error. Only a closed simultaneous input/output/storage balance can leave an unexplained residual.
+
+M2 historical baseline is unchanged: no Tesla/HF stage is added.
