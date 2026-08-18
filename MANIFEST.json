@@ -126,8 +126,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 17862,
-      "sha256": "dbf913634e4e7603f96c1f270000fee2af657d90acec725843b511256eaf04bb"
+      "size": 18773,
+      "sha256": "82fc8170c98c35ef0ea135879e3f588636a55519801c546e739521dfcb77c747"
     },
     {
       "path": "CITATION.cff",
@@ -181,8 +181,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 243750,
-      "sha256": "c04bad79b30078c9f9aaa3716669a5306a2c37587c6522d2888a9fd425e806ba"
+      "size": 245079,
+      "sha256": "1f61bea8a03812ed403d014f90f12aa172bf634153bbd5a3a661c843ae1795db"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -191,8 +191,8 @@
     },
     {
       "path": "addon.md",
-      "size": 61275,
-      "sha256": "d0e28616fcb24c47dceb1f9a3491a2937cc242c7e3b9cbf1503f2a31ebf9105b"
+      "size": 61850,
+      "sha256": "e9bf9f907062b1e2fcf4a09875c4f1e180e9591502e7ca7b1a016e80bc18996e"
     },
     {
       "path": "cad/README.md",
@@ -256,13 +256,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 7726,
-      "sha256": "da5c585ab3a8390c6ab58b020f8219bbc598f781a8d946063a81a939172384ac"
+      "size": 8823,
+      "sha256": "89533ebe38679ca7fa90faae6bed81246f053cbd3c4ea574544a73ab26b9619d"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 21708,
-      "sha256": "dc53bc91be7ad10c3ff8d71b9b16d8b257660cc10317cbb8bd6b72164a07896b"
+      "size": 22917,
+      "sha256": "52cf2129499fe76d8314f1bcda7b4e7be7a7bdc2784cf67ef0f8d6dd9b583256"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -386,8 +386,8 @@
     },
     {
       "path": "docs/research/baumann-statements.tsv",
-      "size": 12866,
-      "sha256": "1831009df4b6c581b597d49a85c04e67f3487d3db446c1bef96c41758e3cbb51"
+      "size": 16078,
+      "sha256": "b57e4f3957676e4edaef63b0cc9334f02a98903ecb11af11937f24afc21c0d79"
     },
     {
       "path": "docs/research/bom.md",
@@ -416,8 +416,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 30740,
-      "sha256": "441718c5a00bc2d49b73b5deabecabf78662b8bbed56216153a29bf892a035e1"
+      "size": 33247,
+      "sha256": "0c8f7056a8cb465a3ed138d176259fe9c419c6a92d190e74992ca416e918a8a2"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -431,8 +431,8 @@
     },
     {
       "path": "docs/research/hartmann-overunity-cathomen-audit.md",
-      "size": 17055,
-      "sha256": "f89ac406cb82049f7c0ea5b43120a4b03504189b6417912c36c4b28775ad36a1"
+      "size": 18475,
+      "sha256": "9999572330363da8fd445ec926be56b960ef012df40192aa120c0d957d280c28"
     },
     {
       "path": "docs/research/hartmann-overunity-provenance.md",
@@ -781,13 +781,13 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 15301,
-      "sha256": "03370e2eebac8eadcc3474a99bf072f5820a1b627fef61840abf16e649339ad4"
+      "size": 17465,
+      "sha256": "3053ae873667298454596cead5946a0222c5bccd18a885cd488420bc306fadc1"
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 24557,
-      "sha256": "c3111a494da5a4f83b846d47c7e37eec036b04d8b9d68fb88f62c5ac0d7fff9d"
+      "size": 27468,
+      "sha256": "640fe79d3e518311afd9fbba2fd926d4403c2dd3fa84b5f56a1d14d313a0de29"
     },
     {
       "path": "docs/research/source-independence-round8.tsv",

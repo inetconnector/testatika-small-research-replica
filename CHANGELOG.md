@@ -234,3 +234,14 @@ No over-unity or free-energy claim is asserted. Unknown historical wiring remain
 - documented Hauser's DIFOT/UFO-Contact/English publication chain;
 - added Nuetec HD-labelled video and companion-document corpus as acquisition targets without claiming uninspected content;
 - no historical CAD baseline changed.
+
+### Internet source audit round 10 — 2026-08-18
+
+- added the Sauder/Snicker H2 retuning-after-partial-disassembly account and its self-stated memory limitations;
+- added the 17-Mar-1984 L. L. witness wording linking magnetic impulses and horseshoe magnets to electrical resonance circuits on M5a;
+- added the Hauser-relayed layered foundation-plate lead without promoting it to observed construction;
+- added Cathomen's explicit magnetized-pickup answer and not-full-vacuum/condenser-associated component wording;
+- kept Potter's vacuum-valve model as back-engineering rather than recovered hardware;
+- corrected `dry` versus unverified `cold` historical operating claims;
+- downgraded `D = Stefan Hartmann` to unresolved speaker-identity conflict against Dieter Dienst archive metadata;
+- strengthened a reversible large/workshop tunable-conditioning hypothesis without changing the M2 historical baseline.

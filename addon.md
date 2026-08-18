@@ -2051,3 +2051,9 @@ Important guards:
 Before continuing, read `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
 
 Do not repeat as fact that Marinov received a `100-W Testatika` in 1997. The located chain does not support a permanent gift or rated output. Preserve the 1999 5-Jun/34 vs 4-Aug/30 conflict. Treat Weber's polymer-chain/air-ionization as a 2004 theory. Treat Nuetec's Nov-1980 Nieper date as editor annotation until original TWT-V/Nieper evidence is obtained. The Nuetec HD-labelled film has not yet been frame-audited.
+
+## Internet audit round 10 handoff — 2026-08-18
+
+Read `docs/research/internet-source-audit-round10-2026-08-18.md` and `internet-source-ledger-round10.tsv` before changing the top-stage, magnet or environment model.
+
+Do not promote the Sauder/Snicker tuning story above H2; do not move the 1984 M5a resonance wording into M2; do not call Cathomen's condenser-associated component a proven vacuum tube; do not historicize `cold air` as required. Use `D/interviewer`, not `Hartmann`, for the workshop transcript until the Dieter-Dienst/Hartmann speaker conflict is resolved.

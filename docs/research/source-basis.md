@@ -301,3 +301,23 @@ High-value provenance corrections:
 8. Nuetec publicly links a 30-minute Methernitha film labelled **1280×720**, but the file has not yet been frame-audited and could be an upscale. It is an acquisition target, not new geometry evidence.
 
 Round 4 does not justify an automatic historical CAD change.
+
+## Internet source audit round 10 — 2026-08-18
+
+Canonical Round-10 records:
+
+- [`internet-source-audit-round10-2026-08-18.md`](internet-source-audit-round10-2026-08-18.md)
+- [`internet-source-ledger-round10.tsv`](internet-source-ledger-round10.tsv)
+
+High-value consequences:
+
+1. **Sauder/Snicker tuning relay (H2):** an anonymized 1999 correspondence extract says two engineers who measured earlier converters found the top element to be a solenoid-like device with a movable jumper/contact rather than a normal rectifier, and that Baumann had to retune it after they partially dismantled and inspected a machine. The same source warns their observation/memory was imperfect. This is a strong acquisition/tunable-impedance lead, not recovered M2 hardware.
+2. **L. L. 17-Mar-1984 witness wording (W1/I1):** the ~45-cm twin-disc machine is described as synchronized by magnetic impulses, with strong horseshoe magnets said to be parts of electrical resonance circuits involved in charging. This historicizes a magnet/resonance interpretation for M5a; it does not override Marinov's no-Tesla/no-AC small-machine line.
+3. **Layered foundation-plate relay (H2):** Hauser's expanded report says other visitors described the thick wooden base as alternating perforated and insulating layers. Treat the large-machine base as a possible capacitive/field node in experiments, not as established hidden source hardware.
+4. **Cathomen magnetized pickups (O1/P1):** in the workshop transcript Cathomen identifies the structures as `Abnehmer` and answers yes when asked if they are also magnetized. Keep this workshop-specific.
+5. **Cathomen reduced-pressure/condenser component (O1/P1 with interviewer framing):** `Vakuum ist es noch nicht`; the discussed part is tied to a condenser. A reduced-pressure/nonlinear switch is a testable candidate, not a proven thermionic tube or energy source.
+6. **Potter vacuum-valve downgrade:** Potter's detailed thermionic-valve identification remains photo back-engineering. Across variants, closer sources include an open/non-evacuated rectifier interpretation and Cathomen's not-full-vacuum wording; no universal vacuum-tube identity is source-secure.
+7. **Dry ≠ cold:** low humidity is source-supported; `cold` as an independent optimum/requirement is not source-verified in this crawl.
+8. **Cathomen interviewer identity:** public transcript names only M/D/T, while archive metadata says `Dieter Dienst speaking with Luzi Cathomen`. Earlier project-side `D = Stefan Hartmann` is therefore CONFLICT/unresolved; use `D`/`interviewer` until a timestamped identity bridge exists.
+
+Cross-source convergence now justifies a **large/workshop-family** research hypothesis of magnetically biased/timed pickup → tunable L/C impedance/resonance conditioning → nonlinear commutation → Leyden storage. It is not an M2 historical baseline and does not identify the bulk-energy source.

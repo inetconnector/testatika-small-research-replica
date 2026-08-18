@@ -104,3 +104,13 @@ Round 4 adds provenance constraints without modifying M6a CAD:
 - A Nuetec 1280×720-labelled Methernitha film is publicly linked but has not been source-resolution/frame compared; no M6 geometry is upgraded from it yet.
 
 M6a V1 remains source-anchored to the direct Hauser 1986/1988 material.
+
+## Internet crawl round 10 — tunable conditioning and base-node leads
+
+Round 10 adds three model-relevant but still non-authoritative leads for larger/workshop machines:
+
+- **M5a witness interpretation:** a 17-Mar-1984 report reproduced by Nieper says the ~60-rpm discs are synchronized by magnetic impulses and describes strong horseshoe magnets as parts of electrical resonance circuits involved in charging.
+- **M6/unspecified H2 tuning relay:** Sauder/Snicker are said to have seen a solenoid-like top element with movable tuning contact; Baumann allegedly had to retune it after their partial disassembly. Original engineer records are still missing.
+- **M6a base H2:** Hauser relays reports from other visitors that the thick wooden foundation plate alternated perforated conductive and insulating layers.
+
+These justify reversible `tunable impedance/resonance` and `active-base/dummy-base` experiment variants for large-family mechanism studies. They do not overwrite Hauser's direct M6a geometry, do not establish the exact node map, and do not constitute evidence of anomalous energy.

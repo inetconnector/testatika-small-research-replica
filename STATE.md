@@ -4898,3 +4898,11 @@ Key changes: Marinov's 1989 Testatika article is now available as a complete pag
 Round 4 is recorded in `docs/research/internet-source-audit-round4-2026-08-17.md` and `internet-source-ledger-round4.tsv`.
 
 Key state: Frolov's `1997 100-W gift` story is classified unsupported late secondary/likely conflation; 1999 engineer demo remains 5-Jun/34 vs 4-Aug/30 conflict; 2004 Weber polymer-chain/air-ion theory is dated hypothesis only; 2010 Methernitha reply is recipient-published correspondence; Nuetec `Nov-1980` Nieper date is editor attribution and unverified; 1977/1978 construction chronology remains milestone-specific conflict; Hauser DIFOT/UFO-Contact/English transmission chain is now explicit; Nuetec 1280x720 film is a high-priority uninspected acquisition lead. No historical CAD baseline changed.
+
+## Internet audit round 10 — 2026-08-18
+
+Round 10 is recorded in `docs/research/internet-source-audit-round10-2026-08-18.md` and `internet-source-ledger-round10.tsv`.
+
+New high-value leads: (1) Sauder/Snicker H2: unresolved-machine top element allegedly a movable-jumper solenoid/variable-inductor-like part, retuned by Baumann after partial disassembly; (2) L. L. 17-Mar-1984 W1/I1: M5a discs synchronized by magnetic impulses and strong horseshoe magnets described as parts of electrical resonance circuits; (3) Hauser H2: large-machine wooden base allegedly contains alternating perforated/insulating layers; (4) Cathomen O1/P1: workshop pickups explicitly described as magnetized; (5) separate Cathomen component: `Vakuum ist es noch nicht` and condenser-associated, supporting only a reduced-pressure/nonlinear-switch candidate; (6) `cold` is not source-verified independently of dry/low-RH operation; (7) Cathomen transcript interviewer identity is now CONFLICT because archive metadata names Dieter Dienst while the public transcript does not name D.
+
+Cross-source consequence: a tunable magnetically biased L/C conditioning/commutation stage is now a higher-priority **large/workshop-family hypothesis**, but no resonance/top-stage hardware is added to the M2 historical baseline and no bulk-energy source is claimed.

@@ -203,3 +203,16 @@ Therefore:
 - V4 geometry/electrical baseline remains unchanged.
 
 The Nuetec 1280×720-labelled film is not yet frame-audited and therefore supplies **no new M2 geometry yet**.
+
+## Internet crawl round 10 — resonance/top-stage boundary
+
+Round 10 strengthens several **non-M2** conditioning-stage leads but adds no contrary primary evidence against the current M2 boundary:
+
+- a Sauder/Snicker H2 relay describes an unresolved-machine top element as a tunable solenoid/jumper requiring retuning after partial disassembly;
+- the 17-Mar-1984 L. L. witness report explicitly links strong horseshoe magnets to electrical resonance circuits in the M5a twin-disc machine;
+- Cathomen's workshop line says pickups are magnetized and describes a not-full-vacuum condenser-associated component;
+- Hauser relays a possible layered conductive/insulating foundation plate for a large machine.
+
+These are retained as **cross-machine experimental variants only**. Marinov's direct small-machine statement rejecting Tesla coils/AC remains the M2 historical baseline. No M2 top-stage resonance circuit, magnetized pickup, reduced-pressure tube or layered base is promoted to historical fact.
+
+The new material does strengthen one diagnostic priority: treat environment/base/rear coupling and the top-module impedance/phase state as separately measurable ports while maintaining a closed energy ledger.
