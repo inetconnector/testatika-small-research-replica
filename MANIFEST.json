@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 586,
+  "file_count": 587,
   "files": [
     {
       "path": ".gitattributes",
@@ -2928,6 +2928,11 @@
       "path": "tests/test_m2_v4_6_radioionization_gate.py",
       "size": 1692,
       "sha256": "6174746dbe1b5491e15253bdd2df8fd8d844bb5b37f888748a82a33e59ed57bb"
+    },
+    {
+      "path": "tests/test_m2_v4_7_radioionization_integration.py",
+      "size": 3816,
+      "sha256": "60ffdfa7408b68a7a55393086f66c9df4927a96e170e2d4c5e3bb98d892e989a"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
