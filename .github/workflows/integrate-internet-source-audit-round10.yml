@@ -1,4 +1,4 @@
-name: Integrate Internet source audit round 10
+name: Integrate Internet source audits round 10-11
 
 on:
   push:
@@ -6,8 +6,14 @@ on:
       - agent/m2-v4-fully-floating
     paths:
       - 'scripts/apply_internet_source_audit_round10.py'
+      - 'scripts/apply_internet_source_audit_round11.py'
       - 'docs/research/internet-source-audit-round10-2026-08-18.md'
       - 'docs/research/internet-source-ledger-round10.tsv'
+      - 'docs/research/internet-source-audit-round11-2026-08-18.md'
+      - 'docs/research/internet-source-ledger-round11.tsv'
+      - 'docs/research/m2-v4-11-environmental-port-survey.md'
+      - 'sim/m2_v4_11_environmental_port_survey.py'
+      - 'tests/test_m2_v4_11_environmental_port_survey.py'
       - '.github/workflows/integrate-internet-source-audit-round10.yml'
   workflow_dispatch:
 
@@ -35,17 +41,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Apply idempotent round-10 source findings
-        run: python scripts/apply_internet_source_audit_round10.py
+      - name: Apply idempotent round-10 and round-11 source findings
+        run: |
+          python scripts/apply_internet_source_audit_round10.py
+          python scripts/apply_internet_source_audit_round11.py
       - name: Install validation dependencies
         run: python -m pip install -r requirements-dev.txt
+      - name: Run V4.11 regression tests
+        run: python -m pytest tests/test_m2_v4_11_environmental_port_survey.py -q
       - name: Validate repository structure and evidence guardrails
         run: python scripts/validate_assets.py
       - name: Refresh and verify integrity manifest
         run: |
           python scripts/generate_manifest.py
           python scripts/check_manifest.py
-      - name: Commit integrated round-10 state
+      - name: Commit integrated source-audit state
         shell: bash
         run: |
           set -euo pipefail
@@ -59,11 +69,12 @@ jobs:
             docs/research/evidence_matrix.tsv \
             docs/research/source-acquisition-backlog.tsv \
             docs/research/hartmann-overunity-cathomen-audit.md \
+            docs/research/experiment-plan.md \
             STATE.md addon.md CHANGELOG.md \
             MANIFEST.json MANIFEST_SHA256.txt
           if git diff --cached --quiet; then
-            echo 'Round-10 source audit already integrated and current.'
+            echo 'Round-10/11 source audits already integrated and current.'
           else
-            git commit -m 'research: integrate round 10 mechanism findings'
+            git commit -m 'research: integrate round 11 environmental bounds'
             git push origin "HEAD:$GITHUB_REF_NAME"
           fi
