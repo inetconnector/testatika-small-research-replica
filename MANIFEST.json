@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 567,
+  "file_count": 569,
   "files": [
     {
       "path": ".gitattributes",
@@ -2615,6 +2615,11 @@
       "sha256": "1ca04196c40758135d2e114a87e932a93ea74486fda928ea55fceba39acbd8cb"
     },
     {
+      "path": "sim/m2_v4_1_pot_crystal.py",
+      "size": 18400,
+      "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
+    },
+    {
       "path": "sim/m2_v4_fully_floating.py",
       "size": 10808,
       "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
@@ -2833,6 +2838,11 @@
       "path": "tests/test_m2_v3_distributed_rotor.py",
       "size": 2708,
       "sha256": "5ce491801db1f46b572515a1940bb4fca04cf47637246ddd4f728f7e808ec35c"
+    },
+    {
+      "path": "tests/test_m2_v4_1_pot_crystal.py",
+      "size": 3217,
+      "sha256": "5d6a789fc8c3e67431721721709dfc5300050346bbb8ac5eb0a8011ae46203c3"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
