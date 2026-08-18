@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 609,
+  "file_count": 610,
   "files": [
     {
       "path": ".gitattributes",
@@ -468,6 +468,11 @@
       "path": "docs/research/hauser-source-ledger.tsv",
       "size": 2992,
       "sha256": "48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669"
+    },
+    {
+      "path": "docs/research/hidden-input-witness-constraints-2026-08-18.md",
+      "size": 7435,
+      "sha256": "75bc3aad79e1af8de27579f1ae0ff808500afb0beb2187a6f891234d02c342c2"
     },
     {
       "path": "docs/research/internet-source-audit-2026-08-17.md",

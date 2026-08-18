@@ -91,6 +91,7 @@ f9d4dfa02518a9b5765bf9c4b51840b376823ec1537433977b5e3b782204ac9c  docs/research/
 e62a3618cb1a990c8b60f94920ff36e8bd489365ceb89cdbe37f0425d66b961b  docs/research/hartmann-overunity-testatika.md
 f94491576eda4b3512b66d21ea136b48713b0c59c57d7bc4307f924a5b8bff7f  docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md
 48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669  docs/research/hauser-source-ledger.tsv
+75bc3aad79e1af8de27579f1ae0ff808500afb0beb2187a6f891234d02c342c2  docs/research/hidden-input-witness-constraints-2026-08-18.md
 b2439a363967b8b41227a355a4b70ae57017beb7312b073c0cee607a5848b4a9  docs/research/internet-source-audit-2026-08-17.md
 e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1  docs/research/internet-source-audit-addendum-2026-08-17.md
 21440d116b55c889765c98cb695a178f1a325e99323fa4e011a05fdb8376a445  docs/research/internet-source-audit-round10-2026-08-18.md
