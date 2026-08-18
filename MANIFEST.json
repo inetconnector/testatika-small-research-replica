@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 610,
+  "file_count": 612,
   "files": [
     {
       "path": ".gitattributes",
@@ -541,8 +541,8 @@
     },
     {
       "path": "docs/research/internet-source-ledger-round11.tsv",
-      "size": 5092,
-      "sha256": "680aea0c94c0539f1b28624469d08833eb2fdf4acb2ade6551b9aa1f1d980dfa"
+      "size": 6365,
+      "sha256": "2bf7429abc0ccba7ee8463a3b778001e5d618b65fb82a9ae30d01dcd3048e84f"
     },
     {
       "path": "docs/research/internet-source-ledger-round2.tsv",
@@ -2730,6 +2730,11 @@
       "sha256": "86df7b2fb719bde56ce8d1c745d92ceee71fcdf5671119705a1b72f9cdbf3173"
     },
     {
+      "path": "sim/m2_v4_12_local_structured_coupling.py",
+      "size": 6320,
+      "sha256": "05b43e7bd658b5e61e2fc9fca931e3b24b3a57226de11fb25202ce18e944efa4"
+    },
+    {
       "path": "sim/m2_v4_1_pot_crystal.py",
       "size": 18400,
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
@@ -3003,6 +3008,11 @@
       "path": "tests/test_m2_v4_11_environmental_port_survey.py",
       "size": 1992,
       "sha256": "11c4c18370c9ce6dfc72a8a0db42e30681f4c711982bd8cf0edf2cef9d8baba9"
+    },
+    {
+      "path": "tests/test_m2_v4_12_local_structured_coupling.py",
+      "size": 2840,
+      "sha256": "37f616c417e042a8116bbd9985d83ca8f286ae93578c40c9b6efb104e1f7fcd1"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
