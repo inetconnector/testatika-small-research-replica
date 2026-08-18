@@ -254,3 +254,22 @@ No over-unity or free-energy claim is asserted. Unknown historical wiring remain
 - bounded fair-weather atmospheric conduction, 50-Hz pF pickup, ambient RF, Schumann/ELF and geomagnetic induction against the ~100-W tabletop scale;
 - narrowed the remaining conventional source search to local hidden electrical/near-field/mechanical/storage paths or historical output-estimation error;
 - left the M2 historical CAD/electrical baseline unchanged.
+
+### V4.12 local structured coupling — 2026-08-18
+
+- added deterministic local capacitive/inductive hidden-port calculator and regression tests;
+- quantified 30-cm base/table capacitance examples and the voltage/current needed for a 100-W/100-VA scale;
+- showed that strong local HV/HF sources can couple substantial power through pF-scale parasitics, making no-visible-wire inspection insufficient by itself;
+- added magnetic near-field / mutual-inductance bounds as a conventional transmitter control;
+- kept local source, active base, RF and resonance hardware outside the historical M2 baseline;
+- strengthened the simultaneous input/output/storage metrology requirement.
+
+### V4.13 load-duration / finite-storage audit — 2026-08-18
+
+- separated historical machine-running duration from load-connected duration and operator continuity claims;
+- recorded Holzherr M6b ~1.5-h running versus ~10-s 1000-W lamp description and his explicit inability to judge the hidden-battery question;
+- added deterministic load-energy, Wh/runtime and capacitor-storage calculations with regression tests;
+- quantified the 10-s 1-kW rating-equivalent as 10 kJ / 2.78 Wh rather than 1.5 kWh;
+- added ideal electrostatic storage requirements at 30 kV and 100 kV;
+- kept finite internal storage as an unresolved conventional explanation without asserting fraud;
+- left M2 historical topology unchanged.

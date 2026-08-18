@@ -2063,3 +2063,15 @@ Do not promote the Sauder/Snicker tuning story above H2; do not move the 1984 M5
 Before continuing the environmental-source search, read `docs/research/m2-v4-11-environmental-port-survey.md` and `docs/research/internet-source-audit-round11-2026-08-18.md`.
 
 Do not quote `80–140 MHz` as a Linden/Baumann source fact: the preserved relay has no such frequency; it is Potter's later reconstruction. Ordinary fair-weather current, normal ambient RF, Schumann background and the static geomagnetic field are quantitatively excluded as direct ~100-W tabletop bulk reservoirs. The next conventional search should instrument base/table/chassis, local near-field, mechanical and stored-energy ports rather than treating resonance amplitude as power input.
+
+## V4.12 handoff — local structured coupling — 2026-08-18
+
+Read `docs/research/m2-v4-12-local-structured-coupling.md` after V4.11. The key result is that ordinary ambient sources fail, while a **local active** high-voltage/high-frequency capacitive or magnetic source could transfer 100 W through surprisingly small parasitic coupling. Example: ~478 pF needs ~577 V rms / 173 mA rms at 100 kHz; 10 kV at 100 kHz needs only ~1.59 pF. The transmitter must still supply real power and should be measurable.
+
+Next work should focus on complete base/table/chassis/common-mode and local near-field metrology rather than adding unverified historical RF hardware.
+
+## V4.13 handoff — load duration versus stored energy — 2026-08-18
+
+Read `docs/research/load-duration-storage-audit-2026-08-18.md` before making stronger energy-source claims. The key correction is that Holzherr's M6b machine reportedly ran for ~1.5 h, but the 1000-W lamp was connected only ~10 s. At full rating that is just 2.78 Wh, and Holzherr explicitly said he could not judge the hidden-battery question. The 50-cm base was not cleared by lifting; liftability applied to separate ~12-cm models.
+
+Next work should prioritize a minimum loaded-energy challenge and full storage inventory, not just instantaneous power or autonomous rotor runtime.

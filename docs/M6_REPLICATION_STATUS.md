@@ -122,3 +122,11 @@ The large/workshop source lines retain legitimate historical clues involving mag
 Quantitative controls show that ordinary fair-weather atmospheric conduction, normal ambient RF, Schumann/ELF background and Earth's static magnetic field are far too small to provide sustained ~100-W tabletop power. A resonant or magnetically biased stage can transform impedance, establish phase and increase circulating reactive energy, but cannot supply missing real power.
 
 For M6/M7-family experiments, the highest-priority conventional alternatives are therefore an electrically active base/table/chassis path, a strong local near-field coupler/transmitter, mechanical drive, or finite stored energy. None is promoted to historical fact without source or measurement evidence.
+
+## V4.13 M6b load-duration evidence boundary
+
+Holzherr's 1999 M6b source must be represented as two separate time statements: the ~50-cm machine reportedly ran throughout an approximately 1.5-hour visit, while the named 1000-W lamp was connected for only about 10 seconds. The report does not establish a 1.5-hour 1-kW load test.
+
+Holzherr also says he could not judge whether hidden flat batteries could account for the operation and that the protected 50-cm machine could not be lifted. His observation that running machines could be lifted applies to separate ~12-cm small models.
+
+For M6 replication/metrology, load tests must therefore use integrated `V(t)*I(t)` energy and a separately bounded initial storage reservoir. Brightness, heater temperature, rotor runtime and nameplate wattage are supporting observations, not substitutes for a closed energy ledger.

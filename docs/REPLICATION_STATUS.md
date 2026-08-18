@@ -232,3 +232,19 @@ The new survey quantitatively rejects several tempting ordinary environmental re
 A key provenance correction also prevents an HF reconstruction error: the preserved Linden-Experiment relay reports the ~700-V claim but **does not state 80–140 MHz**. The 80–140-MHz number belongs to Potter's later reconstruction.
 
 The M2 baseline therefore remains unchanged: floating rotor wires, two-terminal side pots, Crystal black box, no rubbing contacts, no conventional built-in motor and no Tesla/HF historical stage. V4.11 instead strengthens the requirement to instrument base/table/chassis, front/rear field, mechanical and stored-energy ports simultaneously.
+
+## V4.12 local structured coupling discriminator
+
+V4.12 adds a conventional hidden-port discriminator after ordinary ambient sources failed the V4.11 power bounds. It does not change M2 historical geometry or wiring.
+
+For a 30 x 30 cm laboratory comparison base with 5 mm dielectric and `eps_r=3`, the estimated coupling is ~478 pF. An optimistic 100-VA scale then requires ~577 V rms / 173 mA rms at 100 kHz, or ~25.8 kV rms at 50 Hz. Conversely, a deliberately strong 10-kV/100-kHz local source needs only ~1.59 pF effective coupling.
+
+This makes the next test requirement explicit: no-wire visual inspection is insufficient. A modern replica must measure local E/H fields, base/table/chassis displacement current, all instrumentation returns, mechanical work and storage-energy change simultaneously. M2 remains no-Tesla/HF historical baseline unless new machine-specific primary evidence appears.
+
+## V4.13 load-duration / storage-energy discriminator
+
+V4.13 adds no historical M2 hardware. It corrects a common energy-accounting error: machine-running duration is not automatically load-delivery duration.
+
+For the M6b Holzherr 1999 report, ~1.5 h is the observed running interval, while the explicitly described 1000-W lamp interval is only ~10 s. Even if the lamp received its full rating, that interval represents only ~10 kJ = 2.78 Wh. The actual synchronized V-I load power was not recorded in the preserved report.
+
+Finite storage is therefore not excluded by that demonstration alone. Future tests must predeclare a minimum delivered-energy target and continuously integrate isolated load voltage/current while also measuring external electrical, mechanical and storage-energy terms. M2 baseline remains unchanged.

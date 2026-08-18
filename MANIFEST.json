@@ -111,8 +111,8 @@
     },
     {
       "path": ".github/workflows/refresh-manifest.yml",
-      "size": 2635,
-      "sha256": "ff24ebf24b41ce9f0d812a58a681a000a4a0be42fdecf92eab4cee761afe63aa"
+      "size": 2957,
+      "sha256": "8e7792781b71d0aa2c2c776e4bfab21c53f83758a7235e6521a54494e10a1ee9"
     },
     {
       "path": ".github/workflows/snapshot-main.yml",
@@ -141,8 +141,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 19586,
-      "sha256": "9a1bd80038bed0c0197d824142a955718387f8bcffa760dd2a13f2a0c0087447"
+      "size": 20976,
+      "sha256": "9ea847dd1ed02ecd5cabcfac38f78f986e4b38bb6f07e572430c3cdf84724c16"
     },
     {
       "path": "CITATION.cff",
@@ -196,8 +196,8 @@
     },
     {
       "path": "STATE.md",
-      "size": 246671,
-      "sha256": "654a96b419d33514cd045748d8dde5ead4584217eaba46ba7746c0da7be90ef0"
+      "size": 248776,
+      "sha256": "0672202459e0e65a08a7473004460d9d1e761829b3e0b53c5fe2a054541663b1"
     },
     {
       "path": "V3_PHOTO_BRANCH.md",
@@ -206,8 +206,8 @@
     },
     {
       "path": "addon.md",
-      "size": 62563,
-      "sha256": "8b370d34929b1d46c267d382cb5e116a7a628fa26459d5646b031fb25412aac3"
+      "size": 63881,
+      "sha256": "501e2bf4b0ad2e18e81bf64b3ffdb09f7ac6c7869f7d8500aba6fabd95dda27d"
     },
     {
       "path": "cad/README.md",
@@ -271,13 +271,13 @@
     },
     {
       "path": "docs/M6_REPLICATION_STATUS.md",
-      "size": 9799,
-      "sha256": "2b8f83be2e5d20fe121d5c2313972fd689893c6255e757694b2b54425965684c"
+      "size": 10668,
+      "sha256": "0880a58251022d7c20d7eb8c12b38c4f8b55d27e2ee337e5885bdf01d1a96389"
     },
     {
       "path": "docs/REPLICATION_STATUS.md",
-      "size": 24068,
-      "sha256": "52e202afddc8031a85d0b757aa619332e1e3a4d38bed1d8a9722090fb4bba3bd"
+      "size": 25796,
+      "sha256": "5f22995c93d38e1f515bf9cb9db5858fe3afc3825b7063a61e89d810739abc19"
     },
     {
       "path": "docs/Testatika_Augenzeugen_Dossier.pdf",
@@ -436,13 +436,13 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 36089,
-      "sha256": "0be4a534116c3c68ac5e825100ee90d30d13c56e575a629ac9a63da6947768d8"
+      "size": 38986,
+      "sha256": "eb9e720bd615516eda4d6be6b49030818fd2109082f139e749c76f24c723e3a5"
     },
     {
       "path": "docs/research/experiment-plan.md",
-      "size": 15945,
-      "sha256": "20067722c569872708bb57e1fea1571a0fdb72fc3d20c805b59cc0b944b84f2d"
+      "size": 17669,
+      "sha256": "429bee889378fe0faf36deb2caa13653337e86a07c2a3313c86099dd8045ca23"
     },
     {
       "path": "docs/research/external-corpus.md",
@@ -841,8 +841,8 @@
     },
     {
       "path": "docs/research/source-basis.md",
-      "size": 29735,
-      "sha256": "4998d4edf2d67534ee7d2bfe3c08b58a1eb2c99047de273c35b80c25540f492f"
+      "size": 33757,
+      "sha256": "c981e819af08a7d5fb1b7d19a219036af8bd79ba190c008451866c266fcb4cb0"
     },
     {
       "path": "docs/research/source-independence-round8.tsv",

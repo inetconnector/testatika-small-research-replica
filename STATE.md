@@ -4918,3 +4918,19 @@ Quantitatively, ordinary fair-weather atmospheric conduction, ordinary 50-Hz roo
 Remaining conventional bulk-source priorities: overlooked galvanic/base/table/chassis path; strong local near-field coupler/transmitter; mechanical input; finite stored electrostatic/electret/chemical energy; historical output-estimation error. Only a closed simultaneous input/output/storage balance can leave an unexplained residual.
 
 M2 historical baseline is unchanged: no Tesla/HF stage is added.
+
+## V4.12 — local structured coupling bounds — 2026-08-18
+
+V4.12 narrows the remaining conventional energy-source search after V4.11. Ordinary ambient natural sources are too weak, but a deliberately strong **local** capacitive or inductive source can transfer a 100-W scale without a visible galvanic wire.
+
+Representative derived comparison: 30 x 30 cm, 5 mm, `eps_r=3` -> ~478 pF. At 100 kHz, the optimistic 100-VA scale is ~577 V rms / 173 mA rms; a 10-kV/100-kHz source needs only ~1.59 pF. For a 200-mm, 24-turn ideal loop, 100 V rms induction needs ~0.211 mT at 100 kHz. These are transmitter/coupling requirements, not energy creation.
+
+Consequently the strongest remaining conventional candidate becomes local active base/table/chassis/common-mode or near-field coupling. It is now quantitatively falsifiable by simultaneous field, displacement-current, mechanical, storage and load metrology. M2 historical baseline remains unchanged and no HF/Tesla stage is promoted.
+
+## V4.13 — load-duration and finite-storage bound — 2026-08-18
+
+V4.13 directly tightens the unresolved energy-source question. The best recovered Holzherr M6b duration evidence does **not** show a 1000-W load for 1.5 hours: the machine reportedly ran for ~1.5 h, while the 1000-W lamp was connected for ~10 s. Holzherr explicitly says he cannot judge whether hidden flat batteries could account for the operation, and the protected 50-cm machine could not be lifted.
+
+If full lamp rating were actually delivered, 1 kW x 10 s is only 10 kJ = 2.78 Wh. In contrast, 1 kW x 1.5 h would be 1.5 kWh, a factor 540 larger. The historical source does not establish the latter. A 10-kJ electrostatic store would require ideally ~2 uF at 100 kV or ~22.2 uF at 30 kV; exact M6b storage values are unknown.
+
+Finite storage therefore moves upward as an unresolved conventional candidate for short demonstrations. This is not a fraud allegation. The correct discriminator is continuous integrated load energy compared with all incoming electrical/mechanical power and storage-state change. M2 historical baseline remains unchanged.

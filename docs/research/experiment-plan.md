@@ -464,3 +464,35 @@ For a passive or current-limited low-energy fixture, log simultaneously:
 The energy criterion is source-side, not resonance-amplitude based: a sustained conventional 100-W load requires real incoming power of the same order. A high-Q voltage/current peak without corresponding source real power is not a source mechanism.
 
 Historical-control requirement: do not set an `80–140 MHz Linden` operating point as source-derived. If frequency sweeps are used, declare them laboratory scans and preserve source provenance separately.
+
+## V4.12 — local structured source / base-table coupling
+
+Purpose: determine whether apparent output follows the machine, table/building, local field or stored energy.
+
+Use only current-limited low-energy surrogate excitation for characterization. Measure:
+
+- base/table/chassis capacitance matrix and leakage before/after each run;
+- front/rear/base displacement current with isolated instrumentation;
+- wideband local E-field and B/H-field spectra;
+- conductive enclosure versus nonconductive geometric dummy;
+- low-frequency magnetic-field control separately from electric shielding;
+- position/orientation sweeps while the entire measurement chain remains isolated;
+- all mechanical input and storage-energy change.
+
+Derived reference target: a 478-pF base at 100 kHz needs ~577 V rms and ~173 mA rms at the optimistic 100-VA scale. If a 100-W local capacitive source exists, a corresponding source-side current/field signature must be present. A resonance peak without source-side real power does not satisfy the energy ledger.
+
+## V4.13 — loaded-energy challenge
+
+Define a minimum **energy** challenge before any source claim. Continuous isolated logging must integrate
+
+`E_load = integral(V_load(t) * I_load(t) dt)`.
+
+Simultaneously bound external electrical input, mechanical work and storage change. Useful benchmark energies:
+
+- 100 W x 10 s = 0.278 Wh;
+- 100 W x 1 min = 1.67 Wh;
+- 100 W x 1 h = 100 Wh;
+- 1 kW x 10 s = 2.78 Wh;
+- 1 kW x 1.5 h = 1.5 kWh.
+
+The run should continue until delivered load energy materially exceeds the independently measured/bounded initial storage reservoir if the goal is to exclude finite storage. Rotor runtime without a characterized load is not a substitute for this test.

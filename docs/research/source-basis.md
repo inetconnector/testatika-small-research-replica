@@ -341,3 +341,42 @@ High-value consequences:
 7. **Geomagnetic bound:** a 200-mm one-turn loop at 60 rpm in ~50 microtesla has only ~9.9 microV optimistic peak Faraday EMF; ordinary generation still requires mechanical work.
 
 Round 11 therefore narrows the conventional bulk-source search to overlooked local galvanic/base/table/chassis paths, a strong local near-field transmitter/coupler, mechanical work, finite stored energy, or historical output-estimation error. Resonance/tuning remains a conditioning hypothesis, not an energy source. No M2 historical CAD/electrical baseline changes.
+
+## V4.12 local structured coupling — 2026-08-18
+
+Canonical files:
+
+- [`m2-v4-12-local-structured-coupling.md`](m2-v4-12-local-structured-coupling.md)
+- `sim/m2_v4_12_local_structured_coupling.py`
+- `tests/test_m2_v4_12_local_structured_coupling.py`
+
+V4.12 follows the V4.11 result that ordinary ambient atmosphere/RF/Schumann/geomagnetic reservoirs are far too weak for sustained ~100-W tabletop output. It therefore tests the narrower conventional possibility of a **local structured source** coupled through base/table/chassis capacitance or a driven magnetic near field.
+
+Key derived bounds:
+
+1. A 30 x 30 cm comparison plate with 5 mm dielectric spacing and `eps_r=3` is about `478 pF`.
+2. At `100 kHz`, that capacitance reaches the optimistic `100 VA` scale at about `577 V rms` and `173 mA rms` displacement current; at 50 Hz it needs about `25.8 kV rms`.
+3. A strong source needs surprisingly little parasitic C: `10 kV rms` at `100 kHz` needs only about `1.59 pF` for the optimistic 100-VA bound. This makes "no visible wire" insufficient to exclude a deliberately strong local capacitive transmitter, but such a transmitter must still supply real load power and produce measurable local fields/source currents.
+4. For a 200-mm loop, `100 V rms` induction at `100 kHz` requires about `5.07 mT` for one turn or `0.211 mT` for 24 ideal turns. At `1 MHz`, the 24-turn value falls to about `21.1 microtesla`. The transmitter remains the energy source.
+5. A slow ~50-Hz mechanical gating pattern can in principle control a much faster externally supplied carrier without being the carrier itself. This is a control hypothesis only; Marinov's M2 line still does not justify an HF/Tesla historical baseline.
+
+V4.12 therefore upgrades **local active coupling** from a vague alternative to a quantitatively falsifiable conventional source hypothesis. It does not identify such a source historically and makes no M2 CAD/topology change.
+
+## V4.13 / load-duration versus finite storage — 2026-08-18
+
+Canonical records:
+
+- [`load-duration-storage-audit-2026-08-18.md`](load-duration-storage-audit-2026-08-18.md)
+- [`internet-source-ledger-round13.tsv`](internet-source-ledger-round13.tsv)
+- `sim/m2_v4_13_load_duration_storage_bound.py`
+- `tests/test_m2_v4_13_load_duration_storage_bound.py`
+
+The main evidence correction is an **energy-integral** distinction. Holzherr's 1999 M6b report says the ~50-cm machine remained running during an approximately 1.5-hour visit, but the explicitly identified 1000-W lamp was connected for only about 10 seconds. When asked whether hidden flat batteries could account for the demonstration, Holzherr answered that he could not judge it. The protected 50-cm machine could not be touched/lifted; his liftable-while-running observation applies to separate ~12-cm M4-family models.
+
+Therefore `1.5 h running` must not be converted into `1.5 h x 1 kW output`. If the 1000-W lamp had actually received its full nameplate power for ten seconds, the rating-equivalent load energy would be only `10 kJ = 2.78 Wh`. The report contains no synchronized calibrated V-I trace establishing that exact real power.
+
+A later reproduction of the Schneider/Weber 13-Mar-1984 M5 visit similarly separates an approximately `300 V / 10 A` output statement from Baumann's claim that operation could continue for hours/years. The witnessed lamp/heater effects are short qualitative demonstrations, while the lift/underside inspection constrains obvious external feeds but is not a closed internal/storage/field audit.
+
+Derived electrostatic-storage comparison: 10 kJ requires ideally ~`2 uF at 100 kV` or ~`22.2 uF at 30 kV`. This is a measurement target, not a claim about original capacitor values.
+
+V4.13 consequently keeps **finite internal storage** open as a conventional explanation for short historical load demonstrations. The decisive criterion is integrated load energy versus all measured external/mechanical inputs and initial-to-final storage change. No M2 historical topology change follows.
