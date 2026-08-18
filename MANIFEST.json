@@ -41,8 +41,8 @@
     },
     {
       "path": ".github/workflows/apply-internet-source-audit-round11.yml",
-      "size": 2613,
-      "sha256": "7e908e8b6b1eede578340a832357662c8d4719bc145beb961a2625652c43001c"
+      "size": 2694,
+      "sha256": "860bdcf9ddb3d7008486266ed7e0b0f5cd00e072951bac54bd7551a71dd4ccc1"
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
