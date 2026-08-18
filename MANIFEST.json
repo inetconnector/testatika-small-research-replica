@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 597,
+  "file_count": 601,
   "files": [
     {
       "path": ".gitattributes",
@@ -48,6 +48,11 @@
       "path": ".github/workflows/consolidate-main-and-clean-branches.yml",
       "size": 2429,
       "sha256": "6da2d319a9d3cd204a321b01f54c40ee8e1a5f2a649509cb73b5852071aa7027"
+    },
+    {
+      "path": ".github/workflows/integrate-internet-source-audit-round10.yml",
+      "size": 2469,
+      "sha256": "c5f48fef50494cf1194a371964fc349890521653cdc27fa5285556285635ec18"
     },
     {
       "path": ".github/workflows/integrate-internet-source-audit.yml",
@@ -465,6 +470,11 @@
       "sha256": "e8b33806c268901fec13c7a6ef2e72f5382f5ab03ea40e45a542bae73ce80af1"
     },
     {
+      "path": "docs/research/internet-source-audit-round10-2026-08-18.md",
+      "size": 15135,
+      "sha256": "21440d116b55c889765c98cb695a178f1a325e99323fa4e011a05fdb8376a445"
+    },
+    {
       "path": "docs/research/internet-source-audit-round2-2026-08-17.md",
       "size": 11777,
       "sha256": "848ac1fc1165fc05ea8533377bdae12904beee589c904e37d75b3bc88b6001c1"
@@ -503,6 +513,11 @@
       "path": "docs/research/internet-source-audit-round9-2026-08-17.md",
       "size": 11309,
       "sha256": "0157d1fd66e82c746f7b6f9ba60143b5cec4be6443068e8e08670e0214dc17c4"
+    },
+    {
+      "path": "docs/research/internet-source-ledger-round10.tsv",
+      "size": 4628,
+      "sha256": "7b909454db095f8ee34a764fd7aff8e2566ccb0307a191a8f423e85b383a6724"
     },
     {
       "path": "docs/research/internet-source-ledger-round2.tsv",
@@ -2513,6 +2528,11 @@
       "path": "scripts/apply_internet_source_audit_final.py",
       "size": 6373,
       "sha256": "376d43214dc7c8f5f056d6cf47d702e6925d1eb7701586378196e155307f79d4"
+    },
+    {
+      "path": "scripts/apply_internet_source_audit_round10.py",
+      "size": 20365,
+      "sha256": "975d3481ffe09c2268a34fe93b86c090c479364110e4c5866191deb54625cbd2"
     },
     {
       "path": "scripts/apply_internet_source_audit_round2.py",
