@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 613,
+  "file_count": 618,
   "files": [
     {
       "path": ".gitattributes",
@@ -43,6 +43,11 @@
       "path": ".github/workflows/apply-internet-source-audit-round11.yml",
       "size": 2694,
       "sha256": "860bdcf9ddb3d7008486266ed7e0b0f5cd00e072951bac54bd7551a71dd4ccc1"
+    },
+    {
+      "path": ".github/workflows/apply-m2-v4-12-local-structured-coupling.yml",
+      "size": 2466,
+      "sha256": "e6504c3c494ef0f1b26a46635a658b8316c9cfd92c65eb1e95a8c618b4defa8e"
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
@@ -593,6 +598,11 @@
       "path": "docs/research/limitations.md",
       "size": 895,
       "sha256": "84dc42dbeea7185cb7e113d02ad9fee74480a45d10501668f8ec8b6a672963df"
+    },
+    {
+      "path": "docs/research/load-duration-storage-audit-2026-08-18.md",
+      "size": 8423,
+      "sha256": "0550680f6900491d8bd3da70c13201db5e06e8cfb88476cbc7a268e9ea7592c3"
     },
     {
       "path": "docs/research/m2-regenerative-grid-model.md",
@@ -2590,6 +2600,11 @@
       "sha256": "95549abef0adf8d7740b06a0ff8a52edb1158b1e849d2eb9b1668eb9fe9aa64a"
     },
     {
+      "path": "scripts/apply_m2_v4_12_local_structured_coupling.py",
+      "size": 9630,
+      "sha256": "cd1d1918739c79e029cf28140b6c098b75488d246b68759110bda09468409f73"
+    },
+    {
       "path": "scripts/apply_m6_readme_links.py",
       "size": 386,
       "sha256": "dbe9ea40b515e9ee5e35314ed1e61a98ea933aa13cf18a41ee8a842290f62480"
@@ -2738,6 +2753,11 @@
       "path": "sim/m2_v4_12_local_structured_coupling.py",
       "size": 6320,
       "sha256": "05b43e7bd658b5e61e2fc9fca931e3b24b3a57226de11fb25202ce18e944efa4"
+    },
+    {
+      "path": "sim/m2_v4_13_load_duration_storage_bound.py",
+      "size": 3696,
+      "sha256": "fec42c171fbabbcdee18225ff124e3e65c67a63761c009729cf3e892fead6cc0"
     },
     {
       "path": "sim/m2_v4_1_pot_crystal.py",
@@ -3018,6 +3038,11 @@
       "path": "tests/test_m2_v4_12_local_structured_coupling.py",
       "size": 2840,
       "sha256": "37f616c417e042a8116bbd9985d83ca8f286ae93578c40c9b6efb104e1f7fcd1"
+    },
+    {
+      "path": "tests/test_m2_v4_13_load_duration_storage_bound.py",
+      "size": 1702,
+      "sha256": "6ae3ddf78775bcf497d074ee6e313b74be322e362601021cdbb72286cca507ed"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
