@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 564,
+  "file_count": 566,
   "files": [
     {
       "path": ".gitattributes",
@@ -2610,6 +2610,11 @@
       "sha256": "1ca04196c40758135d2e114a87e932a93ea74486fda928ea55fceba39acbd8cb"
     },
     {
+      "path": "sim/m2_v4_fully_floating.py",
+      "size": 10808,
+      "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
+    },
+    {
       "path": "testatika_collection/01_Stefan_Marinov_mit_Testatika/Marinov_mit_zwei_Testatika_Frigidaire_1989_Seitenansicht.jpg",
       "size": 341282,
       "sha256": "3db3d7940bd02b80a8c3b1f49aa0492d7967984a9c980bdb91b0b2f01178c7de"
@@ -2823,6 +2828,11 @@
       "path": "tests/test_m2_v3_distributed_rotor.py",
       "size": 2708,
       "sha256": "5ce491801db1f46b572515a1940bb4fca04cf47637246ddd4f728f7e808ec35c"
+    },
+    {
+      "path": "tests/test_m2_v4_fully_floating.py",
+      "size": 2135,
+      "sha256": "4eaeb42a1d36dede09d4b20a2a170cf9973647b1e4e17d616a3893fd5ad50a8a"
     }
   ]
 }
