@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="white"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#111}.title{font-size:30px;font-weight:700}.h{font-size:19px;font-weight:700}.t{font-size:15px}.s{font-size:12px}
+    .ev{fill:#eef7ee;stroke:#315b31;stroke-width:2}.lab{fill:#eef3fb;stroke:#31527a;stroke-width:2}.unk{fill:#fff4df;stroke:#8b5e14;stroke-width:2}.box{fill:#fafafa;stroke:#222;stroke-width:2}
+    .wire{fill:none;stroke:#222;stroke-width:3}.patch{fill:none;stroke:#31527a;stroke-width:3;stroke-dasharray:10 7}.open{fill:none;stroke:#8b5e14;stroke-width:3;stroke-dasharray:5 7}
+  </style>
+  <text x="40" y="48" class="title">M6 V2 — Hauser/Cathomen/Marinov-konforme Anschlussgrenze + Labor-Patch</text>
+  <text x="40" y="78" class="t">Grün = quellenstarke Baugruppe · Blau = definierte Laborfunktion · Orange = historisch nicht gelöste interne Verschaltung</text>
+
+  <rect x="480" y="110" width="640" height="410" rx="18" class="ev"/>
+  <text x="650" y="145" class="h">Zwei gegenläufige Ø500-mm-Scheiben</text>
+  <circle cx="720" cy="315" r="150" fill="none" stroke="#222" stroke-width="4"/>
+  <circle cx="880" cy="315" r="150" fill="none" stroke="#555" stroke-width="4" stroke-dasharray="8 5"/>
+  <text x="610" y="495" class="t">perforierte / magnetisierbare Lamellen — Materialzustand separat testen</text>
+
+  <g>
+    <rect x="500" y="190" width="36" height="70" class="ev"/><rect x="500" y="275" width="36" height="70" class="ev"/><rect x="500" y="360" width="36" height="70" class="ev"/>
+    <rect x="1064" y="190" width="36" height="70" class="ev"/><rect x="1064" y="275" width="36" height="70" class="ev"/><rect x="1064" y="360" width="36" height="70" class="ev"/>
+    <text x="490" y="455" class="s">A1…A8 FRONT / A9…A14 REAR individually patched</text>
+  </g>
+
+  <rect x="60" y="145" width="350" height="390" rx="18" class="ev"/>
+  <text x="155" y="180" class="h">Linker Zylinder</text>
+  <ellipse cx="235" cy="330" rx="125" ry="150" fill="none" stroke="#222" stroke-width="4"/>
+  <ellipse cx="235" cy="330" rx="90" ry="115" fill="none" stroke="#555" stroke-width="3"/>
+  <ellipse cx="235" cy="330" rx="57" ry="80" fill="none" stroke="#888" stroke-width="3"/>
+  <rect x="222" y="250" width="26" height="160" fill="#ddd" stroke="#222" stroke-width="2"/>
+  <path d="M205 270 q60 25 0 50 q60 25 0 50 q60 25 0 50" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="105" y="475" class="t">L-OG · L-MG · L-IG</text>
+  <text x="105" y="500" class="t">L-W1/W2 · L-MT · L-OUT</text>
+
+  <rect x="1190" y="145" width="350" height="390" rx="18" class="ev"/>
+  <text x="1280" y="180" class="h">Rechter Zylinder</text>
+  <ellipse cx="1365" cy="330" rx="125" ry="150" fill="none" stroke="#222" stroke-width="4"/>
+  <ellipse cx="1365" cy="330" rx="90" ry="115" fill="none" stroke="#555" stroke-width="3"/>
+  <ellipse cx="1365" cy="330" rx="57" ry="80" fill="none" stroke="#888" stroke-width="3"/>
+  <rect x="1352" y="250" width="26" height="160" fill="#ddd" stroke="#222" stroke-width="2"/>
+  <path d="M1335 270 q60 25 0 50 q60 25 0 50 q60 25 0 50" fill="none" stroke="#222" stroke-width="3"/>
+  <text x="1235" y="475" class="t">R-OG · R-MG · R-IG</text>
+  <text x="1235" y="500" class="t">R-W1/W2 · R-MT · R-OUT</text>
+
+  <rect x="70" y="600" width="400" height="275" rx="16" class="lab"/>
+  <text x="125" y="635" class="h">M6-W1: Drei-Gitter-Labortest</text>
+  <text x="105" y="675" class="t">phase-qualified A-nodes → D+ / D− via Rlim</text>
+  <text x="105" y="710" class="t">L/R outer grid → guarded field node</text>
+  <text x="105" y="745" class="t">middle + inner grids → separate sense nodes</text>
+  <text x="105" y="780" class="t">chosen SENSE-L/R → isolated HV rectifier → Cstore</text>
+  <text x="105" y="820" class="s">All external motor/bias energy measured; low stored-energy start.</text>
+  <path d="M410 470 C470 570 470 610 470 690" class="patch"/>
+
+  <rect x="545" y="590" width="500" height="300" rx="16" class="unk"/>
+  <text x="645" y="625" class="h">Cathomen-Zone B: obere, verweigerte Stufe</text>
+  <text x="585" y="665" class="t">TOP-IN+ / TOP-IN− · TOP-OUT+ / TOP-OUT− · AUX1/2</text>
+  <text x="585" y="705" class="t">Baseline = OPEN / BLACK BOX connector</text>
+  <text x="585" y="745" class="t">Cathomen: Energie „geht da rauf“, wird dort verstärkt/aufgewandelt;</text>
+  <text x="585" y="775" class="t">bei Nachfrage nennt er Magnete + weitere Dinge/Spulen, Details verweigert.</text>
+  <text x="585" y="815" class="t">Potter/Kelly modules only as separately labelled comparison boxes.</text>
+  <text x="585" y="850" class="s">Never call a surrogate “Methernitha secret”.</text>
+  <path d="M800 520 L800 590" class="open"/>
+
+  <rect x="1120" y="600" width="420" height="275" rx="16" class="lab"/>
+  <text x="1195" y="635" class="h">M6-W2/W3 Patchfamilien</text>
+  <text x="1155" y="675" class="t">W2: Hauser-compatible → selected horizontal stators</text>
+  <text x="1155" y="705" class="t">to cylinder field node; L-OUT/R-OUT measured.</text>
+  <text x="1155" y="745" class="t">W3: Rimstar replication → asymmetric middle/inner</text>
+  <text x="1155" y="775" class="t">sense/output grid selection with outer field grid.</text>
+  <text x="1155" y="820" class="s">One uncertain module at a time; every patch gets Config-ID.</text>
+  <path d="M1190 500 C1140 560 1140 590 1160 620" class="patch"/>
+
+  <rect x="520" y="915" width="560" height="45" rx="10" class="box"/>
+  <text x="560" y="944" class="t">SYNC-PULSE = isolated laboratory sensor only; Cathomen confirms impulse/frequency control need, not hidden original controller.</text>
+</svg>

@@ -100,3 +100,27 @@ Wert, Dielektrikum und historische interne Topologie bleiben unbekannt und dürf
 - Hohlwelle und Innenwelle müssen ohne gegenseitiges Schleifen frei laufen; axialer Abstand der beiden Rotorebenen wird mit Metall-Distanzringen eingestellt.
 - Für die 500-mm-Rotoren sind alle tragenden Lager-, Wellen- und Hubteile echte Metall-/G10-Fertigungsteile; 3D-Druck bleibt auf Lehren, Clips, Zentrierringe und Modulhalter beschränkt.
 - Kein Riemen wird als starrer CAD-Stab ausgegeben; die Assembly zeigt nur Riemenscheiben und Schnittstellen für echte flexible PU-Rundriemen.
+
+## Verbindlicher elektrischer Begleitplan
+
+Die M6-V2-Baugruppe wird nicht nach einem beliebigen im Internet kursierenden Vollschaltbild hart verdrahtet. Maßgeblich sind:
+
+- [`../electrical/M6_V2_EVIDENCE_WIRING.md`](../electrical/M6_V2_EVIDENCE_WIRING.md)
+- [`../electrical/diagrams/M6_V2_EVIDENCE_WIRING.svg`](../electrical/diagrams/M6_V2_EVIDENCE_WIRING.svg)
+- [`../electrical/WIRING_VARIANTS.tsv`](../electrical/WIRING_VARIANTS.tsv)
+- [`../electrical/LAMELLA_TEST_MATRIX.tsv`](../electrical/LAMELLA_TEST_MATRIX.tsv)
+- [`wiring-and-lamella-audit-2026-08-17.md`](wiring-and-lamella-audit-2026-08-17.md)
+
+`M6-W0` hält alle ungesicherten Knoten offen. `M6-W1` ist der erste konventionell funktionsfähige Drei-Gitter-/Variable-Capacitance-Test. `M6-W2` bildet die Hauser-Anschlussfamilie als Patchkonfiguration ab. `M6-W3` ist eine separat gekennzeichnete Rimstar-Reproduktion. Die von Cathomen nicht erklärte obere Stufe bleibt als `M6-W5` BLACK-BOX-Schnittstelle offen.
+
+## Lamellen sind jetzt ein kontrollierter Versuchsparameter
+
+Die Video-/Marinov-/Hauser-Linie rechtfertigt **nicht**, irgendein einzelnes Fe-Ni-Produkt als Originalmaterial festzuschreiben. Stattdessen wird für die große Maschine die Material-/Geometrie-Matrix aus `LAMELLA_TEST_MATRIX.tsv` verwendet:
+
+- chromstahlartige magnetische Kontrolle;
+- Fe-Ni-Familien als Zusammensetzungs-Sweep;
+- jeweils entmagnetisiert vs schwach magnetisiert;
+- identisches Material als Vollfolie, Lochblech und Drahtgitter;
+- dokumentierter Oberflächen-/Beschichtungszustand.
+
+So wird getrennt geprüft, ob der beobachtete Effekt aus Legierung, Magnetisierung, Perforation, Oberflächenzustand oder deren Kombination stammt.

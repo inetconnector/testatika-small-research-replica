@@ -1,0 +1,17 @@
+id	family	material_or_geometry	magnetization	perforation_surface	why_test	evidence_status	measure
+L00	CONTROL	aluminium	NONE	perforated; same open area as test coupon	nonmagnetic conductive geometry control	LAB-CONTROL	C(theta); pickup charge; corona onset; torque; leakage
+L01	CONTROL	copper	NONE	perforated; same open area	conductivity control independent of ferromagnetism	LAB-CONTROL	C(theta); pickup charge; corona onset; torque; leakage
+L02	HAUSER-LIKE	ferritic chromium stainless / magnetic chrome-steel-like coupon	DEMAG	perforated	approximates Hauser chrome-steel wording without asserting exact grade	P1-LEAD	C(theta); pickup charge; B-remanence; corona onset; torque
+L03	HAUSER-LIKE	same coupon as L02	WEAK	perforated	Hauser says a little magnetized	P1-LEAD	C(theta); pickup charge; B-remanence; corona onset; torque
+L04	MARINOV-LIKE	Fe-Ni low-Ni test coupon	DEMAG	perforated	brackets Marinov Fe-Ni statement without guessing composition	P1-LEAD	C(theta); pickup charge; permeability proxy; torque
+L05	MARINOV-LIKE	same Fe-Ni low-Ni coupon	WEAK	perforated	separates alloy from weak remanent magnetization	P1-LEAD	C(theta); pickup charge; B-remanence; torque
+L06	MARINOV-LIKE	Fe-Ni mid-range test coupon	DEMAG	perforated	composition sweep; exact historical ratio unknown	LAB-MATERIAL-SWEEP	C(theta); pickup charge; permeability proxy; torque
+L07	MARINOV-LIKE	same Fe-Ni mid-range coupon	WEAK	perforated	composition x magnetization interaction	LAB-MATERIAL-SWEEP	C(theta); pickup charge; B-remanence; torque
+L08	MARINOV-LIKE	high-Ni soft-magnetic Fe-Ni coupon	DEMAG	perforated	tests high-permeability end of Fe-Ni family; not claimed original	LAB-MATERIAL-SWEEP	C(theta); pickup charge; permeability proxy; torque
+L09	MARINOV-LIKE	same high-Ni coupon	WEAK	perforated	tests weakly magnetized high-permeability state	LAB-MATERIAL-SWEEP	C(theta); pickup charge; B-remanence; torque
+G00	GEOMETRY	same material as best Lxx	matched state	SOLID FOIL	Holzherr/Baumann mesh-vs-foil negative control	P1-REPORTED-CONTROL	C(theta); pickup charge; corona onset; torque
+G01	GEOMETRY	same material as best Lxx	matched state	ROUND PERFORATIONS	perforated-sheet geometry	P1-LEAD	C(theta); pickup charge; local field/corona; torque
+G02	GEOMETRY	same material as best Lxx	matched state	SQUARE PERFORATIONS	Principle Experiment mentions square-hole aluminium on moving arm	P1-LEAD	C(theta); pickup charge; local field/corona; torque
+G03	GEOMETRY	same material as best Lxx	matched state	WIRE MESH	Principle Experiment brass wire-mesh family	P1-LEAD	C(theta); pickup charge; local field/corona; torque
+S00	SURFACE	best material/geometry	matched state	clean bare surface	baseline surface state	LAB-CONTROL	leakage; corona onset; pickup charge; microscopy/photo
+S01	SURFACE	same as S00	matched state	electrically characterized thin protective coating	Hauser reports material/coating protecting against corona oxidation; chemistry unknown	P1-LEAD	leakage; corona onset; pickup charge; coating resistance
