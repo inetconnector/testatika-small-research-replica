@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 619,
+  "file_count": 621,
   "files": [
     {
       "path": ".gitattributes",
@@ -48,6 +48,11 @@
       "path": ".github/workflows/apply-m2-v4-12-local-structured-coupling.yml",
       "size": 2466,
       "sha256": "e6504c3c494ef0f1b26a46635a658b8316c9cfd92c65eb1e95a8c618b4defa8e"
+    },
+    {
+      "path": ".github/workflows/apply-m2-v4-13-load-duration-storage.yml",
+      "size": 2558,
+      "sha256": "fefb998b64d99b121dc3917a0090f2f82bb16b81c2221785a783ebffd4ba5a02"
     },
     {
       "path": ".github/workflows/apply-repository-hardening.yml",
@@ -2608,6 +2613,11 @@
       "path": "scripts/apply_m2_v4_12_local_structured_coupling.py",
       "size": 9630,
       "sha256": "cd1d1918739c79e029cf28140b6c098b75488d246b68759110bda09468409f73"
+    },
+    {
+      "path": "scripts/apply_m2_v4_13_load_duration_storage.py",
+      "size": 10844,
+      "sha256": "c6090d5fdddc4efad527089816144114674d216385672d3e1cb3ac154f2b2b1b"
     },
     {
       "path": "scripts/apply_m6_readme_links.py",
