@@ -1,0 +1,72 @@
+name: Integrate Round 11 environmental source audit
+
+on:
+  push:
+    branches:
+      - agent/m2-v4-fully-floating
+    paths:
+      - 'scripts/apply_internet_source_audit_round11.py'
+      - 'docs/research/internet-source-audit-round11-2026-08-18.md'
+      - 'docs/research/internet-source-ledger-round11.tsv'
+      - 'docs/research/m2-v4-11-environmental-port-survey.md'
+      - 'sim/m2_v4_11_environmental_port_survey.py'
+      - 'tests/test_m2_v4_11_environmental_port_survey.py'
+      - '.github/workflows/apply-internet-source-audit-round11.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-writers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Synchronize to latest branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin "$GITHUB_REF_NAME"
+          git checkout "$GITHUB_REF_NAME"
+          git reset --hard "origin/$GITHUB_REF_NAME"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply idempotent Round 11 integration
+        run: python scripts/apply_internet_source_audit_round11.py
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run V4.11 regression tests
+        run: python -m pytest tests/test_m2_v4_11_environmental_port_survey.py -q
+      - name: Validate source-owned repository structure
+        run: python scripts/validate_assets.py
+      - name: Refresh and verify integrity manifest
+        run: |
+          python scripts/generate_manifest.py
+          python scripts/check_manifest.py
+      - name: Commit integrated Round 11 state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            docs/research/source-basis.md \
+            docs/REPLICATION_STATUS.md \
+            docs/M6_REPLICATION_STATUS.md \
+            docs/research/experiment-plan.md \
+            docs/research/evidence_matrix.tsv \
+            STATE.md addon.md CHANGELOG.md \
+            MANIFEST.json MANIFEST_SHA256.txt
+          if git diff --cached --quiet; then
+            echo 'Round 11 already integrated and current.'
+          else
+            git commit -m 'research: integrate round 11 environmental bounds'
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
