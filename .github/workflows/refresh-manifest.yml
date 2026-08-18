@@ -1,5 +1,6 @@
 name: Refresh repository manifest
 
+# Canonical integrity-maintenance workflow after the 2026-08-19 CI cleanup.
 on:
   push:
     branches:
