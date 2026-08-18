@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 582,
+  "file_count": 584,
   "files": [
     {
       "path": ".gitattributes",
@@ -2665,6 +2665,11 @@
       "sha256": "0485ce95e1df833a9a52621c76b5802cc11b92108901c5ac5473ef66803fb0d3"
     },
     {
+      "path": "sim/m2_v4_6_radioionization_gate.py",
+      "size": 3920,
+      "sha256": "4b0f7442b9f16956e6ff2e56f31906d5e867d999df1881c8285d8e0be1336f77"
+    },
+    {
       "path": "sim/m2_v4_fully_floating.py",
       "size": 10808,
       "sha256": "b11e72fd306520c836377bfa3629e91ef2dc0ecb72689caec879cb654b2e3030"
@@ -2908,6 +2913,11 @@
       "path": "tests/test_m2_v4_5_two_environment_ports.py",
       "size": 2465,
       "sha256": "83595403f426eb73744e034eb4bc49fe4806bc50784592388981294afb31ac3e"
+    },
+    {
+      "path": "tests/test_m2_v4_6_radioionization_gate.py",
+      "size": 1692,
+      "sha256": "6174746dbe1b5491e15253bdd2df8fd8d844bb5b37f888748a82a33e59ed57bb"
     },
     {
       "path": "tests/test_m2_v4_fully_floating.py",
