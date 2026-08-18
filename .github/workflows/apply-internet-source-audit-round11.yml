@@ -1,5 +1,6 @@
 name: Integrate Round 11 environmental source audit
 
+# Re-trigger marker: canonical Round 11 integration follows source-only commits.
 on:
   push:
     branches:
