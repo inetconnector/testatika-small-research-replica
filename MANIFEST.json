@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 593,
+  "file_count": 594,
   "files": [
     {
       "path": ".gitattributes",
@@ -608,6 +608,11 @@
       "path": "docs/research/m2-v4-8-workpoint-window.md",
       "size": 6326,
       "sha256": "59524e059a668cbf0599f1595ab8e7bf7d9e46bf45c47e8b2f2fc4f9791b9ea3"
+    },
+    {
+      "path": "docs/research/m2-v4-9-gate-efficiency-sensitivity.md",
+      "size": 5236,
+      "sha256": "380813fec52ca24c61c0a7969e30aa1bfc899c47361b2a926ddb02e9311271e5"
     },
     {
       "path": "docs/research/m2-v4-fully-floating.md",
