@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 640,
+  "file_count": 641,
   "files": [
     {
       "path": ".gitattributes",
@@ -3158,6 +3158,11 @@
       "path": "tests/test_m2_v4_1_pot_crystal.py",
       "size": 3217,
       "sha256": "5d6a789fc8c3e67431721721709dfc5300050346bbb8ac5eb0a8011ae46203c3"
+    },
+    {
+      "path": "tests/test_m2_v4_20_local_infrastructure_bound.py",
+      "size": 3176,
+      "sha256": "e835a7a4cda177e103031343ec401d903abb2c572eae6b660edf92b67336ad9d"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
