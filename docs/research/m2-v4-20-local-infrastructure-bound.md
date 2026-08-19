@@ -90,7 +90,7 @@ Therefore a rotor cannot turn weak 50-Hz mains stray capacitance into a 100-W so
 
 At 50 Hz, the reactance of `150 pF` is about
 
-`21.2 Gohm`.
+`21.2 Mohm`.
 
 Losslessly resonating `150 pF` at 50 Hz would require
 
