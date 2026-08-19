@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1342,
-      "sha256": "6897f70e4362be2565b4ff1d2700fe88b45a75c134e414513ca3aceea448132a"
+      "size": 1452,
+      "sha256": "8a4becffec70dabebd2895be40e8b6cd06d06b4e6a39798b90ab8aaa23611ab6"
     },
     {
       "path": ".gitignore",
@@ -2596,8 +2596,8 @@
     },
     {
       "path": "requirements-dev.txt",
-      "size": 27,
-      "sha256": "4c599e4595626c3df91092fdaf06db7c575392bf351a2fc5339d8c8118fdc75b"
+      "size": 39,
+      "sha256": "50af8f6fbedc84a080a6f74c24e9f93c15891c8dac091e97f758a8bd1bbb30fd"
     },
     {
       "path": "scripts/apply_buildkit_readme_links.py",
