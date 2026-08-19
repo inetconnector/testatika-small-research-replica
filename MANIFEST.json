@@ -3082,7 +3082,7 @@
     {
       "path": "tests/test_m2_v4_15_resonant_effective_aperture.py",
       "size": 2819,
-      "sha256": "4bb21fa1c272991d68bcbb1edcae1590f6d15b5fb3333c9968387e6553090d4d"
+      "sha256": "917fd9b8304b9b5dce2d427d44e2fdad0974eafa64bd451a28cb658431665377"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
