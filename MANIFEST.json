@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 621,
+  "file_count": 627,
   "files": [
     {
       "path": ".gitattributes",
@@ -653,6 +653,16 @@
       "path": "docs/research/m2-v4-12-local-structured-coupling.md",
       "size": 10654,
       "sha256": "72526fc21a1f5be68255ae16eb2f519b916f1eee1308a30755185af2fc1c2d32"
+    },
+    {
+      "path": "docs/research/m2-v4-14-dynamo-port.md",
+      "size": 19627,
+      "sha256": "171f1149b45d61a3581b574c95b4b6e842ca7f057a0d443c62b41dba5580158e"
+    },
+    {
+      "path": "docs/research/m2-v4-15-resonant-effective-aperture.md",
+      "size": 14020,
+      "sha256": "9f689aaed9917a7ea1f903c8f1d8badb8ef46e9a56b3a7b6086886b2f4ce87a7"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
@@ -2731,8 +2741,8 @@
     },
     {
       "path": "scripts/validate_assets.py",
-      "size": 8473,
-      "sha256": "241a82b0edb0d7ad81f4f09cdfbb55354251901419fd4486602e3071689752f3"
+      "size": 8414,
+      "sha256": "342f54da847696248c0c78d7bd28f0643b96bad5d170b144f621cbc23759cb0c"
     },
     {
       "path": "sim/goldie_self_excited_control.py",
@@ -2773,6 +2783,16 @@
       "path": "sim/m2_v4_13_load_duration_storage_bound.py",
       "size": 3696,
       "sha256": "fec42c171fbabbcdee18225ff124e3e65c67a63761c009729cf3e892fead6cc0"
+    },
+    {
+      "path": "sim/m2_v4_14_dynamo_port.py",
+      "size": 10553,
+      "sha256": "79fc7a088f9718f4740e2518b3d1ab9e10078748ce3075147e168ca409f6de67"
+    },
+    {
+      "path": "sim/m2_v4_15_resonant_effective_aperture.py",
+      "size": 6869,
+      "sha256": "233549d7878b3ea85d8e865385891390fdfaf102f9dcc4c39004b77c363eb09a"
     },
     {
       "path": "sim/m2_v4_1_pot_crystal.py",
@@ -3058,6 +3078,16 @@
       "path": "tests/test_m2_v4_13_load_duration_storage_bound.py",
       "size": 1702,
       "sha256": "6ae3ddf78775bcf497d074ee6e313b74be322e362601021cdbb72286cca507ed"
+    },
+    {
+      "path": "tests/test_m2_v4_14_dynamo_port.py",
+      "size": 3682,
+      "sha256": "88b9b8d9ac853f21dda6ea8e215802bfa61bc1ebdb0594dc5614f11eeb377c3e"
+    },
+    {
+      "path": "tests/test_m2_v4_15_resonant_effective_aperture.py",
+      "size": 2819,
+      "sha256": "917fd9b8304b9b5dce2d427d44e2fdad0974eafa64bd451a28cb658431665377"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
