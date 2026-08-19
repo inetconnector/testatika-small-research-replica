@@ -174,9 +174,9 @@ def main() -> None:
     print(f"return R allowed for 1 mA with <=100 kV drop: {max_return_resistance_ohm(100_000.0, 1e-3):.6g} ohm")
 
     q_event = charge_per_event_c(1e-3, 24.0)
-    c_eq = equivalent_capacitance_for_charge_f(q_event, 250e3)
+    c_eq = equivalent_capacitance_for_charge_f(q_event, 100e3)
     print(f"1 mA at 24 events/s -> charge per event: {q_event:.6g} C")
-    print(f"same charge at 250 kV corresponds to C=Q/V: {c_eq:.6g} F")
+    print(f"same 100-kV target charge packet corresponds to C=Q/V: {c_eq:.6g} F")
 
 
 if __name__ == "__main__":
