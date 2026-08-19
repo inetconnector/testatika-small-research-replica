@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 639,
+  "file_count": 642,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1771,
-      "sha256": "023986bf1294a4c7722fc26d07dbd16c0ec47672f74b8b31a457d4bdc66f921d"
+      "size": 1831,
+      "sha256": "1c62dae9cda55db22d39b1b3490e4b3a258161d5bb3d9f599518fe9020557a56"
     },
     {
       "path": ".gitignore",
@@ -688,6 +688,11 @@
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
       "size": 7860,
       "sha256": "0e37a50c2069fc43b8b13e1a3c4b54ca3b99d221af1786da91c7338ba13fd1fa"
+    },
+    {
+      "path": "docs/research/m2-v4-20-local-infrastructure-bound.md",
+      "size": 8774,
+      "sha256": "3f62e008e9ac71cbeea31a2da89ed440980ae01f0e7134260c509b47e46b5c45"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
@@ -2840,6 +2845,11 @@
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
     },
     {
+      "path": "sim/m2_v4_20_local_infrastructure_bound.py",
+      "size": 5250,
+      "sha256": "0b6a16451597aeb5ccb26e77c52c38190c68aece3a9718dfa780d041a54b681e"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3153,6 +3163,11 @@
       "path": "tests/test_m2_v4_1_pot_crystal.py",
       "size": 3217,
       "sha256": "5d6a789fc8c3e67431721721709dfc5300050346bbb8ac5eb0a8011ae46203c3"
+    },
+    {
+      "path": "tests/test_m2_v4_20_local_infrastructure_bound.py",
+      "size": 3175,
+      "sha256": "605b5e29b031920f7b6296751003b3c2b757399057a69be8862904ec4fb6fa11"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
