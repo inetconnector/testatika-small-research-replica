@@ -3141,8 +3141,8 @@
     },
     {
       "path": "tests/test_m2_v4_19_rear_plate_human_return.py",
-      "size": 3683,
-      "sha256": "7606ffd1ad3fcfb3b7dca9517d815aa544067a5595f658ee675c25df77f082d3"
+      "size": 3684,
+      "sha256": "1d345c0d949f625f15e68700a0e10dc304cbb361e70f6503e1875c1b69f02d80"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
