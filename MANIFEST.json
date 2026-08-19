@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 641,
+  "file_count": 642,
   "files": [
     {
       "path": ".gitattributes",
@@ -688,6 +688,11 @@
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
       "size": 7860,
       "sha256": "0e37a50c2069fc43b8b13e1a3c4b54ca3b99d221af1786da91c7338ba13fd1fa"
+    },
+    {
+      "path": "docs/research/m2-v4-20-local-infrastructure-bound.md",
+      "size": 8774,
+      "sha256": "29d268f7e3e6cce72b05348668574c7e23009d340d410de8468c0d9532613c58"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
