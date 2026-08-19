@@ -76,7 +76,7 @@ def test_100mohm_return_with_11pf_body_has_millisecond_rc_scale():
 def test_one_ma_at_24_events_requires_41_7_microcoulomb_per_event():
     q = charge_per_event_c(1e-3, 24.0)
     assert q == pytest.approx(4.1666666667e-5)
-    assert equivalent_capacitance_for_charge_f(q, 250e3) == pytest.approx(1.6666666667e-10)
+    assert equivalent_capacitance_for_charge_f(q, 100e3) == pytest.approx(4.1666666667e-10)
 
 
 def test_100w_100kv_target_is_one_ma():
