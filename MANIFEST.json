@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 668,
+  "file_count": 666,
   "files": [
     {
       "path": ".gitattributes",
@@ -36,13 +36,8 @@
     },
     {
       "path": ".github/workflows/materialize-build-kits.yml",
-      "size": 5592,
-      "sha256": "82bb0215c61467e013ad5a9e7e2dff7156bcfb31f14aab2fd343d7e9d3517bc2"
-    },
-    {
-      "path": ".github/workflows/materialize-netjournal-proposal.yml",
-      "size": 3255,
-      "sha256": "ae35535ef47f27a98dac0ea9c2c7db2f8127485aca0d32e0bdf3144917a74681"
+      "size": 5561,
+      "sha256": "b76411d083701047e165fef1fe328203dd9ac4744de894ed8b979f4c49b2cf2e"
     },
     {
       "path": ".github/workflows/preservation-guard.yml",
@@ -60,14 +55,9 @@
       "sha256": "5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067"
     },
     {
-      "path": ".github/workflows/validate-evidence-wiring.yml",
-      "size": 1053,
-      "sha256": "1ef9294a76152654619cc3144a4bfc6015f3a1b2b31c573af25eba4979798b8b"
-    },
-    {
       "path": ".github/workflows/validate.yml",
-      "size": 1945,
-      "sha256": "f570c4af868334b5a58afdc8eae088779ecde89f346d1c81c4606f8b14f6e336"
+      "size": 2245,
+      "sha256": "0cacd5e5b5cb2cf46e8d1fbddd67800dcda05eabf43e920537f86d5f771af8e6"
     },
     {
       "path": ".gitignore",
