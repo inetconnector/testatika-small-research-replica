@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 638,
+  "file_count": 639,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1714,
-      "sha256": "8257b13dbe7dff40e1977d32160f83988e80ca508d9583b435c66123ec826bdc"
+      "size": 1771,
+      "sha256": "023986bf1294a4c7722fc26d07dbd16c0ec47672f74b8b31a457d4bdc66f921d"
     },
     {
       "path": ".gitignore",
@@ -678,6 +678,11 @@
       "path": "docs/research/m2-v4-18-two-port-return.md",
       "size": 16635,
       "sha256": "d97387e9d89ad611cbc0cd56fc00fb3ac78e6ac6ad8040cc6e0bb1d849376a0c"
+    },
+    {
+      "path": "docs/research/m2-v4-19-rear-plate-human-return.md",
+      "size": 9781,
+      "sha256": "022a02f898d2fc48968dae889ad5733109d1f92fa21cb09a358b8ae795a3793a"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
