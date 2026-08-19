@@ -2741,8 +2741,8 @@
     },
     {
       "path": "scripts/validate_assets.py",
-      "size": 8473,
-      "sha256": "241a82b0edb0d7ad81f4f09cdfbb55354251901419fd4486602e3071689752f3"
+      "size": 8414,
+      "sha256": "342f54da847696248c0c78d7bd28f0643b96bad5d170b144f621cbc23759cb0c"
     },
     {
       "path": "sim/goldie_self_excited_control.py",
