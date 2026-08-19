@@ -181,6 +181,7 @@ ee8bb5e6e790773f20bdc393781d135d566c6508e45f32d4465618acf7bb1131  docs/research/
 6d38bd6dda2ff603aacddeaaea6c15d925cd7e2c4227683c9164b13e8c85c982  docs/research/provenance-schema.yaml
 deaedb6e84e44cbb37b7cb5d172096df70ab52d9fa03a6e49fe1db15a965e7e8  docs/research/r4-grid-vs-foil.md
 c82f9301010d125a8a3f91eb651cde8b6edf5807d66122a85e45c12e0f75ef77  docs/research/replica-configuration-matrix.md
+e5d8ab7dfb66db504314c6054fe4f9eb57defc31faa7dd8f4fae74bd4de059e9  docs/research/research-branch-integration-audit-2026-08-19.md
 75bbef8c2009625b3e0d292ccdc0e3ef99c2509b20e01a689b030ce00b36cadc  docs/research/rotor-wire-routing.md
 83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8  docs/research/safety.md
 024ee9226052f1d414510a86e986b11e237914bcd9602011603f9ddfc6974343  docs/research/schneider-energie-aus-dem-all-testatika-audit-2026-08-19.md

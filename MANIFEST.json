@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 667,
+  "file_count": 668,
   "files": [
     {
       "path": ".gitattributes",
@@ -918,6 +918,11 @@
       "path": "docs/research/replica-configuration-matrix.md",
       "size": 14768,
       "sha256": "c82f9301010d125a8a3f91eb651cde8b6edf5807d66122a85e45c12e0f75ef77"
+    },
+    {
+      "path": "docs/research/research-branch-integration-audit-2026-08-19.md",
+      "size": 3848,
+      "sha256": "e5d8ab7dfb66db504314c6054fe4f9eb57defc31faa7dd8f4fae74bd4de059e9"
     },
     {
       "path": "docs/research/rotor-wire-routing.md",
