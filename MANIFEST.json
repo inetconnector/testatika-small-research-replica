@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 652,
+  "file_count": 654,
   "files": [
     {
       "path": ".gitattributes",
@@ -708,6 +708,11 @@
       "path": "docs/research/m2-v4-23-non-electrical-source-bounds.md",
       "size": 10015,
       "sha256": "cf40edf4083e4ff5b3e4a6301c0b3d795cc9c84360da2a046c366641b415f675"
+    },
+    {
+      "path": "docs/research/m2-v4-24-earth-rotation-coupling-bound.md",
+      "size": 10217,
+      "sha256": "a1ae0c27f84bfc5f96b11832461d259f867adbd803a0a59e074c77fb97c686c9"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
@@ -3218,6 +3223,11 @@
       "path": "tests/test_m2_v4_23_non_electrical_source_bounds.py",
       "size": 3303,
       "sha256": "a82490688137ee01b7e7ad14f83c5f269c1049a49d3699c7f762dd07d96276a9"
+    },
+    {
+      "path": "tests/test_m2_v4_24_earth_rotation_coupling_bound.py",
+      "size": 2835,
+      "sha256": "1c6a5ba8b7c17a2311434d5d1f199633305bf93c2975ad64cd6e3dde67b561b4"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
