@@ -10,7 +10,7 @@ ceeb08780d10868d44c26f0744b7630e7800ced0caa356e74915e994c3af1f4f  .github/workfl
 d165e68bf5a59ac37455fbab9dc72c2d3738d9cbf573ab925943179d8eebf1ed  .github/workflows/refresh-manifest.yml
 5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067  .github/workflows/snapshot-main.yml
 1ef9294a76152654619cc3144a4bfc6015f3a1b2b31c573af25eba4979798b8b  .github/workflows/validate-evidence-wiring.yml
-1c62dae9cda55db22d39b1b3490e4b3a258161d5bb3d9f599518fe9020557a56  .github/workflows/validate.yml
+78141389a131dcb14667ab64b44e0ca2d662a48157fd03a118dc389b3b28a011  .github/workflows/validate.yml
 9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781  .gitignore
 d0e28616fcb24c47dceb1f9a3491a2937cc242c7e3b9cbf1503f2a31ebf9105b  ADDON.md
 e9f959a706a23bd72aeca71f1e20619d06059e10450d903b2ea07b1553cee13c  AGENTS.md
@@ -136,6 +136,7 @@ d97387e9d89ad611cbc0cd56fc00fb3ac78e6ac6ad8040cc6e0bb1d849376a0c  docs/research/
 022a02f898d2fc48968dae889ad5733109d1f92fa21cb09a358b8ae795a3793a  docs/research/m2-v4-19-rear-plate-human-return.md
 0e37a50c2069fc43b8b13e1a3c4b54ca3b99d221af1786da91c7338ba13fd1fa  docs/research/m2-v4-2-multiphase-corona.md
 3f62e008e9ac71cbeea31a2da89ed440980ae01f0e7134260c509b47e46b5c45  docs/research/m2-v4-20-local-infrastructure-bound.md
+4ad977fddb8ab67e1ca738fd523e06c231b74ffb3203819bf020c53c54e68dec  docs/research/m2-v4-21-real-power-field-bound.md
 eb2bf9e4331b5d71da5015d547d4d762fc739084d7dc0496da48879eec71cd2a  docs/research/m2-v4-3-external-source-bounds.md
 39ab1e6d6eb7654aea263d71c9d1359c3e5dd25ceac4393c48510ae142aec0dc  docs/research/m2-v4-4-floating-return-path.md
 ecd45bc4510fd2453ef1a7436b797ac9fbb9179f258397ff1d92b6591f1a9d0f  docs/research/m2-v4-5-two-environment-ports.md

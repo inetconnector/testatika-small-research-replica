@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 644,
+  "file_count": 645,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1831,
-      "sha256": "1c62dae9cda55db22d39b1b3490e4b3a258161d5bb3d9f599518fe9020557a56"
+      "size": 1887,
+      "sha256": "78141389a131dcb14667ab64b44e0ca2d662a48157fd03a118dc389b3b28a011"
     },
     {
       "path": ".gitignore",
@@ -693,6 +693,11 @@
       "path": "docs/research/m2-v4-20-local-infrastructure-bound.md",
       "size": 8774,
       "sha256": "3f62e008e9ac71cbeea31a2da89ed440980ae01f0e7134260c509b47e46b5c45"
+    },
+    {
+      "path": "docs/research/m2-v4-21-real-power-field-bound.md",
+      "size": 8366,
+      "sha256": "4ad977fddb8ab67e1ca738fd523e06c231b74ffb3203819bf020c53c54e68dec"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
