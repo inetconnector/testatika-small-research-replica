@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 659,
+  "file_count": 660,
   "files": [
     {
       "path": ".gitattributes",
@@ -848,6 +848,11 @@
       "path": "docs/research/pre2000-source-chronology-2026-08-19.md",
       "size": 24778,
       "sha256": "49b20b550bba15776a7416e49e59c96513897924d20046f8456332e98d3716fd"
+    },
+    {
+      "path": "docs/research/pre2000-source-excavation-round2-2026-08-19.md",
+      "size": 12563,
+      "sha256": "e67b7baac8f57bc860db465bf71e60af5fea6b8cbb48d9b7498a530a3952f7ba"
     },
     {
       "path": "docs/research/pre2000-source-ledger.tsv",
