@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 666,
+  "file_count": 667,
   "files": [
     {
       "path": ".gitattributes",
@@ -873,6 +873,11 @@
       "path": "docs/research/pre2000-source-ledger-round3.tsv",
       "size": 5262,
       "sha256": "89d1d4212dff01931e3bc5c4909ea4ff0fe351e82965e17d7861a5e57d9c7a5b"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round4-schneider-2026-08-19.tsv",
+      "size": 5902,
+      "sha256": "31b24a8892447b79a69892c2a9ddff15f089fcae018710bd60ac8a96e13b8bff"
     },
     {
       "path": "docs/research/pre2000-source-ledger-round4.tsv",
