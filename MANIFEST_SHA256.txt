@@ -168,6 +168,7 @@ e5af239f97f8adff1848bd293f3581e98075250a8f06f5f63806eb459b1c0367  docs/research/
 0cf53585a4994fa6f709883d698b102b28d43354244de523fff16b5eec4102bb  docs/research/pots.md
 49b20b550bba15776a7416e49e59c96513897924d20046f8456332e98d3716fd  docs/research/pre2000-source-chronology-2026-08-19.md
 e67b7baac8f57bc860db465bf71e60af5fea6b8cbb48d9b7498a530a3952f7ba  docs/research/pre2000-source-excavation-round2-2026-08-19.md
+baa0490b923a2feaf3f8f68de022f5e9f0dd75a2efc1688b86d5a4347138fab4  docs/research/pre2000-source-ledger-round2.tsv
 17b906cd7b7713904bfb76c429a42ee84a5e7823d0d693092f6d691614d95b11  docs/research/pre2000-source-ledger.tsv
 6a9f822bcb2fe563985a8d2dced14517efaa460143d5a2faae4d205196ef6ccc  docs/research/primary-gap-search-2026-08-16.md
 cb12cbf44a7bd6fc6e1a8c73f1672ce1d7fba1298115bea51c44042fc1148a9d  docs/research/print-settings.md
