@@ -1,7 +1,9 @@
 # Stefan Hartmann und Overunity.com — Eigentümerschaft, Betreiberrolle und Quellenprovenienz
 
-**Stand:** 2026-08-16  
-**Status:** verifizierte Provenienzergänzung zum Testatika-Quellenkorpus
+**Stand:** 2026-08-19  
+**Status:** verifizierte Provenienzergänzung mit additiver Korrektur zur Cathomen-Intervieweridentität
+
+> **Korrektur 2026-08-19:** Die frühere Projektannahme, der Hauptfragende `D` im Cathomen-Amateurvideo sei wahrscheinlich Stefan Hartmann, ist nicht mehr der bevorzugte Provenienzstand. Eingebettete Metadaten von `testa01.ram` nennen `Dieter Dienst speaking with Luzi Cathomen`, und `testa02.ram` nennt Dieter Dienst als Autor. Deshalb bleibt die genaue On-Camera-Zuordnung **CONFLICT / unresolved**; Hartmann darf nicht mehr allein aus seinem Methernitha-Besuch oder seiner späteren Medienrolle als `D` identifiziert werden. Siehe `hartmann-visit-film-provenance-update-2026-08-19.md` und `video-frame-audit-2026-08-16.md`.
 
 ---
 
@@ -39,7 +41,7 @@ Overunity.com war über viele Jahre eine der zentralen öffentlichen Plattformen
 
 Da Hartmann Eigentümer/Administrator der Plattform war und zugleich persönlich seit mindestens den frühen 1990er Jahren an Testatika recherchierte, besitzt das Overunity.com-Material eine besondere Provenienzstruktur:
 
-> **Hartmann war gleichzeitig Quellenverteiler, Plattformbetreiber, Interviewer/Rechercheur und eigener Theoretiker.**
+> **Hartmann war gleichzeitig Quellenverteiler, Plattformbetreiber, persönlicher Methernitha-Besucher/Rechercheur, Übersetzer und eigener Theoretiker.**
 
 Diese Rollen müssen für jeden einzelnen Beitrag getrennt werden.
 
@@ -75,15 +77,27 @@ Deshalb muss künftig bei Overunity.com-Material immer dokumentiert werden:
 
 ### HARTMANN-R1 — direkter Besucher / Rechercheur
 
-Hartmann schrieb bereits Anfang der 1990er Jahre, Methernitha persönlich besucht zu haben.
+Ein erhaltener Spiegel eines von Hartmann selbst verfassten Textes aus Januar/Februar 1991 enthält seine ausdrückliche Aussage, dass er Methernitha **persönlich besucht** habe.
 
-### HARTMANN-R2 — Interviewer / Fragender
+Quelle:
+https://newtotse.com/oldtotse/en/fringe/free_energy/statika1.html
 
-Das Projekt identifiziert ihn als Hauptfragenden des erhaltenen Cathomen-Amateurvideos. Die öffentlichen Transkriptspiegel nennen den Fragenden allerdings nur `D`; ein separat erhaltener namentlicher Primärvermerk des Originalvideos wird weiterhin gesucht.
+Das ist ein direkter Autor-Selbstbericht in einem späteren Mirror: stark für die Tatsache, dass Hartmann einen Besuch behauptete, aber keine unabhängige Messbestätigung seiner damaligen Testatika-Leistungsannahmen.
+
+### HARTMANN-R2 — Cathomen-Intervieweridentität: CONFLICT / unresolved
+
+Die öffentlichen Cathomen-Transkriptspiegel bezeichnen den Hauptfragenden nur als `D`. Ältere Projekttexte hatten `D` mit Hartmann verknüpft. Dieser Schluss ist nun zurückgenommen:
+
+- `testa01.ram` trägt eingebettete Metadaten `Dieter Dienst speaking with Luzi Cathomen`;
+- `testa02.ram` nennt Dieter Dienst als Autor;
+- das Transkript selbst nennt `D` nicht mit vollständigem Namen;
+- Hartmanns eigener Methernitha-Besuch und seine spätere Verbreitung von Testatika-Medien sind kein Identitätsbeweis für `D`.
+
+Aktuelle Regel: **Fragen des Sprechers `D` bleiben Fragen des unbekannten/deutschsprachigen Hauptfragenden; Dieter Dienst ist der stärkste namentliche Metadatenhinweis. Nicht als Hartmann-Zitat ausgeben.**
 
 ### HARTMANN-R3 — Dokumentarist / Übersetzer
 
-1999 arbeitete Hartmann den Bericht von Hans Holzherr auf, fragte technische Details nach und verbreitete/übersetzte das Material.
+1999 arbeitete Hartmann den Bericht von Hans Holzherr auf, fragte technische Details nach und verbreitete/übersetzte das Material. Holzherr war der Augenzeuge der betreffenden 1999er Gruppen-Demonstration.
 
 ### HARTMANN-R4 — Plattformgründer/-eigentümer
 
@@ -92,6 +106,15 @@ Hartmann gründete bzw. startete Overunity.com und war dessen Eigentümer und Ad
 ### HARTMANN-R5 — eigener Theoretiker
 
 Seine Testatika-Deutung änderte sich im Lauf der Jahre. Diese Theorien sind wichtige historische Forschungsansätze, aber **keine Betreiber-Offenbarungen**.
+
+### HARTMANN-R6 — Medien-/Film-Provenienzknoten
+
+*Cabinet Magazine* veröffentlichte 2006 ein Standbild aus einem **8-mm-Film** der Testatika beim Betrieb einer nominalen 1000-W-Lampe und kreditiert dieses Standbild ausdrücklich **Courtesy Stefan Hartmann**. Der Artikel verbindet den Film mit der etwa 90-minütigen Vorführung für rund dreißig Techniker/Ingenieure im Jahr 1999.
+
+Quelle:
+https://www.cabinetmagazine.org/issues/21/laessing.php
+
+Das belegt Hartmann als Besitzer/Lieferant/Verteiler einer Filmkopie bzw. eines Filmstills, **nicht** als Kameramann.
 
 ---
 
@@ -127,45 +150,58 @@ Empfohlene Klassifizierung:
 | Klasse | Beschreibung | Gewicht |
 |---|---|---|
 | OU-H-DIRECT | Hartmann schreibt selbst über eigene Beobachtung | mittel-hoch, abhängig von Messqualität |
-| OU-H-INTERVIEW | Hartmann dokumentiert direkten Gesprächspartner | hoch für Gesprächswortlaut, getrennt von Hartmanns Deutung |
+| OU-H-INTERVIEW | Hartmann dokumentiert einen direkten Gesprächspartner, **nur wenn seine Identität im konkreten Medium belegt ist** | hoch für Gesprächswortlaut, getrennt von Hartmanns Deutung |
 | OU-H-TRANSLATION | Hartmann übersetzt/veröffentlicht Fremdbericht | Originalzeuge bleibt Primärquelle |
 | OU-H-THEORY | Hartmann entwickelt eigene Theorie | Hypothese, nicht Beobachtung |
+| OU-H-MEDIA | Hartmann hostet/liefert Bild- oder Filmmaterial | stark für Distributionsprovenienz, nicht automatisch für Aufnahmeautorschaft |
 | OU-MEMBER | anderer Overunity-Nutzer | nach individueller Provenienz |
 | OU-ARCHIVE | heutiges Archiv repliziert alten Inhalt | nützlich für Provenienz, nicht automatisch Originalquelle |
 
 ---
 
-## 7. Bedeutung für die Cathomen-Auswertung
+## 7. Drei getrennte Medien-/Besuchsketten
 
-Wenn `D` im Cathomen-Video tatsächlich Hartmann ist, ergibt sich eine ungewöhnlich wertvolle Quellenkette:
+Die Quellenlage verlangt drei getrennte Ereignislinien.
 
-`Luzi Cathomen → direkte Antwort im Werkstattgespräch → Hartmann als technischer Fragender → später Hartmann als Betreiber/Archivverteiler von Overunity.com`.
+### 7.1 Hartmanns eigener Besuch
 
-Dadurch können spätere Hartmann-Texte teilweise als **Weiterentwicklung seiner eigenen vor Ort gestellten Fragen** verstanden werden.
+`Hartmann -> persönlicher Methernitha-Besuch` ist durch seinen frühen 1991er Selbstbericht gestützt.
 
-Das macht aber eine genaue Sprechertrennung noch wichtiger:
+Dieser Besuch ist zeitlich und sachlich **nicht automatisch** identisch mit der 1999er Gruppen-Demonstration oder dem 2001er Cathomen-Werkstattvideo.
 
-- Cathomen-Antwort = Betreiber-/Werkstattinformation;
-- Hartmann-Frage = technische Hypothese / Operationalisierung;
-- Hartmann-spätere Theorie = nachträgliche Interpretation.
+### 7.2 1999er Holzherr-/8-mm-Film-Kette
+
+Der erhaltene Bericht ergibt:
+
+`Methernitha-Demonstration -> Hans Holzherr Augenzeuge -> Hartmann Fragen/Übersetzung/Verbreitung`.
+
+Holzherr berichtet, die 50-cm-Maschine sei während des etwa 1,5-stündigen Besuchs gelaufen, die nominale 1000-W-Lampe jedoch nur ungefähr zehn Sekunden. Er bezieht sich ausdrücklich auf die entsprechende Sequenz im `Testatika film`.
+
+*Cabinet Magazine* verbindet den erhaltenen 8-mm-Film mit der 1999er Gruppe von rund dreißig Technikern/Ingenieuren und kreditiert ein Filmstill `Courtesy Stefan Hartmann`.
+
+**Kameramann: UNKNOWN.**
+
+### 7.3 2001er Cathomen-Werkstattvideo
+
+`testa01.ram` / `testa02.ram` bilden eine separate Werkstatt-/Interviewlinie. Embedded metadata nennt Dieter Dienst im Zusammenhang mit Luzi Cathomen. Deshalb wird dieses Material nicht mehr als Hartmann-Interview geführt, solange kein expliziter Gegenbeleg auftaucht.
 
 ---
 
-## 8. Wichtige Beispiele
+## 8. Wichtige Beispiele zur Sprechertrennung im Cathomen-Video
 
 ### 8.1 60 U/min → 50 Hz
 
-Im Cathomen-Transkript nennt Cathomen ungefähr 60 U/min. Der deutsche Fragende verbindet dies mit 50 Hz.
+Im Cathomen-Transkript nennt Cathomen ungefähr 60 U/min. Der Sprecher `D` verbindet dies mit 50 Hz.
 
-Falls `D = Hartmann`, ist die 50-Hz-Verknüpfung **Hartmanns spontane Interpretation**, nicht Cathomens klar belegte technische Aussage.
+Die 50-Hz-Verknüpfung ist daher **Interpretation des Fragenden**, nicht Cathomens klar belegte technische Aussage. Die Identität des Fragenden bleibt unresolved; wegen der eingebetteten Metadaten ist Dieter Dienst derzeit der stärkste namentliche Kandidat.
 
 ### 8.2 Spannung aufrechterhalten
 
 Cathomen beschreibt das Problem eines üblichen elektrostatischen Versuchs: einmal Spannung/Entladung, danach ist die Ladung weg.
 
-Der Fragende fasst daraus das Problem des **Aufrechterhaltens der Spannung** und der Synchronsteuerung zusammen.
+Der Sprecher `D` fasst daraus das Problem des **Aufrechterhaltens der Spannung** und der Synchronsteuerung zusammen.
 
-Falls `D = Hartmann`, ist dies ein frühes Beispiel dafür, wie Hartmann aus Cathomens Werkstattsprache ein engineering model ableitet.
+Die technische Formulierung ist nützlich, aber nicht als Hartmann-Zitat und nicht als wörtliches Cathomen-Zitat ausgeben.
 
 ### 8.3 Schwarzes Plexiglas
 
@@ -185,7 +221,7 @@ post_id:
 date:
 author:
 username:
-hartmann_role: direct | interviewer | translator | theory | host-only
+hartmann_role: direct | translator | theory | host-only | media-custodian | interviewer-only-if-proven
 quoted_person:
 machine_variant:
 new_observation:
@@ -202,12 +238,15 @@ Besonders wertvoll sind:
 - Anhänge, die außerhalb des Forums verloren gegangen sind;
 - Hartmanns eigene Berichte über Methernitha;
 - Diskussionen mit Holzherr, Marinov, Schneider, Bönisch oder anderen direkten Beteiligten;
-- alte Thread-ID `75` und verlinkte Video-/Bildarchive.
+- alte Thread-ID `75` und verlinkte Video-/Bildarchive;
+- der exakte Hartmann-/YouTube-/Google-Video-Post, falls auffindbar, der die spätere Migration des historischen Testatika-Films dokumentiert.
 
 ---
 
 ## 10. Arbeitskonsens
 
-> **Stefan Hartmann ist für das Testatika-Projekt nicht nur eine Sekundärquelle. Er war persönlicher Rechercheur/Methernitha-Besucher, wahrscheinlich Hauptinterviewer im Cathomen-Werkstattvideo, Dokumentarist/Übersetzer, Gründer bzw. historischer Eigentümer und Administrator von Overunity.com sowie später eigenständiger Testatika-Theoretiker.**
+> **Stefan Hartmann ist für das Testatika-Projekt nicht nur eine Sekundärquelle. Er war ein selbstberichteter persönlicher Methernitha-Besucher, Fragensteller/Übersetzer und Verteiler des Holzherr-Berichts von 1999, historischer Eigentümer und Administrator von Overunity.com, Medien-/Film-Provenienzknoten sowie später eigenständiger Testatika-Theoretiker.**
 
-Gerade deshalb muss sein Material besonders sorgfältig nach Rolle und Zeitpunkt getrennt werden.
+> **Nicht mehr zulässig ist dagegen die automatische Gleichsetzung `Cathomen-Transkript D = Hartmann`. Die 2001er Archivmetadaten weisen auf Dieter Dienst; die genaue On-Camera-Identität bleibt CONFLICT / unresolved.**
+
+Gerade deshalb muss Hartmann-Material besonders sorgfältig nach Rolle, Medium und Zeitpunkt getrennt werden.
