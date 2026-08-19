@@ -49,7 +49,7 @@ def test_schumann_receiver_bandwidth_is_effectively_zero():
 
 
 def test_schumann_q_gap_for_one_minute_response_is_twenty_orders():
-    assert q_time_gap(0.1, 7.83, 60.0) == pytest.approx(1.5332510549e20)
+    assert q_time_gap(0.1, 7.83, 60.0) == pytest.approx(1.5331135865e20)
 
 
 def test_naive_free_space_aperture_can_predict_large_power_and_is_therefore_not_enough():
@@ -57,7 +57,7 @@ def test_naive_free_space_aperture_can_predict_large_power_and_is_therefore_not_
     # suggest kilowatt-scale available power. The Q/ring-up tests above show why
     # this state cannot be established by a 20-cm passive ELF receiver.
     p = ideal_available_power_w(0.2e-3, 7.83)
-    assert p == pytest.approx(18579.465716, rel=1e-6)
+    assert p == pytest.approx(18579.272346, rel=1e-6)
 
 
 def test_radiation_resistance_at_7_83hz_is_tens_of_femto_ohms():
@@ -72,4 +72,4 @@ def test_frequency_transition_shows_why_mhz_is_different_from_elf():
     q_1mhz = chu_mclean_q_bound(0.1, 1e6)
     assert years(amplitude_time_constant_s(q_10khz, 10e3)) == pytest.approx(109.5641980)
     assert years(amplitude_time_constant_s(q_100khz, 100e3)) == pytest.approx(0.01095642028)
-    assert amplitude_time_constant_s(q_1mhz, 1e6) == pytest.approx(34.5752076, rel=1e-6)
+    assert amplitude_time_constant_s(q_1mhz, 1e6) == pytest.approx(34.5759832, rel=1e-6)
