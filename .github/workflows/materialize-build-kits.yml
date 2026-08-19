@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - agent/build-kits-m2-m6
     paths:
       - 'cad/generate_m2_v5_fabrication_kit.py'
       - 'cad/generate_m6_v2_fabrication_kit.py'
