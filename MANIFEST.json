@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 661,
+  "file_count": 664,
   "files": [
     {
       "path": ".gitattributes",
@@ -855,9 +855,24 @@
       "sha256": "e67b7baac8f57bc860db465bf71e60af5fea6b8cbb48d9b7498a530a3952f7ba"
     },
     {
+      "path": "docs/research/pre2000-source-excavation-round3-2026-08-19.md",
+      "size": 11292,
+      "sha256": "fec4c99e4f0a802c5f22d3d5d78cd7dcf59a81fa275ae09306bcdbc24215d2cc"
+    },
+    {
+      "path": "docs/research/pre2000-source-excavation-round4-2026-08-19.md",
+      "size": 6572,
+      "sha256": "ceaaf75e103f6b6dfe0edfc682148daed69ca0a4f1cbbd594de1b43bc2d4a57f"
+    },
+    {
       "path": "docs/research/pre2000-source-ledger-round2.tsv",
       "size": 6487,
       "sha256": "5b84d56752b62b68838322f36ee7a0404217cec483a78dad69bd9e3c882bfc40"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round3.tsv",
+      "size": 5262,
+      "sha256": "89d1d4212dff01931e3bc5c4909ea4ff0fe351e82965e17d7861a5e57d9c7a5b"
     },
     {
       "path": "docs/research/pre2000-source-ledger.tsv",
