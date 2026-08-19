@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 632,
+  "file_count": 633,
   "files": [
     {
       "path": ".gitattributes",
@@ -668,6 +668,11 @@
       "path": "docs/research/m2-v4-16-corona-return-port.md",
       "size": 16806,
       "sha256": "ce9abde26c07c3a709d157d180d0517cfdf2c515dfd2db218cbd16920ecf7d71"
+    },
+    {
+      "path": "docs/research/m2-v4-17-corotation-dynamo-bound.md",
+      "size": 11272,
+      "sha256": "a83bf25089277869aa7809d2cdce78df62a4448992eac8672d4ee233b662e915"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
