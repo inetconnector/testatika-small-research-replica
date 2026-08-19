@@ -44,6 +44,7 @@ jobs:
           tests/test_m2_v4_19_rear_plate_human_return.py
           tests/test_m2_v4_20_local_infrastructure_bound.py
           tests/test_m2_v4_21_real_power_field_bound.py
+          tests/test_m2_v4_22_source_reaction_boundary.py
       - name: Verify committed integrity manifest
         if: github.event_name != 'push'
         run: python scripts/check_manifest.py
