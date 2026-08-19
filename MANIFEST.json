@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 657,
+  "file_count": 658,
   "files": [
     {
       "path": ".gitattributes",
@@ -843,6 +843,11 @@
       "path": "docs/research/pots.md",
       "size": 3929,
       "sha256": "0cf53585a4994fa6f709883d698b102b28d43354244de523fff16b5eec4102bb"
+    },
+    {
+      "path": "docs/research/pre2000-source-chronology-2026-08-19.md",
+      "size": 24778,
+      "sha256": "49b20b550bba15776a7416e49e59c96513897924d20046f8456332e98d3716fd"
     },
     {
       "path": "docs/research/primary-gap-search-2026-08-16.md",
