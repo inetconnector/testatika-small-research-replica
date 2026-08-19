@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 645,
+  "file_count": 648,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1887,
-      "sha256": "78141389a131dcb14667ab64b44e0ca2d662a48157fd03a118dc389b3b28a011"
+      "size": 1945,
+      "sha256": "f570c4af868334b5a58afdc8eae088779ecde89f346d1c81c4606f8b14f6e336"
     },
     {
       "path": ".gitignore",
@@ -698,6 +698,11 @@
       "path": "docs/research/m2-v4-21-real-power-field-bound.md",
       "size": 8366,
       "sha256": "4ad977fddb8ab67e1ca738fd523e06c231b74ffb3203819bf020c53c54e68dec"
+    },
+    {
+      "path": "docs/research/m2-v4-22-source-reaction-boundary.md",
+      "size": 11778,
+      "sha256": "736d0016f8bb278be0b09b0440c0a2998a65963fba4540f99cf0f8c10b9e1071"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
@@ -2860,6 +2865,11 @@
       "sha256": "6dffbecdfc6e9efa1ffcc2489c4670f091c25721f3fffc08a64d8b0d36b52f48"
     },
     {
+      "path": "sim/m2_v4_22_source_reaction_boundary.py",
+      "size": 6418,
+      "sha256": "029eb1002a8130d9123eaf49138b21fb5106b3c34cfc68ffbc0326bbfae4540c"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3183,6 +3193,11 @@
       "path": "tests/test_m2_v4_21_real_power_field_bound.py",
       "size": 3304,
       "sha256": "49922d0d50c86d1ce17cbf6b992199ee77a5b202d8ee9a4eb103d6efb2591f40"
+    },
+    {
+      "path": "tests/test_m2_v4_22_source_reaction_boundary.py",
+      "size": 3424,
+      "sha256": "abe5d758dfcd7bd4963d1b88d2be5c3f6311936aaa2cf6a8361b93ce00f8a36e"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
