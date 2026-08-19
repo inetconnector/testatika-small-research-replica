@@ -46,7 +46,6 @@ REQUIRED = [
     "scripts/build_v4_package.py",
     "scripts/check_v4_assets.py",
     "scripts/apply_v4_state.py",
-    ".github/workflows/materialize-v4-best-evidence.yml",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.stl",
     "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.glb",
