@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 633,
+  "file_count": 636,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1342,
-      "sha256": "6897f70e4362be2565b4ff1d2700fe88b45a75c134e414513ca3aceea448132a"
+      "size": 1714,
+      "sha256": "8257b13dbe7dff40e1977d32160f83988e80ca508d9583b435c66123ec826bdc"
     },
     {
       "path": ".gitignore",
@@ -673,6 +673,11 @@
       "path": "docs/research/m2-v4-17-corotation-dynamo-bound.md",
       "size": 11272,
       "sha256": "a83bf25089277869aa7809d2cdce78df62a4448992eac8672d4ee233b662e915"
+    },
+    {
+      "path": "docs/research/m2-v4-18-two-port-return.md",
+      "size": 16635,
+      "sha256": "d97387e9d89ad611cbc0cd56fc00fb3ac78e6ac6ad8040cc6e0bb1d849376a0c"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
@@ -2591,8 +2596,8 @@
     },
     {
       "path": "requirements-dev.txt",
-      "size": 27,
-      "sha256": "4c599e4595626c3df91092fdaf06db7c575392bf351a2fc5339d8c8118fdc75b"
+      "size": 39,
+      "sha256": "50af8f6fbedc84a080a6f74c24e9f93c15891c8dac091e97f758a8bd1bbb30fd"
     },
     {
       "path": "scripts/apply_buildkit_readme_links.py",
@@ -2813,6 +2818,11 @@
       "path": "sim/m2_v4_17_corotation_dynamo_bound.py",
       "size": 4646,
       "sha256": "92ea6706e677e9dd1ae2ca947532fdf96ff81a046742574f855b3ddea33a4da4"
+    },
+    {
+      "path": "sim/m2_v4_18_two_port_return.py",
+      "size": 9040,
+      "sha256": "874c40e44327d8178e1440d8365be50007e12b3371c8e6e6940ca987861fe9d3"
     },
     {
       "path": "sim/m2_v4_1_pot_crystal.py",
@@ -3118,6 +3128,11 @@
       "path": "tests/test_m2_v4_17_corotation_dynamo_bound.py",
       "size": 1705,
       "sha256": "19558710077eccd9824edbae896ca52a4a3e48a312e30e23740cc9337f725a6a"
+    },
+    {
+      "path": "tests/test_m2_v4_18_two_port_return.py",
+      "size": 4470,
+      "sha256": "f46f047813a8e94fd9ec7bf479968447b10325102b97280ccafb7270074bc41c"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
