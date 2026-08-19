@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1463,
-      "sha256": "51a2c7eff84469d3de0c2c0909d064b40b07ee827d9bbf08649107bd16cebdec"
+      "size": 1554,
+      "sha256": "90533f5c613860cffa7826e8507338df97209f5856d3300655fc73f652dc5b21"
     },
     {
       "path": ".gitignore",
