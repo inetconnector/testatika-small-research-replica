@@ -41,6 +41,7 @@ jobs:
           tests/test_m2_v4_16_corona_return_port.py
           tests/test_m2_v4_17_corotation_dynamo_bound.py
           tests/test_m2_v4_18_two_port_return.py
+          tests/test_m2_v4_19_rear_plate_human_return.py
       - name: Verify committed integrity manifest
         if: github.event_name != 'push'
         run: python scripts/check_manifest.py

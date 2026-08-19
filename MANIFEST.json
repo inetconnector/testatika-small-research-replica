@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 636,
+  "file_count": 639,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 1714,
-      "sha256": "8257b13dbe7dff40e1977d32160f83988e80ca508d9583b435c66123ec826bdc"
+      "size": 1771,
+      "sha256": "023986bf1294a4c7722fc26d07dbd16c0ec47672f74b8b31a457d4bdc66f921d"
     },
     {
       "path": ".gitignore",
@@ -678,6 +678,11 @@
       "path": "docs/research/m2-v4-18-two-port-return.md",
       "size": 16635,
       "sha256": "d97387e9d89ad611cbc0cd56fc00fb3ac78e6ac6ad8040cc6e0bb1d849376a0c"
+    },
+    {
+      "path": "docs/research/m2-v4-19-rear-plate-human-return.md",
+      "size": 9781,
+      "sha256": "022a02f898d2fc48968dae889ad5733109d1f92fa21cb09a358b8ae795a3793a"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
@@ -2825,6 +2830,11 @@
       "sha256": "874c40e44327d8178e1440d8365be50007e12b3371c8e6e6940ca987861fe9d3"
     },
     {
+      "path": "sim/m2_v4_19_rear_plate_human_return.py",
+      "size": 5531,
+      "sha256": "3b9c4aa78d4a880b04d30ead1b0ee45512ba038d868476772c20c122c10e3863"
+    },
+    {
       "path": "sim/m2_v4_1_pot_crystal.py",
       "size": 18400,
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
@@ -3133,6 +3143,11 @@
       "path": "tests/test_m2_v4_18_two_port_return.py",
       "size": 4470,
       "sha256": "f46f047813a8e94fd9ec7bf479968447b10325102b97280ccafb7270074bc41c"
+    },
+    {
+      "path": "tests/test_m2_v4_19_rear_plate_human_return.py",
+      "size": 3684,
+      "sha256": "1d345c0d949f625f15e68700a0e10dc304cbb361e70f6503e1875c1b69f02d80"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
