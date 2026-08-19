@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 626,
+  "file_count": 627,
   "files": [
     {
       "path": ".gitattributes",
@@ -658,6 +658,11 @@
       "path": "docs/research/m2-v4-14-dynamo-port.md",
       "size": 19627,
       "sha256": "171f1149b45d61a3581b574c95b4b6e842ca7f057a0d443c62b41dba5580158e"
+    },
+    {
+      "path": "docs/research/m2-v4-15-resonant-effective-aperture.md",
+      "size": 14020,
+      "sha256": "9f689aaed9917a7ea1f903c8f1d8badb8ef46e9a56b3a7b6086886b2f4ce87a7"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
