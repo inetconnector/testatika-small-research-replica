@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 648,
+  "file_count": 651,
   "files": [
     {
       "path": ".gitattributes",
@@ -703,6 +703,11 @@
       "path": "docs/research/m2-v4-22-source-reaction-boundary.md",
       "size": 11778,
       "sha256": "736d0016f8bb278be0b09b0440c0a2998a65963fba4540f99cf0f8c10b9e1071"
+    },
+    {
+      "path": "docs/research/m2-v4-23-non-electrical-source-bounds.md",
+      "size": 10015,
+      "sha256": "cf40edf4083e4ff5b3e4a6301c0b3d795cc9c84360da2a046c366641b415f675"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
@@ -2870,6 +2875,11 @@
       "sha256": "029eb1002a8130d9123eaf49138b21fb5106b3c34cfc68ffbc0326bbfae4540c"
     },
     {
+      "path": "sim/m2_v4_23_non_electrical_source_bounds.py",
+      "size": 6572,
+      "sha256": "14f48adcd1789a03fae5044361a04ec9504a60984dab85a1b1ea8c6b34f28742"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3198,6 +3208,11 @@
       "path": "tests/test_m2_v4_22_source_reaction_boundary.py",
       "size": 3424,
       "sha256": "abe5d758dfcd7bd4963d1b88d2be5c3f6311936aaa2cf6a8361b93ce00f8a36e"
+    },
+    {
+      "path": "tests/test_m2_v4_23_non_electrical_source_bounds.py",
+      "size": 3303,
+      "sha256": "a82490688137ee01b7e7ad14f83c5f269c1049a49d3699c7f762dd07d96276a9"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
