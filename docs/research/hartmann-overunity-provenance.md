@@ -1,7 +1,9 @@
 # Stefan Hartmann und Overunity.com — Eigentümerschaft, Betreiberrolle und Quellenprovenienz
 
-**Stand:** 2026-08-16  
-**Status:** verifizierte Provenienzergänzung zum Testatika-Quellenkorpus
+**Stand:** 2026-08-19  
+**Status:** verifizierte Provenienzergänzung mit Korrektur zur Cathomen-Intervieweridentität
+
+> **Korrektur 2026-08-19:** Die frühere Projektannahme, der Hauptfragende `D` im Cathomen-Amateurvideo sei wahrscheinlich Stefan Hartmann, ist nicht mehr der bevorzugte Provenienzstand. Eingebettete Metadaten von `testa01.ram` nennen `Dieter Dienst speaking with Luzi Cathomen`, und `testa02.ram` nennt Dieter Dienst als Autor. Deshalb bleibt die genaue On-Camera-Zuordnung **CONFLICT / unresolved**; Hartmann darf nicht allein aus seinem Methernitha-Besuch oder seiner Rolle bei Overunity.com als `D` identifiziert werden.
 
 ---
 
@@ -11,13 +13,12 @@ Stefan Hartmann war historisch **Eigentümer/Betreiber und Administrator von Ove
 
 Mehrere voneinander unabhängige erhaltene Quellen stützen das:
 
-- ein 2008 veröffentlichtes Interview bezeichnet Hartmann ausdrücklich als **owner of the www.Overunity.com website**;
-- im selben Interview wird Hartmann direkt gefragt, was ihn dazu gebracht habe, **die Overunity-Seite zu starten**, womit seine Gründer-/Initiatorenrolle zusätzlich belegt ist;
-- die heutige Archivseite `overunityarchives.com` bezeichnet ihn rückblickend als **Stefan Hartmann / Ex-Owner & Admin at overunity.com**;
-- eine berufliche Profilseite nennt ihn als Leiter des Internetforums `www.overunity.com`.
+- ein 2008 veröffentlichtes Interview bezeichnet Hartmann ausdrücklich als `owner` von Overunity.com und fragt ihn, warum er die Seite gestartet habe;
+- die heutige Archivseite `overunityarchives.com` bezeichnet ihn rückblickend als **Ex-Owner & Admin**;
+- ein Bericht des heutigen Archivbetreibers beschreibt den Übergang der alten Forendaten 2024;
+- eine berufliche Profilseite nennt ihn als Leiter des Internetforums.
 
-### Quellen
-
+Quellen:
 - https://dandelionsalad.wordpress.com/2008/06/27/free-energy-and-the-open-source-energy-movement-part-one/
 - https://overunityarchives.com/
 - https://overunitymachines.com/index.php?topic=82.0
@@ -25,159 +26,118 @@ Mehrere voneinander unabhängige erhaltene Quellen stützen das:
 
 ---
 
-## 2. Warum das für die Testatika-Forschung wichtig ist
+## 2. Warum Hartmann für die Testatika-Forschung wichtig ist
 
-Overunity.com war über viele Jahre eine der zentralen öffentlichen Plattformen für:
+Overunity.com war über viele Jahre eine zentrale öffentliche Plattform für Testatika-Diskussionen, Replikationsversuche, historische Dokumente, Korrespondenzen und technische Spekulationen.
 
-- Testatika-Diskussionen;
-- Replikationsversuche;
-- historische Dokumente;
-- Fotos und Videos;
-- Korrespondenzen;
-- technische Spekulationen;
-- Kommentare von Stefan Hartmann selbst.
+Hartmann hatte dabei mehrere klar zu trennende Rollen:
 
-Da Hartmann Eigentümer/Administrator der Plattform war und zugleich persönlich seit mindestens den frühen 1990er Jahren an Testatika recherchierte, besitzt das Overunity.com-Material eine besondere Provenienzstruktur:
+1. persönlicher Methernitha-Besucher / Rechercheur;
+2. Fragensteller, Übersetzer und Verteiler fremder Augenzeugenberichte;
+3. Gründer/Eigentümer/Administrator von Overunity.com;
+4. eigener Testatika-Theoretiker.
 
-> **Hartmann war gleichzeitig Quellenverteiler, Plattformbetreiber, Interviewer/Rechercheur und eigener Theoretiker.**
-
-Diese Rollen müssen für jeden einzelnen Beitrag getrennt werden.
+Diese Rollen dürfen nicht verschmolzen werden. Ein auf Overunity.com gehosteter Text wird dadurch nicht automatisch zu einer Hartmann-Beobachtung, und eine Hartmann-Theorie wird nicht zu einer Baumann-/Methernitha-Aussage.
 
 ---
 
-## 3. Nicht jeder Overunity.com-Beitrag ist automatisch eine Hartmann-Aussage
+## 3. Hartmanns eigener Methernitha-Besuch
 
-Die Eigentümerschaft der Plattform darf nicht zum umgekehrten Fehler führen.
-
-Ein Beitrag auf Overunity.com kann stammen von:
-
-1. Stefan Hartmann selbst;
-2. einem anderen Forenmitglied;
-3. einem von Hartmann eingestellten historischen Dokument;
-4. einem von Hartmann übersetzten Fremdbericht;
-5. einem zitierten Augenzeugen;
-6. einem Replikator;
-7. einer rein spekulativen Diskussion.
-
-Deshalb muss künftig bei Overunity.com-Material immer dokumentiert werden:
-
-- **Autor / Username**;
-- Datum;
-- Thread-ID;
-- Originalpost oder Zitat;
-- von Hartmann selbst geschrieben oder nur gehostet;
-- direkte Beobachtung oder Interpretation;
-- eventuelle spätere Bearbeitung/Übersetzung.
-
----
-
-## 4. Hartmanns besondere Testatika-Rollen
-
-### HARTMANN-R1 — direkter Besucher / Rechercheur
-
-Hartmann schrieb bereits Anfang der 1990er Jahre, Methernitha persönlich besucht zu haben.
-
-### HARTMANN-R2 — Interviewer / Fragender
-
-Das Projekt identifiziert ihn als Hauptfragenden des erhaltenen Cathomen-Amateurvideos. Die öffentlichen Transkriptspiegel nennen den Fragenden allerdings nur `D`; ein separat erhaltener namentlicher Primärvermerk des Originalvideos wird weiterhin gesucht.
-
-### HARTMANN-R3 — Dokumentarist / Übersetzer
-
-1999 arbeitete Hartmann den Bericht von Hans Holzherr auf, fragte technische Details nach und verbreitete/übersetzte das Material.
-
-### HARTMANN-R4 — Plattformgründer/-eigentümer
-
-Hartmann gründete bzw. startete Overunity.com und war dessen Eigentümer und Administrator.
-
-### HARTMANN-R5 — eigener Theoretiker
-
-Seine Testatika-Deutung änderte sich im Lauf der Jahre. Diese Theorien sind wichtige historische Forschungsansätze, aber **keine Betreiber-Offenbarungen**.
-
----
-
-## 5. Overunity.com versus Overunityarchives.com
-
-Diese beiden Ebenen müssen zeitlich getrennt werden.
-
-### Historisches Overunity.com
-
-- von Stefan Hartmann betrieben/eigentümergeführt;
-- zentrale Diskussions- und Archivplattform;
-- historische URL-Strukturen und Thread-IDs sind wichtige Quellenanker.
-
-### Aktuelles Overunityarchives.com
-
-Nach dem Offlinegehen bzw. der Umstellung von Overunity.com wurden die alten Forumsdaten 2024 von einem anderen Betreiber als Archiv übernommen. Die Archivseite bezeichnet Hartmann deshalb heute als **Ex-Owner & Admin**.
-
-Ein Bericht des heutigen Archivbetreibers sagt, Hartmann habe ihn im Juni 2024 kontaktiert und um Unterbringung der umfangreichen alten Forendaten gebeten.
+Ein erhaltener Spiegel eines von Hartmann selbst verfassten Textes vom Januar/Februar 1991 enthält seine ausdrückliche Aussage, dass er Methernitha **persönlich besucht** habe.
 
 Quelle:
-https://overunitymachines.com/index.php?topic=82.0
+https://newtotse.com/oldtotse/en/fringe/free_energy/statika1.html
 
-### Konsequenz
+Evidenzklasse:
+- **H1-M / DIRECT-AUTHOR MIRROR** für Hartmanns eigenen Besuchs-Selbstbericht;
+- hoch für die Aussage `Hartmann behauptete, persönlich dort gewesen zu sein`;
+- niedrig für seine damaligen Leistungs- und Energiequellenannahmen, weil keine geschlossene Messung dokumentiert wird.
 
-`overunityarchives.com` ist ein **Archiv der historischen Overunity.com-Daten**, aber nicht identisch mit Hartmanns damaliger Betreiberrolle.
+Im selben frühen Text beschreibt Hartmann die Testatika als elektrostatische/Wimshurst-artige Maschine mit magnetischen Zusatzkomponenten. Als mögliche Energiequelle diskutiert er geladene bzw. ionisierte Luftteilchen und an anderer Stelle Hintergrund-/Vakuumenergie. Das ist **Hartmanns Theorie von 1991**, keine Betreiber-Offenbarung.
 
 ---
 
-## 6. Quellengewichtung für Testatika-Threads auf Overunity
+## 4. Cathomen-Intervieweridentität: CONFLICT / unresolved
 
-Empfohlene Klassifizierung:
+Die öffentlichen Cathomen-Transkriptspiegel bezeichnen den Hauptfragenden nur als `D`. Ältere Projekttexte hatten `D` mit Hartmann verknüpft. Dieser Schluss ist zurückgenommen:
+
+- `testa01.ram` trägt eingebettete Metadaten `Dieter Dienst speaking with Luzi Cathomen`;
+- `testa02.ram` nennt Dieter Dienst als Autor;
+- das Transkript selbst nennt `D` nicht mit vollständigem Namen;
+- Hartmanns eigener Methernitha-Besuch ist kein Identitätsbeweis für `D`.
+
+Aktuelle Regel: **Fragen des Sprechers `D` bleiben Fragen des unbekannten/deutschsprachigen Hauptfragenden; Dieter Dienst ist der stärkste namentliche Metadatenhinweis. Nicht als Hartmann-Zitat ausgeben.**
+
+---
+
+## 5. Hartmann und Hans Holzherr 1999
+
+Der erhaltene Schriftwechsel zeigt Hartmann als aktiven technischen Nachfrager, Übersetzer und Verteiler. Der Augenzeuge der betreffenden 1999er Gruppen-Demonstration war **Hans Holzherr**.
+
+Die Quellenkette lautet:
+
+`Methernitha-Demonstration -> Holzherr beobachtet -> Hartmann fragt / übersetzt / verbreitet`
+
+Holzherr berichtet unter anderem:
+
+- die 50-cm-Maschine sei während des etwa 1,5-stündigen Besuchs gelaufen;
+- die nominale 1000-W-Lampe sei ungefähr zehn Sekunden angeschlossen worden;
+- zusätzlich seien Heizelement und Lichtbogen demonstriert worden;
+- für die 50-cm-Maschine könne er eine versteckte Batterie nicht sicher ausschließen;
+- beim `Principle Experiment` seien perforierte Gitter/PMMA-Strukturen benutzt worden und Baumann habe gesagt, Vollfolie erzeuge den beobachteten Effekt nicht.
+
+Hartmanns Nachfragen und Kommentare bleiben davon getrennt.
+
+Quellen/Mirrors:
+- https://www.novakcorp.com/energy/experiments/tesnews.htm
+- https://rimstar.org/sdenergy/testa/report99.htm
+- https://www.rexresearch.com/testatik/testart.htm
+
+---
+
+## 6. Hartmann als Theoretiker — Zeitachse
+
+### 1991: Elektrostatik + magnetische Zusatzstufe + Umwelt/Luft
+
+Hartmann beschreibt Testatika als Wimshurst-/Influenzmaschine mit magnetischen Zusatzkomponenten und vermutet eine Umweltquelle über geladene/ionisierte Luft bzw. möglicherweise Hintergrundenergie.
+
+Status: **HYPOTHESIS / Hartmann**, keine Betreiberbestätigung.
+
+### 1992: Vergleich mit William Hyde
+
+In einem Usenet-Beitrag vom 3. Februar 1992 vergleicht Hartmann William Hydes elektrostatisches Rotor/Stator-Patent mit der Testatika und fragt ausdrücklich nach besseren Ersthanddaten; gegenüber Hydes behaupteten 900 % bleibt er skeptisch.
+
+Quelle:
+https://groups.google.com/g/sci.energy/c/pVGecAtRSXc
+
+Status: **H1 / Hartmann direct author**, wichtig für seinen frühen variable-C/electrostatic engineering frame.
+
+### 1999: kritische Nachfragen an Holzherr
+
+Hartmann fragt ausdrücklich nach Lastdauer, Laufdauer und möglicher versteckter Batteriespeicherung. Er ist hier Quellenvermittler und Kritiker, nicht der Augenzeuge.
+
+### 2000 und später
+
+Seine späteren Electret-, kapazitiven Transformations-, Kristall-, Radioaktivitäts- und `negative resistance`-Deutungen sind eigene, zeitlich wechselnde Hypothesen. Sie dürfen nicht rückwirkend auf seine früheren Beobachtungen oder auf Baumann/Methernitha übertragen werden.
+
+---
+
+## 7. Quellengewichtung für Overunity-Material
 
 | Klasse | Beschreibung | Gewicht |
 |---|---|---|
 | OU-H-DIRECT | Hartmann schreibt selbst über eigene Beobachtung | mittel-hoch, abhängig von Messqualität |
-| OU-H-INTERVIEW | Hartmann dokumentiert direkten Gesprächspartner | hoch für Gesprächswortlaut, getrennt von Hartmanns Deutung |
 | OU-H-TRANSLATION | Hartmann übersetzt/veröffentlicht Fremdbericht | Originalzeuge bleibt Primärquelle |
 | OU-H-THEORY | Hartmann entwickelt eigene Theorie | Hypothese, nicht Beobachtung |
+| OU-H-HOST | Hartmann/Overunity hostet fremdes Material | Provenienzbeleg, keine automatische Autorschaft |
 | OU-MEMBER | anderer Overunity-Nutzer | nach individueller Provenienz |
 | OU-ARCHIVE | heutiges Archiv repliziert alten Inhalt | nützlich für Provenienz, nicht automatisch Originalquelle |
 
 ---
 
-## 7. Bedeutung für die Cathomen-Auswertung
+## 8. Arbeitsregel für die weitere Overunity-Recherche
 
-Wenn `D` im Cathomen-Video tatsächlich Hartmann ist, ergibt sich eine ungewöhnlich wertvolle Quellenkette:
-
-`Luzi Cathomen → direkte Antwort im Werkstattgespräch → Hartmann als technischer Fragender → später Hartmann als Betreiber/Archivverteiler von Overunity.com`.
-
-Dadurch können spätere Hartmann-Texte teilweise als **Weiterentwicklung seiner eigenen vor Ort gestellten Fragen** verstanden werden.
-
-Das macht aber eine genaue Sprechertrennung noch wichtiger:
-
-- Cathomen-Antwort = Betreiber-/Werkstattinformation;
-- Hartmann-Frage = technische Hypothese / Operationalisierung;
-- Hartmann-spätere Theorie = nachträgliche Interpretation.
-
----
-
-## 8. Wichtige Beispiele
-
-### 8.1 60 U/min → 50 Hz
-
-Im Cathomen-Transkript nennt Cathomen ungefähr 60 U/min. Der deutsche Fragende verbindet dies mit 50 Hz.
-
-Falls `D = Hartmann`, ist die 50-Hz-Verknüpfung **Hartmanns spontane Interpretation**, nicht Cathomens klar belegte technische Aussage.
-
-### 8.2 Spannung aufrechterhalten
-
-Cathomen beschreibt das Problem eines üblichen elektrostatischen Versuchs: einmal Spannung/Entladung, danach ist die Ladung weg.
-
-Der Fragende fasst daraus das Problem des **Aufrechterhaltens der Spannung** und der Synchronsteuerung zusammen.
-
-Falls `D = Hartmann`, ist dies ein frühes Beispiel dafür, wie Hartmann aus Cathomens Werkstattsprache ein engineering model ableitet.
-
-### 8.3 Schwarzes Plexiglas
-
-Cathomen identifiziert ein schwarzes sichtbares Material ausdrücklich als **schwarzes Plexiglas**.
-
-Diese direkte Werkstattinformation ist stärker als spätere Internetdeutungen, die schwarze Bauteile pauschal als Kohlenstoff, Graphit, Oxid, Nanobeschichtung oder Spezialelektrode interpretieren.
-
----
-
-## 9. Arbeitsregel für die weitere Overunity.com-Recherche
-
-Bei jedem gefundenen Testatika-Beitrag sind künftig mindestens folgende Felder zu erfassen:
+Bei jedem Testatika-Beitrag mindestens erfassen:
 
 ```text
 thread_id:
@@ -185,7 +145,7 @@ post_id:
 date:
 author:
 username:
-hartmann_role: direct | interviewer | translator | theory | host-only
+hartmann_role: direct | translator | theory | host-only
 quoted_person:
 machine_variant:
 new_observation:
@@ -195,19 +155,14 @@ confidence:
 repo_implication:
 ```
 
-Besonders wertvoll sind:
-
-- Posts von `hartiberlin` / eindeutig Hartmann zugeordneten Accounts;
-- frühe Testatika-Threads;
-- Anhänge, die außerhalb des Forums verloren gegangen sind;
-- Hartmanns eigene Berichte über Methernitha;
-- Diskussionen mit Holzherr, Marinov, Schneider, Bönisch oder anderen direkten Beteiligten;
-- alte Thread-ID `75` und verlinkte Video-/Bildarchive.
+Besonders wertvoll sind frühe, datierte Hartmann-Texte, seine eigenen Besuchsberichte, Originalkorrespondenz mit direkten Zeugen und alte Thread-/Post-IDs, bei denen Autor und Zitatkette eindeutig rekonstruiert werden können.
 
 ---
 
-## 10. Arbeitskonsens
+## 9. Arbeitskonsens
 
-> **Stefan Hartmann ist für das Testatika-Projekt nicht nur eine Sekundärquelle. Er war persönlicher Rechercheur/Methernitha-Besucher, wahrscheinlich Hauptinterviewer im Cathomen-Werkstattvideo, Dokumentarist/Übersetzer, Gründer bzw. historischer Eigentümer und Administrator von Overunity.com sowie später eigenständiger Testatika-Theoretiker.**
+> **Stefan Hartmann ist für das Testatika-Projekt nicht nur eine Sekundärquelle. Er ist als selbstberichteter persönlicher Methernitha-Besucher, Fragensteller/Übersetzer des Holzherr-Berichts von 1999, historischer Eigentümer/Administrator von Overunity.com und später eigenständiger Testatika-Theoretiker relevant.**
 
-Gerade deshalb muss sein Material besonders sorgfältig nach Rolle und Zeitpunkt getrennt werden.
+> **Nicht zulässig ist die automatische Gleichsetzung `Cathomen-Transkript D = Hartmann`. Die 2001er Archivmetadaten weisen auf Dieter Dienst; die genaue Sprecheridentität bleibt CONFLICT / unresolved.**
+
+Die neue systematische Vor-2000-Quellenchronologie steht in `docs/research/pre2000-source-chronology-2026-08-19.md` und `docs/research/pre2000-source-ledger.tsv`.

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 654,
+  "file_count": 667,
   "files": [
     {
       "path": ".gitattributes",
@@ -461,13 +461,13 @@
     },
     {
       "path": "docs/research/hartmann-overunity-provenance.md",
-      "size": 8524,
-      "sha256": "9ea029c5f4925b03333d52191b686fa9dfa482bafef2b0232cac8f76eeef2abd"
+      "size": 8577,
+      "sha256": "7787d9068e68be10686be1f72e30b8aa0c9ebc8741bee01568f30af5b0e6e088"
     },
     {
       "path": "docs/research/hartmann-overunity-sources.tsv",
-      "size": 7918,
-      "sha256": "f9d4dfa02518a9b5765bf9c4b51840b376823ec1537433977b5e3b782204ac9c"
+      "size": 9235,
+      "sha256": "1ebd022613754d5dc06ac16df63e9fdd5fae37cfb38905e0762dd0887b6f6613"
     },
     {
       "path": "docs/research/hartmann-overunity-testatika.md",
@@ -715,6 +715,11 @@
       "sha256": "a1ae0c27f84bfc5f96b11832461d259f867adbd803a0a59e074c77fb97c686c9"
     },
     {
+      "path": "docs/research/m2-v4-25-natural-geoelectric-bound.md",
+      "size": 13412,
+      "sha256": "05af46a83f9f6f6026959eb715cf669b6a9c9a7bd3298d9ea95b71b7150b6fb2"
+    },
+    {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
       "size": 7826,
       "sha256": "eb2bf9e4331b5d71da5015d547d4d762fc739084d7dc0496da48879eec71cd2a"
@@ -840,6 +845,51 @@
       "sha256": "0cf53585a4994fa6f709883d698b102b28d43354244de523fff16b5eec4102bb"
     },
     {
+      "path": "docs/research/pre2000-source-chronology-2026-08-19.md",
+      "size": 24778,
+      "sha256": "49b20b550bba15776a7416e49e59c96513897924d20046f8456332e98d3716fd"
+    },
+    {
+      "path": "docs/research/pre2000-source-excavation-round2-2026-08-19.md",
+      "size": 12563,
+      "sha256": "e67b7baac8f57bc860db465bf71e60af5fea6b8cbb48d9b7498a530a3952f7ba"
+    },
+    {
+      "path": "docs/research/pre2000-source-excavation-round3-2026-08-19.md",
+      "size": 11292,
+      "sha256": "fec4c99e4f0a802c5f22d3d5d78cd7dcf59a81fa275ae09306bcdbc24215d2cc"
+    },
+    {
+      "path": "docs/research/pre2000-source-excavation-round4-2026-08-19.md",
+      "size": 6572,
+      "sha256": "ceaaf75e103f6b6dfe0edfc682148daed69ca0a4f1cbbd594de1b43bc2d4a57f"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round2.tsv",
+      "size": 6487,
+      "sha256": "5b84d56752b62b68838322f36ee7a0404217cec483a78dad69bd9e3c882bfc40"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round3.tsv",
+      "size": 5262,
+      "sha256": "89d1d4212dff01931e3bc5c4909ea4ff0fe351e82965e17d7861a5e57d9c7a5b"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round4-schneider-2026-08-19.tsv",
+      "size": 5902,
+      "sha256": "31b24a8892447b79a69892c2a9ddff15f089fcae018710bd60ac8a96e13b8bff"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger-round4.tsv",
+      "size": 3148,
+      "sha256": "fe0899f7bebb1e309866e744fd29184f30fc3379a62ca2f1052b2d6fccef5e93"
+    },
+    {
+      "path": "docs/research/pre2000-source-ledger.tsv",
+      "size": 12633,
+      "sha256": "17b906cd7b7713904bfb76c429a42ee84a5e7823d0d693092f6d691614d95b11"
+    },
+    {
       "path": "docs/research/primary-gap-search-2026-08-16.md",
       "size": 3977,
       "sha256": "6a9f822bcb2fe563985a8d2dced14517efaa460143d5a2faae4d205196ef6ccc"
@@ -878,6 +928,11 @@
       "path": "docs/research/safety.md",
       "size": 1074,
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
+    },
+    {
+      "path": "docs/research/schneider-energie-aus-dem-all-testatika-audit-2026-08-19.md",
+      "size": 11525,
+      "sha256": "024ee9226052f1d414510a86e986b11e237914bcd9602011603f9ddfc6974343"
     },
     {
       "path": "docs/research/source-acquisition-backlog-round6.tsv",
@@ -2890,6 +2945,11 @@
       "sha256": "42c6e4b70b848da4acb587844907fd0f10da1e46234a2e9fe120073a527ebde9"
     },
     {
+      "path": "sim/m2_v4_25_natural_geoelectric_bound.py",
+      "size": 3433,
+      "sha256": "d75f5494dee50e7eca5ac8aee2856835077817254849a65ab7f07f7662e1735d"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3228,6 +3288,11 @@
       "path": "tests/test_m2_v4_24_earth_rotation_coupling_bound.py",
       "size": 2835,
       "sha256": "1c6a5ba8b7c17a2311434d5d1f199633305bf93c2975ad64cd6e3dde67b561b4"
+    },
+    {
+      "path": "tests/test_m2_v4_25_natural_geoelectric_bound.py",
+      "size": 2220,
+      "sha256": "01391811917c80c82e497fd31de6c1985c9e01552faee5f1e980bcc27e87153b"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
