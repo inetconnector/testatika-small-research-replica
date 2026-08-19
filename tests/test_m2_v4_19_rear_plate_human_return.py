@@ -41,7 +41,7 @@ def test_distance_sweep_is_steep_for_human_held_plate():
     c2 = rear_return_capacitance_f(parallel_plate_capacitance_f(0.09, 0.02), body)
     assert c20 == pytest.approx(3.8812875685e-12)
     assert c2 == pytest.approx(31.4815408879e-12)
-    assert c2 / c20 == pytest.approx(8.111135706, rel=1e-6)
+    assert c2 / c20 == pytest.approx(8.1111075467, rel=1e-6)
 
 
 def test_target_ceq_for_1ma_at_250kv_24hz_is_26_53pf():
