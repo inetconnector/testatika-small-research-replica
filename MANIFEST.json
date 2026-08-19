@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 666,
+  "file_count": 667,
   "files": [
     {
       "path": ".gitattributes",
@@ -923,6 +923,11 @@
       "path": "docs/research/safety.md",
       "size": 1074,
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
+    },
+    {
+      "path": "docs/research/schneider-2023-pages48-111-scan-audit-2026-08-19.md",
+      "size": 14449,
+      "sha256": "22a089c3d71fabadd39a75a8e7bd046112cad28a7af855b9db7f84562a6930b1"
     },
     {
       "path": "docs/research/schneider-energie-aus-dem-all-testatika-audit-2026-08-19.md",
