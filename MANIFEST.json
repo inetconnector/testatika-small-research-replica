@@ -692,7 +692,7 @@
     {
       "path": "docs/research/m2-v4-20-local-infrastructure-bound.md",
       "size": 8774,
-      "sha256": "29d268f7e3e6cce72b05348668574c7e23009d340d410de8468c0d9532613c58"
+      "sha256": "3f62e008e9ac71cbeea31a2da89ed440980ae01f0e7134260c509b47e46b5c45"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
@@ -3166,8 +3166,8 @@
     },
     {
       "path": "tests/test_m2_v4_20_local_infrastructure_bound.py",
-      "size": 3176,
-      "sha256": "e835a7a4cda177e103031343ec401d903abb2c572eae6b660edf92b67336ad9d"
+      "size": 3175,
+      "sha256": "605b5e29b031920f7b6296751003b3c2b757399057a69be8862904ec4fb6fa11"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
