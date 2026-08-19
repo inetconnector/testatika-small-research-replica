@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 624,
+  "file_count": 626,
   "files": [
     {
       "path": ".gitattributes",
@@ -2785,6 +2785,11 @@
       "sha256": "79fc7a088f9718f4740e2518b3d1ab9e10078748ce3075147e168ca409f6de67"
     },
     {
+      "path": "sim/m2_v4_15_resonant_effective_aperture.py",
+      "size": 6869,
+      "sha256": "233549d7878b3ea85d8e865385891390fdfaf102f9dcc4c39004b77c363eb09a"
+    },
+    {
       "path": "sim/m2_v4_1_pot_crystal.py",
       "size": 18400,
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
@@ -3073,6 +3078,11 @@
       "path": "tests/test_m2_v4_14_dynamo_port.py",
       "size": 3682,
       "sha256": "88b9b8d9ac853f21dda6ea8e215802bfa61bc1ebdb0594dc5614f11eeb377c3e"
+    },
+    {
+      "path": "tests/test_m2_v4_15_resonant_effective_aperture.py",
+      "size": 2819,
+      "sha256": "4bb21fa1c272991d68bcbb1edcae1590f6d15b5fb3333c9968387e6553090d4d"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
