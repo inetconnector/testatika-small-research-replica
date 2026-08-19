@@ -70,8 +70,8 @@ def test_hf_transition_for_1nf_reaches_same_current_near_301khz():
     assert resonance_inductance_h(freq, 1e-9) == pytest.approx(279.841e-6)
 
 
-def test_150pf_reactance_at_50hz_is_21_2_gigaohm():
-    assert capacitive_reactance_ohm(50.0, 150e-12) == pytest.approx(2.1220659079e10)
+def test_150pf_reactance_at_50hz_is_21_2_megaohm():
+    assert capacitive_reactance_ohm(50.0, 150e-12) == pytest.approx(2.1220659079e7)
 
 
 def test_ideal_transformer_does_not_remove_100w_primary_current_requirement():
