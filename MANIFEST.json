@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 668,
+  "file_count": 670,
   "files": [
     {
       "path": ".gitattributes",
@@ -923,6 +923,16 @@
       "path": "docs/research/safety.md",
       "size": 1074,
       "sha256": "83b9245ac497019a042f708596b027a015f7c9cfd4a1ea7eaefab6c8494e4bc8"
+    },
+    {
+      "path": "docs/research/schneider-2023-pages22-44-ledger.tsv",
+      "size": 3869,
+      "sha256": "70922224541e6c8ad54ac756b24617f2f0a8d0e8d171368fd46197e239bc0ba2"
+    },
+    {
+      "path": "docs/research/schneider-2023-pages22-44-scan-audit-2026-08-20.md",
+      "size": 14825,
+      "sha256": "76a4e4e435c52ed9ad96dcc0a1ccb4d5e5ce414a25f4a981917ae33762566acc"
     },
     {
       "path": "docs/research/schneider-2023-pages48-111-ledger.tsv",
