@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 627,
+  "file_count": 633,
   "files": [
     {
       "path": ".gitattributes",
@@ -663,6 +663,16 @@
       "path": "docs/research/m2-v4-15-resonant-effective-aperture.md",
       "size": 14020,
       "sha256": "9f689aaed9917a7ea1f903c8f1d8badb8ef46e9a56b3a7b6086886b2f4ce87a7"
+    },
+    {
+      "path": "docs/research/m2-v4-16-corona-return-port.md",
+      "size": 16806,
+      "sha256": "ce9abde26c07c3a709d157d180d0517cfdf2c515dfd2db218cbd16920ecf7d71"
+    },
+    {
+      "path": "docs/research/m2-v4-17-corotation-dynamo-bound.md",
+      "size": 11272,
+      "sha256": "a83bf25089277869aa7809d2cdce78df62a4448992eac8672d4ee233b662e915"
     },
     {
       "path": "docs/research/m2-v4-2-multiphase-corona.md",
@@ -2795,6 +2805,16 @@
       "sha256": "233549d7878b3ea85d8e865385891390fdfaf102f9dcc4c39004b77c363eb09a"
     },
     {
+      "path": "sim/m2_v4_16_corona_return_port.py",
+      "size": 7885,
+      "sha256": "c0c9f111180feeb52e388907727d317a244074a18bbdb004f4d31031d7305014"
+    },
+    {
+      "path": "sim/m2_v4_17_corotation_dynamo_bound.py",
+      "size": 4646,
+      "sha256": "92ea6706e677e9dd1ae2ca947532fdf96ff81a046742574f855b3ddea33a4da4"
+    },
+    {
       "path": "sim/m2_v4_1_pot_crystal.py",
       "size": 18400,
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
@@ -3088,6 +3108,16 @@
       "path": "tests/test_m2_v4_15_resonant_effective_aperture.py",
       "size": 2819,
       "sha256": "917fd9b8304b9b5dce2d427d44e2fdad0974eafa64bd451a28cb658431665377"
+    },
+    {
+      "path": "tests/test_m2_v4_16_corona_return_port.py",
+      "size": 3121,
+      "sha256": "9b7664ed3aa4046c028574230e6de4cdc4af6e76808c49fc7a833f5d6b03dcec"
+    },
+    {
+      "path": "tests/test_m2_v4_17_corotation_dynamo_bound.py",
+      "size": 1705,
+      "sha256": "19558710077eccd9824edbae896ca52a4a3e48a312e30e23740cc9337f725a6a"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
