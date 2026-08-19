@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 651,
+  "file_count": 652,
   "files": [
     {
       "path": ".gitattributes",
@@ -2878,6 +2878,11 @@
       "path": "sim/m2_v4_23_non_electrical_source_bounds.py",
       "size": 6572,
       "sha256": "14f48adcd1789a03fae5044361a04ec9504a60984dab85a1b1ea8c6b34f28742"
+    },
+    {
+      "path": "sim/m2_v4_24_earth_rotation_coupling_bound.py",
+      "size": 4893,
+      "sha256": "42c6e4b70b848da4acb587844907fd0f10da1e46234a2e9fe120073a527ebde9"
     },
     {
       "path": "sim/m2_v4_2_multiphase_corona.py",
