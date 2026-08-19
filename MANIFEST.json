@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 636,
+  "file_count": 638,
   "files": [
     {
       "path": ".gitattributes",
@@ -2825,6 +2825,11 @@
       "sha256": "874c40e44327d8178e1440d8365be50007e12b3371c8e6e6940ca987861fe9d3"
     },
     {
+      "path": "sim/m2_v4_19_rear_plate_human_return.py",
+      "size": 5531,
+      "sha256": "3b9c4aa78d4a880b04d30ead1b0ee45512ba038d868476772c20c122c10e3863"
+    },
+    {
       "path": "sim/m2_v4_1_pot_crystal.py",
       "size": 18400,
       "sha256": "a1f42fce4e79643c2ea010dc37c0a654b3caccb0a4ee07531d22905815989fed"
@@ -3133,6 +3138,11 @@
       "path": "tests/test_m2_v4_18_two_port_return.py",
       "size": 4470,
       "sha256": "f46f047813a8e94fd9ec7bf479968447b10325102b97280ccafb7270074bc41c"
+    },
+    {
+      "path": "tests/test_m2_v4_19_rear_plate_human_return.py",
+      "size": 3683,
+      "sha256": "7606ffd1ad3fcfb3b7dca9517d815aa544067a5595f658ee675c25df77f082d3"
     },
     {
       "path": "tests/test_m2_v4_1_pot_crystal.py",
