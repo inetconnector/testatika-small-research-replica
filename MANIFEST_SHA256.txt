@@ -8,7 +8,7 @@ b76411d083701047e165fef1fe328203dd9ac4744de894ed8b979f4c49b2cf2e  .github/workfl
 ceeb08780d10868d44c26f0744b7630e7800ced0caa356e74915e994c3af1f4f  .github/workflows/preservation-guard.yml
 d165e68bf5a59ac37455fbab9dc72c2d3738d9cbf573ab925943179d8eebf1ed  .github/workflows/refresh-manifest.yml
 5d5879e6a5a51455b220ac2ee92ea835a0b6c09f8c0574e5da06f4e74ae33067  .github/workflows/snapshot-main.yml
-e440ef79622445ed724b95161e174a3f82cbce2ea080d86bad392e77e6ecaa91  .github/workflows/validate.yml
+cea390791e6b5a62a83992db8f13acc17e11495446c17cea23b61dc8d673b381  .github/workflows/validate.yml
 9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781  .gitignore
 d0e28616fcb24c47dceb1f9a3491a2937cc242c7e3b9cbf1503f2a31ebf9105b  ADDON.md
 e9f959a706a23bd72aeca71f1e20619d06059e10450d903b2ea07b1553cee13c  AGENTS.md
@@ -143,6 +143,7 @@ fa2bc12a4e198d569c6a9069bb1e9bf709091a81bdedb32b39da49b9b034d4fb  docs/research/
 575745c3a32c6c8c88ab21b7bdf629ba60977a72ec844a536ba7b4afa7b86496  docs/research/m2-v4-26-two-time-phase-resonance.md
 80ad3262236989801140c8c635cf8ac7f42061127c37b12a711150bdb886eead  docs/research/m2-v4-27-reservoir-isolation.md
 1504b0d134dae50dfd7dde821229a4231bc6c030da612da89deff4ff18c473fe  docs/research/m2-v4-28-source-elimination-matrix.md
+978f41bf9d7a52890104deb3318f3805ebb09bd2eac57a445af91ab9e9fc7512  docs/research/m2-v4-29-surface-redox-reservoir-hypothesis.md
 eb2bf9e4331b5d71da5015d547d4d762fc739084d7dc0496da48879eec71cd2a  docs/research/m2-v4-3-external-source-bounds.md
 39ab1e6d6eb7654aea263d71c9d1359c3e5dd25ceac4393c48510ae142aec0dc  docs/research/m2-v4-4-floating-return-path.md
 ecd45bc4510fd2453ef1a7436b797ac9fbb9179f258397ff1d92b6591f1a9d0f  docs/research/m2-v4-5-two-environment-ports.md

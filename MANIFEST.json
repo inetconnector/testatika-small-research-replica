@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 682,
+  "file_count": 683,
   "files": [
     {
       "path": ".gitattributes",
@@ -56,8 +56,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 2442,
-      "sha256": "e440ef79622445ed724b95161e174a3f82cbce2ea080d86bad392e77e6ecaa91"
+      "size": 2499,
+      "sha256": "cea390791e6b5a62a83992db8f13acc17e11495446c17cea23b61dc8d673b381"
     },
     {
       "path": ".gitignore",
@@ -728,6 +728,11 @@
       "path": "docs/research/m2-v4-28-source-elimination-matrix.md",
       "size": 6786,
       "sha256": "1504b0d134dae50dfd7dde821229a4231bc6c030da612da89deff4ff18c473fe"
+    },
+    {
+      "path": "docs/research/m2-v4-29-surface-redox-reservoir-hypothesis.md",
+      "size": 8865,
+      "sha256": "978f41bf9d7a52890104deb3318f3805ebb09bd2eac57a445af91ab9e9fc7512"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
