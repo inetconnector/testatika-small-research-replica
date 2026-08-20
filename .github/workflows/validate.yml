@@ -53,6 +53,7 @@ jobs:
           tests/test_m2_v4_26_two_time_phase_resonance.py
           tests/test_m2_v4_27_reservoir_isolation.py
           tests/test_m2_v4_28_source_elimination_matrix.py
+          tests/test_m2_v4_29_surface_redox_reservoir.py
       - name: Verify committed integrity manifest
         if: github.event_name != 'push'
         run: python scripts/check_manifest.py
