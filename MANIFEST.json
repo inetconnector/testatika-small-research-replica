@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 674,
+  "file_count": 676,
   "files": [
     {
       "path": ".gitattributes",
@@ -2980,6 +2980,11 @@
       "sha256": "673bff768f04a8af8bb336b8aba0a861b4bcb7ee15a504a6371b45b2ddace80b"
     },
     {
+      "path": "sim/m2_v4_27_reservoir_isolation.py",
+      "size": 6020,
+      "sha256": "88405ccfdfaf8b0bd57cb40caabfe9c12b2bc4ab21b35022631d53bf9acde6cc"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3328,6 +3333,11 @@
       "path": "tests/test_m2_v4_26_two_time_phase_resonance.py",
       "size": 2255,
       "sha256": "60f0f90b1e205d75250eff5ae22e578770e38caf5f2569de90c4bd69285f5cf7"
+    },
+    {
+      "path": "tests/test_m2_v4_27_reservoir_isolation.py",
+      "size": 2812,
+      "sha256": "39e263420e841c268eec266872f08e916b5847ec4504a26df15b4ba35683535c"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
