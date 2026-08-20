@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 688,
+  "file_count": 689,
   "files": [
     {
       "path": ".gitattributes",
@@ -56,8 +56,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 2553,
-      "sha256": "82273d75dde3e026f150e94bb0a9a424e8f909ada0ba8c863c3a3829eb9b91a6"
+      "size": 2615,
+      "sha256": "ea9cee5d570a04108d0bb3b9548f352e706ad58ec1ea0449f5ef23ffad4694c8"
     },
     {
       "path": ".gitignore",
@@ -743,6 +743,11 @@
       "path": "docs/research/m2-v4-30-distributed-redox-rectifier-burst-buffer.md",
       "size": 12593,
       "sha256": "2afc9407fb97412c7a888e5024408323faa37660d2493d3dfca024ad84966300"
+    },
+    {
+      "path": "docs/research/m2-v4-31-pot-envelope-reservoir-bound.md",
+      "size": 10939,
+      "sha256": "fcbc68b3de63549b83e5ea70bf4b27c099a8900edb548f3460e794b771c5094b"
     },
     {
       "path": "docs/research/m2-v4-4-floating-return-path.md",
