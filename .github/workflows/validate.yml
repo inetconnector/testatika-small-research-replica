@@ -35,7 +35,7 @@ jobs:
         run: python scripts/validate_assets.py
       - name: Validate evidence wiring registries and diagrams
         run: python scripts/check_evidence_wiring.py
-      - name: Run environmental source-bound regression tests
+      - name: Run environmental source-bound and phase-resonance regression tests
         run: >-
           python -m pytest -q
           tests/test_m2_v4_14_dynamo_port.py
@@ -50,6 +50,7 @@ jobs:
           tests/test_m2_v4_23_non_electrical_source_bounds.py
           tests/test_m2_v4_24_earth_rotation_coupling_bound.py
           tests/test_m2_v4_25_natural_geoelectric_bound.py
+          tests/test_m2_v4_26_two_time_phase_resonance.py
       - name: Verify committed integrity manifest
         if: github.event_name != 'push'
         run: python scripts/check_manifest.py
