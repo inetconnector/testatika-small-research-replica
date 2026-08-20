@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 679,
+  "file_count": 680,
   "files": [
     {
       "path": ".gitattributes",
@@ -56,8 +56,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "size": 2397,
-      "sha256": "5722ff70146d69dd73fb3dd91a2d11ed3cbae8c1443a2b289a9257acae73eb21"
+      "size": 2442,
+      "sha256": "e440ef79622445ed724b95161e174a3f82cbce2ea080d86bad392e77e6ecaa91"
     },
     {
       "path": ".gitignore",
@@ -723,6 +723,11 @@
       "path": "docs/research/m2-v4-27-reservoir-isolation.md",
       "size": 7740,
       "sha256": "80ad3262236989801140c8c635cf8ac7f42061127c37b12a711150bdb886eead"
+    },
+    {
+      "path": "docs/research/m2-v4-28-source-elimination-matrix.md",
+      "size": 6786,
+      "sha256": "1504b0d134dae50dfd7dde821229a4231bc6c030da612da89deff4ff18c473fe"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
