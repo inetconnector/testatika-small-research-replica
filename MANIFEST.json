@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 671,
+  "file_count": 673,
   "files": [
     {
       "path": ".gitattributes",
@@ -2970,6 +2970,11 @@
       "sha256": "d75f5494dee50e7eca5ac8aee2856835077817254849a65ab7f07f7662e1735d"
     },
     {
+      "path": "sim/m2_v4_26_two_time_phase_resonance.py",
+      "size": 8720,
+      "sha256": "673bff768f04a8af8bb336b8aba0a861b4bcb7ee15a504a6371b45b2ddace80b"
+    },
+    {
       "path": "sim/m2_v4_2_multiphase_corona.py",
       "size": 19959,
       "sha256": "b3442449fadd01031648ec81013f964921460b863f60fd2d9887f39472e7c34f"
@@ -3313,6 +3318,11 @@
       "path": "tests/test_m2_v4_25_natural_geoelectric_bound.py",
       "size": 2220,
       "sha256": "01391811917c80c82e497fd31de6c1985c9e01552faee5f1e980bcc27e87153b"
+    },
+    {
+      "path": "tests/test_m2_v4_26_two_time_phase_resonance.py",
+      "size": 2255,
+      "sha256": "60f0f90b1e205d75250eff5ae22e578770e38caf5f2569de90c4bd69285f5cf7"
     },
     {
       "path": "tests/test_m2_v4_2_multiphase_corona.py",
