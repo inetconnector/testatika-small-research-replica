@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 676,
+  "file_count": 677,
   "files": [
     {
       "path": ".gitattributes",
@@ -718,6 +718,11 @@
       "path": "docs/research/m2-v4-26-two-time-phase-resonance.md",
       "size": 9247,
       "sha256": "575745c3a32c6c8c88ab21b7bdf629ba60977a72ec844a536ba7b4afa7b86496"
+    },
+    {
+      "path": "docs/research/m2-v4-27-reservoir-isolation.md",
+      "size": 7740,
+      "sha256": "80ad3262236989801140c8c635cf8ac7f42061127c37b12a711150bdb886eead"
     },
     {
       "path": "docs/research/m2-v4-3-external-source-bounds.md",
