@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 673,
+  "file_count": 674,
   "files": [
     {
       "path": ".gitattributes",
@@ -708,6 +708,11 @@
       "path": "docs/research/m2-v4-25-natural-geoelectric-bound.md",
       "size": 13412,
       "sha256": "05af46a83f9f6f6026959eb715cf669b6a9c9a7bd3298d9ea95b71b7150b6fb2"
+    },
+    {
+      "path": "docs/research/m2-v4-26-test-results-2026-08-20.md",
+      "size": 6596,
+      "sha256": "fa2bc12a4e198d569c6a9069bb1e9bf709091a81bdedb32b39da49b9b034d4fb"
     },
     {
       "path": "docs/research/m2-v4-26-two-time-phase-resonance.md",
