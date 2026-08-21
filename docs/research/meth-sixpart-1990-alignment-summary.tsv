@@ -1,0 +1,8 @@
+part	duration_s	vad_threshold_dbfs	active_fraction	active_seconds
+Meth_1	565.838	-27.24	0.6221	352.00
+Meth_2	526.785	-26.73	0.6425	338.48
+Meth_3	549.094	-28.19	0.6100	334.92
+Meth_4	481.881	-36.33	0.6619	318.94
+Meth_5	366.158	-35.88	0.6815	249.54
+Meth_6	427.128	-34.19	0.7088	302.76
+ANCHOR_CAMERA_FAILURE	Meth_3	346.89	approx transcript alignment	German visitor says camera is not working; visual/source disturbance begins approx 358-361 s
