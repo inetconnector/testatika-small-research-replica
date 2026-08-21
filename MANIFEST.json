@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 701,
+  "file_count": 702,
   "files": [
     {
       "path": ".gitattributes",
@@ -871,8 +871,8 @@
     },
     {
       "path": "docs/research/meth-sixpart-1990-audio-backlog.md",
-      "size": 7488,
-      "sha256": "188f9c02f758acf12029af6e2fdb18e65170c8147add443181e465c2080dfdf1"
+      "size": 5617,
+      "sha256": "6111d24b4791d24dbea4b667d4cb1a9cf1c5caaa2d6a41c64f3f93e480385504"
     },
     {
       "path": "docs/research/meth-sixpart-1990-frame-locators.tsv",
@@ -898,6 +898,11 @@
       "path": "docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv",
       "size": 6191,
       "sha256": "d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-transcript-findings-v2-2026-08-22.md",
+      "size": 9171,
+      "sha256": "342a3c25acfdb0274d5787c47e0b9b1b175f417ec0c20327280030f0800d6275"
     },
     {
       "path": "docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md",
