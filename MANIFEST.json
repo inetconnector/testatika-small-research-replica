@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 689,
+  "file_count": 691,
   "files": [
     {
       "path": ".gitattributes",
@@ -3035,6 +3035,11 @@
       "sha256": "ffc5a0adc507e6d2685952c8bb615cb208dce9b0515d1571912be80bb019436a"
     },
     {
+      "path": "sim/m2_v4_32_physical_reservoir_siting.py",
+      "size": 5248,
+      "sha256": "d516898e07de8a635409ed3bea7fab157dec038d0a0ecc75fcea87595fc03ba5"
+    },
+    {
       "path": "sim/m2_v4_3_external_source_bounds.py",
       "size": 7067,
       "sha256": "6174857a34341237cfc505e8e4fa0674d7a462a8e9ebf8054a1f8881e8512686"
@@ -3408,6 +3413,11 @@
       "path": "tests/test_m2_v4_31_pot_envelope_reservoir_bound.py",
       "size": 1982,
       "sha256": "a9db307460845f5966d8d71871388028a0bc3b34b69417cb62ad605a3d2ed5ca"
+    },
+    {
+      "path": "tests/test_m2_v4_32_physical_reservoir_siting.py",
+      "size": 2087,
+      "sha256": "7be1f1e0631b70d0c1bf98337c5965070986e7388b884e1ad08ae18e5b1e1ebe"
     },
     {
       "path": "tests/test_m2_v4_3_external_source_bounds.py",
