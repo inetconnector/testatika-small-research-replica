@@ -56,6 +56,7 @@ jobs:
           tests/test_m2_v4_29_surface_redox_reservoir.py
           tests/test_m2_v4_30_burst_buffered_redox.py
           tests/test_m2_v4_31_pot_envelope_reservoir_bound.py
+          tests/test_m2_v4_32_physical_reservoir_siting.py
       - name: Verify committed integrity manifest
         if: github.event_name != 'push'
         run: python scripts/check_manifest.py
