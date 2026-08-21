@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 692,
+  "file_count": 696,
   "files": [
     {
       "path": ".gitattributes",
@@ -863,6 +863,26 @@
       "path": "docs/research/magnets.md",
       "size": 742,
       "sha256": "296c5298425bab3fdc063959dd8b1829cd68d0779ab79b72c188c028df45ad0b"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-audio-backlog.md",
+      "size": 3588,
+      "sha256": "fff1f301e9cdfa2f7d0400484824375521fc926c08d82cb41cbb66d9e3dbf3b3"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-frame-locators.tsv",
+      "size": 2185,
+      "sha256": "823da2cea9b0646dde1fe4c55ff38d4bbc5ba10f409048a310006c0d04699fb6"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-source-ledger.tsv",
+      "size": 4887,
+      "sha256": "4fad7842a525184e060e2e3eec5a8fcd3e26aa4cad9db05feba2b05a47f25df2"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md",
+      "size": 12085,
+      "sha256": "a79a5ff14ed8c912cef70e8c173e5b1345f31f0ffefe798be5e6449bac9ec0a1"
     },
     {
       "path": "docs/research/photogrammetry.md",
