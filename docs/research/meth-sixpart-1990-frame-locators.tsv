@@ -1,0 +1,12 @@
+source_id	file	locator	visible_content	evidence_class	machine_id	consequence
+METH90-L01	avi/Meth_1.avi	~00:00.2	in-picture camera clock `16/07/1990 18:45:23`; view largely obstructed	OBSERVED/provenance	MX	Dates underlying camera material; does not identify speaker or machine.
+METH90-L02	avi/Meth_1.avi	~09:25	in-picture clock reaches approximately `18:54:51`	OBSERVED/provenance	MX	Supports continuous time progression into part 2.
+METH90-L03	avi/Meth_2.avi	~00:00.2	in-picture clock approximately `18:54:52`	OBSERVED/provenance	MX	Part 2 follows part 1 chronologically in visible source time.
+METH90-L04	avi/Meth_2.avi	~08:46	in-picture clock approximately `19:03:40`	OBSERVED/provenance	MX	Supports continuous time progression into part 3.
+METH90-L05	avi/Meth_3.avi	~00:00.2	in-picture clock approximately `19:03:40`	OBSERVED/provenance	MX	Part 3 begins at same visible source-time boundary as part 2 ending.
+METH90-L06	avi/Meth_3.avi	~05:58-06:01	timestamped green view rapidly interleaves with clothing/orange/exterior frames	OBSERVED/source-transition	MX	Treat as edit/capture/source discontinuity; do not infer continuous camera motion.
+METH90-L07	avi/Meth_3.avi	~06:00.06	brief exterior building frame; sign reads most consistently `TRIGONORM AG`, vertical `TRIGO` branding visible	OBSERVED/provenance	MX	Strong Linden/site-area provenance clue after independent directory cross-check; no mechanism implication.
+METH90-L08	Meth_3.flv	~06:00	same transition/exterior sequence appears in paired YouTube-derived encode	OBSERVED/duplicate-control	MX	Shows transition is inherited from source/copy chain rather than AVI decoder-only artifact.
+METH90-L09	avi/Meth_4.avi	full traversal	predominantly tan/khaki coat, knit garment, trousers, hands/nearby surfaces; no defensible Testatika close-up	OBSERVED/negative	MX	No geometry/topology promotion.
+METH90-L10	avi/Meth_5.avi	full traversal	predominantly clothing/nearby surfaces; no defensible Testatika close-up	OBSERVED/negative	MX	No geometry/topology promotion.
+METH90-L11	avi/Meth_6.avi	full traversal	predominantly clothing/nearby surfaces; no defensible Testatika close-up	OBSERVED/negative	MX	No geometry/topology promotion.
