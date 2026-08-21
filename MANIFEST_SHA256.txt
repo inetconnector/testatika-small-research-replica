@@ -176,6 +176,7 @@ a8d4f5b8db33e143fa141d70f06c88f85595e2f3a3d3372b8c8b47da31d0dbe8  docs/research/
 67664570a42857bc82b70a48fd4d39e211c372e0a87dbdf0fa35b48c0c44ff29  docs/research/meth-sixpart-1990-full-transcript-source-locked.md
 4fad7842a525184e060e2e3eec5a8fcd3e26aa4cad9db05feba2b05a47f25df2  docs/research/meth-sixpart-1990-source-ledger.tsv
 a79a5ff14ed8c912cef70e8c173e5b1345f31f0ffefe798be5e6449bac9ec0a1  docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md
+d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1  docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv
 d9e1c0772f8f21e26311673ce7f35785c0e83a807c69e5e7ec0bdcaafc59bb0f  docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md
 5adefe352b28d968c1b5b8eb9ee4724ca46836947c8c91e073f7abf72a8c8343  docs/research/photogrammetry.md
 0cf53585a4994fa6f709883d698b102b28d43354244de523fff16b5eec4102bb  docs/research/pots.md

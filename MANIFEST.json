@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 700,
+  "file_count": 701,
   "files": [
     {
       "path": ".gitattributes",
@@ -893,6 +893,11 @@
       "path": "docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md",
       "size": 12085,
       "sha256": "a79a5ff14ed8c912cef70e8c173e5b1345f31f0ffefe798be5e6449bac9ec0a1"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv",
+      "size": 6191,
+      "sha256": "d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1"
     },
     {
       "path": "docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md",
