@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 699,
+  "file_count": 700,
   "files": [
     {
       "path": ".gitattributes",
@@ -878,6 +878,11 @@
       "path": "docs/research/meth-sixpart-1990-frame-locators.tsv",
       "size": 2185,
       "sha256": "823da2cea9b0646dde1fe4c55ff38d4bbc5ba10f409048a310006c0d04699fb6"
+    },
+    {
+      "path": "docs/research/meth-sixpart-1990-full-transcript-source-locked.md",
+      "size": 17774,
+      "sha256": "67664570a42857bc82b70a48fd4d39e211c372e0a87dbdf0fa35b48c0c44ff29"
     },
     {
       "path": "docs/research/meth-sixpart-1990-source-ledger.tsv",
