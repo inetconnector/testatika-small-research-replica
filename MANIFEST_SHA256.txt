@@ -178,7 +178,7 @@ a8d4f5b8db33e143fa141d70f06c88f85595e2f3a3d3372b8c8b47da31d0dbe8  docs/research/
 a79a5ff14ed8c912cef70e8c173e5b1345f31f0ffefe798be5e6449bac9ec0a1  docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md
 d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1  docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv
 cd7cc539069b92acd305ca8d60bb005fba8364cc71b7381df8f01ee1cf83b1e0  docs/research/meth-sixpart-1990-transcript-findings-v2-2026-08-22.md
-d9e1c0772f8f21e26311673ce7f35785c0e83a807c69e5e7ec0bdcaafc59bb0f  docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md
+b4d3ffae120237aebff6f12e41100a068e081e496a585d412718ad9633804546  docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md
 5adefe352b28d968c1b5b8eb9ee4724ca46836947c8c91e073f7abf72a8c8343  docs/research/photogrammetry.md
 0cf53585a4994fa6f709883d698b102b28d43354244de523fff16b5eec4102bb  docs/research/pots.md
 49b20b550bba15776a7416e49e59c96513897924d20046f8456332e98d3716fd  docs/research/pre2000-source-chronology-2026-08-19.md
