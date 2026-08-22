@@ -1,0 +1,102 @@
+name: Meth public-source ASR
+
+on:
+  push:
+    branches:
+      - fix/meth-real-audio-transcription-2026-08-22
+    paths:
+      - .github/workflows/meth-public-source-asr.yml
+      - .asr-trigger
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ASR tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install faster-whisper yt-dlp
+
+      - name: Download public historical videos
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .asr-work/audio
+          ids=(dPm31Zv9Ujk rTB5kwmv9D4 XuYFirmcxwg I13q_WyeDW0 Xo3QcNi_Ugs)
+          for id in "${ids[@]}"; do
+            yt-dlp --no-playlist -f 'bestaudio/best' -x --audio-format wav --audio-quality 0 \
+              -o ".asr-work/audio/${id}.%(ext)s" "https://www.youtube.com/watch?v=${id}" || true
+          done
+          ls -lah .asr-work/audio
+
+      - name: Transcribe with faster-whisper
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs/research/meth-public-asr
+          cat > .asr-work/transcribe.py <<'PY'
+          from pathlib import Path
+          import json
+          from faster_whisper import WhisperModel
+
+          ids = [
+              ('part1','dPm31Zv9Ujk'),
+              ('part2','rTB5kwmv9D4'),
+              ('part3','XuYFirmcxwg'),
+              ('part4','I13q_WyeDW0'),
+              ('part5','Xo3QcNi_Ugs'),
+          ]
+          outdir = Path('docs/research/meth-public-asr')
+          outdir.mkdir(parents=True, exist_ok=True)
+          model = WhisperModel('small.en', device='cpu', compute_type='int8')
+          report=[]
+          for part, vid in ids:
+              matches=list(Path('.asr-work/audio').glob(f'{vid}.*'))
+              if not matches:
+                  report.append({'part':part,'video_id':vid,'status':'download-missing'})
+                  continue
+              audio=matches[0]
+              segments, info = model.transcribe(
+                  str(audio), language='en', beam_size=5, vad_filter=True,
+                  word_timestamps=True, condition_on_previous_text=True,
+              )
+              segs=[]
+              lines=[]
+              words=[]
+              for s in segments:
+                  text=s.text.strip()
+                  segs.append({'start':s.start,'end':s.end,'text':text,'avg_logprob':getattr(s,'avg_logprob',None),'no_speech_prob':getattr(s,'no_speech_prob',None)})
+                  lines.append(f'[{s.start:09.2f} --> {s.end:09.2f}] {text}')
+                  if s.words:
+                      for w in s.words:
+                          words.append({'start':w.start,'end':w.end,'word':w.word,'probability':w.probability})
+              (outdir/f'{part}_{vid}.txt').write_text('\n'.join(lines)+'\n', encoding='utf-8')
+              (outdir/f'{part}_{vid}.json').write_text(json.dumps({'video_id':vid,'language':info.language,'language_probability':info.language_probability,'duration':getattr(info,'duration',None),'segments':segs,'words':words}, indent=2), encoding='utf-8')
+              report.append({'part':part,'video_id':vid,'status':'ok','language':info.language,'language_probability':info.language_probability,'duration':getattr(info,'duration',None),'segments':len(segs)})
+          (outdir/'report.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+          PY
+          python .asr-work/transcribe.py
+
+      - name: Commit text-only ASR results
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/research/meth-public-asr
+          if git diff --cached --quiet; then
+            echo 'No ASR results generated.'
+            exit 0
+          fi
+          git commit -m 'research: add machine ASR of public Meth video sources'
+          git push
