@@ -257,7 +257,7 @@
     {
       "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
       "size": 2449,
-      "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+      "sha256": "68a52b438b719d02b9861014ebf0a25648388df86e124590e92b40c36aedee9c"
     },
     {
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
