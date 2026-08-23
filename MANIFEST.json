@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 731,
+  "file_count": 733,
   "files": [
     {
       "path": ".gitattributes",
@@ -966,13 +966,23 @@
     },
     {
       "path": "docs/research/methernitha-physics-operating-model-corrigendum-2026-08-23.md",
-      "size": 7857,
-      "sha256": "26abaae1adaec8f374fef851207280b172ae68b9dd65543b1d878fd20db008c1"
+      "size": 9105,
+      "sha256": "3915238e6576b70558596fd73cf59ee55394479d795063dc0eccb13bb8ed3397"
     },
     {
       "path": "docs/research/methernitha-physics-operating-model.md",
       "size": 19392,
       "sha256": "65f34d8b4e0ba632d72c5793be01244158434e8a3982f4bb88dc38dcdb990834"
+    },
+    {
+      "path": "docs/research/order-non-equilibrium-framework.md",
+      "size": 14577,
+      "sha256": "f73bc66edcc7258dc7a01eba82157c093acbe225cec3aa15eb3196172b795e08"
+    },
+    {
+      "path": "docs/research/order-non-equilibrium-test-matrix.tsv",
+      "size": 2604,
+      "sha256": "5432e69027c2b5e90720d9be0ec8e2ce7e151d1fe5517c8d47840930152ac9a8"
     },
     {
       "path": "docs/research/photogrammetry.md",
