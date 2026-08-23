@@ -1,0 +1,214 @@
+schema_version: 1
+audit_id: DOC-CONTINUOUS-POWER-INFO-THERMO-2026-08-23
+generated_date: 2026-08-23
+notes:
+  - "This ledger follows docs/research/provenance-schema.yaml where applicable."
+  - "Historical operational claims are not promoted to measured net-energy facts."
+  - "Scientific-control papers establish thermodynamic principles, not a Testatika mechanism."
+
+sources:
+  - source_id: HIST-1984-LL-NIEPER
+    title: "Inspection of the Swiss Tachyon Converter on 17 March 1984"
+    author_or_speaker: "L. L., Rorschach, Switzerland"
+    source_type: eyewitness_report
+    source_distance: P2
+    machine_id: M5
+    date_or_period: "1984-03-17 event; reproduced in 1985-era Nieper edition"
+    locator: "Nieper book pagination pp. 360-361; PDF around P352-P354; daily-network statement at extracted PDF lines 8935-8941"
+    url_or_archive_id: "https://navegantesdelcosmos.ec/repositorio/libros/Revolution%20In%20Technology%20Medicine%20And%20Society.%20Conversion%20Of%20Gravity%20Field%20Energy%20-%20Hans%20Alfred%20Nieper.pdf"
+    confidence: medium_high
+    rights_status: third_party_link_only
+    statement_summary: "First-person visitor report claims daily company-network current via inverter and accumulator, with additional current from two to three wind converters; brief lamp/heater demonstration also described."
+    original_language: "surviving edition English; underlying original report language unresolved"
+    claim_type: operation
+    replication_effect: "Separates daily-use claim from brief witnessed load; does not close energy balance."
+    conflicts_with: "Later retellings that imply an isolated Testatika-only company supply."
+    notes: "Original typed L.L. report not yet acquired; later Kelly quotation is downstream."
+
+  - source_id: HIST-1985-NIEPER-GREENHOUSE
+    title: "The Swiss ML-Converter — A Masterpiece of Craftsmanship and Electronic Engineering"
+    author_or_speaker: "Hans A. Nieper"
+    source_type: direct_publication
+    source_distance: H1
+    machine_id: M5
+    date_or_period: "Nieper reports personal inspection 1984-10-28; publication 1985-era expanded edition"
+    locator: "Book p. 359; PDF P351; extracted lines 8851-8856"
+    url_or_archive_id: "https://navegantesdelcosmos.ec/repositorio/libros/Revolution%20In%20Technology%20Medicine%20And%20Society.%20Conversion%20Of%20Gravity%20Field%20Energy%20-%20Hans%20Alfred%20Nieper.pdf"
+    confidence: medium
+    rights_status: third_party_link_only
+    statement_summary: "Nieper states one machine, possibly one or two more, had run since 1982, including heating a roughly 5500-square-foot greenhouse in winter, and assigns about 3-4 kW at 230 V DC."
+    claim_type: output_claim
+    replication_effect: "High-value early sustained-use claim but no meter/storage/input accounting."
+    notes: "Nieper's tachyon/gravity-field causal interpretation is not accepted as measured mechanism."
+
+  - source_id: HIST-1986-HAUSER
+    title: "Albert Hauser 14-Feb-1986 Methernitha visit report"
+    author_or_speaker: "Albert Hauser"
+    source_type: eyewitness_report
+    source_distance: P2
+    machine_id: M6a
+    date_or_period: "1986-02-14 visit; 1986/1987 publication lineage; later quoted in Kelly/Bailey"
+    locator: "Kelly/Bailey mirror PDF pp. 4-5, extracted lines 130-135"
+    url_or_archive_id: "https://hiroko.or.jp/wp-content/file/nextgenerationenergy/TESTATIKA/1994-0821_swissMLconvertor-English.pdf"
+    confidence: high
+    rights_status: third_party_link_only
+    statement_summary: "Large machine demonstrated with 1000-W-rated glow lamp; small machine ran about two hours, explicitly without a resistive load during that test."
+    claim_type: measurement
+    replication_effect: "Prevents conflating two-hour run time with two-hour 200-W load delivery."
+    notes: "Direct original Hauser publication remains preferable acquisition target."
+
+  - source_id: HIST-1988-LINDEN-VISITOR-DOE-PACKET
+    title: "Besuch in Linden bei der Genossenschaft Methernitha — 2. Juli 1988"
+    author_or_speaker: "Visitor report; associated on-page with Kaspar & Karlen book context; exact report authorship unresolved"
+    source_type: eyewitness_report
+    source_distance: P2
+    machine_id: M6a
+    date_or_period: "1988-07-02"
+    locator: "Technidyne/DOE packet PDF page P9; extracted lines 348-418; supply claim lines 374-385"
+    url_or_archive_id: "https://documents.theblackvault.com/documents/doe/osti-coldfusion/Technidyne%20Associates.pdf"
+    confidence: medium_high
+    rights_status: third_party_link_only
+    statement_summary: "Claims approximately 3 kW per converter, about 4 kW in sunshine, and that ten converters plus windmills provided sufficient electricity for 180 persons and businesses; reports Cathomen hand-started a converter."
+    sha256: "9e0ad98d96fc2fbcdeb692a9e253da6881f0e1308cc1c177ae550ca5488d4816"
+    accessed_utc: "2026-08-23"
+    claim_type: output_claim
+    replication_effect: "Strong early mixed-supply community-use claim; not a source-isolated energy balance."
+    conflicts_with: "Any wording that treats DOE archival custody as DOE validation."
+    notes: "Hash is of the current 12-page public mirror downloaded 2026-08-23."
+
+  - source_id: HIST-1989-DOE-REPLY
+    title: "U.S. Department of Energy reply to D. A. Kelly"
+    author_or_speaker: "Ryszard Gajewski, Director, Division of Advanced Energy Projects, Office of Basic Energy Sciences"
+    source_type: direct_correspondence
+    source_distance: P1
+    machine_id: unknown
+    date_or_period: "1989-05-26"
+    locator: "Technidyne/DOE packet PDF P0; lines 12-34, especially 28-32"
+    url_or_archive_id: "https://documents.theblackvault.com/documents/doe/osti-coldfusion/Technidyne%20Associates.pdf"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "DOE states the submitted M-L Converter information is insufficient to offer an informed opinion on the device's technical merit."
+    sha256: "9e0ad98d96fc2fbcdeb692a9e253da6881f0e1308cc1c177ae550ca5488d4816"
+    accessed_utc: "2026-08-23"
+    claim_type: provenance
+    replication_effect: "Mandatory provenance caveat: DOE archive is not DOE validation."
+
+  - source_id: HIST-1991-KELLY-BAILEY
+    title: "The Methernitha Free Energy Machine: The Swiss M-L Converter"
+    author_or_speaker: "Donald Kelly; Patrick Bailey"
+    source_type: secondary_compilation
+    source_distance: S1
+    machine_id: unknown
+    date_or_period: "1991 conference paper lineage"
+    locator: "Mirror PDF p.2 lines 48-52; Hauser quote pp.4-5; solicited opposing views pp.7-8"
+    url_or_archive_id: "https://hiroko.or.jp/wp-content/file/nextgenerationenergy/TESTATIKA/1994-0821_swissMLconvertor-English.pdf"
+    confidence: high
+    rights_status: third_party_link_only
+    statement_summary: "Authors disclose documents/video as their real evidence and unsuccessful replication attempts; paper reproduces prior witness material and includes skeptical measurement objections."
+    claim_type: provenance
+    replication_effect: "Do not count Kelly repetitions as independent witness confirmations."
+
+  - source_id: HIST-1999-HOLZHERR
+    title: "Testatika demonstration with over 30 engineers"
+    author_or_speaker: "Hans Holzherr; translated/distributed with Stefan Hartmann"
+    source_type: eyewitness_report
+    source_distance: P2
+    machine_id: M6b
+    date_or_period: "1999-06-05 demonstration; translation dated 1999-08-04"
+    locator: "rimstar HTML lines 3-16; load duration lines 4-6; battery/base caveat lines 11-14"
+    url_or_archive_id: "https://rimstar.org/sdenergy/testa/report99.htm"
+    confidence: high
+    rights_status: third_party_link_only
+    statement_summary: "50-cm machine ran for about 1.5 h; 1000-W-rated lamp connected about 10 s; witness could not judge hidden-flat-battery possibility in inaccessible base."
+    claim_type: measurement
+    replication_effect: "Strong distinction between long machine run and brief loaded interval."
+
+  - source_id: SCI-2010-TOYABE
+    title: "Experimental demonstration of information-to-energy conversion and validation of the generalized Jarzynski equality"
+    author_or_speaker: "Shoichi Toyabe et al."
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2010"
+    locator: "Nature Physics 6, 988-992; abstract"
+    url_or_archive_id: "https://doi.org/10.1038/nphys1821"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "Experimentally demonstrates feedback-based conversion of acquired information into free-energy gain in a Brownian system."
+    claim_type: interpretation
+    replication_effect: "Supports information as thermodynamic resource; not evidence Testatika implements such feedback."
+
+  - source_id: SCI-2012-BERUT
+    title: "Experimental verification of Landauer's principle linking information and thermodynamics"
+    author_or_speaker: "Antoine Bérut et al."
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2012"
+    locator: "Nature 483, 187-189; abstract"
+    url_or_archive_id: "https://doi.org/10.1038/nature10872"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "Experimental one-bit memory erasure approaches the Landauer heat bound in the slow-cycle limit."
+    claim_type: interpretation
+    replication_effect: "Requires information-reset/entropy costs to be included in any demon-like energy balance."
+
+  - source_id: SCI-2015-FAIST
+    title: "The minimal work cost of information processing"
+    author_or_speaker: "Philippe Faist et al."
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2015"
+    locator: "Nature Communications 6, 7669; abstract/results"
+    url_or_archive_id: "https://doi.org/10.1038/ncomms8669"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "Provides a general operational relation between logical information processing and minimal thermodynamic work cost."
+    claim_type: interpretation
+    replication_effect: "Prevents treating information-processing steps as cost-free by assumption."
+
+  - source_id: SCI-2017-CHIDA
+    title: "Power generator driven by Maxwell's demon"
+    author_or_speaker: "Kensaku Chida et al."
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2017"
+    locator: "Nature Communications 8, 15301; abstract/introduction"
+    url_or_archive_id: "https://doi.org/10.1038/ncomms15301"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "Monitoring and feedback on random single-electron motion produces directional electrical current and output power; memory-cycle dissipation preserves the second law."
+    claim_type: interpretation
+    replication_effect: "Concrete precedent for information-to-electric-power conversion, but microscopic apparatus and explicit feedback differ from Testatika."
+
+  - source_id: SCI-2017-STRASBERG
+    title: "Quantum and Information Thermodynamics: A Unifying Framework Based on Repeated Interactions"
+    author_or_speaker: "Philipp Strasberg et al."
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2017"
+    locator: "Physical Review X 7, 021003; abstract"
+    url_or_archive_id: "https://doi.org/10.1103/PhysRevX.7.021003"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "A stream of repeatedly prepared nonequilibrium units can be a resource of nonequilibrium free energy and act as heat, work, or information reservoir."
+    claim_type: interpretation
+    replication_effect: "Potential formal analogy for repeatedly prepared rotor sectors; demands identification of the preparation resource."
+
+  - source_id: SCI-2019-SAPIENZA
+    title: "Correlations as a resource in quantum thermodynamics"
+    author_or_speaker: "Facundo Sapienza; Federico Cerisola; Augusto J. Roncaglia"
+    source_type: scientific_control
+    source_distance: A1
+    machine_id: unknown
+    date_or_period: "2019"
+    locator: "Nature Communications 10, 2492; abstract and Results/Overview"
+    url_or_archive_id: "https://doi.org/10.1038/s41467-019-10572-8"
+    confidence: very_high
+    rights_status: third_party_link_only
+    statement_summary: "Correlations can be thermodynamic resources; standard Helmholtz free-energy difference quantifies average extractable work in the macroscopic regime."
+    claim_type: interpretation
+    replication_effect: "Supports precise low-entropy/correlation resource framing without implying energy creation."
