@@ -2,7 +2,7 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 727,
+  "file_count": 731,
   "files": [
     {
       "path": ".gitattributes",
@@ -257,7 +257,7 @@
     {
       "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
       "size": 2449,
-      "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+      "sha256": "68a52b438b719d02b9861014ebf0a25648388df86e124590e92b40c36aedee9c"
     },
     {
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
@@ -403,6 +403,21 @@
       "path": "docs/research/cathomen-environment-direct-2026-08-18.md",
       "size": 6315,
       "sha256": "815168fd27609cde17d68405250c7dd5d33ff8cbeef8aaa2926653c3ca3f22c2"
+    },
+    {
+      "path": "docs/research/continuous-power-and-information-thermodynamics-audit-2026-08-23.md",
+      "size": 27975,
+      "sha256": "6ef6288337a8a48e0634cee528459195ee2b9a5aadd3be2f424e1407871fd152"
+    },
+    {
+      "path": "docs/research/continuous-power-evidence-2026-08-23.tsv",
+      "size": 4671,
+      "sha256": "3a9ded3d50c32b47055351969cde7f5a12eb7ff8782267a312df730ab9fbb51c"
+    },
+    {
+      "path": "docs/research/continuous-power-info-thermo-provenance-2026-08-23.yaml",
+      "size": 12689,
+      "sha256": "70085ce119a0ea82e4914ee39568d5362e040225e0c5a41f1c4d65ff2ccb577b"
     },
     {
       "path": "docs/research/control-replication-audit-2026-08-17.md",
@@ -948,6 +963,11 @@
       "path": "docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md",
       "size": 1584,
       "sha256": "b4d3ffae120237aebff6f12e41100a068e081e496a585d412718ad9633804546"
+    },
+    {
+      "path": "docs/research/methernitha-physics-operating-model-corrigendum-2026-08-23.md",
+      "size": 7857,
+      "sha256": "26abaae1adaec8f374fef851207280b172ae68b9dd65543b1d878fd20db008c1"
     },
     {
       "path": "docs/research/methernitha-physics-operating-model.md",
