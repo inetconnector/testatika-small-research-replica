@@ -1,241 +1,381 @@
-# Das physikalische Funktionsmodell der Testatika: Synthese aus Methernitha-Aussagen, Primärberichten und klassischer Physik
+# Das physikalische Funktionsmodell der Testatika: quellenkritische Synthese und offene Energiebilanz
 
 **Dokument-ID:** `DOC-METHERNITHA-PHYSICS-2026-08-23`  
 **Projekt:** `inetconnector/testatika-small-research-replica`  
 **Datum:** 23. August 2026  
-**Status:** Wissenschaftliche Gesamtsynthese / Physikalisches Modell  
-**Basisevidenz:** Transkripte `Meth_1.avi` bis `Meth_6.avi` (16. Juli 1990, Linden BE), Besuchsbericht 2. Juli 1988 (DOE-Archiv), Albert Hauser (1986 / IECEC 1991), Hans Holzherr (1999), Hans Weber & Inge Schneider (1984 / 2010), Stefan Marinov (1988/89), klassische Elektrodynamik und Thermodynamik  
+**Status:** **WISSENSCHAFTLICHES ARBEITSMODELL / HYPOTHESENGETRENNT — Bulk-Energieursprung UNKNOWN**  
+**Basisevidenz:** Transkripte `Meth_1.avi` bis `Meth_6.avi` (16. Juli 1990, Linden BE), Weber/Schneider, Hauser, Marinov, DOE/Technidyne, Holzherr, Dienst/Cathomen, Repository-Primärscans und kontrollierte Replikations-/Bound-Dokumente  
+**Ergänzender Rahmen:** [`order-non-equilibrium-framework.md`](order-non-equilibrium-framework.md)  
 
 ---
 
-## 1. Einleitung: Die doppelte Perspektive
+## 1. Einleitung: drei Ebenen strikt trennen
 
-Um die historische Testatika (Thesta-Distatica) der Schweizer Methernitha-Gemeinschaft physikalisch und historisch fundiert zu verstehen, müssen zwei Ebenen sauber zusammengeführt und differenziert werden:
+Dieses Dokument trennt künftig drei verschiedene Aussageklassen:
 
-1. **Die historische Quellen- und Zeugenebene (Behauptungen vs. Messungen):**
-   - Berichte über die angebliche Stromversorgung der Gemeinschaft (10 Konverter à 3–4 kW im Besuchsbericht vom 2. Juli 1988, archiviert im US-Department-of-Energy-Bestand; Hans Weber 1984/2010).
-   - Die originären Erklärungen der Entwickler aus den 1990er-Aufnahmen (`Meth_1`–`Meth_6`) und Schriften Paul Baumanns („Erde/Wolke“, „Energie entsteht durch Ordnung“, „osmotische Membranen und Gleichspannungsfelder“, „Gleichrichterdiode hält den Zyklus im Takt“).
-2. **Die Übersetzung in die klassische Physik & messtechnische Prüfung:**
-   - Formulierung der beobachteten Phänomene in den mathematisch exakten Gesetzen der Elektrostatik, Halbleiterphysik, Ionen- und Corona-Dynamik, dielektrischen Polarisation und Thermodynamik.
-   - Quantitative Gegenüberstellung von **Kurzzeit-Impulsentladung (10 kJ)** und **echter Dauerleistung (3,6 MJ/h)**.
+1. **Historische Beobachtung / Quellenbehauptung** — was Besucher, Methernitha, Baumann, Marinov, Hauser, Holzherr oder Videoquellen tatsächlich berichten.
+2. **Konventionelle Funktionshypothese** — welche Teile mit Elektrostatik, variabler Kapazität, Ladungsrouting, Leckage, Corona, Dielektrika, mechanischer Arbeit oder gespeicherter Energie erklärbar sind.
+3. **Energiequellenhypothese** — welcher reale Nichtgleichgewichtsgradient oder Speicher die Nutzenergie liefert.
+
+Der wichtigste aktuelle Konsens lautet:
+
+> **Die Testatika-Struktur kann plausibel Ladung und Feld phasenabhängig ordnen bzw. routen. Das ist noch keine Identifikation der Bulk-Energiequelle.**
+
+Die Aussagen aus `Meth_5` über „organization / inner order“ und aus `Meth_6` über Osmose, Membranen und schwache DC-Felder werden daher als **Primärquellen für Methernithas Funktionssprache** behandelt, nicht als fertige physikalische Erklärung.
 
 ---
 
-## 2. Gesamtarchitektur der Maschine
+## 2. Gesamtarchitektur als offenes Energieflussmodell
 
 ```mermaid
 graph TD
-    subgraph S1["A. Primäre Ladungstrennung & Influenz"]
-        R["Rotierende PMMA-Scheibe mit Cu-Sektoren"] -->|"Variable Kapazität dC/dt"| T["Berührungslose Gitter-Taster (Pickups)"]
-        T -->|"Mikro-Corona & Spitzenüberhöhung"| S["Statorelektroden (Potentialreservoirs)"]
-    end
-
-    subgraph S2["B. Nichtlineare Phasenkommutation & Antrieb"]
-        S -->|"Phasenselektiver Ladungstransfer"| K["Kristall / Dioden-Einheit (crystal)"]
-        K -->|"Gesperrtes Rückdrehmoment"| M["Elektrostatische Antriebsstatoren"]
-        M -->|"Drehmoment tau = 1/2 U² dC/dtheta"| R
-    end
-
-    subgraph S3["C. Dielektrische Speicherung & Membran-Kondensatoren"]
-        K -->|"Gepulste Hochspannung"| P["Topfkondensatoren mit Kupferspirale"]
-        P -->|"Dielektrische Absorption & LC-Glättung"| B["Puffernetzwerk (DC-Bus)"]
-    end
-
-    subgraph S4["D. Last & Energiebilanz"]
-        B -->|"300 V DC Ausgang"| L["Ohmsche Last (z. B. Glühlampe)"]
-        E["Dielektrischer Speicher (PMMA / Elektret-Gefüge)"] -.->|"Akkumulierte Impulsentladung"| B
-    end
+    X["UNKNOWN: reale Energiequelle / gespeicherte freie Energie / Nichtgleichgewichtsgradient"] --> G["Gradient / Bias / Speicherzustand"]
+    G --> R["Rotor + variable Kapazität C(theta)"]
+    R --> T["Nichtkontaktierende Gitter / Pickups"]
+    T --> K["crystal / Diode / nichtlinearer Routing-Block"]
+    K --> B["Speicher / Impedanzwandlung / DC-Bus"]
+    B --> L["Last"]
+    R --> M["mechanische Bilanz: tau(theta), omega"]
+    M --> G
 ```
 
----
+Dieses Schema ist absichtlich anders als eine geschlossene „Selbstlauf“-Erklärung:
 
-## 3. Die physikalische Funktionsweise der Teilsysteme
-
-### 3.1 Teilsystem 1: Die rotierenden Sektoren als parametrische Kapazitätsmatrix
-
-#### Methernitha-Konzept:
-> *„Erde und Wolke sammeln... Ladung auf der Scheibe führen...“*
-
-#### Physikalische Übersetzung:
-Die Scheibe (beim Kleinmodell M2: 24 einzeln isolierte U-Bügel aus 1-mm-Kupferdraht, laut Marinov **`connected to nothing`**; beim Großmodell M6: 50 Lamellen mit dreifachem Webmuster R4) rotiert durch ein statisches elektrisches Feld.
-
-Jeder Sektor bildet mit den feststehenden Elektroden eine winkelabhängige Kapazität $C_k(\theta)$. Der resultierende Ladungsstrom lautet nach der Kettenregel:
-
-![Formel 1: Parametrischer Sektor-Ladungsstrom](formulas/formula_01_sector_current.svg)
-
-Da die Sektoren floatend sind, influenziert das elektrische Feld der Statoren Ladungstrennungen innerhalb der Leiterbügel.
+- `R`, `T`, `K` können **Konvertierungs-/Routingfunktionen** besitzen;
+- `B` kann Energie zeitlich puffern;
+- `X` bleibt so lange `UNKNOWN`, bis die Energiegrenze experimentell geschlossen ist.
 
 ---
 
-### 3.2 Teilsystem 2: Berührungslose Gitter-Taster („Pickups“) und Corona-Physik
+## 3. Teilsysteme: belastbares Minimum und Hypothesen
 
-#### Methernitha-Konzept:
-> *„Mit geschlossener Metallfolie funktioniert es nicht, es müssen feinmaschige Gitter sein.“* (Baumann, *Principle Experiment*)
+### 3.1 Rotorsektoren als variable Kapazitätsmatrix
 
-#### Physikalische Übersetzung:
-1. **Feldstärkenüberhöhung an Kanten:**  
-   An den feinen Drähten ($r_{\text{wire}} \approx 0{,}1\text{--}0{,}2\text{ mm}$) und Perforationsrändern der Gitter ist die lokale elektrische Feldstärke drastisch überhöht:
+Beim M2 sind einzelne Cu-Leiter nach direkter Marinov-Korrespondenz bevorzugt als **floating / `connected to nothing`** zu behandeln. Bei großen Familien existieren andere Sektor- und Materialklassen; diese werden nicht nach M2 übertragen.
 
-![Formel 2: Geometrische Kantenüberhöhung an Gitterdrähten](formulas/formula_02_edge_field.svg)
+Jeder Rotorleiter bildet mit den stationären Elektroden eine winkelabhängige Kapazität `C_k(theta)`.
 
-2. **Berührungslose Ionenübertragung (Corona-Entladung):**  
-   Bereits bei Spannungen von wenigen Kilovolt wird die Durchbruchfeldstärke der Luft ($E_{\text{crit}} \approx 30\text{ kV/cm}$) an den Kanten lokal überschritten. Es entstehen Mikro-Corona-Entladungen, die Ladungsträger (Ionen) berührungslos und verschleißfrei zwischen den rotierenden Sektoren und den festen Gittern transportieren.
-3. **Vermeidung von Stoßfunken:**  
-   Massive Metallfolien würden große Flächenkapazitäten bilden und unkontrollierte energiereiche Funkenentladungen provozieren, die das elektrische Feld zusammenbrechen lassen. Das Gitter homogenisiert die Raumladung und ermöglicht einen kontinuierlichen Mikro-Ionenstrom.
+Der prinzipielle Ladungsstrom enthält Terme aus Spannungs- und Kapazitätsänderung:
 
----
+`I = dQ/dt = C*dV/dt + V*dC/dt`.
 
-### 3.3 Teilsystem 3: Nichtlineare Phasenkommutation über das `crystal`
+Die zugehörige Feldenergie lautet:
 
-#### Methernitha-Konzept:
-> *„Energie entsteht durch das Aufbauen von Ordnung... die Gleichrichterdiode hält den Zyklus im Takt.“* (`Meth_5: [00:50]`, Methernitha-Schriften)
+`E_C = 1/2 * C * V^2`.
 
-#### Physikalische Übersetzung:
-In einem rein linearen elektrostatischen System ist die verrichtete mechanische Arbeit über einen vollen Zyklus exakt null:
+**Wichtige Energiebilanz:** Bei einem konventionellen elektrostatischen Generator stammt ein Anstieg der elektrischen Feldenergie infolge einer mechanisch erzwungenen Kapazitätsänderung aus der mechanischen Arbeit gegen elektrostatische Kräfte. Variable Kapazität ist daher ein plausibler **Wandler**, aber keine eigenständige Energiequelle.
 
-![Formel 3: Elektrostatische Nettoarbeit über einen vollen Zyklus (Symmetrie)](formulas/formula_03_zero_work_cycle.svg)
+Zu messen:
 
-Weil sich ein Sektor beim Annähern auflädt ($\frac{\mathrm{d}C}{\mathrm{d}\theta} > 0$, positives Drehmoment) und beim Entfernen wieder zurückgehalten wird ($\frac{\mathrm{d}C}{\mathrm{d}\theta} < 0$, negatives Bremsmoment), bleibt die Maschine ohne externe Schaltung sofort stehen.
-
-**Die Funktion des Kristalls / der Diode:**
-- **Asymmetrische Ladungsableitung:** Die Diode schaltet schlagartig durch, sobald die maximale Kapazität ($\theta = \theta_{\text{max}}$) erreicht ist. Die Ladung wird in die Topfkondensatoren abgeführt.
-- **Beseitigung des Gegen-Drehmoments:** Wenn der Sektor den Stator verlässt, ist seine Spannung $U(\theta)$ nahezu null. Dadurch wirkt kein hemmendes Bremsmoment mehr.
-- **Ordnung aus Fluktuationen:** Dies ist die exakte physikalische Umsetzung von *„Energie gewinnen durch Aufbauen innerer Ordnung“*: Das nichtlineare Halbleiterelement bricht die zeitliche und räumliche Symmetrie und erzeugt eine **gerichtete elektrostatische Kraft**.
+- `C(theta)`;
+- `V(theta)`;
+- `I(theta)`;
+- Drehmoment `tau(theta)`;
+- Winkelgeschwindigkeit `omega`.
 
 ---
 
-### 3.4 Teilsystem 4: Topfkondensatoren („Pots“) und die Membran-Analogie
+### 3.2 Gitter / Pickups: Feldformung statt behaupteter Energieerzeugung
 
-#### Methernitha-Konzept:
-> *„Das ist das osmotische Gesetz der Natur... durch das Feld dieser Membranen fließt der Austausch, ein sehr schwaches Gleichspannungsfeld...“* (`Meth_6: [00:00 - 01:10]`)
+Quellen stützen bei mehreren Maschinenfamilien nichtkontaktierende perforierte oder gitterförmige Elektroden. Für M0 berichtet Holzherr Baumanns Aussage, geschlossene Metallfolie liefere nicht denselben Effekt wie Gitter.
 
-#### Physikalische Übersetzung:
-Die Topfkondensatoren bestehen aus mehrlagigen perforierten Zylindergittern, PMMA-Isolationsschichten und einer zentralen Kupferspirale.
+Konventionell können Gitter gegenüber Folie ändern:
 
-1. **Dielektrische Schichtstrukturen als Membranen:**  
-   In biologischen Membranen trennen Lipid-Doppelschichten Ionenkonzentrationen und erzeugen transmembrane Ruhepotentiale ($\Delta V \approx 70\text{--}100\text{ mV}$ über $10\text{ nm}$, was Feldstärken von $10^7\text{ V/m}$ entspricht).  
-   In den Testatika-Töpfen wirken die PMMA- und Luftgrenzflächen als Festkörper-Membranen: Ladungsträger werden an den dielektrischen Grenzflächen eingefangen (**Maxwell-Wagner-Grenzflächenpolarisation** / Elektret-Bildung).
-2. **LC-Resonanz- und Dämpfungsfilter:**  
-   Die Kupferspirale im Zentrum besitzt eine definierte Serieninduktivität $L$, die zusammen mit der Zylinderkapazität $C$ ein Tiefpassfilter bildet. Kurze, energiereiche Hochspannungsimpulse von der Scheibe werden gedämpft, gefiltert und in eine geglättete Gleichspannung umgewandelt.
+- lokale Feldstärke und Randfelder;
+- Feldpenetration;
+- Kapazitätsmatrix;
+- induzierte Oberflächenladung;
+- mögliche Raumladungs-/Coronawege;
+- Leckage und Entladungsdynamik.
 
----
+Nicht als gelöst gelten:
 
-### 3.5 Teilsystem 5: Der elektrostatische Selbstantrieb (Selbstrotation)
+- dass tatsächlich kontinuierliche Mikro-Corona der Haupttransport ist;
+- dass Corona „entropiearm“ ist;
+- dass Gitter selbst Nettoenergie erzeugen.
 
-#### Physikalische Wirkungsweise:
-Die Maschine benötigt keinen verborgenen Elektromotor, um kontinuierlich mit ca. 60 rpm zu laufen:
+**Arbeitsstatus:** `field-forming / floating pickup / possible ion-space-charge control`.
 
-![Formel 4: Elektrostatisches Gesamtdrehmoment (Summe aller Sektoren)](formulas/formula_04_total_torque_sum.svg)
-
-![Formel 5: Positives mittleres Vortriebsmoment (Selbstrotations-Bedingung)](formulas/formula_05_mean_torque_integral.svg)
-
-Bei hochwertigen Spitzenlagern oder Leichtlauflagern beträgt das Reibmoment bei 60 rpm weniger als $\tau_{\text{fric}} \approx 0{,}5 \cdot 10^{-3}\text{ Nm}$. Bei Betriebsspannungen von $10\text{--}20\text{ kV}$ übersteigt das elektrostatische Vortriebsmoment die Reibung mühelos ($\bar{\tau}_e > \tau_{\text{fric}} + \tau_{\text{aero}}$).
-
-Die Hufeisenmagnete wirken als **Wirbelstrombremse** auf die rotierenden Kupferschnittstellen. Zusammen mit dem quadratisch anwachsenden aerodynamischen Widerstand der Scheiben ($\tau_{\text{aero}} \propto \omega^2$) stellt sich ein stabiler Grenzzyklus bei exakt ca. 60 rpm ein.
+Der entscheidende Kontrollversuch ist ein geometrisch kontrollierter `mesh vs solid foil`-A/B-Test.
 
 ---
 
-# 4. Historische Quellenanalyse: Gemeinschaftsversorgung vs. Messbare Fakten
+### 3.3 `crystal` / institutionelle `rectifying diode`
 
-## 4.1 Die historische Quellenmatrix (1984–2010)
+Die Quellenbegriffe bleiben getrennt:
 
-| Quelle & Datum | Beobachter & Rahmen | Was tatsächlich beobachtet wurde | Was lediglich behauptet wurde | Wissenschaftliche Einordnung |
-|---|---|---|---|---|
-| **Weber & Schneider**<br>(13. März 1984) | Hans Weber (Ing.), Inge Schneider; Besuch in Linden | 1-kW-Maschine lief; Glühlampe und Heizstab glühten. Weber durfte die ~20 kg schwere Maschine **hochheben und daruntersehen** (keine Leitungen durch den Tisch). | Baumann erklärte, die Leistung von 300 V / 10 A könne **„stunden-, ja jahrelang“** abgegeben werden. | Starkes Zeugnis gegen primitive Tischzuleitungen. Die Langzeitangabe stammt jedoch wörtlich von Baumann und wurde während des Besuchs nicht über Stunden gemessen. |
-| **Albert Hauser**<br>(14. Februar 1986 / IECEC 1991) | Albert Hauser (Ingenieur); 4-stündiger Besuch | Große Maschine mit 1000-W-Lampe kurz vorgeführt. Eine kleine 12-cm-Maschine lief **2 Stunden ununterbrochen im Leerlauf**. | Leistung der Kleinmaschine wurde auf „ca. 200 W“ geschätzt; Großmaschine auf 3 kW. | Hauser hält ausdrücklich fest: *„We tested the machine with only measuring instruments. It means to say, that we **didn't load the machine with any resistance**.“* Belegt 2 h Leerlauf-Selbstlauf, aber keine Dauerlast. |
-| **DOE / Technidyne**<br>(2. Juli 1988 / 1989) | Besuchsbericht in Unterlagen an das US-Department of Energy | Besuch am 2. Juli 1988; Begutachtung der Werkstätten und Konverter. | Bericht behauptet: In Linden seien **10 Konverter à 3 kW** (bei Sonne 4 kW) vorhanden. Zusammen mit Windmühlen versorgten sie die **180 Personen und Betriebe** der Methernitha. | Äußerst interessantes historisches Dokument zur Selbstwahrnehmung. Das US-DOE stellte jedoch 1989 offiziell fest, dass die Unterlagen für eine technische Bestätigung unzureichend sind. Zudem besaß Methernitha ein eigenes Wasserkraftwerk. |
-| **Methernitha-Film**<br>(16. Juli 1990) | Englischer Interviewer, Methernitha-Repräsentant | 48,6 min Gespräch über Kollektivgeschichte (50 Jahre), Humanitarismus, Ethik und Naturordnung. | Energie entstehe durch „Aufbau innerer Ordnung“; Natur gebe Energie freiwillig. | Kein technischer Schaltplan und kein Lasttest, aber fundamentales Primärdokument zum ideengeschichtlichen Weltbild der Erfinder. |
-| **Hans Holzherr**<br>(5. Juni 1999) | Über 30 Techniker & Ingenieure | 50-cm-Maschine lief **1,5 Stunden ununterbrochen im Leerlauf** (~15–60 rpm). 1000-W-Lampe für **ca. 10 Sekunden** eingeschaltet; Heizelement in ~1 s heiß. | Manche Berichte im Internet verkürzten dies fälschlich zu „1,5 Stunden 1 kW Dauerbetrieb“. | Präziseste Zeitdokumentation. Holzherr stellt klar: Maschine durfte nicht berührt werden; verdeckte Flachbatterien im Sockel konnte er nicht ausschließen. 10 s Last ≠ 1,5 h Last. |
-| **Hans Weber**<br>(2010 Rückblick) | Hans Weber (späteres Interview) | Erinnerungsbericht an frühere Vorführungen. | Weber bekräftigte, es handle sich um ein autonomes Gerät, das **„1 kW dauernd erzeugt“**. | Wichtige nachträgliche Zeugenaussage, jedoch ohne begleitendes kontinuierliches Messprotokoll. |
+- Baumann → Marinov kleine Maschinen: `crystal`, Material und Funktion unbekannt;
+- institutionelle Methernitha-Beschreibung: `rectifying diode` hält den Zyklus im Takt;
+- Hauser große Maschine: obere Crystal-/Rectifier-Deutung teilweise Beobachterinterpretation.
+
+Die konservative gemeinsame Funktionshypothese lautet:
+
+> **phasenselektives nichtlineares Ladungsventil / elektrostatischer Kommutator**.
+
+Ein solches Element kann:
+
+- Rückladung in ausgewählten Rotorphasen sperren;
+- Ladung erst über einer Schwelle transferieren;
+- floating Knoten phasenweise klemmen;
+- Lastreaktion und Drehmomentphase verändern;
+- einen wiederkehrenden Grenzzyklus stabilisieren.
+
+Nicht zulässig ist die frühere zu starke Formulierung, die Diode „beseitige das Gegenmoment“ und erkläre damit bereits eine positive Nettoarbeit.
+
+Wenn die Diode ein negatives Drehmoment reduziert, muss die Energiebilanz zeigen, **woher die Feldenergie für den entsprechenden Ladungszustand stammt**.
 
 ---
 
-## 4.2 Die physikalische Auflösung: Kondensatorspeicher vs. Dauerleistung
+### 3.4 Seiten-Pots und große Zylinder: Maschinenfamilien trennen
 
-Aus der Gegenüberstellung der Quellen ergibt sich die entscheidende physikalische Frage:  
-**Konnte die beobachtete Leistungsabgabe durch vorher akkumulierte Speicherenergie erklärt werden?**
+#### M2 / kleine Marinov-Familie
 
-### 1. Der 10-Sekunden-Test (10 kJ Energiebedarf)
-Hans Holzherr dokumentiert explizit, dass die 1000-W-Glühlampe für ca. 10 Sekunden hell brannte:
+Direkt quellenkompatibel:
 
-![Formel 6: Energiebilanz der 10-Sekunden-Impulslast (10 kJ)](formulas/formula_08_pulse_storage_10s.svg)
+- zylindrisches leitfähiges Gitter;
+- Kunststoffisolation;
+- zentrale Kupferspirale;
+- zwei sichtbare externe Leitungen pro Pot.
 
-Für einen elektrostatischen Hochspannungskondensator gilt die Energieformel $W = \frac{1}{2} C U^2$.  
-Um `10 kJ` Energie rein kapazitiv zu speichern, sind bei verschiedenen Spannungen folgende Kapazitäten erforderlich:
+`UNKNOWN` bleiben:
 
-| Betriebsspannung | Erforderliche Kapazität für 10 kJ | Technische Realisierbarkeit in der Testatika |
+- exakte Kapazität;
+- interne Polarität;
+- Spiralwindungszahl;
+- vollständige Verschaltung;
+- eventuelle verborgene Material-/Speicherzustände.
+
+Die V4.31-Abschätzung zeigt, dass die **einfache sichtbare M2-Pot-Geometrie** keinen `10 kJ`-Elektrostatikspeicher darstellen kann. Selbst eine bewusst großzügige idealisierte Koaxialgeometrie bleibt bei pF-Größenordnung und weit unter der erforderlichen Speicherenergie.
+
+Damit ist die frühere Erklärung
+
+`M2-pot dielectric soakage -> 10 kJ burst`
+
+**verworfen**.
+
+#### M6 / große Familie
+
+Hauser, Holzherr und andere Quellen beschreiben deutlich komplexere Zylinder-/Mehrlagenstrukturen. Diese müssen separat geometrisch und elektrisch gebounded werden. Baumanns Holzherr zugeschriebene Angabe von vielen perforierten Lagen ist **M6-Familieninformation**, nicht M2-Baseline.
+
+---
+
+### 3.5 Selbstrotation: Beobachtung/Claim getrennt von Energieerklärung
+
+Direkte Marinov-Korrespondenz sagt für die beschriebene kleine Maschine, es gebe keinen konventionellen eingebauten Motor; Marinov deutete die Rotation elektrostatisch. Historische Quellen berichten lange Leerlaufperioden verschiedener Maschinen.
+
+Das erlaubt zwei Aussagen:
+
+1. Ein eingebauter konventioneller Motor gehört nicht zur bevorzugten historischen M2-Baseline.
+2. Die Energiequelle für dauerhafte elektrostatische Motorarbeit ist damit **nicht automatisch erklärt**.
+
+Für stationäre Rotation gilt mechanisch:
+
+`P_mech = tau * omega`.
+
+Wenn elektrostatische Kräfte dauerhaft Reibung und Luftwiderstand überwinden, muss diese reale mechanische Verlustleistung aus einem elektrischen, chemischen, thermischen, Umwelt- oder gespeicherten Energieterm stammen.
+
+Die korrekte Forschungsfrage ist deshalb nicht nur
+
+`ist tau_e > tau_loss?`
+
+sondern
+
+`welcher gemessene Energieterm speist tau_e * omega über die Zeit?`.
+
+---
+
+## 4. Historische Leistungsbeobachtungen: Laufzeit ist nicht Lastzeit
+
+| Quelle | belastbare Beobachtung | zusätzliche Behauptung / Grenze |
 |---|---|---|
-| **300 V** | **222 mF (0,222 F)** | Großvolumige Elektrolyt-/Superkondensator-Bank erforderlich. |
-| **1.000 V** | **20 mF (20.000 µF)** | Kompakte Blockkondensatoren. |
-| **10.000 V (10 kV)** | **200 µF** | Typische Hochspannungs-Kondensatorstruktur. |
-| **15.000 V (15 kV)** | **88,9 µF** | Im Volumen der großen Topfkondensatoren / Mehrlagenzylinder darstellbar. |
-| **20.000 V (20 kV)** | **50 µF** | Durch dielektrische Schichtstrukturen im Hochspannungsbereich erreichbar. |
-| **50.000 V (50 kV)** | **8 µF** | Sehr kompakte Hochspannungsspeicherung. |
+| Weber/Schneider 1984 | Maschine, Lampe/Heizer-Demo; Gerät soll angehoben/untersehen worden sein | Langzeit-/Leistungsangaben nicht durch kontinuierliches unabhängiges Messprotokoll geschlossen |
+| Hauser 1986 | mehrstündiger Besuch; kleine Maschine lange im Leerlauf; große Lastdemo | Hauser sagt ausdrücklich, seine Messung sei ohne Widerstandslast erfolgt; Schätzleistungen sind keine geschlossene Bilanz |
+| DOE/Technidyne 1988/89 | Bericht über Konverter und Gemeinschaft | Claims zu mehreren 3–4-kW-Konvertern nicht unabhängig technisch bestätigt |
+| Methernitha-Film 1990 | Primärsprache zu Ordnung, Natur, Osmose/Gradienten | kein technischer Schaltplan, keine geschlossene Lastbilanz |
+| Holzherr 1999 | ca. 1,5 h Maschinenlauf im Leerlauf; nominelle 1000-W-Lampe ca. 10 s; weitere kurze Lastbeobachtungen | Maschine durfte nicht vollständig untersucht werden; Laufzeit ≠ kW-Lastzeit |
 
-Da die Testatika nach allen Konstruktionsberichten mit **10 bis 30 kV Hochspannung** operiert und massive PMMA-Blöcke sowie 20 Lagen perforierte Kondensatorzylinder besitzt, kann ein **10-sekündiger 1-kW-Test (10 kJ)** physikalisch zwanglos durch dielektrische Vorladung (*Dielectric Soakage*) und kapazitive Impulsentladung erklärt werden. Der 10-Sekunden-Versuch von 1999 schließt diese Erklärung nicht aus.
+### 4.1 Der nominelle `10 kJ`-Fall
 
----
+Wenn eine `1000 W`-Lampe tatsächlich für `10 s` ungefähr Nennleistung aufgenommen hätte:
 
-### 2. Der 1-Stunden-Dauerlast-Test (3,6 MJ Energiebedarf)
-Ein echter, kontinuierlicher 1-kW-Dauerbetrieb über eine volle Stunde erfordert:
+`E = P*t = 1000 W * 10 s = 10,000 J = 2.78 Wh`.
 
-![Formel 7: Energiebilanz einer 1-stündigen echten Dauerlast (3,6 MJ)](formulas/formula_09_continuous_storage_1h.svg)
+Das ist ein **Energieäquivalent**, keine historische Kalorimetrie. Für den Bericht fehlen zeitaufgelöste, unabhängige `u(t)`- und `i(t)`-Daten.
 
-- **Energetische Differenz:** `3,6 MJ` ist **360-mal mehr Energie** als `10 kJ`.
-- **Physikalische Konsequenz:** Ein 20-kV-Speicher mit 18 mF hätte ein Volumen von mehreren Kubikmetern und würde Tonnen wiegen. Ein solcher Speicher lässt sich in keinem Tischgerät unterbringen.
-- **Beweiskraft:** Ein einziger, unter neutraler Aufsicht durchgeführter **1-stündiger Dauerlasttest an 1 kW mit kontinuierlicher Messung** hätte jede Kondensator- und Speicherhypothese endgültig widerlegt. Genau dieser Test wurde jedoch in keinem einzigen historischen Bericht messtechnisch protokolliert.
+Daher künftig bevorzugte Formulierung:
 
----
+> **„nominelles 10-kJ-Äquivalent der berichteten 1000-W-/10-s-Demonstration“**
 
-## 4.3 Die Stromversorgung der Gemeinschaft: Mythos vs. Realität
+statt
 
-Der Bericht vom 2. Juli 1988 (DOE-Archiv) schildert die Vision der Methernitha:  
-*„Zehn Konverter à 3 kW plus Windmühlen versorgen die 180 Personen und Betriebe.“*
+> „nachgewiesene 10-kJ-Abgabe“.
 
-Bei genauerer historischer Prüfung zeigt sich:
-1. **Gemischte Energieversorgung:** Methernitha verfügte vor Ort über ein **eigenes, konventionelles kleines Wasserkraftwerk** sowie Windkraftanlagen. Eine autarke Vollversorgung ausschließlich durch Testatika-Maschinen ist historisch nicht belegt.
-2. **Eigenes Weltbild:** In der Selbstdarstellung der Gemeinschaft (siehe 1990er Video) wurde die Technik stets als ganzheitliche Einheit aus Naturordnung, Windkraft, Wasserkraft und Konvertern begriffen.
-3. **Schutz vor Kommerzialisierung:** Die Weigerung, offizielle Dauerlast-Messprotokolle an Universitäten oder das US-Department of Energy zu übergeben, wurde stets mit der mangelnden ethischen Reife der Menschheit begründet.
+### 4.2 Speicher-/Burst-Hypothese
+
+Ein kurzer Hochleistungsburst kann prinzipiell aus einem langsam geladenen endlichen Speicher kommen. Deshalb muss gemessen werden:
+
+`E_store(before) -> E_store(after) -> recovery dE/dt`.
+
+Für M2 ist die einfache sichtbare Pot-Kapazität als 10-kJ-Feldspeicher ausgeschlossen. Andere endliche Speicherklassen bleiben nur dann Kandidaten, wenn Geometrie/Material und Recovery sie unterstützen.
 
 ---
 
-# 5. Stationäre Leistungsbilanz bei rein elektrostatischer Wandlung
+## 5. „Energie durch Ordnung“ — neue präzise Einordnung
 
-Nach dem 1. Hauptsatz der Thermodynamik gilt für die stationäre Ausgangsleistung:
+Methernithas Sprache wird künftig in drei Stufen behandelt:
 
-![Formel 8: Erster Hauptsatz der Thermodynamik (Leistungsbilanz)](formulas/formula_06_power_balance.svg)
+### Stufe A — Primärsprachlicher Befund
 
-### Was der reine elektrostatische Generatorbetrieb liefert:
-Bei einer 50-cm-Zweischeibenmaschine mit $N = 50$ Sektoren, $n = 1\text{ U/s}$ (60 rpm), $\Delta C = 50\text{ pF}$ und $U = 20\text{ kV}$:
+`Meth_5`: Energie / Gewinn wird mit organization / inner order verknüpft.  
+`Meth_6`: Osmose, Membran, schwaches DC-Feld und Naturenergie werden analogisch verbunden.
 
-![Formel 9: Stationäre Kenngrößen bei 60 rpm](formulas/formula_07_generator_output.svg)
+### Stufe B — konservative technische Übersetzung
 
-Dieser Wert von ca. **1 Watt mechanisch-elektrostatischer Dauerleistung** reicht bei Spitzenlagern perfekt aus, um die **Selbstrotation im Leerlauf über Stunden stabil aufrechtzuerhalten**, erklärt aber ohne Speicherentladung keine Kilowatt-Lasten.
+`order -> polarity sorting / charge routing / phase-selective coupling`.
+
+Das ist mit `baumann-language-decoding.md` und `baumann-statements.tsv` konsistent.
+
+### Stufe C — thermodynamische Randbedingung
+
+Ordnung kann die **Nutzbarkeit vorhandener freier Energie** verändern, aber sie ersetzt keine Quelle.
+
+Für den Testatika-Rahmen:
+
+`reale Quelle / Nichtgleichgewichtsgradient`
+
+`-> ordnende Testatika-Struktur`
+
+`-> gerichteter Energiefluss`.
+
+Mögliche Gradientklassen sind:
+
+- mechanische Arbeit;
+- gespeicherte elektrische/electretische Energie;
+- chemische freie Energie;
+- thermische Gradienten;
+- Feuchte-/Ionen-Nichtgleichgewicht;
+- atmosphärische elektrische Kopplung;
+- externe RF/EM- oder andere Umweltkopplung.
+
+Keine dieser Klassen ist derzeit als historische Bulk-Quelle bestätigt.
+
+Details und Testmatrix: [`order-non-equilibrium-framework.md`](order-non-equilibrium-framework.md).
 
 ---
 
-# 6. Falsifikationskriterium für die experimentelle Replikation
+## 6. Atmosphärisches Feld: Kopplungskandidat, kein kW-Nachweis
 
-Jede reale experimentelle Wirkleistungsmessung muss das geschlossene Energieintegral über die Betriebszeit $T$ erfüllen:
+Das globale atmosphärische elektrische System ist real und außerhalb thermischen Gleichgewichts. Typische Schönwetter-Feldstärken am Boden liegen in der Größenordnung `~100 V/m`; der vertikale Leitungsstrom liegt jedoch nur bei wenigen `pA/m²`.
 
-![Formel 10: Falsifikationsintegral](formulas/formula_10_energy_conservation_integral.svg)
+Daher ist atmosphärische Kopplung als
+
+- Priming/Bias;
+- empfindliche Umweltabhängigkeit;
+- Stör-/Kontrollterm
+
+plausibel zu untersuchen.
+
+Sie ist aber **keine plausible direkte Erklärung einer kontinuierlichen kW-Ausgangsleistung eines Tischgeräts**, solange kein separater Energieverstärkungsmechanismus mit eigener Quelle nachgewiesen ist.
 
 ---
 
-# 7. Zusammenfassende Matrix: Methernitha-Terminologie vs. Klassische Physik
+## 7. Quanten-/Informationsthermodynamik: nur konzeptioneller Vergleich
 
-| Methernitha-Konzept & Quellen | Übersetzung in klassische Physik | Experimentell messbare Größe |
+Information und Korrelation können in wohldefinierten thermodynamischen Protokollen Arbeitspotential darstellen. Das macht „Ordnung“ als physikalischen Begriff präzisierbar.
+
+Für die Testatika existiert jedoch keine Evidenz für:
+
+- kontrollierte langlebige Verschränkung;
+- Qubits / kohärente Register;
+- Quantum Energy Teleportation;
+- ein Quantenreservoir als Energiequelle.
+
+Daher wird Quanteninformation **nicht** in die historische Maschinenbaseline oder als konkrete Bulk-Energiequellenhypothese aufgenommen.
+
+---
+
+## 8. Geschlossene Energiebilanz und Falsifikationskriterium
+
+Für jeden Lasttest ist eine vollständige Systemgrenze zu verwenden:
+
+`E_residual = E_out - E_mech,in - E_elec,in - E_thermal,in - E_EM,in - E_atmospheric,in - E_chemical,in + Delta(E_stores)`.
+
+`Delta(E_stores)` umfasst mindestens:
+
+- Kondensator-/Feldenergie;
+- Oberflächen-/Elektretladung;
+- Rotationsenergie;
+- magnetische Energie;
+- chemische freie Energie;
+- thermische Speicher.
+
+Ein Effekt bleibt nur dann als `UNKNOWN_POSITIVE_RESIDUAL`, wenn:
+
+1. er wiederholbar ist;
+2. deutlich über dem vollständigen Unsicherheitsbudget liegt;
+3. kein ausreichender Speicher-Droop/Recovery beobachtet wird;
+4. mechanische, chemische, thermische, RF/EM-, Erd-/Atmosphären- und Messgerätepfade quantitativ begrenzt sind;
+5. randomisierte Kontrollen den Effekt nicht erklären.
+
+Ein positiver Residual wäre zunächst **eine offene Messanomalie**, kein automatischer Beleg für Overunity, Vakuumenergie, ZPE oder Quantenverschränkung.
+
+---
+
+## 9. Priorisierte Experimente
+
+Die neue `OQ`-Serie aus `order-non-equilibrium-framework.md` ergänzt die bestehende Replikationsmetrologie:
+
+1. **OQ-0:** bekannte Kontrollmaschine — Nullbilanz / Messkettenvalidierung.
+2. **OQ-1:** `crystal`/Diode-Phasenmatrix — `V(theta)`, `I(theta)`, `tau(theta)`.
+3. **OQ-2:** Gitter vs. Folie — Feld-/Kapazitäts-/Ionen-/Leckstromvergleich.
+4. **OQ-3:** Feuchte-/Ionenkonzentrationsmatrix.
+5. **OQ-4:** Earth/cloud-/Umgebungskopplung mit isolierter/definierter Erde und Abschirmkontrollen.
+6. **OQ-5:** Speicher-Droop und Recovery nach Lastbursts.
+7. **OQ-6:** mechanische Grenzbilanz `tau * omega`.
+8. **OQ-7:** Material-/Chemiekontrolle nur für klar deklarierte HYPOTHESIS-Varianten.
+9. **OQ-8:** integrierter Residualtest erst nach den Einzelkontrollen.
+
+---
+
+## 10. Zusammenfassende Matrix
+
+| Methernitha-/Testatika-Befund | zulässige Arbeitsübersetzung | aktueller Status |
 |---|---|---|
-| **„1,5 bis 2 Stunden Dauerlauf“** | Elektrostatischer Poggendorff-Antrieb; Dioden-Phasenkommutation übersteigt minimale Lagerreibung im Leerlauf. | Mittleres Drehmoment $\bar{\tau}_e > 0$; Drehzahlkonstanz bei 60 rpm. |
-| **„1000-W-Lampe / 300-V-Heizstab“** | Kurzzeitige Impulsentladung dielektrisch akkumulierter Speicherenergie ($10\text{ kJ}$ in ~10 s). | Zeitintegral der Wirkleistung $\int u(t) \cdot i(t)\,dt$ vs. Vorladezeit. |
-| **„Energie entsteht durch Ordnung“** | Nichtlineare Kommutation bricht elektrostatische Symmetrie; verhindert Gegen-Drehmoment. | Richtungsabhängiger Ladungsstrom $I(\theta)$; Kommutationsphasenwinkel $\theta_{\text{trigger}}$. |
-| **„Osmotische Membranen & DC-Felder“** | Maxwell-Wagner-Grenzflächenpolarisation; Raumladungspotentiale in mehrlagigen Zylindern. | Dielektrische Absorptionsrate (% Soakage); Entladekurve $u(t)$. |
-| **„10 Konverter für 180 Personen“** | Historische Zielvision / Mischnetz aus Wasserkraft, Windkraft und Konverter-Prototypen. | Gesamteinspeisung ins Inselnetz (keine unabhängigen Messdaten vorhanden). |
+| „Energie durch Ordnung“ | selektive Kopplung / Ladungssortierung / Phasensteuerung kann freie Energie nutzbar machen | Primärsprache belegt; Bulk-Quelle UNKNOWN |
+| `rectifying diode` hält Zyklus im Takt | elektrostatischer Kommutator / charge valve | funktional testbar; keine Energiequelle bewiesen |
+| `crystal` | M2-Blackbox; mögliche Nichtlinearität | Material/Funktion UNKNOWN |
+| Gitter statt Folie | veränderte Feld-/Kapazitäts-/Raumladungsbedingungen | A/B-testbar |
+| M2-Pots | Gitter + Kunststoff + zentrale Cu-Spirale, zwei externe Leads | Geometrieklasse gestützt; Kapazität/Wiring UNKNOWN |
+| 1000-W-Lampe ~10 s | nominelles `10 kJ`-Äquivalent, falls Nennleistung | keine geschlossene historische Energiemessung |
+| M2-Pots als `10 kJ`-Feldspeicher | durch V4.31-Geometriebound verworfen | ausgeschlossen für einfache sichtbare M2-Pots |
+| lange Leerlaufrotation | historische Beobachtungs-/Claimlinie | Energiequelle für Verluste weiterhin offen |
+| atmosphärische Kopplung | möglicher Bias-/Umweltterm | direktes kW-Potential gewöhnlicher Schönwetterströme unzureichend |
+| Quantenverschränkung | konzeptionelle Informationsthermodynamik | keine Testatika-Evidenz; nicht Baseline |
 
 ---
 
-# 8. Fazit
+## 11. Arbeitsfazit
 
-1. **Historische Differenzierung:** Es gibt authentische, historisch belegte Berichte technischer Zeugen (Weber 1984, Hauser 1986, DOE 1988, Holzherr 1999). Diese belegen übereinstimmend einen **mehrstündigen Leerlauf-Selbstlauf**, jedoch **keinen messtechnisch protokollierten Mehrstunden-Dauerbetrieb unter Kilowatt-Last**.
-2. **Physikalische Konsistenz:** Die beobachtete 10-Sekunden-Demonstration einer 1000-W-Lampe ($10\text{ kJ}$) ist durch Hochspannungs-Dielektrikum-Speicherung ($\sim 50\text{--}88\text{ }\mu\text{F}$ bei $15\text{--}20\text{ kV}$) physikalisch vollständig erklärbar.
-3. **Kriterium für die Replikation:** Erst ein geschlossener Testlauf, bei dem über mindestens eine Stunde hinweg kontinuierlich Wirkleistung an einen Widerstand abgegeben wird ($W > 3{,}6\text{ MJ}$), kann eine bloße Speicherentladung wissenschaftlich zweifelsfrei ausschließen.
+Der physikalisch sauberste aktuelle Rahmen ist nicht
+
+`mystery crystal -> freie Energie`
+
+und auch nicht
+
+`Ordnung -> Energie aus dem Nichts`.
+
+Er lautet:
+
+`UNKNOWN reale Quelle / gespeicherte freie Energie / Nichtgleichgewichtsgradient`
+
+`-> variable Kapazität + Gitter + phasenselektives Routing`
+
+`-> Speicher/Impedanzwandlung`
+
+`-> Last`.
+
+Damit bleibt ein großer Teil der sichtbaren Maschinenarchitektur mit etablierter Elektrodynamik experimentell untersuchbar, ohne die ungelöste Kernfrage zu verdecken:
+
+> **Welcher reale Energieterm speist eine behauptete dauerhafte Nutzleistung?**
+
+Erst eine geschlossene, reproduzierbare Bilanz kann diesen Term identifizieren oder einen belastbaren positiven Residual übriglassen.
