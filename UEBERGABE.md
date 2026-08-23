@@ -295,21 +295,40 @@ Glühlampen-Demos (10 Sekunden 1 kW) entsprechen einer Energiemenge von lediglic
 
 ## 2.2 Die Meth_1–Meth_6-Video- und Audio-Transkriptionskorrektur
 
-- **Kritischer Fehler früherer Sitzungen:** Die 6 Videodateien `meth_1.mp4` bis `meth_6.mp4` wurden fehlerhaft mit erfundenen / halluzinierten Inhalten beschrieben.
-- **Tatsächlicher Befund:** `meth_1.mp4` bis `meth_6.mp4` enthalten identische Audiospuren (Schweizerdeutsch/Deutsch). Die echte Transkription dokumentiert die Originalaussagen von Baumann und Methernitha („Erde, Wolke, Gewitter“, „Naturkräfte sammeln“).
-- **Quellen-Wortlaut:** Marinov schrieb **`ANOTHER language`** über Baumanns Erklärungen. Die Formulierung *`like an unknown language`* ist nicht belegt.
+- **Echte Audio-Transkription:** Alle 6 AVI-Dateien (`Meth_1.avi` bis `Meth_6.avi` aus `\\diskstation\Dani\Energy\enF_video\meth\avi`, Gesamtdauer 48,6 min) wurden mit `faster-whisper` vollständig transkribiert. Siehe [`docs/research/transcripts/README.md`](docs/research/transcripts/README.md).
+- **Sprachbefund:** Durchgehend **Englisch** (Gespräch/Interview eines englischsprachigen Besuchers mit einem Vertreter der Methernitha-Gemeinschaft über das 50-jährige Kollektiv, humanitäre Ziele, Weltanschauung, innere Ordnung und osmotische Gleichspannungsfelder).
+- **Kameradatum & Aufnahmeort-Evidenz:**
+  - Im Videobild ist die Kamera-Uhr eingeblendet: **16. Juli 1990, ab ca. 18:45:23 Uhr**.
+  - In `Meth_3` bei ca. 06:00 ist kurz ein Außengebäude mit dem Schild **`TRIGONORM AG`** (und `TRIGO`-Banner) zu sehen. Die Trigonorm AG war bereits 1984 in Linden registriert; heutige Schweizer Verzeichnisse führen sowohl *TRIGONORM AG* als auch *Methernitha* am **Moosbühlweg 2, 3673 Linden BE**.
+  - **Kanonische Quellenformulierung:**
+    > *„Aufgenommen am 16. Juli 1990 in Linden BE, sehr wahrscheinlich auf bzw. unmittelbar beim Methernitha-/Trigonorm-Gelände am Moosbühlweg.“*
+- **Quellen-Wortlaut zu Baumanns Erklärungen:** Stefan Marinov schrieb in eigener Korrespondenz direkt **`ANOTHER language`** über Baumanns Erklärungsversuche. Die spätere Paraphrase *`like an unknown language`* ist nicht als wörtliches Zitat belegt.
 
 ---
 
-## 2.3 Weber / Schneider (13. März 1984) — Technische Extraktion
-- **Maße:** >1 m breit, ~45 cm tief, ~60 cm hoch; Gewicht ca. 20 kg ohne Acrylhaube.
-- **Aufbau:** Acryl, Leichtmetallgitter, isolierte Kupferleiter, zentrale ~10-cm-Scheibe.
-- **Start & Betrieb:** Start von Hand durch Drehen der Scheiben; 300 V / 10 A Ausgangsbehauptung; Unterseite vom Tisch abgehoben zur Kontrolle auf verdeckte Zuleitungen.
+## 2.3 Weber / Schneider (1984 / 2010) & Besuchsbericht 2. Juli 1988 (DOE-Archiv)
+- **Weber & Schneider (13. März 1984 / Rückblick 2010):**
+  - Maße: >1 m breit, ~45 cm tief, ~60 cm hoch; Gewicht ca. 20 kg ohne Acrylhaube.
+  - Weber durfte die Maschine **hochheben und daruntersehen** (keine Zuleitungen durch den Tisch).
+  - Baumann erklärte, die Leistung von 300 V / 10 A könne „stunden-, ja jahrelang“ abgegeben werden; dies war jedoch Baumanns Aussage, kein mehrstündiges Messprotokoll der Besucher.
+  - 2010 bekräftigte Weber rückblickend die Behauptung von „1 kW Dauerleistung“.
+- **Besuchsbericht 2. Juli 1988 (US-Department of Energy / Technidyne Associates 1989):**
+  - Historischer Bericht übermittelt von D.A. Kelly ans US-DOE: In Linden seien damals **10 Konverter à 3 kW** (bei Sonne 4 kW) vorhanden gewesen, die zusammen mit Windmühlen die **180 Personen und Betriebe** der Methernitha versorgten; an der 11. Maschine wurde gearbeitet.
+  - **Status:** Wichtiges Zeugnis für die Selbstwahrnehmung der Gemeinschaft. Das US-DOE stellte 1989 jedoch fest, dass die Daten für eine technische Beurteilung unzureichend sind. Zudem verfügte Methernitha über ein eigenes kleines Wasserkraftwerk.
 
-## 2.4 Hans Holzherr (5. Juni 1999) — Technische Ergänzungen
-- **50-cm-Maschine:** Vorführung vor 34 Ingenieuren; Scheiben drehten mit ~60 rpm; 50 Lamellen (~60 mm lang).
-- **Besonderheit:** Die Drähte der Sektoren wechselten dreimal die Scheibenseite (eingewebt).
-- **Zylinder:** 20 Lagen perforiertes Blech, getrennt durch Isolationsfolien; keine inneren Spulen oder Magnete sichtbar.
+## 2.4 Hans Holzherr (5. Juni 1999) & Albert Hauser (1986) — Dauerlauf- vs. Lastdauer-Audit
+- **Hans Holzherr (1999, `report99.htm`):**
+  - Vorführung vor 34 Ingenieuren; Scheiben drehten mit ~15–60 rpm für **1,5 Stunden ununterbrochen im Leerlauf**.
+  - **Reale Lastdauer:** Die 1000-W-Glühlampe brannte **nur für ca. 10 Sekunden** (`W = 10 kJ = 2,78 Wh`); keine kontinuierliche 1,5-h-Dauerlast.
+  - **Prüfgrenzen:** Holzherr durfte den Sockel der 50-cm-Maschine nicht berühren oder anheben; verdeckte Flachbatterien konnte er nicht ausschließen.
+  - **Konstruktion:** 50 Lamellen (~60 mm lang) mit dreifachem Webmuster (R4); 20 Lagen perforiertes Blech in den Zylindern.
+- **Albert Hauser (1986, `swiss Testakica.mht` / UFO-Contact / IECEC 1991):**
+  - 4-stündiger Besuch; eine kleine 12-cm-Maschine lief für **2 Stunden ununterbrochen im Leerlauf**.
+  - **Reale Lastdauer:** Hauser hielt explizit fest: *„We tested the machine with only measuring instruments. - It means to say, that we **didn't load the machine with any resistance**.“*
+- **Physikalische Unterscheidung (10 kJ Impuls vs. 3,6 MJ Dauerlast):**
+  - 10 Sekunden 1 kW = `10 kJ` (im Hochspannungsfeld durch Dielektrikum-Soakage mit `~50–88 µF` bei `15–20 kV` darstellbar).
+  - 1 Stunde 1 kW = `3,6 MJ = 1 kWh` (360-mal mehr Energie; würde `18 mF` bei `20 kV` erfordern und ist in Tischgröße unmöglich speicherbar).
+  - Ein echter 1-stündiger Dauerlasttest hätte die Kondensatorhypothese sofort entschieden – genau dieser Test fehlt in sämtlichen historischen Archiven.
 
 ## 2.5 Schlüsselhinweis: Dreifacher Seitenwechsel der Rotorleiter (R4)
 - **Familie R4:** Ein Leiter startet auf der Vorderseite, taucht durch eine Bohrung auf die Rückseite, kehrt zurück und endet auf der Gegenseite.
@@ -850,6 +869,7 @@ Jede neue Arbeitssitzung soll die Dokumente in folgender Reihenfolge konsultiere
 | [`README.md`](README.md) / [`README.en.md`](README.en.md) | Hauptdokumentation (DE & EN synchron) |
 | [`UEBERGABE.md`](UEBERGABE.md) | Konsolidierte Master-Übergabe & externes Quellenregister |
 | [`STATE.md`](STATE.md) | Zentrale kumulative Wissensdatenbank |
+| [`docs/research/methernitha-physics-operating-model.md`](docs/research/methernitha-physics-operating-model.md) | Physikalisches Funktionsmodell (Synthese Methernitha/Klassische Physik) |
 | [`docs/REPLICATION_STATUS.md`](docs/REPLICATION_STATUS.md) | Replikations- und Vollständigkeitsstatus |
 | [`hardware/build-kits/m2-v5/`](hardware/build-kits/m2-v5/) | Fertigungsbausatz kleine Marinov-Maschine |
 | [`hardware/build-kits/m6-v2/`](hardware/build-kits/m6-v2/) | Fertigungsbausatz 500-mm-Zweischeibenmaschine |

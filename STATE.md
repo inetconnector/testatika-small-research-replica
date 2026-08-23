@@ -4934,3 +4934,28 @@ V4.13 directly tightens the unresolved energy-source question. The best recovere
 If full lamp rating were actually delivered, 1 kW x 10 s is only 10 kJ = 2.78 Wh. In contrast, 1 kW x 1.5 h would be 1.5 kWh, a factor 540 larger. The historical source does not establish the latter. A 10-kJ electrostatic store would require ideally ~2 uF at 100 kV or ~22.2 uF at 30 kV; exact M6b storage values are unknown.
 
 Finite storage therefore moves upward as an unresolved conventional candidate for short demonstrations. This is not a fraud allegation. The correct discriminator is continuous integrated load energy compared with all incoming electrical/mechanical power and storage-state change. M2 historical baseline remains unchanged.
+
+## Video-Transkriptionsaudit & Standort-Provenienz Linden BE / Trigonorm — 2026-08-23
+
+Kanonische Dateien: `docs/research/transcripts/README.md`, `docs/research/transcripts/meth_1_transcript.md` bis `meth_6_transcript.md` (inkl. `.tsv`), `docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md`, `docs/research/meth-sixpart-1990-source-ledger.tsv`, `docs/research/meth-sixpart-1990-transcript-findings-v2-2026-08-22.md`.
+
+Alle 6 AVI-Dateien (`Meth_1.avi` bis `Meth_6.avi` aus `\\diskstation\Dani\Energy\enF_video\meth\avi`, Gesamtdauer 48,6 Minuten) wurden mittels `faster-whisper` (int8) wortgetreu mit Zeitstempeln transkribiert.
+
+Wichtigste Ergebnisse:
+1. **Sprachbefund:** Durchgehend **Englisch**. Die Tonspur enthält ein Interview/Gespräch mit einem Vertreter der Methernitha-Gemeinschaft über das 50-jährige Kollektivbestehen, humanitäre Prinzipien (*„Humanitarianism: to serve human nature“*), ethische Voraussetzungen, das Konzept von Energie als Frucht innerer Ordnung (*„energy is coming up by organizing organization... the higher will be the energy you gain by building up this inner order...“*) und biologisch-physikalische Analogien (osmotische Druck- und Gleichspannungsfelder an Zellmembranen, *„very low tension DC electrical field“*).
+2. **Kameradatum & Uhrzeit:** Die im Bild sichtbare Kamera-Uhr zeigt den **16. Juli 1990, ab ca. 18:45:23 Uhr**.
+3. **Aufnahmeort-Evidenz:** In `Meth_3` bei ca. 06:00 ist kurz ein Außengebäude mit dem Schild **`TRIGONORM AG`** (und `TRIGO`-Banner) sichtbar. Die Trigonorm AG war bereits 1984 in Linden BE registriert; heutige Verzeichnisse führen sowohl *TRIGONORM AG* als auch *Methernitha* am **Moosbühlweg 2, 3673 Linden BE**.
+4. **Kanonische Quellenformulierung:**
+   > *„Aufgenommen am 16. Juli 1990 in Linden BE, sehr wahrscheinlich auf bzw. unmittelbar beim Methernitha-/Trigonorm-Gelände am Moosbühlweg.“*
+
+## Primärquellen-Audit zur Lastdauer, Gemeinschaftsversorgung & Laufzeit (`\\diskstation\Dani\Energy`) — 2026-08-23
+
+Kanonische Dateien: `docs/research/methernitha-physics-operating-model.md`, `UEBERGABE.md`, `report99.htm` (Holzherr 1999), `swiss Testakica.mht` (Hauser 1986 / IECEC 1991), `marinov.txt` (Marinov 1988/89), Besuchsbericht 2. Juli 1988 (US-DOE-Archiv / Technidyne Associates 1989), Weber & Schneider (1984 / 2010).
+
+Die systematische Durchsuchung aller Primärberichte und Archive liefert ein differenziertes Bild:
+1. **Gemeinschaftsversorgungs-Bericht (2. Juli 1988, DOE-Archiv):** Historischer Besuchsbericht behauptet, dass in Linden 10 Konverter à 3–4 kW vorhanden waren und zusammen mit Windmühlen die 180 Personen und Betriebe versorgten. US-DOE stellte 1989 fest, dass die Daten für eine technische Bestätigung unzureichend sind; Methernitha verfügte zudem über ein eigenes Wasserkraftwerk.
+2. **Leerlauf-Selbstrotation über Stunden:** Mehrere Zeugen belegen ununterbrochene Rotation im Leerlauf (Holzherr: 1,5 Stunden bei 15–60 rpm; Hauser: 2 Stunden einer 12-cm-Maschine).
+3. **Keine kontinuierliche Dauerlast gemessen:** Holzherr dokumentiert explizit, dass die 1000-W-Glühlampe nur für ca. 10 Sekunden demonstriert wurde (`W = 10 kJ = 2,78 Wh`); Hauser hält wörtlich fest: *„we didn't load the machine with any resistance“*; Weber sah 1984 Lampe/Heizstab und hob die Maschine an, die Dauerbetriebsbehauptung stammt jedoch von Baumann.
+4. **Physikalische Unterscheidung:** 10 Sekunden 1 kW (`10 kJ`) ist durch Hochspannungs-Dielektrikum-Speicherung (`~50–88 µF` bei `15–20 kV`) physikalisch erklärbar. Ein echter 1-stündiger 1-kW-Dauerlasttest (`3,6 MJ = 1 kWh`, Faktor 360 größer) hätte jede Speichertäuschung widerlegt, ist jedoch in keinem historischen Dokument messtechnisch belegt.
+
+

@@ -37,3 +37,18 @@ third_party_scans/
 source_scans/
 /.vs
 /docs/.vs
+
+# Media / Audio / Video (do not redistribute third-party audiovisual material)
+*.mp3
+*.mp4
+*.avi
+*.flv
+*.wmv
+*.asf
+*.wav
+*.m4a
+*.mkv
+*.mov
+*.webm
+*.ogg
+

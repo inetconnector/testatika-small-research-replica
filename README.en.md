@@ -145,6 +145,7 @@ This repository targets the **small, single-disc machine shown on the right in M
 | External corpus boundary | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
 | Full research state | [`STATE.md`](STATE.md) |
 | External handoff | [`UEBERGABE.md`](UEBERGABE.md) |
+| Physics operating model | [`docs/research/methernitha-physics-operating-model.md`](docs/research/methernitha-physics-operating-model.md) |
 | Baumann language decoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
 | Baumann statement ledger | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
 | Hartmann/Overunity audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |

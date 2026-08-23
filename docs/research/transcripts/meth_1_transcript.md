@@ -1,0 +1,106 @@
+# Transkript: Meth_1.avi / Meth_1.mp3
+
+- **Quelldatei:** `Meth_1.avi` (aus `\\diskstation\Dani\Energy\enF_video\meth\avi`)
+
+- **Dauer:** 565.84 Sekunden (09:25)
+
+- **Erkannte Sprache:** `en` (Konfidenz: 61.9%)
+
+- **Aufnahmeort & Datum:** Aufgenommen am 16. Juli 1990 in Linden BE, sehr wahrscheinlich auf bzw. unmittelbar beim Methernitha-/Trigonorm-Gelände am Moosbühlweg 2, 3673 Linden BE (Schild TRIGONORM AG sichtbar in Meth_3 bei ca. 06:00).
+- **Kamerazeitstempel:** 16. Juli 1990, ab ca. 18:45 Uhr.
+- **Transkriptionsmethode:** faster-whisper (small / int8)
+
+- **Transkriptionsdatum:** 23. August 2026
+
+---
+
+## Vollständiges Zeitstempel-Transkript
+
+- **`[00:00 - 00:14]`**: Are your ideas and endeavors in this direction based on certain religious basics or not less?
+- **`[00:14 - 00:16]`**: I don't know.
+- **`[00:16 - 00:17]`**: You do not know?
+- **`[00:17 - 00:18]`**: No.
+- **`[00:18 - 00:19]`**: Maybe they are.
+- **`[00:19 - 00:20]`**: Or I don't know.
+- **`[00:20 - 00:34]`**: Sometimes we do even not know ourselves what are the driving force.
+- **`[00:34 - 00:35]`**: Exactly.
+- **`[00:35 - 00:39]`**: I think it's quite enough to tonight.
+- **`[00:39 - 00:40]`**: Humanitarianism.
+- **`[00:40 - 00:41]`**: Humanitarianism.
+- **`[00:41 - 00:42]`**: Humanitarianism.
+- **`[00:42 - 00:43]`**: Humanitarianism.
+- **`[00:43 - 00:52]`**: Humanitarianism is the philosophy that you can serve the human nature.
+- **`[00:52 - 00:53]`**: Ah!
+- **`[00:53 - 00:54]`**: Ah!
+- **`[00:54 - 00:55]`**: Yeah, I understood.
+- **`[00:55 - 00:56]`**: Yes.
+- **`[00:56 - 00:57]`**: I understand.
+- **`[00:57 - 00:58]`**: I understand English.
+- **`[00:58 - 00:59]`**: I understand English.
+- **`[00:59 - 01:00]`**: Oh yeah.
+- **`[01:00 - 01:01]`**: I ask every time, sometimes I do not understand.
+- **`[01:01 - 01:02]`**: Humanitarianism.
+- **`[01:02 - 01:03]`**: That's right.
+- **`[01:03 - 01:08]`**: Good.
+- **`[01:08 - 01:17]`**: Good. And how did you hear about it?
+- **`[01:17 - 01:27]`**: We saw a documentary about free energy devices on the internet.
+- **`[01:27 - 01:29]`**: Ah, on the internet.
+- **`[01:29 - 01:40]`**: But it was given to me by a friend. And it covered many subjects, cold fusions,
+- **`[01:40 - 01:47]`**: lots of different inventors. And I was one small bit about the maternal movement in Switzerland.
+- **`[01:47 - 01:50]`**: And we thought, we should go and see them.
+- **`[01:50 - 01:59]`**: And see what else is there. It's not just going to be free energy.
+- **`[01:59 - 02:05]`**: They're thinking about free energy. They must be thinking about other good things.
+- **`[02:05 - 02:20]`**: Okay. You see, our intention to seek new solutions on the level of energy
+- **`[02:20 - 02:27]`**: is only, it's not the main part of our purpose.
+- **`[02:27 - 02:39]`**: Our main purpose is to live a life according to our inner convictions,
+- **`[02:39 - 02:43]`**: to try to live a life according to our convictions,
+- **`[02:43 - 02:54]`**: and to try to change that what is possible in our circle,
+- **`[02:54 - 03:05]`**: to change what is practice and the intent,
+- **`[03:05 - 03:13]`**: to change the trend of the society, to change all that what we find,
+- **`[03:13 - 03:22]`**: it does not be on the same line with our principles.
+- **`[03:22 - 03:36]`**: And the first thing which we, the first topic which we do not like,
+- **`[03:36 - 03:41]`**: which is challenging our principles.
+- **`[03:41 - 03:52]`**: The first thing in the human society is that everything is built up on two pillars,
+- **`[03:52 - 04:01]`**: money and to do something to get this money.
+- **`[04:02 - 04:08]`**: And this is no good.
+- **`[04:08 - 04:17]`**: And we were asking ourselves, is it possible to change these pillars?
+- **`[04:17 - 04:25]`**: And you advocate, you said it, one pillar is to serve each model.
+- **`[04:25 - 04:32]`**: And to do everything what we do, to do the purposes,
+- **`[04:32 - 04:41]`**: but with the main purpose, everything what we do should not only serve us,
+- **`[04:41 - 04:51]`**: should serve in the first blind, people around the next.
+- **`[04:51 - 05:00]`**: We cannot serve the whole globe, but indirectly it serves the whole.
+- **`[05:00 - 05:06]`**: If there is the group living in harmony with the main principle
+- **`[05:06 - 05:10]`**: to serve each other with that what they do,
+- **`[05:10 - 05:16]`**: it gives something which is helpful for the whole.
+- **`[05:16 - 05:27]`**: Because it is a harmonious principle for every collective and it works.
+- **`[05:27 - 05:40]`**: It is something which works out of itself beyond limits, geographical limits
+- **`[05:40 - 05:51]`**: because it is a spiritual principle and on a spiritual level there are no limits.
+- **`[05:51 - 06:02]`**: This is a dynamic thing, going, leveraging, working, concentrating.
+- **`[06:03 - 06:12]`**: Also quantum physics was teaching scientists,
+- **`[06:12 - 06:18]`**: the open-hearted scientists, my rings they did not know before.
+- **`[06:18 - 06:23]`**: Very interesting.
+- **`[06:23 - 06:33]`**: Good, you see, we said if I want to live in this society
+- **`[06:33 - 06:40]`**: I have to do something to gain money because money is needed
+- **`[06:40 - 06:49]`**: to pay everything what is asked of me from the state, from the society
+- **`[06:49 - 07:00]`**: and so on and we said that what we do is valued by the system
+- **`[07:00 - 07:08]`**: and this value color, do you understand?
+- **`[07:08 - 07:22]`**: Yes, it is not good. Absolutely very narrow.
+- **`[07:22 - 07:26]`**: How do you demonstrate that you cannot live in it?
+- **`[07:26 - 07:28]`**: That's right.
+- **`[07:28 - 07:39]`**: So one of the first questions was is it possible in a small society
+- **`[07:39 - 07:47]`**: which is integrated in the whole society we cannot jump in the space?
+- **`[07:47 - 07:56]`**: No, we are living in the society nowadays but is it possible that a small society
+- **`[07:56 - 08:05]`**: in the large, in the huge society can choose and live and practice
+- **`[08:05 - 08:09]`**: all the principles and the others?
+- **`[08:09 - 08:17]`**: Yes, and we said when I do something, when I work to have a living
+- **`[08:17 - 08:26]`**: then I would do it with the intention to serve the others
+- **`[08:26 - 08:33]`**: with that what I do and if all of us have the same intention
+- **`[08:33 - 08:36]`**: you know that it functions.
+- **`[08:36 - 08:41]`**: In human society it does not function because you can serve the others
+- **`[08:41 - 08:45]`**: and the others say oh nice that you do that, thank you so much
+- **`[08:45 - 08:52]`**: and you receive no feedback, nothing and thank you for starving.
+- **`[08:52 - 09:03]`**: Because if everybody agrees and has the same principles in the heart
+- **`[09:03 - 09:14]`**: everybody says everything what I do I want it to do with the sense to serve the next
+- **`[09:14 - 09:19]`**: and not for me and the next does in the same way
+- **`[09:19 - 09:23]`**: and the next does in the same way and so I have everything I need
+- **`[09:23 - 09:26]`**: and the others have everything.

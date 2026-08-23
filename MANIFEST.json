@@ -2,17 +2,17 @@
   "schema_version": 2,
   "algorithm": "sha256",
   "generated_from": "working tree content; excludes MANIFEST.json and MANIFEST_SHA256.txt",
-  "file_count": 700,
+  "file_count": 745,
   "files": [
     {
       "path": ".gitattributes",
-      "size": 207,
-      "sha256": "eaeeb734f1970657eb0fdb08789cf5cd42f05dca280e8836f9925de5c488ac72"
+      "size": 221,
+      "sha256": "ce1a58848a27fa58bc47e1d74b8f3e5846262b1ab7d6615319a860c5507b5418"
     },
     {
       "path": ".github/BUILDKIT_MATERIALIZE_TRIGGER",
-      "size": 122,
-      "sha256": "a9675204533a0e0e937efc534120ddf377d820fcad8ca29bcecea67831fd8b7a"
+      "size": 124,
+      "sha256": "d4d17b25878f09e3d2a83845054eda9ce8f9a108c621899f5edc7e5d894fd06b"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -31,8 +31,8 @@
     },
     {
       "path": ".github/V4_MATERIALIZE_TRIGGER",
-      "size": 139,
-      "sha256": "8bad9be8d5f083aa3d9ce65c0f21e0e41e74b65f505a98a7c1057da9d413a931"
+      "size": 143,
+      "sha256": "bdd19e975d3e676a9239723abc143a52387aebc6b9db91151758109be6e3830b"
     },
     {
       "path": ".github/workflows/materialize-build-kits.yml",
@@ -61,8 +61,98 @@
     },
     {
       "path": ".gitignore",
-      "size": 390,
-      "sha256": "9bcb72feff67c900682b04162eaf22029f7a6692fb059e047337cd27a4cad781"
+      "size": 598,
+      "sha256": "70967369691a8f6efe01e69b0bff6971e1589ec8d4096a3f7cedb4687af61feb"
+    },
+    {
+      "path": ".vs/ProjectSettings.json",
+      "size": 37,
+      "sha256": "debe308c356f9f0c649ccd3bd0c9a2e921566eb38aaaad97de07e6a0ce9a1b33"
+    },
+    {
+      "path": ".vs/VSWorkspaceState.json",
+      "size": 78,
+      "sha256": "f8315c8ace58425aeca40c1c17b3be8d50894c55f561cd7e36266da5d5ea3d72"
+    },
+    {
+      "path": ".vs/slnx.sqlite",
+      "size": 212992,
+      "sha256": "f28fec50add5d593eada8813076f1dc88b71c990ec2af3ab8eb78106e069a4d0"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/FileContentIndex/51c6a0ad-7c65-4b86-9e0a-8b3fd39f37ca.vsidx",
+      "size": 2161133,
+      "sha256": "453cf6aef71345a5a9e6e4a1f728f0600654ed04d700531b43549142fb411c22"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/FileContentIndex/7f5cf6ad-cb0f-4179-8218-217f752e6404.vsidx",
+      "size": 712908,
+      "sha256": "f4c5cf4b596386ec8621a603b94850a97b16648e387ecb7e0d863022469205d8"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/FileContentIndex/8a67ed9d-2c82-47b0-8e1c-fe7e142eb648.vsidx",
+      "size": 62321,
+      "sha256": "7d64b9c4e5265ed2ea6574c83de0c70feed33eaf716df694ecdd3d04deccc08b"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/v18/.wsuo",
+      "size": 27648,
+      "sha256": "afca8e0ac35b367ee4b513c7c338957dde789e93aabdc998fd879fd60c78bc07"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/v18/DocumentLayout.backup.json",
+      "size": 1646,
+      "sha256": "519566688cc7742c745aab353c30aaee2f17fd31292d5ca0c35973b30af7574e"
+    },
+    {
+      "path": ".vs/tESTATIKA.slnx/v18/DocumentLayout.json",
+      "size": 1958,
+      "sha256": "5915aef8b6105bab39a808d285bc2b2e7f4ee55f8aeb9f9f0d094869d421712c"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/0d87bbea-69a9-42d6-a620-78498078a61f.vsidx",
+      "size": 2109442,
+      "sha256": "deae5c55d6fe60f624098beb6815e218858168cdb7d3c3d93750813795ec753c"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/31886e6b-e4b8-45ef-9260-5fa3bc578545.vsidx",
+      "size": 62165,
+      "sha256": "5d14f4aa1d84c9005feba0c1f4bd227c4fcdf48f9e5c133cd148e9763f8d15ef"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/4902240d-98ca-4070-9864-0079575bf6ac.vsidx",
+      "size": 107,
+      "sha256": "6e355894d010d82579fc16a08d283a75d564fcbb2d6bffb45708fac3315a7a64"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/e7b9089d-e771-4c2d-ba27-c2e8f5a3cb2c.vsidx",
+      "size": 88589,
+      "sha256": "27c6df54dfdc80ade05e0701523dcdbf1efd53c627fa45c6f23bc2eaec32e177"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/FileContentIndex/f27ed7d1-e417-4830-b87d-a27fadaf3973.vsidx",
+      "size": 107,
+      "sha256": "6e355894d010d82579fc16a08d283a75d564fcbb2d6bffb45708fac3315a7a64"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/.wsuo",
+      "size": 20992,
+      "sha256": "0ca5cab790bb37ee21cec2030f372b650c84dde74b898d376f639cb2a98eba5a"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/DocumentLayout.backup.json",
+      "size": 271,
+      "sha256": "80ac0f91c6410d67d7adcb26aadefc5483d34fcfb34d1dbb35a11417b7dcd6c8"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica.slnx/v18/DocumentLayout.json",
+      "size": 271,
+      "sha256": "80ac0f91c6410d67d7adcb26aadefc5483d34fcfb34d1dbb35a11417b7dcd6c8"
+    },
+    {
+      "path": ".vs/testatika-small-research-replica/v18/workspaceFileList.bin",
+      "size": 81054,
+      "sha256": "47170e2a0d32cd852faf6d692dba66b2aa58de88aa12753b99e82d8f2b4eafb9"
     },
     {
       "path": "AGENTS.md",
@@ -76,8 +166,8 @@
     },
     {
       "path": "CITATION.cff",
-      "size": 522,
-      "sha256": "676b088b9a5fdd9b771b387b13c7187962a09ec1329488a1f1d3797e4f7b090c"
+      "size": 540,
+      "sha256": "69bb6a7d38e44d6c1e4e87c9c3e5fad90c25cc4efdb5789b9cf774e59eb64eea"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -86,8 +176,8 @@
     },
     {
       "path": "LICENSE",
-      "size": 1309,
-      "sha256": "8a7f6475c37748cac602f3891015f1ac5baaa2a5386bf24168b4e2ba8b7af770"
+      "size": 1335,
+      "sha256": "a7de25a113fa28db9bb83609d7536d5ad1f3a52e31922c164faaa59d51de6a44"
     },
     {
       "path": "NOTICE.md",
@@ -101,18 +191,18 @@
     },
     {
       "path": "PUBLISH_TO_GITHUB.ps1",
-      "size": 1014,
-      "sha256": "7970441ab70066860c0adcea5f4374e55a2a6ddd98a57db9d79761dfc8c378ce"
+      "size": 1056,
+      "sha256": "9746b39665570aafee5c7afa6d8eb1385f6d87de228b2de1179c38afbcd0b78a"
     },
     {
       "path": "README.en.md",
-      "size": 20110,
-      "sha256": "6c092ab753b3cf8c8c4e50f5088f3061d297c71d8fe3f49e1d91d50bc20bfdd9"
+      "size": 20251,
+      "sha256": "0470ff57ac32f41f42a16d97ae92e8865650b89e522210ad91bc1b9092b7b9f1"
     },
     {
       "path": "README.md",
-      "size": 21415,
-      "sha256": "8def0ff62b1fd61771ca2a1690a509b682c84a5a54f9f88b58438dd063707fd5"
+      "size": 21563,
+      "sha256": "2f23d3556b2846a2723619803fb183b8f991af9f07be0941c2d2bdf01dfccdbf"
     },
     {
       "path": "ROADMAP.md",
@@ -126,13 +216,13 @@
     },
     {
       "path": "STATE.md",
-      "size": 248776,
-      "sha256": "0672202459e0e65a08a7473004460d9d1e761829b3e0b53c5fe2a054541663b1"
+      "size": 252533,
+      "sha256": "cdac0e88ba17a7d6ffb9a6349146a444bfa08aca7b807af4c0254efd2a430b47"
     },
     {
       "path": "UEBERGABE.md",
-      "size": 46997,
-      "sha256": "15a5d313169998666f53231e35a5290c2070c54a0beec0853e7a8df7662ba942"
+      "size": 50033,
+      "sha256": "7f24e66cea6d7b25dcba5f617ac81049117d38d5e7215eef5b85720136b20be8"
     },
     {
       "path": "cad/README.md",
@@ -226,8 +316,8 @@
     },
     {
       "path": "docs/electrical/LAMELLA_TEST_MATRIX.tsv",
-      "size": 2988,
-      "sha256": "349b872d0e7b5550e7f76375cd06fc59a7cbc79c2801244a9e8f24cb4260e228"
+      "size": 3005,
+      "sha256": "92d63027c9039a06956570b6f25406bdd9bbd60ef7a7795d8ce4ed40ca3ede5d"
     },
     {
       "path": "docs/electrical/M2_V5_EVIDENCE_WIRING.md",
@@ -256,23 +346,23 @@
     },
     {
       "path": "docs/electrical/SOURCE_IMAGE_FAMILIES.tsv",
-      "size": 2449,
-      "sha256": "9a983198f8afb5503394c0823798990a1f0d92a6e136f07f8b21420b62b43982"
+      "size": 2463,
+      "sha256": "0db9221596b23bc82fdec93516d5018b4cd3b25ae916af49cadad4c7471d74fd"
     },
     {
       "path": "docs/electrical/WIRING_VARIANTS.tsv",
-      "size": 2413,
-      "sha256": "f021e8d70a614894ffb7c52d9f2c06f401b87f43894c0a158f24dadcf591a8b0"
+      "size": 2426,
+      "sha256": "f77fa6fc90d4e9dcd437e378ea5d8bc31babb501365bdfda1e3e35ec5620ab57"
     },
     {
       "path": "docs/electrical/diagrams/M2_V5_EVIDENCE_WIRING.svg",
-      "size": 6243,
-      "sha256": "ebdcfabdb2415d0f70860981267c5d8ea686382e0ff57239e7212424c77b6125"
+      "size": 6321,
+      "sha256": "3ee3364e0a46088e9c5b0707c12b4dc5f4d13bb5064e8f0aed1393ad919bed16"
     },
     {
       "path": "docs/electrical/diagrams/M6_V2_EVIDENCE_WIRING.svg",
-      "size": 5743,
-      "sha256": "5c6e8d878559fcf7aa80253fb14b4b5f742a77950883d55a95cd9f45ca13a383"
+      "size": 5816,
+      "sha256": "16d1ed33eaa4a52a96c0a4d3bddc17d331b9224dd0bcb6bfd8acf9529558d0e6"
     },
     {
       "path": "docs/images/photogrammetric_front_view.png",
@@ -286,8 +376,8 @@
     },
     {
       "path": "docs/images/small_machine_v3_functional_schematic.svg",
-      "size": 5047,
-      "sha256": "101346a3a7deee21f6e58d24c23a829081c49346c6d1c83e62491aaff0ab3a82"
+      "size": 5130,
+      "sha256": "3016695104385c126bf5d97e12b7e6b8042c4cda6ffc745279a24e3c31413d86"
     },
     {
       "path": "docs/publications/net-journal/ARTICLE.md",
@@ -336,23 +426,23 @@
     },
     {
       "path": "docs/repository-history/workflows/apply-hartmann-overunity-v6.pre-hardening.yml.txt",
-      "size": 2211,
-      "sha256": "452d6416dafbefa883729d10f9bb6e4c55050e0d02ee745fecdce5e566f09f15"
+      "size": 2280,
+      "sha256": "b58e58754e01b886da8e3fe235bfde38ef06fb8b9d9fd32e26d3d14b38e1a5d0"
     },
     {
       "path": "docs/repository-history/workflows/consolidate-main-and-clean-branches.pre-hardening.yml.txt",
-      "size": 5537,
-      "sha256": "fea3294000ac3816fb56b6f54d0f72d78d1a35e2e24dfff3eeecd403a368df6e"
+      "size": 5690,
+      "sha256": "ee1a486678cfcd7d60b700ab9abb948657ab22e014564222d365fefa164fcec1"
     },
     {
       "path": "docs/repository-history/workflows/materialize-netjournal-proposal.pre-hardening.yml.txt",
-      "size": 3912,
-      "sha256": "bfbca89bfc6ed86021dd74ac364374d18cfda99c019698c685a5a65a477ffc9b"
+      "size": 4014,
+      "sha256": "3eaf39ddbb5c89fc64de7955d6679ba96a7d2b99f89c84e76908bb8c3c66b2b9"
     },
     {
       "path": "docs/repository-history/workflows/materialize-v3-photo.pre-hardening.yml.txt",
-      "size": 3013,
-      "sha256": "27b95c9adf621b9d0b2a6dbf8c268deaf879a340cf1bbc912ecda0a4465905cf"
+      "size": 3096,
+      "sha256": "2ec2a06d6134dfd9034cd5e1b7249b5d497fbba42e23a772e78046ce1e779cc0"
     },
     {
       "path": "docs/research/Testatika_Functional_Principle_Earth_Cloud_Dry_Air.docx",
@@ -371,8 +461,8 @@
     },
     {
       "path": "docs/research/archive-source-ledger.tsv",
-      "size": 3154,
-      "sha256": "ddd9aefd8146a17d95a63dda262541e2aab9bac7676e3260137ac8fd7b530566"
+      "size": 3169,
+      "sha256": "033bf9466c1d4e9e671e1d2ee0b7ace036ba22d1c490ebe696e5a14980b150c9"
     },
     {
       "path": "docs/research/assembly.md",
@@ -386,8 +476,8 @@
     },
     {
       "path": "docs/research/baumann-statements.tsv",
-      "size": 16078,
-      "sha256": "b57e4f3957676e4edaef63b0cc9334f02a98903ecb11af11937f24afc21c0d79"
+      "size": 16135,
+      "sha256": "8a8b0cb294c06d07e95de2c76079f871096562b7ce71654e538fd5b4a069c12f"
     },
     {
       "path": "docs/research/bom.md",
@@ -421,8 +511,8 @@
     },
     {
       "path": "docs/research/evidence_matrix.tsv",
-      "size": 38986,
-      "sha256": "eb9e720bd615516eda4d6be6b49030818fd2109082f139e749c76f24c723e3a5"
+      "size": 39143,
+      "sha256": "15baad21152827dc7a68feb0928b251fa32b16f4af268efbc089f3ec1f790c09"
     },
     {
       "path": "docs/research/experiment-plan.md",
@@ -433,6 +523,56 @@
       "path": "docs/research/external-corpus.md",
       "size": 2506,
       "sha256": "694ff8eed3d17920a68cfda69cbec4a9b0ff9f1640cff330d7317087516fea94"
+    },
+    {
+      "path": "docs/research/formulas/formula_01_sector_current.svg",
+      "size": 16524,
+      "sha256": "a414e6620b3294d6e9fec9dfe8b2c124c7067f0c87e97c45b92fe21b22c600b6"
+    },
+    {
+      "path": "docs/research/formulas/formula_02_edge_field.svg",
+      "size": 20219,
+      "sha256": "b8013ffa86d16a8e1659b6402bed7e07ab5f032fb8c7b04046da8079d87f342c"
+    },
+    {
+      "path": "docs/research/formulas/formula_03_zero_work_cycle.svg",
+      "size": 21624,
+      "sha256": "111e5558358bace05f422817309b71cbf6f8a408bde125d67bb86fb05274dc20"
+    },
+    {
+      "path": "docs/research/formulas/formula_04_total_torque_sum.svg",
+      "size": 15264,
+      "sha256": "a1d4324ad01c05fb0220917deef51105d34697619782a4c440dbbf3bddf37b07"
+    },
+    {
+      "path": "docs/research/formulas/formula_05_mean_torque_integral.svg",
+      "size": 19732,
+      "sha256": "5f989a9710414d480c40cfd8b1cabdb844e692b601b8d1f06854d29004d9f502"
+    },
+    {
+      "path": "docs/research/formulas/formula_06_power_balance.svg",
+      "size": 20547,
+      "sha256": "cf866c5010ef94c1a32055401722f85403614b83f0a54bd5d4afaaa2d920a384"
+    },
+    {
+      "path": "docs/research/formulas/formula_07_generator_output.svg",
+      "size": 39611,
+      "sha256": "630e501262f8fb15a0d99396dd8ce193e88a578221b9438c464d02efb57d3c52"
+    },
+    {
+      "path": "docs/research/formulas/formula_08_pulse_storage_10s.svg",
+      "size": 35030,
+      "sha256": "ff45e4ed727e5c354eed6e2b9671927fed6d4ca9933dd5bb4f005c7e23baffc3"
+    },
+    {
+      "path": "docs/research/formulas/formula_09_continuous_storage_1h.svg",
+      "size": 32387,
+      "sha256": "55d2ff95ab4192fb5b862e05002797c5e28a976439f03b83dcd316b1d4382208"
+    },
+    {
+      "path": "docs/research/formulas/formula_10_energy_conservation_integral.svg",
+      "size": 20938,
+      "sha256": "2a98edcabc59eb8def1c1c877cc9ffebe69e6170d0c882d17b991783478d6975"
     },
     {
       "path": "docs/research/hartmann-overunity-cathomen-audit.md",
@@ -446,8 +586,8 @@
     },
     {
       "path": "docs/research/hartmann-overunity-sources.tsv",
-      "size": 9235,
-      "sha256": "1ebd022613754d5dc06ac16df63e9fdd5fae37cfb38905e0762dd0887b6f6613"
+      "size": 9264,
+      "sha256": "47a2993fe0fd2181ef39f661028db4ae9449bf2cf22e63e95c9915d3f260a7fc"
     },
     {
       "path": "docs/research/hartmann-overunity-testatika.md",
@@ -461,8 +601,8 @@
     },
     {
       "path": "docs/research/hauser-source-ledger.tsv",
-      "size": 2992,
-      "sha256": "48dc9a3a93ad13d3bad57dd916bbfa06f0f5027ffdabc191d082a566a4ee6669"
+      "size": 3004,
+      "sha256": "df99f46e190c36b8c347b2a0ff0d60a2125ce7b179daa14302ca618371c20c13"
     },
     {
       "path": "docs/research/hidden-input-witness-constraints-2026-08-18.md",
@@ -531,53 +671,53 @@
     },
     {
       "path": "docs/research/internet-source-ledger-round10.tsv",
-      "size": 4628,
-      "sha256": "7b909454db095f8ee34a764fd7aff8e2566ccb0307a191a8f423e85b383a6724"
+      "size": 4639,
+      "sha256": "93768ad2f207870d7e14fd923077e319c3ba84f207dc51301b8f5d06760f3a6a"
     },
     {
       "path": "docs/research/internet-source-ledger-round11.tsv",
-      "size": 6365,
-      "sha256": "2bf7429abc0ccba7ee8463a3b778001e5d618b65fb82a9ae30d01dcd3048e84f"
+      "size": 6382,
+      "sha256": "a5f98984713676104fb357cbaa1cd12c39ea0fa36820d950b8336ac248c1a56f"
     },
     {
       "path": "docs/research/internet-source-ledger-round13.tsv",
-      "size": 2247,
-      "sha256": "760318fab17b2812c21b85ec7c22535e00b777f16a8e0a1b96922805fcbe1afd"
+      "size": 2251,
+      "sha256": "89b7c2dd2e2a9130ae824855b54aebcda4961f3209c59d2dcb049f392e58ae93"
     },
     {
       "path": "docs/research/internet-source-ledger-round2.tsv",
-      "size": 5172,
-      "sha256": "5d4299b5ff288317b3f45dff27a409704b4e4c8f023441951783609466628781"
+      "size": 5188,
+      "sha256": "37acfed8d8e95ab72531ba660e56f554ff3aae9d85f0564bba92d80e7649c152"
     },
     {
       "path": "docs/research/internet-source-ledger-round3.tsv",
-      "size": 4376,
-      "sha256": "e987f57b3011662d8812a8c3b7d16e1d1efa892e21ded33670c7154d0dc8ad51"
+      "size": 4388,
+      "sha256": "36b677ee32c28bc2f48884f7f6a245dedab952b2cb093bd81f7ccbafe7c2d9d8"
     },
     {
       "path": "docs/research/internet-source-ledger-round4.tsv",
-      "size": 4562,
-      "sha256": "de8c3eef1c37319ab816576781f12ba8454eef85f13f31b9142da48eae40dd9a"
+      "size": 4575,
+      "sha256": "3c4242ee85776856eb2312e23022a8ec61296b27c1e08841525cedf0de548bce"
     },
     {
       "path": "docs/research/internet-source-ledger-round6.tsv",
-      "size": 2891,
-      "sha256": "c40d3ff354516c9cad3a002b1b26b66839be3b1710f55863d4b2a7d658cc1bd0"
+      "size": 2900,
+      "sha256": "9bda23f04b11f33cae088f7fc8b316460a0345cf8a68634d7eb649f6aa71ff52"
     },
     {
       "path": "docs/research/internet-source-ledger-round7.tsv",
-      "size": 3899,
-      "sha256": "514c091a2fd2afb74a07cc915912ab8ad9cdd26992c414bf142a6677f1634c58"
+      "size": 3910,
+      "sha256": "4acd41ed64fa7d9f850a510763ddccf771e6714acf58e82d71e7c1e6dbc4ebd6"
     },
     {
       "path": "docs/research/internet-source-ledger-round9.tsv",
-      "size": 3079,
-      "sha256": "8362b81854acfaacd73b1990a6cf316870e77774dcc2b174c4e79dc0840d21f2"
+      "size": 3088,
+      "sha256": "90c6dd10dc245a8a7f68b707ce0d4f18ed28020f481a07fff70ca2b8050b3936"
     },
     {
       "path": "docs/research/internet-source-ledger.tsv",
-      "size": 10865,
-      "sha256": "cbdd2acf459b6d3e9cb2109fea73185bcc110e6439d52adcf01a54e754e308ac"
+      "size": 10895,
+      "sha256": "6ff3eb3e11aa038c62faa7dd40276fe8a32e177a84c50bd6ab11948bea850372"
     },
     {
       "path": "docs/research/kelly-free-energy-guide-audit-2026-08-16.md",
@@ -831,13 +971,13 @@
     },
     {
       "path": "docs/research/m6-large-v1-source-map.tsv",
-      "size": 5220,
-      "sha256": "3bc33961cebe7640c6bf0c809a096ffd6a9edb56f3ea445541f373ea7e540d43"
+      "size": 5256,
+      "sha256": "626b2383907c40b1815d177a6d1959af18af400853584097904c9ba01b32ae26"
     },
     {
       "path": "docs/research/m6-large-v1-terminal-map.tsv",
-      "size": 3185,
-      "sha256": "15f203622daac24d125ecbc55d18661fe23d47ee6199a0d5d100f33bcdb46a3f"
+      "size": 3231,
+      "sha256": "4b12bb452d585e4adc625afcfcaca2250b1582aeb5dca8964e2f07ee6bc01b43"
     },
     {
       "path": "docs/research/m6-v2-fabrication-kit.md",
@@ -856,8 +996,8 @@
     },
     {
       "path": "docs/research/meth-sixpart-1990-alignment-summary.tsv",
-      "size": 439,
-      "sha256": "a8d4f5b8db33e143fa141d70f06c88f85595e2f3a3d3372b8c8b47da31d0dbe8"
+      "size": 447,
+      "sha256": "4450a7b743a65979b43f08b5d65efdd4900e3aacb93cf6535b35182d0a7422b3"
     },
     {
       "path": "docs/research/meth-sixpart-1990-audio-backlog.md",
@@ -866,8 +1006,8 @@
     },
     {
       "path": "docs/research/meth-sixpart-1990-frame-locators.tsv",
-      "size": 2185,
-      "sha256": "823da2cea9b0646dde1fe4c55ff38d4bbc5ba10f409048a310006c0d04699fb6"
+      "size": 2197,
+      "sha256": "df7b831eb32078fbbfd5066a18ff0dfdfc6bd5d3e40c3754108fe200fc343d8a"
     },
     {
       "path": "docs/research/meth-sixpart-1990-full-transcript-source-locked.md",
@@ -876,8 +1016,8 @@
     },
     {
       "path": "docs/research/meth-sixpart-1990-source-ledger.tsv",
-      "size": 4887,
-      "sha256": "4fad7842a525184e060e2e3eec5a8fcd3e26aa4cad9db05feba2b05a47f25df2"
+      "size": 4900,
+      "sha256": "945071adbd0dd84756f4c3e8cd30dbf9b0c5dacfcfc3d664ee1ab8e2ff4888f7"
     },
     {
       "path": "docs/research/meth-sixpart-1990-source-video-audit-2026-08-21.md",
@@ -886,18 +1026,23 @@
     },
     {
       "path": "docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv",
-      "size": 6191,
-      "sha256": "d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1"
+      "size": 6216,
+      "sha256": "f287795abc6a361cbecb0630046bc51753c5b4148036ee1bfe28b4324e28c5b4"
     },
     {
       "path": "docs/research/meth-sixpart-1990-transcript-findings-v2-2026-08-22.md",
-      "size": 1510,
-      "sha256": "cd7cc539069b92acd305ca8d60bb005fba8364cc71b7381df8f01ee1cf83b1e0"
+      "size": 2981,
+      "sha256": "a8e4a8fe9c9bbad1238182939409b55c70d8fcccd58f83bb8921b8dde6135e02"
     },
     {
       "path": "docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md",
       "size": 1584,
       "sha256": "b4d3ffae120237aebff6f12e41100a068e081e496a585d412718ad9633804546"
+    },
+    {
+      "path": "docs/research/methernitha-physics-operating-model.md",
+      "size": 19392,
+      "sha256": "65f34d8b4e0ba632d72c5793be01244158434e8a3982f4bb88dc38dcdb990834"
     },
     {
       "path": "docs/research/photogrammetry.md",
@@ -931,28 +1076,28 @@
     },
     {
       "path": "docs/research/pre2000-source-ledger-round2.tsv",
-      "size": 6487,
-      "sha256": "5b84d56752b62b68838322f36ee7a0404217cec483a78dad69bd9e3c882bfc40"
+      "size": 6499,
+      "sha256": "ab0fbd3e94633cc418d44e4b37add7f8a22a3ebb24cc28afbde1200011464834"
     },
     {
       "path": "docs/research/pre2000-source-ledger-round3.tsv",
-      "size": 5262,
-      "sha256": "89d1d4212dff01931e3bc5c4909ea4ff0fe351e82965e17d7861a5e57d9c7a5b"
+      "size": 5272,
+      "sha256": "c22d6bf2df228daafa2c5da078f190b3d25fdf54cb1c6a0dfc08be7bfdc2931e"
     },
     {
       "path": "docs/research/pre2000-source-ledger-round4-schneider-2026-08-19.tsv",
-      "size": 5902,
-      "sha256": "31b24a8892447b79a69892c2a9ddff15f089fcae018710bd60ac8a96e13b8bff"
+      "size": 5915,
+      "sha256": "ceb374e48015f78ce7b46c5c2197d87a6d8a04724ed371dbbc1136b298a93987"
     },
     {
       "path": "docs/research/pre2000-source-ledger-round4.tsv",
-      "size": 3148,
-      "sha256": "fe0899f7bebb1e309866e744fd29184f30fc3379a62ca2f1052b2d6fccef5e93"
+      "size": 3155,
+      "sha256": "e2d55b44930e91d4e146d7a04ce048d715c71f098e63e2246a7c1494f6ded527"
     },
     {
       "path": "docs/research/pre2000-source-ledger.tsv",
-      "size": 12633,
-      "sha256": "17b906cd7b7713904bfb76c429a42ee84a5e7823d0d693092f6d691614d95b11"
+      "size": 12658,
+      "sha256": "d25be9ca5bac37cd599a2f199a83eb8ac050a30256db93fe5dbb7f6f04a68e0a"
     },
     {
       "path": "docs/research/primary-gap-search-2026-08-16.md",
@@ -1001,8 +1146,8 @@
     },
     {
       "path": "docs/research/schneider-2023-pages22-44-ledger.tsv",
-      "size": 3869,
-      "sha256": "70922224541e6c8ad54ac756b24617f2f0a8d0e8d171368fd46197e239bc0ba2"
+      "size": 3882,
+      "sha256": "39a1c2840dcf437972488e4939f668a18b215b8790dbf7f087bb22d4d9f71ceb"
     },
     {
       "path": "docs/research/schneider-2023-pages22-44-scan-audit-2026-08-20.md",
@@ -1011,8 +1156,8 @@
     },
     {
       "path": "docs/research/schneider-2023-pages48-111-ledger.tsv",
-      "size": 3085,
-      "sha256": "7dd33ab4789d67e6797ba4ed05ec7c1342da8ede000ea6b9a8386012dd9805c2"
+      "size": 3096,
+      "sha256": "6dd99af64e14f29dff5401b480d5190a81273c37eec8fe15d8c25bae6e122f75"
     },
     {
       "path": "docs/research/schneider-2023-pages48-111-scan-audit-2026-08-19.md",
@@ -1026,23 +1171,23 @@
     },
     {
       "path": "docs/research/source-acquisition-backlog-round6.tsv",
-      "size": 2894,
-      "sha256": "1318e77394996937391dedbc324371edb612a1df80c20f0e544e23de72a64007"
+      "size": 2903,
+      "sha256": "eb3d4cc0deca0280ef453c93ffe2392984aec5c0d9077268830a7f0620975507"
     },
     {
       "path": "docs/research/source-acquisition-backlog-round7.tsv",
-      "size": 2655,
-      "sha256": "e437ed17dd185d7d02fd9951e3c1e54cfd7d9395476ba84928624ffab9fbdc41"
+      "size": 2664,
+      "sha256": "f507bb2cc10f20709b7a78dfa484eff6c233a52346649a47ec927ac320d0f68b"
     },
     {
       "path": "docs/research/source-acquisition-backlog-round9.tsv",
-      "size": 2351,
-      "sha256": "9c83fee2c4d552b28332c70a648c93472c34c35ff756537363ee5c489e7efab0"
+      "size": 2360,
+      "sha256": "c8bc93b3a61ddc693ee04e29fb66e7625a07ad4948af6ef5ba5ff9176f32ee81"
     },
     {
       "path": "docs/research/source-acquisition-backlog.tsv",
-      "size": 17465,
-      "sha256": "3053ae873667298454596cead5946a0222c5bccd18a885cd488420bc306fadc1"
+      "size": 17521,
+      "sha256": "584a917683bed0d0babd2a84820e0aa6958650c1c2d5af8c7e7d3419063642e2"
     },
     {
       "path": "docs/research/source-basis.md",
@@ -1051,13 +1196,83 @@
     },
     {
       "path": "docs/research/source-independence-round8.tsv",
-      "size": 2038,
-      "sha256": "3438ce08c40a8d89b622211223c9d04eed1ca2f8214c9635932d6173b9771e2f"
+      "size": 2049,
+      "sha256": "673c397569dfb6c48cc12e29b3291ec36b21a5261ef94ae02f89619659132f6d"
     },
     {
       "path": "docs/research/stl_dimensions.json",
       "size": 1915,
       "sha256": "d89a818375fcb4c8ecf6fc058870b843e120d45a606eee58ace451a5738907c9"
+    },
+    {
+      "path": "docs/research/transcripts/README.md",
+      "size": 2424,
+      "sha256": "9c8ac707a590fa5ab845b47a7abc8ca4b3d07783b54bdba832454864cac686e8"
+    },
+    {
+      "path": "docs/research/transcripts/meth_1_transcript.md",
+      "size": 7089,
+      "sha256": "b3ad5d2a32bcb099ee5655daf96e349e6d81de8778a7ecc8ddb24c94ab918479"
+    },
+    {
+      "path": "docs/research/transcripts/meth_1_transcript.tsv",
+      "size": 7560,
+      "sha256": "b8084aa1451e0dff104990c41c385caff693b6896278a5c86dc78a3ef547bd59"
+    },
+    {
+      "path": "docs/research/transcripts/meth_2_transcript.md",
+      "size": 5558,
+      "sha256": "41fafec1301a114b9ca7ad53a9db46ac74de8221af8ebec2535b091dd630b43d"
+    },
+    {
+      "path": "docs/research/transcripts/meth_2_transcript.tsv",
+      "size": 5273,
+      "sha256": "69065ccec7f00de37f75502e592579a3fd1a4ea2b153aaa149ada74a8d24d168"
+    },
+    {
+      "path": "docs/research/transcripts/meth_3_transcript.md",
+      "size": 6565,
+      "sha256": "6285041a6c1aa7a29c668be160119cacf2b9078b66aabf457d7fcc8b8726fe84"
+    },
+    {
+      "path": "docs/research/transcripts/meth_3_transcript.tsv",
+      "size": 6897,
+      "sha256": "3d9334a7ea8f5f17c5be3bddeb43e3697c88b4b7e2535bb20adc3d21e2925c68"
+    },
+    {
+      "path": "docs/research/transcripts/meth_4_transcript.md",
+      "size": 5495,
+      "sha256": "46152da46005c525acc50b251f2a88ee8a63e54fa1c369d5ad5f754c9e13f9c6"
+    },
+    {
+      "path": "docs/research/transcripts/meth_4_transcript.tsv",
+      "size": 5482,
+      "sha256": "2aaf8d704eec710289ef984afd30b33fd7604658066296f57ad3bcc1d291d2c2"
+    },
+    {
+      "path": "docs/research/transcripts/meth_5_transcript.md",
+      "size": 4308,
+      "sha256": "e6749f2bc0e3c8193c1e0d61ac93a69053303477182f2f138443a8506a7aa6b3"
+    },
+    {
+      "path": "docs/research/transcripts/meth_5_transcript.tsv",
+      "size": 4139,
+      "sha256": "8d1a9ab9f5e8fd8876ff94a8fc0df967506e8f1ef677a54b7f9a0473c463f79a"
+    },
+    {
+      "path": "docs/research/transcripts/meth_6_transcript.md",
+      "size": 4866,
+      "sha256": "49d989ce15ef54f38ebe9fa87d1a693f8e7dbc441e15d824dd06c4a718eba298"
+    },
+    {
+      "path": "docs/research/transcripts/meth_6_transcript.tsv",
+      "size": 4714,
+      "sha256": "0c1d9b41ba65c80d6de540a2e38eaf34b947e6100bd0cbfe8b5d61a4676c0b25"
+    },
+    {
+      "path": "docs/research/transcripts/summary.md",
+      "size": 7713,
+      "sha256": "f8f04db6fd61ec7bae094be5cd007dca6eb2c95f5a3165720b1a3213a7f43de9"
     },
     {
       "path": "docs/research/v1-to-v2.md",
@@ -1076,8 +1291,8 @@
     },
     {
       "path": "docs/research/v3-photo/connection-plan.tsv",
-      "size": 2644,
-      "sha256": "2e22225f2e9bcbfb6b2c012e1db9200c8806245fe7b59779958d15a8196e7706"
+      "size": 2664,
+      "sha256": "d72c35eceec04b44431fbdeabb9d96d52fe4b1682dcad4519099bda16e01f1f8"
     },
     {
       "path": "docs/research/v3-photo/functional-model.md",
@@ -1086,8 +1301,8 @@
     },
     {
       "path": "docs/research/v3-photo/node-map.tsv",
-      "size": 1878,
-      "sha256": "b52c87be5399c8f9d637621d424698af59bc193ebc5a171ef379fa5466a9e5ad"
+      "size": 1896,
+      "sha256": "53233393a29dbb4c93dfe9a4248f76b124070fc40900dd52ff1a5da487052b68"
     },
     {
       "path": "docs/research/v3-photo/pixel-analysis.md",
@@ -1136,8 +1351,8 @@
     },
     {
       "path": "docs/research/v4-pr-ready.txt",
-      "size": 95,
-      "sha256": "74d75b285ecb86e7f1bf658d97fc32a44e9b30acd1e4e1174afcaac51ec2ecd1"
+      "size": 97,
+      "sha256": "e04cf2bdff895667773284bbaf4aa63c3c2debc1bed46ce90cc681a1f7befce9"
     },
     {
       "path": "docs/research/v4-printing.md",
@@ -1146,8 +1361,8 @@
     },
     {
       "path": "docs/research/v4-reproducibility-proof.txt",
-      "size": 567,
-      "sha256": "53e21d74911a0f367927220e0763c36375def8a664833ee4c63300d45334c04a"
+      "size": 583,
+      "sha256": "cc9eded94e9c08c21443872faaaa54951f3c516ef615e0d15dd81863064f54fc"
     },
     {
       "path": "docs/research/v4-reproducibility.md",
@@ -1161,8 +1376,8 @@
     },
     {
       "path": "docs/research/video-source-ledger.tsv",
-      "size": 2790,
-      "sha256": "82033f5240d67f41ff8480521c8eaa431fc3a198679eaabfaf630c0b273b9ed7"
+      "size": 2800,
+      "sha256": "f75ea88551622eeceadad25784ad78097e365cf6f6a89bd23cbb072735a244a9"
     },
     {
       "path": "docs/research/wiring-and-lamella-audit-2026-08-17.md",
@@ -1726,8 +1941,8 @@
     },
     {
       "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.obj",
-      "size": 1170381,
-      "sha256": "477f0327a0f24b83c4af96fe1c9576b785c9ed7872eeaeffb2e45858b1c343f3"
+      "size": 1217339,
+      "sha256": "1e36d9d54ca1a040924c2adb3280826b746323906cdf32a8047d9cdb826e5c92"
     },
     {
       "path": "hardware/complete-model/Testatika_Small_Marinov_FirstMachine_V2_COMPLETE.step",
@@ -2696,8 +2911,8 @@
     },
     {
       "path": "publish-to-github.sh",
-      "size": 575,
-      "sha256": "9b6ae0ac418ffc70f5daeaa19e0035075558b7adb7036155b0634043633a83ed"
+      "size": 595,
+      "sha256": "054d82e58f8aebdfc49bfb22767debbe993abee29471fc82f23a56d246667210"
     },
     {
       "path": "release/experimental/Testatika_Small_V3_Photo_Artifacts.zip",
@@ -2711,8 +2926,8 @@
     },
     {
       "path": "release/experimental/testatika-m2-v4-best-evidence-build-package.zip.sha256",
-      "size": 114,
-      "sha256": "0821a899a874a934d72c283d81e98a3c31b31dcb88bcaad19c0a26cd8ebabd9e"
+      "size": 115,
+      "sha256": "7b0692f49b3b637c2e78e9e8ce0ccbb3f99c7090938e9769cd05c972a8481be2"
     },
     {
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip",
@@ -2721,8 +2936,8 @@
     },
     {
       "path": "release/experimental/testatika-m6-large-v1-best-evidence-build-package.zip.sha256",
-      "size": 120,
-      "sha256": "7516ce3b9fdb1a0fdb5e3dc0a209907bcc5508abe08cfda2eb900d98bb042722"
+      "size": 121,
+      "sha256": "c0c191dd8ea78964c48305e99b3d89004e79e55e330deefbbc45049205d56a73"
     },
     {
       "path": "release/fabrication-kits/testatika-m2-v5-fabrication-kit.zip",
@@ -2731,8 +2946,8 @@
     },
     {
       "path": "release/fabrication-kits/testatika-m2-v5-fabrication-kit.zip.sha256",
-      "size": 102,
-      "sha256": "03c32dc709faa09ee0c26b9ff63a99c963c528a1aeffee5a474da8f6c9fa092a"
+      "size": 103,
+      "sha256": "63cc4eef3541de4ea130a2293cecd235922c7163fbdccb8876750fe96fd8186b"
     },
     {
       "path": "release/fabrication-kits/testatika-m6-v2-fabrication-kit.zip",
@@ -2741,8 +2956,8 @@
     },
     {
       "path": "release/fabrication-kits/testatika-m6-v2-fabrication-kit.zip.sha256",
-      "size": 102,
-      "sha256": "68ebde63f8951344f3163460c023d774ae512cfd13685c47b04bef151338f98a"
+      "size": 103,
+      "sha256": "eb50a29b46f7f55a14f753b31b55b4d9db81051433819d678674c8e7a9dd3232"
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip",
@@ -2751,8 +2966,8 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.2.0.zip.sha256",
-      "size": 110,
-      "sha256": "666ad67ff094cb29423498999ade0aa60d823f0d98f97f538aa6badd95642184"
+      "size": 111,
+      "sha256": "43b7527c7bd9c01da58e84a40aaacf5d62f1088484ab8cf4167d3c840663372e"
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip",
@@ -2761,18 +2976,18 @@
     },
     {
       "path": "release/testatika-small-research-replica-v0.3.0.zip.sha256",
-      "size": 110,
-      "sha256": "cffb2fe8e60cfdaf899791f8e5c5b9a6f3ccb88f0b4543a315d9730799bce4db"
+      "size": 111,
+      "sha256": "72fe99717d606beb406849d150a6217137e78d352bfbf605d613dcd88c57ddd3"
     },
     {
       "path": "requirements-cad.txt",
-      "size": 43,
-      "sha256": "f229ec9defd7fccd01bd18e26d61b14a7658dc27626e83114d3902eed870719f"
+      "size": 46,
+      "sha256": "a0a7647785ca201106bc31d4b787b88f0a1dfbb447d6dfaaf6f35c503902e968"
     },
     {
       "path": "requirements-dev.txt",
-      "size": 39,
-      "sha256": "50af8f6fbedc84a080a6f74c24e9f93c15891c8dac091e97f758a8bd1bbb30fd"
+      "size": 42,
+      "sha256": "ca1e5b46f57a85a6124541cc2efd744a710db4e62f063a902ceba725b6831d4b"
     },
     {
       "path": "scripts/align_meth_reference_transcript.py",
@@ -2910,6 +3125,11 @@
       "sha256": "44c9a76f3f1181e009ac251fd56b81ecff48bb7e85c47c939bef94ca3f35f344"
     },
     {
+      "path": "scripts/generate_math_svgs.py",
+      "size": 5386,
+      "sha256": "b7609097d641126c993d3470c4452b2c6c6b164fc67eeb9d35ae4ab6d1d9399b"
+    },
+    {
       "path": "scripts/normalize_buildkit_step.py",
       "size": 1105,
       "sha256": "ed2fc38a6e0c2171954bf90112654d9a2b0944153714f2509d236b607463190f"
@@ -2933,6 +3153,11 @@
       "path": "scripts/rebuild_research_assets.py",
       "size": 945,
       "sha256": "7a36060f511e610dc854baaea257841b86f31241ce5d7037a385693b12d9b293"
+    },
+    {
+      "path": "scripts/transcribe_meth_videos.py",
+      "size": 4104,
+      "sha256": "005aa878f5474a4724f3f98d948bd80bd293299dfab659e79f33731e76d3e3c4"
     },
     {
       "path": "scripts/validate_assets.py",
@@ -3306,8 +3531,8 @@
     },
     {
       "path": "testatika_collection/QUELLEN.csv",
-      "size": 9349,
-      "sha256": "970097ab000d78dbcdccacb67cd51116477abfaa33253f44da31a6114fd03a01"
+      "size": 9386,
+      "sha256": "dc4a561903c4da43fd2e1e86f6c5f766cd7fc22aa817a261533493aab7796c30"
     },
     {
       "path": "testatika_collection/README_DE.txt",

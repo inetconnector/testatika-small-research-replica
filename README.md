@@ -145,6 +145,7 @@ Dieses Repository zielt auf die **kleine Einscheibenmaschine rechts in Marinovs 
 | Grenze des externen Korpus | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
 | Vollständiger Forschungsstand | [`STATE.md`](STATE.md) |
 | Externe Übergabe | [`UEBERGABE.md`](UEBERGABE.md) |
+| Physikalisches Funktionsmodell | [`docs/research/methernitha-physics-operating-model.md`](docs/research/methernitha-physics-operating-model.md) |
 | Baumann-Sprachdecoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
 | Baumann-Aussagenregister | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
 | Hartmann-/Overunity-Audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |
