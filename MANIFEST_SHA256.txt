@@ -190,7 +190,7 @@ a79a5ff14ed8c912cef70e8c173e5b1345f31f0ffefe798be5e6449bac9ec0a1  docs/research/
 d4e0a4f930140b2215e95e0711559d38f0dfc6eb1ece339fce760971033c53c1  docs/research/meth-sixpart-1990-transcript-claim-ledger.tsv
 a8e4a8fe9c9bbad1238182939409b55c70d8fcccd58f83bb8921b8dde6135e02  docs/research/meth-sixpart-1990-transcript-findings-v2-2026-08-22.md
 b4d3ffae120237aebff6f12e41100a068e081e496a585d412718ad9633804546  docs/research/meth-sixpart-1990-transcript-technical-audit-2026-08-22.md
-26abaae1adaec8f374fef851207280b172ae68b9dd65543b1d878fd20db008c1  docs/research/methernitha-physics-operating-model-corrigendum-2026-08-23.md
+3915238e6576b70558596fd73cf59ee55394479d795063dc0eccb13bb8ed3397  docs/research/methernitha-physics-operating-model-corrigendum-2026-08-23.md
 65f34d8b4e0ba632d72c5793be01244158434e8a3982f4bb88dc38dcdb990834  docs/research/methernitha-physics-operating-model.md
 f73bc66edcc7258dc7a01eba82157c093acbe225cec3aa15eb3196172b795e08  docs/research/order-non-equilibrium-framework.md
 5432e69027c2b5e90720d9be0ec8e2ce7e151d1fe5517c8d47840930152ac9a8  docs/research/order-non-equilibrium-test-matrix.tsv
