@@ -33,4 +33,4 @@ Das Repository **beansprucht keine Urheber- oder Nutzungsrechte** an dieser hist
 
 Der Beitrag beschreibt ein quellenkritisches **Arbeitsmodell**: elektrostatische Influenz/variable Kapazität, berührungslose Abnehmer, polaritätsselektive Ladungsführung, mögliche Crystal-/Dioden-Kommutation, positive Rückkopplung/Selbstanregung, phasensynchrone Drehzahlstabilisierung und getrennte Drive-/Storage-Zustände. Dieses Modell ist eine technische Übersetzung historischer Aussagen und **kein Nachweis eines Energieüberschusses**.
 
-Die vollständige Forschungsbasis bleibt in `STATE.md`, `addon.md`, `docs/research/baumann-language-decoding.md`, `docs/research/baumann-statements.tsv` und `docs/scientific-status.md` erhalten.
+Die vollständige Forschungsbasis bleibt in `STATE.md`, `UEBERGABE.md`, `docs/research/baumann-language-decoding.md`, `docs/research/baumann-statements.tsv` und `docs/scientific-status.md` erhalten.

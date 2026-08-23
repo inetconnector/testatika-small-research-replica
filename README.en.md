@@ -108,7 +108,7 @@ This repository targets the **small, single-disc machine shown on the right in M
 - reproducible V4 complete STEP/STL assemblies;
 - evidence matrix, photogrammetry, BOM, assembly and experiment documentation;
 - consolidated research knowledge base in [`STATE.md`](STATE.md);
-- external/session handoff in [`addon.md`](addon.md) with case-safe [`ADDON.md`](ADDON.md) compatibility entry point;
+- complete research and AI handoff in [`UEBERGABE.md`](UEBERGABE.md);
 - detailed Baumann / Methernitha language decoder;
 - canonical machine taxonomy and provenance schema;
 - deterministic manifest/hash generation and repository validation.
@@ -144,7 +144,7 @@ This repository targets the **small, single-disc machine shown on the right in M
 | Marinov/Hauser scan audit | [`docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`](docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md) |
 | External corpus boundary | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
 | Full research state | [`STATE.md`](STATE.md) |
-| External handoff | [`addon.md`](addon.md) |
+| External handoff | [`UEBERGABE.md`](UEBERGABE.md) |
 | Baumann language decoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
 | Baumann statement ledger | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
 | Hartmann/Overunity audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |

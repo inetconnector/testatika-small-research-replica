@@ -108,7 +108,7 @@ Dieses Repository zielt auf die **kleine Einscheibenmaschine rechts in Marinovs 
 - reproduzierbare vollständige V4-STEP/STL-Baugruppen;
 - Evidenzmatrix, Photogrammetrie, BOM, Montage- und Experimentdokumentation;
 - konsolidierte Forschungswissensbasis in [`STATE.md`](STATE.md);
-- externe/Sitzungs-Übergabe in [`addon.md`](addon.md) mit groß-/kleinschreibungssicherem Einstieg [`ADDON.md`](ADDON.md);
+- vollständige Forschungs- und KI-Übergabe in [`UEBERGABE.md`](UEBERGABE.md);
 - detaillierter Baumann-/Methernitha-Sprachdecoder;
 - verbindliche Maschinentaxonomie und Provenienzschema;
 - deterministische Manifest-/Hash-Erzeugung und Repository-Validierung.
@@ -144,7 +144,7 @@ Dieses Repository zielt auf die **kleine Einscheibenmaschine rechts in Marinovs 
 | Marinov-/Hauser-Scan-Audit | [`docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`](docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md) |
 | Grenze des externen Korpus | [`docs/research/external-corpus.md`](docs/research/external-corpus.md) |
 | Vollständiger Forschungsstand | [`STATE.md`](STATE.md) |
-| Externe Übergabe | [`addon.md`](addon.md) |
+| Externe Übergabe | [`UEBERGABE.md`](UEBERGABE.md) |
 | Baumann-Sprachdecoder | [`docs/research/baumann-language-decoding.md`](docs/research/baumann-language-decoding.md) |
 | Baumann-Aussagenregister | [`docs/research/baumann-statements.tsv`](docs/research/baumann-statements.tsv) |
 | Hartmann-/Overunity-Audit | [`docs/research/hartmann-overunity-testatika.md`](docs/research/hartmann-overunity-testatika.md) |

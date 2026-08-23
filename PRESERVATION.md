@@ -9,7 +9,7 @@ This repository is a cumulative research record. The default rule is **preserve 
 3. Before a substantial merge, verify that the current `main` commit already has an automatic `snapshot-main-*` tag; if not, create an explicit preservation tag/branch before proceeding.
 4. Do not delete historical CAD, STL, STEP, source notes, evidence tables or experimental variants merely because a newer version exists. Prefer additive replacement and explicit deprecation metadata.
 5. `STATE.md` is the cumulative knowledge ledger. Corrections should be additive and explicitly identify what changed and why. Do not rewrite history silently.
-6. Preservation-critical content includes at minimum `STATE.md`, `addon.md`, `PRESERVATION.md`, `docs/`, `cad/`, `hardware/`, research manifests, release metadata and provenance ledgers.
+6. Preservation-critical content includes at minimum `STATE.md`, `UEBERGABE.md`, `PRESERVATION.md`, `docs/`, `cad/`, `hardware/`, research manifests, release metadata and provenance ledgers.
 7. Every merge to `main` should remain reconstructable from Git history and an automatic snapshot tag.
 8. Binary assets are part of the research record. Regeneration is useful, but generated assets must not be removed until their replacement has been validated and committed.
 9. When sources conflict, retain both claims with provenance and evidence ranking. Never delete the losing hypothesis solely because the current interpretation changed.

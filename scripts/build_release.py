@@ -15,8 +15,7 @@ ZIP_PATH = OUT / f"testatika-small-research-replica-{VERSION}.zip"
 INCLUDE = [
     "README.md",
     "STATE.md",
-    "addon.md",
-    "ADDON.md",
+    "UEBERGABE.md",
     "AGENTS.md",
     "CHANGELOG.md",
     "CITATION.cff",

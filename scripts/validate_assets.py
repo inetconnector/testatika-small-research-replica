@@ -18,8 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
     "README.md",
     "STATE.md",
-    "addon.md",
-    "ADDON.md",
+    "UEBERGABE.md",
     "PRESERVATION.md",
     "ROADMAP.md",
     "CITATION.cff",
@@ -186,6 +185,8 @@ try:
                 errors.append(
                     f"dimension drift {filename} axis {axis}: actual {a:.3f} mm, ledger {float(e):.3f} mm"
                 )
+except ImportError as exc:
+    warnings.append(f"trimesh not installed, mesh dimension check skipped: {exc}")
 except Exception as exc:
     errors.append(f"trimesh/dimension validation failed: {exc}")
 

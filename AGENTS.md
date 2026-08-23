@@ -12,7 +12,7 @@
 10. Use clear commit messages describing the actual change.
 11. Follow `PRESERVATION.md`: never force-push `main`; preserve superseded research/CAD in Git, snapshot tags, historical releases or an archive/deprecated path instead of silently deleting it.
 12. Before substantial destructive cleanup or history-changing work, verify a recovery anchor exists at the pre-change `main` commit.
-13. Treat `STATE.md`, `addon.md`, `ADDON.md`, `docs/`, `cad/`, `hardware/`, manifests and provenance ledgers as preservation-critical.
+13. Treat `STATE.md`, `UEBERGABE.md`, `docs/`, `cad/`, `hardware/`, manifests and provenance ledgers as preservation-critical.
 14. When two sources conflict, retain both source claims and their provenance/evidence rankings even if one is currently preferred.
 15. Before changing the operating theory, electrical topology, `crystal` interpretation, pickup/drive classification or energy-source hypothesis, read `docs/research/baumann-language-decoding.md`, `docs/research/baumann-statements.tsv`, `docs/REPLICATION_STATUS.md`, `docs/research/hauser-marinov-primary-scan-audit-2026-08-16.md`, `docs/research/video-frame-audit-2026-08-16.md`, and the relevant machine entry in `docs/research/machines.yaml`.
 16. Source-language rule: Stefan Marinov's primary scan directly contains **`ANOTHER language`** regarding Baumann's attempted explanation. The popular wording **`like an unknown language`** is still not verified as Marinov's exact phrase and must not be quoted as such.
