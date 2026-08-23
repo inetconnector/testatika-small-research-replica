@@ -136,3 +136,23 @@ See:
 - `docs/research/continuous-power-info-thermo-provenance-2026-08-23.yaml`
 
 These files contain the full duration/source genealogy, capacitor-energy bounds, information-thermodynamics literature and acquisition targets.
+
+## 10. Operational order/non-equilibrium framework
+
+The correction above is now mapped into an explicit falsification program rather than left only as a conceptual warning.
+
+See:
+- [`order-non-equilibrium-framework.md`](order-non-equilibrium-framework.md) — separates **resource/source** from **ordering/rectification** and maps Baumann/Methernitha terminology onto measurable nonequilibrium variables without promoting a candidate to historical fact;
+- [`order-non-equilibrium-test-matrix.tsv`](order-non-equilibrium-test-matrix.tsv) — OQ-0 through OQ-8 controls for measurement-chain null balance, `crystal`/diode phase behavior, mesh-vs-foil, humidity/ions, Earth/cloud/environment coupling, storage droop/recovery, mechanical boundary, material/chemistry and the final integrated residual.
+
+The operational rule is:
+
+`UNKNOWN source / stored free energy / nonequilibrium resource`
+
+`-> ordering / selection / rectification`
+
+`-> directed measurable energy flow`
+
+`-> closed energy + storage balance`.
+
+A positive change in phase selectivity, torque or output after adding a diode/grid/crystal surrogate demonstrates at most a **conversion/routing effect** until the corresponding resource term and replenishment/reset path are identified.
